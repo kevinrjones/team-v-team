@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Caribbean Premier League",
+        "country": "",
+        "gender": "Men's",
+        "teams": [
+            {
+                "team": "Antigua Hawksbills",
+                "duplicates": []
+            },
+            {
+                "team": "Barbados Royals",
+                "duplicates": ["Barbados Tridents"]
+            },
+            {
+                "team": "Guyana Amazon Warriors",
+                "duplicates": []
+            },
+            {
+                "team": "Jamaica Tallawahs",
+                "duplicates": []
+            },
+            {
+                "team": "St Kitts and Nevis Patriots",
+                "duplicates": []
+            },
+            {
+                "team": "St Lucia Kings",
+                "duplicates": ["St Lucia Stars", "St Lucia Zouks"]
+            },
+            {
+                "team": "Trinbago Knight Riders",
+                "duplicates": ["Trinidad and Tobago Red Steel"]
+            },
+            {
+                "team": "Trinidad and Tobago Red Steel",
+                "duplicates": []
+            }
+        ],
+        "type": "cpl",
+        "outputDirectory": "cpl",
+        "extraMessages": [
+            "Performances involving Barbados Royal include those involving Barbados Tridents between 2013 and 2020",
+            "Performances involving St Lucia Kings include those involving St Lucia Stars and St Lucia Zouks between 2013 and 2020",
+            "Performances involving Trinbago Knight Riders include those involving Trinidad and Tobago Red Steel between 2013 and 2015"
+        ]
+    },
+    {
+        "title": "Caribbean Premier League",
+        "country": "",
+        "gender": "Women's",
+        "teams": [
+            
+        ],
+        "type": "wcpl",
+        "outputDirectory": "wcpl",
+        "extraMessages": []
+    }
+]

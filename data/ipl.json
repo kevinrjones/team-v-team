@@ -1,0 +1,97 @@
+[
+    {
+        "title": "Indian Premier League",
+        "gender": "Men's",
+        "country": "",
+        "teams": [
+            {
+                "team": "Chennai Super Kings",
+                "duplicates": []
+            },
+            {
+                "team": "Deccan Chargers",
+                "duplicates": []
+            },
+            {
+                "team": "Delhi Capitals",
+                "duplicates": [
+                    "Delhi Daredevils"
+                ]
+            },
+            {
+                "team": "Gujarat Lions",
+                "duplicates": []
+            },
+            {
+                "team": "Gujarat Titans",
+                "duplicates": []
+            },
+            {
+                "team": "Kochi Tuskers Kerala",
+                "duplicates": []
+            },
+            {
+                "team": "Kolkata Knight Riders",
+                "duplicates": []
+            },
+            {
+                "team": "Lucknow Super Giants",
+                "duplicates": []
+            },
+            {
+                "team": "Mumbai Indians",
+                "duplicates": []
+            },
+            {
+                "team": "Pune Warriors",
+                "duplicates": []
+            },
+            {
+                "team": "Punjab Kings",
+                "duplicates": [
+                    "Kings XI Punjab"
+                ]
+            },
+            {
+                "team": "Rajasthan Royals",
+                "duplicates": []
+            }
+        ],
+        "type": "ipl",
+        "outputDirectory": "ipl",
+        "extraMessages": [
+            "Performances involving Punjab Kings include those involving Kings XI Punjab between 2008 and 2020",
+            "Performances involving Delhi Capitals include those involving Delhi Daredevils between 2008 and 2018"
+        ]
+    },
+    {
+        "title": "Indian Premier League",
+        "gender": "Women's",
+        "country": "",
+        "teams": [
+            {
+                "team": "Delhi Capitals Women",
+                "duplicates": []
+            },
+            {
+                "team": "Gujarat Giants Women",
+                "duplicates": []
+            },
+            {
+                "team": "Mumbai Indians Women",
+                "duplicates": []
+            },
+            {
+                "team": "Royal Challengers Bangalore Women",
+                "duplicates": []
+            },
+            {
+                "team": "UP Warriorz Women",
+                "duplicates": []
+            }
+        ],
+        "type": "wipl",
+        "outputDirectory": "wipl",
+        "extraMessages": []
+    }
+]
