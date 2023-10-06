@@ -1,7 +1,7 @@
-import org.jetbrains.kotlin.gradle.plugin.KotlinSourceSet
 import org.jooq.codegen.GenerationTool
 import org.jooq.meta.jaxb.*
 import org.jooq.meta.jaxb.Target
+import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 
 val logbackVersion: String by project
 val jooqVersion: String by project
@@ -13,9 +13,12 @@ val coroutinesVersion: String by project
 val kotlinSerializationVersion: String by project
 
 plugins {
-    kotlin("jvm") version "1.9.0"
-    kotlin("plugin.serialization") version "1.9.10"
+    alias(libs.plugins.kotlinJvm)
+    alias(libs.plugins.kotlinSerialization)
     application
+
+    alias(libs.plugins.versionUpdate)
+    alias(libs.plugins.catalogUpdate)
 }
 
 buildscript {
@@ -23,8 +26,8 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.jooq:jooq-codegen:3.18.5")
-        classpath("mysql:mysql-connector-java:8.0.33")
+        classpath(libs.jooqCodeGen)
+        classpath(libs.mysql)
     }
 }
 
@@ -40,23 +43,24 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
 
-    implementation("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
-    implementation("ch.qos.logback:logback-classic:$logbackVersion")
-    implementation("ch.qos.logback:logback-core:$logbackVersion")
+    implementation(kotlin("stdlib-jdk8"))
+    implementation(libs.kotlinReflect)
 
-    implementation("mysql:mysql-connector-java:$mySqlVersion")
+    implementation(libs.logback)
 
-    implementation("org.jooq:jooq:$jooqVersion")
-    implementation("org.jooq:jooq-codegen:$jooqVersion")
-    implementation("org.jooq:jooq-meta:$jooqVersion")
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinSerializationVersion")
+    implementation(libs.mysql)
+
+    implementation(libs.jooq)
+    implementation(libs.jooqCodeGen)
+    implementation(libs.jooqMeta)
+    implementation(libs.kotlinCoroutines)
+    implementation(libs.kotlinxSerialization)
 
 
-    implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:$kotlinxHtmlVersion")
-    implementation("org.jetbrains.kotlinx:kotlinx-html:$kotlinxHtmlVersion")
+    implementation(libs.kotlinxHtmlJvm)
+    implementation(libs.kotlinxHtml)
 
-    implementation("commons-cli:commons-cli:$apacheCommonsCli")
+    implementation(libs.commonsCli)
 }
 
 application {
@@ -118,4 +122,17 @@ tasks.create("generateJOOQ") {
                     )
             )
     )
+}
+
+fun isNonStable(version: String): Boolean {
+    val stableKeyword = listOf("RELEASE", "FINAL", "GA").any { version.uppercase().contains(it) }
+    val regex = "^[0-9,.v-]+(-r)?$".toRegex()
+    val isStable = stableKeyword || regex.matches(version)
+    return isStable.not()
+}
+
+tasks.withType<DependencyUpdatesTask> {
+    rejectVersionIf {
+        isNonStable(candidate.version)
+    }
 }

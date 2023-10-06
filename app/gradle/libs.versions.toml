@@ -1,8 +1,30 @@
 [versions]
+catalogUpdateVersion_version = "0.8.1"
+commons_cli_version = "1.5.0"
+jooq_version = "3.18.6"
+kotlin_couroutines_version = "1.7.3"
+kotlin_version = "1.9.10"
+kotlinx_html_version = "0.10.0"
+kotlinx_serialization_version = "1.6.0"
+logback_version = "1.4.11"
+mysql_version = "8.0.33"
+updateVersion_version = "0.48.0"
 
 [libraries]
+commonsCli = { module = "commons-cli:commons-cli", version.ref = "commons_cli_version" }
+jooq = { module = "org.jooq:jooq", version.ref = "jooq_version" }
+jooqCodeGen = { module = "org.jooq:jooq-codegen", version.ref = "jooq_version" }
+jooqMeta = { module = "org.jooq:jooq-meta", version.ref = "jooq_version" }
+kotlinCoroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin_couroutines_version" }
+kotlinReflect = "org.jetbrains.kotlin:kotlin-reflect:1.9.20-Beta2"
+kotlinxHtml = { module = "org.jetbrains.kotlinx:kotlinx-html", version.ref = "kotlinx_html_version" }
+kotlinxHtmlJvm = { module = "org.jetbrains.kotlinx:kotlinx-html-jvm", version.ref = "kotlinx_html_version" }
+kotlinxSerialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx_serialization_version" }
+logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback_version" }
+mysql = { module = "mysql:mysql-connector-java", version.ref = "mysql_version" }
 
 [plugins]
-
-[bundles]
-
+catalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "catalogUpdateVersion_version" }
+kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin_version" }
+kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin_version" }
+versionUpdate = { id = "com.github.ben-manes.versions", version.ref = "updateVersion_version" }
