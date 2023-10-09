@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/TeamPairHomePagesData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data/cu_v_ou.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data/mcc_v_countiesex.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data/psl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_full/cu_v_ou.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_full/mcc_v_countiesex.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_full/psl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/data/Competition.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/data/Competition.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/international_t20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/international_t20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/ou_v_cu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/international_t20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data_full/international_t20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/ou_v_cu.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +55,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="team-by-team" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="team-by-team" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
@@ -71,9 +89,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Version Catalog File.versions" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -99,6 +117,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Gradle.app [run].executor": "Run",
     "Gradle.team-by-team [run].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -127,7 +146,7 @@
       <recent name="com.knowledgespike.teamvteam" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.app [build]">
+  <component name="RunManager" selected="Gradle.app [run]">
     <configuration name="app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -172,28 +191,6 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="app [dependencyInsight]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencyInsight" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="app [dependencyUpdates]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -206,6 +203,29 @@
         <option name="taskNames">
           <list>
             <option value="dependencyUpdates" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+            <option value="--args=&quot;-bd $PROJECT_DIR$/../data -c jdbc:mysql://localhost:3306/cricketarchive?useSSL=true&amp;requireSSL=true -u cricketarchive -p p4ssw0rd  -o $PROJECT_DIR$/../../../../team_v_team&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -274,21 +294,28 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.team-by-team [help]" />
+      <item itemvalue="Gradle.app [run]" />
       <item itemvalue="Gradle.app [build]" />
       <item itemvalue="Gradle.app [clean]" />
-      <item itemvalue="Gradle.app [dependencyInsight]" />
       <item itemvalue="Gradle.app [dependencyUpdates]" />
       <item itemvalue="Gradle.app [versionCatalogUpdate]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.app [run]" />
         <item itemvalue="Gradle.app [build]" />
         <item itemvalue="Gradle.app [clean]" />
         <item itemvalue="Gradle.app [versionCatalogUpdate]" />
         <item itemvalue="Gradle.app [dependencyUpdates]" />
-        <item itemvalue="Gradle.app [dependencyInsight]" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.8-corretto-17.0.8.1-f7c5cae7cb59-368195a6" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -348,11 +375,26 @@
       <workItem from="1696143509881" duration="3734000" />
       <workItem from="1696329626128" duration="1535000" />
       <workItem from="1696485645469" duration="4099000" />
+      <workItem from="1696574102655" duration="1103000" />
+      <workItem from="1696666504221" duration="505000" />
+      <workItem from="1696667075930" duration="55000" />
+      <workItem from="1696749885024" duration="16673000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt</url>
+          <line>167</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

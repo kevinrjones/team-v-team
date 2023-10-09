@@ -1,29 +1,8 @@
 package com.knowledgespike.teamvteam.data
 
 import kotlinx.serialization.Serializable
+import java.awt.print.Pageable
 
-/*
-[
-    "competition" : {
-        "title" : "Cambridge University vs Oxford University"
-        "teams" :["a", "b"],
-        "duplicates" : [
-            "teamNames": ["Kings XI Punjab", "Punjab Kings"]
-        ]
-        "type": "bbl",
-        "extraMessage" : "Performances involving Punjab Kings include those involving Kings XI Punjab between 2008 and 2020"
-    },
-   "competition" : {
-        "title" : "Cambridge University vs Oxford University"
-        "teams" :["a", "b"],
-        "duplicates" : [
-            "teamNames": ["Kings XI Punjab", "Punjab Kings"]
-        ]
-        "type": "bbl",
-        "extraMessage" : "Performances involving Punjab Kings include those involving Kings XI Punjab between 2008 and 2020'"
-    },
-]
- */
 
 @Serializable
 data class Competition(
@@ -32,6 +11,12 @@ data class Competition(
 )
 
 @Serializable
-data class Team(val team: String, val duplicates: List<String>)
+data class Team(val team: String, val duplicates: List<String>, val opponents: List<String> = listOf())
 
-data class TeamsAndOpponents(val teamName: String, val teamdIds: List<Int>, val opponentsName: String, val opponentIds: List<Int>)
+data class TeamsAndOpponents(
+    val teamName: String,
+    val teamdIds: List<Int>,
+    val opponentsName: String,
+    val opponentIds: List<Int>,
+    val hasOwnPage: Boolean
+)

@@ -8,6 +8,7 @@ import com.knowledgespike.teamvteam.logging.LoggerDelegate
 import kotlinx.html.*
 import kotlinx.html.stream.appendHTML
 import com.knowledgespike.extensions.*
+import com.knowledgespike.teamvteam.TeamPairHomePagesData
 import com.knowledgespike.teamvteam.daos.*
 import com.knowledgespike.teamvteam.helpers.getWicket
 import java.io.File
@@ -50,7 +51,7 @@ class GenerateHtml {
     fun createTeamPairHomePages(
         matchType: String,
         matchDesignator: String,
-        pairsForPage: MutableMap<String, MutableList<TeamPairDetails>>,
+        pairsForPage: MutableMap<String, TeamPairHomePagesData>,
         country: String,
         gender: String,
         outputDirectory: String
@@ -58,46 +59,48 @@ class GenerateHtml {
     ) {
         // for each entry in the pairsForPage collection generate the HTML for the page
         // see: http://archive.acscricket.com/records_and_stats/team_v_team_fc/can_fc.html
-        pairsForPage.forEach { (teamName, teamMatches) ->
+        pairsForPage.forEach { (teamName, teamPairHomePagesData) ->
             try {
-                log.debug("createTeamPairHomePages for: {}", teamName)
-                val fileName =
-                    "${outputDirectory}/${teamName.replace(" ", "_")}_${matchType}.html"
-                val file = File(fileName)
-                log.debug("createTeamPairHomePages fileName: {}", fileName)
-                file.parentFile.mkdirs()
+                if (teamPairHomePagesData.shouldHaveOwnPage) {
+                    log.debug("createTeamPairHomePages for: {}", teamName)
+                    val fileName =
+                        "${outputDirectory}/${teamName.replace(" ", "_")}_${matchType}.html"
+                    val file = File(fileName)
+                    log.debug("createTeamPairHomePages fileName: {}", fileName)
+                    file.parentFile.mkdirs()
 
-                val fileWriter = file.writer()
+                    val fileWriter = file.writer()
 
-                fileWriter.use {
-                    fileWriter.append(header)
-                    fileWriter.append("\r\n")
-                    // create entries for each pair
-                    fileWriter.appendHTML().div {
-                        h3 {
-                            +"${teamName}'s ${matchDesignator} Records"
-                        }
-                        ul {
-                            teamMatches.forEach { teamPairDetails ->
-                                li {
-                                    log.debug(
-                                        "createTeamPairHomePages, call  generateAnchorForTeamVsTeam for teamName: {}",
-                                        teamName
-                                    )
-                                    generateAnchorForTeamVsTeam(teamName, teamPairDetails, matchType)
+                    fileWriter.use {
+                        fileWriter.append(header)
+                        fileWriter.append("\r\n")
+                        // create entries for each pair
+                        fileWriter.appendHTML().div {
+                            h3 {
+                                +"${teamName}'s ${matchDesignator} Records"
+                            }
+                            ul {
+                                teamPairHomePagesData.teamPairDetails.forEach { teamPairDetails ->
+                                    li {
+                                        log.debug(
+                                            "createTeamPairHomePages, call  generateAnchorForTeamVsTeam for teamName: {}",
+                                            teamName
+                                        )
+                                        generateAnchorForTeamVsTeam(teamName, teamPairDetails, matchType)
+                                    }
                                 }
                             }
+                            log.debug(
+                                "createTeamPairHomePages, call  generateTeamVsTeamFooter for gender: {}, country: {} and matchType: {}",
+                                gender,
+                                country,
+                                matchType
+                            )
+                            generateTeamVsTeamFooter()
                         }
-                        log.debug(
-                            "createTeamPairHomePages, call  generateTeamVsTeamFooter for gender: {}, country: {} and matchType: {}",
-                            gender,
-                            country,
-                            matchType
-                        )
-                        generateTeamVsTeamFooter()
+                        fileWriter.append(footer)
+                        fileWriter.append("\r\n")
                     }
-                    fileWriter.append(footer)
-                    fileWriter.append("\r\n")
                 }
             } catch (e: Exception) {
                 log.error("", e)
@@ -124,7 +127,7 @@ class GenerateHtml {
 
         val fileWriter = file.writer()
 
-        val capitalizedCountry: String = getCapitalizedCountryStatement(country)
+        val capitalizedCountry: String = getCapitalizedCountryName(country)
         fileWriter.use {
             fileWriter.append(header)
             fileWriter.append("\r\n")
@@ -156,7 +159,7 @@ class GenerateHtml {
         }
     }
 
-    private fun getCapitalizedCountryStatement(country: String): String {
+    private fun getCapitalizedCountryName(country: String): String {
         return when (val caitalizedCountry = country.capitalize()) {
             "England" -> "in $caitalizedCountry"
             "Australia" -> "in $caitalizedCountry"

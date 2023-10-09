@@ -3,6 +3,7 @@ package com.knowledgespike.teamvteam.database
 import com.knowledgespike.db.tables.references.MATCHES
 import com.knowledgespike.db.tables.references.MATCHSUBTYPE
 import com.knowledgespike.teamvteam.TeamNameToIds
+import com.knowledgespike.teamvteam.TeamPairHomePagesData
 import com.knowledgespike.teamvteam.daos.*
 import com.knowledgespike.teamvteam.data.TeamsAndOpponents
 import org.jooq.SQLDialect
@@ -32,6 +33,7 @@ data class TeamPairDetails(val teamA: String, val teamB: String) {
 
 class ProcessTeams(
     private val allTeams: TeamNameToIds,
+    private val opponentsForTeam: MutableMap<String, TeamNameToIds>,
 ) {
 
     private val idPairs: List<TeamsAndOpponents>
@@ -46,7 +48,17 @@ class ProcessTeams(
             val teamIds = allTeams.get(teamNames[i])!!
             for (j in i + 1 until totalNumberOfTeams) {
                 val opponentIds = allTeams.get(teamNames[j])!!
-                pairs.add(TeamsAndOpponents(teamNames[i], teamIds, teamNames[j], opponentIds))
+                pairs.add(TeamsAndOpponents(teamNames[i], teamIds, teamNames[j], opponentIds, true))
+            }
+        }
+
+        for (teamName in opponentsForTeam.keys) {
+            val opponents = opponentsForTeam[teamName] ?: mapOf()
+            val teamId = allTeams.get(teamName) ?: listOf()
+
+            opponents.keys.sorted().forEach { name ->
+                val opponentIds = opponents[name] ?: listOf()
+                pairs.add(TeamsAndOpponents(teamName, teamId, name, opponentIds, false))
             }
         }
         return pairs
@@ -61,20 +73,19 @@ class ProcessTeams(
         userName: String,
         password: String,
         matchSubType: String,
-        callback: (teamPairDetails: TeamPairDetails) -> Unit
+        callback: (hasOwnPage: Boolean, teamPairDetails: TeamPairDetails) -> Unit
     ) {
 
         val matchType: String = matchTypeFromSubType(matchSubType)
 
-
         val teamRecords = TeamRecords(userName, password, connectionString)
         for (teamsAndOpponents in idPairs) {
             if (didPairsCompete(connectionString, userName, password, teamsAndOpponents, matchSubType)) {
-                // todo
                 val teamPairDetails = TeamPairDetails(teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
                 getTeamRecords(teamPairDetails, teamRecords, teamsAndOpponents, matchType, matchSubType)
                 getIndividualRecords(teamPairDetails, teamRecords, teamsAndOpponents, matchType, matchSubType)
-                callback(teamPairDetails)
+
+                callback(teamsAndOpponents.hasOwnPage, teamPairDetails)
             }
         }
     }
@@ -108,6 +119,7 @@ class ProcessTeams(
                         )
                     )
                     .and(MATCHES.VICTORYTYPE.notEqual(6))
+                    .and(MATCHES.VICTORYTYPE.notEqual(11))
             ).fetch().first().getValue(0, Int::class.java)
 
             return result != 0
@@ -176,8 +188,7 @@ class ProcessTeams(
         tt: TeamRecords,
         teamsAndOpponents: TeamsAndOpponents,
         matchType: String,
-        matchSubType: String,
-        limit: Int = 5
+        matchSubType: String
     ) {
         val teamParamA = TeamParams(
             teamsAndOpponents.teamdIds,
@@ -248,6 +259,7 @@ private fun matchTypeFromSubType(matchType: String): String {
         "minc" -> "minc"
         "wc" -> "o"
         "wwc" -> "wo"
-        else -> throw Exception("Unknown match sub type")
+        "psl" -> "tt"
+        else -> throw Exception("Unknown match sub type - please add the new subtype to type mapping")
     }
 }

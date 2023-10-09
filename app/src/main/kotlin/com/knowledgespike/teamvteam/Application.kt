@@ -71,7 +71,6 @@ class Application {
             val outputDirectory = cmd.getOptionValue("o")
 
             processAllCompetitions(baseDirectory, outputDirectory, connectionString, userName, password)
-//            processAllCompetitions(baseDirectory, "/Users/kevinjones/temp/tvt", connectionString, userName, password)
         }
 
         private suspend fun processAllCompetitions(
@@ -107,13 +106,14 @@ class Application {
                         val matchDesignator = competition.title
                         val matchType = competition.type
 
-                        val pairsForPage: MutableMap<String, MutableList<TeamPairDetails>> = mutableMapOf()
+                        val pairsForPage: MutableMap<String, TeamPairHomePagesData> = mutableMapOf()
 
                         val recordPage = GenerateHtml()
 
                         val country = competition.country
 
                         val sortedTeamNames: List<String> = competition.teams.map { it.team }.sorted()
+
 
                         val competitionWithSortedTeams =
                             competition.copy(teams = competition.teams.sortedBy { it.team })
@@ -127,7 +127,15 @@ class Application {
                                 matchType
                             )
 
-                        val processTeams = ProcessTeams(teamsWithDuplicates)
+                        val opponentsForTeam = mutableMapOf<String, TeamNameToIds>()
+                        competition.teams.forEach {
+                            val id = teamsWithDuplicates.get(it.team)
+                            val opponents: TeamNameToIds =
+                                getTeamIdsForTeamNames(connectionString, userName, password, it.opponents, matchType)
+                            opponentsForTeam.put(it.team, opponents)
+                        }
+
+                        val processTeams = ProcessTeams(teamsWithDuplicates, opponentsForTeam)
 
                         val outputDirectory = "${baseOutputDirectory}/${competition.outputDirectory}"
                         recordPage.generateIndexPageForTeamsAndType(
@@ -140,10 +148,16 @@ class Application {
                             competition.extraMessages
                         )
 
-                        processTeams(connectionString, userName, password, matchType) {
-                            addPairToCollectionForPairVPairPages(pairsForPage, it)
+                        processTeams(connectionString, userName, password, matchType) { hasOwnPage, teamPairDetails ->
+
+                            addPairToCollectionForPairVPairPages(
+                                hasOwnPage,
+                                pairsForPage,
+                                teamPairDetails
+                            )
+
                             recordPage.generateTeamVsTeamRecordsPage(
-                                it,
+                                teamPairDetails,
                                 matchDesignator,
                                 matchType,
                                 country,
@@ -169,24 +183,25 @@ class Application {
         }
 
         private fun addPairToCollectionForPairVPairPages(
-            pairsForPage: MutableMap<String, MutableList<TeamPairDetails>>,
+            hasOwnPage: Boolean,
+            pairsForPage: MutableMap<String, TeamPairHomePagesData>,
             teamPair: TeamPairDetails
         ) {
-            var pair = pairsForPage[teamPair.teamA]
-            if (pair == null) {
+            var pairEx = pairsForPage[teamPair.teamA]
+            if (pairEx == null) {
                 val teamPairList = mutableListOf<TeamPairDetails>()
                 teamPairList.add(teamPair)
-                pairsForPage[teamPair.teamA] = teamPairList
+                pairsForPage[teamPair.teamA] = TeamPairHomePagesData(hasOwnPage, teamPairList)
             } else {
-                pair.add(teamPair)
+                pairEx.teamPairDetails.add(teamPair)
             }
-            pair = pairsForPage[teamPair.teamB]
-            if (pair == null) {
+            pairEx = pairsForPage[teamPair.teamB]
+            if (pairEx == null) {
                 val teamPairList = mutableListOf<TeamPairDetails>()
                 teamPairList.add(teamPair)
-                pairsForPage[teamPair.teamB] = teamPairList
+                pairsForPage[teamPair.teamB] = TeamPairHomePagesData(hasOwnPage, teamPairList)
             } else {
-                pair.add(teamPair)
+                pairEx.teamPairDetails.add(teamPair)
             }
         }
 
@@ -214,6 +229,35 @@ class Application {
                             val duplicateTeamIds = getTeamIdsFrom(context, duplicate, matchType)
                             ids.addAll(duplicateTeamIds)
                         }
+                    }
+                    teamNameAndIds[team] = ids
+                }
+
+            }
+
+            return teamNameAndIds
+        }
+
+        private fun getTeamIdsForTeamNames(
+            connectionString: String,
+            userName: String,
+            password: String,
+            teams: List<String>,
+            matchType: String
+        ): TeamNameToIds {
+
+
+            val teamNameAndIds = mutableMapOf<String, List<Int>>()
+            DriverManager.getConnection(connectionString, userName, password).use { conn ->
+                val context = DSL.using(conn, SQLDialect.MYSQL)
+
+                for (t in teams) {
+                    val ids = mutableListOf<Int>()
+                    val team = t.trim()
+                    if (team.isNotEmpty()) {
+                        val teamIds = getTeamIdsFrom(context, team, matchType)
+
+                        ids.addAll(teamIds)
                     }
                     teamNameAndIds[team] = ids
                 }
@@ -270,7 +314,7 @@ class Application {
             val baseDirectoryOption = Option
                 .builder("bd")
                 .hasArg()
-                .desc("base directory for input files")
+                .desc("base directory for input data files (.../team-by-team/data)")
                 .argName("base directory")
                 .longOpt("baseDirectory")
                 .required()
