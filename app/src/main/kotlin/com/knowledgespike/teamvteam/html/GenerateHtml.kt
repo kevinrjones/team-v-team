@@ -12,29 +12,32 @@ import com.knowledgespike.teamvteam.TeamPairHomePagesData
 import com.knowledgespike.teamvteam.daos.*
 import com.knowledgespike.teamvteam.helpers.getWicket
 import java.io.File
+import java.time.format.DateTimeFormatter
 
 class GenerateHtml {
 
-    val header = "<!--#include virtual=\"/includes/header.html\" -->"
-    val footer = "<!--#include virtual=\"/includes/footer.html\" -->"
+    private val columnOneWidth = "130"
+    private val columnTwoWidth = "130"
+    private val columnFiveWidth = "80"
+    private val virtualHeader = "<!--#include virtual=\"/includes/header.html\" -->"
+    private val virtualFooter = "<!--#include virtual=\"/includes/footer.html\" -->"
 
-    val log by LoggerDelegate()
+    private val log by LoggerDelegate()
 
     fun generateTeamVsTeamRecordsPage(
         teamPairDetails: TeamPairDetails,
         matchDesignator: String,
         matchType: String,
-        country: String,
         outputDirectory: String
     ) {
 
         val fileName =
             "${outputDirectory}/${
-                teamPairDetails.teamA.replace(
+                teamPairDetails.teams[0].replace(
                     " ",
                     "_"
                 )
-            }_v_${teamPairDetails.teamB.replace(" ", "_")}_${matchType}.html"
+            }_v_${teamPairDetails.teams[1].replace(" ", "_")}_${matchType}.html"
 
         val file = File(fileName)
         file.parentFile.mkdirs()
@@ -42,7 +45,7 @@ class GenerateHtml {
         val fileWriter = file.writer()
 
         fileWriter.use {
-            generateTeamVTeamHtml(teamPairDetails, matchDesignator, matchType, country, fileWriter)
+            generateTeamVTeamHtml(teamPairDetails, matchDesignator, matchType, fileWriter)
         }
         log.info("Completed: $fileName")
 
@@ -51,7 +54,7 @@ class GenerateHtml {
     fun createTeamPairHomePages(
         matchType: String,
         matchDesignator: String,
-        pairsForPage: MutableMap<String, TeamPairHomePagesData>,
+        pairsForPage: Map<String, TeamPairHomePagesData>,
         country: String,
         gender: String,
         outputDirectory: String
@@ -59,48 +62,46 @@ class GenerateHtml {
     ) {
         // for each entry in the pairsForPage collection generate the HTML for the page
         // see: http://archive.acscricket.com/records_and_stats/team_v_team_fc/can_fc.html
-        pairsForPage.forEach { (teamName, teamPairHomePagesData) ->
+        pairsForPage.filter { it.value.shouldHaveOwnPage }.forEach { (teamName, teamPairHomePagesData) ->
             try {
-                if (teamPairHomePagesData.shouldHaveOwnPage) {
-                    log.debug("createTeamPairHomePages for: {}", teamName)
-                    val fileName =
-                        "${outputDirectory}/${teamName.replace(" ", "_")}_${matchType}.html"
-                    val file = File(fileName)
-                    log.debug("createTeamPairHomePages fileName: {}", fileName)
-                    file.parentFile.mkdirs()
+                log.debug("createTeamPairHomePages for: {}", teamName)
+                val fileName =
+                    "${outputDirectory}/${teamName.replace(" ", "_")}_${matchType}.html"
+                val file = File(fileName)
+                log.debug("createTeamPairHomePages fileName: {}", fileName)
+                file.parentFile.mkdirs()
 
-                    val fileWriter = file.writer()
+                val fileWriter = file.writer()
 
-                    fileWriter.use {
-                        fileWriter.append(header)
-                        fileWriter.append("\r\n")
-                        // create entries for each pair
-                        fileWriter.appendHTML().div {
-                            h3 {
-                                +"${teamName}'s ${matchDesignator} Records"
-                            }
-                            ul {
-                                teamPairHomePagesData.teamPairDetails.forEach { teamPairDetails ->
-                                    li {
-                                        log.debug(
-                                            "createTeamPairHomePages, call  generateAnchorForTeamVsTeam for teamName: {}",
-                                            teamName
-                                        )
-                                        generateAnchorForTeamVsTeam(teamName, teamPairDetails, matchType)
-                                    }
+                fileWriter.use {
+                    fileWriter.append(virtualHeader)
+                    fileWriter.append("\r\n")
+                    // create entries for each pair
+                    fileWriter.appendHTML().div {
+                        h3 {
+                            +"${teamName}'s $matchDesignator Records"
+                        }
+                        ul {
+                            teamPairHomePagesData.teamPairDetails.forEach { teamPairDetails ->
+                                li {
+                                    log.debug(
+                                        "createTeamPairHomePages, call  generateAnchorForTeamVsTeam for teamName: {}",
+                                        teamName
+                                    )
+                                    generateAnchorForTeamVsTeam(teamName, teamPairDetails, matchType)
                                 }
                             }
-                            log.debug(
-                                "createTeamPairHomePages, call  generateTeamVsTeamFooter for gender: {}, country: {} and matchType: {}",
-                                gender,
-                                country,
-                                matchType
-                            )
-                            generateTeamVsTeamFooter()
                         }
-                        fileWriter.append(footer)
-                        fileWriter.append("\r\n")
+                        log.debug(
+                            "createTeamPairHomePages, call  generateTeamVsTeamFooter for gender: {}, country: {} and matchType: {}",
+                            gender,
+                            country,
+                            matchType
+                        )
+                        generateTeamVsTeamFooter()
                     }
+                    fileWriter.append(virtualFooter)
+                    fileWriter.append("\r\n")
                 }
             } catch (e: Exception) {
                 log.error("", e)
@@ -129,11 +130,11 @@ class GenerateHtml {
 
         val capitalizedCountry: String = getCapitalizedCountryName(country)
         fileWriter.use {
-            fileWriter.append(header)
+            fileWriter.append(virtualHeader)
             fileWriter.append("\r\n")
             fileWriter.appendHTML().div {
                 h3 {
-                    +"${matchDesignator} Records Between ${gender} Teams ${capitalizedCountry}"
+                    +"$matchDesignator Records Between $gender Teams $capitalizedCountry"
                 }
                 ul {
                     teamNames.forEach {
@@ -153,25 +154,25 @@ class GenerateHtml {
                 }
                 generateBetweenTeamsFooter()
             }
-            fileWriter.append(footer)
+            fileWriter.append(virtualFooter)
             fileWriter.append("\r\n")
 
         }
     }
 
     private fun getCapitalizedCountryName(country: String): String {
-        return when (val caitalizedCountry = country.capitalize()) {
-            "England" -> "in $caitalizedCountry"
-            "Australia" -> "in $caitalizedCountry"
-            "South Africa" -> "in $caitalizedCountry"
-            "New Zealand" -> "in $caitalizedCountry"
-            "West Indies" -> "in $caitalizedCountry"
-            "India" -> "in $caitalizedCountry"
-            "Pakistan" -> "in $caitalizedCountry"
-            "Bangladesh" -> "in $caitalizedCountry"
-            "Sri Lanka" -> "in $caitalizedCountry"
-            "Afghanistan" -> "in $caitalizedCountry"
-            "Ireland" -> "in $caitalizedCountry"
+        return when (val capitalizedCountry = country.capitalize()) {
+            "England" -> "in $capitalizedCountry"
+            "Australia" -> "in $capitalizedCountry"
+            "South Africa" -> "in $capitalizedCountry"
+            "New Zealand" -> "in $capitalizedCountry"
+            "West Indies" -> "in $capitalizedCountry"
+            "India" -> "in $capitalizedCountry"
+            "Pakistan" -> "in $capitalizedCountry"
+            "Bangladesh" -> "in $capitalizedCountry"
+            "Sri Lanka" -> "in $capitalizedCountry"
+            "Afghanistan" -> "in $capitalizedCountry"
+            "Ireland" -> "in $capitalizedCountry"
             else -> ""
         }
     }
@@ -183,11 +184,10 @@ class GenerateHtml {
         teamPairDetails: TeamPairDetails,
         matchDesignator: String,
         matchType: String,
-        country: String,
         outputStream: Appendable
     ) {
 
-        outputStream.append(header)
+        outputStream.append(virtualHeader)
         outputStream.append("\r\n")
 
         outputStream.appendHTML().style {
@@ -212,6 +212,10 @@ class GenerateHtml {
                         table.fowtable {
                             margin-top: 5px;
                         }
+                        
+                        table.numberOfMatchesTable, table.numberOfMatchesTable > tbody > tr, table.numberOfMatchesTable > tbody > tr > td {
+                            border: none !important
+                        }
                     """
                 )
             }
@@ -219,12 +223,12 @@ class GenerateHtml {
 
         outputStream.appendHTML().div {
             h3 {
-                +"${teamPairDetails.teamA} v ${teamPairDetails.teamB} ${matchDesignator} Records"
+                +"${teamPairDetails.teams[0]} v ${teamPairDetails.teams[1]} $matchDesignator Records"
             }
-            generateScoresHtml(teamPairDetails, matchType, country)
+            generateHtml(teamPairDetails, matchType)
         }
 
-        outputStream.append(footer)
+        outputStream.append(virtualFooter)
         outputStream.append("\r\n")
     }
 
@@ -234,15 +238,15 @@ class GenerateHtml {
         matchType: String
     ) {
 
-        val text = if (teamName == teamPairDetails.teamA) {
-            "${teamPairDetails.teamA} v ${teamPairDetails.teamB} "
+        val text = if (teamName == teamPairDetails.teams[0]) {
+            "${teamPairDetails.teams[0]} v ${teamPairDetails.teams[1]} "
         } else {
-            "${teamPairDetails.teamB} v ${teamPairDetails.teamA} "
+            "${teamPairDetails.teams[1]} v ${teamPairDetails.teams[0]} "
         }
 
         a(
-            href = "${teamPairDetails.teamA.replace(" ", "_")}_v_${
-                teamPairDetails.teamB.replace(
+            href = "${teamPairDetails.teams[0].replace(" ", "_")}_v_${
+                teamPairDetails.teams[1].replace(
                     " ",
                     "_"
                 )
@@ -253,35 +257,329 @@ class GenerateHtml {
     }
 
 
-    private fun DIV.generateScoresHtml(teamPairDetails: TeamPairDetails, matchType: String, country: String) {
-        h4 { +teamPairDetails.teamA }
-        table {
-            generateHighestScoreRow(teamPairDetails.teamAHighestScores)
-            generateLowestScoreRow(teamPairDetails.teamALowestScores)
-            generateMostRunsInInningsRow(teamPairDetails.teamAHighestIndividualScore)
-            generateBestBowlingInInningsRow(teamPairDetails.teamABestBowlingInnings)
-            if (isMatchTypeMultiInnings(matchType)) {
-                generateBestBowlingInMatchRow(teamPairDetails.teamABestBowlingMatch)
+    private fun DIV.generateHtml(teamPairDetails: TeamPairDetails, matchType: String) {
+
+        table(classes = "numberOfMatchesTable") {
+            tr {
+                td {
+                    +"Number of Matches"
+                }
+                td(null, "width", columnTwoWidth) {
+                    +"${teamPairDetails.matchDto.count}"
+                }
+                td {
+                    +"From: "
+                    +DateTimeFormatter.ofPattern("dd MMMM yyyy").format(teamPairDetails.matchDto.startDate)
+                }
+                td {
+                    +"to: "
+                    +DateTimeFormatter.ofPattern("dd MMMM yyyy").format(teamPairDetails.matchDto.endDate)
+                }
+                td(null, "width", columnFiveWidth) {
+
+                }
+
             }
         }
-        generateFowHtml(teamPairDetails.teamABestFoW) { wicket ->
-            log.warn("MatchType: ${matchType}: FOW: wicket $wicket for ${teamPairDetails.teamA} vs ${teamPairDetails.teamB} has unknown players")
-        }
-        h4 { +teamPairDetails.teamB }
-        table {
-            generateHighestScoreRow(teamPairDetails.teamBHighestScores)
-            generateLowestScoreRow(teamPairDetails.teamBLowestScores)
-            generateMostRunsInInningsRow(teamPairDetails.teamBHighestIndividualScore)
-            generateBestBowlingInInningsRow(teamPairDetails.teamBBestBowlingInnings)
-            if (isMatchTypeMultiInnings(matchType)) {
-                generateBestBowlingInMatchRow(teamPairDetails.teamBBestBowlingMatch)
+
+        for (index in 0..1) {
+            h4 { +teamPairDetails.teams[index] }
+            generateSingleMatchDataTable(teamPairDetails, matchType, index)
+            generateFowHtml(teamPairDetails.bestFoW[index]) { wicket, teamA, teamB ->
+                log.warn("MatchType: ${matchType}: FOW: wicket $wicket for $teamA vs $teamB has unknown players")
             }
-        }
-        generateFowHtml(teamPairDetails.teamBBestFoW) { wicket ->
-            log.warn("MatchType: ${matchType}: FOW: wicket $wicket for ${teamPairDetails.teamB} vs ${teamPairDetails.teamA} has unknown players")
+            generateOverallDataTable(teamPairDetails, index)
         }
         p { +"Kevin Jones" }
-        generateRecordPageFooter(teamPairDetails.teamA, teamPairDetails.teamB, matchType)
+        generateRecordPageFooter(teamPairDetails.teams[0], teamPairDetails.teams[1], matchType)
+    }
+
+    private fun DIV.generateOverallDataTable(teamPairDetails: TeamPairDetails, index: Int) {
+        generateOverallMostRuns(teamPairDetails, index)
+        generateOverallMostWickets(teamPairDetails, index)
+        generateOverallMostCatches(teamPairDetails.mostCatchesVsOpposition[index], "Catches")
+        generateOverallMostCatches(teamPairDetails.mostStumpingsVsOpposition[index], "Stumpings")
+    }
+
+    private fun DIV.generateOverallMostRuns(
+        teamPairDetails: TeamPairDetails,
+        index: Int
+    ) {
+        table {
+            thead {
+                tr {
+                    td (null, "width", columnOneWidth){
+                        +"Most Runs"
+                    }
+                    td(null, "width", columnTwoWidth) {
+                    }
+                    td(null) {
+
+                    }
+                    td {
+
+                    }
+                    td(null, "width", columnFiveWidth) {
+                    }
+                    td {}
+                    td {}
+                    td {}
+                    td {}
+                }
+                tr {
+                    td(null, "width", columnOneWidth) {
+                        +"Name"
+                    }
+                    td(null, "width", columnTwoWidth) {
+                        +"Matches"
+                    }
+                    td(null) {
+                        +"Innings"
+                    }
+                    td {
+                        +"Not Outs"
+                    }
+                    td(null, "width", columnFiveWidth) {
+                        +"Runs"
+                    }
+                    td(null, "width", columnFiveWidth) {
+                        +"HS"
+                    }
+                    td {
+                        +"Average"
+                    }
+                }
+            }
+
+            teamPairDetails.mostRunsVsOpposition[index].forEach {
+                tr {
+                    td(null, "width", columnOneWidth) { +it.name }
+                    td { +"${it.matches}" }
+                    td { +"${it.innings}" }
+                    td { +"${it.notOuts}" }
+                    td { +"${it.runs}" }
+                    td { +it.hs }
+                    td { +formatDouble(it.average, 2) }
+                }
+            }
+        }
+    }
+
+    private fun DIV.generateOverallMostWickets(
+        teamPairDetails: TeamPairDetails,
+        index: Int
+    ) {
+        table {
+            thead {
+                tr {
+                    td(null, "width", columnOneWidth) {
+                        +"Most Wickets"
+                    }
+                    td(null, "width", columnTwoWidth) {
+                    }
+                    td {
+
+                    }
+                    td {
+
+                    }
+                    td {
+                    }
+                    td {}
+                    td {}
+                    td {}
+                }
+                tr {
+                    td(null, "width", columnOneWidth) {
+                        +"Name"
+                    }
+                    td(null, "width", columnTwoWidth) {
+                        +"Matches"
+                    }
+                    td {
+                        +"Balls"
+                    }
+                    td {
+                        +"Maidens"
+                    }
+                    td {
+                        +"Runs"
+                    }
+                    td {
+                        +"Wickets"
+                    }
+                    td {
+                        +"Average"
+                    }
+                    td {
+                        +"BB"
+                    }
+                }
+            }
+
+            teamPairDetails.mostWicketsVsOpposition[index].forEach {
+                tr {
+                    td(null, "width", columnOneWidth) { +it.name }
+                    td(null, "width", columnTwoWidth) { +"${it.matches}" }
+                    td { +"${it.balls}" }
+                    td { +"${it.maidens}" }
+                    td { +"${it.runs}" }
+                    td { +"${it.wickets}" }
+                    td { +formatDouble(it.average, 2) }
+                    td { +getBestBowling(it) }
+                }
+            }
+        }
+    }
+
+    private fun DIV.generateOverallMostCatches(
+        mostDismissals: MutableList<MostDismissalsDto>,
+        title: String
+    ) {
+        table {
+            thead {
+                tr {
+                    td(null, "width", columnOneWidth) {
+                        +"Most ${title}"
+                    }
+                    td(null, "width", columnTwoWidth) { }
+                    td { }
+                }
+                tr {
+                    td(null, "width", columnOneWidth) {
+                        +"Name"
+                    }
+                    td(null, "width", columnTwoWidth) {
+                        +"Matches"
+                    }
+                    td {
+                        +title
+                    }
+                }
+            }
+
+            if(mostDismissals.isEmpty()) {
+                tr {
+                    td(null, "width", columnOneWidth) { +"-" }
+                    td(null, "width", columnTwoWidth) { +"-" }
+                    td { +"-" }
+                }
+            } else {
+
+                mostDismissals.forEach {
+                    tr {
+                        td { +it.name }
+                        td(null, "width", columnTwoWidth) { +"${it.matches}" }
+                        td { +"${it.dismissals}" }
+                    }
+                }
+            }
+        }
+    }
+
+    private fun getBestBowling(mostWicketsDto: MostWicketsDto): String {
+        return "${mostWicketsDto.bbwickets}/${mostWicketsDto.bbruns}"
+    }
+
+    private fun DIV.generateSingleMatchDataTable(
+        teamPairDetails: TeamPairDetails,
+        matchType: String,
+        index: Int
+    ) {
+        table {
+            generateHighestScoreRow(teamPairDetails.highestScores[index])
+            generateLowestScoreRow(
+                teamPairDetails.teamAllLowestScores[index].lowestAllOutScore,
+                teamPairDetails.teamAllLowestScores[index].lowestCompleteScores
+            )
+            generateBattingRows(
+                this,
+                teamPairDetails.highestIndividualScore[index],
+                teamPairDetails.highestIndividualStrikeRates[index],
+                teamPairDetails.highestIndividualStrikeRatesWithLimit[index],
+                teamPairDetails.lowestIndividualStrikeRates[index],
+                teamPairDetails.lowestIndividualStrikeRatesWithLimit[index],
+                teamPairDetails.strikeRateScoreLimit,
+                teamPairDetails.strikeRateLowerBallsLimit,
+                teamPairDetails.strikeRateUpperBallsLimit,
+                teamPairDetails.mostBoundaries[index],
+                teamPairDetails.mostSixes[index],
+                teamPairDetails.mostFours[index]
+            )
+            generateBowlingRows(
+                this,
+                teamPairDetails.bestBowlingInnings[index],
+                teamPairDetails.bestBowlingSRInnings[index],
+                teamPairDetails.bestBowlingSRWithLimitInnings[index],
+                teamPairDetails.bestBowlingERInnings[index],
+                teamPairDetails.bestBowlingERWithLimitInnings[index],
+                teamPairDetails.worstBowlingERInnings[index],
+                teamPairDetails.worstBowlingERWithLimitInnings[index],
+                teamPairDetails.economyRateOversLimit
+            )
+
+            if (isMatchTypeMultiInnings(matchType)) {
+                generateBestBowlingInMatchRow(teamPairDetails.bestBowlingMatch[index])
+            }
+        }
+    }
+
+    private fun generateBowlingRows(
+        table: TABLE,
+        bestBowlingInnings: MutableList<BestBowlingDto>,
+        bestBowlingSRInnings: MutableList<BowlingRatesDto>,
+        bestBowlingSRWithLimitInnings: MutableList<BowlingRatesDto>,
+        bestBowlingERInnings: MutableList<BowlingRatesDto>,
+        bestBowlingERWithQualificationInnings: MutableList<BowlingRatesDto>,
+        worstBowlingERInnings: MutableList<BowlingRatesDto>,
+        worstBowlingERWithLimitInnings: MutableList<BowlingRatesDto>,
+        bestBowlingOversLimit: Int,
+    ) {
+        table.generateBestBowlingInInningsRow(bestBowlingInnings)
+        if (bestBowlingSRInnings.isNotEmpty()) {
+            table.generateBestBowlingSRInInningsRow("Best Bowling SR (no qualification)", bestBowlingSRInnings)
+            table.generateBestBowlingSRInInningsRow("Best Bowling SR (min: $bestBowlingOversLimit overs)", bestBowlingSRWithLimitInnings)
+        }
+        if (bestBowlingERInnings.isNotEmpty()) {
+            table.generateBestBowlingEconRateInInningsRow("Best Economy Rate (no qualification)", bestBowlingERInnings)
+            table.generateBestBowlingEconRateInInningsRow("Best Economy Rate (min: $bestBowlingOversLimit overs)", bestBowlingERWithQualificationInnings)
+        }
+        if (worstBowlingERInnings.isNotEmpty()) {
+            table.generateBestBowlingEconRateInInningsRow("Worst Economy Rate", worstBowlingERInnings)
+            table.generateBestBowlingEconRateInInningsRow("Worst Economy Rate (min: $bestBowlingOversLimit overs)", worstBowlingERWithLimitInnings)
+        }
+    }
+
+    private fun generateBattingRows(
+        table: TABLE,
+        highestIndividualScores: MutableList<HighestScoreDto>,
+        highestIndividualStrikeRates: MutableList<StrikeRateDto>,
+        highestIndividualStrikeRatesWithLimit: MutableList<StrikeRateDto>,
+        lowestIndividualStrikeRates: MutableList<StrikeRateDto>,
+        lowestIndividualStrikeRatesWithLimit: MutableList<StrikeRateDto>,
+        strikeRateRunsLimit: Int,
+        strikeRateLowerBallsLimit: Int,
+        strikeRateUpperBallsLimit: Int,
+        highestIndividualBoundaries: MutableList<BoundariesDto>,
+        highestIndividualSixes: MutableList<BoundariesDto>,
+        highestIndividualFours: MutableList<BoundariesDto>
+    ) {
+        table.generateMostRunsInInningsRow(highestIndividualScores)
+        if (highestIndividualStrikeRates.isNotEmpty()) {
+            table.generateHighestStrikeRateRow(highestIndividualStrikeRates, "Highest Strike Rate in innings (no qualification)")
+            table.generateHighestStrikeRateRow(highestIndividualStrikeRatesWithLimit,"Highest Strike Rate in innings (min: $strikeRateRunsLimit runs)")
+            table.generateHighestStrikeRateRow(lowestIndividualStrikeRates, "Lowest Strike Rate in innings (min: $strikeRateLowerBallsLimit balls)")
+            table.generateHighestStrikeRateRow(lowestIndividualStrikeRatesWithLimit,"Lowest Strike Rate in innings (min: $strikeRateUpperBallsLimit balls)")
+        }
+        if (highestIndividualBoundaries.isNotEmpty()) {
+            table.generateHighestBoundariesRow("Boundaries", highestIndividualBoundaries)
+        }
+        if (highestIndividualSixes.isNotEmpty()) {
+            table.generateHighestBoundariesRow("Sixes", highestIndividualSixes)
+        }
+        if (highestIndividualFours.isNotEmpty()) {
+            table.generateHighestBoundariesRow("Fours", highestIndividualFours)
+        }
     }
 
     private fun isMatchTypeMultiInnings(matchType: String): Boolean {
@@ -292,56 +590,8 @@ class GenerateHtml {
     }
 
 
-    private fun TABLE.generateHighestScoreRow(totals: MutableList<TotalDao>) {
-        if (totals.size == 0) {
-            tr {
-                td {
-                    +"Highest Team Total"
-                }
-                td(null, "width", "110") {
-                    +"(none)"
-                }
-                td {
-
-                }
-                td {
-                    +"(none)"
-                }
-                td {
-                    +"(none)"
-                }
-            }
-        } else {
-            totals.forEachIndexed { ndx, total ->
-
-                tr {
-                    td {
-                        if (ndx == 0)
-                            +"Highest Team Total"
-                        else {
-                            +""
-                        }
-                    }
-
-                    td(null, "width", "110") {
-                        +"${total.total}"
-                    }
-                    td {
-
-                    }
-                    td(null) {
-                        +total.location
-                    }
-                    td(null, "width", "80") {
-                        +total.seriesDate
-                    }
-                }
-            }
-        }
-    }
-
-    private fun TABLE.generateBestBowlingInMatchRow(bestBowlingMatch: MutableList<BestBowlingDao>) {
-        if (bestBowlingMatch.size == 0) {
+    private fun TABLE.generateBestBowlingInMatchRow(bestBowlingMatch: List<BestBowlingDto>) {
+        if (bestBowlingMatch.isEmpty()) {
             tr {
                 td {
                     +"Best Bowling in match"
@@ -366,7 +616,7 @@ class GenerateHtml {
                         if (ndx == 0)
                             +"Best Bowling in match"
                     }
-                    td(null, "width", "110") {
+                    td(null, "width", columnTwoWidth) {
                         +"${bb.wickets}-${bb.runs}"
                     }
                     td {
@@ -383,13 +633,13 @@ class GenerateHtml {
         }
     }
 
-    private fun TABLE.generateBestBowlingInInningsRow(bestBowlingInnings: MutableList<BestBowlingDao>) {
-        if (bestBowlingInnings.size == 0) {
+    private fun TABLE.generateBestBowlingInInningsRow(bestBowlingInnings: List<BestBowlingDto>) {
+        if (bestBowlingInnings.isEmpty()) {
             tr {
                 td {
                     +"Best Bowling in innings"
                 }
-                td(null, "width", "110") {
+                td(null, "width", columnTwoWidth) {
                 }
                 td {
 
@@ -406,7 +656,7 @@ class GenerateHtml {
                         if (ndx == 0)
                             +"Best Bowling in innings"
                     }
-                    td(null, "width", "110") {
+                    td(null, "width", columnTwoWidth) {
                         +"${bb.wickets}-${bb.runs}"
                     }
                     td {
@@ -424,13 +674,98 @@ class GenerateHtml {
         }
     }
 
-    private fun TABLE.generateMostRunsInInningsRow(highestScore: MutableList<HighestScoreDao>) {
-        if (highestScore.size == 0) {
+    private fun TABLE.generateBestBowlingSRInInningsRow(title: String, bestBowlingSRInnings: MutableList<BowlingRatesDto>) {
+        if (bestBowlingSRInnings.size == 0) {
+            tr {
+                td {
+                    +title
+                }
+                td(null, "width", columnTwoWidth) {
+                }
+                td {
+
+                }
+                td {
+                }
+                td {
+                }
+            }
+        } else {
+            bestBowlingSRInnings.forEachIndexed { ndx, bb ->
+                tr {
+                    td {
+                        if (ndx == 0)
+                            +title
+                    }
+                    td(null, "width", columnTwoWidth) {
+                        +"${formatDouble(bb.sr, 2)} (${bb.balls}-${bb.maidens}-${bb.runs}-${bb.wickets})"
+                    }
+                    td {
+                        +bb.name
+                    }
+
+                    td(null) {
+                        +bb.location
+                    }
+                    td(null) {
+                        +bb.seriesDate
+                    }
+                }
+            }
+        }
+    }
+
+    private fun TABLE.generateBestBowlingEconRateInInningsRow(
+        title: String,
+        bestBowlingERInnings: MutableList<BowlingRatesDto>
+    ) {
+        if (bestBowlingERInnings.size == 0) {
+            tr {
+                td {
+                    +"Best Bowling Economy Rate (no qualification)"
+                }
+                td(null, "width", columnTwoWidth) {
+                }
+                td {
+
+                }
+                td {
+                }
+                td {
+                }
+            }
+        } else {
+            bestBowlingERInnings.forEachIndexed { ndx, bb ->
+                tr {
+                    td {
+                        if (ndx == 0)
+                            +title
+                    }
+                    td(null, "width", columnTwoWidth) {
+                        +"${formatDouble(bb.sr, 2)} (${bb.overs}-${bb.maidens}-${bb.runs}-${bb.wickets})"
+                    }
+                    td {
+                        +bb.name
+                    }
+
+                    td(null) {
+                        +bb.location
+                    }
+                    td(null) {
+                        +bb.seriesDate
+                    }
+                }
+            }
+        }
+    }
+
+    private fun TABLE.generateMostRunsInInningsRow(highestScore: List<HighestScoreDto>) {
+        if (highestScore.isEmpty()) {
             tr {
                 td {
                     +"Most Runs in innings"
                 }
-                td(null, "width", "110") {
+                td(null, "width", columnTwoWidth) {
                 }
                 td {
 
@@ -447,7 +782,7 @@ class GenerateHtml {
                         if (ndx == 0)
                             +"Most Runs in innings"
                     }
-                    td(null, "width", "110") {
+                    td(null, "width", columnTwoWidth) {
                         +getNotOutScore(score.score, score.notOut)
                     }
                     td {
@@ -464,53 +799,180 @@ class GenerateHtml {
         }
     }
 
-    private fun TABLE.generateLowestScoreRow(totals: MutableList<TotalDao>) {
-        if (totals.size == 0) {
+    private fun TABLE.generateHighestStrikeRateRow(strikeRates: MutableList<StrikeRateDto>, title: String) {
+        if (strikeRates.size == 0) {
             tr {
-
                 td {
-                    +"Lowest All-Out Team Total"
+                    +" $title"
                 }
-                td(null, "width", "110") {
-                }
-                td(null) {
-
+                td(null, "width", columnTwoWidth) {
                 }
                 td {
 
                 }
-                td(null) {
+                td {
+                }
+                td {
                 }
             }
         } else {
-            totals.forEachIndexed { ndx, total ->
+            strikeRates.forEachIndexed { ndx, sr ->
                 tr {
                     td {
-                        if (ndx == 0) {
-                            +"Lowest All-Out Team Total"
-                        } else {
-                            +""
-                        }
+                        if (ndx == 0)
+                            +"$title"
                     }
-                    td(null, "width", "110") {
-                        +"${total.total}"
+                    td(null, "width", columnTwoWidth) {
+                        +"${formatDouble(sr.strikeRate, 2)} (${sr.runs} off ${sr.balls})"
                     }
                     td {
-
+                        +sr.name
                     }
                     td(null) {
-                        +total.location
+                        +sr.location
                     }
                     td(null) {
-                        +total.seriesDate
+                        +sr.seriesDate
                     }
-
                 }
             }
         }
     }
 
-    private fun DIV.generateFowHtml(fows: MutableMap<Int, FowDetails>, report: (Int) -> Unit) {
+    private fun TABLE.generateHighestBoundariesRow(
+        title: String,
+        boundaries: MutableList<BoundariesDto>
+    ) {
+        if (boundaries.isEmpty() || boundaries[0].boundaries == 0) {
+            tr {
+                td {
+                    +"Most ${title} in innings"
+                }
+                td(null, "width", columnTwoWidth) {
+                    +"0"
+                }
+                td {
+
+                }
+                td {
+                }
+                td {
+                }
+            }
+        } else {
+            boundaries.forEachIndexed { ndx, sr ->
+                tr {
+                    td {
+                        if (ndx == 0)
+                            +"Most ${title} in innings"
+                    }
+                    td(null, "width", columnTwoWidth) {
+                        +getBoundaries(sr)
+                    }
+                    td {
+                        +sr.name
+                    }
+                    td(null) {
+                        +sr.location
+                    }
+                    td(null) {
+                        +sr.seriesDate
+                    }
+                }
+            }
+        }
+    }
+
+    private fun getBoundaries(boundaries: BoundariesDto): String {
+        if (boundaries.fours == 0 && boundaries.sixes == 0) return "${boundaries.boundaries}"
+        return "${boundaries.boundaries} (${boundaries.fours} 4s, ${boundaries.sixes} 6s)"
+    }
+
+    private fun TABLE.generateHighestScoreRow(totals: List<TotalDto>) {
+        if (totals.isEmpty()) {
+            generateEmptyTotalRow("Highest Team Total")
+        } else {
+            totals.forEachIndexed { ndx, total ->
+                generateTotalsRow(ndx, total) {
+                    +"Highest Team Total"
+                }
+            }
+        }
+
+    }
+
+    private fun TABLE.generateLowestScoreRow(allOutTotals: List<TotalDto>, completeTotals: List<TotalDto>) {
+        if (allOutTotals.isEmpty() && completeTotals.isEmpty()) {
+            generateEmptyTotalRow("Lowest All-Out Team Total")
+
+        } else if (allOutTotals.isNotEmpty()) {
+            allOutTotals.forEachIndexed { ndx, total ->
+                generateTotalsRow(ndx, total) {
+                    +"Lowest All Out Team Total"
+                }
+            }
+        } else {
+            completeTotals.forEachIndexed { ndx, total ->
+                generateTotalsRow(ndx, total) {
+                    +"Lowest "
+                    b {
+                        +"Completed"
+                    }
+                    +" Team Total"
+                }
+            }
+        }
+    }
+
+    private fun TABLE.generateEmptyTotalRow(title: String) {
+        tr {
+
+            td {
+                +title
+            }
+            td(null, "width", columnTwoWidth) {
+            }
+            td(null) {
+
+            }
+            td {
+
+            }
+            td(null, "width", columnFiveWidth) {
+            }
+        }
+    }
+
+    private fun TABLE.generateTotalsRow(ndx: Int, total: TotalDto, block: TD.() -> Unit) {
+        tr {
+            td {
+                if (ndx == 0) {
+                    block()
+                } else {
+                    +""
+                }
+            }
+            td(null, "width", columnTwoWidth) {
+                if (total.wickets == 10)
+                    +"${total.total}"
+                else if (total.declared)
+                    +"${total.total} for ${total.wickets} declared"
+                else
+                    +"${total.total} for ${total.wickets}"
+            }
+            td {
+
+            }
+            td(null) {
+                +total.location
+            }
+            td(null, "width", columnFiveWidth) {
+                +total.seriesDate
+            }
+        }
+    }
+
+    private fun DIV.generateFowHtml(fows: Map<Int, FowDetails>, report: (Int, String, String) -> Unit) {
         table(classes = "fowtable") {
 
             fows.forEach {
@@ -547,7 +1009,7 @@ class GenerateHtml {
                             }
                             td {
                                 if (fow.player1Name.lowercase() == "unknown" || fow.player2Name.lowercase() == "unknown") {
-                                    report(wicket)
+                                    report(wicket, fow.team, fow.opponents)
                                     +" "
                                 } else {
                                     +getPlayerScores(fow.player1Name, fow.player1Score, fow.player1NotOut)
@@ -567,7 +1029,7 @@ class GenerateHtml {
             }
             fows.forEach {
 
-                it.value.multiPlayerFow.forEachIndexed { ndx, multiPlayerFowDao: MultiPlayerFowDao ->
+                it.value.multiPlayerFow.forEach { multiPlayerFowDao: MultiPlayerFowDto ->
                     val fowList = multiPlayerFowDao.playerDetails
                     tr {
                         td {
@@ -588,7 +1050,7 @@ class GenerateHtml {
                             }
                             td {
                                 if (fow.player1Name.lowercase() == "unknown" || fow.player2Name.lowercase() == "unknown") {
-                                    report(wicket)
+                                    report(wicket, fow.team, fow.opponents)
                                     +" "
                                 } else {
                                     +getPlayerScores(fow.player1Name, fow.player1Score, fow.player1NotOut)
@@ -620,6 +1082,9 @@ class GenerateHtml {
         return if (notOut) "$score*" else "$score"
     }
 }
+
+fun formatDouble(input: Double, scale: Int) = String.format("%.${scale}f", input)
+
 
 
 

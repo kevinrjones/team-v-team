@@ -3,38 +3,27 @@ package com.knowledgespike.teamvteam.database
 import com.knowledgespike.db.tables.references.MATCHES
 import com.knowledgespike.db.tables.references.MATCHSUBTYPE
 import com.knowledgespike.teamvteam.TeamNameToIds
-import com.knowledgespike.teamvteam.TeamPairHomePagesData
-import com.knowledgespike.teamvteam.daos.*
+import com.knowledgespike.teamvteam.daos.MatchDto
 import com.knowledgespike.teamvteam.data.TeamsAndOpponents
+import com.knowledgespike.teamvteam.logging.LoggerDelegate
+import kotlinx.coroutines.*
 import org.jooq.SQLDialect
 import org.jooq.impl.DSL
-import org.jooq.impl.DSL.count
-import org.jooq.impl.DSL.select
+import org.jooq.impl.DSL.*
 import java.sql.DriverManager
+import java.time.Instant
+import java.time.LocalDateTime
+import java.time.ZoneId
+import java.util.concurrent.Executors
 
 
-data class TeamPairDetails(val teamA: String, val teamB: String) {
-
-    val teamAHighestScores = mutableListOf<TotalDao>()
-    val teamALowestScores = mutableListOf<TotalDao>()
-    val teamAHighestIndividualScore = mutableListOf<HighestScoreDao>()
-    val teamABestBowlingInnings = mutableListOf<BestBowlingDao>()
-    val teamABestBowlingMatch = mutableListOf<BestBowlingDao>()
-    val teamABestFoW = mutableMapOf<Int, FowDetails>()
-
-    val teamBHighestScores = mutableListOf<TotalDao>()
-    val teamBLowestScores = mutableListOf<TotalDao>()
-    val teamBHighestIndividualScore = mutableListOf<HighestScoreDao>()
-    val teamBBestBowlingInnings = mutableListOf<BestBowlingDao>()
-    val teamBBestBowlingMatch = mutableListOf<BestBowlingDao>()
-    val teamBBestFoW = mutableMapOf<Int, FowDetails>()
-
-}
+val internationalMatchTypes = listOf("t", "wt", "itt", "witt", "o", "wo")
 
 class ProcessTeams(
     private val allTeams: TeamNameToIds,
     private val opponentsForTeam: MutableMap<String, TeamNameToIds>,
 ) {
+    val log by LoggerDelegate()
 
     private val idPairs: List<TeamsAndOpponents>
 
@@ -48,7 +37,7 @@ class ProcessTeams(
             val teamIds = allTeams.get(teamNames[i])!!
             for (j in i + 1 until totalNumberOfTeams) {
                 val opponentIds = allTeams.get(teamNames[j])!!
-                pairs.add(TeamsAndOpponents(teamNames[i], teamIds, teamNames[j], opponentIds, true))
+                pairs.add(TeamsAndOpponents(teamNames[i], teamIds, teamNames[j], opponentIds))
             }
         }
 
@@ -58,7 +47,7 @@ class ProcessTeams(
 
             opponents.keys.sorted().forEach { name ->
                 val opponentIds = opponents[name] ?: listOf()
-                pairs.add(TeamsAndOpponents(teamName, teamId, name, opponentIds, false))
+                pairs.add(TeamsAndOpponents(teamName, teamId, name, opponentIds))
             }
         }
         return pairs
@@ -68,39 +57,58 @@ class ProcessTeams(
         idPairs = buildPairsOfTeamsThatMayCompete()
     }
 
-    operator fun invoke(
+    suspend fun process(
         connectionString: String,
         userName: String,
         password: String,
         matchSubType: String,
-        callback: (hasOwnPage: Boolean, teamPairDetails: TeamPairDetails) -> Unit
+        callback: (teamPairDetails: TeamPairDetails) -> Unit
     ) {
 
         val matchType: String = matchTypeFromSubType(matchSubType)
 
         val teamRecords = TeamRecords(userName, password, connectionString)
         for (teamsAndOpponents in idPairs) {
-            if (didPairsCompete(connectionString, userName, password, teamsAndOpponents, matchSubType)) {
-                val teamPairDetails = TeamPairDetails(teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
-                getTeamRecords(teamPairDetails, teamRecords, teamsAndOpponents, matchType, matchSubType)
-                getIndividualRecords(teamPairDetails, teamRecords, teamsAndOpponents, matchType, matchSubType)
+            log.debug("Start processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
+            val matchDto =
+                getCountOfMatchesBetweenTeams(connectionString, userName, password, teamsAndOpponents, matchSubType)
+            if (matchDto.count != 0) {
+                log.debug("Processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
+                val teamPairDetails =
+                    TeamPairDetails(
+                        arrayOf(teamsAndOpponents.teamName, teamsAndOpponents.opponentsName),
+                        matchDto
+                    )
+                val jobs = mutableListOf<Job>()
 
-                callback(teamsAndOpponents.hasOwnPage, teamPairDetails)
+                withContext(Dispatchers.IO) {
+                    val job = launch {
+                        getTeamRecords(teamPairDetails, teamRecords, teamsAndOpponents, matchType, matchSubType)
+                        getIndividualRecords(teamPairDetails, teamRecords, teamsAndOpponents, matchType, matchSubType)
+                    }
+                    jobs.add(job)
+                    jobs.forEach { j -> j.join() }
+                    callback(teamPairDetails)
+                }
             }
         }
     }
 
 
-    private fun didPairsCompete(
+    private fun getCountOfMatchesBetweenTeams(
         connectionString: String,
         userName: String,
         password: String,
         teamsAndOpponents: TeamsAndOpponents,
         matchSubType: String
-    ): Boolean {
+    ): MatchDto {
         DriverManager.getConnection(connectionString, userName, password).use { conn ->
             val context = DSL.using(conn, SQLDialect.MYSQL)
-            val result = context.select(count()).from(MATCHES).where(
+            val result = context.select(
+                count(),
+                min(MATCHES.MATCHSTARTDATEASOFFSET).`as`("startDate"),
+                max(MATCHES.MATCHSTARTDATEASOFFSET).`as`("endDate"),
+            ).from(MATCHES).where(
                 (MATCHES.HOMETEAMID.`in`(teamsAndOpponents.teamdIds)
                     .or(MATCHES.HOMETEAMID.`in`(teamsAndOpponents.opponentIds)))
                     .and(
@@ -120,10 +128,25 @@ class ProcessTeams(
                     )
                     .and(MATCHES.VICTORYTYPE.notEqual(6))
                     .and(MATCHES.VICTORYTYPE.notEqual(11))
-            ).fetch().first().getValue(0, Int::class.java)
+                    .and(MATCHES.MATCHTYPE.notIn("t", "wt", "itt", "witt", "o", "wo"))
+            ).fetch().first()
 
-            return result != 0
+            val startDate = (result.getValue("startDate", Long::class.java) * 1000).toLocalDateTime()
+            val endDate = (result.getValue("endDate", Long::class.java) * 1000).toLocalDateTime()
+            return MatchDto(
+                result.getValue(0, Int::class.java),
+                LocalDateTime.from(startDate),
+                LocalDateTime.from(endDate),
+            )
+
+
         }
+    }
+
+    fun Long.toLocalDateTime(): LocalDateTime {
+        val instant = Instant.ofEpochMilli(this)
+        val date = instant.atZone(ZoneId.systemDefault()).toLocalDateTime()
+        return date
     }
 
     private fun getIndividualRecords(
@@ -133,6 +156,7 @@ class ProcessTeams(
         matchType: String,
         matchSubType: String,
     ) {
+
         val teamParamA = TeamParams(
             teamsAndOpponents.teamdIds,
             teamsAndOpponents.opponentIds,
@@ -150,37 +174,8 @@ class ProcessTeams(
             matchSubType
         )
 
-        teamPairDetails.teamAHighestIndividualScore.addAll(
-            teamRecords.getHighestIndividualScores(teamParamA)
-        )
+        teamPairDetails.addIndividualData(teamRecords, teamParamA, teamParamB, matchType)
 
-        teamPairDetails.teamBHighestIndividualScore.addAll(
-            teamRecords.getHighestIndividualScores(teamParamB)
-        )
-
-        teamPairDetails.teamABestBowlingInnings.addAll(
-            teamRecords.getBestBowlingInnings(teamParamA)
-        )
-
-        teamPairDetails.teamBBestBowlingInnings.addAll(
-            teamRecords.getBestBowlingInnings(teamParamB)
-        )
-
-        teamPairDetails.teamABestBowlingMatch.addAll(
-            teamRecords.getBestBowlingMatch(teamParamA)
-        )
-
-        teamPairDetails.teamBBestBowlingMatch.addAll(
-            teamRecords.getBestBowlingMatch(teamParamB)
-        )
-
-        teamPairDetails.teamABestFoW.putAll(
-            teamRecords.getHighestFoW(teamParamA)
-        )
-
-        teamPairDetails.teamBBestFoW.putAll(
-            teamRecords.getHighestFoW(teamParamB)
-        )
     }
 
     private fun getTeamRecords(
@@ -207,49 +202,28 @@ class ProcessTeams(
             matchSubType
         )
 
-        teamPairDetails.teamAHighestScores.addAll(
-            tt.getHighestTotals(
-                teamParamA
-            )
-        )
+        teamPairDetails.addTeamData(tt, teamParamA, teamParamB, matchType)
 
-        teamPairDetails.teamBHighestScores.addAll(
-            tt.getHighestTotals(
-                teamParamB
-            )
-        )
-
-        teamPairDetails.teamALowestScores.addAll(
-            tt.getLowestTotals(
-                teamParamA
-            )
-        )
-
-        teamPairDetails.teamBLowestScores.addAll(
-            tt.getLowestTotals(
-                teamParamB
-            )
-        )
     }
 }
 
 private fun matchTypeFromSubType(matchType: String): String {
     return when (matchType) {
-        "t" -> "t"
+        "t" -> "f"
         "f" -> "f"
-        "o" -> "o"
+        "o" -> "a"
         "a" -> "a"
-        "itt" -> "itt"
+        "itt" -> "tt"
         "tt" -> "tt"
         "bbl" -> "tt"
         "ipl" -> "tt"
         "hund" -> "tt"
 
-        "wt" -> "wt"
+        "wt" -> "wf"
         "wf" -> "wf"
-        "wo" -> "wo"
+        "wo" -> "wa"
         "wa" -> "wa"
-        "witt" -> "witt"
+        "witt" -> "wtt"
         "wtt" -> "wtt"
         "wbbl" -> "wtt"
         "wipl" -> "wtt"
@@ -257,8 +231,8 @@ private fun matchTypeFromSubType(matchType: String): String {
         "cpl" -> "tt"
         "wcpl" -> "wtt"
         "minc" -> "minc"
-        "wc" -> "o"
-        "wwc" -> "wo"
+        "wc" -> "a"
+        "wwc" -> "wa"
         "psl" -> "tt"
         else -> throw Exception("Unknown match sub type - please add the new subtype to type mapping")
     }

@@ -29,48 +29,52 @@ class Application {
         @JvmStatic
         fun main(args: Array<String>) = runBlocking {
 
-            val options = createCommandLineOptions()
-
-            val formatter = HelpFormatter()
-
-            if (args.isEmpty() || args.contains("-h") || args.contains("--help")) {
-                formatter.printHelp(
-                    200,
-                    "java com.knowledgespike.teamvteam.ApplicationKt",
-                    "Run the team vs team code",
-                    options,
-                    "",
-                    true
-                )
-                exitProcess(0)
-            }
-
-
-            val cmd: CommandLine
-            val parser: CommandLineParser = DefaultParser()
             try {
-                cmd = parser.parse(options, args)
-            } catch (e: Exception) {
-                println(e.message)
-                formatter.printHelp(
-                    200,
-                    "java com.knowledgespike.teamvteam.ApplicationKt",
-                    "Run the team vs team code",
-                    options,
-                    "",
-                    true
-                )
-                exitProcess(2)
+                val options = createCommandLineOptions()
+
+                val formatter = HelpFormatter()
+
+                if (args.isEmpty() || args.contains("-h") || args.contains("--help")) {
+                    formatter.printHelp(
+                        200,
+                        "java com.knowledgespike.teamvteam.ApplicationKt",
+                        "Run the team vs team code",
+                        options,
+                        "",
+                        true
+                    )
+                    exitProcess(0)
+                }
+
+
+                val cmd: CommandLine
+                val parser: CommandLineParser = DefaultParser()
+                try {
+                    cmd = parser.parse(options, args)
+                } catch (e: Exception) {
+                    println(e.message)
+                    formatter.printHelp(
+                        200,
+                        "java com.knowledgespike.teamvteam.ApplicationKt",
+                        "Run the team vs team code",
+                        options,
+                        "",
+                        true
+                    )
+                    exitProcess(2)
+                }
+
+
+                val connectionString = cmd.getOptionValue("c")
+                val userName = cmd.getOptionValue("u")
+                val password = cmd.getOptionValue("p")
+                val baseDirectory = cmd.getOptionValue("bd")
+                val outputDirectory = cmd.getOptionValue("o")
+
+                processAllCompetitions(baseDirectory, outputDirectory, connectionString, userName, password)
+            } catch (t: Throwable) {
+                log.error("Error in main", t)
             }
-
-
-            val connectionString = cmd.getOptionValue("c")
-            val userName = cmd.getOptionValue("u")
-            val password = cmd.getOptionValue("p")
-            val baseDirectory = cmd.getOptionValue("bd")
-            val outputDirectory = cmd.getOptionValue("o")
-
-            processAllCompetitions(baseDirectory, outputDirectory, connectionString, userName, password)
         }
 
         private suspend fun processAllCompetitions(
@@ -104,7 +108,7 @@ class Application {
 
                         val gender = competition.gender
                         val matchDesignator = competition.title
-                        val matchType = competition.type
+                        val matchSubType = competition.subType
 
                         val pairsForPage: MutableMap<String, TeamPairHomePagesData> = mutableMapOf()
 
@@ -124,14 +128,15 @@ class Application {
                                 userName,
                                 password,
                                 competitionWithSortedTeams.teams,
-                                matchType
+                                matchSubType
                             )
 
+                        // todo: map of map, do both maps have the same key?
                         val opponentsForTeam = mutableMapOf<String, TeamNameToIds>()
                         competition.teams.forEach {
                             val id = teamsWithDuplicates.get(it.team)
                             val opponents: TeamNameToIds =
-                                getTeamIdsForTeamNames(connectionString, userName, password, it.opponents, matchType)
+                                getTeamIdsForTeamNames(connectionString, userName, password, it.opponents, matchSubType)
                             opponentsForTeam.put(it.team, opponents)
                         }
 
@@ -140,7 +145,7 @@ class Application {
                         val outputDirectory = "${baseOutputDirectory}/${competition.outputDirectory}"
                         recordPage.generateIndexPageForTeamsAndType(
                             sortedTeamNames,
-                            matchType,
+                            matchSubType,
                             country,
                             gender,
                             matchDesignator,
@@ -148,10 +153,22 @@ class Application {
                             competition.extraMessages
                         )
 
-                        processTeams(connectionString, userName, password, matchType) { hasOwnPage, teamPairDetails ->
+                        processTeams.process(
+                            connectionString,
+                            userName,
+                            password,
+                            matchSubType
+                        ) { teamPairDetails ->
+
+                            log.debug(
+                                "Updating data for {} and {} for {}",
+                                teamPairDetails.teams[0],
+                                teamPairDetails.teams[1],
+                                matchDesignator
+                            )
 
                             addPairToCollectionForPairVPairPages(
-                                hasOwnPage,
+                                competition.teams.map { it.team },
                                 pairsForPage,
                                 teamPairDetails
                             )
@@ -159,14 +176,13 @@ class Application {
                             recordPage.generateTeamVsTeamRecordsPage(
                                 teamPairDetails,
                                 matchDesignator,
-                                matchType,
-                                country,
+                                matchSubType,
                                 outputDirectory
                             )
                         }
 
                         recordPage.createTeamPairHomePages(
-                            matchType,
+                            matchSubType,
                             matchDesignator,
                             pairsForPage,
                             country,
@@ -183,23 +199,28 @@ class Application {
         }
 
         private fun addPairToCollectionForPairVPairPages(
-            hasOwnPage: Boolean,
+            competitionTeams: List<String>,
             pairsForPage: MutableMap<String, TeamPairHomePagesData>,
             teamPair: TeamPairDetails
         ) {
-            var pairEx = pairsForPage[teamPair.teamA]
+            var teamName = teamPair.teams[0]
+            var hasOwnPage = competitionTeams.contains(teamName)
+
+            var pairEx = pairsForPage[teamName]
             if (pairEx == null) {
                 val teamPairList = mutableListOf<TeamPairDetails>()
                 teamPairList.add(teamPair)
-                pairsForPage[teamPair.teamA] = TeamPairHomePagesData(hasOwnPage, teamPairList)
+                pairsForPage[teamPair.teams[0]] = TeamPairHomePagesData(hasOwnPage, teamPairList)
             } else {
                 pairEx.teamPairDetails.add(teamPair)
             }
-            pairEx = pairsForPage[teamPair.teamB]
+            teamName = teamPair.teams[1]
+            pairEx = pairsForPage[teamName]
             if (pairEx == null) {
+                hasOwnPage = competitionTeams.contains(teamName)
                 val teamPairList = mutableListOf<TeamPairDetails>()
                 teamPairList.add(teamPair)
-                pairsForPage[teamPair.teamB] = TeamPairHomePagesData(hasOwnPage, teamPairList)
+                pairsForPage[teamPair.teams[1]] = TeamPairHomePagesData(hasOwnPage, teamPairList)
             } else {
                 pairEx.teamPairDetails.add(teamPair)
             }
