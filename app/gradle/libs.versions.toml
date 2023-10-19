@@ -1,14 +1,14 @@
 [versions]
 catalogUpdateVersion_version = "0.8.1"
 commons_cli_version = "1.5.0"
-jooq_version = "3.18.6"
+jooq_version = "3.18.7"
 kotlin_couroutines_version = "1.7.3"
 kotlin_version = "1.9.10"
-kotlinx_html_version = "0.10.0"
+kotlinx_html_version = "0.10.1"
 kotlinx_serialization_version = "1.6.0"
 logback_version = "1.4.11"
 mysql_version = "8.0.33"
-updateVersion_version = "0.48.0"
+updateVersion_version = "0.49.0"
 
 [libraries]
 commonsCli = { module = "commons-cli:commons-cli", version.ref = "commons_cli_version" }
