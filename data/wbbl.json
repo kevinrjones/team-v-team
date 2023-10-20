@@ -1,46 +1,4 @@
-[
-    {
-        "title": "Big Bash League",
-        "country": "",
-        "gender": "Men's",
-        "teams": [
-            {
-                "team": "Adelaide Strikers",
-                "duplicates": []
-            },
-            {
-                "team": "Brisbane Heat",
-                "duplicates": []
-            },
-            {
-                "team": "Hobart Hurricanes",
-                "duplicates": []
-            },
-            {
-                "team": "Melbourne Renegades",
-                "duplicates": []
-            },
-            {
-                "team": "Melbourne Stars",
-                "duplicates": []
-            },
-            {
-                "team": "Perth Scorchers",
-                "duplicates": []
-            },
-            {
-                "team": "Sydney Sixers",
-                "duplicates": []
-            },
-            {
-                "team": "Sydney Thunder",
-                "duplicates": []
-            }
-        ],
-        "type": "bbl",
-        "outputDirectory": "bbl",
-        "extraMessages": []
-    },
+[    
     {
         "title": "Big Bash League",
         "country": "",
@@ -79,7 +37,7 @@
                 "duplicates": []
             }
         ],
-        "type": "wbbl",
+        "subType": "wbbl",
         "outputDirectory": "wbbl",
         "extraMessages": []
     }
