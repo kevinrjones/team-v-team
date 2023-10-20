@@ -202,7 +202,7 @@ class ProcessTeams(
             matchSubType
         )
 
-        teamPairDetails.addTeamData(tt, teamParamA, teamParamB, matchType)
+        teamPairDetails.addTeamData(tt, teamParamA, teamParamB)
 
     }
 }

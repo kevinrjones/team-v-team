@@ -14,8 +14,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
     private val log by LoggerDelegate()
 
     fun getHighestTotals(
-        teamParams: TeamParams,
-        matchType: String
+        teamParams: TeamParams
     ): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
 
@@ -31,7 +30,8 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         INNINGS.WICKETS,
                         INNINGS.DECLARED,
                         INNINGS.matches.LOCATION,
-                        INNINGS.matches.SERIESDATE
+                        INNINGS.matches.SERIESDATE,
+                        INNINGS.matches.MATCHSTARTDATEASOFFSET,
                     )
                         .from(INNINGS)
                         .where(
@@ -56,7 +56,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                 field("Declared", Boolean::class.java),
                 field("Location", String::class.java),
                 field("SeriesDate", String::class.java),
+                field("MatchStartDateAsOffset", String::class.java),
             ).from("cte").where(field("max_synth").eq(field("synth")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
             for (r in result) {
@@ -92,7 +94,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                 field("Declared", Boolean::class.java),
                 field("Location", String::class.java),
                 field("SeriesDate", String::class.java),
+                field("MatchStartDateAsOffset", String::class.java),
             ).from("cte").where(field("min_total").eq(field("total")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
             for (r in result) {
@@ -128,7 +132,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                 field("Declared", Boolean::class.java),
                 field("Location", String::class.java),
                 field("SeriesDate", String::class.java),
+                field("MatchStartDateAsOffset", String::class.java),
             ).from("cte").where(field("min_total").eq(field("total")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
             for (r in result) {
@@ -164,7 +170,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                 field("Declared", Boolean::class.java),
                 field("Location", String::class.java),
                 field("SeriesDate", String::class.java),
+                field("MatchStartDateAsOffset", String::class.java),
             ).from("cte").where(field("min_total").eq(field("total")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
             for (r in result) {
@@ -186,14 +194,15 @@ class TeamRecords(private val userName: String, private val password: String, pr
 
     private fun getLowestTotalSelect(
         teamParams: TeamParams
-    ): SelectConditionStep<Record6<Int?, Int?, Int?, Boolean?, String?, String?>> {
+    ): SelectConditionStep<Record7<Int?, Int?, Int?, Boolean?, String?, String?, Long?>> {
         return select(
             INNINGS.TOTAL,
             min(INNINGS.TOTAL).over().`as`("min_total"),
             INNINGS.WICKETS,
             INNINGS.DECLARED,
             INNINGS.matches.LOCATION,
-            INNINGS.matches.SERIESDATE
+            INNINGS.matches.SERIESDATE,
+            INNINGS.matches.MATCHSTARTDATEASOFFSET
         )
             .from(INNINGS)
             .where(
@@ -212,7 +221,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
     }
 
-    fun getHighestIndividualScores(teamParams: TeamParams, matchType: String): List<HighestScoreDto> {
+    fun getHighestIndividualScores(teamParams: TeamParams): List<HighestScoreDto> {
         val highestScores = mutableListOf<HighestScoreDto>()
 
         DriverManager.getConnection(connectionString, userName, password).use { conn ->
@@ -226,7 +235,8 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         BATTINGDETAILS.NOTOUT,
                         BATTINGDETAILS.NOTOUTADJUSTEDSCORE,
                         BATTINGDETAILS.matches.LOCATION,
-                        BATTINGDETAILS.matches.SERIESDATE
+                        BATTINGDETAILS.matches.SERIESDATE,
+                        BATTINGDETAILS.matches.MATCHSTARTDATEASOFFSET,
                     )
                         .from(BATTINGDETAILS)
                         .where(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
@@ -251,7 +261,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     field("NotOut", Boolean::class.java),
                     field("Location", String::class.java),
                     field("SeriesDate", String::class.java),
+                    field("MatchStartDateAsOffset", String::class.java),
                 ).from("cte").where(field("max_score").eq(field("NotOutAdjustedScore")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
 
@@ -290,7 +302,8 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         round((BATTINGDETAILS.SCORE / BATTINGDETAILS.BALLS) * 100, 2).`as`("sr"),
                         max(BATTINGDETAILS.NOTOUTADJUSTEDSCORE).over().`as`("max_score"),
                         BATTINGDETAILS.matches.LOCATION,
-                        BATTINGDETAILS.matches.SERIESDATE
+                        BATTINGDETAILS.matches.SERIESDATE,
+                        BATTINGDETAILS.matches.MATCHSTARTDATEASOFFSET
                     )
                         .from(BATTINGDETAILS)
                         .where(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
@@ -316,7 +329,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     field("balls", Int::class.java),
                     field("Location", String::class.java),
                     field("SeriesDate", String::class.java),
+                    field("MatchStartDateAsOffset", String::class.java),
                 ).from("cte").where(field("sr").eq(field("min_sr")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
 
@@ -356,7 +371,8 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         round((BATTINGDETAILS.SCORE / BATTINGDETAILS.BALLS) * 100, 2).`as`("sr"),
                         max(BATTINGDETAILS.NOTOUTADJUSTEDSCORE).over().`as`("max_score"),
                         BATTINGDETAILS.matches.LOCATION,
-                        BATTINGDETAILS.matches.SERIESDATE
+                        BATTINGDETAILS.matches.SERIESDATE,
+                        BATTINGDETAILS.matches.MATCHSTARTDATEASOFFSET
                     )
                         .from(BATTINGDETAILS)
                         .where(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
@@ -382,7 +398,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     field("balls", Int::class.java),
                     field("Location", String::class.java),
                     field("SeriesDate", String::class.java),
+                    field("MatchStartDateAsOffset", String::class.java),
                 ).from("cte").where(field("sr").eq(field("max_sr")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
 
@@ -419,7 +437,8 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         max(BATTINGDETAILS.SIXES).over().`as`("max_sixes"),
                         BATTINGDETAILS.SIXES.`as`("sixes"),
                         BATTINGDETAILS.matches.LOCATION,
-                        BATTINGDETAILS.matches.SERIESDATE
+                        BATTINGDETAILS.matches.SERIESDATE,
+                        BATTINGDETAILS.matches.MATCHSTARTDATEASOFFSET
                     )
                         .from(BATTINGDETAILS)
                         .where(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
@@ -444,7 +463,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     field("sixes", Int::class.java),
                     field("Location", String::class.java),
                     field("SeriesDate", String::class.java),
+                    field("MatchStartDateAsOffset", String::class.java),
                 ).from("cte").where(field("sixes").eq(field("max_sixes")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
 
@@ -483,7 +504,8 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         max(BATTINGDETAILS.SIXES + BATTINGDETAILS.FOURS).over().`as`("max_boundaries"),
                         (BATTINGDETAILS.SIXES + BATTINGDETAILS.FOURS).`as`("boundaries"),
                         BATTINGDETAILS.matches.LOCATION,
-                        BATTINGDETAILS.matches.SERIESDATE
+                        BATTINGDETAILS.matches.SERIESDATE,
+                        BATTINGDETAILS.matches.MATCHSTARTDATEASOFFSET
                     )
                         .from(BATTINGDETAILS)
                         .where(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
@@ -510,7 +532,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     field("boundaries", Int::class.java),
                     field("Location", String::class.java),
                     field("SeriesDate", String::class.java),
+                    field("MatchStartDateAsOffset", String::class.java),
                 ).from("cte").where(field("boundaries").eq(field("max_boundaries")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
 
@@ -547,7 +571,8 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         max(BATTINGDETAILS.FOURS).over().`as`("max_fours"),
                         BATTINGDETAILS.FOURS.`as`("fours"),
                         BATTINGDETAILS.matches.LOCATION,
-                        BATTINGDETAILS.matches.SERIESDATE
+                        BATTINGDETAILS.matches.SERIESDATE,
+                        BATTINGDETAILS.matches.MATCHSTARTDATEASOFFSET
                     )
                         .from(BATTINGDETAILS)
                         .where(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
@@ -572,7 +597,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     field("fours", Int::class.java),
                     field("Location", String::class.java),
                     field("SeriesDate", String::class.java),
+                    field("MatchStartDateAsOffset", String::class.java),
                 ).from("cte").where(field("fours").eq(field("max_fours")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
 
@@ -613,6 +640,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         PLAYERSMATCHES.FULLNAME,
                         BOWLINGDETAILS.matches.LOCATION,
                         BOWLINGDETAILS.matches.SERIESDATE,
+                        BOWLINGDETAILS.matches.MATCHSTARTDATEASOFFSET
                     ).from(BOWLINGDETAILS)
                         .join(PLAYERSMATCHES).on(
                             PLAYERSMATCHES.PLAYERID.eq(BOWLINGDETAILS.PLAYERID)
@@ -642,8 +670,10 @@ class TeamRecords(private val userName: String, private val password: String, pr
                 field("FullName", String::class.java),
                 field("Location", String::class.java),
                 field("SeriesDate", String::class.java),
+                field("MatchStartDateAsOffset", String::class.java),
             ).from("cte")
                 .where(field("max_bb").eq(field("syntheticbestbowling")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
             for (row in results) {
@@ -682,6 +712,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         PLAYERSMATCHES.FULLNAME,
                         BOWLINGDETAILS.matches.LOCATION,
                         BOWLINGDETAILS.matches.SERIESDATE,
+                        BOWLINGDETAILS.matches.MATCHSTARTDATEASOFFSET
                     ).from(BOWLINGDETAILS)
                         .join(MATCHES).on(MATCHES.ID.eq(BOWLINGDETAILS.MATCHID))
                         .join(PLAYERSMATCHES).on(
@@ -716,8 +747,10 @@ class TeamRecords(private val userName: String, private val password: String, pr
                 field("FullName", String::class.java),
                 field("Location", String::class.java),
                 field("SeriesDate", String::class.java),
+                field("MatchStartDateAsOffset", String::class.java),
             ).from("cte")
                 .where(field("min_sr").eq(field("sr")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
             for (row in results) {
@@ -764,6 +797,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         PLAYERSMATCHES.FULLNAME,
                         BOWLINGDETAILS.matches.LOCATION,
                         BOWLINGDETAILS.matches.SERIESDATE,
+                        BOWLINGDETAILS.matches.MATCHSTARTDATEASOFFSET
                     ).from(BOWLINGDETAILS)
                         .join(MATCHES).on(MATCHES.ID.eq(BOWLINGDETAILS.MATCHID))
                         .join(PLAYERSMATCHES).on(
@@ -800,8 +834,10 @@ class TeamRecords(private val userName: String, private val password: String, pr
                 field("FullName", String::class.java),
                 field("Location", String::class.java),
                 field("SeriesDate", String::class.java),
+                field("MatchStartDateAsOffset", String::class.java),
             ).from("cte")
                 .where(field("min_er").eq(field("er")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
             for (row in results) {
@@ -848,6 +884,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         PLAYERSMATCHES.FULLNAME,
                         BOWLINGDETAILS.matches.LOCATION,
                         BOWLINGDETAILS.matches.SERIESDATE,
+                        BOWLINGDETAILS.matches.MATCHSTARTDATEASOFFSET
                     ).from(BOWLINGDETAILS)
                         .join(MATCHES).on(MATCHES.ID.eq(BOWLINGDETAILS.MATCHID))
                         .join(PLAYERSMATCHES).on(
@@ -884,8 +921,10 @@ class TeamRecords(private val userName: String, private val password: String, pr
                 field("FullName", String::class.java),
                 field("Location", String::class.java),
                 field("SeriesDate", String::class.java),
+                field("MatchStartDateAsOffset", String::class.java),
             ).from("cte")
                 .where(field("max_er").eq(field("er")))
+                .orderBy(field("MatchStartDateAsOffset"))
                 .fetch()
 
             for (row in results) {
@@ -927,8 +966,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     PLAYERSMATCHES.FULLNAME,
                     PLAYERSMATCHES.SORTNAMEPART,
                     BOWLINGDETAILS.NAME,
-                    MATCHES.SERIESDATE,
-                    MATCHES.LOCATION,
+                    BOWLINGDETAILS.matches.LOCATION,
+                    BOWLINGDETAILS.matches.SERIESDATE,
+                    BOWLINGDETAILS.matches.MATCHSTARTDATEASOFFSET,
                     rowNumber().over().partitionBy(BOWLINGDETAILS.MATCHID, BOWLINGDETAILS.PLAYERID).orderBy(
                         BOWLINGDETAILS.PLAYERID
                     ).`as`("rn"),
@@ -960,7 +1000,6 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     )
                     .join(t).on(t.ID.eq(BOWLINGDETAILS.TEAMID))
                     .join(o).on(o.ID.eq(BOWLINGDETAILS.OPPONENTSID))
-                    .join(MATCHES).on(MATCHES.ID.eq(BOWLINGDETAILS.MATCHID))
                     .where(BOWLINGDETAILS.MATCHTYPE.eq(teamParams.matchType))
                     .and(
                         BOWLINGDETAILS.MATCHID.`in`(
@@ -980,6 +1019,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
                 select(
                     field("FullName"),
                     field("SeriesDate"),
+                    field("MatchStartDateAsOffset"),
                     field("Location"),
                     field("Wickets"),
                     field("Runs"),
@@ -987,6 +1027,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     max(field("synbb")).over().`as`("max_synbb")
                 ).from("cte")
                     .where(field("synbb").isNotNull).and(field("rn").eq(1))
+                    .orderBy(field("MatchStartDateAsOffset"))
             )
 
             val query = q.select().from("cte2").where(field("synbb").eq(field("max_synbb")))
@@ -1021,7 +1062,6 @@ class TeamRecords(private val userName: String, private val password: String, pr
     fun getMostRuns(teamParams: TeamParams): MutableList<MostRunsDto> {
         val mostRuns = mutableListOf<MostRunsDto>()
 
-        val r = `when`(BATTINGDETAILS.INNINGSNUMBER.eq(1), 1)
         DriverManager.getConnection(connectionString, userName, password).use { conn ->
             val context = using(conn, SQLDialect.MYSQL)
             val q = context.with(
@@ -1029,6 +1069,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             ).`as`(
                 select(
                     PLAYERS.FULLNAME,
+                    PLAYERS.SORTNAMEPART,
                     sum(`when`(BATTINGDETAILS.INNINGSNUMBER.eq(1), 1)).over().partitionBy(BATTINGDETAILS.PLAYERID)
                         .`as`("matches"),
                     count(BATTINGDETAILS.SCORE).over().partitionBy(BATTINGDETAILS.PLAYERID).`as`("innings"),
@@ -1058,6 +1099,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             ).with("cte2").`as`(
                 select(
                     field("FullName"),
+                    field("SortNamePart"),
                     field("matches"),
                     field("runs"),
                     max(field("runs")).over().`as`("max_runs"),
@@ -1082,7 +1124,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             val query = q.select()
                 .from("cte2")
                 .where(field("runs").eq(field("max_runs")))
-                .orderBy(field("runs").desc())
+                .orderBy(field("runs").desc(), field("SortNamePart"))
 
             val result = query.fetch()
 
@@ -1141,6 +1183,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             ).`as`(
                 select(
                     PLAYERS.FULLNAME,
+                    PLAYERS.SORTNAMEPART,
                     sum(`when`(BOWLINGDETAILS.INNINGSNUMBER.eq(1), 1)).over().partitionBy(BOWLINGDETAILS.PLAYERID)
                         .`as`("matches"),
                     sum(BOWLINGDETAILS.BALLS).over().partitionBy(BOWLINGDETAILS.PLAYERID).`as`("balls"),
@@ -1174,6 +1217,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
                 .with("cte2").`as`(
                     select(
                         field("FullName"),
+                        field("SortNamePart"),
                         field("matches"),
                         field("balls"),
                         field("maidens"),
@@ -1199,7 +1243,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             val query = q.select()
                 .from("cte2")
                 .where(field("wickets").eq(field("max_wickets")))
-                .orderBy(field("wickets").desc())
+                .orderBy(field("wickets").desc(), field("SortNamePart"))
 
             val result = query.fetch()
 
@@ -1235,6 +1279,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             ).`as`(
                 select(
                     PLAYERS.FULLNAME,
+                    PLAYERS.SORTNAMEPART,
                     sum(`when`(FIELDING.INNINGSNUMBER.eq(1), 1)).over().partitionBy(FIELDING.PLAYERID).`as`("matches"),
                     sum(FIELDING.CAUGHTF).over().partitionBy(FIELDING.PLAYERID).add(
                         sum(FIELDING.CAUGHTWK).over().partitionBy(FIELDING.PLAYERID)
@@ -1263,6 +1308,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             ).with("cte2").`as`(
                 select(
                     field("FullName"),
+                    field("SortNamePart"),
                     field("matches"),
                     field("caught"),
                     max(field("caught")).over().`as`("max_caught")
@@ -1274,7 +1320,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             val query = q.select()
                 .from("cte2")
                 .where(field("caught").eq(field("max_caught")))
-                .orderBy(field("caught").desc())
+                .orderBy(field("caught").desc(), field("SortNamePart"))
 
             val result = query.fetch()
 
@@ -1304,6 +1350,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             ).`as`(
                 select(
                     PLAYERS.FULLNAME,
+                    PLAYERS.SORTNAMEPART,
                     sum(`when`(FIELDING.INNINGSNUMBER.eq(1), 1)).over().partitionBy(FIELDING.PLAYERID).`as`("matches"),
                     sum(FIELDING.STUMPED).over().partitionBy(FIELDING.PLAYERID).`as`("stumpings"),
                     rowNumber().over().partitionBy(FIELDING.PLAYERID).`as`("rn")
@@ -1330,6 +1377,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             ).with("cte2").`as`(
                 select(
                     field("FullName"),
+                    field("SortNamePart"),
                     field("matches"),
                     field("stumpings"),
                     max(field("stumpings")).over().`as`("max_stumpings")
@@ -1341,7 +1389,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             val query = q.select()
                 .from("cte2")
                 .where(field("stumpings").eq(field("max_stumpings")))
-                .orderBy(field("stumpings").desc())
+                .orderBy(field("stumpings").desc(), field("SortNamePart"))
 
             val result = query.fetch()
 
@@ -1386,6 +1434,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     ).with("cte2").`as`(
                         select().from("cte").where(field("synth_partnership").eq(field("max_partnership")))
                             .and(field("rn").eq(1))
+                            .orderBy(field("MatchStartDateAsOffset"))
                     )
                 val result = query.select().from("cte2").fetch()
 
@@ -1450,6 +1499,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     selectMultiple
                 ).with("cte2").`as`(
                     select().from("cte").where(field("rn").eq(1))
+                        .orderBy(field("MatchStartDateAsOffset"))
 
                 )
             val resultMultiples = queryMultiples.select().from("cte2")
@@ -1550,48 +1600,48 @@ class TeamRecords(private val userName: String, private val password: String, pr
     private fun createFowSelectForGivenWicketAndTeams(
         teamParams: TeamParams,
         wicket: Int
-    ): SelectSeekStep3<Record17<Int?, Int?, Int?, Int?, Boolean?, String?, String?, String?, Int?, Int?, Int, String?, Int?, Boolean?, String?, Int?, Boolean?>, Int?, Boolean?, Int?> {
+    ): SelectSeekStep3<Record18<Int?, Int?, Int?, Int?, Boolean?, String?, String?, String?, Long?, Int?, Int?, Int, String?, Int?, Boolean?, String?, Int?, Boolean?>, Int?, Boolean?, Int?> {
 
         return select(
-            MATCHES.ID,
+            PARTNERSHIPS.matches.ID,
             PARTNERSHIPS.WICKET,
             PARTNERSHIPS.INNINGSORDER,
             PARTNERSHIPS.PARTNERSHIP,
             PARTNERSHIPS.UNBROKEN,
             PARTNERSHIPS.PLAYERNAMES,
-            MATCHES.LOCATION,
-            MATCHES.SERIESDATE,
+            PARTNERSHIPS.matches.LOCATION,
+            PARTNERSHIPS.matches.SERIESDATE,
+            PARTNERSHIPS.matches.MATCHSTARTDATEASOFFSET,
             (PARTNERSHIPS.PARTNERSHIP + PARTNERSHIPS.UNBROKEN.div(10)).`as`("synth_partnership"),
             max(PARTNERSHIPS.PARTNERSHIP + PARTNERSHIPS.UNBROKEN.div(10)).over().`as`("max_partnership"),
-            rowNumber().over().partitionBy(MATCHES.ID, PARTNERSHIPS.PARTNERSHIP).`as`("rn"),
+            rowNumber().over().partitionBy(PARTNERSHIPS.matches.ID, PARTNERSHIPS.PARTNERSHIP).`as`("rn"),
             PLAYERSMATCHES.FULLNAME,
             BATTINGDETAILS.SCORE,
             BATTINGDETAILS.NOTOUT,
-            lead(PLAYERSMATCHES.FULLNAME).over().partitionBy(MATCHES.ID, PARTNERSHIPS.PARTNERSHIP)
+            lead(PLAYERSMATCHES.FULLNAME).over().partitionBy(PARTNERSHIPS.matches.ID, PARTNERSHIPS.PARTNERSHIP)
                 .`as`("fullName2"),
-            lead(BATTINGDETAILS.SCORE).over().partitionBy(MATCHES.ID, PARTNERSHIPS.PARTNERSHIP)
+            lead(BATTINGDETAILS.SCORE).over().partitionBy(PARTNERSHIPS.matches.ID, PARTNERSHIPS.PARTNERSHIP)
                 .`as`("score2"),
-            lead(BATTINGDETAILS.NOTOUT).over().partitionBy(MATCHES.ID, PARTNERSHIPS.PARTNERSHIP)
+            lead(BATTINGDETAILS.NOTOUT).over().partitionBy(PARTNERSHIPS.matches.ID, PARTNERSHIPS.PARTNERSHIP)
                 .`as`("notout2"),
         )
             .from(PARTNERSHIPS)
-            .join(MATCHES).on(MATCHES.ID.eq(PARTNERSHIPS.MATCHID))
             .leftOuterJoin(PARTNERSHIPSPLAYERS).on(PARTNERSHIPSPLAYERS.PARTNERSHIPID.eq(PARTNERSHIPS.ID))
             .leftOuterJoin(PLAYERSMATCHES).on(
                 PLAYERSMATCHES.PLAYERID.eq(PARTNERSHIPSPLAYERS.PLAYERID).and(
-                    PLAYERSMATCHES.MATCHID.eq(MATCHES.ID)
+                    PLAYERSMATCHES.MATCHID.eq(PARTNERSHIPS.matches.ID)
                 )
             )
             .leftOuterJoin(BATTINGDETAILS).on(
-                BATTINGDETAILS.MATCHID.eq(MATCHES.ID).and(
+                BATTINGDETAILS.MATCHID.eq(PARTNERSHIPS.matches.ID).and(
                     BATTINGDETAILS.PLAYERID.eq(
                         PARTNERSHIPSPLAYERS.PLAYERID
                     ).and(BATTINGDETAILS.INNINGSORDER.eq(PARTNERSHIPS.INNINGSORDER))
                 )
             )
-            .where(MATCHES.MATCHTYPE.eq(teamParams.matchType))
+            .where(PARTNERSHIPS.matches.MATCHTYPE.eq(teamParams.matchType))
             .and(
-                MATCHES.ID.`in`(
+                PARTNERSHIPS.matches.ID.`in`(
                     select(MATCHSUBTYPE.MATCHID).from(
                         MATCHSUBTYPE.where(
                             MATCHSUBTYPE.MATCHTYPE.eq(
@@ -1606,7 +1656,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
             .and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds))
             .and(PARTNERSHIPS.MULTIPLE.eq(false))
             .and(PARTNERSHIPS.WICKET.eq(wicket))
-            .orderBy(PARTNERSHIPS.PARTNERSHIP.desc(), PARTNERSHIPS.UNBROKEN.desc(), MATCHES.ID)
+            .orderBy(PARTNERSHIPS.PARTNERSHIP.desc(), PARTNERSHIPS.UNBROKEN.desc(), PARTNERSHIPS.matches.ID)
     }
 
 
@@ -1615,11 +1665,12 @@ class TeamRecords(private val userName: String, private val password: String, pr
         wicket: Int,
         teamParams: TeamParams,
         inningsOrder: Int
-    ): SelectSeekStep2<Record13<Int, String?, String?, Int?, Int?, Boolean?, Boolean?, String?, Int?, Boolean?, String?, Int?, Boolean?>, Int?, Boolean?> {
+    ): SelectSeekStep2<Record14<Int, String?, String?, Long?, Int?, Int?, Boolean?, Boolean?, String?, Int?, Boolean?, String?, Int?, Boolean?>, Int?, Boolean?> {
         return select(
             rowNumber().over().partitionBy(PARTNERSHIPS.PLAYERIDS).`as`("rn"),
-            MATCHES.LOCATION,
-            MATCHES.SERIESDATE,
+            PARTNERSHIPS.matches.LOCATION,
+            PARTNERSHIPS.matches.SERIESDATE,
+            PARTNERSHIPS.matches.MATCHSTARTDATEASOFFSET,
             PARTNERSHIPS.PARTNERSHIP,
             PARTNERSHIPS.WICKET,
             PARTNERSHIPS.UNBROKEN,
@@ -1631,12 +1682,11 @@ class TeamRecords(private val userName: String, private val password: String, pr
             lead(BATTINGDETAILS.SCORE).over().partitionBy(PARTNERSHIPS.PARTNERSHIP).`as`("score2"),
             lead(BATTINGDETAILS.NOTOUT).over().partitionBy(PARTNERSHIPS.PARTNERSHIP).`as`("notout2"),
         ).from(PARTNERSHIPS)
-            .join(MATCHES).on(MATCHES.ID.eq(PARTNERSHIPS.MATCHID))
             .join(PARTNERSHIPSPLAYERS).on(PARTNERSHIPS.ID.eq(PARTNERSHIPSPLAYERS.PARTNERSHIPID))
             .leftOuterJoin(PLAYERSMATCHES).on(
                 PLAYERSMATCHES.PLAYERID.eq(PARTNERSHIPSPLAYERS.PLAYERID).and(
                     PLAYERSMATCHES.MATCHID.eq(
-                        MATCHES.ID
+                        PARTNERSHIPS.matches.ID
                     )
                 )
             )

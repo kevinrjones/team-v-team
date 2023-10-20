@@ -41,16 +41,16 @@ data class TeamPairDetails(val teams: Array<String>,  val matchDto: MatchDto) {
 
     val nonFcMatchTypes = listOf("o", "a", "wo", "wa", "tt", "itt", "wtt", "witt")
 
-    fun addTeamData(teamRecords: TeamRecords, teamParamA: TeamParams, teamParamB: TeamParams, matchType: String) {
+    fun addTeamData(teamRecords: TeamRecords, teamParamA: TeamParams, teamParamB: TeamParams) {
         highestScores[0].addAll(
             teamRecords.getHighestTotals(
-                teamParamA, matchType
+                teamParamA
             )
         )
 
         highestScores[1].addAll(
             teamRecords.getHighestTotals(
-                teamParamB, matchType
+                teamParamB
             )
         )
 
@@ -68,11 +68,11 @@ data class TeamPairDetails(val teams: Array<String>,  val matchDto: MatchDto) {
     fun addIndividualData(teamRecords: TeamRecords, teamParamA: TeamParams, teamParamB: TeamParams, matchType: String) {
 
         highestIndividualScore[0].addAll(
-            teamRecords.getHighestIndividualScores(teamParamA, matchType)
+            teamRecords.getHighestIndividualScores(teamParamA)
         )
 
         highestIndividualScore[1].addAll(
-            teamRecords.getHighestIndividualScores(teamParamB, matchType)
+            teamRecords.getHighestIndividualScores(teamParamB)
         )
 
 
