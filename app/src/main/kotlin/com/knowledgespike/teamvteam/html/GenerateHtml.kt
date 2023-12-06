@@ -433,7 +433,7 @@ class GenerateHtml {
     }
 
     private fun DIV.generateOverallMostCatches(
-        mostDismissals: MutableList<MostDismissalsDto>,
+        mostDismissals: List<MostDismissalsDto>,
         title: String
     ) {
         table {
@@ -722,7 +722,7 @@ class GenerateHtml {
         if (bestBowlingERInnings.size == 0) {
             tr {
                 td {
-                    +"Best Bowling Economy Rate (no qualification)"
+                    +"Best Economy Rate"
                 }
                 td(null, "width", columnTwoWidth) {
                 }
@@ -1012,9 +1012,15 @@ class GenerateHtml {
                                     report(wicket, fow.team, fow.opponents)
                                     +" "
                                 } else {
-                                    +getPlayerScores(fow.player1Name, fow.player1Score, fow.player1NotOut)
-                                    +" "
-                                    +getPlayerScores(fow.player2Name, fow.player2Score, fow.player2NotOut)
+                                    if(fow.player1Position < fow.player2Position) {
+                                        +getPlayerScores(fow.player1Name, fow.player1Score, fow.player1NotOut)
+                                        +" "
+                                        +getPlayerScores(fow.player2Name, fow.player2Score, fow.player2NotOut)
+                                    } else {
+                                        +getPlayerScores(fow.player2Name, fow.player2Score, fow.player2NotOut)
+                                        +" "
+                                        +getPlayerScores(fow.player1Name, fow.player1Score, fow.player1NotOut)
+                                    }
                                 }
                             }
                             td(null) {
@@ -1053,9 +1059,15 @@ class GenerateHtml {
                                     report(wicket, fow.team, fow.opponents)
                                     +" "
                                 } else {
-                                    +getPlayerScores(fow.player1Name, fow.player1Score, fow.player1NotOut)
-                                    +" "
-                                    +getPlayerScores(fow.player2Name, fow.player2Score, fow.player2NotOut)
+                                    if(fow.player1Position < fow.player2Position) {
+                                        +getPlayerScores(fow.player1Name, fow.player1Score, fow.player1NotOut)
+                                        +" "
+                                        +getPlayerScores(fow.player2Name, fow.player2Score, fow.player2NotOut)
+                                    } else {
+                                        +getPlayerScores(fow.player2Name, fow.player2Score, fow.player2NotOut)
+                                        +" "
+                                        +getPlayerScores(fow.player1Name, fow.player1Score, fow.player1NotOut)
+                                    }
                                 }
                             }
                             td(null) {

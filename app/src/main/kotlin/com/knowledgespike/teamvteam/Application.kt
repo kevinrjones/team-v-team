@@ -26,6 +26,8 @@ class Application {
     companion object {
         private val log by LoggerDelegate()
 
+        var dialect = SQLDialect.DEFAULT
+
         @JvmStatic
         fun main(args: Array<String>) = runBlocking {
 
@@ -70,6 +72,25 @@ class Application {
                 val password = cmd.getOptionValue("p")
                 val baseDirectory = cmd.getOptionValue("bd")
                 val outputDirectory = cmd.getOptionValue("o")
+                val dialectOption = cmd.getOptionValue("d")
+
+                dialect = when (dialectOption) {
+                    "maria" -> {
+                        SQLDialect.MARIADB
+                    }
+
+                    "mysql" -> {
+                        SQLDialect.MYSQL
+                    }
+
+                    "postgres" -> {
+                        SQLDialect.POSTGRES
+                    }
+
+                    else -> {
+                        SQLDialect.DEFAULT
+                    }
+                }
 
                 processAllCompetitions(baseDirectory, outputDirectory, connectionString, userName, password)
             } catch (t: Throwable) {
@@ -237,7 +258,7 @@ class Application {
 
             val teamNameAndIds = mutableMapOf<String, List<Int>>()
             DriverManager.getConnection(connectionString, userName, password).use { conn ->
-                val context = DSL.using(conn, SQLDialect.MYSQL)
+                val context = DSL.using(conn, dialect)
 
                 for (t in teams) {
                     val ids = mutableListOf<Int>()
@@ -270,7 +291,7 @@ class Application {
 
             val teamNameAndIds = mutableMapOf<String, List<Int>>()
             DriverManager.getConnection(connectionString, userName, password).use { conn ->
-                val context = DSL.using(conn, SQLDialect.MYSQL)
+                val context = DSL.using(conn, dialect)
 
                 for (t in teams) {
                     val ids = mutableListOf<Int>()
@@ -350,12 +371,22 @@ class Application {
                 .required()
                 .build()
 
+            val sqlDialectOption = Option
+                .builder("d")
+                .hasArg()
+                .desc("the JOOQ SQL dialect to use (either 'mysql' or 'postgres'")
+                .argName("JOOQ SQL dialect")
+                .longOpt("dialect")
+                .required()
+                .build()
+
 
             options.addOption(connectionStringOption)
             options.addOption(userStringOption)
             options.addOption(passwordOption)
             options.addOption(baseDirectoryOption)
             options.addOption(outputLocationOption)
+            options.addOption(sqlDialectOption)
 
             return options
         }

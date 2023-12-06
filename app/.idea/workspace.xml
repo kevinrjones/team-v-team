@@ -6,23 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/daos/Daos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/daos/Daos.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/GatherData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/GatherData.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamPairDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamPairDetails.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/bbl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/cpl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/cu_v_ou.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/gent_v_players.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hun.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/ipl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/ireland_v_scotland.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/mcc_v_counties.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/mcc_v_countiesex.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/minor_counties.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/psl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/southland_v_otago.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/test_matches.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data_full/bbl.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data_full/bbl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/cpl.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/cpl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/cu_v_ou.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/cu_v_ou.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/gent_v_players.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/gent_v_players.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/hun.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/hun.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/ipl.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/ipl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/ireland_v_scotland.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/ireland_v_scotland.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mcc_v_counties.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mcc_v_counties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mcc_v_countiesex.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mcc_v_countiesex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/minor_counties.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/minor_counties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/southland_v_otago.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/southland_v_otago.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/test_matches.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data/test_matches.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/cu_v_ou.json" beforeDir="false" afterPath="$PROJECT_DIR$/../data_full/cu_v_ou.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,33 +45,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="team-by-team" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="team-by-team" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="team-by-team" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="version catalog update" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="team-by-team" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="team-by-team" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -137,13 +114,13 @@
       <recent name="com.knowledgespike.teamvteam" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.app [run]">
+  <component name="RunManager" selected="Gradle.app [run] ">
     <configuration name="app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,7 +159,51 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="app [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="app [generateJOOQMySql]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateJOOQMySql" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [generateJOOQ]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateJOOQ" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [run] " type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -194,51 +215,7 @@
         <option name="taskNames">
           <list>
             <option value="run" />
-            <option value="--args=&quot;-bd $PROJECT_DIR$/../data -c jdbc:mysql://localhost:3306/cricketarchive?useSSL=true&amp;requireSSL=true -u cricketarchive -p p4ssw0rd  -o $PROJECT_DIR$/../../../../team_v_team&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="app [versionCatalogFormat]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="versionCatalogFormat" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="app [versionCatalogUpdate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="versionCatalogUpdate" />
+            <option value="--args=&quot;-bd $PROJECT_DIR$/../data -c jdbc:mariadb://localhost:3306/cricketarchive -u cricketarchive -p p4ssw0rd  -o $PROJECT_DIR$/../../../../team_v_team -d mysql&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -285,18 +262,17 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.team-by-team [help]" />
-      <item itemvalue="Gradle.app [versionCatalogFormat]" />
-      <item itemvalue="Gradle.app [run]" />
-      <item itemvalue="Gradle.app [build]" />
+      <item itemvalue="Gradle.app [run] " />
+      <item itemvalue="Gradle.app [generateJOOQMySql]" />
       <item itemvalue="Gradle.app [clean]" />
-      <item itemvalue="Gradle.app [versionCatalogUpdate]" />
+      <item itemvalue="Gradle.app [generateJOOQ]" />
+      <item itemvalue="Gradle.app [build]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.app [run]" />
-        <item itemvalue="Gradle.app [versionCatalogUpdate]" />
-        <item itemvalue="Gradle.app [versionCatalogFormat]" />
+        <item itemvalue="Gradle.app [generateJOOQ]" />
         <item itemvalue="Gradle.app [build]" />
+        <item itemvalue="Gradle.app [generateJOOQMySql]" />
         <item itemvalue="Gradle.app [clean]" />
       </list>
     </recent_temporary>
@@ -389,12 +365,63 @@
       <workItem from="1697783564310" duration="1173000" />
       <workItem from="1697785232728" duration="547000" />
       <workItem from="1697785814755" duration="597000" />
-      <workItem from="1697786860136" duration="2167000" />
+      <workItem from="1697786860136" duration="2913000" />
+      <workItem from="1697869063269" duration="604000" />
+      <workItem from="1697893504325" duration="3000" />
+      <workItem from="1697958803183" duration="1827000" />
+      <workItem from="1698167332452" duration="5000" />
+      <workItem from="1698167345497" duration="17182000" />
+      <workItem from="1699047478654" duration="623000" />
+      <workItem from="1699082844999" duration="297000" />
+      <workItem from="1699124751375" duration="597000" />
+      <workItem from="1699159186812" duration="597000" />
+      <workItem from="1699241442511" duration="597000" />
+      <workItem from="1699258979790" duration="1824000" />
+      <workItem from="1700075843949" duration="60000" />
+      <workItem from="1700104110970" duration="5650000" />
+      <workItem from="1700293717698" duration="3100000" />
+      <workItem from="1700380914631" duration="3547000" />
+      <workItem from="1700726795999" duration="80206000" />
+      <workItem from="1701504145448" duration="584000" />
+      <workItem from="1701504779750" duration="6080000" />
+      <workItem from="1701591316160" duration="622000" />
+      <workItem from="1701596534761" duration="23351000" />
+      <workItem from="1701701959722" duration="891000" />
+      <workItem from="1701764660407" duration="321000" />
+      <workItem from="1701765073215" duration="598000" />
+      <workItem from="1701766414345" duration="10394000" />
+      <workItem from="1701788398620" duration="1342000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/GatherData.kt</url>
+          <line>1216</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/GatherData.kt</url>
+          <line>1827</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/GatherData.kt</url>
+          <line>1784</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/teamvteam/database/GatherData.kt</url>
+          <line>1804</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

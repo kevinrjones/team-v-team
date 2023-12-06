@@ -121,9 +121,11 @@ data class FoWDto(
     val player1Name: String,
     val player1Score: Int,
     val player1NotOut: Boolean,
+    val player1Position: Int,
     val player2Name: String,
     val player2Score: Int,
     val player2NotOut: Boolean,
+    val player2Position: Int,
 )
 
 data class MultiPlayerFowDto(val total: Int, val wicket: Int, val playerDetails: List<FoWDto>)

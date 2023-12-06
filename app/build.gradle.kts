@@ -27,7 +27,7 @@ buildscript {
     }
     dependencies {
         classpath(libs.jooqCodeGen)
-        classpath(libs.mysql)
+        classpath(libs.mariadb)
     }
 }
 
@@ -48,7 +48,7 @@ dependencies {
 
     implementation(libs.logback)
 
-    implementation(libs.mysql)
+    implementation(libs.mariadb)
 
     implementation(libs.jooq)
     implementation(libs.jooqCodeGen)
@@ -99,8 +99,8 @@ tasks.create("generateJOOQ") {
 //            .withBasedir("$projectDir/src/")
             .withJdbc(
                 Jdbc()
-                    .withDriver("com.mysql.cj.jdbc.Driver")
-                    .withUrl("jdbc:mysql://localhost:3306/cricketarchive")
+                    .withDriver("org.mariadb.jdbc.Driver")
+                    .withUrl("jdbc:mariadb://localhost:3306/cricketarchive")
                     .withUser("cricketarchive")
                     .withPassword("p4ssw0rd")
             )

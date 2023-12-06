@@ -2,6 +2,7 @@ package com.knowledgespike.teamvteam.database
 
 import com.knowledgespike.db.tables.references.MATCHES
 import com.knowledgespike.db.tables.references.MATCHSUBTYPE
+import com.knowledgespike.teamvteam.Application.Companion.dialect
 import com.knowledgespike.teamvteam.TeamNameToIds
 import com.knowledgespike.teamvteam.daos.MatchDto
 import com.knowledgespike.teamvteam.data.TeamsAndOpponents
@@ -102,8 +103,14 @@ class ProcessTeams(
         teamsAndOpponents: TeamsAndOpponents,
         matchSubType: String
     ): MatchDto {
+
+        val matchTypesToExclude =  mutableListOf("t", "wt", "itt", "witt", "o", "wo")
+
+        if(matchSubType == "minc")
+            matchTypesToExclude.add("sec")
+
         DriverManager.getConnection(connectionString, userName, password).use { conn ->
-            val context = DSL.using(conn, SQLDialect.MYSQL)
+            val context = DSL.using(conn, dialect)
             val result = context.select(
                 count(),
                 min(MATCHES.MATCHSTARTDATEASOFFSET).`as`("startDate"),
@@ -128,7 +135,7 @@ class ProcessTeams(
                     )
                     .and(MATCHES.VICTORYTYPE.notEqual(6))
                     .and(MATCHES.VICTORYTYPE.notEqual(11))
-                    .and(MATCHES.MATCHTYPE.notIn("t", "wt", "itt", "witt", "o", "wo"))
+                    .and(MATCHES.MATCHTYPE.notIn(matchTypesToExclude))
             ).fetch().first()
 
             val startDate = (result.getValue("startDate", Long::class.java) * 1000).toLocalDateTime()
@@ -138,8 +145,6 @@ class ProcessTeams(
                 LocalDateTime.from(startDate),
                 LocalDateTime.from(endDate),
             )
-
-
         }
     }
 
