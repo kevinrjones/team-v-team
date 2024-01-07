@@ -10,7 +10,10 @@ data class Competition(
 )
 
 @Serializable
-data class Team(val team: String, val duplicates: List<String>, val opponents: List<String> = listOf())
+data class Team(val team: String, val authors: List<Author> = listOf(), val duplicates: List<String>, val opponents: List<String> = listOf())
+
+@Serializable
+data class Author(val opponent: String, val name: String)
 
 data class TeamsAndOpponents(
     val teamName: String,
@@ -18,3 +21,5 @@ data class TeamsAndOpponents(
     val opponentsName: String,
     val opponentIds: List<Int>
 )
+
+data class OpponentWithAuthors(val team: String, val author: List<Author>)

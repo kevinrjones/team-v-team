@@ -3,6 +3,7 @@ package com.knowledgespike.teamvteam
 import com.knowledgespike.db.tables.references.TEAMS
 import com.knowledgespike.db.tables.references.TEAMSMATCHTYPES
 import com.knowledgespike.teamvteam.data.Competition
+import com.knowledgespike.teamvteam.data.OpponentWithAuthors
 import com.knowledgespike.teamvteam.data.Team
 import com.knowledgespike.teamvteam.database.ProcessTeams
 import com.knowledgespike.teamvteam.database.TeamPairDetails
@@ -155,13 +156,18 @@ class Application {
                         // todo: map of map, do both maps have the same key?
                         val opponentsForTeam = mutableMapOf<String, TeamNameToIds>()
                         competition.teams.forEach {
-                            val id = teamsWithDuplicates.get(it.team)
                             val opponents: TeamNameToIds =
                                 getTeamIdsForTeamNames(connectionString, userName, password, it.opponents, matchSubType)
                             opponentsForTeam.put(it.team, opponents)
                         }
 
-                        val processTeams = ProcessTeams(teamsWithDuplicates, opponentsForTeam)
+                        val opponentsWithAuthors = competition.teams
+                            .filter { it.authors.isNotEmpty() }
+                            .map { OpponentWithAuthors(it.team, it.authors) }
+                            .associateBy ({ it.team }, {it.author} )
+
+
+                        val processTeams = ProcessTeams(teamsWithDuplicates, opponentsForTeam, opponentsWithAuthors)
 
                         val outputDirectory = "${baseOutputDirectory}/${competition.outputDirectory}"
                         recordPage.generateIndexPageForTeamsAndType(

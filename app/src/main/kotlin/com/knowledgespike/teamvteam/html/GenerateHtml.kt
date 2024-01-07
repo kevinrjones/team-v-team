@@ -290,7 +290,7 @@ class GenerateHtml {
             }
             generateOverallDataTable(teamPairDetails, index)
         }
-        p { +"Kevin Jones" }
+        p { +teamPairDetails.authors.joinToString(", ") }
         generateRecordPageFooter(teamPairDetails.teams[0], teamPairDetails.teams[1], matchType)
     }
 
@@ -308,7 +308,7 @@ class GenerateHtml {
         table {
             thead {
                 tr {
-                    td (null, "width", columnOneWidth){
+                    td(null, "width", columnOneWidth) {
                         +"Most Runs"
                     }
                     td(null, "width", columnTwoWidth) {
@@ -458,7 +458,7 @@ class GenerateHtml {
                 }
             }
 
-            if(mostDismissals.isEmpty()) {
+            if (mostDismissals.isEmpty()) {
                 tr {
                     td(null, "width", columnOneWidth) { +"-" }
                     td(null, "width", columnTwoWidth) { +"-" }
@@ -538,15 +538,24 @@ class GenerateHtml {
         table.generateBestBowlingInInningsRow(bestBowlingInnings)
         if (bestBowlingSRInnings.isNotEmpty()) {
             table.generateBestBowlingSRInInningsRow("Best Bowling SR (no qualification)", bestBowlingSRInnings)
-            table.generateBestBowlingSRInInningsRow("Best Bowling SR (min: $bestBowlingOversLimit overs)", bestBowlingSRWithLimitInnings)
+            table.generateBestBowlingSRInInningsRow(
+                "Best Bowling SR (min: $bestBowlingOversLimit overs)",
+                bestBowlingSRWithLimitInnings
+            )
         }
         if (bestBowlingERInnings.isNotEmpty()) {
             table.generateBestBowlingEconRateInInningsRow("Best Economy Rate (no qualification)", bestBowlingERInnings)
-            table.generateBestBowlingEconRateInInningsRow("Best Economy Rate (min: $bestBowlingOversLimit overs)", bestBowlingERWithQualificationInnings)
+            table.generateBestBowlingEconRateInInningsRow(
+                "Best Economy Rate (min: $bestBowlingOversLimit overs)",
+                bestBowlingERWithQualificationInnings
+            )
         }
         if (worstBowlingERInnings.isNotEmpty()) {
             table.generateBestBowlingEconRateInInningsRow("Worst Economy Rate", worstBowlingERInnings)
-            table.generateBestBowlingEconRateInInningsRow("Worst Economy Rate (min: $bestBowlingOversLimit overs)", worstBowlingERWithLimitInnings)
+            table.generateBestBowlingEconRateInInningsRow(
+                "Worst Economy Rate (min: $bestBowlingOversLimit overs)",
+                worstBowlingERWithLimitInnings
+            )
         }
     }
 
@@ -566,10 +575,22 @@ class GenerateHtml {
     ) {
         table.generateMostRunsInInningsRow(highestIndividualScores)
         if (highestIndividualStrikeRates.isNotEmpty()) {
-            table.generateHighestStrikeRateRow(highestIndividualStrikeRates, "Highest Strike Rate in innings (no qualification)")
-            table.generateHighestStrikeRateRow(highestIndividualStrikeRatesWithLimit,"Highest Strike Rate in innings (min: $strikeRateRunsLimit runs)")
-            table.generateHighestStrikeRateRow(lowestIndividualStrikeRates, "Lowest Strike Rate in innings (min: $strikeRateLowerBallsLimit balls)")
-            table.generateHighestStrikeRateRow(lowestIndividualStrikeRatesWithLimit,"Lowest Strike Rate in innings (min: $strikeRateUpperBallsLimit balls)")
+            table.generateHighestStrikeRateRow(
+                highestIndividualStrikeRates,
+                "Highest Strike Rate in innings (no qualification)"
+            )
+            table.generateHighestStrikeRateRow(
+                highestIndividualStrikeRatesWithLimit,
+                "Highest Strike Rate in innings (min: $strikeRateRunsLimit runs)"
+            )
+            table.generateHighestStrikeRateRow(
+                lowestIndividualStrikeRates,
+                "Lowest Strike Rate in innings (min: $strikeRateLowerBallsLimit balls)"
+            )
+            table.generateHighestStrikeRateRow(
+                lowestIndividualStrikeRatesWithLimit,
+                "Lowest Strike Rate in innings (min: $strikeRateUpperBallsLimit balls)"
+            )
         }
         if (highestIndividualBoundaries.isNotEmpty()) {
             table.generateHighestBoundariesRow("Boundaries", highestIndividualBoundaries)
@@ -674,7 +695,10 @@ class GenerateHtml {
         }
     }
 
-    private fun TABLE.generateBestBowlingSRInInningsRow(title: String, bestBowlingSRInnings: MutableList<BowlingRatesDto>) {
+    private fun TABLE.generateBestBowlingSRInInningsRow(
+        title: String,
+        bestBowlingSRInnings: MutableList<BowlingRatesDto>
+    ) {
         if (bestBowlingSRInnings.size == 0) {
             tr {
                 td {
@@ -1008,11 +1032,11 @@ class GenerateHtml {
                                 +getPartnership(fow.partnership, fow.undefeated)
                             }
                             td {
-                                if (fow.player1Name.lowercase() == "unknown" || fow.player2Name.lowercase() == "unknown") {
+                                if (fow.player1Name.lowercase() == "unknown" && fow.player2Name.lowercase() == "unknown") {
                                     report(wicket, fow.team, fow.opponents)
                                     +" "
                                 } else {
-                                    if(fow.player1Position < fow.player2Position) {
+                                    if (fow.player1Position < fow.player2Position) {
                                         +getPlayerScores(fow.player1Name, fow.player1Score, fow.player1NotOut)
                                         +" "
                                         +getPlayerScores(fow.player2Name, fow.player2Score, fow.player2NotOut)
@@ -1059,7 +1083,7 @@ class GenerateHtml {
                                     report(wicket, fow.team, fow.opponents)
                                     +" "
                                 } else {
-                                    if(fow.player1Position < fow.player2Position) {
+                                    if (fow.player1Position < fow.player2Position) {
                                         +getPlayerScores(fow.player1Name, fow.player1Score, fow.player1NotOut)
                                         +" "
                                         +getPlayerScores(fow.player2Name, fow.player2Score, fow.player2NotOut)
@@ -1083,8 +1107,10 @@ class GenerateHtml {
         }
     }
 
-    private fun getPlayerScores(name: String, score: Int, isNotOut: Boolean): String =
-        if (isNotOut) "$name (${score}*)" else "$name (${score})"
+    private fun getPlayerScores(name: String, score: Int, isNotOut: Boolean): String {
+        if(name.lowercase() == "unknown") return "[unknown]"
+        return if (isNotOut) "$name (${score}*)" else "$name (${score})"
+    }
 
     private fun getPartnership(partnership: Int, undefeated: Boolean): String =
         if (!undefeated) partnership.toString()
