@@ -5,24 +5,24 @@ import com.knowledgespike.db.tables.references.MATCHSUBTYPE
 import com.knowledgespike.teamvteam.Application.Companion.dialect
 import com.knowledgespike.teamvteam.TeamNameToIds
 import com.knowledgespike.teamvteam.daos.MatchDto
+import com.knowledgespike.teamvteam.data.Author
 import com.knowledgespike.teamvteam.data.TeamsAndOpponents
 import com.knowledgespike.teamvteam.logging.LoggerDelegate
 import kotlinx.coroutines.*
-import org.jooq.SQLDialect
 import org.jooq.impl.DSL
 import org.jooq.impl.DSL.*
 import java.sql.DriverManager
 import java.time.Instant
 import java.time.LocalDateTime
 import java.time.ZoneId
-import java.util.concurrent.Executors
 
 
 val internationalMatchTypes = listOf("t", "wt", "itt", "witt", "o", "wo")
 
 class ProcessTeams(
     private val allTeams: TeamNameToIds,
-    private val opponentsForTeam: MutableMap<String, TeamNameToIds>,
+    private val opponentsForTeam: Map<String, TeamNameToIds>,
+    private val opponentsWithAuthors: Map<String, List<Author>>,
 ) {
     val log by LoggerDelegate()
 
@@ -89,6 +89,24 @@ class ProcessTeams(
                     }
                     jobs.add(job)
                     jobs.forEach { j -> j.join() }
+
+                    val maybeAuthors1 = opponentsWithAuthors
+                        .filter { it.key == teamPairDetails.teams[0] }
+                        .get(teamPairDetails.teams[0])?.map { it }
+                        ?.filter { it.opponent == teamPairDetails.teams[1] }
+                        ?.map { it.name }
+                    val maybeAuthors2 = opponentsWithAuthors
+                        .filter { it.key == teamPairDetails.teams[1] }
+                        .get(teamPairDetails.teams[1])?.map { it }
+                        ?.filter { it.opponent == teamPairDetails.teams[0] }
+                        ?.map { it.name }
+
+                    if (maybeAuthors1 != null && maybeAuthors1.isNotEmpty())
+                        teamPairDetails.authors.addAll(maybeAuthors1)
+                    if (maybeAuthors2 != null && maybeAuthors2.isNotEmpty())
+                        teamPairDetails.authors.addAll(maybeAuthors2)
+
+
                     callback(teamPairDetails)
                 }
             }
@@ -104,9 +122,9 @@ class ProcessTeams(
         matchSubType: String
     ): MatchDto {
 
-        val matchTypesToExclude =  mutableListOf("t", "wt", "itt", "witt", "o", "wo")
+        val matchTypesToExclude = mutableListOf("t", "wt", "itt", "witt", "o", "wo")
 
-        if(matchSubType == "minc")
+        if (matchSubType == "minc")
             matchTypesToExclude.add("sec")
 
         DriverManager.getConnection(connectionString, userName, password).use { conn ->
