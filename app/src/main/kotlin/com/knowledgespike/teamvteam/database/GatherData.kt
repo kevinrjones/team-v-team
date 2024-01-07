@@ -230,12 +230,32 @@ class TeamRecords(private val userName: String, private val password: String, pr
         DriverManager.getConnection(connectionString, userName, password).use { conn ->
             val context = using(conn, Application.dialect)
             val result = context
-                .with("cte").`as`(
+                .with("cte1").`as`(
+                    select(
+                        max(BATTINGDETAILS.NOTOUTADJUSTEDSCORE).over().`as`("max_score")
+                    ).from(BATTINGDETAILS)
+                        .where(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+                        .and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+                        .and(BATTINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
+                        .and(
+                            BATTINGDETAILS.MATCHID.`in`(
+                                select(MATCHSUBTYPE.MATCHID).from(
+                                    MATCHSUBTYPE.where(
+                                        MATCHSUBTYPE.MATCHTYPE.eq(
+                                            teamParams.matchSubType
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                        .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+                        .limit(1)
+                )
+                .with("cte2").`as`(
                     select(
                         BATTINGDETAILS.FULLNAME,
                         BATTINGDETAILS.battingdetailsIbfk_2.SORTNAMEPART,
                         BATTINGDETAILS.SCORE,
-                        max(BATTINGDETAILS.NOTOUTADJUSTEDSCORE).over().`as`("max_score"),
                         BATTINGDETAILS.NOTOUT,
                         BATTINGDETAILS.NOTOUTADJUSTEDSCORE,
                         BATTINGDETAILS.matches.LOCATION,
@@ -267,7 +287,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     field("location", String::class.java),
                     field("seriesdate", String::class.java),
                     field("matchstartdateasoffset", String::class.java),
-                ).from("cte").where(field("max_score").eq(field("notoutAdjustedscore")))
+                ).from("cte2")
+                .join("cte1")
+                .on(field("max_score").eq(field("notoutAdjustedscore")))
                 .orderBy(field("matchstartdateasoffset"), field("sortnamepart"), field("fullname"))
                 .fetch()
 
@@ -671,12 +693,36 @@ class TeamRecords(private val userName: String, private val password: String, pr
             val context = using(conn, dialect)
 
             val cte = context
-                .with("cte").`as`(
+                .with("cte1").`as`(
+                    select(
+                        max(BOWLINGDETAILS.SYNTHETICBESTBOWLING).over().`as`("max_bb"),
+                    ).from(BOWLINGDETAILS)
+                        .join(PLAYERSMATCHES).on(
+                            PLAYERSMATCHES.PLAYERID.eq(BOWLINGDETAILS.PLAYERID)
+                                .and(PLAYERSMATCHES.MATCHID.eq(BOWLINGDETAILS.MATCHID))
+                        )
+                        .where(BOWLINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
+                        .and(
+                            BOWLINGDETAILS.MATCHID.`in`(
+                                select(MATCHSUBTYPE.MATCHID).from(
+                                    MATCHSUBTYPE.where(
+                                        MATCHSUBTYPE.MATCHTYPE.eq(
+                                            teamParams.matchSubType
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                        .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+                        .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+                        .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+                        .limit(1)
+                )
+                .with("cte2").`as`(
                     select(
                         BOWLINGDETAILS.WICKETS,
                         BOWLINGDETAILS.RUNS,
                         BOWLINGDETAILS.SYNTHETICBESTBOWLING,
-                        max(BOWLINGDETAILS.SYNTHETICBESTBOWLING).over().`as`("max_bb"),
                         PLAYERSMATCHES.FULLNAME,
                         PLAYERSMATCHES.SORTNAMEPART,
                         BOWLINGDETAILS.matches.LOCATION,
@@ -713,8 +759,8 @@ class TeamRecords(private val userName: String, private val password: String, pr
                 field("location", String::class.java),
                 field("seriesdate", String::class.java),
                 field("matchstartdateasoffset", String::class.java),
-            ).from("cte")
-                .where(field("max_bb").eq(field("syntheticbestbowling")))
+            ).from("cte2")
+                .join("cte1"). on(field("max_bb").eq(field("syntheticbestbowling")))
                 .orderBy(field("matchstartdateasoffset"), field("sortnamepart"), field("fullname"))
                 .fetch()
 
@@ -1287,7 +1333,8 @@ class TeamRecords(private val userName: String, private val password: String, pr
                     BOWLINGDETAILS.PLAYERID,
                     BOWLINGDETAILS.RUNS,
                     BOWLINGDETAILS.WICKETS,
-                    BOWLINGDETAILS.SYNTHETICBESTBOWLING
+                    BOWLINGDETAILS.SYNTHETICBESTBOWLING,
+                    rowNumber().over().partitionBy(BOWLINGDETAILS.PLAYERID).orderBy(BOWLINGDETAILS.WICKETS.desc(), BOWLINGDETAILS.RUNS).`as`("rn")
                 ).from(BOWLINGDETAILS)
                     .where(
                         BOWLINGDETAILS.MATCHID.`in`(
@@ -1337,7 +1384,7 @@ class TeamRecords(private val userName: String, private val password: String, pr
                             )
                         )
                     )
-                    .where(field("rn").eq(1))
+                    .where(field("$tbbName.rn").eq(1)).and(field("$t1Name.rn").eq(1))
             ).withData().execute()
 
 
@@ -1660,6 +1707,21 @@ class TeamRecords(private val userName: String, private val password: String, pr
                             PARTNERSHIPS.PLAYERIDS
                         )
                         .`as`("position2"),
+                    rowNumber().over()
+                        .partitionBy(
+                            PARTNERSHIPS.matches.ID,
+                            PARTNERSHIPS.TEAMID,
+                            PARTNERSHIPS.INNINGSORDER,
+                            PARTNERSHIPS.WICKET,
+                            PARTNERSHIPS.PLAYERIDS
+                        ).orderBy(
+                            PARTNERSHIPS.matches.ID,
+                            PARTNERSHIPS.TEAMID,
+                            PARTNERSHIPS.INNINGSORDER,
+                            PARTNERSHIPS.WICKET,
+                            PARTNERSHIPS.PLAYERIDS
+                        )
+                        .`as`("rn"),
                 )
                     .from(PARTNERSHIPS)
                     .leftOuterJoin(PARTNERSHIPSPLAYERS).on(PARTNERSHIPSPLAYERS.PARTNERSHIPID.eq(PARTNERSHIPS.ID))
@@ -1695,7 +1757,9 @@ class TeamRecords(private val userName: String, private val password: String, pr
                         PARTNERSHIPS.WICKET,
                         PARTNERSHIPS.PARTNERSHIP.desc(),
                         PARTNERSHIPS.UNBROKEN.desc(),
-                        PARTNERSHIPS.matches.ID
+                        PARTNERSHIPS.matches.ID,
+                        field("fullname2").desc(),
+                        PLAYERSMATCHES.FULLNAME.desc(),
                     )
             ).withData().execute()
 
@@ -1729,27 +1793,24 @@ class TeamRecords(private val userName: String, private val password: String, pr
                                     .div(10)).`as`("synth_partnership"),
                                 max(field("partnership") + field("unbroken").cast(Float::class.java).div(10)).over()
                                     .`as`("max_partnership"),
-                                rowNumber().over()
-                                    .partitionBy(
-                                        field("id"),
-                                        field("teamid"),
-                                        field("inningsorder"),
-                                        field("wicket"),
-                                        field("playerids")
-                                    )
-                                    .`as`("rn"),
                             )
                                 .from(tmpTableName)
                                 .where(field("wicket").eq(wicket))
-                                .and(field("playernames").eq("unknown, unknown").or(field("fullname2").isNotNull))
-
+                                .and(field("rn").eq(1))
+//                                .and(field("playernames").eq("unknown, unknown").or(field("fullname2").isNotNull))
+                        ).with("cte2").`as`(
+                            select()
+                                .from("cte")
+                                .where(field("synth_partnership").eq(field("max_partnership")))
                         )
 
                     val result = query.select()
-                        .from("cte")
-                        .where(field("synth_partnership").eq(field("max_partnership")))
-                        .and(field("rn").eq(1))
-                        .orderBy(field("matchstartdateasoffset"))
+                        .from("cte2")
+                        .orderBy(
+                            field("partnership").desc(),
+                            field("matchstartdateasoffset"),
+                            field("inningsorder")
+                        )
                         .fetch()
 
                     for (partnershipRecord in result) {
@@ -1953,14 +2014,66 @@ class TeamRecords(private val userName: String, private val password: String, pr
             BATTINGDETAILS.SCORE,
             BATTINGDETAILS.NOTOUT,
             BATTINGDETAILS.POSITION,
-            lead(PLAYERSMATCHES.FULLNAME).over().partitionBy(PARTNERSHIPS.PLAYERIDS).orderBy(PARTNERSHIPS.PLAYERIDS)
-                .`as`("fullname2"),
-            lead(BATTINGDETAILS.SCORE).over().partitionBy(PARTNERSHIPS.PLAYERIDS).orderBy(PARTNERSHIPS.PLAYERIDS)
-                .`as`("score2"),
-            lead(BATTINGDETAILS.NOTOUT).over().partitionBy(PARTNERSHIPS.PLAYERIDS).orderBy(PARTNERSHIPS.PLAYERIDS)
-                .`as`("notout2"),
-            lead(BATTINGDETAILS.POSITION).over().partitionBy(PARTNERSHIPS.PLAYERIDS).orderBy(PARTNERSHIPS.PLAYERIDS)
-                .`as`("position2"),
+            lead(PLAYERSMATCHES.FULLNAME).over().partitionBy(
+                PARTNERSHIPS.MATCHID,
+                PARTNERSHIPS.TEAMID,
+                PARTNERSHIPS.INNINGSORDER,
+                PARTNERSHIPS.WICKET,
+                PARTNERSHIPS.PLAYERIDS,
+                PARTNERSHIPS.MULTIPLE
+            ).orderBy(
+                PARTNERSHIPS.MATCHID,
+                PARTNERSHIPS.TEAMID,
+                PARTNERSHIPS.INNINGSORDER,
+                PARTNERSHIPS.WICKET,
+                PARTNERSHIPS.PLAYERIDS,
+                PARTNERSHIPS.MULTIPLE
+            ).`as`("fullname2"),
+            lead(BATTINGDETAILS.SCORE).over().partitionBy(
+                PARTNERSHIPS.MATCHID,
+                PARTNERSHIPS.TEAMID,
+                PARTNERSHIPS.INNINGSORDER,
+                PARTNERSHIPS.WICKET,
+                PARTNERSHIPS.PLAYERIDS,
+                PARTNERSHIPS.MULTIPLE
+            ).orderBy(
+                PARTNERSHIPS.MATCHID,
+                PARTNERSHIPS.TEAMID,
+                PARTNERSHIPS.INNINGSORDER,
+                PARTNERSHIPS.WICKET,
+                PARTNERSHIPS.PLAYERIDS,
+                PARTNERSHIPS.MULTIPLE
+            ).`as`("score2"),
+            lead(BATTINGDETAILS.NOTOUT).over().partitionBy(
+                PARTNERSHIPS.MATCHID,
+                PARTNERSHIPS.TEAMID,
+                PARTNERSHIPS.INNINGSORDER,
+                PARTNERSHIPS.WICKET,
+                PARTNERSHIPS.PLAYERIDS,
+                PARTNERSHIPS.MULTIPLE
+            ).orderBy(
+                PARTNERSHIPS.MATCHID,
+                PARTNERSHIPS.TEAMID,
+                PARTNERSHIPS.INNINGSORDER,
+                PARTNERSHIPS.WICKET,
+                PARTNERSHIPS.PLAYERIDS,
+                PARTNERSHIPS.MULTIPLE
+            ).`as`("notout2"),
+            lead(BATTINGDETAILS.POSITION).over().partitionBy(
+                PARTNERSHIPS.MATCHID,
+                PARTNERSHIPS.TEAMID,
+                PARTNERSHIPS.INNINGSORDER,
+                PARTNERSHIPS.WICKET,
+                PARTNERSHIPS.PLAYERIDS,
+                PARTNERSHIPS.MULTIPLE
+            ).orderBy(
+                PARTNERSHIPS.MATCHID,
+                PARTNERSHIPS.TEAMID,
+                PARTNERSHIPS.INNINGSORDER,
+                PARTNERSHIPS.WICKET,
+                PARTNERSHIPS.PLAYERIDS,
+                PARTNERSHIPS.MULTIPLE
+            ).`as`("position2"),
         ).from(PARTNERSHIPS)
             .join(PARTNERSHIPSPLAYERS).on(PARTNERSHIPS.ID.eq(PARTNERSHIPSPLAYERS.PARTNERSHIPID))
             .leftOuterJoin(PLAYERSMATCHES).on(

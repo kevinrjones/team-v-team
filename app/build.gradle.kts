@@ -3,15 +3,6 @@ import org.jooq.meta.jaxb.*
 import org.jooq.meta.jaxb.Target
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 
-val logbackVersion: String by project
-val jooqVersion: String by project
-val kotlinVersion: String by project
-val kotlinxHtmlVersion: String by project
-val mySqlVersion: String by project
-val apacheCommonsCli: String by project
-val coroutinesVersion: String by project
-val kotlinSerializationVersion: String by project
-
 plugins {
     alias(libs.plugins.kotlinJvm)
     alias(libs.plugins.kotlinSerialization)
