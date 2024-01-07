@@ -8,6 +8,7 @@ data class TeamPairDetails(val teams: Array<String>,  val matchDto: MatchDto) {
     val strikeRateLowerBallsLimit = 10
     val strikeRateUpperBallsLimit = 20
     val economyRateOversLimit = 3
+    val authors: MutableList<String> = mutableListOf("Kevin Jones")
 
     val highestScores = mutableListOf<MutableList<TotalDto>>(mutableListOf(), mutableListOf())
     val highestIndividualScore = arrayListOf<MutableList<HighestScoreDto>>(mutableListOf(), mutableListOf())
