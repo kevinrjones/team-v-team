@@ -46,6 +46,7 @@ dependencies {
     implementation(libs.jooqMeta)
     implementation(libs.kotlinCoroutines)
     implementation(libs.kotlinxSerialization)
+    implementation(libs.kotlinxDatetime)
 
 
     implementation(libs.kotlinxHtmlJvm)
@@ -102,7 +103,7 @@ tasks.create("generateJOOQ") {
                     .withDatabase(
                         Database()
                             .withInputSchema("cricketarchive")
-                            .withName("org.jooq.meta.mysql.MySQLDatabase")
+                            .withName("org.jooq.meta.mariadb.MariaDBDatabase")
                     )
                     .withGenerate(Generate())
                     .withTarget(

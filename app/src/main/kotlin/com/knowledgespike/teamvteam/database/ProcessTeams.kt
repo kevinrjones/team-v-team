@@ -9,11 +9,13 @@ import com.knowledgespike.teamvteam.data.Author
 import com.knowledgespike.teamvteam.data.TeamsAndOpponents
 import com.knowledgespike.teamvteam.logging.LoggerDelegate
 import kotlinx.coroutines.*
+import kotlinx.datetime.Instant
+import kotlinx.datetime.LocalDateTime
+import kotlinx.datetime.TimeZone
+import kotlinx.datetime.toLocalDateTime
 import org.jooq.impl.DSL
 import org.jooq.impl.DSL.*
 import java.sql.DriverManager
-import java.time.Instant
-import java.time.LocalDateTime
 import java.time.ZoneId
 
 
@@ -71,6 +73,7 @@ class ProcessTeams(
         val teamRecords = TeamRecords(userName, password, connectionString)
         for (teamsAndOpponents in idPairs) {
             log.debug("Start processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
+            // todo: Is cached?
             val matchDto =
                 getCountOfMatchesBetweenTeams(connectionString, userName, password, teamsAndOpponents, matchSubType)
             if (matchDto.count != 0) {
@@ -124,10 +127,13 @@ class ProcessTeams(
 
         val matchTypesToExclude = mutableListOf("t", "wt", "itt", "witt", "o", "wo")
 
+
         if (matchSubType == "minc")
             matchTypesToExclude.add("sec")
 
         DriverManager.getConnection(connectionString, userName, password).use { conn ->
+            
+
             val context = DSL.using(conn, dialect)
             val result = context.select(
                 count(),
@@ -156,19 +162,19 @@ class ProcessTeams(
                     .and(MATCHES.MATCHTYPE.notIn(matchTypesToExclude))
             ).fetch().first()
 
-            val startDate = (result.getValue("startDate", Long::class.java) * 1000).toLocalDateTime()
+            val startDate: LocalDateTime = (result.getValue("startDate", Long::class.java) * 1000).toLocalDateTime()
             val endDate = (result.getValue("endDate", Long::class.java) * 1000).toLocalDateTime()
             return MatchDto(
                 result.getValue(0, Int::class.java),
-                LocalDateTime.from(startDate),
-                LocalDateTime.from(endDate),
+                startDate,
+                endDate,
             )
         }
     }
 
     fun Long.toLocalDateTime(): LocalDateTime {
-        val instant = Instant.ofEpochMilli(this)
-        val date = instant.atZone(ZoneId.systemDefault()).toLocalDateTime()
+        val instant = Instant.fromEpochMilliseconds(this)
+        val date = instant.toLocalDateTime(TimeZone.of(ZoneId.systemDefault().id))
         return date
     }
 

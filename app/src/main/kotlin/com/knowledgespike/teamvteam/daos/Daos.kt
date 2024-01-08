@@ -1,15 +1,20 @@
 package com.knowledgespike.teamvteam.daos
 
-import java.time.LocalDateTime
+import kotlinx.datetime.LocalDateTime
+import kotlinx.serialization.Serializable
 
 
+@Serializable
 data class MatchDto(val count:  Int, val startDate: LocalDateTime, val endDate: LocalDateTime)
+
+@Serializable
 data class LowestScoreDto(
     val lowestAllOutScore: List<TotalDto>,
     val lowestCompleteScores: List<TotalDto>,
     val lowestIncompleteScores: List<TotalDto>
 )
 
+@Serializable
 data class TotalDto(
     val team: String,
     val opponents: String,
@@ -20,6 +25,7 @@ data class TotalDto(
     val seriesDate: String
 )
 
+@Serializable
 data class HighestScoreDto(
     val name: String,
     val team: String,
@@ -30,6 +36,7 @@ data class HighestScoreDto(
     val seriesDate: String,
 )
 
+@Serializable
 data class MostRunsDto(
     val name: String,
     val team: String,
@@ -42,6 +49,7 @@ data class MostRunsDto(
     val hs: String
 )
 
+@Serializable
 data class MostDismissalsDto(
     val name: String,
     val team: String,
@@ -50,6 +58,7 @@ data class MostDismissalsDto(
     val dismissals: Int,
 )
 
+@Serializable
 data class MostWicketsDto(
     val name: String,
     val team: String,
@@ -64,6 +73,7 @@ data class MostWicketsDto(
     val average: Double
 )
 
+@Serializable
 data class StrikeRateDto(
     val name: String,
     val team: String,
@@ -75,6 +85,7 @@ data class StrikeRateDto(
     val seriesDate: String,
 )
 
+@Serializable
 data class BoundariesDto(
     val name: String,
     val team: String,
@@ -86,6 +97,7 @@ data class BoundariesDto(
     val seriesDate: String,
 )
 
+@Serializable
 data class BestBowlingDto(
     val name: String,
     val team: String,
@@ -96,6 +108,7 @@ data class BestBowlingDto(
     val seriesDate: String,
 )
 
+@Serializable
 data class BowlingRatesDto(
     val name: String,
     val team: String,
@@ -110,6 +123,7 @@ data class BowlingRatesDto(
     val seriesDate: String,
 )
 
+@Serializable
 data class FoWDto(
     val team: String,
     val opponents: String,
@@ -128,8 +142,12 @@ data class FoWDto(
     val player2Position: Int,
 )
 
+@Serializable
 data class MultiPlayerFowDto(val total: Int, val wicket: Int, val playerDetails: List<FoWDto>)
 
+@Serializable
 data class FowDetails(val standardFow: List<FoWDto>, val multiPlayerFow: List<MultiPlayerFowDto>)
 
+@Serializable
 data class PossibleMultiPlayerPartnerships(val matchId: Int, val inningsOrder: Int)
+

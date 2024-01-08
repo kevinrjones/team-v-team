@@ -1,16 +1,15 @@
 package com.knowledgespike.teamvteam.html
 
 
-import com.knowledgespike.extensions.capitalize
-
-import com.knowledgespike.teamvteam.database.TeamPairDetails
-import com.knowledgespike.teamvteam.logging.LoggerDelegate
-import kotlinx.html.*
-import kotlinx.html.stream.appendHTML
 import com.knowledgespike.extensions.*
 import com.knowledgespike.teamvteam.TeamPairHomePagesData
 import com.knowledgespike.teamvteam.daos.*
+import com.knowledgespike.teamvteam.database.TeamPairDetails
 import com.knowledgespike.teamvteam.helpers.getWicket
+import com.knowledgespike.teamvteam.logging.LoggerDelegate
+import kotlinx.datetime.toJavaLocalDateTime
+import kotlinx.html.*
+import kotlinx.html.stream.appendHTML
 import java.io.File
 import java.time.format.DateTimeFormatter
 
@@ -256,8 +255,8 @@ class GenerateHtml {
         }
     }
 
-
     private fun DIV.generateHtml(teamPairDetails: TeamPairDetails, matchType: String) {
+
 
         table(classes = "numberOfMatchesTable") {
             tr {
@@ -269,11 +268,11 @@ class GenerateHtml {
                 }
                 td {
                     +"From: "
-                    +DateTimeFormatter.ofPattern("dd MMMM yyyy").format(teamPairDetails.matchDto.startDate)
+                    +DateTimeFormatter.ofPattern("dd MMMM yyyy").format(teamPairDetails.matchDto.startDate.toJavaLocalDateTime())
                 }
                 td {
                     +"to: "
-                    +DateTimeFormatter.ofPattern("dd MMMM yyyy").format(teamPairDetails.matchDto.endDate)
+                    +DateTimeFormatter.ofPattern("dd MMMM yyyy").format(teamPairDetails.matchDto.endDate.toJavaLocalDateTime())
                 }
                 td(null, "width", columnFiveWidth) {
 

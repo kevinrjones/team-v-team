@@ -8,8 +8,11 @@ import com.knowledgespike.teamvteam.data.Team
 import com.knowledgespike.teamvteam.database.ProcessTeams
 import com.knowledgespike.teamvteam.database.TeamPairDetails
 import com.knowledgespike.teamvteam.html.GenerateHtml
+import com.knowledgespike.teamvteam.json.TeamPairDetailsData
+import com.knowledgespike.teamvteam.json.writeJson
 import com.knowledgespike.teamvteam.logging.LoggerDelegate
 import kotlinx.coroutines.*
+import kotlinx.datetime.Clock
 import kotlinx.serialization.json.Json
 import org.apache.commons.cli.*
 import org.jooq.DSLContext
@@ -72,11 +75,12 @@ class Application {
                 val userName = cmd.getOptionValue("u")
                 val password = cmd.getOptionValue("p")
                 val baseDirectory = cmd.getOptionValue("bd")
-                val outputDirectory = cmd.getOptionValue("o")
+                val fullyQualifiedHtmlOutputDirectory = cmd.getOptionValue("ho")
+                val relativeJsonOutputDirectory = cmd.getOptionValue("jo")
                 val dialectOption = cmd.getOptionValue("d")
 
                 dialect = when (dialectOption) {
-                    "maria" -> {
+                    "mariadb" -> {
                         SQLDialect.MARIADB
                     }
 
@@ -93,7 +97,15 @@ class Application {
                     }
                 }
 
-                processAllCompetitions(baseDirectory, outputDirectory, connectionString, userName, password)
+                val jsonOutputDirectory = "$baseDirectory/$relativeJsonOutputDirectory"
+                processAllCompetitions(
+                    baseDirectory,
+                    fullyQualifiedHtmlOutputDirectory,
+                    jsonOutputDirectory,
+                    connectionString,
+                    userName,
+                    password
+                )
             } catch (t: Throwable) {
                 log.error("Error in main", t)
             }
@@ -101,7 +113,8 @@ class Application {
 
         private suspend fun processAllCompetitions(
             baseDirectory: String,
-            baseOutputDirectory: String,
+            htmlOutputDirectory: String,
+            jsonOutputDirectory: String,
             connectionString: String,
             userName: String,
             password: String
@@ -132,7 +145,7 @@ class Application {
                         val matchDesignator = competition.title
                         val matchSubType = competition.subType
 
-                        val pairsForPage: MutableMap<String, TeamPairHomePagesData> = mutableMapOf()
+                        var pairsForPage: MutableMap<String, TeamPairHomePagesData> = mutableMapOf()
 
                         val recordPage = GenerateHtml()
 
@@ -164,12 +177,12 @@ class Application {
                         val opponentsWithAuthors = competition.teams
                             .filter { it.authors.isNotEmpty() }
                             .map { OpponentWithAuthors(it.team, it.authors) }
-                            .associateBy ({ it.team }, {it.author} )
+                            .associateBy({ it.team }, { it.author })
 
 
                         val processTeams = ProcessTeams(teamsWithDuplicates, opponentsForTeam, opponentsWithAuthors)
 
-                        val outputDirectory = "${baseOutputDirectory}/${competition.outputDirectory}"
+                        val outputDirectory = "${htmlOutputDirectory}/${competition.outputDirectory}"
                         recordPage.generateIndexPageForTeamsAndType(
                             sortedTeamNames,
                             matchSubType,
@@ -194,28 +207,63 @@ class Application {
                                 matchDesignator
                             )
 
-                            addPairToCollectionForPairVPairPages(
-                                competition.teams.map { it.team },
-                                pairsForPage,
-                                teamPairDetails
+                            val teamPairDetailsData = TeamPairDetailsData(
+                                teamPairDetails.matchDto,
+                                teamPairDetails.authors,
+                                teamPairDetails.highestScores,
+                                teamPairDetails.highestIndividualScore,
+                                teamPairDetails.highestIndividualStrikeRates,
+                                teamPairDetails.highestIndividualStrikeRatesWithLimit,
+                                teamPairDetails.lowestIndividualStrikeRates,
+                                teamPairDetails.lowestIndividualStrikeRatesWithLimit,
+                                teamPairDetails.mostFours,
+                                teamPairDetails.mostSixes,
+                                teamPairDetails.mostBoundaries,
+                                teamPairDetails.bestBowlingInnings,
+                                teamPairDetails.bestBowlingMatch,
+                                teamPairDetails.bestBowlingSRInnings,
+                                teamPairDetails.bestBowlingSRWithLimitInnings,
+                                teamPairDetails.worstBowlingERInnings,
+                                teamPairDetails.worstBowlingERInnings,
+                                teamPairDetails.worstBowlingERWithLimitInnings,
+                                teamPairDetails.bestFoW,
+                                teamPairDetails.mostRunsVsOpposition,
+                                teamPairDetails.mostWicketsVsOpposition,
+                                teamPairDetails.mostCatchesVsOpposition,
+                                teamPairDetails.mostStumpingsVsOpposition,
+                                teamPairDetails.teamAllLowestScores,
+                                Clock.System.now()
                             )
 
-                            recordPage.generateTeamVsTeamRecordsPage(
-                                teamPairDetails,
-                                matchDesignator,
-                                matchSubType,
-                                outputDirectory
-                            )
+
+                            val fullJsonOutputDirectory = "$jsonOutputDirectory/${competition.outputDirectory}/${matchSubType}"
+                            val fileName = "${teamPairDetails.teams[0].replace(" ", "_")}_v_${
+                                teamPairDetails.teams[1].replace(" ", "_")
+                            }.json"
+
+                            writeJson(fullJsonOutputDirectory, fileName, teamPairDetailsData)
+//                            pairsForPage = addPairToCollectionForPairVPairPages(
+//                                competition.teams.map { it.team },
+//                                teamPairDetails,
+//                                pairsForPage
+//                            )
+//
+//                            recordPage.generateTeamVsTeamRecordsPage(
+//                                teamPairDetails,
+//                                matchDesignator,
+//                                matchSubType,
+//                                outputDirectory
+//                            )
                         }
 
-                        recordPage.createTeamPairHomePages(
-                            matchSubType,
-                            matchDesignator,
-                            pairsForPage,
-                            country,
-                            gender,
-                            outputDirectory
-                        )
+//                        recordPage.createTeamPairHomePages(
+//                            matchSubType,
+//                            matchDesignator,
+//                            pairsForPage,
+//                            country,
+//                            gender,
+//                            outputDirectory
+//                        )
                     }
                     jobs.add(job)
                 }
@@ -227,9 +275,11 @@ class Application {
 
         private fun addPairToCollectionForPairVPairPages(
             competitionTeams: List<String>,
-            pairsForPage: MutableMap<String, TeamPairHomePagesData>,
-            teamPair: TeamPairDetails
-        ) {
+            teamPair: TeamPairDetails,
+            pairsForPage: Map<String, TeamPairHomePagesData>
+        ): MutableMap<String, TeamPairHomePagesData> {
+            val mutablePairsForPage: MutableMap<String, TeamPairHomePagesData> = mutableMapOf()
+            mutablePairsForPage.putAll(pairsForPage)
             var teamName = teamPair.teams[0]
             var hasOwnPage = competitionTeams.contains(teamName)
 
@@ -237,7 +287,7 @@ class Application {
             if (pairEx == null) {
                 val teamPairList = mutableListOf<TeamPairDetails>()
                 teamPairList.add(teamPair)
-                pairsForPage[teamPair.teams[0]] = TeamPairHomePagesData(hasOwnPage, teamPairList)
+                mutablePairsForPage[teamPair.teams[0]] = TeamPairHomePagesData(hasOwnPage, teamPairList)
             } else {
                 pairEx.teamPairDetails.add(teamPair)
             }
@@ -247,10 +297,11 @@ class Application {
                 hasOwnPage = competitionTeams.contains(teamName)
                 val teamPairList = mutableListOf<TeamPairDetails>()
                 teamPairList.add(teamPair)
-                pairsForPage[teamPair.teams[1]] = TeamPairHomePagesData(hasOwnPage, teamPairList)
+                mutablePairsForPage[teamPair.teams[1]] = TeamPairHomePagesData(hasOwnPage, teamPairList)
             } else {
                 pairEx.teamPairDetails.add(teamPair)
             }
+            return mutablePairsForPage
         }
 
         private fun getTeamIds(
@@ -368,14 +419,24 @@ class Application {
                 .required()
                 .build()
 
-            val outputLocationOption = Option
-                .builder("o")
+            val htmlOutputLocationOption = Option
+                .builder("ho")
                 .hasArg()
-                .desc("the output directory")
+                .desc("the fully qualified HTML output directory")
                 .argName("output directory name")
-                .longOpt("outputDirectory")
+                .longOpt("htmlOutputDirectory")
                 .required()
                 .build()
+
+            val jsonOutputLocationOption = Option
+                .builder("jo")
+                .hasArg()
+                .desc("the relative JSON output directory")
+                .argName("output directory name")
+                .longOpt("jsonOutputDirectory")
+                .required()
+                .build()
+
 
             val sqlDialectOption = Option
                 .builder("d")
@@ -391,7 +452,8 @@ class Application {
             options.addOption(userStringOption)
             options.addOption(passwordOption)
             options.addOption(baseDirectoryOption)
-            options.addOption(outputLocationOption)
+            options.addOption(htmlOutputLocationOption)
+            options.addOption(jsonOutputLocationOption)
             options.addOption(sqlDialectOption)
 
             return options
