@@ -1,0 +1,886 @@
+{
+    "team1": "Bedfordshire",
+    "team2": "Northumberland",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 39,
+        "startDate": "1904-06-22T00:00",
+        "endDate": "2023-07-23T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bedfordshire",
+                "opponents": "Northumberland",
+                "total": 381,
+                "wickets": 8,
+                "declared": false,
+                "location": "Denton Bank, Benwell Hill",
+                "seriesDate": "2010"
+            }
+        ],
+        [
+            {
+                "team": "Northumberland",
+                "opponents": "Bedfordshire",
+                "total": 461,
+                "wickets": 9,
+                "declared": false,
+                "location": "Osborne Avenue, Jesmond",
+                "seriesDate": "2013"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "OJ Clayson",
+                "team": "Bedfordshire",
+                "opponents": "Northumberland",
+                "score": 147,
+                "notOut": true,
+                "location": "Denton Bank, Benwell Hill",
+                "seriesDate": "2010"
+            }
+        ],
+        [
+            {
+                "name": "AD Cragg",
+                "team": "Northumberland",
+                "opponents": "Bedfordshire",
+                "score": 164,
+                "notOut": false,
+                "location": "Osborne Avenue, Jesmond",
+                "seriesDate": "2013"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Z Arshad",
+                "team": "Bedfordshire",
+                "opponents": "Northumberland",
+                "wickets": 7,
+                "runs": 100,
+                "location": "Wardown Park, Luton",
+                "seriesDate": "2009"
+            }
+        ],
+        [
+            {
+                "name": "CM Skinner",
+                "team": "Northumberland",
+                "opponents": "Bedfordshire",
+                "wickets": 8,
+                "runs": 57,
+                "location": "Dunstable Grammar School Ground, Dunstable",
+                "seriesDate": "1905"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "T Brett",
+                "team": "Bedfordshire",
+                "opponents": "Northumberland",
+                "wickets": 11,
+                "runs": 70,
+                "location": "Osborne Avenue, Jesmond",
+                "seriesDate": "2021"
+            }
+        ],
+        [
+            {
+                "name": "CM Skinner",
+                "team": "Northumberland",
+                "opponents": "Bedfordshire",
+                "wickets": 10,
+                "runs": 152,
+                "location": "Dunstable Grammar School Ground, Dunstable",
+                "seriesDate": "1905"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Northumberland",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1995",
+                        "partnership": 153,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RG Blair",
+                        "player1Score": 84,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "RN Dalton",
+                        "player2Score": 97,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Northumberland",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1983",
+                        "partnership": 133,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "A Fordham",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SJ Lines",
+                        "player2Score": 96,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Northumberland",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1997",
+                        "partnership": 152,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "W Larkins",
+                        "player1Score": 125,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DJM Mercer",
+                        "player2Score": 46,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Northumberland",
+                        "location": "Denton Bank, Benwell Hill",
+                        "seriesDate": "2010",
+                        "partnership": 112,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RI Keogh",
+                        "player1Score": 57,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "OJ Clayson",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Northumberland",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "2001",
+                        "partnership": 196,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "TR Bristow",
+                        "player1Score": 114,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "JA Knott",
+                        "player2Score": 75,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Northumberland",
+                        "location": "Denton Bank, Benwell Hill",
+                        "seriesDate": "2010",
+                        "partnership": 85,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GR Thurstance",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "OJ Clayson",
+                        "player2Score": 147,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Northumberland",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "2018",
+                        "partnership": 151,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MJ Taylor",
+                        "player1Score": 118,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "GM Darlow",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Northumberland",
+                        "location": "Dunstable Grammar School Ground, Dunstable",
+                        "seriesDate": "1905",
+                        "partnership": 97,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "G Pollitt",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "WE King",
+                        "player2Score": 55,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Northumberland",
+                        "location": "Denton Bank, Benwell Hill",
+                        "seriesDate": "2010",
+                        "partnership": 80,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "OJ Clayson",
+                        "player1Score": 147,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "BM Matthews",
+                        "player2Score": 18,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Northumberland",
+                        "location": "Lancot Park, Totternhoe",
+                        "seriesDate": "2012",
+                        "partnership": 40,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AM Reynoldson",
+                        "player1Score": 84,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "WE Sneath",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Bedfordshire",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1995",
+                        "partnership": 169,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CS Pickles",
+                        "player1Score": 109,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "TAS Brown",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Bedfordshire",
+                        "location": "Lancot Park, Totternhoe",
+                        "seriesDate": "2012",
+                        "partnership": 149,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "DR Young",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "LJ Goddard",
+                        "player2Score": 101,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Bedfordshire",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "2001",
+                        "partnership": 136,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "G Hallam",
+                        "player1Score": 85,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "B Parker",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Bedfordshire",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "2013",
+                        "partnership": 138,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "J du Toit",
+                        "player1Score": 138,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "K Turner",
+                        "player2Score": 99,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Bedfordshire",
+                        "location": "Denton Bank, Benwell Hill",
+                        "seriesDate": "2010",
+                        "partnership": 121,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "M Turns",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "MJ Symington",
+                        "player2Score": 95,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Bedfordshire",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "2013",
+                        "partnership": 188,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AD Cragg",
+                        "player1Score": 164,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "TJ Cant",
+                        "player2Score": 90,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 224,
+                        "wicket": 6,
+                        "playerDetails": [
+                            {
+                                "team": "Northumberland",
+                                "opponents": "Bedfordshire",
+                                "location": "Bedford Modern School Ground, Bedford",
+                                "seriesDate": "2006",
+                                "partnership": 48,
+                                "wicket": 6,
+                                "undefeated": true,
+                                "player1Name": "B Parker",
+                                "player1Score": 100,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "L Simpson",
+                                "player2Score": 19,
+                                "player2NotOut": false,
+                                "player2Position": 7
+                            },
+                            {
+                                "team": "Northumberland",
+                                "opponents": "Bedfordshire",
+                                "location": "Bedford Modern School Ground, Bedford",
+                                "seriesDate": "2006",
+                                "partnership": 176,
+                                "wicket": 6,
+                                "undefeated": false,
+                                "player1Name": "B Parker",
+                                "player1Score": 100,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "PJ Nicholson",
+                                "player2Score": 81,
+                                "player2NotOut": false,
+                                "player2Position": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Bedfordshire",
+                        "location": "Burnopfield Cricket Club Ground, Burnopfield",
+                        "seriesDate": "2016",
+                        "partnership": 104,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "J du Toit",
+                        "player1Score": 101,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "SJ Tindale",
+                        "player2Score": 58,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Bedfordshire",
+                        "location": "Lancot Park, Totternhoe",
+                        "seriesDate": "1994",
+                        "partnership": 116,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "D Borthwick",
+                        "player1Score": 107,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "G Angus",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Bedfordshire",
+                        "location": "The Vale, Westoning",
+                        "seriesDate": "2000",
+                        "partnership": 60,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "LJ Crozier",
+                        "player1Score": 35,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "G Angus",
+                        "player2Score": 32,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Bedfordshire",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1999",
+                        "partnership": 50,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "G Angus",
+                        "player1Score": 24,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "C Stanley",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AM Reynoldson",
+                "team": "Bedfordshire",
+                "opponents": "Northumberland",
+                "matches": 8,
+                "runs": 559,
+                "innings": 13,
+                "notOuts": 1,
+                "average": 46.58,
+                "hs": "84*"
+            }
+        ],
+        [
+            {
+                "name": "PNS Dutton",
+                "team": "Northumberland",
+                "opponents": "Bedfordshire",
+                "matches": 10,
+                "runs": 648,
+                "innings": 20,
+                "notOuts": 3,
+                "average": 38.11,
+                "hs": "64"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GE Wharmby",
+                "team": "Bedfordshire",
+                "opponents": "Northumberland",
+                "matches": 6,
+                "balls": 1030,
+                "maidens": 48,
+                "runs": 389,
+                "wickets": 32,
+                "bbruns": 42,
+                "bbwickets": 6,
+                "average": 12.15
+            }
+        ],
+        [
+            {
+                "name": "C Stanley",
+                "team": "Northumberland",
+                "opponents": "Bedfordshire",
+                "matches": 7,
+                "balls": 1056,
+                "maidens": 34,
+                "runs": 695,
+                "wickets": 27,
+                "bbruns": 73,
+                "bbwickets": 6,
+                "average": 25.74
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "MJ Taylor",
+                "team": "Bedfordshire",
+                "opponents": "Northumberland",
+                "matches": 4,
+                "dismissals": 15
+            }
+        ],
+        [
+            {
+                "name": "K Corby",
+                "team": "Northumberland",
+                "opponents": "Bedfordshire",
+                "matches": 7,
+                "dismissals": 21
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "GG Arblaster",
+                "team": "Bedfordshire",
+                "opponents": "Northumberland",
+                "matches": 4,
+                "dismissals": 4
+            },
+            {
+                "name": "GD Sandford",
+                "team": "Bedfordshire",
+                "opponents": "Northumberland",
+                "matches": 8,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "K Corby",
+                "team": "Northumberland",
+                "opponents": "Bedfordshire",
+                "matches": 7,
+                "dismissals": 4
+            },
+            {
+                "name": "GE Wilkinson",
+                "team": "Northumberland",
+                "opponents": "Bedfordshire",
+                "matches": 3,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Northumberland",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Dunstable Grammar School Ground, Dunstable",
+                    "seriesDate": "1905"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Northumberland",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Dunstable Grammar School Ground, Dunstable",
+                    "seriesDate": "1905"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Northumberland",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Osborne Avenue, Jesmond",
+                    "seriesDate": "1997"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Northumberland",
+                    "opponents": "Bedfordshire",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Goldington Bury, Bedford",
+                    "seriesDate": "2003"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Northumberland",
+                    "opponents": "Bedfordshire",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Goldington Bury, Bedford",
+                    "seriesDate": "2003"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Northumberland",
+                    "opponents": "Bedfordshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Osborne Avenue, Jesmond",
+                    "seriesDate": "1997"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:14.294650Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,832 @@
+{
+    "team1": "Bedfordshire",
+    "team2": "Shropshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 50,
+        "startDate": "1958-08-04T01:00",
+        "endDate": "1982-08-01T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bedfordshire",
+                "opponents": "Shropshire",
+                "total": 298,
+                "wickets": 3,
+                "declared": true,
+                "location": "Bedford School Ground, Bedford",
+                "seriesDate": "1960"
+            }
+        ],
+        [
+            {
+                "team": "Shropshire",
+                "opponents": "Bedfordshire",
+                "total": 316,
+                "wickets": 6,
+                "declared": true,
+                "location": "Orleton Park, Wellington",
+                "seriesDate": "1976"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "DE Pratt",
+                "team": "Bedfordshire",
+                "opponents": "Shropshire",
+                "score": 129,
+                "notOut": true,
+                "location": "Bedford School Ground, Bedford",
+                "seriesDate": "1960"
+            }
+        ],
+        [
+            {
+                "name": "DNF Slade",
+                "team": "Shropshire",
+                "opponents": "Bedfordshire",
+                "score": 133,
+                "notOut": false,
+                "location": "Wardown Park, Luton",
+                "seriesDate": "1974"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "M Ashenden",
+                "team": "Bedfordshire",
+                "opponents": "Shropshire",
+                "wickets": 10,
+                "runs": 15,
+                "location": "Bedford School Ground, Bedford",
+                "seriesDate": "1958"
+            }
+        ],
+        [
+            {
+                "name": "GV Othen",
+                "team": "Shropshire",
+                "opponents": "Bedfordshire",
+                "wickets": 8,
+                "runs": 42,
+                "location": "Bedford School Ground, Bedford",
+                "seriesDate": "1969"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "GM Jarrett",
+                "team": "Bedfordshire",
+                "opponents": "Shropshire",
+                "wickets": 13,
+                "runs": 116,
+                "location": "St Georges Recreation Ground, Oakengates",
+                "seriesDate": "1972"
+            }
+        ],
+        [
+            {
+                "name": "GA Trinder",
+                "team": "Shropshire",
+                "opponents": "Bedfordshire",
+                "wickets": 13,
+                "runs": 114,
+                "location": "Bedford School Ground, Bedford",
+                "seriesDate": "1961"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Shropshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1962",
+                        "partnership": 134,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AW Durley",
+                        "player1Score": 69,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "DJF Hoare",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Shropshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1964",
+                        "partnership": 133,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "G Dawson",
+                        "player1Score": 98,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "W Chamberlain",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Shropshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1961",
+                        "partnership": 95,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RD Lowings",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "W Chamberlain",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Shropshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1960",
+                        "partnership": 145,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "DE Pratt",
+                        "player1Score": 129,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "W Chamberlain",
+                        "player2Score": 54,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Shropshire",
+                        "location": "St Georges Recreation Ground, Oakengates",
+                        "seriesDate": "1972",
+                        "partnership": 126,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "R Pearman",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "J Kettleborough",
+                        "player2Score": 43,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Shropshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1971",
+                        "partnership": 60,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "NS Cooley",
+                        "player1Score": 48,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "BA Herbert",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Shropshire",
+                        "location": "London Road, Shrewsbury",
+                        "seriesDate": "1981",
+                        "partnership": 76,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "KV Jones",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "PGM August",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Shropshire",
+                        "location": "Bull Pond Lane, Dunstable",
+                        "seriesDate": "1972",
+                        "partnership": 60,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "J Smith",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "TGA Morley",
+                        "player2Score": 31,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Shropshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1959",
+                        "partnership": 59,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JAR Oliver",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "MW Crouch",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Shropshire",
+                        "location": "Bull Pond Lane, Dunstable",
+                        "seriesDate": "1982",
+                        "partnership": 36,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "DM Daniels",
+                        "player1Score": 57,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "PGM August",
+                        "player2Score": 12,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Morda Road, Oswestry",
+                        "seriesDate": "1974",
+                        "partnership": 154,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JS Johnson",
+                        "player1Score": 66,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DNF Slade",
+                        "player2Score": 90,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Bull Pond Lane, Dunstable",
+                        "seriesDate": "1982",
+                        "partnership": 134,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JS Johnson",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "JBR Jones",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Orleton Park, Wellington",
+                        "seriesDate": "1975",
+                        "partnership": 145,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DNF Slade",
+                        "player1Score": 114,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "TA Lloyd",
+                        "player2Score": 59,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Orleton Park, Wellington",
+                        "seriesDate": "1977",
+                        "partnership": 153,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RL Burton",
+                        "player1Score": 103,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "DNF Slade",
+                        "player2Score": 88,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Bull Pond Lane, Dunstable",
+                        "seriesDate": "1978",
+                        "partnership": 121,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GR Cass",
+                        "player1Score": 77,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "SC Gale",
+                        "player2Score": 61,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1968",
+                        "partnership": 49,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GV Othen",
+                        "player1Score": 28,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JS Johnson",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Orleton Park, Wellington",
+                        "seriesDate": "1970",
+                        "partnership": 90,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "BJ Hare",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GV Othen",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Grove Ground, Market Drayton",
+                        "seriesDate": "1964",
+                        "partnership": 71,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "DJ Barnes",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RM Claffey",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1981",
+                        "partnership": 56,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "GR Cass",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JA Smith",
+                        "player2Score": 29,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Orleton Park, Wellington",
+                        "seriesDate": "1965",
+                        "partnership": 52,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "HJ Phillips",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "RM Claffey",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "DJF Hoare",
+                "team": "Bedfordshire",
+                "opponents": "Shropshire",
+                "matches": 18,
+                "runs": 843,
+                "innings": 31,
+                "notOuts": 5,
+                "average": 32.42,
+                "hs": "74"
+            }
+        ],
+        [
+            {
+                "name": "JS Johnson",
+                "team": "Shropshire",
+                "opponents": "Bedfordshire",
+                "matches": 29,
+                "runs": 1622,
+                "innings": 54,
+                "notOuts": 5,
+                "average": 33.1,
+                "hs": "118*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GM Jarrett",
+                "team": "Bedfordshire",
+                "opponents": "Shropshire",
+                "matches": 21,
+                "balls": 3917,
+                "maidens": 153,
+                "runs": 1755,
+                "wickets": 131,
+                "bbruns": 43,
+                "bbwickets": 9,
+                "average": 13.39
+            }
+        ],
+        [
+            {
+                "name": "GV Othen",
+                "team": "Shropshire",
+                "opponents": "Bedfordshire",
+                "matches": 27,
+                "balls": 3480,
+                "maidens": 159,
+                "runs": 1478,
+                "wickets": 71,
+                "bbruns": 42,
+                "bbwickets": 8,
+                "average": 20.81
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "J Smith",
+                "team": "Bedfordshire",
+                "opponents": "Shropshire",
+                "matches": 28,
+                "dismissals": 24
+            }
+        ],
+        [
+            {
+                "name": "JS Johnson",
+                "team": "Shropshire",
+                "opponents": "Bedfordshire",
+                "matches": 29,
+                "dismissals": 29
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "PGM August",
+                "team": "Bedfordshire",
+                "opponents": "Shropshire",
+                "matches": 11,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "KW Powell",
+                "team": "Shropshire",
+                "opponents": "Bedfordshire",
+                "matches": 5,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Shropshire",
+                    "total": 35,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Morda Road, Oswestry",
+                    "seriesDate": "1973"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Shropshire",
+                    "total": 35,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Morda Road, Oswestry",
+                    "seriesDate": "1973"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Shropshire",
+                    "total": 7,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Orleton Park, Wellington",
+                    "seriesDate": "1966"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Bedfordshire",
+                    "total": 37,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford School Ground, Bedford",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Bedfordshire",
+                    "total": 37,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford School Ground, Bedford",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Bedfordshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Bedford School Ground, Bedford",
+                    "seriesDate": "1962"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:16.113312Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

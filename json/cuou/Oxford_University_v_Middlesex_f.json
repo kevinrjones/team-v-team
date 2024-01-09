@@ -1,0 +1,875 @@
+{
+    "team1": "Oxford University",
+    "team2": "Middlesex",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 59,
+        "startDate": "1872-06-17T00:00",
+        "endDate": "1998-06-13T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Oxford University",
+                "opponents": "Middlesex",
+                "total": 612,
+                "wickets": 10,
+                "declared": false,
+                "location": "Prince's Cricket Ground, Chelsea",
+                "seriesDate": "1876"
+            }
+        ],
+        [
+            {
+                "team": "Middlesex",
+                "opponents": "Oxford University",
+                "total": 509,
+                "wickets": 5,
+                "declared": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1952"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "KJ Key",
+                "team": "Oxford University",
+                "opponents": "Middlesex",
+                "score": 281,
+                "notOut": false,
+                "location": "Chiswick Park, Chiswick",
+                "seriesDate": "1887"
+            }
+        ],
+        [
+            {
+                "name": "WJ Edrich",
+                "team": "Middlesex",
+                "opponents": "Oxford University",
+                "score": 239,
+                "notOut": false,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1952"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "W Foord-Kelcey",
+                "team": "Oxford University",
+                "opponents": "Middlesex",
+                "wickets": 7,
+                "runs": 39,
+                "location": "Prince's Cricket Ground, Chelsea",
+                "seriesDate": "1875"
+            }
+        ],
+        [
+            {
+                "name": "FJ Durston",
+                "team": "Middlesex",
+                "opponents": "Oxford University",
+                "wickets": 8,
+                "runs": 27,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "W Foord-Kelcey",
+                "team": "Oxford University",
+                "opponents": "Middlesex",
+                "wickets": 13,
+                "runs": 128,
+                "location": "Prince's Cricket Ground, Chelsea",
+                "seriesDate": "1875"
+            }
+        ],
+        [
+            {
+                "name": "FA Tarrant",
+                "team": "Middlesex",
+                "opponents": "Oxford University",
+                "wickets": 14,
+                "runs": 122,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1914"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Middlesex",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1947",
+                        "partnership": 154,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WG Keighley",
+                        "player1Score": 99,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HA Pawson",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Middlesex",
+                        "location": "Prince's Cricket Ground, Chelsea",
+                        "seriesDate": "1876",
+                        "partnership": 152,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Middlesex",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1992",
+                        "partnership": 131,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Middlesex",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1961",
+                        "partnership": 207,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Middlesex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1877",
+                        "partnership": 177,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Middlesex",
+                        "location": "Prince's Cricket Ground, Chelsea",
+                        "seriesDate": "1876",
+                        "partnership": 165,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Middlesex",
+                        "location": "Chiswick Park, Chiswick",
+                        "seriesDate": "1887",
+                        "partnership": 340,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Middlesex",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1922",
+                        "partnership": 72,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "BCJ Bettington",
+                        "player1Score": 43,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "VR Price",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Middlesex",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1921",
+                        "partnership": 89,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Middlesex",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1976",
+                        "partnership": 53,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "PB Fisher",
+                        "player1Score": 24,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "RI Eddington",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1962",
+                        "partnership": 160,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PH Parfitt",
+                        "player1Score": 87,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SEJ Russell",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1989",
+                        "partnership": 246,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "IJF Hutchinson",
+                        "player1Score": 201,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "MA Roseberry",
+                        "player2Score": 101,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1952",
+                        "partnership": 267,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1925",
+                        "partnership": 139,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1961",
+                        "partnership": 129,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "PH Parfitt",
+                        "player1Score": 125,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "FJ Titmus",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1951",
+                        "partnership": 102,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1984",
+                        "partnership": 126,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1922",
+                        "partnership": 77,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1938",
+                        "partnership": 79,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1951",
+                        "partnership": 41,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "LH Compton",
+                        "player1Score": 46,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "A McCorquodale",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1976",
+                        "partnership": 41,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AA Jones",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "MWW Selvey",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "DR Worsley",
+                "team": "Oxford University",
+                "opponents": "Middlesex",
+                "matches": 4,
+                "runs": 359,
+                "innings": 7,
+                "notOuts": 0,
+                "average": 51.28,
+                "hs": "139"
+            }
+        ],
+        [
+            {
+                "name": "WE Russell",
+                "team": "Middlesex",
+                "opponents": "Oxford University",
+                "matches": 11,
+                "runs": 774,
+                "innings": 17,
+                "notOuts": 3,
+                "average": 55.28,
+                "hs": "153"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RHB Bettington",
+                "team": "Oxford University",
+                "opponents": "Middlesex",
+                "matches": 4,
+                "balls": 665,
+                "maidens": 21,
+                "runs": 347,
+                "wickets": 18,
+                "bbruns": 52,
+                "bbwickets": 5,
+                "average": 19.27
+            },
+            {
+                "name": "AH Kardar",
+                "team": "Oxford University",
+                "opponents": "Middlesex",
+                "matches": 3,
+                "balls": 778,
+                "maidens": 46,
+                "runs": 241,
+                "wickets": 18,
+                "bbruns": 51,
+                "bbwickets": 6,
+                "average": 13.38
+            }
+        ],
+        [
+            {
+                "name": "FJ Titmus",
+                "team": "Middlesex",
+                "opponents": "Oxford University",
+                "matches": 12,
+                "balls": 2910,
+                "maidens": 225,
+                "runs": 783,
+                "wickets": 71,
+                "bbruns": 5,
+                "bbwickets": 6,
+                "average": 11.02
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RHB Bettington",
+                "team": "Oxford University",
+                "opponents": "Middlesex",
+                "matches": 4,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "JT Murray",
+                "team": "Middlesex",
+                "opponents": "Oxford University",
+                "matches": 13,
+                "dismissals": 30
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "H Fowler",
+                "team": "Oxford University",
+                "opponents": "Middlesex",
+                "matches": 3,
+                "dismissals": 3
+            },
+            {
+                "name": "RE Luyt",
+                "team": "Oxford University",
+                "opponents": "Middlesex",
+                "matches": 1,
+                "dismissals": 3
+            },
+            {
+                "name": "AC Smith",
+                "team": "Oxford University",
+                "opponents": "Middlesex",
+                "matches": 3,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "JT Murray",
+                "team": "Middlesex",
+                "opponents": "Oxford University",
+                "matches": 13,
+                "dismissals": 12
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Middlesex",
+                    "total": 65,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1968"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Middlesex",
+                    "total": 65,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1968"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Middlesex",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1996"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Middlesex",
+                    "opponents": "Oxford University",
+                    "total": 47,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Prince's Cricket Ground, Chelsea",
+                    "seriesDate": "1874"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Middlesex",
+                    "opponents": "Oxford University",
+                    "total": 47,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Prince's Cricket Ground, Chelsea",
+                    "seriesDate": "1874"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Middlesex",
+                    "opponents": "Oxford University",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1965"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:44.704031Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

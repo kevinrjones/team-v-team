@@ -1,0 +1,831 @@
+{
+    "team1": "Staffordshire",
+    "team2": "Worcestershire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1895-07-08T00:00",
+        "endDate": "1895-08-05T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Staffordshire",
+                "opponents": "Worcestershire",
+                "total": 160,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Stoke-on-Trent",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "team": "Worcestershire",
+                "opponents": "Staffordshire",
+                "total": 239,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Stoke-on-Trent",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "W Brown",
+                "team": "Staffordshire",
+                "opponents": "Worcestershire",
+                "score": 41,
+                "notOut": true,
+                "location": "County Ground, Stoke-on-Trent",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "GE Bromley-Martin",
+                "team": "Worcestershire",
+                "opponents": "Staffordshire",
+                "score": 106,
+                "notOut": false,
+                "location": "County Ground, Stoke-on-Trent",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JF Darlow",
+                "team": "Staffordshire",
+                "opponents": "Worcestershire",
+                "wickets": 5,
+                "runs": 82,
+                "location": "County Ground, Stoke-on-Trent",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "S Raynor",
+                "team": "Worcestershire",
+                "opponents": "Staffordshire",
+                "wickets": 7,
+                "runs": 75,
+                "location": "County Ground, Stoke-on-Trent",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JF Darlow",
+                "team": "Staffordshire",
+                "opponents": "Worcestershire",
+                "wickets": 5,
+                "runs": 87,
+                "location": "County Ground, Stoke-on-Trent",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "S Raynor",
+                "team": "Worcestershire",
+                "opponents": "Staffordshire",
+                "wickets": 11,
+                "runs": 116,
+                "location": "County Ground, Stoke-on-Trent",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 43,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WE Harrison",
+                        "player1Score": 11,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "CC Mott",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 19,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 7,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 35,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "W Brown",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JH Copestake",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 14,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "W Brown",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "J Brown",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Worcestershire",
+                        "location": "War Memorial Ground, Amblecote",
+                        "seriesDate": "1895",
+                        "partnership": 24,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 16,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "W Brown",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "FR Twemlow",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 14,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "W Brown",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "H Spencer",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Worcestershire",
+                        "location": "War Memorial Ground, Amblecote",
+                        "seriesDate": "1895",
+                        "partnership": 7,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "WH Turner",
+                        "player1Score": 7,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "G McHarg",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Worcestershire",
+                        "location": "War Memorial Ground, Amblecote",
+                        "seriesDate": "1895",
+                        "partnership": 7,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WH Turner",
+                        "player1Score": 7,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JF Darlow",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Staffordshire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 27,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "EP Jobson",
+                        "player1Score": 17,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "EG Arnold",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Staffordshire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 5,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Staffordshire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 17,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Staffordshire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 16,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Staffordshire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 7,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Staffordshire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 60,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Staffordshire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 88,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Staffordshire",
+                        "location": "War Memorial Ground, Amblecote",
+                        "seriesDate": "1895",
+                        "partnership": 10,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "EP Jobson",
+                        "player1Score": 88,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "A Bird",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Staffordshire",
+                        "location": "War Memorial Ground, Amblecote",
+                        "seriesDate": "1895",
+                        "partnership": 24,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "EP Jobson",
+                        "player1Score": 88,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "T Straw",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Staffordshire",
+                        "location": "War Memorial Ground, Amblecote",
+                        "seriesDate": "1895",
+                        "partnership": 31,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "EP Jobson",
+                        "player1Score": 88,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "S Raynor",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CC Mott",
+                "team": "Staffordshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "runs": 58,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 14.5,
+                "hs": "38"
+            }
+        ],
+        [
+            {
+                "name": "GE Bromley-Martin",
+                "team": "Worcestershire",
+                "opponents": "Staffordshire",
+                "matches": 2,
+                "runs": 117,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 58.5,
+                "hs": "106"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JF Darlow",
+                "team": "Staffordshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "balls": 275,
+                "maidens": 7,
+                "runs": 178,
+                "wickets": 8,
+                "bbruns": 82,
+                "bbwickets": 5,
+                "average": 22.25
+            }
+        ],
+        [
+            {
+                "name": "S Raynor",
+                "team": "Worcestershire",
+                "opponents": "Staffordshire",
+                "matches": 2,
+                "balls": 389,
+                "maidens": 31,
+                "runs": 146,
+                "wickets": 20,
+                "bbruns": 75,
+                "bbwickets": 7,
+                "average": 7.3
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "W Brown",
+                "team": "Staffordshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "HK Foster",
+                "team": "Worcestershire",
+                "opponents": "Staffordshire",
+                "matches": 1,
+                "dismissals": 3
+            },
+            {
+                "name": "T Straw",
+                "team": "Worcestershire",
+                "opponents": "Staffordshire",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "T Straw",
+                "team": "Worcestershire",
+                "opponents": "Staffordshire",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Worcestershire",
+                    "total": 23,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "War Memorial Ground, Amblecote",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Worcestershire",
+                    "total": 23,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "War Memorial Ground, Amblecote",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Worcestershire",
+                    "total": 23,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "War Memorial Ground, Amblecote",
+                    "seriesDate": "1895"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Staffordshire",
+                    "total": 192,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "War Memorial Ground, Amblecote",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Staffordshire",
+                    "total": 192,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "War Memorial Ground, Amblecote",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Staffordshire",
+                    "total": 9,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "County Ground, Stoke-on-Trent",
+                    "seriesDate": "1895"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:11:15.063574Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

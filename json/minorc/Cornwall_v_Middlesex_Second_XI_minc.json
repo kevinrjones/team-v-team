@@ -1,0 +1,839 @@
+{
+    "team1": "Cornwall",
+    "team2": "Middlesex Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 4,
+        "startDate": "1935-07-03T01:00",
+        "endDate": "1936-07-08T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cornwall",
+                "opponents": "Middlesex Second XI",
+                "total": 148,
+                "wickets": 10,
+                "declared": false,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1936"
+            }
+        ],
+        [
+            {
+                "team": "Middlesex Second XI",
+                "opponents": "Cornwall",
+                "total": 238,
+                "wickets": 10,
+                "declared": false,
+                "location": "Thornbury Avenue, Osterley",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "WD Cory",
+                "team": "Cornwall",
+                "opponents": "Middlesex Second XI",
+                "score": 48,
+                "notOut": true,
+                "location": "School Ground, Truro",
+                "seriesDate": "1935"
+            }
+        ],
+        [
+            {
+                "name": "EAC Smith",
+                "team": "Middlesex Second XI",
+                "opponents": "Cornwall",
+                "score": 83,
+                "notOut": false,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JE Mill",
+                "team": "Cornwall",
+                "opponents": "Middlesex Second XI",
+                "wickets": 6,
+                "runs": 69,
+                "location": "School Ground, Truro",
+                "seriesDate": "1935"
+            }
+        ],
+        [
+            {
+                "name": "FJ Durston",
+                "team": "Middlesex Second XI",
+                "opponents": "Cornwall",
+                "wickets": 7,
+                "runs": 36,
+                "location": "School Ground, Truro",
+                "seriesDate": "1935"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JE Mill",
+                "team": "Cornwall",
+                "opponents": "Middlesex Second XI",
+                "wickets": 7,
+                "runs": 78,
+                "location": "School Ground, Truro",
+                "seriesDate": "1935"
+            }
+        ],
+        [
+            {
+                "name": "LH Gray",
+                "team": "Middlesex Second XI",
+                "opponents": "Cornwall",
+                "wickets": 11,
+                "runs": 75,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Middlesex Second XI",
+                        "location": "Thornbury Avenue, Osterley",
+                        "seriesDate": "1936",
+                        "partnership": 44,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CV Paull",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WG Holman",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Middlesex Second XI",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1936",
+                        "partnership": 50,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "WG Holman",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WD Cory",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Middlesex Second XI",
+                        "location": "Thornbury Avenue, Osterley",
+                        "seriesDate": "1936",
+                        "partnership": 26,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "CV Paull",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WJ Addicoat",
+                        "player2Score": 24,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Middlesex Second XI",
+                        "location": "School Ground, Truro",
+                        "seriesDate": "1935",
+                        "partnership": 29,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "S Barnicoat",
+                        "player1Score": 11,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "H Ollerearnshaw",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Middlesex Second XI",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1936",
+                        "partnership": 34,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "WD Cory",
+                        "player1Score": 46,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "H Ollerearnshaw",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Middlesex Second XI",
+                        "location": "School Ground, Truro",
+                        "seriesDate": "1935",
+                        "partnership": 16,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "H Ollerearnshaw",
+                        "player1Score": 46,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "L Martin",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Middlesex Second XI",
+                        "location": "School Ground, Truro",
+                        "seriesDate": "1935",
+                        "partnership": 15,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "L Martin",
+                        "player1Score": 10,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "FMN Heath",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Middlesex Second XI",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1936",
+                        "partnership": 40,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "T Harry",
+                        "player1Score": 35,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "T Maddern",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Middlesex Second XI",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1936",
+                        "partnership": 17,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "T Harry",
+                        "player1Score": 35,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "GHI Bickford",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Middlesex Second XI",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1936",
+                        "partnership": 13,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "H Ollerearnshaw",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JE Mill",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Cornwall",
+                        "location": "Thornbury Avenue, Osterley",
+                        "seriesDate": "1936",
+                        "partnership": 58,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "C Fairservice",
+                        "player1Score": 21,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WR Watkins",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Cornwall",
+                        "location": "School Ground, Truro",
+                        "seriesDate": "1935",
+                        "partnership": 6,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "R Felton",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "FE Covington",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Cornwall",
+                        "location": "Thornbury Avenue, Osterley",
+                        "seriesDate": "1936",
+                        "partnership": 82,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "WH Wignall",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "FE Covington",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Cornwall",
+                        "location": "School Ground, Truro",
+                        "seriesDate": "1935",
+                        "partnership": 9,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "HF Benka",
+                        "player1Score": 4,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "GH Adlard",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Cornwall",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1936",
+                        "partnership": 106,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "EAC Smith",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AW Childs-Clarke",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Cornwall",
+                        "location": "School Ground, Truro",
+                        "seriesDate": "1935",
+                        "partnership": 28,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GH Adlard",
+                        "player1Score": 17,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "FW Putner",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Cornwall",
+                        "location": "School Ground, Truro",
+                        "seriesDate": "1935",
+                        "partnership": 61,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "FW Putner",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "AW Childs-Clarke",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Cornwall",
+                        "location": "Thornbury Avenue, Osterley",
+                        "seriesDate": "1936",
+                        "partnership": 38,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AW Childs-Clarke",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "HD King",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Cornwall",
+                        "location": "School Ground, Truro",
+                        "seriesDate": "1935",
+                        "partnership": 33,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AE Wilson",
+                        "player1Score": 18,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "FJ Durston",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Cornwall",
+                        "location": "Thornbury Avenue, Osterley",
+                        "seriesDate": "1936",
+                        "partnership": 4,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "HD King",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "LH Gray",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "WD Cory",
+                "team": "Cornwall",
+                "opponents": "Middlesex Second XI",
+                "matches": 4,
+                "runs": 154,
+                "innings": 7,
+                "notOuts": 1,
+                "average": 25.66,
+                "hs": "48*"
+            }
+        ],
+        [
+            {
+                "name": "AW Childs-Clarke",
+                "team": "Middlesex Second XI",
+                "opponents": "Cornwall",
+                "matches": 4,
+                "runs": 146,
+                "innings": 5,
+                "notOuts": 0,
+                "average": 29.2,
+                "hs": "47"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JE Mill",
+                "team": "Cornwall",
+                "opponents": "Middlesex Second XI",
+                "matches": 4,
+                "balls": 705,
+                "maidens": 35,
+                "runs": 231,
+                "wickets": 15,
+                "bbruns": 69,
+                "bbwickets": 6,
+                "average": 15.4
+            }
+        ],
+        [
+            {
+                "name": "LH Gray",
+                "team": "Middlesex Second XI",
+                "opponents": "Cornwall",
+                "matches": 3,
+                "balls": 481,
+                "maidens": 25,
+                "runs": 169,
+                "wickets": 19,
+                "bbruns": 42,
+                "bbwickets": 7,
+                "average": 8.89
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "T Maddern",
+                "team": "Cornwall",
+                "opponents": "Middlesex Second XI",
+                "matches": 2,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "FW Putner",
+                "team": "Middlesex Second XI",
+                "opponents": "Cornwall",
+                "matches": 2,
+                "dismissals": 5
+            },
+            {
+                "name": "AE Wilson",
+                "team": "Middlesex Second XI",
+                "opponents": "Cornwall",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "GHI Bickford",
+                "team": "Cornwall",
+                "opponents": "Middlesex Second XI",
+                "matches": 4,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "AE Wilson",
+                "team": "Middlesex Second XI",
+                "opponents": "Cornwall",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Middlesex Second XI",
+                    "total": 93,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Thornbury Avenue, Osterley",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Middlesex Second XI",
+                    "total": 93,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Thornbury Avenue, Osterley",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Middlesex Second XI",
+                    "total": 93,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Thornbury Avenue, Osterley",
+                    "seriesDate": "1935"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Middlesex Second XI",
+                    "opponents": "Cornwall",
+                    "total": 172,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "School Ground, Truro",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Middlesex Second XI",
+                    "opponents": "Cornwall",
+                    "total": 172,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "School Ground, Truro",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Middlesex Second XI",
+                    "opponents": "Cornwall",
+                    "total": 60,
+                    "wickets": 6,
+                    "declared": false,
+                    "location": "St Clare Ground, Penzance",
+                    "seriesDate": "1936"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:10.518743Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

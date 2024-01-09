@@ -1,0 +1,805 @@
+{
+    "team1": "Zimbabweans",
+    "team2": "Oxford University",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 1,
+        "startDate": "1985-06-08T01:00",
+        "endDate": "1985-06-08T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Zimbabweans",
+                "opponents": "Oxford University",
+                "total": 440,
+                "wickets": 10,
+                "declared": false,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1985"
+            }
+        ],
+        [
+            {
+                "team": "Oxford University",
+                "opponents": "Zimbabweans",
+                "total": 262,
+                "wickets": 7,
+                "declared": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1985"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "GA Hick",
+                "team": "Zimbabweans",
+                "opponents": "Oxford University",
+                "score": 230,
+                "notOut": false,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1985"
+            }
+        ],
+        [
+            {
+                "name": "DA Thorne",
+                "team": "Oxford University",
+                "opponents": "Zimbabweans",
+                "score": 124,
+                "notOut": false,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1985"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "MP Jarvis",
+                "team": "Zimbabweans",
+                "opponents": "Oxford University",
+                "wickets": 3,
+                "runs": 37,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1985"
+            }
+        ],
+        [
+            {
+                "name": "RS Rutnagur",
+                "team": "Oxford University",
+                "opponents": "Zimbabweans",
+                "wickets": 5,
+                "runs": 112,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1985"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "IP Butchart",
+                "team": "Zimbabweans",
+                "opponents": "Oxford University",
+                "wickets": 4,
+                "runs": 102,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1985"
+            }
+        ],
+        [
+            {
+                "name": "RS Rutnagur",
+                "team": "Oxford University",
+                "opponents": "Zimbabweans",
+                "wickets": 5,
+                "runs": 112,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1985"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 11,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RD Brown",
+                        "player1Score": 4,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GA Paterson",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 1,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 52,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 277,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 52,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 4,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 7,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "LL de Grandhomme",
+                        "player1Score": 32,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "IP Butchart",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 1,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "LL de Grandhomme",
+                        "player1Score": 32,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "AJ Traicos",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 14,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "LL de Grandhomme",
+                        "player1Score": 32,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "MP Jarvis",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 21,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "LL de Grandhomme",
+                        "player1Score": 32,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "KG Duers",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Zimbabweans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 50,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "AJT Miller",
+                        "player1Score": 36,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "DA Hagan",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 54,
+                        "wicket": 1,
+                        "playerDetails": [
+                            {
+                                "team": "Oxford University",
+                                "opponents": "Zimbabweans",
+                                "location": "The University Parks, Oxford",
+                                "seriesDate": "1985",
+                                "partnership": 50,
+                                "wicket": 1,
+                                "undefeated": true,
+                                "player1Name": "AJT Miller",
+                                "player1Score": 36,
+                                "player1NotOut": true,
+                                "player1Position": 1,
+                                "player2Name": "DA Hagan",
+                                "player2Score": 13,
+                                "player2NotOut": false,
+                                "player2Position": 2
+                            },
+                            {
+                                "team": "Oxford University",
+                                "opponents": "Zimbabweans",
+                                "location": "The University Parks, Oxford",
+                                "seriesDate": "1985",
+                                "partnership": 4,
+                                "wicket": 1,
+                                "undefeated": false,
+                                "player1Name": "DA Hagan",
+                                "player1Score": 13,
+                                "player1NotOut": false,
+                                "player1Position": 2,
+                                "player2Name": "CDM Tooley",
+                                "player2Score": 25,
+                                "player2NotOut": false,
+                                "player2Position": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Zimbabweans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 41,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Zimbabweans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 78,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Zimbabweans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 12,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Zimbabweans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 88,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Zimbabweans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 30,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AJT Miller",
+                        "player1Score": 36,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "DP Taylor",
+                        "player2Score": 5,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Zimbabweans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 40,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Zimbabweans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 7,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "GA Hick",
+                "team": "Zimbabweans",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "runs": 230,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 230.0,
+                "hs": "230"
+            }
+        ],
+        [
+            {
+                "name": "DA Thorne",
+                "team": "Oxford University",
+                "opponents": "Zimbabweans",
+                "matches": 1,
+                "runs": 129,
+                "innings": 2,
+                "notOuts": 1,
+                "average": 129.0,
+                "hs": "124"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "IP Butchart",
+                "team": "Zimbabweans",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "balls": 168,
+                "maidens": 7,
+                "runs": 102,
+                "wickets": 4,
+                "bbruns": 51,
+                "bbwickets": 3,
+                "average": 25.5
+            }
+        ],
+        [
+            {
+                "name": "RS Rutnagur",
+                "team": "Oxford University",
+                "opponents": "Zimbabweans",
+                "matches": 1,
+                "balls": 174,
+                "maidens": 4,
+                "runs": 112,
+                "wickets": 5,
+                "bbruns": 112,
+                "bbwickets": 5,
+                "average": 22.4
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "AC Waller",
+                "team": "Zimbabweans",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "DA Hagan",
+                "team": "Oxford University",
+                "opponents": "Zimbabweans",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Zimbabweans",
+                    "opponents": "Oxford University",
+                    "total": 440,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1985"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Zimbabweans",
+                    "opponents": "Oxford University",
+                    "total": 440,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1985"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Zimbabweans",
+                    "opponents": "Oxford University",
+                    "total": 440,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1985"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Zimbabweans",
+                    "total": 149,
+                    "wickets": 5,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1985"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:44.157111Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

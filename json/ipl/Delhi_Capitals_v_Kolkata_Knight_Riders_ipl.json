@@ -1,0 +1,1161 @@
+{
+    "team1": "Delhi Capitals",
+    "team2": "Kolkata Knight Riders",
+    "competitionTitle": "Indian Premier League",
+    "competitionSubType": "ipl",
+    "matchDto": {
+        "count": 31,
+        "startDate": "2008-05-13T01:00",
+        "endDate": "2023-04-20T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "total": 228,
+                "wickets": 4,
+                "declared": false,
+                "location": "Sharjah Cricket Association Stadium, Sharjah",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "total": 210,
+                "wickets": 8,
+                "declared": false,
+                "location": "Sharjah Cricket Association Stadium, Sharjah",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "DA Warner",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "score": 107,
+                "notOut": true,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2009/10"
+            }
+        ],
+        [
+            {
+                "name": "N Rana",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "score": 81,
+                "notOut": false,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "KM Jadhav",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "strikeRate": 400.0,
+                "runs": 4,
+                "balls": 1,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2009/10"
+            }
+        ],
+        [
+            {
+                "name": "AD Russell",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "strikeRate": 341.67,
+                "runs": 41,
+                "balls": 12,
+                "location": "Eden Gardens, Kolkata",
+                "seriesDate": "2018"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "CR Brathwaite",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "strikeRate": 309.09,
+                "runs": 34,
+                "balls": 11,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2016"
+            }
+        ],
+        [
+            {
+                "name": "AD Russell",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "strikeRate": 341.67,
+                "runs": 41,
+                "balls": 12,
+                "location": "Eden Gardens, Kolkata",
+                "seriesDate": "2018"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "KP Pietersen",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "strikeRate": 50.0,
+                "runs": 6,
+                "balls": 12,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2014"
+            }
+        ],
+        [
+            {
+                "name": "NS Naik",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "strikeRate": 43.75,
+                "runs": 7,
+                "balls": 16,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2019"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "Y Venugopal Rao",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "strikeRate": 59.09,
+                "runs": 13,
+                "balls": 22,
+                "location": "Subrata Roy Sahara Stadium, Gahunje",
+                "seriesDate": "2012"
+            }
+        ],
+        [
+            {
+                "name": "Yashpal Singh",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "strikeRate": 65.0,
+                "runs": 13,
+                "balls": 20,
+                "location": "Liberty Life Wanderers Stadium, Johannesburg",
+                "seriesDate": "2009"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "PP Shaw",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "boundaries": 12,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2019"
+            }
+        ],
+        [
+            {
+                "name": "N Rana",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "boundaries": 13,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "SS Iyer",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "boundaries": 10,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2018"
+            }
+        ],
+        [
+            {
+                "name": "AD Russell",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Eden Gardens, Kolkata",
+                "seriesDate": "2018"
+            },
+            {
+                "name": "AD Russell",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2019"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "PP Shaw",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "boundaries": 15,
+                "fours": 12,
+                "sixes": 3,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2019"
+            }
+        ],
+        [
+            {
+                "name": "N Rana",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "boundaries": 14,
+                "fours": 13,
+                "sixes": 1,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "K Yadav",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "wickets": 4,
+                "runs": 14,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "VV Chakravarthy",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "wickets": 5,
+                "runs": 20,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "K Yadav",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "wickets": 4,
+                "runs": 14,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "VV Chakravarthy",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "wickets": 5,
+                "runs": 20,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "K Yadav",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 14,
+                "sr": 4.5,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "LR Shukla",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "overs": "0.5",
+                "balls": 5,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 6,
+                "sr": 1.67,
+                "location": "Eden Gardens, Kolkata",
+                "seriesDate": "2008"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "K Yadav",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 14,
+                "sr": 4.5,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "Shoaib Akhtar",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 11,
+                "sr": 4.5,
+                "location": "Eden Gardens, Kolkata",
+                "seriesDate": "2008"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "A Mishra",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 14,
+                "sr": 3.5,
+                "location": "Liberty Life Wanderers Stadium, Johannesburg",
+                "seriesDate": "2009"
+            }
+        ],
+        [
+            {
+                "name": "BJ Hodge",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 2,
+                "sr": 2.0,
+                "location": "Liberty Life Wanderers Stadium, Johannesburg",
+                "seriesDate": "2009"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "A Mishra",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 14,
+                "sr": 3.5,
+                "location": "Liberty Life Wanderers Stadium, Johannesburg",
+                "seriesDate": "2009"
+            }
+        ],
+        [
+            {
+                "name": "SP Narine",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 13,
+                "sr": 3.25,
+                "location": "Eden Gardens, Kolkata",
+                "seriesDate": "2013"
+            },
+            {
+                "name": "Shakib Al Hasan",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 13,
+                "sr": 3.25,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2014"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "R Powell",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 17,
+                "sr": 17.0,
+                "location": "Brabourne Stadium, Mumbai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "SP Mavi",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 25,
+                "sr": 25.0,
+                "location": "Narendra Modi Stadium, Motera, Ahmedabad",
+                "seriesDate": "2021"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "R Ashwin",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 45,
+                "sr": 15.0,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "SP Mavi",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 58,
+                "sr": 14.5,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2018"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Delhi Capitals",
+                        "opponents": "Kolkata Knight Riders",
+                        "location": "Narendra Modi Stadium, Motera, Ahmedabad",
+                        "seriesDate": "2021",
+                        "partnership": 132,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PP Shaw",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "S Dhawan",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Delhi Capitals",
+                        "opponents": "Kolkata Knight Riders",
+                        "location": "Eden Gardens, Kolkata",
+                        "seriesDate": "2009/10",
+                        "partnership": 99,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "V Sehwag",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "G Gambhir",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Delhi Capitals",
+                        "opponents": "Kolkata Knight Riders",
+                        "location": "Eden Gardens, Kolkata",
+                        "seriesDate": "2019",
+                        "partnership": 105,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "S Dhawan",
+                        "player1Score": 97,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "RR Pant",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Delhi Capitals",
+                        "opponents": "Kolkata Knight Riders",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2009/10",
+                        "partnership": 128,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DA Warner",
+                        "player1Score": 107,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "PD Collingwood",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Delhi Capitals",
+                        "opponents": "Kolkata Knight Riders",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2017",
+                        "partnership": 35,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RR Pant",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "AD Mathews",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Delhi Capitals",
+                        "opponents": "Kolkata Knight Riders",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2014",
+                        "partnership": 55,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "JP Duminy",
+                        "player1Score": 40,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "KM Jadhav",
+                        "player2Score": 26,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Delhi Capitals",
+                        "opponents": "Kolkata Knight Riders",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2011",
+                        "partnership": 38,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Y Nagar",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Y Venugopal Rao",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Delhi Capitals",
+                        "opponents": "Kolkata Knight Riders",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 20,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "K Rabada",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "R Ashwin",
+                        "player2Score": 14,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Delhi Capitals",
+                        "opponents": "Kolkata Knight Riders",
+                        "location": "Eden Gardens, Kolkata",
+                        "seriesDate": "2009/10",
+                        "partnership": 15,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "DL Vettori",
+                        "player1Score": 12,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "A Mishra",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Delhi Capitals",
+                        "opponents": "Kolkata Knight Riders",
+                        "location": "Eden Gardens, Kolkata",
+                        "seriesDate": "2016",
+                        "partnership": 6,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "NM Coulter-Nile",
+                        "player1Score": 7,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "Z Khan",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Kolkata Knight Riders",
+                        "opponents": "Delhi Capitals",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2014",
+                        "partnership": 106,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "G Gambhir",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RV Uthappa",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Kolkata Knight Riders",
+                        "opponents": "Delhi Capitals",
+                        "location": "Eden Gardens, Kolkata",
+                        "seriesDate": "2017",
+                        "partnership": 108,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "G Gambhir",
+                        "player1Score": 71,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "RV Uthappa",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Kolkata Knight Riders",
+                        "opponents": "Delhi Capitals",
+                        "location": "Brabourne Stadium, Mumbai",
+                        "seriesDate": "2022",
+                        "partnership": 69,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "SS Iyer",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "N Rana",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Kolkata Knight Riders",
+                        "opponents": "Delhi Capitals",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 115,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "N Rana",
+                        "player1Score": 81,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "SP Narine",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Kolkata Knight Riders",
+                        "opponents": "Delhi Capitals",
+                        "location": "Eden Gardens, Kolkata",
+                        "seriesDate": "2018",
+                        "partnership": 61,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AD Russell",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "N Rana",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Kolkata Knight Riders",
+                        "opponents": "Delhi Capitals",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2019",
+                        "partnership": 95,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "KD Karthik",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "AD Russell",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Kolkata Knight Riders",
+                        "opponents": "Delhi Capitals",
+                        "location": "Sharjah Cricket Association Stadium, Sharjah",
+                        "seriesDate": "2020/21",
+                        "partnership": 78,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "RA Tripathi",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "EJG Morgan",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Kolkata Knight Riders",
+                        "opponents": "Delhi Capitals",
+                        "location": "Liberty Life Wanderers Stadium, Johannesburg",
+                        "seriesDate": "2009",
+                        "partnership": 35,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AB Agarkar",
+                        "player1Score": 39,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "M Kartik",
+                        "player2Score": 11,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Kolkata Knight Riders",
+                        "opponents": "Delhi Capitals",
+                        "location": "Brabourne Stadium, Mumbai",
+                        "seriesDate": "2022",
+                        "partnership": 27,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AD Russell",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "R Salam",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Kolkata Knight Riders",
+                        "opponents": "Delhi Capitals",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2023",
+                        "partnership": 31,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AD Russell",
+                        "player1Score": 38,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "VV Chakravarthy",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "SS Iyer",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "matches": 14,
+                "runs": 456,
+                "innings": 14,
+                "notOuts": 3,
+                "average": 41.45,
+                "hs": "93*"
+            },
+            {
+                "name": "DA Warner",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "matches": 12,
+                "runs": 456,
+                "innings": 12,
+                "notOuts": 2,
+                "average": 45.6,
+                "hs": "107*"
+            }
+        ],
+        [
+            {
+                "name": "G Gambhir",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "matches": 14,
+                "runs": 413,
+                "innings": 14,
+                "notOuts": 2,
+                "average": 34.41,
+                "hs": "71*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "A Mishra",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "matches": 14,
+                "balls": 288,
+                "maidens": 2,
+                "runs": 328,
+                "wickets": 12,
+                "bbruns": 14,
+                "bbwickets": 3,
+                "average": 27.33
+            }
+        ],
+        [
+            {
+                "name": "SP Narine",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "matches": 21,
+                "balls": 474,
+                "maidens": 0,
+                "runs": 538,
+                "wickets": 22,
+                "bbruns": 13,
+                "bbwickets": 4,
+                "average": 24.45
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RR Pant",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "matches": 14,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "SP Narine",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "matches": 21,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RR Pant",
+                "team": "Delhi Capitals",
+                "opponents": "Kolkata Knight Riders",
+                "matches": 14,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "BB McCullum",
+                "team": "Kolkata Knight Riders",
+                "opponents": "Delhi Capitals",
+                "matches": 6,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Delhi Capitals",
+                    "opponents": "Kolkata Knight Riders",
+                    "total": 98,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Eden Gardens, Kolkata",
+                    "seriesDate": "2016"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Delhi Capitals",
+                    "opponents": "Kolkata Knight Riders",
+                    "total": 98,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Eden Gardens, Kolkata",
+                    "seriesDate": "2016"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Delhi Capitals",
+                    "opponents": "Kolkata Knight Riders",
+                    "total": 98,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Eden Gardens, Kolkata",
+                    "seriesDate": "2016"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Kolkata Knight Riders",
+                    "opponents": "Delhi Capitals",
+                    "total": 127,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Feroz Shah Kotla, Delhi",
+                    "seriesDate": "2023"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Kolkata Knight Riders",
+                    "opponents": "Delhi Capitals",
+                    "total": 97,
+                    "wickets": 9,
+                    "declared": false,
+                    "location": "Eden Gardens, Kolkata",
+                    "seriesDate": "2012"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Kolkata Knight Riders",
+                    "opponents": "Delhi Capitals",
+                    "total": 97,
+                    "wickets": 9,
+                    "declared": false,
+                    "location": "Eden Gardens, Kolkata",
+                    "seriesDate": "2012"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:45.682325Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

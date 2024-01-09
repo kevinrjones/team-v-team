@@ -1,0 +1,869 @@
+{
+    "team1": "West Indians",
+    "team2": "Oxford University",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 8,
+        "startDate": "1923-06-06T01:00",
+        "endDate": "1966-05-07T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "West Indians",
+                "opponents": "Oxford University",
+                "total": 480,
+                "wickets": 7,
+                "declared": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1939"
+            }
+        ],
+        [
+            {
+                "team": "Oxford University",
+                "opponents": "West Indians",
+                "total": 390,
+                "wickets": 6,
+                "declared": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RB Kanhai",
+                "team": "West Indians",
+                "opponents": "Oxford University",
+                "score": 192,
+                "notOut": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1966"
+            }
+        ],
+        [
+            {
+                "name": "GTS Stevens",
+                "team": "Oxford University",
+                "opponents": "West Indians",
+                "score": 182,
+                "notOut": false,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "S Ramadhin",
+                "team": "West Indians",
+                "opponents": "Oxford University",
+                "wickets": 7,
+                "runs": 29,
+                "location": "Christ Church Ground, Oxford",
+                "seriesDate": "1957"
+            }
+        ],
+        [
+            {
+                "name": "PNG Mountford",
+                "team": "Oxford University",
+                "opponents": "West Indians",
+                "wickets": 7,
+                "runs": 47,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1963"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "S Ramadhin",
+                "team": "West Indians",
+                "opponents": "Oxford University",
+                "wickets": 13,
+                "runs": 47,
+                "location": "Christ Church Ground, Oxford",
+                "seriesDate": "1957"
+            }
+        ],
+        [
+            {
+                "name": "PNG Mountford",
+                "team": "Oxford University",
+                "opponents": "West Indians",
+                "wickets": 7,
+                "runs": 72,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1963"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1966",
+                        "partnership": 69,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CC Hunte",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "EDAS McMorris",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1923",
+                        "partnership": 119,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "HW Ince",
+                        "player1Score": 46,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "G Challenor",
+                        "player2Score": 100,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1933",
+                        "partnership": 54,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "West Indians",
+                        "opponents": "Oxford University",
+                        "location": "Christ Church Ground, Oxford",
+                        "seriesDate": "1950",
+                        "partnership": 54,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1966",
+                        "partnership": 66,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1963",
+                        "partnership": 133,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1928",
+                        "partnership": 131,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1939",
+                        "partnership": 218,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1966",
+                        "partnership": 61,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "RB Kanhai",
+                        "player1Score": 192,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "CC Griffith",
+                        "player2Score": 31,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1933",
+                        "partnership": 42,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "BJ Sealey",
+                        "player1Score": 20,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "VA Valentine",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1928",
+                        "partnership": 66,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "RK Nunes",
+                        "player1Score": 76,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "HC Griffith",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "West Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1939",
+                        "partnership": 56,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "R Sale",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "EJH Dixon",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "West Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1923",
+                        "partnership": 71,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "GTS Stevens",
+                        "player1Score": 182,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JFW Nicolson",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "West Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1939",
+                        "partnership": 89,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "West Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1923",
+                        "partnership": 196,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "GTS Stevens",
+                        "player1Score": 182,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JL Guise",
+                        "player2Score": 120,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "West Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1928",
+                        "partnership": 98,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "West Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1933",
+                        "partnership": 210,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "West Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1966",
+                        "partnership": 61,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "West Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1939",
+                        "partnership": 50,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "West Indians",
+                        "location": "Christ Church Ground, Oxford",
+                        "seriesDate": "1950",
+                        "partnership": 35,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "West Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1923",
+                        "partnership": 39,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CR Spencer",
+                        "player1Score": 11,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "FH Barnard",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "RB Kanhai",
+                "team": "West Indians",
+                "opponents": "Oxford University",
+                "matches": 2,
+                "runs": 253,
+                "innings": 2,
+                "notOuts": 1,
+                "average": 253.0,
+                "hs": "192*"
+            }
+        ],
+        [
+            {
+                "name": "GTS Stevens",
+                "team": "Oxford University",
+                "opponents": "West Indians",
+                "matches": 1,
+                "runs": 220,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 110.0,
+                "hs": "182"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "S Ramadhin",
+                "team": "West Indians",
+                "opponents": "Oxford University",
+                "matches": 2,
+                "balls": 353,
+                "maidens": 18,
+                "runs": 89,
+                "wickets": 17,
+                "bbruns": 29,
+                "bbwickets": 7,
+                "average": 5.23
+            }
+        ],
+        [
+            {
+                "name": "PNG Mountford",
+                "team": "Oxford University",
+                "opponents": "West Indians",
+                "matches": 1,
+                "balls": 200,
+                "maidens": 8,
+                "runs": 72,
+                "wickets": 7,
+                "bbruns": 47,
+                "bbwickets": 7,
+                "average": 10.28
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "WV Rodriguez",
+                "team": "West Indians",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "dismissals": 4
+            },
+            {
+                "name": "JA Small",
+                "team": "West Indians",
+                "opponents": "Oxford University",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "PC Oldfield",
+                "team": "Oxford University",
+                "opponents": "West Indians",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "CM Christiani",
+                "team": "West Indians",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "RB Kanhai",
+                "team": "West Indians",
+                "opponents": "Oxford University",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "DL Murray",
+                "team": "West Indians",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "PC Oldfield",
+                "team": "Oxford University",
+                "opponents": "West Indians",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Oxford University",
+                    "total": 107,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1963"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Oxford University",
+                    "total": 107,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1963"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Oxford University",
+                    "total": 30,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Christ Church Ground, Oxford",
+                    "seriesDate": "1950"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "West Indians",
+                    "total": 84,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Christ Church Ground, Oxford",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "West Indians",
+                    "total": 84,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Christ Church Ground, Oxford",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "West Indians",
+                    "total": 68,
+                    "wickets": 6,
+                    "declared": true,
+                    "location": "Christ Church Ground, Oxford",
+                    "seriesDate": "1950"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:04.044055Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

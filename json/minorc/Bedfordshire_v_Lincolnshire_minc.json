@@ -1,0 +1,851 @@
+{
+    "team1": "Bedfordshire",
+    "team2": "Lincolnshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 79,
+        "startDate": "1909-07-30T00:00",
+        "endDate": "2022-07-24T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New",
+        "Chris Keywood"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bedfordshire",
+                "opponents": "Lincolnshire",
+                "total": 456,
+                "wickets": 10,
+                "declared": false,
+                "location": "Lancot Park, Totternhoe",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "team": "Lincolnshire",
+                "opponents": "Bedfordshire",
+                "total": 483,
+                "wickets": 3,
+                "declared": true,
+                "location": "Lancot Park, Totternhoe",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JG Owen",
+                "team": "Bedfordshire",
+                "opponents": "Lincolnshire",
+                "score": 167,
+                "notOut": false,
+                "location": "Brumby Hall, Scunthorpe",
+                "seriesDate": "1953"
+            }
+        ],
+        [
+            {
+                "name": "LPJ Kimber",
+                "team": "Lincolnshire",
+                "opponents": "Bedfordshire",
+                "score": 177,
+                "notOut": false,
+                "location": "Gorse Lane, Grantham",
+                "seriesDate": "2019"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "S Rashid",
+                "team": "Bedfordshire",
+                "opponents": "Lincolnshire",
+                "wickets": 8,
+                "runs": 55,
+                "location": "London Road, Sleaford",
+                "seriesDate": "2004"
+            }
+        ],
+        [
+            {
+                "name": "HMA Cherry-Downes",
+                "team": "Lincolnshire",
+                "opponents": "Bedfordshire",
+                "wickets": 9,
+                "runs": 19,
+                "location": "Bedford School Ground, Bedford",
+                "seriesDate": "1957"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "IJ Davison",
+                "team": "Bedfordshire",
+                "opponents": "Lincolnshire",
+                "wickets": 13,
+                "runs": 38,
+                "location": "Central Park, Boston",
+                "seriesDate": "1958"
+            }
+        ],
+        [
+            {
+                "name": "HMA Cherry-Downes",
+                "team": "Lincolnshire",
+                "opponents": "Bedfordshire",
+                "wickets": 14,
+                "runs": 71,
+                "location": "Central Park, Boston",
+                "seriesDate": "1958"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Lancot Park, Totternhoe",
+                        "seriesDate": "1999",
+                        "partnership": 235,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "NA Stanley",
+                        "player1Score": 108,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "W Larkins",
+                        "player2Score": 120,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Lincolnshire",
+                        "location": "London Road, Sleaford",
+                        "seriesDate": "1996",
+                        "partnership": 158,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "W Larkins",
+                        "player1Score": 124,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DR Clarke",
+                        "player2Score": 78,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "2011",
+                        "partnership": 129,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "OJD Swann",
+                        "player1Score": 40,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JM Kettleborough",
+                        "player2Score": 95,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Lincolnshire",
+                        "location": "London Road, Sleaford",
+                        "seriesDate": "1998",
+                        "partnership": 210,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "DJM Mercer",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "AR Roberts",
+                        "player2Score": 112,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Goldington Bury, Bedford",
+                        "seriesDate": "1993",
+                        "partnership": 149,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "NG Folland",
+                        "player1Score": 66,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "CK Bullen",
+                        "player2Score": 100,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Bedford Modern School Ground, Bedford",
+                        "seriesDate": "2005",
+                        "partnership": 208,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "LG Pollard",
+                        "player1Score": 96,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "AR Roberts",
+                        "player2Score": 154,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Lincolnshire",
+                        "location": "London Road, Sleaford",
+                        "seriesDate": "2004",
+                        "partnership": 160,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "AR Roberts",
+                        "player1Score": 123,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "MH Steed",
+                        "player2Score": 104,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1929",
+                        "partnership": 69,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "LF Wheeler",
+                        "player1Score": 43,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "IO Fuller",
+                        "player2Score": 30,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Ampthill Park, Ampthill",
+                        "seriesDate": "2014",
+                        "partnership": 52,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "MW Weightman",
+                        "player1Score": 40,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "AR King",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Lincolnshire",
+                        "location": "London Road, Sleaford",
+                        "seriesDate": "2016",
+                        "partnership": 61,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AT Wheatcroft",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "MS Panesar",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Lancot Park, Totternhoe",
+                        "seriesDate": "1999",
+                        "partnership": 131,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JC Harrison",
+                        "player1Score": 169,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "J Clarke",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Augusta Street, Grimsby",
+                        "seriesDate": "1952",
+                        "partnership": 243,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JRC Todd",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NA Maddison",
+                        "player2Score": 154,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Bedford Modern School Ground, Bedford",
+                        "seriesDate": "2017",
+                        "partnership": 164,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MS Lineker",
+                        "player1Score": 138,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SKW Wood",
+                        "player2Score": 85,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Gorse Lane, Grantham",
+                        "seriesDate": "2019",
+                        "partnership": 209,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "LPJ Kimber",
+                        "player1Score": 177,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "NS Keast",
+                        "player2Score": 109,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Bedford Modern School Ground, Bedford",
+                        "seriesDate": "2017",
+                        "partnership": 97,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DDA Brown",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "AD Tillcock",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Gorse Lane, Grantham",
+                        "seriesDate": "2010",
+                        "partnership": 140,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "PG Cook",
+                        "player1Score": 127,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "LR Andrews",
+                        "player2Score": 67,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Gorse Lane, Grantham",
+                        "seriesDate": "2019",
+                        "partnership": 109,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "LPJ Kimber",
+                        "player1Score": 177,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "U Arshad",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Gorse Lane, Grantham",
+                        "seriesDate": "2013",
+                        "partnership": 69,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "MJ Sargeant",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "HL Clewett",
+                        "player2Score": 43,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Richmond Drive, Skegness",
+                        "seriesDate": "1929",
+                        "partnership": 88,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "CR Campbell",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "WA Sutton",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Bedfordshire",
+                        "location": "London Road, Sleaford",
+                        "seriesDate": "1998",
+                        "partnership": 120,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "DA Christmas",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "S Oakes",
+                        "player2Score": 67,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "NA Stanley",
+                "team": "Bedfordshire",
+                "opponents": "Lincolnshire",
+                "matches": 9,
+                "runs": 766,
+                "innings": 16,
+                "notOuts": 1,
+                "average": 51.06,
+                "hs": "120*"
+            }
+        ],
+        [
+            {
+                "name": "MA Fell",
+                "team": "Lincolnshire",
+                "opponents": "Bedfordshire",
+                "matches": 19,
+                "runs": 1164,
+                "innings": 35,
+                "notOuts": 9,
+                "average": 44.76,
+                "hs": "140*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "WJ Bushby",
+                "team": "Bedfordshire",
+                "opponents": "Lincolnshire",
+                "matches": 12,
+                "balls": 1904,
+                "maidens": 66,
+                "runs": 843,
+                "wickets": 48,
+                "bbruns": 36,
+                "bbwickets": 6,
+                "average": 17.56
+            }
+        ],
+        [
+            {
+                "name": "JB Evans",
+                "team": "Lincolnshire",
+                "opponents": "Bedfordshire",
+                "matches": 7,
+                "balls": 1857,
+                "maidens": 97,
+                "runs": 644,
+                "wickets": 45,
+                "bbruns": 50,
+                "bbwickets": 7,
+                "average": 14.31
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "J Smith",
+                "team": "Bedfordshire",
+                "opponents": "Lincolnshire",
+                "matches": 18,
+                "dismissals": 15
+            }
+        ],
+        [
+            {
+                "name": "RN Beeson",
+                "team": "Lincolnshire",
+                "opponents": "Bedfordshire",
+                "matches": 17,
+                "dismissals": 35
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "G Millman",
+                "team": "Bedfordshire",
+                "opponents": "Lincolnshire",
+                "matches": 7,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "RN Beeson",
+                "team": "Lincolnshire",
+                "opponents": "Bedfordshire",
+                "matches": 17,
+                "dismissals": 12
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Lincolnshire",
+                    "total": 44,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford School Ground, Bedford",
+                    "seriesDate": "1957"
+                },
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Lincolnshire",
+                    "total": 44,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Central Park, Boston",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Lincolnshire",
+                    "total": 44,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford School Ground, Bedford",
+                    "seriesDate": "1957"
+                },
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Lincolnshire",
+                    "total": 44,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Central Park, Boston",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Lincolnshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Bedford School Ground, Bedford",
+                    "seriesDate": "1951"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Lincolnshire",
+                    "opponents": "Bedfordshire",
+                    "total": 45,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Central Park, Boston",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Lincolnshire",
+                    "opponents": "Bedfordshire",
+                    "total": 45,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Central Park, Boston",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Lincolnshire",
+                    "opponents": "Bedfordshire",
+                    "total": 4,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "London Road, Sleaford",
+                    "seriesDate": "2016"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:11.403040Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

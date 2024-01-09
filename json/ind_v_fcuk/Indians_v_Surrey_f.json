@@ -1,0 +1,878 @@
+{
+    "team1": "Indians",
+    "team2": "Surrey",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 12,
+        "startDate": "1911-06-29T00:00",
+        "endDate": "1990-08-01T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Indians",
+                "opponents": "Surrey",
+                "total": 454,
+                "wickets": 10,
+                "declared": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1946"
+            }
+        ],
+        [
+            {
+                "team": "Surrey",
+                "opponents": "Indians",
+                "total": 452,
+                "wickets": 10,
+                "declared": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "VL Manjrekar",
+                "team": "Indians",
+                "opponents": "Surrey",
+                "score": 148,
+                "notOut": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1959"
+            }
+        ],
+        [
+            {
+                "name": "PBH May",
+                "team": "Surrey",
+                "opponents": "Indians",
+                "score": 143,
+                "notOut": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1952"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "BS Bedi",
+                "team": "Indians",
+                "opponents": "Surrey",
+                "wickets": 7,
+                "runs": 111,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1971"
+            }
+        ],
+        [
+            {
+                "name": "JC Laker",
+                "team": "Surrey",
+                "opponents": "Indians",
+                "wickets": 6,
+                "runs": 64,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1952"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Surendranath",
+                "team": "Indians",
+                "opponents": "Surrey",
+                "wickets": 9,
+                "runs": 74,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1959"
+            }
+        ],
+        [
+            {
+                "name": "MC Bird",
+                "team": "Surrey",
+                "opponents": "Indians",
+                "wickets": 10,
+                "runs": 98,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1971",
+                        "partnership": 129,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AV Mankad",
+                        "player1Score": 77,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HK Jayantilal",
+                        "player2Score": 84,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1936",
+                        "partnership": 217,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Surrey",
+                        "location": "The Foster's Oval, Kennington",
+                        "seriesDate": "1990",
+                        "partnership": 137,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1932",
+                        "partnership": 136,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1952",
+                        "partnership": 107,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "HR Adhikari",
+                        "player1Score": 98,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "DG Phadkar",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1974",
+                        "partnership": 85,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1959",
+                        "partnership": 77,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1952",
+                        "partnership": 54,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1959",
+                        "partnership": 34,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1946",
+                        "partnership": 249,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CT Sarwate",
+                        "player1Score": 124,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "SN Banerjee",
+                        "player2Score": 121,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Indians",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1946",
+                        "partnership": 144,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RJ Gregory",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "LB Fishlock",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Indians",
+                        "location": "The Foster's Oval, Kennington",
+                        "seriesDate": "1990",
+                        "partnership": 155,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Indians",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1959",
+                        "partnership": 169,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Indians",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1952",
+                        "partnership": 167,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Indians",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1971",
+                        "partnership": 127,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "GRJ Roope",
+                        "player1Score": 56,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "SJ Storey",
+                        "player2Score": 70,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Indians",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1936",
+                        "partnership": 70,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Indians",
+                        "location": "The Foster's Oval, Kennington",
+                        "seriesDate": "1990",
+                        "partnership": 65,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "IA Greig",
+                        "player1Score": 76,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "KT Medlycott",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Indians",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1932",
+                        "partnership": 44,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Indians",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1932",
+                        "partnership": 86,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Indians",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1932",
+                        "partnership": 112,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "EW Whitfield",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "JF Parker",
+                        "player2Score": 56,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "VL Manjrekar",
+                "team": "Indians",
+                "opponents": "Surrey",
+                "matches": 2,
+                "runs": 204,
+                "innings": 3,
+                "notOuts": 1,
+                "average": 102.0,
+                "hs": "148"
+            }
+        ],
+        [
+            {
+                "name": "KF Barrington",
+                "team": "Surrey",
+                "opponents": "Indians",
+                "matches": 3,
+                "runs": 327,
+                "innings": 6,
+                "notOuts": 3,
+                "average": 109.0,
+                "hs": "85"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "BS Bedi",
+                "team": "Indians",
+                "opponents": "Surrey",
+                "matches": 3,
+                "balls": 792,
+                "maidens": 45,
+                "runs": 320,
+                "wickets": 14,
+                "bbruns": 111,
+                "bbwickets": 7,
+                "average": 22.85
+            },
+            {
+                "name": "GS Ramchand",
+                "team": "Indians",
+                "opponents": "Surrey",
+                "matches": 2,
+                "balls": 483,
+                "maidens": 21,
+                "runs": 194,
+                "wickets": 14,
+                "bbruns": 20,
+                "bbwickets": 5,
+                "average": 13.85
+            }
+        ],
+        [
+            {
+                "name": "AV Bedser",
+                "team": "Surrey",
+                "opponents": "Indians",
+                "matches": 4,
+                "balls": 948,
+                "maidens": 40,
+                "runs": 343,
+                "wickets": 15,
+                "bbruns": 135,
+                "bbwickets": 5,
+                "average": 22.86
+            },
+            {
+                "name": "JC Laker",
+                "team": "Surrey",
+                "opponents": "Indians",
+                "matches": 3,
+                "balls": 708,
+                "maidens": 29,
+                "runs": 274,
+                "wickets": 15,
+                "bbruns": 64,
+                "bbwickets": 6,
+                "average": 18.26
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "PR Umrigar",
+                "team": "Indians",
+                "opponents": "Surrey",
+                "matches": 4,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "GAR Lock",
+                "team": "Surrey",
+                "opponents": "Indians",
+                "matches": 4,
+                "dismissals": 11
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "PG Joshi",
+                "team": "Indians",
+                "opponents": "Surrey",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "P Krishnamurthy",
+                "team": "Indians",
+                "opponents": "Surrey",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "RB Nimbalkar",
+                "team": "Indians",
+                "opponents": "Surrey",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "AJW McIntyre",
+                "team": "Surrey",
+                "opponents": "Indians",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "R Swetman",
+                "team": "Surrey",
+                "opponents": "Indians",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Indians",
+                    "opponents": "Surrey",
+                    "total": 108,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1952"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Surrey",
+                    "total": 108,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1952"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Surrey",
+                    "total": 20,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1946"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Surrey",
+                    "opponents": "Indians",
+                    "total": 71,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1952"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Surrey",
+                    "opponents": "Indians",
+                    "total": 71,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1952"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Surrey",
+                    "opponents": "Indians",
+                    "total": 52,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1936"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:04.280824Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,832 @@
+{
+    "team1": "Carmarthenshire",
+    "team2": "Cornwall",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 6,
+        "startDate": "1908-08-05T00:00",
+        "endDate": "1910-08-11T00:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Carmarthenshire",
+                "opponents": "Cornwall",
+                "total": 271,
+                "wickets": 7,
+                "declared": true,
+                "location": "Stradey Park, Llanelli",
+                "seriesDate": "1909"
+            }
+        ],
+        [
+            {
+                "team": "Cornwall",
+                "opponents": "Carmarthenshire",
+                "total": 443,
+                "wickets": 10,
+                "declared": false,
+                "location": "Roskear, Camborne",
+                "seriesDate": "1909"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "GT Gravell",
+                "team": "Carmarthenshire",
+                "opponents": "Cornwall",
+                "score": 132,
+                "notOut": false,
+                "location": "Stradey Park, Llanelli",
+                "seriesDate": "1910"
+            }
+        ],
+        [
+            {
+                "name": "WH Coad",
+                "team": "Cornwall",
+                "opponents": "Carmarthenshire",
+                "score": 140,
+                "notOut": true,
+                "location": "Llandovery College Ground, Llandovery",
+                "seriesDate": "1908"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "E Gee",
+                "team": "Carmarthenshire",
+                "opponents": "Cornwall",
+                "wickets": 6,
+                "runs": 11,
+                "location": "Stradey Park, Llanelli",
+                "seriesDate": "1910"
+            }
+        ],
+        [
+            {
+                "name": "F Whiting",
+                "team": "Cornwall",
+                "opponents": "Carmarthenshire",
+                "wickets": 6,
+                "runs": 27,
+                "location": "Llandovery College Ground, Llandovery",
+                "seriesDate": "1908"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "T Soar",
+                "team": "Carmarthenshire",
+                "opponents": "Cornwall",
+                "wickets": 9,
+                "runs": 189,
+                "location": "Roskear, Camborne",
+                "seriesDate": "1908"
+            }
+        ],
+        [
+            {
+                "name": "F Whiting",
+                "team": "Cornwall",
+                "opponents": "Carmarthenshire",
+                "wickets": 10,
+                "runs": 97,
+                "location": "Roskear, Camborne",
+                "seriesDate": "1908"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Carmarthenshire",
+                        "opponents": "Cornwall",
+                        "location": "Stradey Park, Llanelli",
+                        "seriesDate": "1909",
+                        "partnership": 66,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "BP Rees",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "I Evans",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Carmarthenshire",
+                        "opponents": "Cornwall",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "1908",
+                        "partnership": 35,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Carmarthenshire",
+                        "opponents": "Cornwall",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1910",
+                        "partnership": 20,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Carmarthenshire",
+                        "opponents": "Cornwall",
+                        "location": "Llandovery College Ground, Llandovery",
+                        "seriesDate": "1908",
+                        "partnership": 33,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Carmarthenshire",
+                        "opponents": "Cornwall",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1910",
+                        "partnership": 41,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Carmarthenshire",
+                        "opponents": "Cornwall",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "1909",
+                        "partnership": 25,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Carmarthenshire",
+                        "opponents": "Cornwall",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "1909",
+                        "partnership": 54,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Carmarthenshire",
+                        "opponents": "Cornwall",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "1909",
+                        "partnership": 12,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Carmarthenshire",
+                        "opponents": "Cornwall",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1910",
+                        "partnership": 1,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Carmarthenshire",
+                        "opponents": "Cornwall",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "1909",
+                        "partnership": 33,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Carmarthenshire",
+                        "location": "Llandovery College Ground, Llandovery",
+                        "seriesDate": "1908",
+                        "partnership": 224,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "H Tresawna",
+                        "player1Score": 81,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WH Coad",
+                        "player2Score": 140,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Carmarthenshire",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "1909",
+                        "partnership": 56,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Carmarthenshire",
+                        "location": "Llandovery College Ground, Llandovery",
+                        "seriesDate": "1908",
+                        "partnership": 44,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "WH Coad",
+                        "player1Score": 140,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "C Trevarthen",
+                        "player2Score": 24,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Carmarthenshire",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1910",
+                        "partnership": 74,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Carmarthenshire",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "1909",
+                        "partnership": 41,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Carmarthenshire",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "1909",
+                        "partnership": 95,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Carmarthenshire",
+                        "location": "Llandovery College Ground, Llandovery",
+                        "seriesDate": "1908",
+                        "partnership": 21,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Carmarthenshire",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1910",
+                        "partnership": 14,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Carmarthenshire",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1910",
+                        "partnership": 18,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Carmarthenshire",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "1908",
+                        "partnership": 60,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "E Gee",
+                "team": "Carmarthenshire",
+                "opponents": "Cornwall",
+                "matches": 6,
+                "runs": 202,
+                "innings": 11,
+                "notOuts": 4,
+                "average": 28.85,
+                "hs": "77*"
+            }
+        ],
+        [
+            {
+                "name": "WN Bickford-Smith",
+                "team": "Cornwall",
+                "opponents": "Carmarthenshire",
+                "matches": 5,
+                "runs": 441,
+                "innings": 9,
+                "notOuts": 1,
+                "average": 55.12,
+                "hs": "109*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "E Gee",
+                "team": "Carmarthenshire",
+                "opponents": "Cornwall",
+                "matches": 6,
+                "balls": 1172,
+                "maidens": 40,
+                "runs": 574,
+                "wickets": 25,
+                "bbruns": 11,
+                "bbwickets": 6,
+                "average": 22.96
+            }
+        ],
+        [
+            {
+                "name": "F Whiting",
+                "team": "Cornwall",
+                "opponents": "Carmarthenshire",
+                "matches": 6,
+                "balls": 1391,
+                "maidens": 72,
+                "runs": 540,
+                "wickets": 41,
+                "bbruns": 27,
+                "bbwickets": 6,
+                "average": 13.17
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "H Howell",
+                "team": "Carmarthenshire",
+                "opponents": "Cornwall",
+                "matches": 4,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "WN Bickford-Smith",
+                "team": "Cornwall",
+                "opponents": "Carmarthenshire",
+                "matches": 5,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "W Davies",
+                "team": "Carmarthenshire",
+                "opponents": "Cornwall",
+                "matches": 6,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "RF Vibart",
+                "team": "Cornwall",
+                "opponents": "Carmarthenshire",
+                "matches": 4,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Carmarthenshire",
+                    "opponents": "Cornwall",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Clare Ground, Penzance",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Carmarthenshire",
+                    "opponents": "Cornwall",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Clare Ground, Penzance",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Carmarthenshire",
+                    "opponents": "Cornwall",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Clare Ground, Penzance",
+                    "seriesDate": "1910"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Carmarthenshire",
+                    "total": 29,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Stradey Park, Llanelli",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Carmarthenshire",
+                    "total": 29,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Stradey Park, Llanelli",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Carmarthenshire",
+                    "total": 29,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Stradey Park, Llanelli",
+                    "seriesDate": "1910"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:37.301627Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

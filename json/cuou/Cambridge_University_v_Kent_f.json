@@ -1,0 +1,865 @@
+{
+    "team1": "Cambridge University",
+    "team2": "Kent",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 26,
+        "startDate": "1908-06-01T00:00",
+        "endDate": "1999-05-20T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridge University",
+                "opponents": "Kent",
+                "total": 382,
+                "wickets": 7,
+                "declared": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1961"
+            }
+        ],
+        [
+            {
+                "team": "Kent",
+                "opponents": "Cambridge University",
+                "total": 446,
+                "wickets": 5,
+                "declared": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1994"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Majid Khan",
+                "team": "Cambridge University",
+                "opponents": "Kent",
+                "score": 159,
+                "notOut": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1970"
+            }
+        ],
+        [
+            {
+                "name": "MC Cowdrey",
+                "team": "Kent",
+                "opponents": "Cambridge University",
+                "score": 204,
+                "notOut": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1956"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "OS Wheatley",
+                "team": "Cambridge University",
+                "opponents": "Kent",
+                "wickets": 8,
+                "runs": 22,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1958"
+            }
+        ],
+        [
+            {
+                "name": "C Blythe",
+                "team": "Kent",
+                "opponents": "Cambridge University",
+                "wickets": 6,
+                "runs": 19,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1910"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RG Marlar",
+                "team": "Cambridge University",
+                "opponents": "Kent",
+                "wickets": 13,
+                "runs": 90,
+                "location": "Cheriton Road Sports Ground, Folkestone",
+                "seriesDate": "1953"
+            }
+        ],
+        [
+            {
+                "name": "JCT Page",
+                "team": "Kent",
+                "opponents": "Cambridge University",
+                "wickets": 10,
+                "runs": 63,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1958"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Kent",
+                        "location": "Cheriton Road Sports Ground, Folkestone",
+                        "seriesDate": "1964",
+                        "partnership": 105,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JM Brearley",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DM Daniels",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Kent",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1970",
+                        "partnership": 199,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Kent",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1973",
+                        "partnership": 202,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Kent",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1992",
+                        "partnership": 77,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Kent",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1956",
+                        "partnership": 91,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Kent",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1958",
+                        "partnership": 80,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1977",
+                        "partnership": 161,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Kent",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1989",
+                        "partnership": 66,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Kent",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1908",
+                        "partnership": 31,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "C Reunert",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "E Olivier",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Kent",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1910",
+                        "partnership": 58,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1999",
+                        "partnership": 179,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "ET Smith",
+                        "player1Score": 89,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RWT Key",
+                        "player2Score": 91,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1957",
+                        "partnership": 187,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "AH Phebey",
+                        "player1Score": 100,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "SE Leary",
+                        "player2Score": 102,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1999",
+                        "partnership": 192,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DP Fulton",
+                        "player1Score": 99,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "MJ Walker",
+                        "player2Score": 103,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1956",
+                        "partnership": 157,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "J Pettiford",
+                        "player1Score": 45,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "MC Cowdrey",
+                        "player2Score": 204,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Cambridge University",
+                        "location": "Cheriton Road Sports Ground, Folkestone",
+                        "seriesDate": "1964",
+                        "partnership": 111,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1993",
+                        "partnership": 125,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Cambridge University",
+                        "location": "Cheriton Road Sports Ground, Folkestone",
+                        "seriesDate": "1995",
+                        "partnership": 130,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1973",
+                        "partnership": 120,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "AGE Ealham",
+                        "player1Score": 54,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "BD Julien",
+                        "player2Score": 81,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1968",
+                        "partnership": 52,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Cambridge University",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1997",
+                        "partnership": 35,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "TN Wren",
+                        "player1Score": 11,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "EJ Stanford",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JM Brearley",
+                "team": "Cambridge University",
+                "opponents": "Kent",
+                "matches": 2,
+                "runs": 265,
+                "innings": 4,
+                "notOuts": 1,
+                "average": 88.33,
+                "hs": "145*"
+            }
+        ],
+        [
+            {
+                "name": "MC Cowdrey",
+                "team": "Kent",
+                "opponents": "Cambridge University",
+                "matches": 7,
+                "runs": 638,
+                "innings": 11,
+                "notOuts": 1,
+                "average": 63.8,
+                "hs": "204*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RG Marlar",
+                "team": "Cambridge University",
+                "opponents": "Kent",
+                "matches": 1,
+                "balls": 350,
+                "maidens": 30,
+                "runs": 90,
+                "wickets": 13,
+                "bbruns": 32,
+                "bbwickets": 8,
+                "average": 6.92
+            }
+        ],
+        [
+            {
+                "name": "JCT Page",
+                "team": "Kent",
+                "opponents": "Cambridge University",
+                "matches": 6,
+                "balls": 1386,
+                "maidens": 95,
+                "runs": 530,
+                "wickets": 26,
+                "bbruns": 24,
+                "bbwickets": 5,
+                "average": 20.38
+            },
+            {
+                "name": "MM Patel",
+                "team": "Kent",
+                "opponents": "Cambridge University",
+                "matches": 3,
+                "balls": 877,
+                "maidens": 60,
+                "runs": 256,
+                "wickets": 26,
+                "bbruns": 74,
+                "bbwickets": 6,
+                "average": 9.84
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JM Brearley",
+                "team": "Cambridge University",
+                "opponents": "Kent",
+                "matches": 2,
+                "dismissals": 6
+            },
+            {
+                "name": "DRH Churton",
+                "team": "Cambridge University",
+                "opponents": "Kent",
+                "matches": 2,
+                "dismissals": 6
+            },
+            {
+                "name": "RA Hutton",
+                "team": "Cambridge University",
+                "opponents": "Kent",
+                "matches": 1,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "APE Knott",
+                "team": "Kent",
+                "opponents": "Cambridge University",
+                "matches": 4,
+                "dismissals": 18
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RJ Turner",
+                "team": "Cambridge University",
+                "opponents": "Kent",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "SA Marsh",
+                "team": "Kent",
+                "opponents": "Cambridge University",
+                "matches": 5,
+                "dismissals": 2
+            },
+            {
+                "name": "JF Pretlove",
+                "team": "Kent",
+                "opponents": "Cambridge University",
+                "matches": 3,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Kent",
+                    "total": 45,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Kent",
+                    "total": 45,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Kent",
+                    "total": 45,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1910"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Kent",
+                    "opponents": "Cambridge University",
+                    "total": 116,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Cheriton Road Sports Ground, Folkestone",
+                    "seriesDate": "1953"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Kent",
+                    "opponents": "Cambridge University",
+                    "total": 116,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Cheriton Road Sports Ground, Folkestone",
+                    "seriesDate": "1953"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Kent",
+                    "opponents": "Cambridge University",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1990"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:28.760311Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

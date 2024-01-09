@@ -1,0 +1,831 @@
+{
+    "team1": "Buckinghamshire",
+    "team2": "Wiltshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 40,
+        "startDate": "1899-08-02T00:00",
+        "endDate": "1991-08-25T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Buckinghamshire",
+                "opponents": "Wiltshire",
+                "total": 342,
+                "wickets": 10,
+                "declared": false,
+                "location": "Bletchley Park",
+                "seriesDate": "1906"
+            }
+        ],
+        [
+            {
+                "team": "Wiltshire",
+                "opponents": "Buckinghamshire",
+                "total": 338,
+                "wickets": 5,
+                "declared": true,
+                "location": "The County Ground, Swindon",
+                "seriesDate": "1908"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "MJ Roberts",
+                "team": "Buckinghamshire",
+                "opponents": "Wiltshire",
+                "score": 193,
+                "notOut": true,
+                "location": "Shardeloes, Amersham",
+                "seriesDate": "1989"
+            }
+        ],
+        [
+            {
+                "name": "CS Awdry",
+                "team": "Wiltshire",
+                "opponents": "Buckinghamshire",
+                "score": 160,
+                "notOut": true,
+                "location": "The County Ground, Swindon",
+                "seriesDate": "1908"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JGB Whiting",
+                "team": "Buckinghamshire",
+                "opponents": "Wiltshire",
+                "wickets": 8,
+                "runs": 23,
+                "location": "Bletchley Park",
+                "seriesDate": "1920"
+            }
+        ],
+        [
+            {
+                "name": "H Mitchell",
+                "team": "Wiltshire",
+                "opponents": "Buckinghamshire",
+                "wickets": 8,
+                "runs": 60,
+                "location": "Hardenhuish Park, Chippenham",
+                "seriesDate": "1910"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "MW Wright",
+                "team": "Buckinghamshire",
+                "opponents": "Wiltshire",
+                "wickets": 13,
+                "runs": 109,
+                "location": "Hardenhuish Park, Chippenham",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "H Mitchell",
+                "team": "Wiltshire",
+                "opponents": "Buckinghamshire",
+                "wickets": 14,
+                "runs": 102,
+                "location": "Bletchley Park",
+                "seriesDate": "1913"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Wiltshire",
+                        "location": "County Ground, Trowbridge",
+                        "seriesDate": "1900",
+                        "partnership": 183,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PJ de Paravicini",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ES Boddy",
+                        "player2Score": 113,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Wiltshire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1906",
+                        "partnership": 75,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CRH Gresson",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RW Orton",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Wiltshire",
+                        "location": "Bletchley Park",
+                        "seriesDate": "1909",
+                        "partnership": 124,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RW Orton",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RH de Montmorency",
+                        "player2Score": 90,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Wiltshire",
+                        "location": "County Ground, Trowbridge",
+                        "seriesDate": "1899",
+                        "partnership": 205,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MW Wright",
+                        "player1Score": 85,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "FH Mitchell",
+                        "player2Score": 96,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Wiltshire",
+                        "location": "Marlborough College Ground, Marlborough",
+                        "seriesDate": "1990",
+                        "partnership": 69,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "SG Lynch",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "MJ Roberts",
+                        "player2Score": 124,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Wiltshire",
+                        "location": "Shardeloes, Amersham",
+                        "seriesDate": "1989",
+                        "partnership": 95,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "MJ Roberts",
+                        "player1Score": 193,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "SM Shearman",
+                        "player2Score": 24,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Wiltshire",
+                        "location": "Bletchley Park",
+                        "seriesDate": "1920",
+                        "partnership": 80,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "PW Le Gros",
+                        "player1Score": 117,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SL Trevor",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Wiltshire",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1983",
+                        "partnership": 41,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RG Humphrey",
+                        "player1Score": 91,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "SA Mehar",
+                        "player2Score": 14,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Wiltshire",
+                        "location": "County Ground, Trowbridge",
+                        "seriesDate": "1902",
+                        "partnership": 35,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "PCF de Paravicini",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "H Page",
+                        "player2Score": 17,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Wiltshire",
+                        "location": "Bletchley Park",
+                        "seriesDate": "1913",
+                        "partnership": 24,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MW Wright",
+                        "player1Score": 2,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "SG Fairbairn",
+                        "player2Score": 22,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Buckinghamshire",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1983",
+                        "partnership": 133,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "BH White",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PL Thorn",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Bletchley Park",
+                        "seriesDate": "1910",
+                        "partnership": 86,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "FE Newman",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "TCG Sandford",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Buckinghamshire",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1983",
+                        "partnership": 195,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RC Cooper",
+                        "player1Score": 137,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JM Rice",
+                        "player2Score": 70,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Buckinghamshire",
+                        "location": "London Road, Devizes",
+                        "seriesDate": "1984",
+                        "partnership": 93,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DJM Mercer",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "M Amarnath",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Marlborough College Ground, Marlborough",
+                        "seriesDate": "1990",
+                        "partnership": 157,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DR Turner",
+                        "player1Score": 99,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DP Simpkins",
+                        "player2Score": 100,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Buckinghamshire",
+                        "location": "County Ground, Trowbridge",
+                        "seriesDate": "1913",
+                        "partnership": 76,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AW Newman",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RW Awdry",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Bletchley Park",
+                        "seriesDate": "1901",
+                        "partnership": 50,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "WS Medlicott",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "SJH Taunton",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Hardenhuish Park, Chippenham",
+                        "seriesDate": "1910",
+                        "partnership": 114,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RW Awdry",
+                        "player1Score": 96,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "W Overton",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Shardeloes, Amersham",
+                        "seriesDate": "1989",
+                        "partnership": 87,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "DW Mason",
+                        "player1Score": 54,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "TN Shardlow",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Bletchley Park",
+                        "seriesDate": "1909",
+                        "partnership": 29,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "TTN Perkins",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "WRR Smith",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "MW Wright",
+                "team": "Buckinghamshire",
+                "opponents": "Wiltshire",
+                "matches": 28,
+                "runs": 832,
+                "innings": 52,
+                "notOuts": 7,
+                "average": 18.48,
+                "hs": "85"
+            }
+        ],
+        [
+            {
+                "name": "CS Awdry",
+                "team": "Wiltshire",
+                "opponents": "Buckinghamshire",
+                "matches": 14,
+                "runs": 798,
+                "innings": 23,
+                "notOuts": 1,
+                "average": 36.27,
+                "hs": "160*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "MW Wright",
+                "team": "Buckinghamshire",
+                "opponents": "Wiltshire",
+                "matches": 27,
+                "balls": 6374,
+                "maidens": 362,
+                "runs": 2252,
+                "wickets": 158,
+                "bbruns": 59,
+                "bbwickets": 8,
+                "average": 14.25
+            }
+        ],
+        [
+            {
+                "name": "W Overton",
+                "team": "Wiltshire",
+                "opponents": "Buckinghamshire",
+                "matches": 21,
+                "balls": 2987,
+                "maidens": 157,
+                "runs": 1228,
+                "wickets": 88,
+                "bbruns": 21,
+                "bbwickets": 7,
+                "average": 13.95
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "MW Wright",
+                "team": "Buckinghamshire",
+                "opponents": "Wiltshire",
+                "matches": 28,
+                "dismissals": 17
+            }
+        ],
+        [
+            {
+                "name": "W Overton",
+                "team": "Wiltshire",
+                "opponents": "Buckinghamshire",
+                "matches": 24,
+                "dismissals": 26
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "WB Franklin",
+                "team": "Buckinghamshire",
+                "opponents": "Wiltshire",
+                "matches": 7,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "TS Luce",
+                "team": "Wiltshire",
+                "opponents": "Buckinghamshire",
+                "matches": 14,
+                "dismissals": 15
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Wiltshire",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bletchley Park",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Wiltshire",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bletchley Park",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Wiltshire",
+                    "total": 22,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "London Road, High Wycombe",
+                    "seriesDate": "1985"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Buckinghamshire",
+                    "total": 55,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bletchley Park",
+                    "seriesDate": "1902"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Buckinghamshire",
+                    "total": 55,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bletchley Park",
+                    "seriesDate": "1902"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Buckinghamshire",
+                    "total": 14,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Bletchley Park",
+                    "seriesDate": "1901"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:14.437300Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

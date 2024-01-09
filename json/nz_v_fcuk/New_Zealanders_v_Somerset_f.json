@@ -1,0 +1,885 @@
+{
+    "team1": "New Zealanders",
+    "team2": "Somerset",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 13,
+        "startDate": "1927-08-06T01:00",
+        "endDate": "2015-05-08T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "New Zealanders",
+                "opponents": "Somerset",
+                "total": 544,
+                "wickets": 9,
+                "declared": true,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1983"
+            }
+        ],
+        [
+            {
+                "team": "Somerset",
+                "opponents": "New Zealanders",
+                "total": 554,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JR Reid",
+                "team": "New Zealanders",
+                "opponents": "Somerset",
+                "score": 161,
+                "notOut": false,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1958"
+            }
+        ],
+        [
+            {
+                "name": "GJ Kennis",
+                "team": "Somerset",
+                "opponents": "New Zealanders",
+                "score": 175,
+                "notOut": false,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "RC Motz",
+                "team": "New Zealanders",
+                "opponents": "Somerset",
+                "wickets": 6,
+                "runs": 63,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1965"
+            }
+        ],
+        [
+            {
+                "name": "JC White",
+                "team": "Somerset",
+                "opponents": "New Zealanders",
+                "wickets": 8,
+                "runs": 28,
+                "location": "Clarence Park, Weston-super-Mare",
+                "seriesDate": "1927"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JG Bracewell",
+                "team": "New Zealanders",
+                "opponents": "Somerset",
+                "wickets": 9,
+                "runs": 164,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1983"
+            }
+        ],
+        [
+            {
+                "name": "JC White",
+                "team": "Somerset",
+                "opponents": "New Zealanders",
+                "wickets": 9,
+                "runs": 69,
+                "location": "Clarence Park, Weston-super-Mare",
+                "seriesDate": "1927"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1994",
+                        "partnership": 95,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "BA Young",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BA Pocock",
+                        "player2Score": 51,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 95,
+                        "wicket": 1,
+                        "playerDetails": [
+                            {
+                                "team": "New Zealanders",
+                                "opponents": "Somerset",
+                                "location": "County Ground, Taunton",
+                                "seriesDate": "1994",
+                                "partnership": 95,
+                                "wicket": 1,
+                                "undefeated": true,
+                                "player1Name": "BA Young",
+                                "player1Score": 41,
+                                "player1NotOut": false,
+                                "player1Position": 1,
+                                "player2Name": "BA Pocock",
+                                "player2Score": 51,
+                                "player2NotOut": true,
+                                "player2Position": 2
+                            },
+                            {
+                                "team": "New Zealanders",
+                                "opponents": "Somerset",
+                                "location": "County Ground, Taunton",
+                                "seriesDate": "1994",
+                                "partnership": 0,
+                                "wicket": 1,
+                                "undefeated": false,
+                                "player1Name": "BA Young",
+                                "player1Score": 41,
+                                "player1NotOut": false,
+                                "player1Position": 1,
+                                "player2Name": "MD Crowe",
+                                "player2Score": 102,
+                                "player2NotOut": true,
+                                "player2Position": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1994",
+                        "partnership": 128,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1949",
+                        "partnership": 139,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1937",
+                        "partnership": 160,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1958",
+                        "partnership": 176,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1983",
+                        "partnership": 156,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1999",
+                        "partnership": 64,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "AC Parore",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DJ Nash",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1937",
+                        "partnership": 71,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1983",
+                        "partnership": 80,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "WK Lees",
+                        "player1Score": 42,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "BL Cairns",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1965",
+                        "partnership": 35,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1999",
+                        "partnership": 87,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GJ Kennis",
+                        "player1Score": 175,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ME Trescothick",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1949",
+                        "partnership": 58,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1983",
+                        "partnership": 126,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1990",
+                        "partnership": 256,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1973",
+                        "partnership": 120,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1978",
+                        "partnership": 187,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "D Breakwell",
+                        "player1Score": 100,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "PM Roebuck",
+                        "player2Score": 131,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1994",
+                        "partnership": 60,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1999",
+                        "partnership": 172,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "ARK Pierson",
+                        "player1Score": 66,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "PS Jones",
+                        "player2Score": 105,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "New Zealanders",
+                        "location": "Recreation Ground, Bath",
+                        "seriesDate": "1931",
+                        "partnership": 53,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1937",
+                        "partnership": 84,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "GM Bennett",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "HL Hazell",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "MD Crowe",
+                "team": "New Zealanders",
+                "opponents": "Somerset",
+                "matches": 2,
+                "runs": 277,
+                "innings": 4,
+                "notOuts": 2,
+                "average": 138.5,
+                "hs": "102*"
+            }
+        ],
+        [
+            {
+                "name": "PW Denning",
+                "team": "Somerset",
+                "opponents": "New Zealanders",
+                "matches": 3,
+                "runs": 246,
+                "innings": 5,
+                "notOuts": 1,
+                "average": 61.5,
+                "hs": "99"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GL Weir",
+                "team": "New Zealanders",
+                "opponents": "Somerset",
+                "matches": 2,
+                "balls": 558,
+                "maidens": 25,
+                "runs": 202,
+                "wickets": 10,
+                "bbruns": 57,
+                "bbwickets": 5,
+                "average": 20.2
+            }
+        ],
+        [
+            {
+                "name": "JC White",
+                "team": "Somerset",
+                "opponents": "New Zealanders",
+                "matches": 2,
+                "balls": 546,
+                "maidens": 32,
+                "runs": 188,
+                "wickets": 11,
+                "bbruns": 28,
+                "bbwickets": 8,
+                "average": 17.09
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "AC Parore",
+                "team": "New Zealanders",
+                "opponents": "Somerset",
+                "matches": 3,
+                "dismissals": 11
+            }
+        ],
+        [
+            {
+                "name": "AWR Barrow",
+                "team": "Somerset",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "TC Lowry",
+                "team": "New Zealanders",
+                "opponents": "Somerset",
+                "matches": 3,
+                "dismissals": 1
+            },
+            {
+                "name": "KJ Wadsworth",
+                "team": "New Zealanders",
+                "opponents": "Somerset",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "JT Ward",
+                "team": "New Zealanders",
+                "opponents": "Somerset",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "WT Luckes",
+                "team": "Somerset",
+                "opponents": "New Zealanders",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Somerset",
+                    "total": 128,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Clarence Park, Weston-super-Mare",
+                    "seriesDate": "1927"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Somerset",
+                    "total": 128,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Clarence Park, Weston-super-Mare",
+                    "seriesDate": "1927"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Somerset",
+                    "total": 46,
+                    "wickets": 0,
+                    "declared": true,
+                    "location": "County Ground, Taunton",
+                    "seriesDate": "1983"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Somerset",
+                    "opponents": "New Zealanders",
+                    "total": 67,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Clarence Park, Weston-super-Mare",
+                    "seriesDate": "1927"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Somerset",
+                    "opponents": "New Zealanders",
+                    "total": 67,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Clarence Park, Weston-super-Mare",
+                    "seriesDate": "1927"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Somerset",
+                    "opponents": "New Zealanders",
+                    "total": 43,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "County Ground, Taunton",
+                    "seriesDate": "1949"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:03.356882Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

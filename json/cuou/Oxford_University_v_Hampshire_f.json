@@ -1,0 +1,887 @@
+{
+    "team1": "Oxford University",
+    "team2": "Hampshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 47,
+        "startDate": "1912-07-04T00:00",
+        "endDate": "1999-04-14T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Oxford University",
+                "opponents": "Hampshire",
+                "total": 554,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Southampton",
+                "seriesDate": "1913"
+            }
+        ],
+        [
+            {
+                "team": "Hampshire",
+                "opponents": "Oxford University",
+                "total": 532,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Southampton",
+                "seriesDate": "1913"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "IJ Sutcliffe",
+                "team": "Oxford University",
+                "opponents": "Hampshire",
+                "score": 163,
+                "notOut": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1995"
+            }
+        ],
+        [
+            {
+                "name": "MCJ Nicholas",
+                "team": "Hampshire",
+                "opponents": "Oxford University",
+                "score": 206,
+                "notOut": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1982"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "AH Kardar",
+                "team": "Oxford University",
+                "opponents": "Hampshire",
+                "wickets": 7,
+                "runs": 58,
+                "location": "Dean Park, Bournemouth",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "name": "K Stevenson",
+                "team": "Hampshire",
+                "opponents": "Oxford University",
+                "wickets": 7,
+                "runs": 22,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1979"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "AH Kardar",
+                "team": "Oxford University",
+                "opponents": "Hampshire",
+                "wickets": 12,
+                "runs": 136,
+                "location": "Dean Park, Bournemouth",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "name": "AS Kennedy",
+                "team": "Hampshire",
+                "opponents": "Oxford University",
+                "wickets": 13,
+                "runs": 106,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1922"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Hampshire",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1995",
+                        "partnership": 283,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CM Gupte",
+                        "player1Score": 119,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "IJ Sutcliffe",
+                        "player2Score": 163,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Hampshire",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1996",
+                        "partnership": 139,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Hampshire",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1954",
+                        "partnership": 176,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1913",
+                        "partnership": 209,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Hampshire",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1953",
+                        "partnership": 119,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Hampshire",
+                        "location": "United Services Ground, Portsmouth",
+                        "seriesDate": "1961",
+                        "partnership": 133,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Hampshire",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1997",
+                        "partnership": 99,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "PG Morgan",
+                        "player1Score": 60,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "CM Patel",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1913",
+                        "partnership": 96,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "WGK Boswell",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "AL Hosie",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1913",
+                        "partnership": 59,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "WGK Boswell",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "RSM White",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1913",
+                        "partnership": 38,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WGK Boswell",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "CU Peat",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1990",
+                        "partnership": 264,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "VP Terry",
+                        "player1Score": 112,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CL Smith",
+                        "player2Score": 148,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1983",
+                        "partnership": 290,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Oxford University",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1912",
+                        "partnership": 264,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "CB Fry",
+                        "player1Score": 203,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "EIM Barrett",
+                        "player2Score": 138,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1985",
+                        "partnership": 151,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1987",
+                        "partnership": 165,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1956",
+                        "partnership": 198,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1966",
+                        "partnership": 87,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1954",
+                        "partnership": 64,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Oxford University",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "1949",
+                        "partnership": 93,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1921",
+                        "partnership": 42,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WH Livsey",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "AS Kennedy",
+                        "player2Score": 69,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    },
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Oxford University",
+                        "location": "May's Bounty, Basingstoke",
+                        "seriesDate": "1951",
+                        "partnership": 42,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "RA Carty",
+                        "player1Score": 24,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "VHD Cannings",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CCP Williams",
+                "team": "Oxford University",
+                "opponents": "Hampshire",
+                "matches": 3,
+                "runs": 339,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 67.8,
+                "hs": "139*"
+            }
+        ],
+        [
+            {
+                "name": "RE Marshall",
+                "team": "Hampshire",
+                "opponents": "Oxford University",
+                "matches": 15,
+                "runs": 1308,
+                "innings": 24,
+                "notOuts": 3,
+                "average": 62.28,
+                "hs": "193"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "AH Kardar",
+                "team": "Oxford University",
+                "opponents": "Hampshire",
+                "matches": 2,
+                "balls": 601,
+                "maidens": 35,
+                "runs": 205,
+                "wickets": 17,
+                "bbruns": 58,
+                "bbwickets": 7,
+                "average": 12.05
+            }
+        ],
+        [
+            {
+                "name": "DW White",
+                "team": "Hampshire",
+                "opponents": "Oxford University",
+                "matches": 11,
+                "balls": 1877,
+                "maidens": 96,
+                "runs": 640,
+                "wickets": 47,
+                "bbruns": 22,
+                "bbwickets": 5,
+                "average": 13.61
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "AW Dyer",
+                "team": "Oxford University",
+                "opponents": "Hampshire",
+                "matches": 2,
+                "dismissals": 6
+            },
+            {
+                "name": "MJ Kilborn",
+                "team": "Oxford University",
+                "opponents": "Hampshire",
+                "matches": 3,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "AN Aymes",
+                "team": "Hampshire",
+                "opponents": "Oxford University",
+                "matches": 10,
+                "dismissals": 27
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JN Batty",
+                "team": "Oxford University",
+                "opponents": "Hampshire",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "IP Campbell",
+                "team": "Oxford University",
+                "opponents": "Hampshire",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "L Harrison",
+                "team": "Hampshire",
+                "opponents": "Oxford University",
+                "matches": 6,
+                "dismissals": 7
+            },
+            {
+                "name": "BSV Timms",
+                "team": "Hampshire",
+                "opponents": "Oxford University",
+                "matches": 10,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Hampshire",
+                    "total": 59,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1953"
+                },
+                {
+                    "team": "Oxford University",
+                    "opponents": "Hampshire",
+                    "total": 59,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1979"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Hampshire",
+                    "total": 59,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1953"
+                },
+                {
+                    "team": "Oxford University",
+                    "opponents": "Hampshire",
+                    "total": 59,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1979"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Hampshire",
+                    "total": 30,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1999"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Hampshire",
+                    "opponents": "Oxford University",
+                    "total": 110,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1956"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Hampshire",
+                    "opponents": "Oxford University",
+                    "total": 110,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1956"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Hampshire",
+                    "opponents": "Oxford University",
+                    "total": 10,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1958"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:28.683122Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

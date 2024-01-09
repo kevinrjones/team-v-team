@@ -1,0 +1,860 @@
+{
+    "team1": "Marylebone Cricket Club",
+    "team2": "Somerset",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 4,
+        "startDate": "1882-08-04T00:00",
+        "endDate": "1891-08-21T00:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Keith Walmsley"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "total": 506,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1882"
+            }
+        ],
+        [
+            {
+                "team": "Somerset",
+                "opponents": "Marylebone Cricket Club",
+                "total": 302,
+                "wickets": 10,
+                "declared": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1883"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "W Gunn",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "score": 188,
+                "notOut": false,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1882"
+            }
+        ],
+        [
+            {
+                "name": "WH Fowler",
+                "team": "Somerset",
+                "opponents": "Marylebone Cricket Club",
+                "score": 139,
+                "notOut": false,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1882"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "W Mycroft",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "wickets": 7,
+                "runs": 64,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1882"
+            }
+        ],
+        [
+            {
+                "name": "G Fowler",
+                "team": "Somerset",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 6,
+                "runs": 50,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1891"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "W Mycroft",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "wickets": 12,
+                "runs": 137,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1882"
+            }
+        ],
+        [
+            {
+                "name": "EJ Tyler",
+                "team": "Somerset",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 9,
+                "runs": 85,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1891"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Somerset",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1883",
+                        "partnership": 100,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "W Barnes",
+                        "player1Score": 57,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AH Heath",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1882",
+                        "partnership": 173,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "W Gunn",
+                        "player1Score": 188,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "W Hearn",
+                        "player2Score": 91,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1882",
+                        "partnership": 130,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "W Gunn",
+                        "player1Score": 188,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "F Hearne",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1882",
+                        "partnership": 53,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "F Hearne",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "E O'Shaughnessy",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Somerset",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1882",
+                        "partnership": 66,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JS Russel",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "TMM Wilde",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Somerset",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1882",
+                        "partnership": 22,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "WH Rodwell",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JS Russel",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1882",
+                        "partnership": 35,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "GF Hearne",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "HF Reed",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1882",
+                        "partnership": 17,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "GF Hearne",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "W Price",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Somerset",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1882",
+                        "partnership": 44,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Somerset",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1883",
+                        "partnership": 73,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "M Sherwin",
+                        "player1Score": 10,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "J Pennycuick",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1891",
+                        "partnership": 86,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "LCH Palairet",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "G Fowler",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1882",
+                        "partnership": 40,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1882",
+                        "partnership": 137,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "WH Fowler",
+                        "player1Score": 139,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WN Roe",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1882",
+                        "partnership": 34,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "AJ Fothergill",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SC Newton",
+                        "player2Score": 57,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1882",
+                        "partnership": 43,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "WH Fowler",
+                        "player1Score": 139,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "FW Terry",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1882",
+                        "partnership": 96,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "FW Terry",
+                        "player1Score": 77,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "AJ Fothergill",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1882",
+                        "partnership": 8,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "AJ Fothergill",
+                        "player1Score": 5,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "CFL Sweet",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1883",
+                        "partnership": 100,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "J Ambler",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "FW Terry",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1882",
+                        "partnership": 53,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SC Newton",
+                        "player1Score": 57,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "F Reed",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1882",
+                        "partnership": 83,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CE Winter",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "LD Hildyard",
+                        "player2Score": 59,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "W Gunn",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "matches": 1,
+                "runs": 188,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 188.0,
+                "hs": "188"
+            }
+        ],
+        [
+            {
+                "name": "WH Fowler",
+                "team": "Somerset",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "runs": 162,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 40.5,
+                "hs": "139"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "W Mycroft",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "matches": 1,
+                "balls": 321,
+                "maidens": 29,
+                "runs": 137,
+                "wickets": 12,
+                "bbruns": 64,
+                "bbwickets": 7,
+                "average": 11.41
+            }
+        ],
+        [
+            {
+                "name": "CE Winter",
+                "team": "Somerset",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "balls": 280,
+                "maidens": 20,
+                "runs": 138,
+                "wickets": 12,
+                "bbruns": 49,
+                "bbwickets": 4,
+                "average": 11.5
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "E O'Shaughnessy",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "W Price",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "M Sherwin",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "L Whitehead",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "TMM Wilde",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "FW Terry",
+                "team": "Somerset",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "T Mycroft",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Somerset",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "FT Welman",
+                "team": "Somerset",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Somerset",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1882"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Somerset",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1882"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Somerset",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1882"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Somerset",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 134,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1882"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Somerset",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 134,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1882"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Somerset",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 28,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "County Ground, Taunton",
+                    "seriesDate": "1891"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:42.468668Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,882 @@
+{
+    "team1": "Cheshire",
+    "team2": "Herefordshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 22,
+        "startDate": "1992-08-02T01:00",
+        "endDate": "2022-07-24T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cheshire",
+                "opponents": "Herefordshire",
+                "total": 502,
+                "wickets": 8,
+                "declared": true,
+                "location": "Moss Lane, Alderley Edge",
+                "seriesDate": "2018"
+            }
+        ],
+        [
+            {
+                "team": "Herefordshire",
+                "opponents": "Cheshire",
+                "total": 350,
+                "wickets": 8,
+                "declared": true,
+                "location": "The Recreation Ground, Kington",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "CL Tipper",
+                "team": "Cheshire",
+                "opponents": "Herefordshire",
+                "score": 219,
+                "notOut": false,
+                "location": "Whitehouse Lane, Nantwich",
+                "seriesDate": "2009"
+            }
+        ],
+        [
+            {
+                "name": "SA Kellett",
+                "team": "Herefordshire",
+                "opponents": "Cheshire",
+                "score": 159,
+                "notOut": true,
+                "location": "Moss Lane, Alderley Edge",
+                "seriesDate": "2006"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JP Whittaker",
+                "team": "Cheshire",
+                "opponents": "Herefordshire",
+                "wickets": 7,
+                "runs": 31,
+                "location": "Boughton Hall Avenue, Chester",
+                "seriesDate": "2003"
+            }
+        ],
+        [
+            {
+                "name": "MJ McCague",
+                "team": "Herefordshire",
+                "opponents": "Cheshire",
+                "wickets": 7,
+                "runs": 68,
+                "location": "Boughton Hall Avenue, Chester",
+                "seriesDate": "2003"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "NRC Dumelow",
+                "team": "Cheshire",
+                "opponents": "Herefordshire",
+                "wickets": 9,
+                "runs": 96,
+                "location": "Mortimer Park, Kingsland",
+                "seriesDate": "2005"
+            }
+        ],
+        [
+            {
+                "name": "DO Conway",
+                "team": "Herefordshire",
+                "opponents": "Cheshire",
+                "wickets": 9,
+                "runs": 74,
+                "location": "Boughton Hall Avenue, Chester",
+                "seriesDate": "2015"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Gorse Hall Road, Dukinfield",
+                        "seriesDate": "1992",
+                        "partnership": 179,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PCP Simmonite",
+                        "player1Score": 93,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ST Crawley",
+                        "player2Score": 125,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Mortimer Park, Kingsland",
+                        "seriesDate": "2005",
+                        "partnership": 133,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AJ Hall",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CP Schofield",
+                        "player2Score": 100,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    },
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Moss Lane, Alderley Edge",
+                        "seriesDate": "2006",
+                        "partnership": 133,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "DN Leech",
+                        "player1Score": 103,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NC Cantello",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Rake Lane, Wallasey",
+                        "seriesDate": "1996",
+                        "partnership": 133,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Mortimer Park, Kingsland",
+                        "seriesDate": "2005",
+                        "partnership": 133,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AJ Hall",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CP Schofield",
+                        "player2Score": 100,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    },
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Moss Lane, Alderley Edge",
+                        "seriesDate": "2006",
+                        "partnership": 133,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DN Leech",
+                        "player1Score": 103,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NC Cantello",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Moss Lane, Alderley Edge",
+                        "seriesDate": "2018",
+                        "partnership": 339,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JGT Crawley",
+                        "player1Score": 173,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "F Shafiq",
+                        "player2Score": 207,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Stowe Lane, Colwall",
+                        "seriesDate": "2011",
+                        "partnership": 143,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AJ Syddall",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "JA Duffy",
+                        "player2Score": 86,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Parkgate, Neston",
+                        "seriesDate": "1994",
+                        "partnership": 81,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "The Parks, Brockhampton",
+                        "seriesDate": "2022",
+                        "partnership": 132,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "AA Chughtai",
+                        "player1Score": 129,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "ND Anderson",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Whitehouse Lane, Nantwich",
+                        "seriesDate": "2009",
+                        "partnership": 153,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "CL Tipper",
+                        "player1Score": 219,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "MR Dawson",
+                        "player2Score": 61,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Mortimer Park, Kingsland",
+                        "seriesDate": "2005",
+                        "partnership": 104,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JP Whittaker",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DB Pennett",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Herefordshire",
+                        "location": "Mortimer Park, Kingsland",
+                        "seriesDate": "2005",
+                        "partnership": 20,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "DI Jones",
+                        "player1Score": 6,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "DB Pennett",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Cheshire",
+                        "location": "The Parks, Brockhampton",
+                        "seriesDate": "1997",
+                        "partnership": 166,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HV Patel",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JP Wright",
+                        "player2Score": 95,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Cheshire",
+                        "location": "The Recreation Ground, Kington",
+                        "seriesDate": "1999",
+                        "partnership": 126,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Cheshire",
+                        "location": "Moss Lane, Alderley Edge",
+                        "seriesDate": "2006",
+                        "partnership": 161,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "SA Kellett",
+                        "player1Score": 159,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "I Dawood",
+                        "player2Score": 82,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Cheshire",
+                        "location": "Rake Lane, Wallasey",
+                        "seriesDate": "1996",
+                        "partnership": 173,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "RHF Hall",
+                        "player1Score": 93,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "SM Brogan",
+                        "player2Score": 63,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Cheshire",
+                        "location": "Boughton Hall Avenue, Chester",
+                        "seriesDate": "2015",
+                        "partnership": 95,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DG Ball",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CT Lowen",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Cheshire",
+                        "location": "The Recreation Ground, Kington",
+                        "seriesDate": "1999",
+                        "partnership": 172,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Cheshire",
+                        "location": "The Parks, Brockhampton",
+                        "seriesDate": "2022",
+                        "partnership": 77,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "HJ Cullen",
+                        "player1Score": 61,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "BEI Morgan",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Cheshire",
+                        "location": "Mortimer Park, Kingsland",
+                        "seriesDate": "2002",
+                        "partnership": 82,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "A Farooque",
+                        "player1Score": 72,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "DR Willetts",
+                        "player2Score": 49,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Cheshire",
+                        "location": "Boughton Hall Avenue, Chester",
+                        "seriesDate": "2015",
+                        "partnership": 96,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "WJM Barrett",
+                        "player1Score": 48,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "Ali Jahangir",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Cheshire",
+                        "location": "Moss Lane, Alderley Edge",
+                        "seriesDate": "2018",
+                        "partnership": 65,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JP McIlroy",
+                        "player1Score": 68,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "AK Russell",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "RG Hignett",
+                "team": "Cheshire",
+                "opponents": "Herefordshire",
+                "matches": 10,
+                "runs": 573,
+                "innings": 16,
+                "notOuts": 2,
+                "average": 40.92,
+                "hs": "112"
+            }
+        ],
+        [
+            {
+                "name": "HV Patel",
+                "team": "Herefordshire",
+                "opponents": "Cheshire",
+                "matches": 14,
+                "runs": 755,
+                "innings": 24,
+                "notOuts": 0,
+                "average": 31.45,
+                "hs": "98"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "ND Peel",
+                "team": "Cheshire",
+                "opponents": "Herefordshire",
+                "matches": 3,
+                "balls": 688,
+                "maidens": 27,
+                "runs": 374,
+                "wickets": 21,
+                "bbruns": 67,
+                "bbwickets": 7,
+                "average": 17.8
+            }
+        ],
+        [
+            {
+                "name": "DO Conway",
+                "team": "Herefordshire",
+                "opponents": "Cheshire",
+                "matches": 4,
+                "balls": 468,
+                "maidens": 26,
+                "runs": 209,
+                "wickets": 18,
+                "bbruns": 44,
+                "bbwickets": 5,
+                "average": 11.61
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "S Bramhall",
+                "team": "Cheshire",
+                "opponents": "Herefordshire",
+                "matches": 7,
+                "dismissals": 14
+            }
+        ],
+        [
+            {
+                "name": "I Dawood",
+                "team": "Herefordshire",
+                "opponents": "Cheshire",
+                "matches": 4,
+                "dismissals": 15
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "S Bramhall",
+                "team": "Cheshire",
+                "opponents": "Herefordshire",
+                "matches": 7,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "JR Tegg",
+                "team": "Herefordshire",
+                "opponents": "Cheshire",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Herefordshire",
+                    "total": 110,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Hall Avenue, Chester",
+                    "seriesDate": "2015"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Herefordshire",
+                    "total": 110,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Hall Avenue, Chester",
+                    "seriesDate": "2015"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Herefordshire",
+                    "total": 13,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "The Parks, Brockhampton",
+                    "seriesDate": "2017"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Herefordshire",
+                    "opponents": "Cheshire",
+                    "total": 84,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Hall Avenue, Chester",
+                    "seriesDate": "2003"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Herefordshire",
+                    "opponents": "Cheshire",
+                    "total": 84,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Hall Avenue, Chester",
+                    "seriesDate": "2003"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Herefordshire",
+                    "opponents": "Cheshire",
+                    "total": 26,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Clenchers Mill Lane, Eastnor",
+                    "seriesDate": "2008"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:42.978905Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

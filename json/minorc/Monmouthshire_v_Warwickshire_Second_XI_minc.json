@@ -1,0 +1,831 @@
+{
+    "team1": "Monmouthshire",
+    "team2": "Warwickshire Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 6,
+        "startDate": "1931-06-27T01:00",
+        "endDate": "1933-07-24T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Monmouthshire",
+                "opponents": "Warwickshire Second XI",
+                "total": 329,
+                "wickets": 10,
+                "declared": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1933"
+            }
+        ],
+        [
+            {
+                "team": "Warwickshire Second XI",
+                "opponents": "Monmouthshire",
+                "total": 397,
+                "wickets": 6,
+                "declared": true,
+                "location": "Panteg House, Griffithstown",
+                "seriesDate": "1932"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JM Smith",
+                "team": "Monmouthshire",
+                "opponents": "Warwickshire Second XI",
+                "score": 102,
+                "notOut": false,
+                "location": "Swans Nest Lane, Stratford-upon-Avon",
+                "seriesDate": "1931"
+            }
+        ],
+        [
+            {
+                "name": "T Collin",
+                "team": "Warwickshire Second XI",
+                "opponents": "Monmouthshire",
+                "score": 161,
+                "notOut": true,
+                "location": "Panteg House, Griffithstown",
+                "seriesDate": "1932"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "KF Harris",
+                "team": "Monmouthshire",
+                "opponents": "Warwickshire Second XI",
+                "wickets": 5,
+                "runs": 76,
+                "location": "Rodney Parade, Newport",
+                "seriesDate": "1931"
+            }
+        ],
+        [
+            {
+                "name": "W Sanders",
+                "team": "Warwickshire Second XI",
+                "opponents": "Monmouthshire",
+                "wickets": 6,
+                "runs": 41,
+                "location": "Rodney Parade, Newport",
+                "seriesDate": "1933"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "KC Raikes",
+                "team": "Monmouthshire",
+                "opponents": "Warwickshire Second XI",
+                "wickets": 6,
+                "runs": 109,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1932"
+            }
+        ],
+        [
+            {
+                "name": "AK Jackson",
+                "team": "Warwickshire Second XI",
+                "opponents": "Monmouthshire",
+                "wickets": 9,
+                "runs": 132,
+                "location": "Swans Nest Lane, Stratford-upon-Avon",
+                "seriesDate": "1931"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Rodney Parade, Newport",
+                        "seriesDate": "1933",
+                        "partnership": 105,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "W Allan",
+                        "player1Score": 48,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "L Pitchford",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1933",
+                        "partnership": 52,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Panteg House, Griffithstown",
+                        "seriesDate": "1932",
+                        "partnership": 66,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1933",
+                        "partnership": 35,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1932",
+                        "partnership": 118,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1932",
+                        "partnership": 35,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Swans Nest Lane, Stratford-upon-Avon",
+                        "seriesDate": "1931",
+                        "partnership": 83,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1932",
+                        "partnership": 30,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1933",
+                        "partnership": 21,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Swans Nest Lane, Stratford-upon-Avon",
+                        "seriesDate": "1931",
+                        "partnership": 24,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Monmouthshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1933",
+                        "partnership": 55,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "J Buckingham",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HJ Roberts",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Monmouthshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1932",
+                        "partnership": 75,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Monmouthshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1933",
+                        "partnership": 70,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Monmouthshire",
+                        "location": "Rodney Parade, Newport",
+                        "seriesDate": "1933",
+                        "partnership": 164,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Monmouthshire",
+                        "location": "Rodney Parade, Newport",
+                        "seriesDate": "1933",
+                        "partnership": 58,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Monmouthshire",
+                        "location": "Panteg House, Griffithstown",
+                        "seriesDate": "1932",
+                        "partnership": 229,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Monmouthshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1932",
+                        "partnership": 40,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Monmouthshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1932",
+                        "partnership": 32,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "HH Jarrett",
+                        "player1Score": 19,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "G Elson",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Monmouthshire",
+                        "location": "Rodney Parade, Newport",
+                        "seriesDate": "1931",
+                        "partnership": 22,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "K Wilmot",
+                        "player1Score": 17,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "G Elson",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Monmouthshire",
+                        "location": "Swans Nest Lane, Stratford-upon-Avon",
+                        "seriesDate": "1931",
+                        "partnership": 63,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "J Buckingham",
+                        "player1Score": 49,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "AK Jackson",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JJ Cope",
+                "team": "Monmouthshire",
+                "opponents": "Warwickshire Second XI",
+                "matches": 5,
+                "runs": 215,
+                "innings": 9,
+                "notOuts": 1,
+                "average": 26.87,
+                "hs": "98"
+            }
+        ],
+        [
+            {
+                "name": "WA Hill",
+                "team": "Warwickshire Second XI",
+                "opponents": "Monmouthshire",
+                "matches": 5,
+                "runs": 329,
+                "innings": 7,
+                "notOuts": 1,
+                "average": 54.83,
+                "hs": "82"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "KC Raikes",
+                "team": "Monmouthshire",
+                "opponents": "Warwickshire Second XI",
+                "matches": 4,
+                "balls": 819,
+                "maidens": 32,
+                "runs": 355,
+                "wickets": 19,
+                "bbruns": 57,
+                "bbwickets": 4,
+                "average": 18.68
+            }
+        ],
+        [
+            {
+                "name": "CF Tate",
+                "team": "Warwickshire Second XI",
+                "opponents": "Monmouthshire",
+                "matches": 3,
+                "balls": 316,
+                "maidens": 10,
+                "runs": 125,
+                "wickets": 13,
+                "bbruns": 8,
+                "bbwickets": 4,
+                "average": 9.61
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "CE Dolman",
+                "team": "Monmouthshire",
+                "opponents": "Warwickshire Second XI",
+                "matches": 6,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "J Buckingham",
+                "team": "Warwickshire Second XI",
+                "opponents": "Monmouthshire",
+                "matches": 6,
+                "dismissals": 13
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "SC Wilcox",
+                "team": "Monmouthshire",
+                "opponents": "Warwickshire Second XI",
+                "matches": 4,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "J Buckingham",
+                "team": "Warwickshire Second XI",
+                "opponents": "Monmouthshire",
+                "matches": 6,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Monmouthshire",
+                    "opponents": "Warwickshire Second XI",
+                    "total": 35,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Rodney Parade, Newport",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Monmouthshire",
+                    "opponents": "Warwickshire Second XI",
+                    "total": 35,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Rodney Parade, Newport",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Monmouthshire",
+                    "opponents": "Warwickshire Second XI",
+                    "total": 10,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Panteg House, Griffithstown",
+                    "seriesDate": "1932"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Warwickshire Second XI",
+                    "opponents": "Monmouthshire",
+                    "total": 199,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Rodney Parade, Newport",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Warwickshire Second XI",
+                    "opponents": "Monmouthshire",
+                    "total": 199,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Rodney Parade, Newport",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Warwickshire Second XI",
+                    "opponents": "Monmouthshire",
+                    "total": 69,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Swans Nest Lane, Stratford-upon-Avon",
+                    "seriesDate": "1931"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:10:34.516629Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

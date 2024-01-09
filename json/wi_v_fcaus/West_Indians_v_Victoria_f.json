@@ -1,0 +1,831 @@
+{
+    "team1": "West Indians",
+    "team2": "Victoria",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 13,
+        "startDate": "1930-11-28T00:00",
+        "endDate": "2005-11-11T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "West Indians",
+                "opponents": "Victoria",
+                "total": 558,
+                "wickets": 7,
+                "declared": true,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1984/85"
+            }
+        ],
+        [
+            {
+                "team": "Victoria",
+                "opponents": "West Indians",
+                "total": 601,
+                "wickets": 7,
+                "declared": false,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1984/85"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RB Kanhai",
+                "team": "West Indians",
+                "opponents": "Victoria",
+                "score": 252,
+                "notOut": false,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1960/61"
+            }
+        ],
+        [
+            {
+                "name": "MD Taylor",
+                "team": "Victoria",
+                "opponents": "West Indians",
+                "score": 234,
+                "notOut": true,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1984/85"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "S Ramadhin",
+                "team": "West Indians",
+                "opponents": "Victoria",
+                "wickets": 5,
+                "runs": 37,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1960/61"
+            }
+        ],
+        [
+            {
+                "name": "H Ironmonger",
+                "team": "Victoria",
+                "opponents": "West Indians",
+                "wickets": 8,
+                "runs": 31,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1930/31"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "S Ramadhin",
+                "team": "West Indians",
+                "opponents": "Victoria",
+                "wickets": 10,
+                "runs": 102,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1960/61"
+            }
+        ],
+        [
+            {
+                "name": "H Ironmonger",
+                "team": "Victoria",
+                "opponents": "West Indians",
+                "wickets": 13,
+                "runs": 118,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1930/31"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1984/85",
+                        "partnership": 187,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DL Haynes",
+                        "player1Score": 155,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "CG Greenidge",
+                        "player2Score": 78,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1960/61",
+                        "partnership": 142,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Victoria",
+                        "location": "Norm Minns Oval, Wangaratta",
+                        "seriesDate": "1996/97",
+                        "partnership": 129,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "SL Campbell",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BC Lara",
+                        "player2Score": 86,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1988/89",
+                        "partnership": 169,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "CL Hooper",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AL Logie",
+                        "player2Score": 134,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1960/61",
+                        "partnership": 133,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1951/52",
+                        "partnership": 134,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2000/01",
+                        "partnership": 38,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "RD Jacobs",
+                        "player1Score": 28,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "MV Nagamootoo",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1951/52",
+                        "partnership": 94,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1988/89",
+                        "partnership": 52,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "IR Bishop",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "WKM Benjamin",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1968/69",
+                        "partnership": 83,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "West Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1968/69",
+                        "partnership": 85,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WM Lawry",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "KR Stackpole",
+                        "player2Score": 39,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "West Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1984/85",
+                        "partnership": 114,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "DB Robinson",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DM Jones",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "West Indians",
+                        "location": "St Kilda Cricket Ground, Melbourne",
+                        "seriesDate": "2005/06",
+                        "partnership": 159,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "BJ Hodge",
+                        "player1Score": 177,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "N Jewell",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "West Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1930/31",
+                        "partnership": 200,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "West Indians",
+                        "location": "St Kilda Cricket Ground, Melbourne",
+                        "seriesDate": "2005/06",
+                        "partnership": 131,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DJ Hussey",
+                        "player1Score": 104,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CL White",
+                        "player2Score": 63,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "West Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1984/85",
+                        "partnership": 139,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "MD Taylor",
+                        "player1Score": 234,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "SP O'Donnell",
+                        "player2Score": 78,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "West Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1951/52",
+                        "partnership": 92,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "West Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1988/89",
+                        "partnership": 42,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "WN Phillips",
+                        "player1Score": 111,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "M Osborne",
+                        "player2Score": 58,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "West Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1988/89",
+                        "partnership": 56,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "M Osborne",
+                        "player1Score": 58,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "MG Hughes",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "West Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1930/31",
+                        "partnership": 30,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "LO Cordner",
+                        "player1Score": 30,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "EF Healy",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "GA Headley",
+                "team": "West Indians",
+                "opponents": "Victoria",
+                "matches": 2,
+                "runs": 355,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 88.75,
+                "hs": "131"
+            }
+        ],
+        [
+            {
+                "name": "BJ Hodge",
+                "team": "Victoria",
+                "opponents": "West Indians",
+                "matches": 2,
+                "runs": 311,
+                "innings": 2,
+                "notOuts": 1,
+                "average": 311.0,
+                "hs": "177"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "S Ramadhin",
+                "team": "West Indians",
+                "opponents": "Victoria",
+                "matches": 2,
+                "balls": 407,
+                "maidens": 8,
+                "runs": 156,
+                "wickets": 13,
+                "bbruns": 37,
+                "bbwickets": 5,
+                "average": 12.0
+            }
+        ],
+        [
+            {
+                "name": "H Ironmonger",
+                "team": "Victoria",
+                "opponents": "West Indians",
+                "matches": 1,
+                "balls": 227,
+                "maidens": 4,
+                "runs": 118,
+                "wickets": 13,
+                "bbruns": 31,
+                "bbwickets": 8,
+                "average": 9.07
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "CO Browne",
+                "team": "West Indians",
+                "opponents": "Victoria",
+                "matches": 1,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "RC Jordon",
+                "team": "Victoria",
+                "opponents": "West Indians",
+                "matches": 2,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JL Hendriks",
+                "team": "West Indians",
+                "opponents": "Victoria",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "IH McDonald",
+                "team": "Victoria",
+                "opponents": "West Indians",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Victoria",
+                    "total": 114,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "2000/01"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Victoria",
+                    "total": 114,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "2000/01"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Victoria",
+                    "total": 114,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "2000/01"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Victoria",
+                    "opponents": "West Indians",
+                    "total": 118,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1960/61"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Victoria",
+                    "opponents": "West Indians",
+                    "total": 118,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1960/61"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Victoria",
+                    "opponents": "West Indians",
+                    "total": 89,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1968/69"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:49.738191Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

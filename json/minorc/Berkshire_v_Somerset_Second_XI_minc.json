@@ -1,0 +1,869 @@
+{
+    "team1": "Berkshire",
+    "team2": "Somerset Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 5,
+        "startDate": "1983-08-18T01:00",
+        "endDate": "1987-08-13T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Berkshire",
+                "opponents": "Somerset Second XI",
+                "total": 255,
+                "wickets": 2,
+                "declared": true,
+                "location": "Gallowstree Common, Kidmore End",
+                "seriesDate": "1986"
+            }
+        ],
+        [
+            {
+                "team": "Somerset Second XI",
+                "opponents": "Berkshire",
+                "total": 248,
+                "wickets": 2,
+                "declared": true,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1985"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "GE Loveday",
+                "team": "Berkshire",
+                "opponents": "Somerset Second XI",
+                "score": 85,
+                "notOut": true,
+                "location": "Gallowstree Common, Kidmore End",
+                "seriesDate": "1986"
+            }
+        ],
+        [
+            {
+                "name": "RL Ollis",
+                "team": "Somerset Second XI",
+                "opponents": "Berkshire",
+                "score": 170,
+                "notOut": true,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1985"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "TPJ Dodd",
+                "team": "Berkshire",
+                "opponents": "Somerset Second XI",
+                "wickets": 5,
+                "runs": 15,
+                "location": "Imperial Athletic Ground, Bristol",
+                "seriesDate": "1987"
+            }
+        ],
+        [
+            {
+                "name": "GJ Hall",
+                "team": "Somerset Second XI",
+                "opponents": "Berkshire",
+                "wickets": 7,
+                "runs": 60,
+                "location": "Westland Sports Ground, Weston-super-Mare",
+                "seriesDate": "1983"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "TPJ Dodd",
+                "team": "Berkshire",
+                "opponents": "Somerset Second XI",
+                "wickets": 7,
+                "runs": 68,
+                "location": "Imperial Athletic Ground, Bristol",
+                "seriesDate": "1987"
+            }
+        ],
+        [
+            {
+                "name": "GJ Hall",
+                "team": "Somerset Second XI",
+                "opponents": "Berkshire",
+                "wickets": 7,
+                "runs": 60,
+                "location": "Westland Sports Ground, Weston-super-Mare",
+                "seriesDate": "1983"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Somerset Second XI",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1986",
+                        "partnership": 125,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MG Lickley",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GE Loveday",
+                        "player2Score": 85,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Somerset Second XI",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1986",
+                        "partnership": 116,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "GE Loveday",
+                        "player1Score": 85,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "GRJ Roope",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Somerset Second XI",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1984",
+                        "partnership": 81,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MG Lickley",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "GRJ Roope",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Somerset Second XI",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1984",
+                        "partnership": 21,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MG Lickley",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JF Harvey",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    },
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Somerset Second XI",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1985",
+                        "partnership": 21,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JF Harvey",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "GRJ Roope",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Somerset Second XI",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1984",
+                        "partnership": 50,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "ML Simmons",
+                        "player1Score": 46,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "KS Murray",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Somerset Second XI",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1985",
+                        "partnership": 71,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "G Scott",
+                        "player1Score": 57,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "TMH James",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Somerset Second XI",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1985",
+                        "partnership": 30,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "TMH James",
+                        "player1Score": 21,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "ME Stevens",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Somerset Second XI",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1986",
+                        "partnership": 56,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "TMH James",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JH Jones",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Somerset Second XI",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1984",
+                        "partnership": 35,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "JF Harvey",
+                        "player1Score": 37,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "JH Jones",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Somerset Second XI",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1986",
+                        "partnership": 0,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "PJ Lewington",
+                        "player1Score": 0,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "LP Sluman",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Somerset Second XI",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1985",
+                        "partnership": 155,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RL Ollis",
+                        "player1Score": 170,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "PAC Bail",
+                        "player2Score": 49,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Somerset Second XI",
+                        "opponents": "Berkshire",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1984",
+                        "partnership": 56,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JG Wyatt",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RJ Harden",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Somerset Second XI",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1985",
+                        "partnership": 88,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "RL Ollis",
+                        "player1Score": 170,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "AJH Dunning",
+                        "player2Score": 17,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Somerset Second XI",
+                        "opponents": "Berkshire",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1984",
+                        "partnership": 70,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "PA Slocombe",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RJ Harden",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Somerset Second XI",
+                        "opponents": "Berkshire",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1986",
+                        "partnership": 29,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GV Palmer",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "SC Booth",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Somerset Second XI",
+                        "opponents": "Berkshire",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1984",
+                        "partnership": 27,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "PA Slocombe",
+                        "player1Score": 19,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "PHL Wilson",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Somerset Second XI",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1985",
+                        "partnership": 32,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SJ Turner",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "MR Davis",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Somerset Second XI",
+                        "opponents": "Berkshire",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1984",
+                        "partnership": 13,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "GS Joyce",
+                        "player1Score": 8,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "AP Jones",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Somerset Second XI",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1985",
+                        "partnership": 10,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SJ Turner",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "MD Harman",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Somerset Second XI",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1985",
+                        "partnership": 6,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MD Harman",
+                        "player1Score": 3,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "PJ Robinson",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "MG Lickley",
+                "team": "Berkshire",
+                "opponents": "Somerset Second XI",
+                "matches": 5,
+                "runs": 261,
+                "innings": 9,
+                "notOuts": 0,
+                "average": 29.0,
+                "hs": "82"
+            }
+        ],
+        [
+            {
+                "name": "JG Wyatt",
+                "team": "Somerset Second XI",
+                "opponents": "Berkshire",
+                "matches": 4,
+                "runs": 277,
+                "innings": 8,
+                "notOuts": 1,
+                "average": 39.57,
+                "hs": "79*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "PJ Lewington",
+                "team": "Berkshire",
+                "opponents": "Somerset Second XI",
+                "matches": 5,
+                "balls": 1099,
+                "maidens": 67,
+                "runs": 383,
+                "wickets": 16,
+                "bbruns": 56,
+                "bbwickets": 4,
+                "average": 23.93
+            }
+        ],
+        [
+            {
+                "name": "MD Harman",
+                "team": "Somerset Second XI",
+                "opponents": "Berkshire",
+                "matches": 3,
+                "balls": 432,
+                "maidens": 18,
+                "runs": 229,
+                "wickets": 8,
+                "bbruns": 35,
+                "bbwickets": 3,
+                "average": 28.62
+            },
+            {
+                "name": "GV Palmer",
+                "team": "Somerset Second XI",
+                "opponents": "Berkshire",
+                "matches": 2,
+                "balls": 282,
+                "maidens": 8,
+                "runs": 167,
+                "wickets": 8,
+                "bbruns": 44,
+                "bbwickets": 4,
+                "average": 20.87
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "GRJ Roope",
+                "team": "Berkshire",
+                "opponents": "Somerset Second XI",
+                "matches": 5,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "JG Wyatt",
+                "team": "Somerset Second XI",
+                "opponents": "Berkshire",
+                "matches": 4,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "GEJ Child",
+                "team": "Berkshire",
+                "opponents": "Somerset Second XI",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "RJ Blitz",
+                "team": "Somerset Second XI",
+                "opponents": "Berkshire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "MS Turner",
+                "team": "Somerset Second XI",
+                "opponents": "Berkshire",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Somerset Second XI",
+                    "total": 159,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Westland Sports Ground, Weston-super-Mare",
+                    "seriesDate": "1983"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Somerset Second XI",
+                    "total": 159,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Westland Sports Ground, Weston-super-Mare",
+                    "seriesDate": "1983"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Somerset Second XI",
+                    "total": 159,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Westland Sports Ground, Weston-super-Mare",
+                    "seriesDate": "1983"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Somerset Second XI",
+                    "opponents": "Berkshire",
+                    "total": 61,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Imperial Athletic Ground, Bristol",
+                    "seriesDate": "1987"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Somerset Second XI",
+                    "opponents": "Berkshire",
+                    "total": 61,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Imperial Athletic Ground, Bristol",
+                    "seriesDate": "1987"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Somerset Second XI",
+                    "opponents": "Berkshire",
+                    "total": 61,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Imperial Athletic Ground, Bristol",
+                    "seriesDate": "1987"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:45.038063Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

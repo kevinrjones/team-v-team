@@ -1,0 +1,1186 @@
+{
+    "team1": "South Africa",
+    "team2": "West Indies",
+    "competitionTitle": "ICC World Cup",
+    "competitionSubType": "wc",
+    "matchDto": {
+        "count": 7,
+        "startDate": "1992-03-05T00:00",
+        "endDate": "2019-06-10T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "total": 408,
+                "wickets": 5,
+                "declared": false,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "total": 289,
+                "wickets": 9,
+                "declared": false,
+                "location": "Queen's Park (New), St George's",
+                "seriesDate": "2006/07"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AB de Villiers",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "score": 162,
+                "notOut": true,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "BC Lara",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "score": 116,
+                "notOut": false,
+                "location": "Newlands, Cape Town",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "AB de Villiers",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "strikeRate": 245.45,
+                "runs": 162,
+                "balls": 66,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "RL Powell",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "strikeRate": 222.22,
+                "runs": 40,
+                "balls": 18,
+                "location": "Newlands, Cape Town",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "AB de Villiers",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "strikeRate": 245.45,
+                "runs": 162,
+                "balls": 66,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "RL Powell",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "strikeRate": 222.22,
+                "runs": 40,
+                "balls": 18,
+                "location": "Newlands, Cape Town",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "G Kirsten",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "strikeRate": 21.43,
+                "runs": 3,
+                "balls": 14,
+                "location": "National Stadium, Karachi",
+                "seriesDate": "1995/96"
+            }
+        ],
+        [
+            {
+                "name": "WW Hinds",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "strikeRate": 0.0,
+                "runs": 0,
+                "balls": 16,
+                "location": "Newlands, Cape Town",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "GC Smith",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "strikeRate": 31.82,
+                "runs": 7,
+                "balls": 22,
+                "location": "Queen's Park (New), St George's",
+                "seriesDate": "2006/07"
+            }
+        ],
+        [
+            {
+                "name": "CH Gayle",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "strikeRate": 9.52,
+                "runs": 2,
+                "balls": 21,
+                "location": "Newlands, Cape Town",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "AB de Villiers",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "boundaries": 17,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "BC Lara",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "boundaries": 16,
+                "fours": 0,
+                "sixes": 0,
+                "location": "National Stadium, Karachi",
+                "seriesDate": "1995/96"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "AB de Villiers",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "boundaries": 8,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "JO Holder",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "boundaries": 4,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "AB de Villiers",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "boundaries": 25,
+                "fours": 17,
+                "sixes": 8,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "BC Lara",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "boundaries": 16,
+                "fours": 16,
+                "sixes": 0,
+                "location": "National Stadium, Karachi",
+                "seriesDate": "1995/96"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Imran Tahir",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "wickets": 5,
+                "runs": 45,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "RA Harper",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "wickets": 4,
+                "runs": 47,
+                "location": "National Stadium, Karachi",
+                "seriesDate": "1995/96"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Imran Tahir",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "wickets": 5,
+                "runs": 45,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "RA Harper",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "wickets": 4,
+                "runs": 47,
+                "location": "National Stadium, Karachi",
+                "seriesDate": "1995/96"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "MW Pringle",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "overs": "8",
+                "balls": 48,
+                "maidens": 4,
+                "wickets": 4,
+                "runs": 11,
+                "sr": 12.0,
+                "location": "Lancaster Park, Christchurch",
+                "seriesDate": "1991/92"
+            },
+            {
+                "name": "Imran Tahir",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 2,
+                "wickets": 5,
+                "runs": 45,
+                "sr": 12.0,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "CH Gayle",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 21,
+                "sr": 12.0,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            },
+            {
+                "name": "SS Cotterell",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 18,
+                "sr": 12.0,
+                "location": "The Ageas Bowl, Southampton",
+                "seriesDate": "2019"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "MW Pringle",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "overs": "8",
+                "balls": 48,
+                "maidens": 4,
+                "wickets": 4,
+                "runs": 11,
+                "sr": 12.0,
+                "location": "Lancaster Park, Christchurch",
+                "seriesDate": "1991/92"
+            },
+            {
+                "name": "Imran Tahir",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 2,
+                "wickets": 5,
+                "runs": 45,
+                "sr": 12.0,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "CH Gayle",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 21,
+                "sr": 12.0,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            },
+            {
+                "name": "SS Cotterell",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 18,
+                "sr": 12.0,
+                "location": "The Ageas Bowl, Southampton",
+                "seriesDate": "2019"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "MW Pringle",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "overs": "8",
+                "balls": 48,
+                "maidens": 4,
+                "wickets": 4,
+                "runs": 11,
+                "sr": 1.38,
+                "location": "Lancaster Park, Christchurch",
+                "seriesDate": "1991/92"
+            }
+        ],
+        [
+            {
+                "name": "OR Thomas",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "overs": "0.3",
+                "balls": 3,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 1,
+                "sr": 2.0,
+                "location": "The Ageas Bowl, Southampton",
+                "seriesDate": "2019"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "MW Pringle",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "overs": "8",
+                "balls": 48,
+                "maidens": 4,
+                "wickets": 4,
+                "runs": 11,
+                "sr": 1.38,
+                "location": "Lancaster Park, Christchurch",
+                "seriesDate": "1991/92"
+            }
+        ],
+        [
+            {
+                "name": "MD Marshall",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 26,
+                "sr": 2.6,
+                "location": "Lancaster Park, Christchurch",
+                "seriesDate": "1991/92"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "GC Smith",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "overs": "5",
+                "balls": 30,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 56,
+                "sr": 11.2,
+                "location": "Queen's Park (New), St George's",
+                "seriesDate": "2006/07"
+            }
+        ],
+        [
+            {
+                "name": "JO Holder",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 2,
+                "wickets": 1,
+                "runs": 104,
+                "sr": 10.4,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "GC Smith",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "overs": "5",
+                "balls": 30,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 56,
+                "sr": 11.2,
+                "location": "Queen's Park (New), St George's",
+                "seriesDate": "2006/07"
+            }
+        ],
+        [
+            {
+                "name": "JO Holder",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 2,
+                "wickets": 1,
+                "runs": 104,
+                "sr": 10.4,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "West Indies",
+                        "location": "Newlands, Cape Town",
+                        "seriesDate": "2002/03",
+                        "partnership": 46,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HH Gibbs",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "G Kirsten",
+                        "player2Score": 69,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "West Indies",
+                        "location": "Queen's Park (New), St George's",
+                        "seriesDate": "2006/07",
+                        "partnership": 170,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AB de Villiers",
+                        "player1Score": 146,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JH Kallis",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "West Indies",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2010/11",
+                        "partnership": 119,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AB de Villiers",
+                        "player1Score": 107,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "GC Smith",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "West Indies",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2014/15",
+                        "partnership": 134,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RR Rossouw",
+                        "player1Score": 61,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AB de Villiers",
+                        "player2Score": 162,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "West Indies",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2014/15",
+                        "partnership": 48,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AB de Villiers",
+                        "player1Score": 162,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "DA Miller",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "West Indies",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2014/15",
+                        "partnership": 80,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "AB de Villiers",
+                        "player1Score": 162,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "F Behardien",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "West Indies",
+                        "location": "Newlands, Cape Town",
+                        "seriesDate": "2002/03",
+                        "partnership": 44,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MV Boucher",
+                        "player1Score": 49,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "L Klusener",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "West Indies",
+                        "location": "Newlands, Cape Town",
+                        "seriesDate": "2002/03",
+                        "partnership": 67,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "L Klusener",
+                        "player1Score": 57,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "N Boje",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "West Indies",
+                        "location": "Lancaster Park, Christchurch",
+                        "seriesDate": "1991/92",
+                        "partnership": 13,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "DJ Richardson",
+                        "player1Score": 20,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "MW Pringle",
+                        "player2Score": 5,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "West Indies",
+                        "location": "National Stadium, Karachi",
+                        "seriesDate": "1995/96",
+                        "partnership": 17,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CR Matthews",
+                        "player1Score": 8,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "PR Adams",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "South Africa",
+                        "location": "National Stadium, Karachi",
+                        "seriesDate": "1995/96",
+                        "partnership": 42,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "S Chanderpaul",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CO Browne",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "South Africa",
+                        "location": "National Stadium, Karachi",
+                        "seriesDate": "1995/96",
+                        "partnership": 138,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "S Chanderpaul",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BC Lara",
+                        "player2Score": 111,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "South Africa",
+                        "location": "Newlands, Cape Town",
+                        "seriesDate": "2002/03",
+                        "partnership": 102,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "BC Lara",
+                        "player1Score": 116,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "S Chanderpaul",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "South Africa",
+                        "location": "Newlands, Cape Town",
+                        "seriesDate": "2002/03",
+                        "partnership": 89,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "BC Lara",
+                        "player1Score": 116,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CL Hooper",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "South Africa",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2010/11",
+                        "partnership": 58,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "S Chanderpaul",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DJ Bravo",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "South Africa",
+                        "location": "Newlands, Cape Town",
+                        "seriesDate": "2002/03",
+                        "partnership": 63,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "RL Powell",
+                        "player1Score": 40,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "RR Sarwan",
+                        "player2Score": 32,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "South Africa",
+                        "location": "Lancaster Park, Christchurch",
+                        "seriesDate": "1991/92",
+                        "partnership": 46,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "AL Logie",
+                        "player1Score": 61,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "DL Haynes",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "South Africa",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2014/15",
+                        "partnership": 45,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "D Ramdin",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "JO Holder",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "South Africa",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2014/15",
+                        "partnership": 42,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JO Holder",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "JE Taylor",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "South Africa",
+                        "location": "Queen's Park (New), St George's",
+                        "seriesDate": "2006/07",
+                        "partnership": 35,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "DBL Powell",
+                        "player1Score": 48,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "CD Collymore",
+                        "player2Score": 12,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AB de Villiers",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "matches": 3,
+                "runs": 415,
+                "innings": 3,
+                "notOuts": 2,
+                "average": 415.0,
+                "hs": "162*"
+            }
+        ],
+        [
+            {
+                "name": "BC Lara",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "matches": 4,
+                "runs": 257,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 64.25,
+                "hs": "116"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Imran Tahir",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "matches": 2,
+                "balls": 120,
+                "maidens": 3,
+                "runs": 86,
+                "wickets": 9,
+                "bbruns": 45,
+                "bbwickets": 5,
+                "average": 9.55
+            }
+        ],
+        [
+            {
+                "name": "CH Gayle",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "matches": 4,
+                "balls": 156,
+                "maidens": 1,
+                "runs": 149,
+                "wickets": 5,
+                "bbruns": 21,
+                "bbwickets": 2,
+                "average": 29.8
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "SM Pollock",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "matches": 3,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "D Ramdin",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "Q de Kock",
+                "team": "South Africa",
+                "opponents": "West Indies",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "RD Jacobs",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "D Williams",
+                "team": "West Indies",
+                "opponents": "South Africa",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "South Africa",
+                    "opponents": "West Indies",
+                    "total": 245,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "National Stadium, Karachi",
+                    "seriesDate": "1995/96"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "South Africa",
+                    "opponents": "West Indies",
+                    "total": 200,
+                    "wickets": 8,
+                    "declared": false,
+                    "location": "Lancaster Park, Christchurch",
+                    "seriesDate": "1991/92"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "South Africa",
+                    "opponents": "West Indies",
+                    "total": 29,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "The Ageas Bowl, Southampton",
+                    "seriesDate": "2019"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indies",
+                    "opponents": "South Africa",
+                    "total": 136,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lancaster Park, Christchurch",
+                    "seriesDate": "1991/92"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indies",
+                    "opponents": "South Africa",
+                    "total": 136,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lancaster Park, Christchurch",
+                    "seriesDate": "1991/92"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indies",
+                    "opponents": "South Africa",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The Ageas Bowl, Southampton",
+                    "seriesDate": "2019"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:19:49.007664Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

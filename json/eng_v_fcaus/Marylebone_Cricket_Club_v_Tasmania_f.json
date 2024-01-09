@@ -1,0 +1,859 @@
+{
+    "team1": "Marylebone Cricket Club",
+    "team2": "Tasmania",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 25,
+        "startDate": "1904-01-25T00:00",
+        "endDate": "1986-12-18T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Tasmania",
+                "total": 574,
+                "wickets": 4,
+                "declared": true,
+                "location": "Tasmania Cricket Association Ground, Hobart",
+                "seriesDate": "1911/12"
+            }
+        ],
+        [
+            {
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "total": 355,
+                "wickets": 10,
+                "declared": false,
+                "location": "Tasmania Cricket Association Ground, Hobart",
+                "seriesDate": "1911/12"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "FE Woolley",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Tasmania",
+                "score": 305,
+                "notOut": true,
+                "location": "Tasmania Cricket Association Ground, Hobart",
+                "seriesDate": "1911/12"
+            }
+        ],
+        [
+            {
+                "name": "JH Savigny",
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "score": 164,
+                "notOut": true,
+                "location": "North Tasmania Cricket Association Ground, Launceston",
+                "seriesDate": "1903/04"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "DL Underwood",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Tasmania",
+                "wickets": 7,
+                "runs": 66,
+                "location": "Tasmania Cricket Association Ground, Hobart",
+                "seriesDate": "1979/80"
+            }
+        ],
+        [
+            {
+                "name": "GTH James",
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 6,
+                "runs": 96,
+                "location": "North Tasmania Cricket Association Ground, Launceston",
+                "seriesDate": "1932/33"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "TB Mitchell",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Tasmania",
+                "wickets": 11,
+                "runs": 144,
+                "location": "North Tasmania Cricket Association Ground, Launceston",
+                "seriesDate": "1932/33"
+            }
+        ],
+        [
+            {
+                "name": "NV Diprose",
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 6,
+                "runs": 152,
+                "location": "North Tasmania Cricket Association Ground, Launceston",
+                "seriesDate": "1954/55"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Tasmania",
+                        "location": "Tasmania Cricket Association Ground, Hobart",
+                        "seriesDate": "1924/25",
+                        "partnership": 161,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "H Sutcliffe",
+                        "player1Score": 188,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "A Sandham",
+                        "player2Score": 92,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Tasmania",
+                        "location": "Tasmania Cricket Association Ground, Hobart",
+                        "seriesDate": "1911/12",
+                        "partnership": 206,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "W Rhodes",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "FE Woolley",
+                        "player2Score": 305,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Tasmania",
+                        "location": "Tasmania Cricket Association Ground, Hobart",
+                        "seriesDate": "1911/12",
+                        "partnership": 264,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "FE Woolley",
+                        "player1Score": 305,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "JW Hearne",
+                        "player2Score": 97,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Tasmania",
+                        "location": "North Tasmania Cricket Association Ground, Launceston",
+                        "seriesDate": "1946/47",
+                        "partnership": 282,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Tasmania",
+                        "location": "Tasmania Cricket Association Ground, Hobart",
+                        "seriesDate": "1903/04",
+                        "partnership": 166,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "AE Knight",
+                        "player1Score": 45,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "BJT Bosanquet",
+                        "player2Score": 124,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Tasmania",
+                        "location": "Tasmania Cricket Association Ground, Hobart",
+                        "seriesDate": "1907/08",
+                        "partnership": 210,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Tasmania",
+                        "location": "Tasmania Cricket Association Ground, Hobart",
+                        "seriesDate": "1950/51",
+                        "partnership": 82,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Tasmania",
+                        "location": "Tasmania Cricket Association Ground, Hobart",
+                        "seriesDate": "1932/33",
+                        "partnership": 75,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "H Verity",
+                        "player1Score": 54,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "G Duckworth",
+                        "player2Score": 27,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Tasmania",
+                        "location": "North Tasmania Cricket Association Ground, Launceston",
+                        "seriesDate": "1903/04",
+                        "partnership": 43,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AFA Lilley",
+                        "player1Score": 37,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "A Fielder",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Tasmania",
+                        "location": "North Tasmania Cricket Association Ground, Launceston",
+                        "seriesDate": "1911/12",
+                        "partnership": 60,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JW Hitch",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "H Strudwick",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Tasmania",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "North Tasmania Cricket Association Ground, Launceston",
+                        "seriesDate": "1903/04",
+                        "partnership": 202,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JH Savigny",
+                        "player1Score": 164,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "OH Douglas",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Tasmania",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Tasmania Cricket Association Ground, Hobart",
+                        "seriesDate": "1970/71",
+                        "partnership": 79,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Tasmania",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Tasmania Cricket Association Ground, Hobart",
+                        "seriesDate": "1974/75",
+                        "partnership": 154,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Tasmania",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Tasmania Cricket Association Ground, Hobart",
+                        "seriesDate": "1907/08",
+                        "partnership": 122,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Tasmania",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Tasmania Cricket Association Ground, Hobart",
+                        "seriesDate": "1911/12",
+                        "partnership": 80,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Tasmania",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "North Tasmania Cricket Association Ground, Launceston",
+                        "seriesDate": "1924/25",
+                        "partnership": 100,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Tasmania",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "North Tasmania Cricket Association Ground, Launceston",
+                        "seriesDate": "1928/29",
+                        "partnership": 92,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Tasmania",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "North Tasmania Cricket Association Ground, Launceston",
+                        "seriesDate": "1932/33",
+                        "partnership": 56,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SWL Putman",
+                        "player1Score": 56,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "GTH James",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Tasmania",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "North Tasmania Cricket Association Ground, Launceston",
+                        "seriesDate": "1974/75",
+                        "partnership": 61,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Tasmania",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "North Tasmania Cricket Association Ground, Launceston",
+                        "seriesDate": "1965/66",
+                        "partnership": 48,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "LEG Ames",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Tasmania",
+                "matches": 5,
+                "runs": 402,
+                "innings": 5,
+                "notOuts": 1,
+                "average": 100.5,
+                "hs": "109"
+            }
+        ],
+        [
+            {
+                "name": "GW Martin",
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 5,
+                "runs": 312,
+                "innings": 10,
+                "notOuts": 0,
+                "average": 31.2,
+                "hs": "121"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "MW Tate",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Tasmania",
+                "matches": 5,
+                "balls": 887,
+                "maidens": 30,
+                "runs": 284,
+                "wickets": 21,
+                "bbruns": 26,
+                "bbwickets": 6,
+                "average": 13.52
+            }
+        ],
+        [
+            {
+                "name": "EAC Windsor",
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 6,
+                "balls": 996,
+                "maidens": 19,
+                "runs": 722,
+                "wickets": 22,
+                "bbruns": 85,
+                "bbwickets": 5,
+                "average": 32.81
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RW Taylor",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Tasmania",
+                "matches": 5,
+                "dismissals": 13
+            }
+        ],
+        [
+            {
+                "name": "LA Cuff",
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "dismissals": 5
+            },
+            {
+                "name": "DC Green",
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 5,
+                "dismissals": 5
+            },
+            {
+                "name": "GW Martin",
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 5,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "LEG Ames",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Tasmania",
+                "matches": 5,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "N Dodds",
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 4,
+                "dismissals": 2
+            },
+            {
+                "name": "J Gardiner",
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "CN Parry",
+                "team": "Tasmania",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Tasmania",
+                    "total": 185,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Tasmania Cricket Association Ground, Hobart",
+                    "seriesDate": "1903/04"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Tasmania",
+                    "total": 185,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Tasmania Cricket Association Ground, Hobart",
+                    "seriesDate": "1903/04"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Tasmania",
+                    "total": 56,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "North Tasmania Cricket Association Ground, Launceston",
+                    "seriesDate": "1911/12"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Tasmania",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Tasmania Cricket Association Ground, Hobart",
+                    "seriesDate": "1928/29"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Tasmania",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Tasmania Cricket Association Ground, Hobart",
+                    "seriesDate": "1928/29"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Tasmania",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 63,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Tasmania Cricket Association Ground, Hobart",
+                    "seriesDate": "1903/04"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:10.423382Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,855 @@
+{
+    "team1": "Cheshire",
+    "team2": "Nottinghamshire Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 4,
+        "startDate": "1909-08-04T00:00",
+        "endDate": "1910-07-27T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cheshire",
+                "opponents": "Nottinghamshire Second XI",
+                "total": 269,
+                "wickets": 10,
+                "declared": false,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "1910"
+            }
+        ],
+        [
+            {
+                "team": "Nottinghamshire Second XI",
+                "opponents": "Cheshire",
+                "total": 283,
+                "wickets": 1,
+                "declared": true,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "1909"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JC Fallows",
+                "team": "Cheshire",
+                "opponents": "Nottinghamshire Second XI",
+                "score": 94,
+                "notOut": false,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "1910"
+            }
+        ],
+        [
+            {
+                "name": "CC James",
+                "team": "Nottinghamshire Second XI",
+                "opponents": "Cheshire",
+                "score": 172,
+                "notOut": false,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "1909"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "P Mason",
+                "team": "Cheshire",
+                "opponents": "Nottinghamshire Second XI",
+                "wickets": 6,
+                "runs": 37,
+                "location": "Alexandra Athletic Ground, Crewe",
+                "seriesDate": "1910"
+            }
+        ],
+        [
+            {
+                "name": "W Riley",
+                "team": "Nottinghamshire Second XI",
+                "opponents": "Cheshire",
+                "wickets": 9,
+                "runs": 11,
+                "location": "The Recreation Ground, Bollington",
+                "seriesDate": "1909"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "P Mason",
+                "team": "Cheshire",
+                "opponents": "Nottinghamshire Second XI",
+                "wickets": 7,
+                "runs": 55,
+                "location": "Alexandra Athletic Ground, Crewe",
+                "seriesDate": "1910"
+            }
+        ],
+        [
+            {
+                "name": "W Riley",
+                "team": "Nottinghamshire Second XI",
+                "opponents": "Cheshire",
+                "wickets": 14,
+                "runs": 31,
+                "location": "The Recreation Ground, Bollington",
+                "seriesDate": "1909"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Nottinghamshire Second XI",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1910",
+                        "partnership": 103,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "FC Wild",
+                        "player1Score": 61,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JC Fallows",
+                        "player2Score": 94,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Nottinghamshire Second XI",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1909",
+                        "partnership": 58,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Nottinghamshire Second XI",
+                        "location": "Alexandra Athletic Ground, Crewe",
+                        "seriesDate": "1910",
+                        "partnership": 70,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Nottinghamshire Second XI",
+                        "location": "Alexandra Athletic Ground, Crewe",
+                        "seriesDate": "1910",
+                        "partnership": 4,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Nottinghamshire Second XI",
+                        "location": "The Recreation Ground, Bollington",
+                        "seriesDate": "1909",
+                        "partnership": 5,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Nottinghamshire Second XI",
+                        "location": "Alexandra Athletic Ground, Crewe",
+                        "seriesDate": "1910",
+                        "partnership": 5,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Nottinghamshire Second XI",
+                        "location": "Alexandra Athletic Ground, Crewe",
+                        "seriesDate": "1910",
+                        "partnership": 31,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Nottinghamshire Second XI",
+                        "location": "The Recreation Ground, Bollington",
+                        "seriesDate": "1909",
+                        "partnership": 13,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Nottinghamshire Second XI",
+                        "location": "Alexandra Athletic Ground, Crewe",
+                        "seriesDate": "1910",
+                        "partnership": 31,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Nottinghamshire Second XI",
+                        "location": "Alexandra Athletic Ground, Crewe",
+                        "seriesDate": "1910",
+                        "partnership": 18,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Nottinghamshire Second XI",
+                        "location": "Alexandra Athletic Ground, Crewe",
+                        "seriesDate": "1910",
+                        "partnership": 14,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire Second XI",
+                        "opponents": "Cheshire",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1909",
+                        "partnership": 275,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CC James",
+                        "player1Score": 172,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AW Carr",
+                        "player2Score": 102,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire Second XI",
+                        "opponents": "Cheshire",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1910",
+                        "partnership": 79,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "CC James",
+                        "player1Score": 26,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "GM Lee",
+                        "player2Score": 51,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire Second XI",
+                        "opponents": "Cheshire",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1910",
+                        "partnership": 76,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "GM Lee",
+                        "player1Score": 109,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "A Iremonger",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire Second XI",
+                        "opponents": "Cheshire",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1910",
+                        "partnership": 22,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "J Stapleton",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "GM Lee",
+                        "player2Score": 109,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire Second XI",
+                        "opponents": "Cheshire",
+                        "location": "Alexandra Athletic Ground, Crewe",
+                        "seriesDate": "1910",
+                        "partnership": 22,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire Second XI",
+                        "opponents": "Cheshire",
+                        "location": "Alexandra Athletic Ground, Crewe",
+                        "seriesDate": "1910",
+                        "partnership": 55,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire Second XI",
+                        "opponents": "Cheshire",
+                        "location": "Alexandra Athletic Ground, Crewe",
+                        "seriesDate": "1910",
+                        "partnership": 30,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "WW Whysall",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "WB Lymbery",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire Second XI",
+                        "opponents": "Cheshire",
+                        "location": "The Recreation Ground, Bollington",
+                        "seriesDate": "1909",
+                        "partnership": 32,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire Second XI",
+                        "opponents": "Cheshire",
+                        "location": "The Recreation Ground, Bollington",
+                        "seriesDate": "1909",
+                        "partnership": 16,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire Second XI",
+                        "opponents": "Cheshire",
+                        "location": "Alexandra Athletic Ground, Crewe",
+                        "seriesDate": "1910",
+                        "partnership": 7,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JC Fallows",
+                "team": "Cheshire",
+                "opponents": "Nottinghamshire Second XI",
+                "matches": 3,
+                "runs": 165,
+                "innings": 6,
+                "notOuts": 0,
+                "average": 27.5,
+                "hs": "94"
+            }
+        ],
+        [
+            {
+                "name": "CC James",
+                "team": "Nottinghamshire Second XI",
+                "opponents": "Cheshire",
+                "matches": 4,
+                "runs": 236,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 47.2,
+                "hs": "172"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "P Mason",
+                "team": "Cheshire",
+                "opponents": "Nottinghamshire Second XI",
+                "matches": 2,
+                "balls": 318,
+                "maidens": 9,
+                "runs": 135,
+                "wickets": 12,
+                "bbruns": 37,
+                "bbwickets": 6,
+                "average": 11.25
+            }
+        ],
+        [
+            {
+                "name": "W Riley",
+                "team": "Nottinghamshire Second XI",
+                "opponents": "Cheshire",
+                "matches": 2,
+                "balls": 361,
+                "maidens": 30,
+                "runs": 81,
+                "wickets": 17,
+                "bbruns": 11,
+                "bbwickets": 9,
+                "average": 4.76
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "N Buxton",
+                "team": "Cheshire",
+                "opponents": "Nottinghamshire Second XI",
+                "matches": 2,
+                "dismissals": 3
+            },
+            {
+                "name": "J Holland",
+                "team": "Cheshire",
+                "opponents": "Nottinghamshire Second XI",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "J Stapleton",
+                "team": "Nottinghamshire Second XI",
+                "opponents": "Cheshire",
+                "matches": 4,
+                "dismissals": 8
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RR Wilson",
+                "team": "Cheshire",
+                "opponents": "Nottinghamshire Second XI",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "J Stapleton",
+                "team": "Nottinghamshire Second XI",
+                "opponents": "Cheshire",
+                "matches": 4,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Nottinghamshire Second XI",
+                    "total": 33,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Recreation Ground, Bollington",
+                    "seriesDate": "1909"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Nottinghamshire Second XI",
+                    "total": 33,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Recreation Ground, Bollington",
+                    "seriesDate": "1909"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Nottinghamshire Second XI",
+                    "total": 33,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Recreation Ground, Bollington",
+                    "seriesDate": "1909"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Nottinghamshire Second XI",
+                    "opponents": "Cheshire",
+                    "total": 121,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Recreation Ground, Bollington",
+                    "seriesDate": "1909"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Nottinghamshire Second XI",
+                    "opponents": "Cheshire",
+                    "total": 121,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Recreation Ground, Bollington",
+                    "seriesDate": "1909"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Nottinghamshire Second XI",
+                    "opponents": "Cheshire",
+                    "total": 79,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Trent Bridge, Nottingham",
+                    "seriesDate": "1910"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:49.312848Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

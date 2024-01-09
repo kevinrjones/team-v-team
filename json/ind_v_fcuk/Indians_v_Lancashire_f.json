@@ -1,0 +1,899 @@
+{
+    "team1": "Indians",
+    "team2": "Lancashire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 13,
+        "startDate": "1911-06-19T00:00",
+        "endDate": "1979-08-22T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Indians",
+                "opponents": "Lancashire",
+                "total": 493,
+                "wickets": 10,
+                "declared": false,
+                "location": "Aigburth, Liverpool",
+                "seriesDate": "1932"
+            }
+        ],
+        [
+            {
+                "team": "Lancashire",
+                "opponents": "Indians",
+                "total": 511,
+                "wickets": 10,
+                "declared": false,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1974"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "VM Merchant",
+                "team": "Indians",
+                "opponents": "Lancashire",
+                "score": 242,
+                "notOut": true,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1946"
+            }
+        ],
+        [
+            {
+                "name": "KJ Grieves",
+                "team": "Lancashire",
+                "opponents": "Indians",
+                "score": 202,
+                "notOut": true,
+                "location": "Stanley Park, Blackpool",
+                "seriesDate": "1959"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "GS Ramchand",
+                "team": "Indians",
+                "opponents": "Lancashire",
+                "wickets": 7,
+                "runs": 27,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1952"
+            }
+        ],
+        [
+            {
+                "name": "R Pollard",
+                "team": "Lancashire",
+                "opponents": "Indians",
+                "wickets": 7,
+                "runs": 49,
+                "location": "Aigburth, Liverpool",
+                "seriesDate": "1946"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "MH Mankad",
+                "team": "Indians",
+                "opponents": "Lancashire",
+                "wickets": 9,
+                "runs": 196,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1946"
+            }
+        ],
+        [
+            {
+                "name": "HRW Butterworth",
+                "team": "Lancashire",
+                "opponents": "Indians",
+                "wickets": 10,
+                "runs": 163,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1932"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1974",
+                        "partnership": 187,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "SM Gavaskar",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "ED Solkar",
+                        "player2Score": 65,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1974",
+                        "partnership": 93,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Lancashire",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1946",
+                        "partnership": 161,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "VM Merchant",
+                        "player1Score": 93,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "Nawab of Pataudi",
+                        "player2Score": 80,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1952",
+                        "partnership": 174,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1946",
+                        "partnership": 90,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Lancashire",
+                        "location": "Stanley Park, Blackpool",
+                        "seriesDate": "1959",
+                        "partnership": 113,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1946",
+                        "partnership": 106,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Indians",
+                        "opponents": "Lancashire",
+                        "location": "Stanley Park, Blackpool",
+                        "seriesDate": "1959",
+                        "partnership": 106,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1946",
+                        "partnership": 110,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Lancashire",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1932",
+                        "partnership": 125,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Lancashire",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1932",
+                        "partnership": 94,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "L Amar Singh",
+                        "player1Score": 131,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "M Nissar",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Indians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1946",
+                        "partnership": 100,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "C Washbrook",
+                        "player1Score": 108,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "W Place",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Indians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1932",
+                        "partnership": 327,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Indians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1959",
+                        "partnership": 187,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Indians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1952",
+                        "partnership": 80,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Indians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1936",
+                        "partnership": 201,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Indians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1974",
+                        "partnership": 110,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Indians",
+                        "location": "Stanley Park, Blackpool",
+                        "seriesDate": "1959",
+                        "partnership": 135,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Indians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1974",
+                        "partnership": 76,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Indians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1946",
+                        "partnership": 48,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Indians",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1946",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Indians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1952",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "VM Merchant",
+                "team": "Indians",
+                "opponents": "Lancashire",
+                "matches": 4,
+                "runs": 621,
+                "innings": 6,
+                "notOuts": 4,
+                "average": 310.5,
+                "hs": "242*"
+            }
+        ],
+        [
+            {
+                "name": "C Washbrook",
+                "team": "Lancashire",
+                "opponents": "Indians",
+                "matches": 6,
+                "runs": 470,
+                "innings": 11,
+                "notOuts": 1,
+                "average": 47.0,
+                "hs": "113"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "MH Mankad",
+                "team": "Indians",
+                "opponents": "Lancashire",
+                "matches": 2,
+                "balls": 618,
+                "maidens": 29,
+                "runs": 228,
+                "wickets": 12,
+                "bbruns": 62,
+                "bbwickets": 5,
+                "average": 19.0
+            }
+        ],
+        [
+            {
+                "name": "JL Hopwood",
+                "team": "Lancashire",
+                "opponents": "Indians",
+                "matches": 3,
+                "balls": 555,
+                "maidens": 17,
+                "runs": 270,
+                "wickets": 13,
+                "bbruns": 49,
+                "bbwickets": 5,
+                "average": 20.76
+            },
+            {
+                "name": "JB Statham",
+                "team": "Lancashire",
+                "opponents": "Indians",
+                "matches": 3,
+                "balls": 528,
+                "maidens": 21,
+                "runs": 212,
+                "wickets": 13,
+                "bbruns": 36,
+                "bbwickets": 5,
+                "average": 16.3
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "KR Meherhomji",
+                "team": "Indians",
+                "opponents": "Lancashire",
+                "matches": 1,
+                "dismissals": 5
+            },
+            {
+                "name": "PK Sen",
+                "team": "Indians",
+                "opponents": "Lancashire",
+                "matches": 1,
+                "dismissals": 5
+            },
+            {
+                "name": "PR Umrigar",
+                "team": "Indians",
+                "opponents": "Lancashire",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "G Clayton",
+                "team": "Lancashire",
+                "opponents": "Indians",
+                "matches": 2,
+                "dismissals": 5
+            },
+            {
+                "name": "G Duckworth",
+                "team": "Lancashire",
+                "opponents": "Indians",
+                "matches": 3,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RB Nimbalkar",
+                "team": "Indians",
+                "opponents": "Lancashire",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "W Farrimond",
+                "team": "Lancashire",
+                "opponents": "Indians",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Indians",
+                    "opponents": "Lancashire",
+                    "total": 85,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1911"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Lancashire",
+                    "total": 85,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1911"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Lancashire",
+                    "total": 5,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1952"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "Indians",
+                    "total": 68,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1952"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "Indians",
+                    "total": 68,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1952"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "Indians",
+                    "total": 1,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1979"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:55.216620Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

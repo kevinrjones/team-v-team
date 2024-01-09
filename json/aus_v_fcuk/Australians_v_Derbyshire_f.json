@@ -1,0 +1,861 @@
+{
+    "team1": "Australians",
+    "team2": "Derbyshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 30,
+        "startDate": "1880-05-17T00:00",
+        "endDate": "2019-08-29T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australians",
+                "opponents": "Derbyshire",
+                "total": 625,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Derby",
+                "seriesDate": "1896"
+            }
+        ],
+        [
+            {
+                "team": "Derbyshire",
+                "opponents": "Australians",
+                "total": 371,
+                "wickets": 9,
+                "declared": false,
+                "location": "County Ground, Derby",
+                "seriesDate": "1997"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "WA Brown",
+                "team": "Australians",
+                "opponents": "Derbyshire",
+                "score": 265,
+                "notOut": true,
+                "location": "Queen's Park, Chesterfield",
+                "seriesDate": "1938"
+            }
+        ],
+        [
+            {
+                "name": "JG Wright",
+                "team": "Derbyshire",
+                "opponents": "Australians",
+                "score": 144,
+                "notOut": false,
+                "location": "County Ground, Derby",
+                "seriesDate": "1981"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "G Giffen",
+                "team": "Australians",
+                "opponents": "Derbyshire",
+                "wickets": 9,
+                "runs": 60,
+                "location": "County Ground, Derby",
+                "seriesDate": "1886"
+            }
+        ],
+        [
+            {
+                "name": "TB Mitchell",
+                "team": "Derbyshire",
+                "opponents": "Australians",
+                "wickets": 7,
+                "runs": 105,
+                "location": "Queen's Park, Chesterfield",
+                "seriesDate": "1934"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "G Giffen",
+                "team": "Australians",
+                "opponents": "Derbyshire",
+                "wickets": 16,
+                "runs": 101,
+                "location": "County Ground, Derby",
+                "seriesDate": "1886"
+            }
+        ],
+        [
+            {
+                "name": "C Gladwin",
+                "team": "Derbyshire",
+                "opponents": "Australians",
+                "wickets": 9,
+                "runs": 143,
+                "location": "Queen's Park, Chesterfield",
+                "seriesDate": "1953"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Derbyshire",
+                        "location": "Queen's Park, Chesterfield",
+                        "seriesDate": "1926",
+                        "partnership": 161,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HL Collins",
+                        "player1Score": 93,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "W Bardsley",
+                        "player2Score": 127,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Derbyshire",
+                        "location": "Queen's Park, Chesterfield",
+                        "seriesDate": "1938",
+                        "partnership": 189,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Derbyshire",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1985",
+                        "partnership": 148,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DM Wellham",
+                        "player1Score": 77,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "AR Border",
+                        "player2Score": 100,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Derbyshire",
+                        "location": "Queen's Park, Chesterfield",
+                        "seriesDate": "1938",
+                        "partnership": 176,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Derbyshire",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1896",
+                        "partnership": 211,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Derbyshire",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1896",
+                        "partnership": 183,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Derbyshire",
+                        "location": "Queen's Park, Chesterfield",
+                        "seriesDate": "1977",
+                        "partnership": 83,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Derbyshire",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1899",
+                        "partnership": 101,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "J Darling",
+                        "player1Score": 134,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "E Jones",
+                        "player2Score": 55,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Derbyshire",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1905",
+                        "partnership": 46,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Derbyshire",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1912",
+                        "partnership": 48,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "W Bardsley",
+                        "player1Score": 59,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "HW Webster",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Derbyshire",
+                        "opponents": "Australians",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1993",
+                        "partnership": 71,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "KJ Barnett",
+                        "player1Score": 114,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PD Bowler",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Derbyshire",
+                        "opponents": "Australians",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1997",
+                        "partnership": 142,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AS Rollins",
+                        "player1Score": 66,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CJ Adams",
+                        "player2Score": 91,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Derbyshire",
+                        "opponents": "Australians",
+                        "location": "Queen's Park, Chesterfield",
+                        "seriesDate": "1934",
+                        "partnership": 74,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Derbyshire",
+                        "opponents": "Australians",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1896",
+                        "partnership": 87,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Derbyshire",
+                        "opponents": "Australians",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1993",
+                        "partnership": 98,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "KJ Barnett",
+                        "player1Score": 114,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DG Cork",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Derbyshire",
+                        "opponents": "Australians",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1964",
+                        "partnership": 131,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "HL Johnson",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "MH Page",
+                        "player2Score": 52,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Derbyshire",
+                        "opponents": "Australians",
+                        "location": "Queen's Park, Chesterfield",
+                        "seriesDate": "1930",
+                        "partnership": 72,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Derbyshire",
+                        "opponents": "Australians",
+                        "location": "The 3aaa County Ground, Derby",
+                        "seriesDate": "2015",
+                        "partnership": 105,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AP Palladino",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "DJ Wainwright",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Derbyshire",
+                        "opponents": "Australians",
+                        "location": "Queen's Park, Chesterfield",
+                        "seriesDate": "1975",
+                        "partnership": 65,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "S Venkataraghavan",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "RW Taylor",
+                        "player2Score": 27,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Derbyshire",
+                        "opponents": "Australians",
+                        "location": "County Ground, Derby",
+                        "seriesDate": "1997",
+                        "partnership": 51,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "AJ Harris",
+                        "player1Score": 26,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "KJ Dean",
+                        "player2Score": 21,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "WA Brown",
+                "team": "Australians",
+                "opponents": "Derbyshire",
+                "matches": 3,
+                "runs": 432,
+                "innings": 4,
+                "notOuts": 1,
+                "average": 144.0,
+                "hs": "265*"
+            }
+        ],
+        [
+            {
+                "name": "KJ Barnett",
+                "team": "Derbyshire",
+                "opponents": "Australians",
+                "matches": 4,
+                "runs": 243,
+                "innings": 5,
+                "notOuts": 0,
+                "average": 48.6,
+                "hs": "114"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "FR Spofforth",
+                "team": "Australians",
+                "opponents": "Derbyshire",
+                "matches": 3,
+                "balls": 603,
+                "maidens": 61,
+                "runs": 225,
+                "wickets": 35,
+                "bbruns": 61,
+                "bbwickets": 8,
+                "average": 6.42
+            }
+        ],
+        [
+            {
+                "name": "E Smith",
+                "team": "Derbyshire",
+                "opponents": "Australians",
+                "matches": 4,
+                "balls": 918,
+                "maidens": 45,
+                "runs": 370,
+                "wickets": 17,
+                "bbruns": 36,
+                "bbwickets": 5,
+                "average": 21.76
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "IA Healy",
+                "team": "Australians",
+                "opponents": "Derbyshire",
+                "matches": 2,
+                "dismissals": 6
+            },
+            {
+                "name": "GRA Langley",
+                "team": "Australians",
+                "opponents": "Derbyshire",
+                "matches": 2,
+                "dismissals": 6
+            },
+            {
+                "name": "RD Robinson",
+                "team": "Australians",
+                "opponents": "Derbyshire",
+                "matches": 2,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "J Humphries",
+                "team": "Derbyshire",
+                "opponents": "Australians",
+                "matches": 4,
+                "dismissals": 9
+            },
+            {
+                "name": "RW Taylor",
+                "team": "Derbyshire",
+                "opponents": "Australians",
+                "matches": 6,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JM Blackham",
+                "team": "Australians",
+                "opponents": "Derbyshire",
+                "matches": 3,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "RW Taylor",
+                "team": "Derbyshire",
+                "opponents": "Australians",
+                "matches": 6,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australians",
+                    "opponents": "Derbyshire",
+                    "total": 123,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Derby",
+                    "seriesDate": "1912"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australians",
+                    "opponents": "Derbyshire",
+                    "total": 123,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Derby",
+                    "seriesDate": "1912"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australians",
+                    "opponents": "Derbyshire",
+                    "total": 13,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "County Ground, Derby",
+                    "seriesDate": "1902"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Derbyshire",
+                    "opponents": "Australians",
+                    "total": 45,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Derby",
+                    "seriesDate": "1880"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Derbyshire",
+                    "opponents": "Australians",
+                    "total": 45,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Derby",
+                    "seriesDate": "1880"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Derbyshire",
+                    "opponents": "Australians",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Queen's Park, Chesterfield",
+                    "seriesDate": "1961"
+                },
+                {
+                    "team": "Derbyshire",
+                    "opponents": "Australians",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "County Ground, Derby",
+                    "seriesDate": "1985"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:46.402852Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

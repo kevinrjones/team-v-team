@@ -1,0 +1,862 @@
+{
+    "team1": "New Zealanders",
+    "team2": "Warwickshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 12,
+        "startDate": "1927-07-23T01:00",
+        "endDate": "1990-05-30T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "New Zealanders",
+                "opponents": "Warwickshire",
+                "total": 492,
+                "wickets": 6,
+                "declared": true,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1927"
+            }
+        ],
+        [
+            {
+                "team": "Warwickshire",
+                "opponents": "New Zealanders",
+                "total": 401,
+                "wickets": 10,
+                "declared": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1931"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "CS Dempster",
+                "team": "New Zealanders",
+                "opponents": "Warwickshire",
+                "score": 180,
+                "notOut": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1927"
+            }
+        ],
+        [
+            {
+                "name": "JH Parsons",
+                "team": "Warwickshire",
+                "opponents": "New Zealanders",
+                "score": 190,
+                "notOut": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1931"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "BL Cairns",
+                "team": "New Zealanders",
+                "opponents": "Warwickshire",
+                "wickets": 7,
+                "runs": 46,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1983"
+            }
+        ],
+        [
+            {
+                "name": "TL Pritchard",
+                "team": "Warwickshire",
+                "opponents": "New Zealanders",
+                "wickets": 6,
+                "runs": 96,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RJ Hadlee",
+                "team": "New Zealanders",
+                "opponents": "Warwickshire",
+                "wickets": 11,
+                "runs": 116,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1978"
+            }
+        ],
+        [
+            {
+                "name": "TW Cartwright",
+                "team": "Warwickshire",
+                "opponents": "New Zealanders",
+                "wickets": 8,
+                "runs": 94,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1969"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1986",
+                        "partnership": 97,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "BA Edgar",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JG Wright",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1927",
+                        "partnership": 303,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1949",
+                        "partnership": 125,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "JR Reid",
+                        "player1Score": 151,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "FB Smith",
+                        "player2Score": 45,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1983",
+                        "partnership": 132,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1986",
+                        "partnership": 132,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MD Crowe",
+                        "player1Score": 86,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JV Coney",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1978",
+                        "partnership": 192,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "BE Congdon",
+                        "player1Score": 110,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "JM Parker",
+                        "player2Score": 100,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1969",
+                        "partnership": 90,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1973",
+                        "partnership": 69,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1973",
+                        "partnership": 47,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1931",
+                        "partnership": 53,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1965",
+                        "partnership": 55,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "GE Vivian",
+                        "player1Score": 54,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "FJ Cameron",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "New Zealanders",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1958",
+                        "partnership": 110,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "NF Horner",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "FC Gardner",
+                        "player2Score": 88,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "New Zealanders",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1965",
+                        "partnership": 132,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "Khalid Ibadulla",
+                        "player1Score": 93,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "MJK Smith",
+                        "player2Score": 61,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "New Zealanders",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1973",
+                        "partnership": 115,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "New Zealanders",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1931",
+                        "partnership": 125,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "New Zealanders",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1965",
+                        "partnership": 255,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "JA Jameson",
+                        "player1Score": 137,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "TW Cartwright",
+                        "player2Score": 112,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "New Zealanders",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1937",
+                        "partnership": 119,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "New Zealanders",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1931",
+                        "partnership": 87,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "New Zealanders",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1990",
+                        "partnership": 79,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "PA Booth",
+                        "player1Score": 51,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "AA Donald",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "New Zealanders",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1969",
+                        "partnership": 57,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "New Zealanders",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1986",
+                        "partnership": 53,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "KJ Kerr",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "TA Munton",
+                        "player2Score": 11,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JR Reid",
+                "team": "New Zealanders",
+                "opponents": "Warwickshire",
+                "matches": 3,
+                "runs": 335,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 67.0,
+                "hs": "151*"
+            }
+        ],
+        [
+            {
+                "name": "MJK Smith",
+                "team": "Warwickshire",
+                "opponents": "New Zealanders",
+                "matches": 3,
+                "runs": 318,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 63.6,
+                "hs": "95"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RJ Hadlee",
+                "team": "New Zealanders",
+                "opponents": "Warwickshire",
+                "matches": 2,
+                "balls": 342,
+                "maidens": 12,
+                "runs": 202,
+                "wickets": 14,
+                "bbruns": 77,
+                "bbwickets": 7,
+                "average": 14.42
+            }
+        ],
+        [
+            {
+                "name": "TW Cartwright",
+                "team": "Warwickshire",
+                "opponents": "New Zealanders",
+                "matches": 3,
+                "balls": 608,
+                "maidens": 47,
+                "runs": 186,
+                "wickets": 12,
+                "bbruns": 52,
+                "bbwickets": 5,
+                "average": 15.5
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "ML Page",
+                "team": "New Zealanders",
+                "opponents": "Warwickshire",
+                "matches": 3,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "DL Amiss",
+                "team": "Warwickshire",
+                "opponents": "New Zealanders",
+                "matches": 6,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "KC James",
+                "team": "New Zealanders",
+                "opponents": "Warwickshire",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "IDS Smith",
+                "team": "New Zealanders",
+                "opponents": "Warwickshire",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "KJ Wadsworth",
+                "team": "New Zealanders",
+                "opponents": "Warwickshire",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "J Buckingham",
+                "team": "Warwickshire",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Warwickshire",
+                    "total": 159,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Warwickshire",
+                    "total": 159,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Warwickshire",
+                    "total": 15,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1990"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Warwickshire",
+                    "opponents": "New Zealanders",
+                    "total": 126,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1983"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Warwickshire",
+                    "opponents": "New Zealanders",
+                    "total": 126,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1983"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Warwickshire",
+                    "opponents": "New Zealanders",
+                    "total": 112,
+                    "wickets": 5,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1973"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:06.453211Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

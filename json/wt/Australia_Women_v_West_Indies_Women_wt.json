@@ -1,0 +1,835 @@
+{
+    "team1": "Australia Women",
+    "team2": "West Indies Women",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "wt",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1976-05-07T01:00",
+        "endDate": "1976-05-14T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "total": 268,
+                "wickets": 8,
+                "declared": false,
+                "location": "Jarrett Park, Montego Bay",
+                "seriesDate": "1975/76"
+            }
+        ],
+        [
+            {
+                "team": "West Indies Women",
+                "opponents": "Australia Women",
+                "total": 282,
+                "wickets": 10,
+                "declared": false,
+                "location": "Jarrett Park, Montego Bay",
+                "seriesDate": "1975/76"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "L Hill",
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "score": 73,
+                "notOut": false,
+                "location": "Jarrett Park, Montego Bay",
+                "seriesDate": "1975/76"
+            }
+        ],
+        [
+            {
+                "name": "LP Browne",
+                "team": "West Indies Women",
+                "opponents": "Australia Women",
+                "score": 67,
+                "notOut": false,
+                "location": "Jarrett Park, Montego Bay",
+                "seriesDate": "1975/76"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "MJ Lutschini",
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "wickets": 5,
+                "runs": 51,
+                "location": "Sabina Park, Kingston",
+                "seriesDate": "1975/76"
+            }
+        ],
+        [
+            {
+                "name": "V Latty-Scott",
+                "team": "West Indies Women",
+                "opponents": "Australia Women",
+                "wickets": 5,
+                "runs": 48,
+                "location": "Jarrett Park, Montego Bay",
+                "seriesDate": "1975/76"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "MJ Lutschini",
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "wickets": 5,
+                "runs": 51,
+                "location": "Sabina Park, Kingston",
+                "seriesDate": "1975/76"
+            }
+        ],
+        [
+            {
+                "name": "V Latty-Scott",
+                "team": "West Indies Women",
+                "opponents": "Australia Women",
+                "wickets": 5,
+                "runs": 48,
+                "location": "Jarrett Park, Montego Bay",
+                "seriesDate": "1975/76"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "West Indies Women",
+                        "location": "Jarrett Park, Montego Bay",
+                        "seriesDate": "1975/76",
+                        "partnership": 61,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "L Hill",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MJ Jennings",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "West Indies Women",
+                        "location": "Jarrett Park, Montego Bay",
+                        "seriesDate": "1975/76",
+                        "partnership": 26,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "L Hill",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "J Tredrea",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "West Indies Women",
+                        "location": "Jarrett Park, Montego Bay",
+                        "seriesDate": "1975/76",
+                        "partnership": 70,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "L Hill",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WJ Hills",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "West Indies Women",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1975/76",
+                        "partnership": 52,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "J Tredrea",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JK Lumsden",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "West Indies Women",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1975/76",
+                        "partnership": 25,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JK Lumsden",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DA Gordon",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "West Indies Women",
+                        "location": "Jarrett Park, Montego Bay",
+                        "seriesDate": "1975/76",
+                        "partnership": 47,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "JK Lumsden",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "SA Tredrea",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "West Indies Women",
+                        "location": "Jarrett Park, Montego Bay",
+                        "seriesDate": "1975/76",
+                        "partnership": 8,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SA Tredrea",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "RH Thompson",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "West Indies Women",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1975/76",
+                        "partnership": 10,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "P May",
+                        "player1Score": 7,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "WA Blunsden",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "West Indies Women",
+                        "location": "Jarrett Park, Montego Bay",
+                        "seriesDate": "1975/76",
+                        "partnership": 8,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "RH Thompson",
+                        "player1Score": 9,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "P May",
+                        "player2Score": 2,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indies Women",
+                        "opponents": "Australia Women",
+                        "location": "Jarrett Park, Montego Bay",
+                        "seriesDate": "1975/76",
+                        "partnership": 84,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "LP Browne",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "J Sammy",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indies Women",
+                        "opponents": "Australia Women",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1975/76",
+                        "partnership": 25,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "J Sammy",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "M Tekah",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indies Women",
+                        "opponents": "Australia Women",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1975/76",
+                        "partnership": 20,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "M Tekah",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "BM Browne",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indies Women",
+                        "opponents": "Australia Women",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1975/76",
+                        "partnership": 38,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "LP Browne",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "P Whittaker",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indies Women",
+                        "opponents": "Australia Women",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1975/76",
+                        "partnership": 34,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "V Latty-Scott",
+                        "player1Score": 18,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "P Whittaker",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indies Women",
+                        "opponents": "Australia Women",
+                        "location": "Jarrett Park, Montego Bay",
+                        "seriesDate": "1975/76",
+                        "partnership": 37,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "P Whittaker",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "M Tekah",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indies Women",
+                        "opponents": "Australia Women",
+                        "location": "Jarrett Park, Montego Bay",
+                        "seriesDate": "1975/76",
+                        "partnership": 5,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "M Tekah",
+                        "player1Score": 12,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "J Mitchell",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indies Women",
+                        "opponents": "Australia Women",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1975/76",
+                        "partnership": 48,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "P Whittaker",
+                        "player1Score": 61,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "Y Geddes-Hall",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indies Women",
+                        "opponents": "Australia Women",
+                        "location": "Jarrett Park, Montego Bay",
+                        "seriesDate": "1975/76",
+                        "partnership": 48,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "LG Williams",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "E Fairweather",
+                        "player2Score": 23,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indies Women",
+                        "opponents": "Australia Women",
+                        "location": "Jarrett Park, Montego Bay",
+                        "seriesDate": "1975/76",
+                        "partnership": 7,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "E Fairweather",
+                        "player1Score": 23,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "S Bayley",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "L Hill",
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "matches": 2,
+                "runs": 113,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 56.5,
+                "hs": "73"
+            }
+        ],
+        [
+            {
+                "name": "LP Browne",
+                "team": "West Indies Women",
+                "opponents": "Australia Women",
+                "matches": 2,
+                "runs": 139,
+                "innings": 3,
+                "notOuts": 1,
+                "average": 69.5,
+                "hs": "67"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "MJ Cornish",
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "matches": 2,
+                "balls": 354,
+                "maidens": 21,
+                "runs": 99,
+                "wickets": 9,
+                "bbruns": 51,
+                "bbwickets": 5,
+                "average": 11.0
+            }
+        ],
+        [
+            {
+                "name": "V Latty-Scott",
+                "team": "West Indies Women",
+                "opponents": "Australia Women",
+                "matches": 2,
+                "balls": 447,
+                "maidens": 28,
+                "runs": 84,
+                "wickets": 8,
+                "bbruns": 48,
+                "bbwickets": 5,
+                "average": 10.5
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "WA Blunsden",
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "MJ Cornish",
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "L Hill",
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "P May",
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "J Roberts",
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "P Whittaker",
+                "team": "West Indies Women",
+                "opponents": "Australia Women",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "MJ Jennings",
+                "team": "Australia Women",
+                "opponents": "West Indies Women",
+                "matches": 2,
+                "dismissals": 6
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "West Indies Women",
+                    "total": 218,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sabina Park, Kingston",
+                    "seriesDate": "1975/76"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "West Indies Women",
+                    "total": 218,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sabina Park, Kingston",
+                    "seriesDate": "1975/76"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "West Indies Women",
+                    "total": 218,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sabina Park, Kingston",
+                    "seriesDate": "1975/76"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indies Women",
+                    "opponents": "Australia Women",
+                    "total": 226,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sabina Park, Kingston",
+                    "seriesDate": "1975/76"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indies Women",
+                    "opponents": "Australia Women",
+                    "total": 226,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sabina Park, Kingston",
+                    "seriesDate": "1975/76"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indies Women",
+                    "opponents": "Australia Women",
+                    "total": 89,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "Sabina Park, Kingston",
+                    "seriesDate": "1975/76"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:48.198050Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

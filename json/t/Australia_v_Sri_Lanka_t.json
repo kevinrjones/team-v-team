@@ -1,0 +1,878 @@
+{
+    "team1": "Australia",
+    "team2": "Sri Lanka",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 33,
+        "startDate": "1983-04-22T01:00",
+        "endDate": "2022-07-08T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australia",
+                "opponents": "Sri Lanka",
+                "total": 617,
+                "wickets": 5,
+                "declared": true,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1995/96"
+            }
+        ],
+        [
+            {
+                "team": "Sri Lanka",
+                "opponents": "Australia",
+                "total": 554,
+                "wickets": 10,
+                "declared": false,
+                "location": "Galle International Stadium, Galle",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "MJ Slater",
+                "team": "Australia",
+                "opponents": "Sri Lanka",
+                "score": 219,
+                "notOut": false,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1995/96"
+            }
+        ],
+        [
+            {
+                "name": "LD Chandimal",
+                "team": "Sri Lanka",
+                "opponents": "Australia",
+                "score": 206,
+                "notOut": true,
+                "location": "Galle International Stadium, Galle",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "MS Kasprowicz",
+                "team": "Australia",
+                "opponents": "Sri Lanka",
+                "wickets": 7,
+                "runs": 39,
+                "location": "Marrara Cricket Ground, Darwin",
+                "seriesDate": "2004"
+            }
+        ],
+        [
+            {
+                "name": "HMRKB Herath",
+                "team": "Sri Lanka",
+                "opponents": "Australia",
+                "wickets": 7,
+                "runs": 64,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2016"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "MA Starc",
+                "team": "Australia",
+                "opponents": "Sri Lanka",
+                "wickets": 11,
+                "runs": 94,
+                "location": "Galle International Stadium, Galle",
+                "seriesDate": "2016"
+            }
+        ],
+        [
+            {
+                "name": "HMRKB Herath",
+                "team": "Sri Lanka",
+                "opponents": "Australia",
+                "wickets": 13,
+                "runs": 145,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2016"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Sri Lanka",
+                        "location": "Cazaly's Stadium, Cairns",
+                        "seriesDate": "2004",
+                        "partnership": 255,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JL Langer",
+                        "player1Score": 162,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ML Hayden",
+                        "player2Score": 117,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Sri Lanka",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2016",
+                        "partnership": 246,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "SE Marsh",
+                        "player1Score": 130,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "SPD Smith",
+                        "player2Score": 119,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Sri Lanka",
+                        "location": "Asgiriya Stadium, Kandy",
+                        "seriesDate": "2003/04",
+                        "partnership": 200,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AC Gilchrist",
+                        "player1Score": 144,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DR Martyn",
+                        "player2Score": 161,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Sri Lanka",
+                        "location": "Manuka Oval, Canberra",
+                        "seriesDate": "2018/19",
+                        "partnership": 308,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JA Burns",
+                        "player1Score": 180,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "TM Head",
+                        "player2Score": 161,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Sri Lanka",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2011",
+                        "partnership": 176,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MJ Clarke",
+                        "player1Score": 112,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "MEK Hussey",
+                        "player2Score": 93,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Sri Lanka",
+                        "location": "Bellerive Oval, Hobart",
+                        "seriesDate": "1989/90",
+                        "partnership": 260,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "DM Jones",
+                        "player1Score": 118,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "SR Waugh",
+                        "player2Score": 134,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Sri Lanka",
+                        "location": "Tyronne Fernando Stadium, Moratuwa",
+                        "seriesDate": "1992",
+                        "partnership": 129,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "GRJ Matthews",
+                        "player1Score": 96,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "IA Healy",
+                        "player2Score": 49,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Sri Lanka",
+                        "location": "Asgiriya Stadium, Kandy",
+                        "seriesDate": "1999",
+                        "partnership": 107,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RT Ponting",
+                        "player1Score": 96,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JN Gillespie",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Sri Lanka",
+                        "location": "Marrara Cricket Ground, Darwin",
+                        "seriesDate": "2004",
+                        "partnership": 47,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AC Gilchrist",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "MS Kasprowicz",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Sri Lanka",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "1992",
+                        "partnership": 49,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MR Whitney",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "IA Healy",
+                        "player2Score": 66,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Australia",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2003/04",
+                        "partnership": 134,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MS Atapattu",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ST Jayasuriya",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Australia",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2022",
+                        "partnership": 152,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "FDM Karunaratne",
+                        "player1Score": 86,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "BKG Mendis",
+                        "player2Score": 85,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1995/96",
+                        "partnership": 125,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "ST Jayasuriya",
+                        "player1Score": 112,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "S Ranatunga",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Australia",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "1992",
+                        "partnership": 230,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "A Ranatunga",
+                        "player1Score": 127,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "AP Gurusinha",
+                        "player2Score": 137,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Australia",
+                        "location": "Blundstone Arena, Hobart",
+                        "seriesDate": "2012/13",
+                        "partnership": 161,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AD Mathews",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "TM Dilshan",
+                        "player2Score": 147,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Australia",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2016",
+                        "partnership": 211,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "LD Chandimal",
+                        "player1Score": 132,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "DM de Silva",
+                        "player2Score": 129,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Australia",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1989/90",
+                        "partnership": 144,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "PA de Silva",
+                        "player1Score": 167,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "JR Ratnayeke",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Australia",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2016",
+                        "partnership": 73,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "LD Chandimal",
+                        "player1Score": 132,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "HMRKB Herath",
+                        "player2Score": 33,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 81,
+                        "wicket": 8,
+                        "playerDetails": [
+                            {
+                                "team": "Sri Lanka",
+                                "opponents": "Australia",
+                                "location": "Sinhalese Sports Club Ground, Colombo",
+                                "seriesDate": "2016",
+                                "partnership": 73,
+                                "wicket": 8,
+                                "undefeated": true,
+                                "player1Name": "LD Chandimal",
+                                "player1Score": 132,
+                                "player1NotOut": false,
+                                "player1Position": 6,
+                                "player2Name": "HMRKB Herath",
+                                "player2Score": 33,
+                                "player2NotOut": true,
+                                "player2Position": 9
+                            },
+                            {
+                                "team": "Sri Lanka",
+                                "opponents": "Australia",
+                                "location": "Sinhalese Sports Club Ground, Colombo",
+                                "seriesDate": "2016",
+                                "partnership": 8,
+                                "wicket": 8,
+                                "undefeated": false,
+                                "player1Name": "LD Chandimal",
+                                "player1Score": 132,
+                                "player1NotOut": false,
+                                "player1Position": 6,
+                                "player2Name": "RAS Lakmal",
+                                "player2Score": 5,
+                                "player2NotOut": false,
+                                "player2Position": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Australia",
+                        "location": "Bellerive Oval, Hobart",
+                        "seriesDate": "2007/08",
+                        "partnership": 74,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "KC Sangakkara",
+                        "player1Score": 192,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SL Malinga",
+                        "player2Score": 42,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Australia",
+                        "location": "Asgiriya Stadium, Kandy",
+                        "seriesDate": "2003/04",
+                        "partnership": 79,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WPUJC Vaas",
+                        "player1Score": 68,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "M Muralitharan",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "MEK Hussey",
+                "team": "Australia",
+                "opponents": "Sri Lanka",
+                "matches": 8,
+                "runs": 994,
+                "innings": 13,
+                "notOuts": 4,
+                "average": 110.44,
+                "hs": "142"
+            }
+        ],
+        [
+            {
+                "name": "DPMD Jayawardene",
+                "team": "Sri Lanka",
+                "opponents": "Australia",
+                "matches": 16,
+                "runs": 969,
+                "innings": 29,
+                "notOuts": 0,
+                "average": 33.41,
+                "hs": "105"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "SK Warne",
+                "team": "Australia",
+                "opponents": "Sri Lanka",
+                "matches": 13,
+                "balls": 3167,
+                "maidens": 132,
+                "runs": 1507,
+                "wickets": 59,
+                "bbruns": 43,
+                "bbwickets": 5,
+                "average": 25.54
+            }
+        ],
+        [
+            {
+                "name": "HMRKB Herath",
+                "team": "Sri Lanka",
+                "opponents": "Australia",
+                "matches": 11,
+                "balls": 3135,
+                "maidens": 101,
+                "runs": 1494,
+                "wickets": 66,
+                "bbruns": 64,
+                "bbwickets": 7,
+                "average": 22.63
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "AC Gilchrist",
+                "team": "Australia",
+                "opponents": "Sri Lanka",
+                "matches": 7,
+                "dismissals": 32
+            },
+            {
+                "name": "IA Healy",
+                "team": "Australia",
+                "opponents": "Sri Lanka",
+                "matches": 11,
+                "dismissals": 32
+            }
+        ],
+        [
+            {
+                "name": "DPMD Jayawardene",
+                "team": "Sri Lanka",
+                "opponents": "Australia",
+                "matches": 16,
+                "dismissals": 20
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "AC Gilchrist",
+                "team": "Australia",
+                "opponents": "Sri Lanka",
+                "matches": 7,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "RS Kaluwitharana",
+                "team": "Sri Lanka",
+                "opponents": "Australia",
+                "matches": 9,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australia",
+                    "opponents": "Sri Lanka",
+                    "total": 106,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Galle International Stadium, Galle",
+                    "seriesDate": "2016"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "Sri Lanka",
+                    "total": 106,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Galle International Stadium, Galle",
+                    "seriesDate": "2016"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "Sri Lanka",
+                    "total": 10,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Galle International Stadium, Galle",
+                    "seriesDate": "2022"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "Australia",
+                    "total": 97,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Marrara Cricket Ground, Darwin",
+                    "seriesDate": "2004"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "Australia",
+                    "total": 97,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Marrara Cricket Ground, Darwin",
+                    "seriesDate": "2004"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "Australia",
+                    "total": 7,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Sinhalese Sports Club Ground, Colombo",
+                    "seriesDate": "2011"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:34.392062Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

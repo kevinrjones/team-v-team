@@ -1,0 +1,817 @@
+{
+    "team1": "Afghanistan",
+    "team2": "Zimbabwe",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 2,
+        "startDate": "2021-03-02T00:00",
+        "endDate": "2021-03-10T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Afghanistan",
+                "opponents": "Zimbabwe",
+                "total": 545,
+                "wickets": 4,
+                "declared": true,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "team": "Zimbabwe",
+                "opponents": "Afghanistan",
+                "total": 365,
+                "wickets": 10,
+                "declared": false,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Hashmatullah Shahidi",
+                "team": "Afghanistan",
+                "opponents": "Zimbabwe",
+                "score": 200,
+                "notOut": true,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "SC Williams",
+                "team": "Zimbabwe",
+                "opponents": "Afghanistan",
+                "score": 151,
+                "notOut": true,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Rashid Khan",
+                "team": "Afghanistan",
+                "opponents": "Zimbabwe",
+                "wickets": 7,
+                "runs": 137,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "B Muzarabani",
+                "team": "Zimbabwe",
+                "opponents": "Afghanistan",
+                "wickets": 4,
+                "runs": 48,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Rashid Khan",
+                "team": "Afghanistan",
+                "opponents": "Zimbabwe",
+                "wickets": 11,
+                "runs": 275,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "B Muzarabani",
+                "team": "Zimbabwe",
+                "opponents": "Afghanistan",
+                "wickets": 6,
+                "runs": 62,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Afghanistan",
+                        "opponents": "Zimbabwe",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 8,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Javed Ahmadi",
+                        "player1Score": 4,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Ibrahim Zadran",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Afghanistan",
+                        "opponents": "Zimbabwe",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 81,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Ibrahim Zadran",
+                        "player1Score": 29,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "Rahmat Shah",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Afghanistan",
+                        "opponents": "Zimbabwe",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 65,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "Ibrahim Zadran",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Hashmatullah Shahidi",
+                        "player2Score": 200,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Afghanistan",
+                        "opponents": "Zimbabwe",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 307,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "Hashmatullah Shahidi",
+                        "player1Score": 200,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "Asghar Stanikzai",
+                        "player2Score": 164,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Afghanistan",
+                        "opponents": "Zimbabwe",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 117,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "Hashmatullah Shahidi",
+                        "player1Score": 200,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "Nasir Ahmadzai",
+                        "player2Score": 55,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Afghanistan",
+                        "opponents": "Zimbabwe",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 26,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Asghar Stanikzai",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "Ibrahim Zadran",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Afghanistan",
+                        "opponents": "Zimbabwe",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 34,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Ibrahim Zadran",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Abdul Wasi",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Afghanistan",
+                        "opponents": "Zimbabwe",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 48,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Ibrahim Zadran",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Hamza Hotak",
+                        "player2Score": 21,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Afghanistan",
+                        "opponents": "Zimbabwe",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 1,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "Hamza Hotak",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "Yamin Ahmadzai",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Afghanistan",
+                        "opponents": "Zimbabwe",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 8,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "Hamza Hotak",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "Zahir Khan",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Afghanistan",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 91,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PS Masvaure",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "KT Kasuza",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Afghanistan",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 42,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "PS Masvaure",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "TK Musakanda",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Afghanistan",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 55,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "TK Musakanda",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SC Williams",
+                        "player2Score": 151,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Afghanistan",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 1,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "SC Williams",
+                        "player1Score": 151,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "WN Madhevere",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Afghanistan",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 71,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "SC Williams",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Sikandar Raza",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Afghanistan",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 28,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "SC Williams",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RP Burl",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Afghanistan",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 75,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SC Williams",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RW Chakabva",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Afghanistan",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 187,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SC Williams",
+                        "player1Score": 151,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "DT Tiripano",
+                        "player2Score": 95,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Afghanistan",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 36,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "Sikandar Raza",
+                        "player1Score": 85,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "B Muzarabani",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Afghanistan",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2020/21",
+                        "partnership": 3,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "SC Williams",
+                        "player1Score": 151,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "VM Nyauchi",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Hashmatullah Shahidi",
+                "team": "Afghanistan",
+                "opponents": "Zimbabwe",
+                "matches": 2,
+                "runs": 215,
+                "innings": 4,
+                "notOuts": 2,
+                "average": 107.5,
+                "hs": "200*"
+            }
+        ],
+        [
+            {
+                "name": "SC Williams",
+                "team": "Zimbabwe",
+                "opponents": "Afghanistan",
+                "matches": 2,
+                "runs": 264,
+                "innings": 3,
+                "notOuts": 1,
+                "average": 132.0,
+                "hs": "151*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Rashid Khan",
+                "team": "Afghanistan",
+                "opponents": "Zimbabwe",
+                "matches": 1,
+                "balls": 596,
+                "maidens": 20,
+                "runs": 275,
+                "wickets": 11,
+                "bbruns": 137,
+                "bbwickets": 7,
+                "average": 25.0
+            }
+        ],
+        [
+            {
+                "name": "B Muzarabani",
+                "team": "Zimbabwe",
+                "opponents": "Afghanistan",
+                "matches": 2,
+                "balls": 331,
+                "maidens": 13,
+                "runs": 149,
+                "wickets": 8,
+                "bbruns": 48,
+                "bbwickets": 4,
+                "average": 18.62
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "Afsar Zazai",
+                "team": "Afghanistan",
+                "opponents": "Zimbabwe",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "RW Chakabva",
+                "team": "Zimbabwe",
+                "opponents": "Afghanistan",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Afghanistan",
+                    "opponents": "Zimbabwe",
+                    "total": 131,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2020/21"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Afghanistan",
+                    "opponents": "Zimbabwe",
+                    "total": 131,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2020/21"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Afghanistan",
+                    "opponents": "Zimbabwe",
+                    "total": 108,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2020/21"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "Afghanistan",
+                    "total": 250,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2020/21"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "Afghanistan",
+                    "total": 250,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2020/21"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "Afghanistan",
+                    "total": 17,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2020/21"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:54.800304Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

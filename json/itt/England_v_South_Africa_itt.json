@@ -1,0 +1,1413 @@
+{
+    "team1": "England",
+    "team2": "South Africa",
+    "competitionTitle": "International T20",
+    "competitionSubType": "itt",
+    "matchDto": {
+        "count": 25,
+        "startDate": "2007-09-16T01:00",
+        "endDate": "2022-07-31T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "England",
+                "opponents": "South Africa",
+                "total": 234,
+                "wickets": 6,
+                "declared": false,
+                "location": "Seat Unique Stadium, Bristol",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "team": "South Africa",
+                "opponents": "England",
+                "total": 241,
+                "wickets": 6,
+                "declared": false,
+                "location": "SuperSport Park, Centurion",
+                "seriesDate": "2009/10"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "DJ Malan",
+                "team": "England",
+                "opponents": "South Africa",
+                "score": 99,
+                "notOut": true,
+                "location": "PPC Newlands, Cape Town",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "RR Rossouw",
+                "team": "South Africa",
+                "opponents": "England",
+                "score": 96,
+                "notOut": true,
+                "location": "Sophia Gardens, Cardiff",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "TT Bresnan",
+                "team": "England",
+                "opponents": "South Africa",
+                "strikeRate": 425.0,
+                "runs": 17,
+                "balls": 4,
+                "location": "Zohur Ahmed Chowdhury Stadium, Chittagong",
+                "seriesDate": "2013/14"
+            }
+        ],
+        [
+            {
+                "name": "D Paterson",
+                "team": "South Africa",
+                "opponents": "England",
+                "strikeRate": 400.0,
+                "runs": 4,
+                "balls": 1,
+                "location": "The Cooper Associates County Ground, Taunton",
+                "seriesDate": "2017"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "MM Ali",
+                "team": "England",
+                "opponents": "South Africa",
+                "strikeRate": 354.55,
+                "runs": 39,
+                "balls": 11,
+                "location": "Hollywoodbets Kingsmead, Durban",
+                "seriesDate": "2019/20"
+            }
+        ],
+        [
+            {
+                "name": "Q de Kock",
+                "team": "South Africa",
+                "opponents": "England",
+                "strikeRate": 295.45,
+                "runs": 65,
+                "balls": 22,
+                "location": "Hollywoodbets Kingsmead, Durban",
+                "seriesDate": "2019/20"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "AU Rashid",
+                "team": "England",
+                "opponents": "South Africa",
+                "strikeRate": 52.94,
+                "runs": 9,
+                "balls": 17,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "2009"
+            }
+        ],
+        [
+            {
+                "name": "DA Miller",
+                "team": "South Africa",
+                "opponents": "England",
+                "strikeRate": 66.67,
+                "runs": 8,
+                "balls": 12,
+                "location": "Seat Unique Stadium, Bristol",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "SCJ Broad",
+                "team": "England",
+                "opponents": "South Africa",
+                "strikeRate": 81.82,
+                "runs": 18,
+                "balls": 22,
+                "location": "Emirates Durham International Cricket Ground, Chester-le-Street",
+                "seriesDate": "2012"
+            }
+        ],
+        [
+            {
+                "name": "JM Kemp",
+                "team": "South Africa",
+                "opponents": "England",
+                "strikeRate": 77.78,
+                "runs": 21,
+                "balls": 27,
+                "location": "Sahara Park Newlands, Cape Town",
+                "seriesDate": "2007/08"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "DJ Malan",
+                "team": "England",
+                "opponents": "South Africa",
+                "boundaries": 12,
+                "fours": 0,
+                "sixes": 0,
+                "location": "The SSE SWALEC Stadium, Cardiff",
+                "seriesDate": "2017"
+            }
+        ],
+        [
+            {
+                "name": "RR Rossouw",
+                "team": "South Africa",
+                "opponents": "England",
+                "boundaries": 10,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Sophia Gardens, Cardiff",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "JM Bairstow",
+                "team": "England",
+                "opponents": "South Africa",
+                "boundaries": 8,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Seat Unique Stadium, Bristol",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "LE Bosman",
+                "team": "South Africa",
+                "opponents": "England",
+                "boundaries": 9,
+                "fours": 0,
+                "sixes": 0,
+                "location": "SuperSport Park, Centurion",
+                "seriesDate": "2009/10"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "DJ Malan",
+                "team": "England",
+                "opponents": "South Africa",
+                "boundaries": 16,
+                "fours": 11,
+                "sixes": 5,
+                "location": "PPC Newlands, Cape Town",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "RR Rossouw",
+                "team": "South Africa",
+                "opponents": "England",
+                "boundaries": 15,
+                "fours": 10,
+                "sixes": 5,
+                "location": "Sophia Gardens, Cardiff",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "RJ Sidebottom",
+                "team": "England",
+                "opponents": "South Africa",
+                "wickets": 3,
+                "runs": 23,
+                "location": "Kensington Oval, Bridgetown",
+                "seriesDate": "2010"
+            },
+            {
+                "name": "CJ Jordan",
+                "team": "England",
+                "opponents": "South Africa",
+                "wickets": 3,
+                "runs": 23,
+                "location": "PPC Newlands, Cape Town",
+                "seriesDate": "2015/16"
+            }
+        ],
+        [
+            {
+                "name": "T Shamsi",
+                "team": "South Africa",
+                "opponents": "England",
+                "wickets": 5,
+                "runs": 24,
+                "location": "The Ageas Bowl, Southampton",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RJ Sidebottom",
+                "team": "England",
+                "opponents": "South Africa",
+                "wickets": 3,
+                "runs": 23,
+                "location": "Kensington Oval, Bridgetown",
+                "seriesDate": "2010"
+            },
+            {
+                "name": "CJ Jordan",
+                "team": "England",
+                "opponents": "South Africa",
+                "wickets": 3,
+                "runs": 23,
+                "location": "PPC Newlands, Cape Town",
+                "seriesDate": "2015/16"
+            }
+        ],
+        [
+            {
+                "name": "T Shamsi",
+                "team": "South Africa",
+                "opponents": "England",
+                "wickets": 5,
+                "runs": 24,
+                "location": "The Ageas Bowl, Southampton",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "JL Denly",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 9,
+                "sr": 6.0,
+                "location": "SuperSport Park, Centurion",
+                "seriesDate": "2009/10"
+            },
+            {
+                "name": "ST Finn",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 17,
+                "sr": 6.0,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "2012"
+            },
+            {
+                "name": "LJ Wright",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 4,
+                "sr": 6.0,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "2012"
+            },
+            {
+                "name": "TT Bresnan",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 14,
+                "sr": 6.0,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "2012"
+            },
+            {
+                "name": "AU Rashid",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 17,
+                "sr": 6.0,
+                "location": "Seat Unique Stadium, Bristol",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "MM Ali",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 4,
+                "sr": 6.0,
+                "location": "The Ageas Bowl, Southampton",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "JA Morkel",
+                "team": "South Africa",
+                "opponents": "England",
+                "overs": "0.1",
+                "balls": 1,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 0,
+                "sr": 1.0,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "2012"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "SCJ Broad",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 37,
+                "sr": 8.0,
+                "location": "Sahara Park Newlands, Cape Town",
+                "seriesDate": "2007/08"
+            },
+            {
+                "name": "RJ Sidebottom",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 23,
+                "sr": 8.0,
+                "location": "Kensington Oval, Bridgetown",
+                "seriesDate": "2010"
+            },
+            {
+                "name": "GP Swann",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 24,
+                "sr": 8.0,
+                "location": "Kensington Oval, Bridgetown",
+                "seriesDate": "2010"
+            },
+            {
+                "name": "CJ Jordan",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 23,
+                "sr": 8.0,
+                "location": "PPC Newlands, Cape Town",
+                "seriesDate": "2015/16"
+            },
+            {
+                "name": "TK Curran",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 33,
+                "sr": 8.0,
+                "location": "The Cooper Associates County Ground, Taunton",
+                "seriesDate": "2017"
+            },
+            {
+                "name": "CJ Jordan",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 31,
+                "sr": 8.0,
+                "location": "The SSE SWALEC Stadium, Cardiff",
+                "seriesDate": "2017"
+            },
+            {
+                "name": "SM Curran",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 28,
+                "sr": 8.0,
+                "location": "PPC Newlands, Cape Town",
+                "seriesDate": "2020/21"
+            },
+            {
+                "name": "RJ Gleeson",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 51,
+                "sr": 8.0,
+                "location": "Seat Unique Stadium, Bristol",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "DJ Willey",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 3,
+                "runs": 25,
+                "sr": 8.0,
+                "location": "The Ageas Bowl, Southampton",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "LT Ngidi",
+                "team": "South Africa",
+                "opponents": "England",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 5,
+                "runs": 39,
+                "sr": 4.8,
+                "location": "Seat Unique Stadium, Bristol",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "T Shamsi",
+                "team": "South Africa",
+                "opponents": "England",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 5,
+                "runs": 24,
+                "sr": 4.8,
+                "location": "The Ageas Bowl, Southampton",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "GP Swann",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 16,
+                "sr": 4.0,
+                "location": "Emirates Durham International Cricket Ground, Chester-le-Street",
+                "seriesDate": "2012"
+            },
+            {
+                "name": "LJ Wright",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 4,
+                "sr": 4.0,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "2012"
+            },
+            {
+                "name": "MM Ali",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 4,
+                "sr": 4.0,
+                "location": "The Ageas Bowl, Southampton",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "JA Morkel",
+                "team": "South Africa",
+                "opponents": "England",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 1,
+                "wickets": 1,
+                "runs": 0,
+                "sr": 0.0,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "2009"
+            },
+            {
+                "name": "JA Morkel",
+                "team": "South Africa",
+                "opponents": "England",
+                "overs": "0.1",
+                "balls": 1,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 0,
+                "sr": 0.0,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "2012"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "GP Swann",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 16,
+                "sr": 4.0,
+                "location": "Emirates Durham International Cricket Ground, Chester-le-Street",
+                "seriesDate": "2012"
+            }
+        ],
+        [
+            {
+                "name": "DW Steyn",
+                "team": "South Africa",
+                "opponents": "England",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 13,
+                "sr": 3.25,
+                "location": "Emirates Durham International Cricket Ground, Chester-le-Street",
+                "seriesDate": "2012"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "AU Rashid",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 25,
+                "sr": 25.0,
+                "location": "SuperSport Park, Centurion",
+                "seriesDate": "2009/10"
+            }
+        ],
+        [
+            {
+                "name": "JT Smuts",
+                "team": "South Africa",
+                "opponents": "England",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 22,
+                "sr": 22.0,
+                "location": "Buffalo Park, East London",
+                "seriesDate": "2019/20"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "CJ Jordan",
+                "team": "England",
+                "opponents": "South Africa",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 49,
+                "sr": 16.33,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2015/16"
+            }
+        ],
+        [
+            {
+                "name": "T Shamsi",
+                "team": "South Africa",
+                "opponents": "England",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 49,
+                "sr": 16.33,
+                "location": "Seat Unique Stadium, Bristol",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "South Africa",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2015/16",
+                        "partnership": 48,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JJ Roy",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AD Hales",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 58,
+                        "wicket": 1,
+                        "playerDetails": [
+                            {
+                                "team": "England",
+                                "opponents": "South Africa",
+                                "location": "Sharjah Cricket Association Stadium, Sharjah",
+                                "seriesDate": "2021/22",
+                                "partnership": 38,
+                                "wicket": 1,
+                                "undefeated": true,
+                                "player1Name": "JJ Roy",
+                                "player1Score": 20,
+                                "player1NotOut": true,
+                                "player1Position": 1,
+                                "player2Name": "JC Buttler",
+                                "player2Score": 26,
+                                "player2NotOut": false,
+                                "player2Position": 2
+                            },
+                            {
+                                "team": "England",
+                                "opponents": "South Africa",
+                                "location": "Sharjah Cricket Association Stadium, Sharjah",
+                                "seriesDate": "2021/22",
+                                "partnership": 20,
+                                "wicket": 1,
+                                "undefeated": false,
+                                "player1Name": "JC Buttler",
+                                "player1Score": 26,
+                                "player1NotOut": false,
+                                "player1Position": 2,
+                                "player2Name": "MM Ali",
+                                "player2Score": 37,
+                                "player2NotOut": false,
+                                "player2Position": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "South Africa",
+                        "location": "PPC Newlands, Cape Town",
+                        "seriesDate": "2020/21",
+                        "partnership": 167,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "JC Buttler",
+                        "player1Score": 67,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "DJ Malan",
+                        "player2Score": 99,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "South Africa",
+                        "location": "Seat Unique Stadium, Bristol",
+                        "seriesDate": "2022",
+                        "partnership": 71,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "JM Bairstow",
+                        "player1Score": 90,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "DJ Malan",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "South Africa",
+                        "location": "Seat Unique Stadium, Bristol",
+                        "seriesDate": "2022",
+                        "partnership": 106,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JM Bairstow",
+                        "player1Score": 90,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "MM Ali",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "South Africa",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2015/16",
+                        "partnership": 75,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JE Root",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JC Buttler",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "South Africa",
+                        "location": "Hollywoodbets Kingsmead, Durban",
+                        "seriesDate": "2019/20",
+                        "partnership": 51,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "BA Stokes",
+                        "player1Score": 47,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "MM Ali",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "South Africa",
+                        "location": "Bidvest Wanderers Stadium, Johannesburg",
+                        "seriesDate": "2009/10",
+                        "partnership": 33,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "EJG Morgan",
+                        "player1Score": 85,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "TT Bresnan",
+                        "player2Score": 3,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "South Africa",
+                        "location": "Emirates Durham International Cricket Ground, Chester-le-Street",
+                        "seriesDate": "2012",
+                        "partnership": 33,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "SCJ Broad",
+                        "player1Score": 18,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "GP Swann",
+                        "player2Score": 18,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "South Africa",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "2009",
+                        "partnership": 19,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SCJ Broad",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "AU Rashid",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "South Africa",
+                        "location": "Bidvest Wanderers Stadium, Johannesburg",
+                        "seriesDate": "2015/16",
+                        "partnership": 5,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AU Rashid",
+                        "player1Score": 2,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "RJW Topley",
+                        "player2Score": 1,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "England",
+                        "location": "SuperSport Park, Centurion",
+                        "seriesDate": "2009/10",
+                        "partnership": 170,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GC Smith",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "LE Bosman",
+                        "player2Score": 94,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "England",
+                        "location": "PPC Newlands, Cape Town",
+                        "seriesDate": "2020/21",
+                        "partnership": 77,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Q de Kock",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "F du Plessis",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "England",
+                        "location": "Sharjah Cricket Association Stadium, Sharjah",
+                        "seriesDate": "2021/22",
+                        "partnership": 103,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "HE van der Dussen",
+                        "player1Score": 94,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "AK Markram",
+                        "player2Score": 52,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "England",
+                        "location": "PPC Newlands, Cape Town",
+                        "seriesDate": "2020/21",
+                        "partnership": 127,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "F du Plessis",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "HE van der Dussen",
+                        "player2Score": 74,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "England",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2015/16",
+                        "partnership": 60,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "JP Duminy",
+                        "player1Score": 54,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "DA Miller",
+                        "player2Score": 28,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "England",
+                        "location": "Seat Unique Stadium, Bristol",
+                        "seriesDate": "2022",
+                        "partnership": 48,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "T Stubbs",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "AL Phehlukwayo",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "England",
+                        "location": "The SSE SWALEC Stadium, Cardiff",
+                        "seriesDate": "2017",
+                        "partnership": 54,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "M Mosehle",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "AL Phehlukwayo",
+                        "player2Score": 27,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "England",
+                        "location": "Sahara Park Newlands, Cape Town",
+                        "seriesDate": "2007/08",
+                        "partnership": 21,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JA Morkel",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JJ van der Wath",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "England",
+                        "location": "Seat Unique Stadium, Bristol",
+                        "seriesDate": "2022",
+                        "partnership": 5,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "KA Maharaj",
+                        "player1Score": 4,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "LT Ngidi",
+                        "player2Score": 1,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "England",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "2010",
+                        "partnership": 3,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "M Morkel",
+                        "player1Score": 1,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "CK Langeveldt",
+                        "player2Score": 2,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JM Bairstow",
+                "team": "England",
+                "opponents": "South Africa",
+                "matches": 15,
+                "runs": 485,
+                "innings": 13,
+                "notOuts": 2,
+                "average": 44.09,
+                "hs": "90"
+            }
+        ],
+        [
+            {
+                "name": "AB de Villiers",
+                "team": "South Africa",
+                "opponents": "England",
+                "matches": 15,
+                "runs": 390,
+                "innings": 15,
+                "notOuts": 3,
+                "average": 32.5,
+                "hs": "71"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "CJ Jordan",
+                "team": "England",
+                "opponents": "South Africa",
+                "matches": 17,
+                "balls": 382,
+                "maidens": 0,
+                "runs": 630,
+                "wickets": 17,
+                "bbruns": 23,
+                "bbwickets": 3,
+                "average": 37.05
+            }
+        ],
+        [
+            {
+                "name": "LT Ngidi",
+                "team": "South Africa",
+                "opponents": "England",
+                "matches": 9,
+                "balls": 186,
+                "maidens": 0,
+                "runs": 298,
+                "wickets": 19,
+                "bbruns": 39,
+                "bbwickets": 5,
+                "average": 15.68
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JC Buttler",
+                "team": "England",
+                "opponents": "South Africa",
+                "matches": 20,
+                "dismissals": 10
+            }
+        ],
+        [
+            {
+                "name": "DA Miller",
+                "team": "South Africa",
+                "opponents": "England",
+                "matches": 14,
+                "dismissals": 18
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JC Buttler",
+                "team": "England",
+                "opponents": "South Africa",
+                "matches": 20,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "Q de Kock",
+                "team": "South Africa",
+                "opponents": "England",
+                "matches": 12,
+                "dismissals": 1
+            },
+            {
+                "name": "AB de Villiers",
+                "team": "South Africa",
+                "opponents": "England",
+                "matches": 15,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "England",
+                    "opponents": "South Africa",
+                    "total": 101,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Ageas Bowl, Southampton",
+                    "seriesDate": "2022"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "South Africa",
+                    "total": 101,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Ageas Bowl, Southampton",
+                    "seriesDate": "2022"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "South Africa",
+                    "total": 29,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "2012"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "South Africa",
+                    "opponents": "England",
+                    "total": 129,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kensington Oval, Bridgetown",
+                    "seriesDate": "2010"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "South Africa",
+                    "opponents": "England",
+                    "total": 77,
+                    "wickets": 5,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "2012"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "South Africa",
+                    "opponents": "England",
+                    "total": 77,
+                    "wickets": 5,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "2012"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:19:52.036610Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

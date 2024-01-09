@@ -1,0 +1,837 @@
+{
+    "team1": "Sri Lankans",
+    "team2": "Leicestershire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 3,
+        "startDate": "1981-07-11T01:00",
+        "endDate": "2016-05-13T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Sri Lankans",
+                "opponents": "Leicestershire",
+                "total": 509,
+                "wickets": 10,
+                "declared": false,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1998"
+            }
+        ],
+        [
+            {
+                "team": "Leicestershire",
+                "opponents": "Sri Lankans",
+                "total": 375,
+                "wickets": 5,
+                "declared": true,
+                "location": "Fischer County Ground, Grace Road, Leicester",
+                "seriesDate": "2016"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RL Dias",
+                "team": "Sri Lankans",
+                "opponents": "Leicestershire",
+                "score": 127,
+                "notOut": false,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1981"
+            }
+        ],
+        [
+            {
+                "name": "RW Tolchard",
+                "team": "Leicestershire",
+                "opponents": "Sri Lankans",
+                "score": 104,
+                "notOut": true,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1981"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "M Muralitharan",
+                "team": "Sri Lankans",
+                "opponents": "Leicestershire",
+                "wickets": 5,
+                "runs": 108,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1998"
+            }
+        ],
+        [
+            {
+                "name": "JP Agnew",
+                "team": "Leicestershire",
+                "opponents": "Sri Lankans",
+                "wickets": 4,
+                "runs": 83,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1981"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "M Muralitharan",
+                "team": "Sri Lankans",
+                "opponents": "Leicestershire",
+                "wickets": 8,
+                "runs": 149,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1998"
+            }
+        ],
+        [
+            {
+                "name": "JP Agnew",
+                "team": "Leicestershire",
+                "opponents": "Sri Lankans",
+                "wickets": 4,
+                "runs": 104,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1981"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lankans",
+                        "opponents": "Leicestershire",
+                        "location": "Fischer County Ground, Grace Road, Leicester",
+                        "seriesDate": "2016",
+                        "partnership": 100,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "FDM Karunaratne",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JK Silva",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lankans",
+                        "opponents": "Leicestershire",
+                        "location": "Fischer County Ground, Grace Road, Leicester",
+                        "seriesDate": "2016",
+                        "partnership": 101,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JK Silva",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "BKG Mendis",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lankans",
+                        "opponents": "Leicestershire",
+                        "location": "Fischer County Ground, Grace Road, Leicester",
+                        "seriesDate": "2016",
+                        "partnership": 23,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "BKG Mendis",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "LD Chandimal",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lankans",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1998",
+                        "partnership": 137,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "A Ranatunga",
+                        "player1Score": 110,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DPMD Jayawardene",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lankans",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1981",
+                        "partnership": 50,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lankans",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1998",
+                        "partnership": 119,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "HP Tillakaratne",
+                        "player1Score": 120,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "UC Hathurusingha",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lankans",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1981",
+                        "partnership": 45,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lankans",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1981",
+                        "partnership": 109,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lankans",
+                        "opponents": "Leicestershire",
+                        "location": "Fischer County Ground, Grace Road, Leicester",
+                        "seriesDate": "2016",
+                        "partnership": 174,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "MD Shanaka",
+                        "player1Score": 112,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "HMRKB Herath",
+                        "player2Score": 55,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lankans",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1981",
+                        "partnership": 13,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "LWS Kaluperuma",
+                        "player1Score": 14,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "GRA de Silva",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Sri Lankans",
+                        "location": "Fischer County Ground, Grace Road, Leicester",
+                        "seriesDate": "2016",
+                        "partnership": 71,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "LJ Hill",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AJ Robson",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Sri Lankans",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1981",
+                        "partnership": 35,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Sri Lankans",
+                        "location": "Fischer County Ground, Grace Road, Leicester",
+                        "seriesDate": "2016",
+                        "partnership": 46,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AM Ali",
+                        "player1Score": 46,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "EJH Eckersley",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Sri Lankans",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1981",
+                        "partnership": 93,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Sri Lankans",
+                        "location": "Fischer County Ground, Grace Road, Leicester",
+                        "seriesDate": "2016",
+                        "partnership": 128,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MGK Burgess",
+                        "player1Score": 98,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "TJ Wells",
+                        "player2Score": 87,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Sri Lankans",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1981",
+                        "partnership": 73,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Sri Lankans",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1998",
+                        "partnership": 68,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "JM Dakin",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "D Williamson",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Sri Lankans",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1998",
+                        "partnership": 79,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JM Dakin",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DJ Millns",
+                        "player2Score": 46,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Sri Lankans",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1998",
+                        "partnership": 36,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "D Williamson",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "CD Crowe",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Sri Lankans",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1998",
+                        "partnership": 12,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "DJ Millns",
+                        "player1Score": 46,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "MT Brimson",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "RL Dias",
+                "team": "Sri Lankans",
+                "opponents": "Leicestershire",
+                "matches": 1,
+                "runs": 138,
+                "innings": 2,
+                "notOuts": 1,
+                "average": 138.0,
+                "hs": "127"
+            }
+        ],
+        [
+            {
+                "name": "JM Dakin",
+                "team": "Leicestershire",
+                "opponents": "Sri Lankans",
+                "matches": 1,
+                "runs": 121,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 60.5,
+                "hs": "79"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "M Muralitharan",
+                "team": "Sri Lankans",
+                "opponents": "Leicestershire",
+                "matches": 1,
+                "balls": 468,
+                "maidens": 29,
+                "runs": 149,
+                "wickets": 8,
+                "bbruns": 108,
+                "bbwickets": 5,
+                "average": 18.62
+            }
+        ],
+        [
+            {
+                "name": "JP Agnew",
+                "team": "Leicestershire",
+                "opponents": "Sri Lankans",
+                "matches": 1,
+                "balls": 150,
+                "maidens": 1,
+                "runs": 104,
+                "wickets": 4,
+                "bbruns": 83,
+                "bbwickets": 4,
+                "average": 26.0
+            },
+            {
+                "name": "JM Dakin",
+                "team": "Leicestershire",
+                "opponents": "Sri Lankans",
+                "matches": 1,
+                "balls": 258,
+                "maidens": 6,
+                "runs": 131,
+                "wickets": 4,
+                "bbruns": 110,
+                "bbwickets": 4,
+                "average": 32.75
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "HAPW Jayawardene",
+                "team": "Sri Lankans",
+                "opponents": "Leicestershire",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "PA Nixon",
+                "team": "Leicestershire",
+                "opponents": "Sri Lankans",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "DPDN Dickwella",
+                "team": "Sri Lankans",
+                "opponents": "Leicestershire",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Sri Lankans",
+                    "opponents": "Leicestershire",
+                    "total": 304,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1981"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Sri Lankans",
+                    "opponents": "Leicestershire",
+                    "total": 304,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1981"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Sri Lankans",
+                    "opponents": "Leicestershire",
+                    "total": 99,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1998"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Leicestershire",
+                    "opponents": "Sri Lankans",
+                    "total": 245,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1998"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Leicestershire",
+                    "opponents": "Sri Lankans",
+                    "total": 245,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1998"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Leicestershire",
+                    "opponents": "Sri Lankans",
+                    "total": 232,
+                    "wickets": 8,
+                    "declared": true,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1981"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:46.708194Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,885 @@
+{
+    "team1": "Durham",
+    "team2": "Staffordshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 120,
+        "startDate": "1895-06-26T00:00",
+        "endDate": "1991-07-03T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Durham",
+                "opponents": "Staffordshire",
+                "total": 425,
+                "wickets": 6,
+                "declared": true,
+                "location": "County Ground, Stoke-on-Trent",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "team": "Staffordshire",
+                "opponents": "Durham",
+                "total": 419,
+                "wickets": 10,
+                "declared": false,
+                "location": "Ashbrooke, Sunderland",
+                "seriesDate": "1939"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JW Welford",
+                "team": "Durham",
+                "opponents": "Staffordshire",
+                "score": 153,
+                "notOut": false,
+                "location": "County Ground, Stoke-on-Trent",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "SJ Dean",
+                "team": "Staffordshire",
+                "opponents": "Durham",
+                "score": 153,
+                "notOut": false,
+                "location": "Highfield, Leek",
+                "seriesDate": "1989"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "DJ Halfyard",
+                "team": "Durham",
+                "opponents": "Staffordshire",
+                "wickets": 9,
+                "runs": 23,
+                "location": "Park Drive, Hartlepool",
+                "seriesDate": "1971"
+            }
+        ],
+        [
+            {
+                "name": "S Crump",
+                "team": "Staffordshire",
+                "opponents": "Durham",
+                "wickets": 9,
+                "runs": 26,
+                "location": "Tunstall Road, Knypersley",
+                "seriesDate": "1947"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "A Coxon",
+                "team": "Durham",
+                "opponents": "Staffordshire",
+                "wickets": 15,
+                "runs": 86,
+                "location": "Park Drive, West Hartlepool",
+                "seriesDate": "1952"
+            }
+        ],
+        [
+            {
+                "name": "SF Barnes",
+                "team": "Staffordshire",
+                "opponents": "Durham",
+                "wickets": 17,
+                "runs": 83,
+                "location": "Wood Terrace, South Shields",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Staffordshire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 165,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RH Mallett",
+                        "player1Score": 70,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JW Welford",
+                        "player2Score": 153,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Staffordshire",
+                        "location": "Deansfield, Brewood",
+                        "seriesDate": "1980",
+                        "partnership": 193,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "S Greensword",
+                        "player1Score": 106,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "PJ Crane",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Staffordshire",
+                        "location": "Gorway, Walsall",
+                        "seriesDate": "1963",
+                        "partnership": 137,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "CW Leach",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GC Lamb",
+                        "player2Score": 91,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Staffordshire",
+                        "location": "Feethams Cricket Ground, Darlington",
+                        "seriesDate": "1990",
+                        "partnership": 145,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "P Burn",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "AS Patel",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Staffordshire",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 115,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JF Whitwell",
+                        "player1Score": 61,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "WH Wilson",
+                        "player2Score": 69,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Staffordshire",
+                        "location": "Feethams Cricket Ground, Darlington",
+                        "seriesDate": "1976",
+                        "partnership": 93,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "M Amarnath",
+                        "player1Score": 115,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "W Blenkiron",
+                        "player2Score": 37,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Staffordshire",
+                        "location": "Eastwood Gardens, Gateshead",
+                        "seriesDate": "1959",
+                        "partnership": 121,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "CRM Atkinson",
+                        "player1Score": 81,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "DW Hardy",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Staffordshire",
+                        "location": "Trentham Road, Stoke-on-Trent",
+                        "seriesDate": "1959",
+                        "partnership": 110,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JM Watson",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "SH Young",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Staffordshire",
+                        "location": "The Sid Jenkins Ground, Little Stoke",
+                        "seriesDate": "1967",
+                        "partnership": 75,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "KD Biddulph",
+                        "player1Score": 7,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "HJ Bailey",
+                        "player2Score": 108,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Staffordshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1939",
+                        "partnership": 70,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JH Olsen",
+                        "player1Score": 93,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "AW Austin",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Durham",
+                        "location": "Lichfield Road, Stone",
+                        "seriesDate": "1977",
+                        "partnership": 153,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DA Hancock",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PN Gill",
+                        "player2Score": 87,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Durham",
+                        "location": "Bass Worthington Ground, Burton-on-Trent",
+                        "seriesDate": "1975",
+                        "partnership": 118,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "PN Gill",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "SA Neal",
+                        "player2Score": 81,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Durham",
+                        "location": "County Ground, Stoke-on-Trent",
+                        "seriesDate": "1895",
+                        "partnership": 134,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "J King",
+                        "player1Score": 48,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "W Brown",
+                        "player2Score": 90,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Durham",
+                        "location": "Wood Terrace, South Shields",
+                        "seriesDate": "1937",
+                        "partnership": 119,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JT Ikin",
+                        "player1Score": 123,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "CC Clarke",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    },
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Durham",
+                        "location": "Wood Terrace, South Shields",
+                        "seriesDate": "1962",
+                        "partnership": 119,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "TA Whittaker",
+                        "player1Score": 114,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JT Ikin",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Durham",
+                        "location": "Feethams Cricket Ground, Darlington",
+                        "seriesDate": "1990",
+                        "partnership": 97,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JP Addison",
+                        "player1Score": 48,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "NJ Archer",
+                        "player2Score": 58,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Durham",
+                        "location": "The Hough, Stafford",
+                        "seriesDate": "1955",
+                        "partnership": 146,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "H Boon",
+                        "player1Score": 102,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "BS Crump",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Durham",
+                        "location": "Feethams Cricket Ground, Darlington",
+                        "seriesDate": "1986",
+                        "partnership": 122,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "DA Banks",
+                        "player1Score": 86,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "DC Blank",
+                        "player2Score": 52,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Durham",
+                        "location": "Wood Terrace, South Shields",
+                        "seriesDate": "1911",
+                        "partnership": 88,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "E Vost",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "A Bucknell",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Durham",
+                        "location": "Park Drive, Hartlepool",
+                        "seriesDate": "1981",
+                        "partnership": 63,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "N Penton",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "S Brookes",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Durham",
+                        "location": "Kingsway, Bishop Auckland",
+                        "seriesDate": "1950",
+                        "partnership": 91,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "B Shardlow",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "SJ Norcup",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "S Greensword",
+                "team": "Durham",
+                "opponents": "Staffordshire",
+                "matches": 24,
+                "runs": 1271,
+                "innings": 39,
+                "notOuts": 10,
+                "average": 43.82,
+                "hs": "141*"
+            }
+        ],
+        [
+            {
+                "name": "JT Ikin",
+                "team": "Staffordshire",
+                "opponents": "Durham",
+                "matches": 28,
+                "runs": 1449,
+                "innings": 47,
+                "notOuts": 3,
+                "average": 32.93,
+                "hs": "123"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "KD Biddulph",
+                "team": "Durham",
+                "opponents": "Staffordshire",
+                "matches": 16,
+                "balls": 3220,
+                "maidens": 193,
+                "runs": 1176,
+                "wickets": 85,
+                "bbruns": 47,
+                "bbwickets": 8,
+                "average": 13.83
+            }
+        ],
+        [
+            {
+                "name": "SF Barnes",
+                "team": "Staffordshire",
+                "opponents": "Durham",
+                "matches": 14,
+                "balls": 2255,
+                "maidens": 116,
+                "runs": 885,
+                "wickets": 130,
+                "bbruns": 34,
+                "bbwickets": 9,
+                "average": 6.8
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RAD Mercer",
+                "team": "Durham",
+                "opponents": "Staffordshire",
+                "matches": 18,
+                "dismissals": 34
+            }
+        ],
+        [
+            {
+                "name": "JT Ikin",
+                "team": "Staffordshire",
+                "opponents": "Durham",
+                "matches": 28,
+                "dismissals": 28
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "R Cole",
+                "team": "Durham",
+                "opponents": "Staffordshire",
+                "matches": 23,
+                "dismissals": 22
+            }
+        ],
+        [
+            {
+                "name": "A Griffiths",
+                "team": "Staffordshire",
+                "opponents": "Durham",
+                "matches": 13,
+                "dismissals": 8
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Durham",
+                    "opponents": "Staffordshire",
+                    "total": 20,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Stoke-on-Trent",
+                    "seriesDate": "1907"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Staffordshire",
+                    "total": 20,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Stoke-on-Trent",
+                    "seriesDate": "1907"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Staffordshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Knutton Road, Wolstanton",
+                    "seriesDate": "1952"
+                },
+                {
+                    "team": "Durham",
+                    "opponents": "Staffordshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Blackfyne, Blackhill, Consett",
+                    "seriesDate": "1958"
+                },
+                {
+                    "team": "Durham",
+                    "opponents": "Staffordshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Trentham Road, Stoke-on-Trent",
+                    "seriesDate": "1961"
+                },
+                {
+                    "team": "Durham",
+                    "opponents": "Staffordshire",
+                    "total": 0,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Lichfield Road, Stone",
+                    "seriesDate": "1969"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Durham",
+                    "total": 36,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ashbrooke, Sunderland",
+                    "seriesDate": "1907"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Durham",
+                    "total": 36,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ashbrooke, Sunderland",
+                    "seriesDate": "1907"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Durham",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Blackfyne, Blackhill, Consett",
+                    "seriesDate": "1936"
+                },
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Durham",
+                    "total": 0,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Clayton Lane, Newcastle-under-Lyme",
+                    "seriesDate": "1971"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:12.318309Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

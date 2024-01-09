@@ -1,0 +1,885 @@
+{
+    "team1": "England",
+    "team2": "India",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 131,
+        "startDate": "1932-06-25T01:00",
+        "endDate": "2022-07-01T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "England",
+                "opponents": "India",
+                "total": 710,
+                "wickets": 7,
+                "declared": true,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "2011"
+            }
+        ],
+        [
+            {
+                "team": "India",
+                "opponents": "England",
+                "total": 759,
+                "wickets": 7,
+                "declared": true,
+                "location": "MA Chidambaram Stadium, Chepauk, Chennai",
+                "seriesDate": "2016/17"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "GA Gooch",
+                "team": "England",
+                "opponents": "India",
+                "score": 333,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1990"
+            }
+        ],
+        [
+            {
+                "name": "KK Nair",
+                "team": "India",
+                "opponents": "England",
+                "score": 303,
+                "notOut": true,
+                "location": "MA Chidambaram Stadium, Chepauk, Chennai",
+                "seriesDate": "2016/17"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "FS Trueman",
+                "team": "England",
+                "opponents": "India",
+                "wickets": 8,
+                "runs": 31,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1952"
+            }
+        ],
+        [
+            {
+                "name": "MH Mankad",
+                "team": "India",
+                "opponents": "England",
+                "wickets": 8,
+                "runs": 55,
+                "location": "Madras Cricket Club Ground, Chepauk, Madras",
+                "seriesDate": "1951/52"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "IT Botham",
+                "team": "England",
+                "opponents": "India",
+                "wickets": 13,
+                "runs": 106,
+                "location": "Wankhede Stadium, Bombay",
+                "seriesDate": "1979/80"
+            }
+        ],
+        [
+            {
+                "name": "MH Mankad",
+                "team": "India",
+                "opponents": "England",
+                "wickets": 12,
+                "runs": 108,
+                "location": "Madras Cricket Club Ground, Chepauk, Madras",
+                "seriesDate": "1951/52"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "India",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1990",
+                        "partnership": 225,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GA Gooch",
+                        "player1Score": 116,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MA Atherton",
+                        "player2Score": 131,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "India",
+                        "location": "MA Chidambaram Stadium, Chepauk, Madras",
+                        "seriesDate": "1984/85",
+                        "partnership": 241,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "G Fowler",
+                        "player1Score": 201,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MW Gatting",
+                        "player2Score": 207,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "India",
+                        "location": "The Kia Oval, Kennington",
+                        "seriesDate": "2011",
+                        "partnership": 350,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "IR Bell",
+                        "player1Score": 235,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "KP Pietersen",
+                        "player2Score": 175,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "India",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "2022",
+                        "partnership": 269,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "JE Root",
+                        "player1Score": 142,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JM Bairstow",
+                        "player2Score": 114,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "India",
+                        "location": "Brabourne Stadium, Bombay",
+                        "seriesDate": "1972/73",
+                        "partnership": 254,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "KWR Fletcher",
+                        "player1Score": 113,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "AW Greig",
+                        "player2Score": 148,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "India",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2018",
+                        "partnership": 189,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "JM Bairstow",
+                        "player1Score": 93,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CR Woakes",
+                        "player2Score": 137,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "India",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2011",
+                        "partnership": 162,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "MJ Prior",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "SCJ Broad",
+                        "player2Score": 74,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "India",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1971",
+                        "partnership": 168,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "R Illingworth",
+                        "player1Score": 107,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "P Lever",
+                        "player2Score": 88,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "India",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "2002",
+                        "partnership": 103,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "C White",
+                        "player1Score": 94,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "MJ Hoggard",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "India",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "2014",
+                        "partnership": 198,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JE Root",
+                        "player1Score": 154,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "JM Anderson",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "England",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1979",
+                        "partnership": 213,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SM Gavaskar",
+                        "player1Score": 221,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CPS Chauhan",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "England",
+                        "location": "Punjab Cricket Association Stadium, Mohali",
+                        "seriesDate": "2008/09",
+                        "partnership": 314,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "G Gambhir",
+                        "player1Score": 179,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RS Dravid",
+                        "player2Score": 136,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "England",
+                        "location": "MA Chidambaram Stadium, Chepauk, Madras",
+                        "seriesDate": "1981/82",
+                        "partnership": 316,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "GR Viswanath",
+                        "player1Score": 222,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Yashpal Sharma",
+                        "player2Score": 140,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 415,
+                        "wicket": 3,
+                        "playerDetails": [
+                            {
+                                "team": "India",
+                                "opponents": "England",
+                                "location": "MA Chidambaram Stadium, Chepauk, Madras",
+                                "seriesDate": "1981/82",
+                                "partnership": 316,
+                                "wicket": 3,
+                                "undefeated": false,
+                                "player1Name": "GR Viswanath",
+                                "player1Score": 222,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "Yashpal Sharma",
+                                "player2Score": 140,
+                                "player2NotOut": false,
+                                "player2Position": 5
+                            },
+                            {
+                                "team": "India",
+                                "opponents": "England",
+                                "location": "MA Chidambaram Stadium, Chepauk, Madras",
+                                "seriesDate": "1981/82",
+                                "partnership": 99,
+                                "wicket": 3,
+                                "undefeated": true,
+                                "player1Name": "DB Vengsarkar",
+                                "player1Score": 71,
+                                "player1NotOut": true,
+                                "player1Position": 3,
+                                "player2Name": "GR Viswanath",
+                                "player2Score": 222,
+                                "player2NotOut": false,
+                                "player2Position": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "England",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "2002",
+                        "partnership": 249,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "SR Tendulkar",
+                        "player1Score": 193,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SC Ganguly",
+                        "player2Score": 128,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "England",
+                        "location": "Eden Gardens, Calcutta",
+                        "seriesDate": "1984/85",
+                        "partnership": 214,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "M Azharuddin",
+                        "player1Score": 110,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RJ Shastri",
+                        "player2Score": 111,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "England",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "2022",
+                        "partnership": 222,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RR Pant",
+                        "player1Score": 146,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RA Jadeja",
+                        "player2Score": 104,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "England",
+                        "location": "Wankhede Stadium, Bombay",
+                        "seriesDate": "1984/85",
+                        "partnership": 235,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "RJ Shastri",
+                        "player1Score": 142,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "SMH Kirmani",
+                        "player2Score": 102,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "England",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2016/17",
+                        "partnership": 241,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "V Kohli",
+                        "player1Score": 235,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "J Yadav",
+                        "player2Score": 104,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "England",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "1981/82",
+                        "partnership": 104,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RJ Shastri",
+                        "player1Score": 93,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Madan Lal",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "England",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "2014",
+                        "partnership": 111,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "Bhuvneshwar Kumar",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "Mohammed Shami",
+                        "player2Score": 51,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JE Root",
+                "team": "England",
+                "opponents": "India",
+                "matches": 25,
+                "runs": 2526,
+                "innings": 45,
+                "notOuts": 5,
+                "average": 63.15,
+                "hs": "218"
+            }
+        ],
+        [
+            {
+                "name": "SR Tendulkar",
+                "team": "India",
+                "opponents": "England",
+                "matches": 32,
+                "runs": 2535,
+                "innings": 53,
+                "notOuts": 4,
+                "average": 51.73,
+                "hs": "193"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JM Anderson",
+                "team": "England",
+                "opponents": "India",
+                "matches": 35,
+                "balls": 7658,
+                "maidens": 355,
+                "runs": 3461,
+                "wickets": 139,
+                "bbruns": 20,
+                "bbwickets": 5,
+                "average": 24.89
+            }
+        ],
+        [
+            {
+                "name": "BS Chandrasekhar",
+                "team": "India",
+                "opponents": "England",
+                "matches": 23,
+                "balls": 6199,
+                "maidens": 249,
+                "runs": 2591,
+                "wickets": 95,
+                "bbruns": 79,
+                "bbwickets": 8,
+                "average": 27.27
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "APE Knott",
+                "team": "England",
+                "opponents": "India",
+                "matches": 16,
+                "dismissals": 49
+            },
+            {
+                "name": "MJ Prior",
+                "team": "England",
+                "opponents": "India",
+                "matches": 15,
+                "dismissals": 49
+            }
+        ],
+        [
+            {
+                "name": "MS Dhoni",
+                "team": "India",
+                "opponents": "England",
+                "matches": 21,
+                "dismissals": 63
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "TG Evans",
+                "team": "England",
+                "opponents": "India",
+                "matches": 7,
+                "dismissals": 5
+            },
+            {
+                "name": "APE Knott",
+                "team": "England",
+                "opponents": "India",
+                "matches": 16,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "SMH Kirmani",
+                "team": "India",
+                "opponents": "England",
+                "matches": 20,
+                "dismissals": 11
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "England",
+                    "opponents": "India",
+                    "total": 81,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Narendra Modi Stadium, Motera, Ahmedabad",
+                    "seriesDate": "2020/21"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "India",
+                    "total": 81,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Narendra Modi Stadium, Motera, Ahmedabad",
+                    "seriesDate": "2020/21"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "India",
+                    "total": 7,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Eden Gardens, Calcutta",
+                    "seriesDate": "1933/34"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "India",
+                    "opponents": "England",
+                    "total": 42,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1974"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "India",
+                    "opponents": "England",
+                    "total": 42,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1974"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "India",
+                    "opponents": "England",
+                    "total": 5,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Punjab Cricket Association Stadium, Mohali",
+                    "seriesDate": "2001/02"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:19:14.466859Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

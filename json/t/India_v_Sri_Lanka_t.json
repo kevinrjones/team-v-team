@@ -1,0 +1,871 @@
+{
+    "team1": "India",
+    "team2": "Sri Lanka",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 46,
+        "startDate": "1982-09-17T01:00",
+        "endDate": "2022-03-12T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "India",
+                "opponents": "Sri Lanka",
+                "total": 726,
+                "wickets": 9,
+                "declared": true,
+                "location": "Brabourne Stadium, Mumbai",
+                "seriesDate": "2009/10"
+            }
+        ],
+        [
+            {
+                "team": "Sri Lanka",
+                "opponents": "India",
+                "total": 952,
+                "wickets": 6,
+                "declared": true,
+                "location": "R Premadasa Stadium, Colombo",
+                "seriesDate": "1997"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "V Sehwag",
+                "team": "India",
+                "opponents": "Sri Lanka",
+                "score": 293,
+                "notOut": false,
+                "location": "Brabourne Stadium, Mumbai",
+                "seriesDate": "2009/10"
+            }
+        ],
+        [
+            {
+                "name": "ST Jayasuriya",
+                "team": "Sri Lanka",
+                "opponents": "India",
+                "score": 340,
+                "notOut": false,
+                "location": "R Premadasa Stadium, Colombo",
+                "seriesDate": "1997"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Maninder Singh",
+                "team": "India",
+                "opponents": "Sri Lanka",
+                "wickets": 7,
+                "runs": 51,
+                "location": "Vidarbha Cricket Association Ground, Nagpur",
+                "seriesDate": "1986/87"
+            }
+        ],
+        [
+            {
+                "name": "M Muralitharan",
+                "team": "Sri Lanka",
+                "opponents": "India",
+                "wickets": 8,
+                "runs": 87,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2001"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "SLV Raju",
+                "team": "India",
+                "opponents": "Sri Lanka",
+                "wickets": 11,
+                "runs": 125,
+                "location": "Gujarat Stadium, Motera, Ahmedabad",
+                "seriesDate": "1993/94"
+            }
+        ],
+        [
+            {
+                "name": "M Muralitharan",
+                "team": "Sri Lanka",
+                "opponents": "India",
+                "wickets": 11,
+                "runs": 110,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2008"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Sri Lanka",
+                        "location": "Modi Stadium, Kanpur",
+                        "seriesDate": "2009/10",
+                        "partnership": 233,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "G Gambhir",
+                        "player1Score": 167,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "V Sehwag",
+                        "player2Score": 131,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Sri Lanka",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2017",
+                        "partnership": 253,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "S Dhawan",
+                        "player1Score": 190,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CA Pujara",
+                        "player2Score": 153,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Sri Lanka",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2017/18",
+                        "partnership": 283,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "M Vijay",
+                        "player1Score": 155,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "V Kohli",
+                        "player2Score": 243,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Sri Lanka",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "1997/98",
+                        "partnership": 256,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "SC Ganguly",
+                        "player1Score": 173,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SR Tendulkar",
+                        "player2Score": 148,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Sri Lanka",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2010",
+                        "partnership": 256,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "SK Raina",
+                        "player1Score": 120,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "SR Tendulkar",
+                        "player2Score": 203,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Sri Lanka",
+                        "location": "Modi Stadium, Kanpur",
+                        "seriesDate": "1986/87",
+                        "partnership": 272,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "M Azharuddin",
+                        "player1Score": 199,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "Kapil Dev",
+                        "player2Score": 163,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Sri Lanka",
+                        "location": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+                        "seriesDate": "2021/22",
+                        "partnership": 130,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "RA Jadeja",
+                        "player1Score": 175,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "R Ashwin",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Sri Lanka",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2015",
+                        "partnership": 104,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "CA Pujara",
+                        "player1Score": 145,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "A Mishra",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Sri Lanka",
+                        "location": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+                        "seriesDate": "2021/22",
+                        "partnership": 103,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "RA Jadeja",
+                        "player1Score": 175,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "Mohammed Shami",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Sri Lanka",
+                        "location": "Sardar Patel Stadium, Motera, Ahmedabad",
+                        "seriesDate": "2005/06",
+                        "partnership": 69,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "A Kumble",
+                        "player1Score": 29,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "Harbhajan Singh",
+                        "player2Score": 40,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "India",
+                        "location": "Modi Stadium, Kanpur",
+                        "seriesDate": "1986/87",
+                        "partnership": 159,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "S Wettimuny",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JR Ratnayeke",
+                        "player2Score": 93,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "India",
+                        "location": "R Premadasa Stadium, Colombo",
+                        "seriesDate": "1997",
+                        "partnership": 576,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "ST Jayasuriya",
+                        "player1Score": 340,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RS Mahanama",
+                        "player2Score": 225,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "India",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "1997",
+                        "partnership": 218,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "ST Jayasuriya",
+                        "player1Score": 199,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PA de Silva",
+                        "player2Score": 120,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "India",
+                        "location": "Asgiriya Stadium, Kandy",
+                        "seriesDate": "1985",
+                        "partnership": 216,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RL Dias",
+                        "player1Score": 106,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "LRD Mendis",
+                        "player2Score": 124,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "India",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "1985",
+                        "partnership": 144,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RS Madugalle",
+                        "player1Score": 103,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "A Ranatunga",
+                        "player2Score": 111,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 176,
+                        "wicket": 5,
+                        "playerDetails": [
+                            {
+                                "team": "Sri Lanka",
+                                "opponents": "India",
+                                "location": "Sinhalese Sports Club Ground, Colombo",
+                                "seriesDate": "1998/99",
+                                "partnership": 115,
+                                "wicket": 5,
+                                "undefeated": true,
+                                "player1Name": "DPMD Jayawardene",
+                                "player1Score": 242,
+                                "player1NotOut": false,
+                                "player1Position": 3,
+                                "player2Name": "A Ranatunga",
+                                "player2Score": 66,
+                                "player2NotOut": false,
+                                "player2Position": 6
+                            },
+                            {
+                                "team": "Sri Lanka",
+                                "opponents": "India",
+                                "location": "Sinhalese Sports Club Ground, Colombo",
+                                "seriesDate": "1998/99",
+                                "partnership": 61,
+                                "wicket": 5,
+                                "undefeated": false,
+                                "player1Name": "DPMD Jayawardene",
+                                "player1Score": 242,
+                                "player1NotOut": false,
+                                "player1Position": 3,
+                                "player2Name": "HP Tillakaratne",
+                                "player2Score": 14,
+                                "player2NotOut": false,
+                                "player2Position": 7
+                            }
+                        ]
+                    }
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "India",
+                        "location": "Sardar Patel Stadium, Motera, Ahmedabad",
+                        "seriesDate": "2009/10",
+                        "partnership": 351,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "HAPW Jayawardene",
+                        "player1Score": 154,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "DPMD Jayawardene",
+                        "player2Score": 275,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "India",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2001",
+                        "partnership": 194,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "HP Tillakaratne",
+                        "player1Score": 136,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "TT Samaraweera",
+                        "player2Score": 103,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "India",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2010",
+                        "partnership": 115,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "HMRKB Herath",
+                        "player1Score": 80,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "SL Malinga",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "India",
+                        "location": "P Sara Oval, Colombo",
+                        "seriesDate": "2010",
+                        "partnership": 118,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "TT Samaraweera",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "BAW Mendis",
+                        "player2Score": 78,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "India",
+                        "location": "Asgiriya Stadium, Kandy",
+                        "seriesDate": "2001",
+                        "partnership": 64,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "M Muralitharan",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "PDRL Perera",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "SR Tendulkar",
+                "team": "India",
+                "opponents": "Sri Lanka",
+                "matches": 25,
+                "runs": 1995,
+                "innings": 36,
+                "notOuts": 3,
+                "average": 60.45,
+                "hs": "203"
+            }
+        ],
+        [
+            {
+                "name": "DPMD Jayawardene",
+                "team": "Sri Lanka",
+                "opponents": "India",
+                "matches": 18,
+                "runs": 1822,
+                "innings": 28,
+                "notOuts": 1,
+                "average": 67.48,
+                "hs": "275"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "A Kumble",
+                "team": "India",
+                "opponents": "Sri Lanka",
+                "matches": 16,
+                "balls": 5173,
+                "maidens": 193,
+                "runs": 2309,
+                "wickets": 74,
+                "bbruns": 59,
+                "bbwickets": 7,
+                "average": 31.2
+            }
+        ],
+        [
+            {
+                "name": "M Muralitharan",
+                "team": "Sri Lanka",
+                "opponents": "India",
+                "matches": 21,
+                "balls": 7020,
+                "maidens": 222,
+                "runs": 3425,
+                "wickets": 105,
+                "bbruns": 87,
+                "bbwickets": 8,
+                "average": 32.61
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "M Azharuddin",
+                "team": "India",
+                "opponents": "Sri Lanka",
+                "matches": 17,
+                "dismissals": 27
+            }
+        ],
+        [
+            {
+                "name": "DPMD Jayawardene",
+                "team": "Sri Lanka",
+                "opponents": "India",
+                "matches": 18,
+                "dismissals": 22
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "NR Mongia",
+                "team": "India",
+                "opponents": "Sri Lanka",
+                "matches": 9,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "HAPW Jayawardene",
+                "team": "Sri Lanka",
+                "opponents": "India",
+                "matches": 9,
+                "dismissals": 8
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "India",
+                    "opponents": "Sri Lanka",
+                    "total": 112,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Galle International Stadium, Galle",
+                    "seriesDate": "2015"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "India",
+                    "opponents": "Sri Lanka",
+                    "total": 112,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Galle International Stadium, Galle",
+                    "seriesDate": "2015"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "India",
+                    "opponents": "Sri Lanka",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Asgiriya Stadium, Kandy",
+                    "seriesDate": "1993"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "India",
+                    "total": 82,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sector 16 Stadium, Chandigarh",
+                    "seriesDate": "1990/91"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "India",
+                    "total": 82,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sector 16 Stadium, Chandigarh",
+                    "seriesDate": "1990/91"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "India",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Vidarbha Cricket Association Ground, Nagpur",
+                    "seriesDate": "1997/98"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:20:13.634862Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

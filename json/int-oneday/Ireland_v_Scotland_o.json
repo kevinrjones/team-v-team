@@ -1,0 +1,1158 @@
+{
+    "team1": "Ireland",
+    "team2": "Scotland",
+    "competitionTitle": "International One Day",
+    "competitionSubType": "o",
+    "matchDto": {
+        "count": 20,
+        "startDate": "2006-08-05T01:00",
+        "endDate": "2023-06-21T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "total": 331,
+                "wickets": 6,
+                "declared": false,
+                "location": "ICC Cricket Academy Ground, Dubai",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "total": 323,
+                "wickets": 5,
+                "declared": false,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "2011"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "C Campher",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "score": 120,
+                "notOut": false,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "name": "NFI McCallum",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "score": 121,
+                "notOut": true,
+                "location": "Willowmoore Park Main Oval, Benoni",
+                "seriesDate": "2008/09"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "JB Little",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "strikeRate": 400.0,
+                "runs": 4,
+                "balls": 1,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "name": "RD Berrington",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "strikeRate": 300.0,
+                "runs": 3,
+                "balls": 1,
+                "location": "Mannofield Park, Aberdeen",
+                "seriesDate": "2008"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "DT Johnston",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "strikeRate": 236.84,
+                "runs": 45,
+                "balls": 19,
+                "location": "Gymkhana Club Ground, Nairobi",
+                "seriesDate": "2006/07"
+            }
+        ],
+        [
+            {
+                "name": "RD Berrington",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "strikeRate": 243.48,
+                "runs": 56,
+                "balls": 23,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "2011"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "WTS Porterfield",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "strikeRate": 8.33,
+                "runs": 1,
+                "balls": 12,
+                "location": "Castle Avenue, Dublin",
+                "seriesDate": "2008"
+            }
+        ],
+        [
+            {
+                "name": "HG Munsey",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "strikeRate": 0.0,
+                "runs": 0,
+                "balls": 11,
+                "location": "ICC Cricket Academy Ground, Dubai",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "AR White",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "strikeRate": 9.52,
+                "runs": 2,
+                "balls": 21,
+                "location": "Sportpark Westvliet, Voorburg",
+                "seriesDate": "2010"
+            }
+        ],
+        [
+            {
+                "name": "DF Watts",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "strikeRate": 18.18,
+                "runs": 8,
+                "balls": 44,
+                "location": "Sportpark Westvliet, Voorburg",
+                "seriesDate": "2010"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "WTS Porterfield",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "boundaries": 12,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Willowmoore Park Main Oval, Benoni",
+                "seriesDate": "2008/09"
+            },
+            {
+                "name": "JF Mooney",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "boundaries": 12,
+                "fours": 0,
+                "sixes": 0,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2014"
+            }
+        ],
+        [
+            {
+                "name": "CS MacLeod",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "boundaries": 15,
+                "fours": 0,
+                "sixes": 0,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2014"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "PR Stirling",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "2011"
+            }
+        ],
+        [
+            {
+                "name": "RD Berrington",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "2011"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "PR Stirling",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "boundaries": 16,
+                "fours": 10,
+                "sixes": 6,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "2011"
+            }
+        ],
+        [
+            {
+                "name": "NFI McCallum",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "boundaries": 15,
+                "fours": 12,
+                "sixes": 3,
+                "location": "Willowmoore Park Main Oval, Benoni",
+                "seriesDate": "2008/09"
+            },
+            {
+                "name": "CS MacLeod",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "boundaries": 15,
+                "fours": 15,
+                "sixes": 0,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2014"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "CA Young",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "wickets": 5,
+                "runs": 46,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2014"
+            }
+        ],
+        [
+            {
+                "name": "B McMullen",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "wickets": 5,
+                "runs": 34,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "CA Young",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "wickets": 5,
+                "runs": 46,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2014"
+            }
+        ],
+        [
+            {
+                "name": "B McMullen",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "wickets": 5,
+                "runs": 34,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "NG Jones",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "overs": "2.5",
+                "balls": 17,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 20,
+                "sr": 8.5,
+                "location": "VRA Ground, Amstelveen",
+                "seriesDate": "2010"
+            }
+        ],
+        [
+            {
+                "name": "B McMullen",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "overs": "7",
+                "balls": 42,
+                "maidens": 1,
+                "wickets": 5,
+                "runs": 34,
+                "sr": 8.4,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "CA Young",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 0,
+                "wickets": 5,
+                "runs": 46,
+                "sr": 12.0,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2014"
+            }
+        ],
+        [
+            {
+                "name": "B McMullen",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "overs": "7",
+                "balls": 42,
+                "maidens": 1,
+                "wickets": 5,
+                "runs": 34,
+                "sr": 8.4,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "AR Cusack",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "overs": "5",
+                "balls": 30,
+                "maidens": 2,
+                "wickets": 0,
+                "runs": 3,
+                "sr": 0.6,
+                "location": "Mannofield Park, Aberdeen",
+                "seriesDate": "2009"
+            }
+        ],
+        [
+            {
+                "name": "RM Haq",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 2,
+                "wickets": 2,
+                "runs": 18,
+                "sr": 1.8,
+                "location": "Mannofield Park, Aberdeen",
+                "seriesDate": "2009"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "AR Cusack",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "overs": "5",
+                "balls": 30,
+                "maidens": 2,
+                "wickets": 0,
+                "runs": 3,
+                "sr": 0.6,
+                "location": "Mannofield Park, Aberdeen",
+                "seriesDate": "2009"
+            }
+        ],
+        [
+            {
+                "name": "RM Haq",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 2,
+                "wickets": 2,
+                "runs": 18,
+                "sr": 1.8,
+                "location": "Mannofield Park, Aberdeen",
+                "seriesDate": "2009"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "KJ O'Brien",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 12,
+                "sr": 12.0,
+                "location": "Harare Sports Club, Harare",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "name": "KJ Coetzer",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 31,
+                "sr": 10.33,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "2011"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "JF Mooney",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 26,
+                "sr": 8.67,
+                "location": "Gymkhana Club Ground, Nairobi",
+                "seriesDate": "2006/07"
+            },
+            {
+                "name": "PKD Chase",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "overs": "9",
+                "balls": 54,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 78,
+                "sr": 8.67,
+                "location": "ICC Cricket Academy Ground, Dubai",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "name": "KJ Coetzer",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 31,
+                "sr": 10.33,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "2011"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Scotland",
+                        "location": "Civil Service Cricket Club, Stormont, Belfast",
+                        "seriesDate": "2013",
+                        "partnership": 95,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WTS Porterfield",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PR Stirling",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Scotland",
+                        "location": "Willowmoore Park Main Oval, Benoni",
+                        "seriesDate": "2008/09",
+                        "partnership": 131,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "WTS Porterfield",
+                        "player1Score": 101,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "EJG Morgan",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Scotland",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2017/18",
+                        "partnership": 138,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "A Balbirnie",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "NJ O'Brien",
+                        "player2Score": 70,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Scotland",
+                        "location": "VRA Ground, Amstelveen",
+                        "seriesDate": "2010",
+                        "partnership": 160,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "KJ O'Brien",
+                        "player1Score": 98,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "AR White",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Scotland",
+                        "location": "Mannofield Park, Aberdeen",
+                        "seriesDate": "2008",
+                        "partnership": 65,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AR White",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RS Haire",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Scotland",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2023",
+                        "partnership": 136,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GH Dockrell",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "C Campher",
+                        "player2Score": 120,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Scotland",
+                        "location": "Gymkhana Club Ground, Nairobi",
+                        "seriesDate": "2006/07",
+                        "partnership": 65,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "DT Johnston",
+                        "player1Score": 45,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JP Bray",
+                        "player2Score": 116,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Scotland",
+                        "location": "Cambusdoon New Ground, Alloway",
+                        "seriesDate": "2006",
+                        "partnership": 73,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "EJG Morgan",
+                        "player1Score": 99,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "WK McCallan",
+                        "player2Score": 46,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Scotland",
+                        "location": "Mannofield Park, Aberdeen",
+                        "seriesDate": "2009",
+                        "partnership": 36,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RM West",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "AR Cusack",
+                        "player2Score": 13,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Scotland",
+                        "location": "Civil Service Cricket Club, Stormont, Belfast",
+                        "seriesDate": "2013",
+                        "partnership": 16,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "TJ Murtagh",
+                        "player1Score": 23,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "GH Dockrell",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "Ireland",
+                        "location": "VRA Ground, Amstelveen",
+                        "seriesDate": "2010",
+                        "partnership": 141,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DF Watts",
+                        "player1Score": 98,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PL Mommsen",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "Ireland",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2014",
+                        "partnership": 179,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CS MacLeod",
+                        "player1Score": 116,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "HJW Gardiner",
+                        "player2Score": 89,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "Ireland",
+                        "location": "Mannofield Park, Aberdeen",
+                        "seriesDate": "2008",
+                        "partnership": 122,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "GM Hamilton",
+                        "player1Score": 115,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CJO Smith",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "Ireland",
+                        "location": "Civil Service Cricket Club, Stormont, Belfast",
+                        "seriesDate": "2007",
+                        "partnership": 95,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RR Watson",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "NFI McCallum",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "Ireland",
+                        "location": "Raeburn Place, Edinburgh",
+                        "seriesDate": "2011",
+                        "partnership": 81,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JH Davey",
+                        "player1Score": 48,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "RD Berrington",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "Ireland",
+                        "location": "ICC Cricket Academy Ground, Dubai",
+                        "seriesDate": "2017/18",
+                        "partnership": 95,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "CS MacLeod",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "MA Leask",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "Ireland",
+                        "location": "Gymkhana Club Ground, Nairobi",
+                        "seriesDate": "2006/07",
+                        "partnership": 104,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "NFI McCallum",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CJO Smith",
+                        "player2Score": 49,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "Ireland",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2023",
+                        "partnership": 82,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "MRJ Watt",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "MA Leask",
+                        "player2Score": 91,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "Ireland",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2023",
+                        "partnership": 50,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "MA Leask",
+                        "player1Score": 91,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "SM Sharif",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "Ireland",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2017/18",
+                        "partnership": 38,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MRJ Watt",
+                        "player1Score": 31,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "BTJ Wheal",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "NJ O'Brien",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "matches": 12,
+                "runs": 480,
+                "innings": 11,
+                "notOuts": 3,
+                "average": 60.0,
+                "hs": "80*"
+            }
+        ],
+        [
+            {
+                "name": "CS MacLeod",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "matches": 12,
+                "runs": 348,
+                "innings": 10,
+                "notOuts": 1,
+                "average": 38.66,
+                "hs": "116*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GH Dockrell",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "matches": 9,
+                "balls": 432,
+                "maidens": 4,
+                "runs": 308,
+                "wickets": 13,
+                "bbruns": 24,
+                "bbwickets": 4,
+                "average": 23.69
+            }
+        ],
+        [
+            {
+                "name": "RM Haq",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "matches": 11,
+                "balls": 600,
+                "maidens": 6,
+                "runs": 442,
+                "wickets": 20,
+                "bbruns": 54,
+                "bbwickets": 5,
+                "average": 22.1
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "GC Wilson",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "matches": 12,
+                "dismissals": 11
+            }
+        ],
+        [
+            {
+                "name": "MH Cross",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "matches": 9,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "NJ O'Brien",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "matches": 12,
+                "dismissals": 4
+            },
+            {
+                "name": "GC Wilson",
+                "team": "Ireland",
+                "opponents": "Scotland",
+                "matches": 12,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "CJO Smith",
+                "team": "Scotland",
+                "opponents": "Ireland",
+                "matches": 6,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Ireland",
+                    "opponents": "Scotland",
+                    "total": 205,
+                    "wickets": 9,
+                    "declared": false,
+                    "location": "Mannofield Park, Aberdeen",
+                    "seriesDate": "2009"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Ireland",
+                    "opponents": "Scotland",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "ICC Cricket Academy Ground, Dubai",
+                    "seriesDate": "2014/15"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Scotland",
+                    "opponents": "Ireland",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Mannofield Park, Aberdeen",
+                    "seriesDate": "2009"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Scotland",
+                    "opponents": "Ireland",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Mannofield Park, Aberdeen",
+                    "seriesDate": "2009"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Scotland",
+                    "opponents": "Ireland",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "ICC Cricket Academy Ground, Dubai",
+                    "seriesDate": "2014/15"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:22:52.395152Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

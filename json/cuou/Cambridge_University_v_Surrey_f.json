@@ -1,0 +1,848 @@
+{
+    "team1": "Cambridge University",
+    "team2": "Surrey",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 123,
+        "startDate": "1865-06-15T00:00",
+        "endDate": "1992-05-15T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridge University",
+                "opponents": "Surrey",
+                "total": 572,
+                "wickets": 10,
+                "declared": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1930"
+            }
+        ],
+        [
+            {
+                "team": "Surrey",
+                "opponents": "Cambridge University",
+                "total": 594,
+                "wickets": 8,
+                "declared": true,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JL Bryan",
+                "team": "Cambridge University",
+                "opponents": "Surrey",
+                "score": 231,
+                "notOut": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1921"
+            }
+        ],
+        [
+            {
+                "name": "WW Read",
+                "team": "Surrey",
+                "opponents": "Cambridge University",
+                "score": 244,
+                "notOut": true,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1887"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "EM Dowson",
+                "team": "Cambridge University",
+                "opponents": "Surrey",
+                "wickets": 8,
+                "runs": 68,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1902"
+            }
+        ],
+        [
+            {
+                "name": "MP Bicknell",
+                "team": "Surrey",
+                "opponents": "Cambridge University",
+                "wickets": 9,
+                "runs": 45,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1988"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "HC McDonell",
+                "team": "Cambridge University",
+                "opponents": "Surrey",
+                "wickets": 15,
+                "runs": 138,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "WS Lees",
+                "team": "Surrey",
+                "opponents": "Cambridge University",
+                "wickets": 13,
+                "runs": 75,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1903"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1906",
+                        "partnership": 186,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MW Payne",
+                        "player1Score": 128,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RA Young",
+                        "player2Score": 103,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1921",
+                        "partnership": 163,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1868",
+                        "partnership": 207,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1923",
+                        "partnership": 142,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Surrey",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1905",
+                        "partnership": 205,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1921",
+                        "partnership": 245,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1930",
+                        "partnership": 257,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1934",
+                        "partnership": 138,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1879",
+                        "partnership": 85,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "IFW Bligh",
+                        "player1Score": 113,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "H Wood",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1872",
+                        "partnership": 59,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1980",
+                        "partnership": 266,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AR Butcher",
+                        "player1Score": 216,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "GS Clinton",
+                        "player2Score": 89,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1978",
+                        "partnership": 256,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "GP Howarth",
+                        "player1Score": 179,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "RDV Knight",
+                        "player2Score": 103,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Cambridge University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1895",
+                        "partnership": 306,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Cambridge University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1927",
+                        "partnership": 196,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Cambridge University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1923",
+                        "partnership": 262,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Cambridge University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1937",
+                        "partnership": 219,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Cambridge University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1886",
+                        "partnership": 162,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Cambridge University",
+                        "location": "Recreation Ground, Banstead",
+                        "seriesDate": "1984",
+                        "partnership": 189,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "NJ Falkner",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "KT Medlycott",
+                        "player2Score": 117,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1904",
+                        "partnership": 64,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Surrey",
+                        "opponents": "Cambridge University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1911",
+                        "partnership": 64,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "WA Spring",
+                        "player1Score": 72,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "JW Hitch",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Cambridge University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1894",
+                        "partnership": 75,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "W Brockwell",
+                        "player1Score": 51,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "C Marshall",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "MW Payne",
+                "team": "Cambridge University",
+                "opponents": "Surrey",
+                "matches": 7,
+                "runs": 538,
+                "innings": 14,
+                "notOuts": 1,
+                "average": 41.38,
+                "hs": "178"
+            }
+        ],
+        [
+            {
+                "name": "R Abel",
+                "team": "Surrey",
+                "opponents": "Cambridge University",
+                "matches": 23,
+                "runs": 1243,
+                "innings": 36,
+                "notOuts": 3,
+                "average": 37.66,
+                "hs": "165"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GG Napier",
+                "team": "Cambridge University",
+                "opponents": "Surrey",
+                "matches": 7,
+                "balls": 1855,
+                "maidens": 68,
+                "runs": 896,
+                "wickets": 44,
+                "bbruns": 111,
+                "bbwickets": 8,
+                "average": 20.36
+            }
+        ],
+        [
+            {
+                "name": "GAR Lock",
+                "team": "Surrey",
+                "opponents": "Cambridge University",
+                "matches": 14,
+                "balls": 3989,
+                "maidens": 258,
+                "runs": 1290,
+                "wickets": 92,
+                "bbruns": 53,
+                "bbwickets": 7,
+                "average": 14.02
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "ER Wilson",
+                "team": "Cambridge University",
+                "opponents": "Surrey",
+                "matches": 7,
+                "dismissals": 14
+            }
+        ],
+        [
+            {
+                "name": "EW Pooley",
+                "team": "Surrey",
+                "opponents": "Cambridge University",
+                "matches": 20,
+                "dismissals": 32
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "NB Sherwell",
+                "team": "Cambridge University",
+                "opponents": "Surrey",
+                "matches": 3,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "EW Pooley",
+                "team": "Surrey",
+                "opponents": "Cambridge University",
+                "matches": 20,
+                "dismissals": 14
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Surrey",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1873"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Surrey",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1873"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Surrey",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1979"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Surrey",
+                    "opponents": "Cambridge University",
+                    "total": 40,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1876"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Surrey",
+                    "opponents": "Cambridge University",
+                    "total": 40,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1876"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Surrey",
+                    "opponents": "Cambridge University",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1876"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:00.688848Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

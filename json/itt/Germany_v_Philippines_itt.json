@@ -1,0 +1,936 @@
+{
+    "team1": "Germany",
+    "team2": "Philippines",
+    "competitionTitle": "International T20",
+    "competitionSubType": "itt",
+    "matchDto": {
+        "count": 1,
+        "startDate": "2022-02-24T00:00",
+        "endDate": "2022-02-24T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Germany",
+                "opponents": "Philippines",
+                "total": 115,
+                "wickets": 1,
+                "declared": false,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "team": "Philippines",
+                "opponents": "Germany",
+                "total": 109,
+                "wickets": 8,
+                "declared": false,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "MJ Richardson",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "score": 59,
+                "notOut": true,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "DC Smith",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "score": 35,
+                "notOut": false,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "J Broad",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "strikeRate": 151.52,
+                "runs": 50,
+                "balls": 33,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "GR Russ",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "strikeRate": 166.67,
+                "runs": 5,
+                "balls": 3,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "J Broad",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "strikeRate": 151.52,
+                "runs": 50,
+                "balls": 33,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "DC Smith",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "strikeRate": 152.17,
+                "runs": 35,
+                "balls": 23,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "MJ Richardson",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "strikeRate": 140.48,
+                "runs": 59,
+                "balls": 42,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "J Alegra",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "strikeRate": 42.86,
+                "runs": 6,
+                "balls": 14,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "MJ Richardson",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "strikeRate": 140.48,
+                "runs": 59,
+                "balls": 42,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "Huzaifa Mohammed",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "strikeRate": 52.38,
+                "runs": 11,
+                "balls": 21,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "J Broad",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "DC Smith",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "boundaries": 4,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "MJ Richardson",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "boundaries": 2,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "JC Podosky",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            },
+            {
+                "name": "DC Smith",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "J Broad",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "boundaries": 7,
+                "fours": 6,
+                "sixes": 1,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "DC Smith",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "boundaries": 5,
+                "fours": 4,
+                "sixes": 1,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "SVE Bharathi",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "wickets": 4,
+                "runs": 6,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "Huzaifa Mohammed",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "wickets": 1,
+                "runs": 21,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "SVE Bharathi",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "wickets": 4,
+                "runs": 6,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "Huzaifa Mohammed",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "wickets": 1,
+                "runs": 21,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "SVE Bharathi",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 6,
+                "sr": 6.0,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "Huzaifa Mohammed",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 21,
+                "sr": 24.0,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "SVE Bharathi",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 6,
+                "sr": 6.0,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "Huzaifa Mohammed",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 21,
+                "sr": 24.0,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "SVE Bharathi",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 6,
+                "sr": 1.5,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "Huzaifa Mohammed",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 21,
+                "sr": 5.25,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "SVE Bharathi",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 6,
+                "sr": 1.5,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "Huzaifa Mohammed",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 21,
+                "sr": 5.25,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "Ghulam Ahmadi",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 0,
+                "runs": 33,
+                "sr": 8.25,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "HER Tyler",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 26,
+                "sr": 13.0,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "Ghulam Ahmadi",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 0,
+                "runs": 33,
+                "sr": 8.25,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "JC Podosky",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 27,
+                "sr": 6.75,
+                "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Germany",
+                        "opponents": "Philippines",
+                        "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 1,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "J Broad",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "Talha Khan",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Germany",
+                        "opponents": "Philippines",
+                        "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 114,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "J Broad",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "MJ Richardson",
+                        "player2Score": 59,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Philippines",
+                        "opponents": "Germany",
+                        "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 56,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DC Smith",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HER Tyler",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Philippines",
+                        "opponents": "Germany",
+                        "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 7,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "HER Tyler",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "MP Biddappa",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Philippines",
+                        "opponents": "Germany",
+                        "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 0,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "HER Tyler",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "S Mohan",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Philippines",
+                        "opponents": "Germany",
+                        "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 2,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "HER Tyler",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "J Alegra",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Philippines",
+                        "opponents": "Germany",
+                        "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 3,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "J Alegra",
+                        "player1Score": 6,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "J Hill",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Philippines",
+                        "opponents": "Germany",
+                        "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 4,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "J Alegra",
+                        "player1Score": 6,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "Huzaifa Mohammed",
+                        "player2Score": 11,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Philippines",
+                        "opponents": "Germany",
+                        "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 27,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Huzaifa Mohammed",
+                        "player1Score": 11,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "JC Podosky",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Philippines",
+                        "opponents": "Germany",
+                        "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 5,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Huzaifa Mohammed",
+                        "player1Score": 11,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "R Goodwin",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Philippines",
+                        "opponents": "Germany",
+                        "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 5,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "Huzaifa Mohammed",
+                        "player1Score": 11,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "GR Russ",
+                        "player2Score": 5,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "MJ Richardson",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "matches": 1,
+                "runs": 59,
+                "innings": 1,
+                "notOuts": 1,
+                "average": 0.0,
+                "hs": "59*"
+            }
+        ],
+        [
+            {
+                "name": "DC Smith",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "matches": 1,
+                "runs": 35,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 35.0,
+                "hs": "35"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "SVE Bharathi",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 0,
+                "runs": 6,
+                "wickets": 4,
+                "bbruns": 6,
+                "bbwickets": 4,
+                "average": 1.5
+            }
+        ],
+        [
+            {
+                "name": "Huzaifa Mohammed",
+                "team": "Philippines",
+                "opponents": "Germany",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 0,
+                "runs": 21,
+                "wickets": 1,
+                "bbruns": 21,
+                "bbwickets": 1,
+                "average": 21.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "MJ Richardson",
+                "team": "Germany",
+                "opponents": "Philippines",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Germany",
+                    "opponents": "Philippines",
+                    "total": 115,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                    "seriesDate": "2021/22"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Philippines",
+                    "opponents": "Germany",
+                    "total": 109,
+                    "wickets": 8,
+                    "declared": false,
+                    "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                    "seriesDate": "2021/22"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Philippines",
+                    "opponents": "Germany",
+                    "total": 109,
+                    "wickets": 8,
+                    "declared": false,
+                    "location": "Al Amerat Cricket Ground Turf 2, Al Amerat",
+                    "seriesDate": "2021/22"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:20:08.871343Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

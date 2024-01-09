@@ -1,0 +1,831 @@
+{
+    "team1": "Durham",
+    "team2": "Oxfordshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 1,
+        "startDate": "1926-09-06T01:00",
+        "endDate": "1926-09-06T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Durham",
+                "opponents": "Oxfordshire",
+                "total": 334,
+                "wickets": 10,
+                "declared": false,
+                "location": "Ashbrooke, Sunderland",
+                "seriesDate": "1926"
+            }
+        ],
+        [
+            {
+                "team": "Oxfordshire",
+                "opponents": "Durham",
+                "total": 184,
+                "wickets": 10,
+                "declared": false,
+                "location": "Ashbrooke, Sunderland",
+                "seriesDate": "1926"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "TK Dobson",
+                "team": "Durham",
+                "opponents": "Oxfordshire",
+                "score": 82,
+                "notOut": false,
+                "location": "Ashbrooke, Sunderland",
+                "seriesDate": "1926"
+            }
+        ],
+        [
+            {
+                "name": "RP Thomas",
+                "team": "Oxfordshire",
+                "opponents": "Durham",
+                "score": 44,
+                "notOut": false,
+                "location": "Ashbrooke, Sunderland",
+                "seriesDate": "1926"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "J Carr",
+                "team": "Durham",
+                "opponents": "Oxfordshire",
+                "wickets": 5,
+                "runs": 43,
+                "location": "Ashbrooke, Sunderland",
+                "seriesDate": "1926"
+            }
+        ],
+        [
+            {
+                "name": "JA Howells",
+                "team": "Oxfordshire",
+                "opponents": "Durham",
+                "wickets": 5,
+                "runs": 77,
+                "location": "Ashbrooke, Sunderland",
+                "seriesDate": "1926"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "J Carr",
+                "team": "Durham",
+                "opponents": "Oxfordshire",
+                "wickets": 7,
+                "runs": 82,
+                "location": "Ashbrooke, Sunderland",
+                "seriesDate": "1926"
+            }
+        ],
+        [
+            {
+                "name": "JA Howells",
+                "team": "Oxfordshire",
+                "opponents": "Durham",
+                "wickets": 5,
+                "runs": 89,
+                "location": "Ashbrooke, Sunderland",
+                "seriesDate": "1926"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Oxfordshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 21,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "HC Ferens",
+                        "player1Score": 10,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "LH Weight",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Oxfordshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 30,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "LH Weight",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "M Nichol",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Oxfordshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 57,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "M Nichol",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "J Kelsall",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Oxfordshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 14,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "H Brooks",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Oxfordshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 131,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "H Brooks",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "TK Dobson",
+                        "player2Score": 82,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Oxfordshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 30,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "H Brooks",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "J Carr",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Oxfordshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 44,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "H Brooks",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CL Adamson",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Oxfordshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 10,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "H Gibbon",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Oxfordshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 1,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AL Howell",
+                        "player1Score": 6,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Oxfordshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 9,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JW Cook",
+                        "player1Score": 3,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Durham",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 33,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WG Sturges",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "H Walker",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Durham",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 34,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JL Rogers",
+                        "player1Score": 29,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Durham",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 16,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "WG Sturges",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NN Nethersole",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Durham",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 31,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "WG Sturges",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JL Rogers",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Durham",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 59,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "WG Sturges",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "C Walters",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Durham",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 25,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "C Walters",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "EJ Cotton",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Durham",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 55,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "C Walters",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "RP Thomas",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Durham",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 3,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JA Howells",
+                        "player1Score": 6,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Durham",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 21,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "BJ Henry",
+                        "player1Score": 16,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Durham",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1926",
+                        "partnership": 6,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JA Howells",
+                        "player1Score": 3,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "AF Alington",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "TK Dobson",
+                "team": "Durham",
+                "opponents": "Oxfordshire",
+                "matches": 1,
+                "runs": 82,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 82.0,
+                "hs": "82"
+            }
+        ],
+        [
+            {
+                "name": "RP Thomas",
+                "team": "Oxfordshire",
+                "opponents": "Durham",
+                "matches": 1,
+                "runs": 69,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 34.5,
+                "hs": "44"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "J Carr",
+                "team": "Durham",
+                "opponents": "Oxfordshire",
+                "matches": 1,
+                "balls": 150,
+                "maidens": 3,
+                "runs": 82,
+                "wickets": 7,
+                "bbruns": 43,
+                "bbwickets": 5,
+                "average": 11.71
+            },
+            {
+                "name": "TK Dobson",
+                "team": "Durham",
+                "opponents": "Oxfordshire",
+                "matches": 1,
+                "balls": 241,
+                "maidens": 13,
+                "runs": 112,
+                "wickets": 7,
+                "bbruns": 48,
+                "bbwickets": 4,
+                "average": 16.0
+            }
+        ],
+        [
+            {
+                "name": "JA Howells",
+                "team": "Oxfordshire",
+                "opponents": "Durham",
+                "matches": 1,
+                "balls": 182,
+                "maidens": 6,
+                "runs": 89,
+                "wickets": 5,
+                "bbruns": 77,
+                "bbwickets": 5,
+                "average": 17.8
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JW Cook",
+                "team": "Durham",
+                "opponents": "Oxfordshire",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "H Walker",
+                "team": "Oxfordshire",
+                "opponents": "Durham",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Durham",
+                    "opponents": "Oxfordshire",
+                    "total": 334,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ashbrooke, Sunderland",
+                    "seriesDate": "1926"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Oxfordshire",
+                    "total": 334,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ashbrooke, Sunderland",
+                    "seriesDate": "1926"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Oxfordshire",
+                    "total": 21,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Ashbrooke, Sunderland",
+                    "seriesDate": "1926"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Durham",
+                    "total": 168,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ashbrooke, Sunderland",
+                    "seriesDate": "1926"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Durham",
+                    "total": 168,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ashbrooke, Sunderland",
+                    "seriesDate": "1926"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Durham",
+                    "total": 168,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ashbrooke, Sunderland",
+                    "seriesDate": "1926"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:08.949357Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

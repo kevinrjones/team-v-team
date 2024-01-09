@@ -1,0 +1,889 @@
+{
+    "team1": "Ireland",
+    "team2": "Marylebone Cricket Club",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 15,
+        "startDate": "1902-05-22T00:00",
+        "endDate": "1968-09-07T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "total": 296,
+                "wickets": 10,
+                "declared": false,
+                "location": "Observatory Lane, Rathmines, Dublin",
+                "seriesDate": "1936"
+            }
+        ],
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Ireland",
+                "total": 295,
+                "wickets": 10,
+                "declared": false,
+                "location": "College Park, Dublin",
+                "seriesDate": "1928"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "J MacDonald",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "score": 108,
+                "notOut": true,
+                "location": "Observatory Lane, Rathmines, Dublin",
+                "seriesDate": "1936"
+            }
+        ],
+        [
+            {
+                "name": "RC Blunt",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Ireland",
+                "score": 141,
+                "notOut": false,
+                "location": "College Park, Dublin",
+                "seriesDate": "1934"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "SSJ Huey",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 8,
+                "runs": 48,
+                "location": "College Park, Dublin",
+                "seriesDate": "1954"
+            }
+        ],
+        [
+            {
+                "name": "JA Bailey",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Ireland",
+                "wickets": 8,
+                "runs": 24,
+                "location": "Castle Avenue, Dublin",
+                "seriesDate": "1966"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "SSJ Huey",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 14,
+                "runs": 97,
+                "location": "College Park, Dublin",
+                "seriesDate": "1954"
+            }
+        ],
+        [
+            {
+                "name": "JA Bailey",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Ireland",
+                "wickets": 13,
+                "runs": 57,
+                "location": "Castle Avenue, Dublin",
+                "seriesDate": "1966"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Castle Avenue, Dublin",
+                        "seriesDate": "1968",
+                        "partnership": 64,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DR Pigot",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RM Ridley",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Observatory Lane, Rathmines, Dublin",
+                        "seriesDate": "1948",
+                        "partnership": 80,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "College Park, Dublin",
+                        "seriesDate": "1961",
+                        "partnership": 90,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "College Park, Dublin",
+                        "seriesDate": "1934",
+                        "partnership": 57,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Observatory Lane, Rathmines, Dublin",
+                        "seriesDate": "1948",
+                        "partnership": 64,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "College Park, Dublin",
+                        "seriesDate": "1952",
+                        "partnership": 66,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "College Park, Dublin",
+                        "seriesDate": "1934",
+                        "partnership": 57,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Observatory Lane, Rathmines, Dublin",
+                        "seriesDate": "1936",
+                        "partnership": 60,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Observatory Lane, Rathmines, Dublin",
+                        "seriesDate": "1936",
+                        "partnership": 83,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Castle Avenue, Dublin",
+                        "seriesDate": "1968",
+                        "partnership": 34,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "IJ Anderson",
+                        "player1Score": 24,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "DE Goodwin",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1902",
+                        "partnership": 71,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WG Grace",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WL Murdoch",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Ireland",
+                        "location": "Castle Avenue, Dublin",
+                        "seriesDate": "1968",
+                        "partnership": 105,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Ireland",
+                        "location": "College Park, Dublin",
+                        "seriesDate": "1958",
+                        "partnership": 71,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Ireland",
+                        "location": "College Park, Dublin",
+                        "seriesDate": "1950",
+                        "partnership": 173,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "WR Hammond",
+                        "player1Score": 92,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "ERT Holmes",
+                        "player2Score": 32,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Ireland",
+                        "location": "Observatory Lane, Rathmines, Dublin",
+                        "seriesDate": "1936",
+                        "partnership": 55,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Ireland",
+                        "location": "College Park, Dublin",
+                        "seriesDate": "1961",
+                        "partnership": 32,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Ireland",
+                        "location": "College Park, Dublin",
+                        "seriesDate": "1934",
+                        "partnership": 151,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Ireland",
+                        "location": "College Park, Dublin",
+                        "seriesDate": "1954",
+                        "partnership": 46,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Ireland",
+                        "location": "Observatory Lane, Rathmines, Dublin",
+                        "seriesDate": "1936",
+                        "partnership": 36,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Ireland",
+                        "location": "College Park, Dublin",
+                        "seriesDate": "1950",
+                        "partnership": 36,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Ireland",
+                        "location": "Observatory Lane, Rathmines, Dublin",
+                        "seriesDate": "1948",
+                        "partnership": 43,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "SF Bergin",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 6,
+                "runs": 325,
+                "innings": 12,
+                "notOuts": 1,
+                "average": 29.54,
+                "hs": "71"
+            }
+        ],
+        [
+            {
+                "name": "RA Gale",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Ireland",
+                "matches": 3,
+                "runs": 222,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 55.5,
+                "hs": "113"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JC Boucher",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 5,
+                "balls": 922,
+                "maidens": 35,
+                "runs": 415,
+                "wickets": 29,
+                "bbruns": 87,
+                "bbwickets": 7,
+                "average": 14.31
+            },
+            {
+                "name": "SSJ Huey",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 8,
+                "balls": 1321,
+                "maidens": 58,
+                "runs": 498,
+                "wickets": 29,
+                "bbruns": 48,
+                "bbwickets": 8,
+                "average": 17.17
+            }
+        ],
+        [
+            {
+                "name": "GH Chesterton",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Ireland",
+                "matches": 9,
+                "balls": 1512,
+                "maidens": 116,
+                "runs": 386,
+                "wickets": 40,
+                "bbruns": 14,
+                "bbwickets": 7,
+                "average": 9.65
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "OD Colhoun",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 5,
+                "dismissals": 9
+            },
+            {
+                "name": "JS Pollock",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 5,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "DE Blake",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Ireland",
+                "matches": 5,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "OD Colhoun",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 5,
+                "dismissals": 1
+            },
+            {
+                "name": "CR Cuffe",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "GW Fawcett",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "FJ Miller",
+                "team": "Ireland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "DE Blake",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Ireland",
+                "matches": 5,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Ireland",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "College Park, Dublin",
+                    "seriesDate": "1956"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Ireland",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "College Park, Dublin",
+                    "seriesDate": "1956"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Ireland",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 6,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "College Park, Dublin",
+                    "seriesDate": "1952"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Ireland",
+                    "total": 67,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Castle Avenue, Dublin",
+                    "seriesDate": "1966"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Ireland",
+                    "total": 67,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Castle Avenue, Dublin",
+                    "seriesDate": "1966"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Ireland",
+                    "total": 31,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "College Park, Dublin",
+                    "seriesDate": "1928"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:52.245152Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,928 @@
+{
+    "team1": "Oxford University",
+    "team2": "Essex",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 18,
+        "startDate": "1894-07-05T00:00",
+        "endDate": "1999-06-15T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Oxford University",
+                "opponents": "Essex",
+                "total": 344,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Chelmsford",
+                "seriesDate": "1925"
+            }
+        ],
+        [
+            {
+                "team": "Essex",
+                "opponents": "Oxford University",
+                "total": 414,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Chelmsford",
+                "seriesDate": "1927"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AM Crawley",
+                "team": "Oxford University",
+                "opponents": "Essex",
+                "score": 167,
+                "notOut": false,
+                "location": "Garrison A Cricket Ground, Colchester",
+                "seriesDate": "1928"
+            }
+        ],
+        [
+            {
+                "name": "J O'Connor",
+                "team": "Essex",
+                "opponents": "Oxford University",
+                "score": 157,
+                "notOut": false,
+                "location": "Garrison A Cricket Ground, Colchester",
+                "seriesDate": "1928"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "R Bowman",
+                "team": "Oxford University",
+                "opponents": "Essex",
+                "wickets": 7,
+                "runs": 60,
+                "location": "Chalkwell Park, Westcliff-on-Sea",
+                "seriesDate": "1957"
+            }
+        ],
+        [
+            {
+                "name": "W Mead",
+                "team": "Essex",
+                "opponents": "Oxford University",
+                "wickets": 7,
+                "runs": 60,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1898"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JD Martin",
+                "team": "Oxford University",
+                "opponents": "Essex",
+                "wickets": 9,
+                "runs": 70,
+                "location": "Gidea Park Sports Ground, Romford",
+                "seriesDate": "1965"
+            }
+        ],
+        [
+            {
+                "name": "W Mead",
+                "team": "Essex",
+                "opponents": "Oxford University",
+                "wickets": 13,
+                "runs": 125,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1898"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Essex",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1962",
+                        "partnership": 122,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CS Warner",
+                        "player1Score": 77,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "E Marsh",
+                        "player2Score": 49,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Essex",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1927",
+                        "partnership": 120,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 153,
+                        "wicket": 2,
+                        "playerDetails": [
+                            {
+                                "team": "Oxford University",
+                                "opponents": "Essex",
+                                "location": "County Ground, Chelmsford",
+                                "seriesDate": "1999",
+                                "partnership": 109,
+                                "wicket": 2,
+                                "undefeated": false,
+                                "player1Name": "JH Louw",
+                                "player1Score": 82,
+                                "player1NotOut": false,
+                                "player1Position": 1,
+                                "player2Name": "NW Ashley",
+                                "player2Score": 59,
+                                "player2NotOut": false,
+                                "player2Position": 4
+                            },
+                            {
+                                "team": "Oxford University",
+                                "opponents": "Essex",
+                                "location": "County Ground, Chelmsford",
+                                "seriesDate": "1999",
+                                "partnership": 44,
+                                "wicket": 2,
+                                "undefeated": true,
+                                "player1Name": "JH Louw",
+                                "player1Score": 82,
+                                "player1NotOut": false,
+                                "player1Position": 1,
+                                "player2Name": "JA Claughton",
+                                "player2Score": 11,
+                                "player2NotOut": true,
+                                "player2Position": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Essex",
+                        "location": "Old County Ground, Brentwood",
+                        "seriesDate": "1960",
+                        "partnership": 203,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Essex",
+                        "location": "County Ground, Leyton",
+                        "seriesDate": "1894",
+                        "partnership": 106,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Essex",
+                        "location": "Garrison A Cricket Ground, Colchester",
+                        "seriesDate": "1928",
+                        "partnership": 116,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Essex",
+                        "location": "Old County Ground, Brentwood",
+                        "seriesDate": "1960",
+                        "partnership": 116,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "Javed Burki",
+                        "player1Score": 144,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "CA Fry",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Essex",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1920",
+                        "partnership": 186,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "LP Hedges",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "GTS Stevens",
+                        "player2Score": 92,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Essex",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1964",
+                        "partnership": 76,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Essex",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1925",
+                        "partnership": 124,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Essex",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1966",
+                        "partnership": 124,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "R Hiller",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "AGM Watson",
+                        "player2Score": 65,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Essex",
+                        "location": "Chalkwell Park, Westcliff-on-Sea",
+                        "seriesDate": "1957",
+                        "partnership": 64,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Oxford University",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1999",
+                        "partnership": 111,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DDJ Robinson",
+                        "player1Score": 53,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "IN Flanagan",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Oxford University",
+                        "location": "County Ground, Leyton",
+                        "seriesDate": "1894",
+                        "partnership": 153,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "HA Carpenter",
+                        "player1Score": 60,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "HGP Owen",
+                        "player2Score": 86,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Oxford University",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1927",
+                        "partnership": 123,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1962",
+                        "partnership": 87,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Oxford University",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1925",
+                        "partnership": 200,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Oxford University",
+                        "location": "Garrison A Cricket Ground, Colchester",
+                        "seriesDate": "1928",
+                        "partnership": 109,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1962",
+                        "partnership": 110,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "WT Greensmith",
+                        "player1Score": 78,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "BEA Edmeades",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Oxford University",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1925",
+                        "partnership": 53,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1959",
+                        "partnership": 70,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Oxford University",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1927",
+                        "partnership": 44,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Javed Burki",
+                "team": "Oxford University",
+                "opponents": "Essex",
+                "matches": 2,
+                "runs": 267,
+                "innings": 4,
+                "notOuts": 2,
+                "average": 133.5,
+                "hs": "144*"
+            }
+        ],
+        [
+            {
+                "name": "MJ Bear",
+                "team": "Essex",
+                "opponents": "Oxford University",
+                "matches": 7,
+                "runs": 403,
+                "innings": 12,
+                "notOuts": 1,
+                "average": 36.63,
+                "hs": "96"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JD Martin",
+                "team": "Oxford University",
+                "opponents": "Essex",
+                "matches": 1,
+                "balls": 273,
+                "maidens": 18,
+                "runs": 70,
+                "wickets": 9,
+                "bbruns": 22,
+                "bbwickets": 5,
+                "average": 7.77
+            },
+            {
+                "name": "DM Sayer",
+                "team": "Oxford University",
+                "opponents": "Essex",
+                "matches": 2,
+                "balls": 485,
+                "maidens": 20,
+                "runs": 216,
+                "wickets": 9,
+                "bbruns": 39,
+                "bbwickets": 3,
+                "average": 24.0
+            }
+        ],
+        [
+            {
+                "name": "RNS Hobbs",
+                "team": "Essex",
+                "opponents": "Oxford University",
+                "matches": 4,
+                "balls": 977,
+                "maidens": 55,
+                "runs": 306,
+                "wickets": 26,
+                "bbruns": 57,
+                "bbwickets": 6,
+                "average": 11.76
+            },
+            {
+                "name": "W Mead",
+                "team": "Essex",
+                "opponents": "Oxford University",
+                "matches": 2,
+                "balls": 596,
+                "maidens": 38,
+                "runs": 261,
+                "wickets": 26,
+                "bbruns": 60,
+                "bbwickets": 7,
+                "average": 10.03
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "PJK Gibbs",
+                "team": "Oxford University",
+                "opponents": "Essex",
+                "matches": 2,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "KWR Fletcher",
+                "team": "Essex",
+                "opponents": "Oxford University",
+                "matches": 4,
+                "dismissals": 8
+            },
+            {
+                "name": "B Taylor",
+                "team": "Essex",
+                "opponents": "Oxford University",
+                "matches": 5,
+                "dismissals": 8
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "PC Oldfield",
+                "team": "Oxford University",
+                "opponents": "Essex",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "AC Smith",
+                "team": "Oxford University",
+                "opponents": "Essex",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "TM Russell",
+                "team": "Essex",
+                "opponents": "Oxford University",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Essex",
+                    "total": 89,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1972"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Essex",
+                    "total": 89,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1972"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Essex",
+                    "total": 63,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1964"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Essex",
+                    "opponents": "Oxford University",
+                    "total": 127,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Chalkwell Park, Westcliff-on-Sea",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Essex",
+                    "opponents": "Oxford University",
+                    "total": 127,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Chalkwell Park, Westcliff-on-Sea",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Essex",
+                    "opponents": "Oxford University",
+                    "total": 34,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "County Ground, Chelmsford",
+                    "seriesDate": "1997"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:19.906738Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

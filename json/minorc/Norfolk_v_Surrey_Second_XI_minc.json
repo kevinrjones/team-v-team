@@ -1,0 +1,867 @@
+{
+    "team1": "Norfolk",
+    "team2": "Surrey Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 29,
+        "startDate": "1901-07-29T00:00",
+        "endDate": "1955-08-05T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Stephen Musk"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Norfolk",
+                "opponents": "Surrey Second XI",
+                "total": 399,
+                "wickets": 10,
+                "declared": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1928"
+            }
+        ],
+        [
+            {
+                "team": "Surrey Second XI",
+                "opponents": "Norfolk",
+                "total": 550,
+                "wickets": 5,
+                "declared": true,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1925"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "M Falcon",
+                "team": "Norfolk",
+                "opponents": "Surrey Second XI",
+                "score": 148,
+                "notOut": false,
+                "location": "Recreation Ground, Hunstanton",
+                "seriesDate": "1924"
+            }
+        ],
+        [
+            {
+                "name": "B Constable",
+                "team": "Surrey Second XI",
+                "opponents": "Norfolk",
+                "score": 249,
+                "notOut": true,
+                "location": "Woodbridge Road, Guildford",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "M Falcon",
+                "team": "Norfolk",
+                "opponents": "Surrey Second XI",
+                "wickets": 7,
+                "runs": 37,
+                "location": "Recreation Ground, Hunstanton",
+                "seriesDate": "1924"
+            }
+        ],
+        [
+            {
+                "name": "EHL Nice",
+                "team": "Surrey Second XI",
+                "opponents": "Norfolk",
+                "wickets": 8,
+                "runs": 15,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1901"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "M Falcon",
+                "team": "Norfolk",
+                "opponents": "Surrey Second XI",
+                "wickets": 11,
+                "runs": 78,
+                "location": "Recreation Ground, Hunstanton",
+                "seriesDate": "1924"
+            }
+        ],
+        [
+            {
+                "name": "AF Pilkington",
+                "team": "Surrey Second XI",
+                "opponents": "Norfolk",
+                "wickets": 12,
+                "runs": 121,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1926"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1925",
+                        "partnership": 132,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GRR Colman",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JE Nichols",
+                        "player2Score": 91,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Surrey Second XI",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1949",
+                        "partnership": 65,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "PG Powell",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "G Mitchell",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1928",
+                        "partnership": 213,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "HF Low",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "M Falcon",
+                        "player2Score": 115,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Surrey Second XI",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1949",
+                        "partnership": 120,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "BA Clements",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "EH Edrich",
+                        "player2Score": 73,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Surrey Second XI",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1922",
+                        "partnership": 66,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JE Nichols",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AR Hudson",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    },
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1948",
+                        "partnership": 66,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "BJH Wood",
+                        "player1Score": 15,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "TL Brayne",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Surrey Second XI",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1955",
+                        "partnership": 98,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "ME Thorne",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CSR Boswell",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1955",
+                        "partnership": 76,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "CSR Boswell",
+                        "player1Score": 94,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "BGW Stevens",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Surrey Second XI",
+                        "location": "Woodbridge Road, Guildford",
+                        "seriesDate": "1949",
+                        "partnership": 60,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "BA Clements",
+                        "player1Score": 94,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "DD Carter",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1901",
+                        "partnership": 44,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "WLB Hayter",
+                        "player1Score": 81,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "C Shore",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Surrey Second XI",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1929",
+                        "partnership": 21,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "RH Gladden",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "AG Utting",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1901",
+                        "partnership": 100,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JE Raphael",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "A Baker",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Norfolk",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1925",
+                        "partnership": 116,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CE Daily",
+                        "player1Score": 177,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "GF Summers",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Norfolk",
+                        "location": "Woodbridge Road, Guildford",
+                        "seriesDate": "1949",
+                        "partnership": 241,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "B Constable",
+                        "player1Score": 249,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "EA Watts",
+                        "player2Score": 111,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Norfolk",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1955",
+                        "partnership": 80,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "ABD Parsons",
+                        "player1Score": 60,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RAE Tindall",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1949",
+                        "partnership": 81,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AF Brazier",
+                        "player1Score": 127,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DF Cox",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Norfolk",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1901",
+                        "partnership": 245,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "ACE von Ernsthausen",
+                        "player1Score": 90,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "FC Holland",
+                        "player2Score": 207,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Norfolk",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1947",
+                        "partnership": 57,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "WS Surridge",
+                        "player1Score": 46,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "RR Blades",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1947",
+                        "partnership": 49,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "GS Mobey",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "JWJ McMahon",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Norfolk",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1947",
+                        "partnership": 55,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JWJ McMahon",
+                        "player1Score": 31,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Norfolk",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1947",
+                        "partnership": 100,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JWJ McMahon",
+                        "player1Score": 31,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "GAR Lock",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "M Falcon",
+                "team": "Norfolk",
+                "opponents": "Surrey Second XI",
+                "matches": 19,
+                "runs": 997,
+                "innings": 30,
+                "notOuts": 1,
+                "average": 34.37,
+                "hs": "148"
+            }
+        ],
+        [
+            {
+                "name": "CE Daily",
+                "team": "Surrey Second XI",
+                "opponents": "Norfolk",
+                "matches": 13,
+                "runs": 875,
+                "innings": 22,
+                "notOuts": 3,
+                "average": 46.05,
+                "hs": "177"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "M Falcon",
+                "team": "Norfolk",
+                "opponents": "Surrey Second XI",
+                "matches": 19,
+                "balls": 2411,
+                "maidens": 74,
+                "runs": 1212,
+                "wickets": 61,
+                "bbruns": 37,
+                "bbwickets": 7,
+                "average": 19.86
+            }
+        ],
+        [
+            {
+                "name": "ACT Geary",
+                "team": "Surrey Second XI",
+                "opponents": "Norfolk",
+                "matches": 10,
+                "balls": 2196,
+                "maidens": 84,
+                "runs": 870,
+                "wickets": 47,
+                "bbruns": 62,
+                "bbwickets": 7,
+                "average": 18.51
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JE Nichols",
+                "team": "Norfolk",
+                "opponents": "Surrey Second XI",
+                "matches": 17,
+                "dismissals": 16
+            }
+        ],
+        [
+            {
+                "name": "GS Mobey",
+                "team": "Surrey Second XI",
+                "opponents": "Norfolk",
+                "matches": 7,
+                "dismissals": 15
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JH Bally",
+                "team": "Norfolk",
+                "opponents": "Surrey Second XI",
+                "matches": 8,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "GNG Kirby",
+                "team": "Surrey Second XI",
+                "opponents": "Norfolk",
+                "matches": 5,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Surrey Second XI",
+                    "total": 39,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1930"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Surrey Second XI",
+                    "total": 39,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1930"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Surrey Second XI",
+                    "total": 16,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1927"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Surrey Second XI",
+                    "opponents": "Norfolk",
+                    "total": 74,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1924"
+                },
+                {
+                    "team": "Surrey Second XI",
+                    "opponents": "Norfolk",
+                    "total": 74,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1929"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Surrey Second XI",
+                    "opponents": "Norfolk",
+                    "total": 74,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1924"
+                },
+                {
+                    "team": "Surrey Second XI",
+                    "opponents": "Norfolk",
+                    "total": 74,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1929"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Surrey Second XI",
+                    "opponents": "Norfolk",
+                    "total": 23,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1924"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:10:41.886748Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,854 @@
+{
+    "team1": "England",
+    "team2": "Ireland",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 2,
+        "startDate": "2019-07-24T01:00",
+        "endDate": "2023-06-01T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "England",
+                "opponents": "Ireland",
+                "total": 524,
+                "wickets": 4,
+                "declared": true,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "team": "Ireland",
+                "opponents": "England",
+                "total": 362,
+                "wickets": 10,
+                "declared": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "OJD Pope",
+                "team": "England",
+                "opponents": "Ireland",
+                "score": 205,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "name": "MR Adair",
+                "team": "Ireland",
+                "opponents": "England",
+                "score": 88,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "CR Woakes",
+                "team": "England",
+                "opponents": "Ireland",
+                "wickets": 6,
+                "runs": 17,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "2019"
+            }
+        ],
+        [
+            {
+                "name": "TJ Murtagh",
+                "team": "Ireland",
+                "opponents": "England",
+                "wickets": 5,
+                "runs": 13,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "2019"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "SCJ Broad",
+                "team": "England",
+                "opponents": "Ireland",
+                "wickets": 7,
+                "runs": 79,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "2019"
+            }
+        ],
+        [
+            {
+                "name": "TJ Murtagh",
+                "team": "Ireland",
+                "opponents": "England",
+                "wickets": 6,
+                "runs": 65,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "2019"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2023",
+                        "partnership": 109,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Z Crawley",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BM Duckett",
+                        "player2Score": 182,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2023",
+                        "partnership": 252,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "BM Duckett",
+                        "player1Score": 182,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "OJD Pope",
+                        "player2Score": 205,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2023",
+                        "partnership": 146,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "OJD Pope",
+                        "player1Score": 205,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JE Root",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2023",
+                        "partnership": 17,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "OJD Pope",
+                        "player1Score": 205,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "HC Brook",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 0,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JM Bairstow",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "MM Ali",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    },
+                    {
+                        "team": "England",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 0,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JE Root",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "JM Bairstow",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 25,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "MM Ali",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JE Root",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 20,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "JE Root",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CR Woakes",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 15,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SM Curran",
+                        "player1Score": 18,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "SCJ Broad",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 45,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SM Curran",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "SCJ Broad",
+                        "player2Score": 21,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Ireland",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 18,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "OP Stone",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "MJ Leach",
+                        "player2Score": 1,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 32,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WTS Porterfield",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JA McCollum",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 13,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JA McCollum",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "A Balbirnie",
+                        "player2Score": 55,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 87,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "A Balbirnie",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "PR Stirling",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2023",
+                        "partnership": 63,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "HT Tector",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "LJ Tucker",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2023",
+                        "partnership": 36,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HT Tector",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "C Campher",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2023",
+                        "partnership": 6,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "LJ Tucker",
+                        "player1Score": 18,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "C Campher",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2023",
+                        "partnership": 163,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "AR McBrine",
+                        "player1Score": 86,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "MR Adair",
+                        "player2Score": 88,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2023",
+                        "partnership": 27,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "C Campher",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "MR Adair",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2023",
+                        "partnership": 22,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AR McBrine",
+                        "player1Score": 86,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "GI Hume",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 12,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "KJ O'Brien",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "WB Rankin",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "OJD Pope",
+                "team": "England",
+                "opponents": "Ireland",
+                "matches": 1,
+                "runs": 205,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 205.0,
+                "hs": "205"
+            }
+        ],
+        [
+            {
+                "name": "AR McBrine",
+                "team": "Ireland",
+                "opponents": "England",
+                "matches": 2,
+                "runs": 116,
+                "innings": 4,
+                "notOuts": 1,
+                "average": 38.66,
+                "hs": "86*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "SCJ Broad",
+                "team": "England",
+                "opponents": "Ireland",
+                "matches": 2,
+                "balls": 350,
+                "maidens": 15,
+                "runs": 192,
+                "wickets": 13,
+                "bbruns": 51,
+                "bbwickets": 5,
+                "average": 14.76
+            }
+        ],
+        [
+            {
+                "name": "MR Adair",
+                "team": "Ireland",
+                "opponents": "England",
+                "matches": 2,
+                "balls": 290,
+                "maidens": 10,
+                "runs": 237,
+                "wickets": 6,
+                "bbruns": 32,
+                "bbwickets": 3,
+                "average": 39.5
+            },
+            {
+                "name": "TJ Murtagh",
+                "team": "Ireland",
+                "opponents": "England",
+                "matches": 1,
+                "balls": 162,
+                "maidens": 5,
+                "runs": 65,
+                "wickets": 6,
+                "bbruns": 13,
+                "bbwickets": 5,
+                "average": 10.83
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JM Bairstow",
+                "team": "England",
+                "opponents": "Ireland",
+                "matches": 2,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "GC Wilson",
+                "team": "Ireland",
+                "opponents": "England",
+                "matches": 1,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "LJ Tucker",
+                "team": "Ireland",
+                "opponents": "England",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "England",
+                    "opponents": "Ireland",
+                    "total": 85,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "2019"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "Ireland",
+                    "total": 85,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "2019"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "Ireland",
+                    "total": 12,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "2023"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Ireland",
+                    "opponents": "England",
+                    "total": 38,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "2019"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Ireland",
+                    "opponents": "England",
+                    "total": 38,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "2019"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Ireland",
+                    "opponents": "England",
+                    "total": 38,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "2019"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:19:17.333864Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

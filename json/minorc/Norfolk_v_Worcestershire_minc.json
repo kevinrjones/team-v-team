@@ -1,0 +1,805 @@
+{
+    "team1": "Norfolk",
+    "team2": "Worcestershire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1896-08-12T00:00",
+        "endDate": "1896-08-19T00:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Stephen Musk"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Norfolk",
+                "opponents": "Worcestershire",
+                "total": 157,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1896"
+            }
+        ],
+        [
+            {
+                "team": "Worcestershire",
+                "opponents": "Norfolk",
+                "total": 180,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1896"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "GF Blake",
+                "team": "Norfolk",
+                "opponents": "Worcestershire",
+                "score": 32,
+                "notOut": false,
+                "location": "Boughton Park, Worcester",
+                "seriesDate": "1896"
+            }
+        ],
+        [
+            {
+                "name": "EG Arnold",
+                "team": "Worcestershire",
+                "opponents": "Norfolk",
+                "score": 54,
+                "notOut": true,
+                "location": "Boughton Park, Worcester",
+                "seriesDate": "1896"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "C Shore",
+                "team": "Norfolk",
+                "opponents": "Worcestershire",
+                "wickets": 5,
+                "runs": 62,
+                "location": "Boughton Park, Worcester",
+                "seriesDate": "1896"
+            }
+        ],
+        [
+            {
+                "name": "EG Arnold",
+                "team": "Worcestershire",
+                "opponents": "Norfolk",
+                "wickets": 7,
+                "runs": 9,
+                "location": "Boughton Park, Worcester",
+                "seriesDate": "1896"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "GB Raikes",
+                "team": "Norfolk",
+                "opponents": "Worcestershire",
+                "wickets": 5,
+                "runs": 63,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1896"
+            }
+        ],
+        [
+            {
+                "name": "EG Arnold",
+                "team": "Worcestershire",
+                "opponents": "Norfolk",
+                "wickets": 11,
+                "runs": 43,
+                "location": "Boughton Park, Worcester",
+                "seriesDate": "1896"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 12,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "LCV Bathurst",
+                        "player1Score": 4,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JF Skrimshire",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 25,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JF Skrimshire",
+                        "player1Score": 21,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "T Morley",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 16,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "WFG Sandwith",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "LCV Bathurst",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 8,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "WFG Sandwith",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "T Morley",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Worcestershire",
+                        "location": "Boughton Park, Worcester",
+                        "seriesDate": "1896",
+                        "partnership": 1,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "WFG Sandwith",
+                        "player1Score": 1,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SD Page",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 23,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "T Morley",
+                        "player1Score": 16,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "GB Raikes",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 43,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SRB Cowles",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "GB Raikes",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 4,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "GB Raikes",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JC Wilson",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 19,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "ESP Mack",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "SD Page",
+                        "player2Score": 21,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 37,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JC Wilson",
+                        "player1Score": 10,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "C Shore",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 27,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GE Bromley-Martin",
+                        "player1Score": 39,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "WHW Wilkes",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 58,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "GE Bromley-Martin",
+                        "player1Score": 39,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "J Howard",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 2,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "GE Bromley-Martin",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "J Howard",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 23,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "GE Bromley-Martin",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "EG Arnold",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 23,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HK Foster",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "EP Jobson",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 11,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "HF Bennett",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "A Bird",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 0,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "EP Jobson",
+                        "player1Score": 5,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "A Millward",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1896",
+                        "partnership": 11,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "A Millward",
+                        "player1Score": 6,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "A Bird",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "GB Raikes",
+                "team": "Norfolk",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "runs": 41,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 10.25,
+                "hs": "31"
+            }
+        ],
+        [
+            {
+                "name": "GE Bromley-Martin",
+                "team": "Worcestershire",
+                "opponents": "Norfolk",
+                "matches": 2,
+                "runs": 93,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 31.0,
+                "hs": "39"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "C Shore",
+                "team": "Norfolk",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "balls": 260,
+                "maidens": 12,
+                "runs": 152,
+                "wickets": 9,
+                "bbruns": 62,
+                "bbwickets": 5,
+                "average": 16.88
+            }
+        ],
+        [
+            {
+                "name": "A Bird",
+                "team": "Worcestershire",
+                "opponents": "Norfolk",
+                "matches": 2,
+                "balls": 365,
+                "maidens": 36,
+                "runs": 76,
+                "wickets": 17,
+                "bbruns": 43,
+                "bbwickets": 6,
+                "average": 4.47
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "GF Blake",
+                "team": "Norfolk",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "T Morley",
+                "team": "Norfolk",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "A Bird",
+                "team": "Worcestershire",
+                "opponents": "Norfolk",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "GF Blake",
+                "team": "Norfolk",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "T Straw",
+                "team": "Worcestershire",
+                "opponents": "Norfolk",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Worcestershire",
+                    "total": 28,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Park, Worcester",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Worcestershire",
+                    "total": 28,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Park, Worcester",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Worcestershire",
+                    "total": 28,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Park, Worcester",
+                    "seriesDate": "1896"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Norfolk",
+                    "total": 137,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Park, Worcester",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Norfolk",
+                    "total": 137,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Park, Worcester",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Norfolk",
+                    "total": 66,
+                    "wickets": 5,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1896"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:10:42.492510Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

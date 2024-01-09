@@ -1,0 +1,831 @@
+{
+    "team1": "Australia",
+    "team2": "India",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 107,
+        "startDate": "1947-11-28T00:00",
+        "endDate": "2023-06-07T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australia",
+                "opponents": "India",
+                "total": 674,
+                "wickets": 10,
+                "declared": false,
+                "location": "Adelaide Oval, Adelaide",
+                "seriesDate": "1947/48"
+            }
+        ],
+        [
+            {
+                "team": "India",
+                "opponents": "Australia",
+                "total": 705,
+                "wickets": 7,
+                "declared": true,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2003/04"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "MJ Clarke",
+                "team": "Australia",
+                "opponents": "India",
+                "score": 329,
+                "notOut": true,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2011/12"
+            }
+        ],
+        [
+            {
+                "name": "VVS Laxman",
+                "team": "India",
+                "opponents": "Australia",
+                "score": 281,
+                "notOut": false,
+                "location": "Eden Gardens, Calcutta",
+                "seriesDate": "2000/01"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "NM Lyon",
+                "team": "Australia",
+                "opponents": "India",
+                "wickets": 8,
+                "runs": 50,
+                "location": "M Chinnaswamy Stadium, Bangalore",
+                "seriesDate": "2016/17"
+            }
+        ],
+        [
+            {
+                "name": "JM Patel",
+                "team": "India",
+                "opponents": "Australia",
+                "wickets": 9,
+                "runs": 69,
+                "location": "Modi Stadium, Kanpur",
+                "seriesDate": "1959/60"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "SNJ O'Keefe",
+                "team": "Australia",
+                "opponents": "India",
+                "wickets": 12,
+                "runs": 70,
+                "location": "Maharashtra Cricket Association Stadium, Gahunje",
+                "seriesDate": "2016/17"
+            }
+        ],
+        [
+            {
+                "name": "Harbhajan Singh",
+                "team": "India",
+                "opponents": "Australia",
+                "wickets": 15,
+                "runs": 217,
+                "location": "MA Chidambaram Stadium, Chepauk, Chennai",
+                "seriesDate": "2000/01"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "India",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1985/86",
+                        "partnership": 217,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DC Boon",
+                        "player1Score": 131,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GR Marsh",
+                        "player2Score": 92,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "India",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1947/48",
+                        "partnership": 236,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "SG Barnes",
+                        "player1Score": 112,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DG Bradman",
+                        "player2Score": 201,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "India",
+                        "location": "Madras Cricket Club Ground, Chepauk, Madras",
+                        "seriesDate": "1979/80",
+                        "partnership": 222,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AR Border",
+                        "player1Score": 162,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "KJ Hughes",
+                        "player2Score": 100,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "India",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "2011/12",
+                        "partnership": 386,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RT Ponting",
+                        "player1Score": 221,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "MJ Clarke",
+                        "player2Score": 210,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "India",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2011/12",
+                        "partnership": 334,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "MJ Clarke",
+                        "player1Score": 329,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "MEK Hussey",
+                        "player2Score": 150,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "India",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2000/01",
+                        "partnership": 197,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "ML Hayden",
+                        "player1Score": 119,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AC Gilchrist",
+                        "player2Score": 122,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "India",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2007/08",
+                        "partnership": 173,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "A Symonds",
+                        "player1Score": 162,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "GB Hogg",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "India",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2003/04",
+                        "partnership": 117,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SM Katich",
+                        "player1Score": 125,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JN Gillespie",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "India",
+                        "location": "Eden Gardens, Calcutta",
+                        "seriesDate": "2000/01",
+                        "partnership": 133,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SR Waugh",
+                        "player1Score": 110,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "JN Gillespie",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "India",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1985/86",
+                        "partnership": 77,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AR Border",
+                        "player1Score": 163,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DR Gilbert",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Australia",
+                        "location": "Punjab Cricket Association Stadium, Mohali",
+                        "seriesDate": "2012/13",
+                        "partnership": 289,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "M Vijay",
+                        "player1Score": 153,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "S Dhawan",
+                        "player2Score": 187,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Australia",
+                        "location": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+                        "seriesDate": "2012/13",
+                        "partnership": 370,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "M Vijay",
+                        "player1Score": 167,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CA Pujara",
+                        "player2Score": 204,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Australia",
+                        "location": "M Chinnaswamy Stadium, Bangalore",
+                        "seriesDate": "2010/11",
+                        "partnership": 308,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "M Vijay",
+                        "player1Score": 139,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SR Tendulkar",
+                        "player2Score": 214,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Australia",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2003/04",
+                        "partnership": 353,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "SR Tendulkar",
+                        "player1Score": 241,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "VVS Laxman",
+                        "player2Score": 178,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Australia",
+                        "location": "Eden Gardens, Calcutta",
+                        "seriesDate": "2000/01",
+                        "partnership": 376,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "VVS Laxman",
+                        "player1Score": 281,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RS Dravid",
+                        "player2Score": 180,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Australia",
+                        "location": "Wankhede Stadium, Bombay",
+                        "seriesDate": "1986/87",
+                        "partnership": 298,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "DB Vengsarkar",
+                        "player1Score": 164,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "RJ Shastri",
+                        "player2Score": 121,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Australia",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2018/19",
+                        "partnership": 204,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "RR Pant",
+                        "player1Score": 159,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "RA Jadeja",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Australia",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2007/08",
+                        "partnership": 129,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SR Tendulkar",
+                        "player1Score": 154,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "Harbhajan Singh",
+                        "player2Score": 63,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Australia",
+                        "location": "MA Chidambaram Stadium, Chepauk, Chennai",
+                        "seriesDate": "2012/13",
+                        "partnership": 140,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "MS Dhoni",
+                        "player1Score": 224,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "Bhuvneshwar Kumar",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1985/86",
+                        "partnership": 94,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "SM Gavaskar",
+                        "player1Score": 166,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "NS Yadav",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "RT Ponting",
+                "team": "Australia",
+                "opponents": "India",
+                "matches": 29,
+                "runs": 2555,
+                "innings": 51,
+                "notOuts": 4,
+                "average": 54.36,
+                "hs": "257"
+            }
+        ],
+        [
+            {
+                "name": "SR Tendulkar",
+                "team": "India",
+                "opponents": "Australia",
+                "matches": 39,
+                "runs": 3630,
+                "innings": 74,
+                "notOuts": 8,
+                "average": 55.0,
+                "hs": "241*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "NM Lyon",
+                "team": "Australia",
+                "opponents": "India",
+                "matches": 27,
+                "balls": 7495,
+                "maidens": 189,
+                "runs": 3819,
+                "wickets": 121,
+                "bbruns": 50,
+                "bbwickets": 8,
+                "average": 31.56
+            }
+        ],
+        [
+            {
+                "name": "R Ashwin",
+                "team": "India",
+                "opponents": "Australia",
+                "matches": 22,
+                "balls": 7163,
+                "maidens": 256,
+                "runs": 3234,
+                "wickets": 114,
+                "bbruns": 103,
+                "bbwickets": 7,
+                "average": 28.36
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "AC Gilchrist",
+                "team": "Australia",
+                "opponents": "India",
+                "matches": 18,
+                "dismissals": 73
+            }
+        ],
+        [
+            {
+                "name": "MS Dhoni",
+                "team": "India",
+                "opponents": "Australia",
+                "matches": 19,
+                "dismissals": 56
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "MS Wade",
+                "team": "Australia",
+                "opponents": "India",
+                "matches": 11,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "MS Dhoni",
+                "team": "India",
+                "opponents": "Australia",
+                "matches": 19,
+                "dismissals": 15
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australia",
+                    "opponents": "India",
+                    "total": 83,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1980/81"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "India",
+                    "total": 83,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1980/81"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "India",
+                    "total": 6,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "2018/19"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "India",
+                    "opponents": "Australia",
+                    "total": 36,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Adelaide Oval, Adelaide",
+                    "seriesDate": "2020/21"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "India",
+                    "opponents": "Australia",
+                    "total": 36,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Adelaide Oval, Adelaide",
+                    "seriesDate": "2020/21"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "India",
+                    "opponents": "Australia",
+                    "total": 19,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "MA Chidambaram Stadium, Chepauk, Chennai",
+                    "seriesDate": "2004/05"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:04.244477Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

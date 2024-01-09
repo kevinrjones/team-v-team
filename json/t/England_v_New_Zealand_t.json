@@ -1,0 +1,831 @@
+{
+    "team1": "England",
+    "team2": "New Zealand",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 112,
+        "startDate": "1930-01-10T00:00",
+        "endDate": "2023-02-24T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "England",
+                "opponents": "New Zealand",
+                "total": 593,
+                "wickets": 6,
+                "declared": true,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "1974/75"
+            }
+        ],
+        [
+            {
+                "team": "New Zealand",
+                "opponents": "England",
+                "total": 615,
+                "wickets": 9,
+                "declared": true,
+                "location": "Bay Oval, Mount Maunganui",
+                "seriesDate": "2019/20"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "WR Hammond",
+                "team": "England",
+                "opponents": "New Zealand",
+                "score": 336,
+                "notOut": true,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "1932/33"
+            }
+        ],
+        [
+            {
+                "name": "NJ Astle",
+                "team": "New Zealand",
+                "opponents": "England",
+                "score": 222,
+                "notOut": false,
+                "location": "Jade Stadium, Christchurch",
+                "seriesDate": "2001/02"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "DL Underwood",
+                "team": "England",
+                "opponents": "New Zealand",
+                "wickets": 7,
+                "runs": 32,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1969"
+            }
+        ],
+        [
+            {
+                "name": "BL Cairns",
+                "team": "New Zealand",
+                "opponents": "England",
+                "wickets": 7,
+                "runs": 74,
+                "location": "Headingley, Leeds",
+                "seriesDate": "1983"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "DL Underwood",
+                "team": "England",
+                "opponents": "New Zealand",
+                "wickets": 12,
+                "runs": 97,
+                "location": "Lancaster Park, Christchurch",
+                "seriesDate": "1970/71"
+            }
+        ],
+        [
+            {
+                "name": "DJ Nash",
+                "team": "New Zealand",
+                "opponents": "England",
+                "wickets": 11,
+                "runs": 169,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1994"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2012/13",
+                        "partnership": 231,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AN Cook",
+                        "player1Score": 116,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "NRD Compton",
+                        "player2Score": 117,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1965",
+                        "partnership": 369,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JH Edrich",
+                        "player1Score": 310,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "KF Barrington",
+                        "player2Score": 163,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1937",
+                        "partnership": 245,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "J Hardstaff",
+                        "player1Score": 114,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "WR Hammond",
+                        "player2Score": 140,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Cello Basin Reserve, Wellington",
+                        "seriesDate": "2022/23",
+                        "partnership": 302,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JE Root",
+                        "player1Score": 153,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "HC Brook",
+                        "player2Score": 186,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Lancaster Park, Christchurch",
+                        "seriesDate": "1932/33",
+                        "partnership": 242,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "WR Hammond",
+                        "player1Score": 227,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "LEG Ames",
+                        "player2Score": 103,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Jade Stadium, Christchurch",
+                        "seriesDate": "2001/02",
+                        "partnership": 281,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GP Thorpe",
+                        "player1Score": 200,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "A Flintoff",
+                        "player2Score": 137,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "2022",
+                        "partnership": 241,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "JM Bairstow",
+                        "player1Score": 162,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "J Overton",
+                        "player2Score": 97,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1931",
+                        "partnership": 246,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "LEG Ames",
+                        "player1Score": 137,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "GOB Allen",
+                        "player2Score": 122,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1962/63",
+                        "partnership": 163,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "MC Cowdrey",
+                        "player1Score": 128,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "AC Smith",
+                        "player2Score": 69,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1973",
+                        "partnership": 59,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "APE Knott",
+                        "player1Score": 49,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "N Gifford",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1929/30",
+                        "partnership": 276,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CS Dempster",
+                        "player1Score": 136,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JE Mills",
+                        "player2Score": 117,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1991/92",
+                        "partnership": 241,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JG Wright",
+                        "player1Score": 116,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AH Jones",
+                        "player2Score": 143,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Seddon Park, Hamilton",
+                        "seriesDate": "2019/20",
+                        "partnership": 213,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "KS Williamson",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "LRPL Taylor",
+                        "player2Score": 105,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2021",
+                        "partnership": 174,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DP Conway",
+                        "player1Score": 200,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "HM Nicholls",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "2022",
+                        "partnership": 236,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DJ Mitchell",
+                        "player1Score": 190,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "TA Blundell",
+                        "player2Score": 106,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Cello Basin Reserve, Wellington",
+                        "seriesDate": "2022/23",
+                        "partnership": 158,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "KS Williamson",
+                        "player1Score": 132,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "TA Blundell",
+                        "player2Score": 90,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Bay Oval, Mount Maunganui",
+                        "seriesDate": "2019/20",
+                        "partnership": 261,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "BJ Watling",
+                        "player1Score": 205,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "MJ Santner",
+                        "player2Score": 126,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1937",
+                        "partnership": 104,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "DAR Moloney",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "AW Roberts",
+                        "player2Score": 66,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1983/84",
+                        "partnership": 118,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JV Coney",
+                        "player1Score": 174,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "BL Cairns",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Jade Stadium, Christchurch",
+                        "seriesDate": "2001/02",
+                        "partnership": 118,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "NJ Astle",
+                        "player1Score": 222,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CL Cairns",
+                        "player2Score": 23,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JE Root",
+                "team": "England",
+                "opponents": "New Zealand",
+                "matches": 18,
+                "runs": 1707,
+                "innings": 34,
+                "notOuts": 3,
+                "average": 55.06,
+                "hs": "226"
+            }
+        ],
+        [
+            {
+                "name": "JG Wright",
+                "team": "New Zealand",
+                "opponents": "England",
+                "matches": 23,
+                "runs": 1518,
+                "innings": 43,
+                "notOuts": 2,
+                "average": 37.02,
+                "hs": "130"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "SCJ Broad",
+                "team": "England",
+                "opponents": "New Zealand",
+                "matches": 23,
+                "balls": 5012,
+                "maidens": 173,
+                "runs": 2652,
+                "wickets": 94,
+                "bbruns": 44,
+                "bbwickets": 7,
+                "average": 28.21
+            }
+        ],
+        [
+            {
+                "name": "RJ Hadlee",
+                "team": "New Zealand",
+                "opponents": "England",
+                "matches": 21,
+                "balls": 5853,
+                "maidens": 232,
+                "runs": 2399,
+                "wickets": 97,
+                "bbruns": 26,
+                "bbwickets": 6,
+                "average": 24.73
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RW Taylor",
+                "team": "England",
+                "opponents": "New Zealand",
+                "matches": 14,
+                "dismissals": 43
+            }
+        ],
+        [
+            {
+                "name": "AC Parore",
+                "team": "New Zealand",
+                "opponents": "England",
+                "matches": 15,
+                "dismissals": 45
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "TG Evans",
+                "team": "England",
+                "opponents": "New Zealand",
+                "matches": 14,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "KC James",
+                "team": "New Zealand",
+                "opponents": "England",
+                "matches": 9,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "England",
+                    "opponents": "New Zealand",
+                    "total": 58,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Eden Park, Auckland",
+                    "seriesDate": "2017/18"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "New Zealand",
+                    "total": 58,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Eden Park, Auckland",
+                    "seriesDate": "2017/18"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "New Zealand",
+                    "total": 22,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "Eden Park, Auckland",
+                    "seriesDate": "1929/30"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "England",
+                    "total": 26,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Eden Park, Auckland",
+                    "seriesDate": "1954/55"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "England",
+                    "total": 26,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Eden Park, Auckland",
+                    "seriesDate": "1954/55"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "England",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1931"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:19:24.198391Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

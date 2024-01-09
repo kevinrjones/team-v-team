@@ -1,0 +1,862 @@
+{
+    "team1": "Buckinghamshire",
+    "team2": "Norfolk",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 123,
+        "startDate": "1901-08-23T00:00",
+        "endDate": "2023-07-09T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Stephen Musk"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Buckinghamshire",
+                "opponents": "Norfolk",
+                "total": 421,
+                "wickets": 10,
+                "declared": false,
+                "location": "London Road, High Wycombe",
+                "seriesDate": "1938"
+            }
+        ],
+        [
+            {
+                "team": "Norfolk",
+                "opponents": "Buckinghamshire",
+                "total": 390,
+                "wickets": 6,
+                "declared": false,
+                "location": "Manor Park, Horsford",
+                "seriesDate": "2010"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "PR Sawyer",
+                "team": "Buckinghamshire",
+                "opponents": "Norfolk",
+                "score": 181,
+                "notOut": false,
+                "location": "Chalvey Road, Slough",
+                "seriesDate": "1998"
+            }
+        ],
+        [
+            {
+                "name": "DF Walker",
+                "team": "Norfolk",
+                "opponents": "Buckinghamshire",
+                "score": 167,
+                "notOut": false,
+                "location": "London Road, High Wycombe",
+                "seriesDate": "1938"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "MW Wright",
+                "team": "Buckinghamshire",
+                "opponents": "Norfolk",
+                "wickets": 8,
+                "runs": 30,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "TGL Ballance",
+                "team": "Norfolk",
+                "opponents": "Buckinghamshire",
+                "wickets": 9,
+                "runs": 32,
+                "location": "London Road, High Wycombe",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "MW Wright",
+                "team": "Buckinghamshire",
+                "opponents": "Norfolk",
+                "wickets": 13,
+                "runs": 67,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "CSR Boswell",
+                "team": "Norfolk",
+                "opponents": "Buckinghamshire",
+                "wickets": 15,
+                "runs": 127,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1950",
+                        "partnership": 217,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "TE Busby",
+                        "player1Score": 94,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "A Campbell",
+                        "player2Score": 130,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Norfolk",
+                        "location": "London Road, Tring",
+                        "seriesDate": "2014",
+                        "partnership": 170,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AD Morgan",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "SA Khan",
+                        "player2Score": 141,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Norfolk",
+                        "location": "Chalvey Road, Slough",
+                        "seriesDate": "1998",
+                        "partnership": 322,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "JC Harrison",
+                        "player1Score": 147,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PR Sawyer",
+                        "player2Score": 181,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Norfolk",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1938",
+                        "partnership": 154,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "SS Peters",
+                        "player1Score": 110,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "GS Walker",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1954",
+                        "partnership": 101,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JMH Tilbury",
+                        "player1Score": 113,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DR Peppiatt",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Norfolk",
+                        "location": "Aspro Sports Ground, Slough",
+                        "seriesDate": "1954",
+                        "partnership": 75,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "H Taylor",
+                        "player1Score": 150,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "JMH Tilbury",
+                        "player2Score": 3,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Norfolk",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2010",
+                        "partnership": 183,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MA Hardinges",
+                        "player1Score": 109,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DRJ Cranfield-Thompson",
+                        "player2Score": 84,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1962",
+                        "partnership": 111,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "FW Harris",
+                        "player1Score": 61,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "DJS Taylor",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Norfolk",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1935",
+                        "partnership": 87,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "CA Holliman",
+                        "player1Score": 78,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "RH Rutter",
+                        "player2Score": 39,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Norfolk",
+                        "location": "Ascott Park, Wing",
+                        "seriesDate": "1956",
+                        "partnership": 71,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "BJ Lucas",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "CW Smith",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Norfolk",
+                        "location": "Wilton Park, Beaconsfield",
+                        "seriesDate": "2000",
+                        "partnership": 71,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "PJ Woodroffe",
+                        "player1Score": 60,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "SF Stanway",
+                        "player2Score": 18,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Buckinghamshire",
+                        "location": "Shardeloes, Amersham",
+                        "seriesDate": "1980",
+                        "partnership": 194,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "FLQ Handley",
+                        "player1Score": 107,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SG Plumb",
+                        "player2Score": 123,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Buckinghamshire",
+                        "location": "Pound Lane, Marlow",
+                        "seriesDate": "1994",
+                        "partnership": 168,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "SG Plumb",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AP Cole",
+                        "player2Score": 102,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Buckinghamshire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1957",
+                        "partnership": 261,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "NH Moore",
+                        "player1Score": 163,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "EG Witherden",
+                        "player2Score": 112,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Buckinghamshire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1966",
+                        "partnership": 179,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DG Pilch",
+                        "player1Score": 89,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "WJ Edrich",
+                        "player2Score": 93,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Buckinghamshire",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2004",
+                        "partnership": 151,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "CJ Rogers",
+                        "player1Score": 142,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "MO Wilkinson",
+                        "player2Score": 73,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Buckinghamshire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1968",
+                        "partnership": 137,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GJ Saville",
+                        "player1Score": 116,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WJ Edrich",
+                        "player2Score": 57,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Buckinghamshire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1937",
+                        "partnership": 196,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "BW Rought-Rought",
+                        "player1Score": 143,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "TGL Ballance",
+                        "player2Score": 107,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Buckinghamshire",
+                        "location": "London Road, Tring",
+                        "seriesDate": "2023",
+                        "partnership": 153,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "BW Stolworthy",
+                        "player1Score": 66,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "CJ Metcalf",
+                        "player2Score": 100,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Buckinghamshire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1939",
+                        "partnership": 113,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "M Falcon",
+                        "player1Score": 63,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "TGL Ballance",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Buckinghamshire",
+                        "location": "Wilton Park, Beaconsfield",
+                        "seriesDate": "1974",
+                        "partnership": 46,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "GW Wilton",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "E Wright",
+                        "player2Score": 28,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JB Turner",
+                "team": "Buckinghamshire",
+                "opponents": "Norfolk",
+                "matches": 21,
+                "runs": 1211,
+                "innings": 40,
+                "notOuts": 4,
+                "average": 33.63,
+                "hs": "104*"
+            }
+        ],
+        [
+            {
+                "name": "WJ Edrich",
+                "team": "Norfolk",
+                "opponents": "Buckinghamshire",
+                "matches": 31,
+                "runs": 1374,
+                "innings": 51,
+                "notOuts": 6,
+                "average": 30.53,
+                "hs": "101"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "F Edwards",
+                "team": "Buckinghamshire",
+                "opponents": "Norfolk",
+                "matches": 24,
+                "balls": 4481,
+                "maidens": 232,
+                "runs": 1606,
+                "wickets": 149,
+                "bbruns": 28,
+                "bbwickets": 6,
+                "average": 10.77
+            }
+        ],
+        [
+            {
+                "name": "WJ Edrich",
+                "team": "Norfolk",
+                "opponents": "Buckinghamshire",
+                "matches": 25,
+                "balls": 4297,
+                "maidens": 195,
+                "runs": 1847,
+                "wickets": 92,
+                "bbruns": 48,
+                "bbwickets": 7,
+                "average": 20.07
+            },
+            {
+                "name": "RC Rought-Rought",
+                "team": "Norfolk",
+                "opponents": "Buckinghamshire",
+                "matches": 21,
+                "balls": 3712,
+                "maidens": 163,
+                "runs": 1364,
+                "wickets": 92,
+                "bbruns": 25,
+                "bbwickets": 7,
+                "average": 14.82
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "BW Poll",
+                "team": "Buckinghamshire",
+                "opponents": "Norfolk",
+                "matches": 26,
+                "dismissals": 63
+            }
+        ],
+        [
+            {
+                "name": "DE Mattocks",
+                "team": "Norfolk",
+                "opponents": "Buckinghamshire",
+                "matches": 32,
+                "dismissals": 66
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "WB Franklin",
+                "team": "Buckinghamshire",
+                "opponents": "Norfolk",
+                "matches": 26,
+                "dismissals": 31
+            }
+        ],
+        [
+            {
+                "name": "DE Mattocks",
+                "team": "Norfolk",
+                "opponents": "Buckinghamshire",
+                "matches": 32,
+                "dismissals": 8
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Norfolk",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ascott Park, Wing",
+                    "seriesDate": "1929"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Norfolk",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ascott Park, Wing",
+                    "seriesDate": "1929"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Norfolk",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Ascott Park, Wing",
+                    "seriesDate": "1958"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Buckinghamshire",
+                    "total": 36,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1927"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Buckinghamshire",
+                    "total": 36,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1927"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Buckinghamshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1934"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:05.729127Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

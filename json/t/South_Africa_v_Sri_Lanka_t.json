@@ -1,0 +1,895 @@
+{
+    "team1": "South Africa",
+    "team2": "Sri Lanka",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 31,
+        "startDate": "1993-08-25T01:00",
+        "endDate": "2021-01-03T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "South Africa",
+                "opponents": "Sri Lanka",
+                "total": 621,
+                "wickets": 10,
+                "declared": false,
+                "location": "SuperSport Park, Centurion",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "team": "Sri Lanka",
+                "opponents": "South Africa",
+                "total": 756,
+                "wickets": 5,
+                "declared": true,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2006"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JH Kallis",
+                "team": "South Africa",
+                "opponents": "Sri Lanka",
+                "score": 224,
+                "notOut": false,
+                "location": "Sahara Park Newlands, Cape Town",
+                "seriesDate": "2011/12"
+            }
+        ],
+        [
+            {
+                "name": "DPMD Jayawardene",
+                "team": "Sri Lanka",
+                "opponents": "South Africa",
+                "score": 374,
+                "notOut": false,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2006"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "KA Maharaj",
+                "team": "South Africa",
+                "opponents": "Sri Lanka",
+                "wickets": 9,
+                "runs": 129,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2018"
+            }
+        ],
+        [
+            {
+                "name": "M Muralitharan",
+                "team": "Sri Lanka",
+                "opponents": "South Africa",
+                "wickets": 7,
+                "runs": 84,
+                "location": "Galle International Stadium, Galle",
+                "seriesDate": "2000"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "KA Maharaj",
+                "team": "South Africa",
+                "opponents": "Sri Lanka",
+                "wickets": 12,
+                "runs": 283,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2018"
+            }
+        ],
+        [
+            {
+                "name": "M Muralitharan",
+                "team": "Sri Lanka",
+                "opponents": "South Africa",
+                "wickets": 13,
+                "runs": 171,
+                "location": "Galle International Stadium, Galle",
+                "seriesDate": "2000"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Sri Lanka",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2006",
+                        "partnership": 165,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JA Rudolph",
+                        "player1Score": 90,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AJ Hall",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Sri Lanka",
+                        "location": "Imperial Wanderers Stadium, Johannesburg",
+                        "seriesDate": "2020/21",
+                        "partnership": 184,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "D Elgar",
+                        "player1Score": 127,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HE van der Dussen",
+                        "player2Score": 67,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Sri Lanka",
+                        "location": "Bidvest Wanderers Stadium, Johannesburg",
+                        "seriesDate": "2016/17",
+                        "partnership": 292,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "HM Amla",
+                        "player1Score": 134,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JP Duminy",
+                        "player2Score": 155,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Sri Lanka",
+                        "location": "Sahara Park Newlands, Cape Town",
+                        "seriesDate": "2011/12",
+                        "partnership": 192,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JH Kallis",
+                        "player1Score": 224,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AB de Villiers",
+                        "player2Score": 160,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Sri Lanka",
+                        "location": "SuperSport Park, Centurion",
+                        "seriesDate": "2020/21",
+                        "partnership": 179,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "F du Plessis",
+                        "player1Score": 199,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "T Bavuma",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Sri Lanka",
+                        "location": "St George's Park, Port Elizabeth",
+                        "seriesDate": "2016/17",
+                        "partnership": 129,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "F du Plessis",
+                        "player1Score": 67,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "Q de Kock",
+                        "player2Score": 69,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Sri Lanka",
+                        "location": "SuperSport Park, Centurion",
+                        "seriesDate": "2020/21",
+                        "partnership": 133,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "F du Plessis",
+                        "player1Score": 199,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "KA Maharaj",
+                        "player2Score": 73,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Sri Lanka",
+                        "location": "SuperSport Park, Centurion",
+                        "seriesDate": "2000/01",
+                        "partnership": 150,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "ND McKenzie",
+                        "player1Score": 103,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "SM Pollock",
+                        "player2Score": 111,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Sri Lanka",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2014",
+                        "partnership": 66,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JP Duminy",
+                        "player1Score": 100,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "M Morkel",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Sri Lanka",
+                        "location": "SuperSport Park, Centurion",
+                        "seriesDate": "2011/12",
+                        "partnership": 61,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MV Boucher",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Imran Tahir",
+                        "player2Score": 29,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "South Africa",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2000",
+                        "partnership": 193,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MS Atapattu",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ST Jayasuriya",
+                        "player2Score": 148,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "South Africa",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2014",
+                        "partnership": 104,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JK Silva",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "KC Sangakkara",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "South Africa",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2006",
+                        "partnership": 624,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "KC Sangakkara",
+                        "player1Score": 287,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DPMD Jayawardene",
+                        "player2Score": 374,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "South Africa",
+                        "location": "SuperSport Park, Centurion",
+                        "seriesDate": "2020/21",
+                        "partnership": 131,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "LD Chandimal",
+                        "player1Score": 85,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "DM de Silva",
+                        "player2Score": 79,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 230,
+                        "wicket": 4,
+                        "playerDetails": [
+                            {
+                                "team": "Sri Lanka",
+                                "opponents": "South Africa",
+                                "location": "SuperSport Park, Centurion",
+                                "seriesDate": "2020/21",
+                                "partnership": 131,
+                                "wicket": 4,
+                                "undefeated": true,
+                                "player1Name": "LD Chandimal",
+                                "player1Score": 85,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "DM de Silva",
+                                "player2Score": 79,
+                                "player2NotOut": true,
+                                "player2Position": 5
+                            },
+                            {
+                                "team": "Sri Lanka",
+                                "opponents": "South Africa",
+                                "location": "SuperSport Park, Centurion",
+                                "seriesDate": "2020/21",
+                                "partnership": 99,
+                                "wicket": 4,
+                                "undefeated": false,
+                                "player1Name": "LD Chandimal",
+                                "player1Score": 85,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "DPDN Dickwella",
+                                "player2Score": 49,
+                                "player2NotOut": false,
+                                "player2Position": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "South Africa",
+                        "location": "Sahara Park Newlands, Cape Town",
+                        "seriesDate": "2011/12",
+                        "partnership": 142,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "TT Samaraweera",
+                        "player1Score": 115,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "AD Mathews",
+                        "player2Score": 63,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "South Africa",
+                        "location": "Sahara Stadium Kingsmead, Durban",
+                        "seriesDate": "2011/12",
+                        "partnership": 111,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "TT Samaraweera",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "LD Chandimal",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "South Africa",
+                        "location": "SuperSport Park, Centurion",
+                        "seriesDate": "2020/21",
+                        "partnership": 67,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MD Shanaka",
+                        "player1Score": 66,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "CAK Rajitha",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "South Africa",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2004",
+                        "partnership": 170,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "DPMD Jayawardene",
+                        "player1Score": 237,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "WPUJC Vaas",
+                        "player2Score": 69,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "South Africa",
+                        "location": "Newlands, Cape Town",
+                        "seriesDate": "1997/98",
+                        "partnership": 48,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "GP Wickramasinghe",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "M Muralitharan",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    },
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "South Africa",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2018",
+                        "partnership": 48,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "FDM Karunaratne",
+                        "player1Score": 158,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "RAS Lakmal",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "South Africa",
+                        "location": "Kingsmead, Durban",
+                        "seriesDate": "2018/19",
+                        "partnership": 78,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "MDKJ Perera",
+                        "player1Score": 153,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "MVT Fernando",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "DJ Cullinan",
+                "team": "South Africa",
+                "opponents": "Sri Lanka",
+                "matches": 11,
+                "runs": 917,
+                "innings": 19,
+                "notOuts": 2,
+                "average": 53.94,
+                "hs": "114*"
+            }
+        ],
+        [
+            {
+                "name": "DPMD Jayawardene",
+                "team": "Sri Lanka",
+                "opponents": "South Africa",
+                "matches": 17,
+                "runs": 1782,
+                "innings": 32,
+                "notOuts": 1,
+                "average": 57.48,
+                "hs": "374"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "SM Pollock",
+                "team": "South Africa",
+                "opponents": "Sri Lanka",
+                "matches": 13,
+                "balls": 2481,
+                "maidens": 120,
+                "runs": 1072,
+                "wickets": 48,
+                "bbruns": 30,
+                "bbwickets": 6,
+                "average": 22.33
+            }
+        ],
+        [
+            {
+                "name": "M Muralitharan",
+                "team": "Sri Lanka",
+                "opponents": "South Africa",
+                "matches": 15,
+                "balls": 5908,
+                "maidens": 221,
+                "runs": 2311,
+                "wickets": 104,
+                "bbruns": 84,
+                "bbwickets": 7,
+                "average": 22.22
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "MV Boucher",
+                "team": "South Africa",
+                "opponents": "Sri Lanka",
+                "matches": 17,
+                "dismissals": 70
+            }
+        ],
+        [
+            {
+                "name": "KC Sangakkara",
+                "team": "Sri Lanka",
+                "opponents": "South Africa",
+                "matches": 17,
+                "dismissals": 24
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "MV Boucher",
+                "team": "South Africa",
+                "opponents": "Sri Lanka",
+                "matches": 17,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "PB Dassanayake",
+                "team": "Sri Lanka",
+                "opponents": "South Africa",
+                "matches": 3,
+                "dismissals": 4
+            },
+            {
+                "name": "RS Kaluwitharana",
+                "team": "Sri Lanka",
+                "opponents": "South Africa",
+                "matches": 6,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "South Africa",
+                    "opponents": "Sri Lanka",
+                    "total": 73,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Galle International Stadium, Galle",
+                    "seriesDate": "2018"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "South Africa",
+                    "opponents": "Sri Lanka",
+                    "total": 73,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Galle International Stadium, Galle",
+                    "seriesDate": "2018"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "South Africa",
+                    "opponents": "Sri Lanka",
+                    "total": 2,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Sahara Park Newlands, Cape Town",
+                    "seriesDate": "2011/12"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "South Africa",
+                    "total": 95,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Newlands, Cape Town",
+                    "seriesDate": "2000/01"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "South Africa",
+                    "total": 95,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Newlands, Cape Town",
+                    "seriesDate": "2000/01"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "South Africa",
+                    "total": 95,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Newlands, Cape Town",
+                    "seriesDate": "2000/01"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:21:00.473730Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

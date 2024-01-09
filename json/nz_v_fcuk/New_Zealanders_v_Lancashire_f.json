@@ -1,0 +1,852 @@
+{
+    "team1": "New Zealanders",
+    "team2": "Lancashire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 12,
+        "startDate": "1927-08-17T01:00",
+        "endDate": "1978-08-05T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "New Zealanders",
+                "opponents": "Lancashire",
+                "total": 410,
+                "wickets": 9,
+                "declared": true,
+                "location": "Aigburth, Liverpool",
+                "seriesDate": "1931"
+            }
+        ],
+        [
+            {
+                "team": "Lancashire",
+                "opponents": "New Zealanders",
+                "total": 487,
+                "wickets": 10,
+                "declared": false,
+                "location": "Aigburth, Liverpool",
+                "seriesDate": "1931"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JM Parker",
+                "team": "New Zealanders",
+                "opponents": "Lancashire",
+                "score": 104,
+                "notOut": true,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1978"
+            }
+        ],
+        [
+            {
+                "name": "JT Ikin",
+                "team": "Lancashire",
+                "opponents": "New Zealanders",
+                "score": 167,
+                "notOut": false,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "FJ Cameron",
+                "team": "New Zealanders",
+                "opponents": "Lancashire",
+                "wickets": 5,
+                "runs": 48,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1965"
+            }
+        ],
+        [
+            {
+                "name": "MJ Hilton",
+                "team": "Lancashire",
+                "opponents": "New Zealanders",
+                "wickets": 8,
+                "runs": 19,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1958"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RJ Hadlee",
+                "team": "New Zealanders",
+                "opponents": "Lancashire",
+                "wickets": 8,
+                "runs": 94,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1973"
+            }
+        ],
+        [
+            {
+                "name": "MJ Hilton",
+                "team": "Lancashire",
+                "opponents": "New Zealanders",
+                "wickets": 8,
+                "runs": 19,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1958"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Lancashire",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1949",
+                        "partnership": 120,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "B Sutcliffe",
+                        "player1Score": 79,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "MP Donnelly",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Lancashire",
+                        "location": "Stanley Park, Blackpool",
+                        "seriesDate": "1958",
+                        "partnership": 64,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1978",
+                        "partnership": 103,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Lancashire",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1931",
+                        "partnership": 94,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Lancashire",
+                        "location": "Stanley Park, Blackpool",
+                        "seriesDate": "1958",
+                        "partnership": 99,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Lancashire",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1931",
+                        "partnership": 109,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Lancashire",
+                        "location": "West Cliff, Preston",
+                        "seriesDate": "1937",
+                        "partnership": 75,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1969",
+                        "partnership": 93,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Lancashire",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1931",
+                        "partnership": 110,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "GL Weir",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "TC Lowry",
+                        "player2Score": 58,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1949",
+                        "partnership": 30,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "New Zealanders",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1931",
+                        "partnership": 184,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "C Hallows",
+                        "player1Score": 115,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WJ Horrocks",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "New Zealanders",
+                        "location": "West Cliff, Preston",
+                        "seriesDate": "1937",
+                        "partnership": 181,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "New Zealanders",
+                        "location": "Stanley Park, Blackpool",
+                        "seriesDate": "1958",
+                        "partnership": 158,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "New Zealanders",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1949",
+                        "partnership": 248,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "New Zealanders",
+                        "location": "West Cliff, Preston",
+                        "seriesDate": "1937",
+                        "partnership": 79,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "New Zealanders",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1973",
+                        "partnership": 110,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "New Zealanders",
+                        "location": "West Cliff, Preston",
+                        "seriesDate": "1937",
+                        "partnership": 69,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "New Zealanders",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1927",
+                        "partnership": 25,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "New Zealanders",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1949",
+                        "partnership": 56,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "New Zealanders",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1937",
+                        "partnership": 44,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WE Phillipson",
+                        "player1Score": 70,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "LL Wilkinson",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "MP Donnelly",
+                "team": "New Zealanders",
+                "opponents": "Lancashire",
+                "matches": 4,
+                "runs": 232,
+                "innings": 8,
+                "notOuts": 0,
+                "average": 29.0,
+                "hs": "80"
+            }
+        ],
+        [
+            {
+                "name": "E Paynter",
+                "team": "Lancashire",
+                "opponents": "New Zealanders",
+                "matches": 3,
+                "runs": 302,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 75.5,
+                "hs": "102"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "J Cowie",
+                "team": "New Zealanders",
+                "opponents": "Lancashire",
+                "matches": 4,
+                "balls": 758,
+                "maidens": 21,
+                "runs": 329,
+                "wickets": 10,
+                "bbruns": 60,
+                "bbwickets": 4,
+                "average": 32.9
+            }
+        ],
+        [
+            {
+                "name": "MJ Hilton",
+                "team": "Lancashire",
+                "opponents": "New Zealanders",
+                "matches": 3,
+                "balls": 590,
+                "maidens": 30,
+                "runs": 241,
+                "wickets": 14,
+                "bbruns": 19,
+                "bbwickets": 8,
+                "average": 17.21
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "KJ Wadsworth",
+                "team": "New Zealanders",
+                "opponents": "Lancashire",
+                "matches": 2,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "G Duckworth",
+                "team": "Lancashire",
+                "opponents": "New Zealanders",
+                "matches": 3,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "KC James",
+                "team": "New Zealanders",
+                "opponents": "Lancashire",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "TC Lowry",
+                "team": "New Zealanders",
+                "opponents": "Lancashire",
+                "matches": 3,
+                "dismissals": 2
+            },
+            {
+                "name": "EWT Tindill",
+                "team": "New Zealanders",
+                "opponents": "Lancashire",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "A Barlow",
+                "team": "Lancashire",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "G Duckworth",
+                "team": "Lancashire",
+                "opponents": "New Zealanders",
+                "matches": 3,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Lancashire",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1965"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Lancashire",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1965"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Lancashire",
+                    "total": 57,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1927"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "New Zealanders",
+                    "total": 116,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1973"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "New Zealanders",
+                    "total": 116,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1973"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "New Zealanders",
+                    "total": 65,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Stanley Park, Blackpool",
+                    "seriesDate": "1958"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:55.212933Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

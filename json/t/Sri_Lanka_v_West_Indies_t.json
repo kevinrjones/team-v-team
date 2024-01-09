@@ -1,0 +1,859 @@
+{
+    "team1": "Sri Lanka",
+    "team2": "West Indies",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 24,
+        "startDate": "1993-12-08T00:00",
+        "endDate": "2021-11-29T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Sri Lanka",
+                "opponents": "West Indies",
+                "total": 627,
+                "wickets": 9,
+                "declared": true,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2001/02"
+            }
+        ],
+        [
+            {
+                "team": "West Indies",
+                "opponents": "Sri Lanka",
+                "total": 580,
+                "wickets": 9,
+                "declared": true,
+                "location": "Galle International Stadium, Galle",
+                "seriesDate": "2010/11"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "HP Tillakaratne",
+                "team": "Sri Lanka",
+                "opponents": "West Indies",
+                "score": 204,
+                "notOut": true,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2001/02"
+            }
+        ],
+        [
+            {
+                "name": "CH Gayle",
+                "team": "West Indies",
+                "opponents": "Sri Lanka",
+                "score": 333,
+                "notOut": false,
+                "location": "Galle International Stadium, Galle",
+                "seriesDate": "2010/11"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "M Muralitharan",
+                "team": "Sri Lanka",
+                "opponents": "West Indies",
+                "wickets": 8,
+                "runs": 46,
+                "location": "Asgiriya Stadium, Kandy",
+                "seriesDate": "2005"
+            }
+        ],
+        [
+            {
+                "name": "ST Gabriel",
+                "team": "West Indies",
+                "opponents": "Sri Lanka",
+                "wickets": 8,
+                "runs": 62,
+                "location": "Darren Sammy National Cricket Stadium, Gros Islet",
+                "seriesDate": "2018"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "WPUJC Vaas",
+                "team": "Sri Lanka",
+                "opponents": "West Indies",
+                "wickets": 14,
+                "runs": 191,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2001/02"
+            }
+        ],
+        [
+            {
+                "name": "ST Gabriel",
+                "team": "West Indies",
+                "opponents": "Sri Lanka",
+                "wickets": 13,
+                "runs": 121,
+                "location": "Darren Sammy National Cricket Stadium, Gros Islet",
+                "seriesDate": "2018"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "West Indies",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2021/22",
+                        "partnership": 139,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PN Silva",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "FDM Karunaratne",
+                        "player2Score": 147,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "West Indies",
+                        "location": "Sir Vivian Richards Stadium, North Sound",
+                        "seriesDate": "2020/21",
+                        "partnership": 162,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "HDRL Thirimanne",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BOP Fernando",
+                        "player2Score": 91,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "West Indies",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2015/16",
+                        "partnership": 238,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "FDM Karunaratne",
+                        "player1Score": 186,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "LD Chandimal",
+                        "player2Score": 151,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "West Indies",
+                        "location": "R Premadasa Stadium, Colombo",
+                        "seriesDate": "2010/11",
+                        "partnership": 170,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "KC Sangakkara",
+                        "player1Score": 150,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "TT Samaraweera",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "West Indies",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2001/02",
+                        "partnership": 141,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RP Arnold",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "HP Tillakaratne",
+                        "player2Score": 204,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "West Indies",
+                        "location": "Sir Vivian Richards Stadium, North Sound",
+                        "seriesDate": "2020/21",
+                        "partnership": 179,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "PN Silva",
+                        "player1Score": 103,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "DPDN Dickwella",
+                        "player2Score": 96,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "West Indies",
+                        "location": "Queen's Park Oval, Port of Spain",
+                        "seriesDate": "2007/08",
+                        "partnership": 138,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "TT Samaraweera",
+                        "player1Score": 125,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "WPUJC Vaas",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "West Indies",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2010/11",
+                        "partnership": 72,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "HAPW Jayawardene",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "KTGD Prasad",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "West Indies",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2021/22",
+                        "partnership": 124,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "DM de Silva",
+                        "player1Score": 155,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "L Ambuldeniya",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "West Indies",
+                        "location": "Beausejour Stadium, Gros Islet",
+                        "seriesDate": "2003",
+                        "partnership": 28,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WPUJC Vaas",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "RAP Nissanka",
+                        "player2Score": 12,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Sri Lanka",
+                        "location": "Antigua Recreation Ground, St John's",
+                        "seriesDate": "1996/97",
+                        "partnership": 160,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SL Campbell",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SC Williams",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Sri Lanka",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2010/11",
+                        "partnership": 196,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CH Gayle",
+                        "player1Score": 333,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DM Bravo",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Sri Lanka",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2001/02",
+                        "partnership": 194,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RR Sarwan",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "BC Lara",
+                        "player2Score": 221,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Sri Lanka",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2010/11",
+                        "partnership": 167,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "CH Gayle",
+                        "player1Score": 333,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BP Nash",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Sri Lanka",
+                        "location": "Tyronne Fernando Stadium, Moratuwa",
+                        "seriesDate": "1993/94",
+                        "partnership": 84,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RB Richardson",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CL Hooper",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Sri Lanka",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "2018",
+                        "partnership": 115,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "SO Dowrich",
+                        "player1Score": 71,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JO Holder",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Sri Lanka",
+                        "location": "Beausejour Stadium, Gros Islet",
+                        "seriesDate": "2003",
+                        "partnership": 136,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "BC Lara",
+                        "player1Score": 209,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "OAC Banks",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Sri Lanka",
+                        "location": "Sir Vivian Richards Stadium, North Sound",
+                        "seriesDate": "2020/21",
+                        "partnership": 103,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RRS Cornwall",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "KC Brathwaite",
+                        "player2Score": 126,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Sri Lanka",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2021/22",
+                        "partnership": 49,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RRS Cornwall",
+                        "player1Score": 39,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "JM Da Silva",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Sri Lanka",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2015/16",
+                        "partnership": 38,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "J Blackwood",
+                        "player1Score": 92,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "ST Gabriel",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "KC Sangakkara",
+                "team": "Sri Lanka",
+                "opponents": "West Indies",
+                "matches": 12,
+                "runs": 918,
+                "innings": 19,
+                "notOuts": 2,
+                "average": 54.0,
+                "hs": "157*"
+            }
+        ],
+        [
+            {
+                "name": "BC Lara",
+                "team": "West Indies",
+                "opponents": "Sri Lanka",
+                "matches": 8,
+                "runs": 1125,
+                "innings": 14,
+                "notOuts": 1,
+                "average": 86.53,
+                "hs": "221"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "M Muralitharan",
+                "team": "Sri Lanka",
+                "opponents": "West Indies",
+                "matches": 12,
+                "balls": 3735,
+                "maidens": 143,
+                "runs": 1609,
+                "wickets": 82,
+                "bbruns": 46,
+                "bbwickets": 8,
+                "average": 19.62
+            }
+        ],
+        [
+            {
+                "name": "KAJ Roach",
+                "team": "West Indies",
+                "opponents": "Sri Lanka",
+                "matches": 10,
+                "balls": 1676,
+                "maidens": 55,
+                "runs": 879,
+                "wickets": 32,
+                "bbruns": 100,
+                "bbwickets": 5,
+                "average": 27.46
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "DPDN Dickwella",
+                "team": "Sri Lanka",
+                "opponents": "West Indies",
+                "matches": 5,
+                "dismissals": 19
+            },
+            {
+                "name": "DPMD Jayawardene",
+                "team": "Sri Lanka",
+                "opponents": "West Indies",
+                "matches": 12,
+                "dismissals": 19
+            }
+        ],
+        [
+            {
+                "name": "D Ramdin",
+                "team": "West Indies",
+                "opponents": "Sri Lanka",
+                "matches": 6,
+                "dismissals": 25
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "HAPW Jayawardene",
+                "team": "Sri Lanka",
+                "opponents": "West Indies",
+                "matches": 4,
+                "dismissals": 3
+            },
+            {
+                "name": "MDKJ Perera",
+                "team": "Sri Lanka",
+                "opponents": "West Indies",
+                "matches": 5,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "JM Da Silva",
+                "team": "West Indies",
+                "opponents": "Sri Lanka",
+                "matches": 4,
+                "dismissals": 1
+            },
+            {
+                "name": "RD Jacobs",
+                "team": "West Indies",
+                "opponents": "Sri Lanka",
+                "matches": 5,
+                "dismissals": 1
+            },
+            {
+                "name": "D Ramdin",
+                "team": "West Indies",
+                "opponents": "Sri Lanka",
+                "matches": 6,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "West Indies",
+                    "total": 150,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Asgiriya Stadium, Kandy",
+                    "seriesDate": "2005"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "West Indies",
+                    "total": 150,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Asgiriya Stadium, Kandy",
+                    "seriesDate": "2005"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "West Indies",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Pallekele Cricket Stadium, Pallekele",
+                    "seriesDate": "2010/11"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Sri Lanka",
+                    "total": 93,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kensington Oval, Bridgetown",
+                    "seriesDate": "2018"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Sri Lanka",
+                    "total": 93,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kensington Oval, Bridgetown",
+                    "seriesDate": "2018"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Sri Lanka",
+                    "total": 12,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "R Premadasa Stadium, Colombo",
+                    "seriesDate": "2010/11"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:21:08.235539Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

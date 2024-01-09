@@ -1,0 +1,823 @@
+{
+    "team1": "Devon",
+    "team2": "Durham",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 1,
+        "startDate": "1978-09-16T01:00",
+        "endDate": "1978-09-16T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Devon",
+                "opponents": "Durham",
+                "total": 212,
+                "wickets": 10,
+                "declared": false,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1978"
+            }
+        ],
+        [
+            {
+                "team": "Durham",
+                "opponents": "Devon",
+                "total": 301,
+                "wickets": 6,
+                "declared": true,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1978"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RC Tolchard",
+                "team": "Devon",
+                "opponents": "Durham",
+                "score": 100,
+                "notOut": false,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1978"
+            }
+        ],
+        [
+            {
+                "name": "PJ Kippax",
+                "team": "Durham",
+                "opponents": "Devon",
+                "score": 124,
+                "notOut": true,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1978"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "RK Benton",
+                "team": "Devon",
+                "opponents": "Durham",
+                "wickets": 3,
+                "runs": 56,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1978"
+            }
+        ],
+        [
+            {
+                "name": "JS Wilkinson",
+                "team": "Durham",
+                "opponents": "Devon",
+                "wickets": 3,
+                "runs": 54,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1978"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "DI Yeabsley",
+                "team": "Devon",
+                "opponents": "Durham",
+                "wickets": 3,
+                "runs": 85,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1978"
+            }
+        ],
+        [
+            {
+                "name": "JS Wilkinson",
+                "team": "Durham",
+                "opponents": "Devon",
+                "wickets": 5,
+                "runs": 75,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1978"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Durham",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 30,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JR Tolliday",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "BL Matthews",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Durham",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 21,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "BL Matthews",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "G Wallen",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Durham",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 12,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "G Wallen",
+                        "player1Score": 7,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RC Tolchard",
+                        "player2Score": 100,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Durham",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 35,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RC Tolchard",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RF Harriott",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Durham",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 29,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RC Tolchard",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "EP Picton",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Durham",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 51,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RC Tolchard",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "MJ Goulding",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Durham",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 7,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "MJ Goulding",
+                        "player1Score": 4,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "RK Benton",
+                        "player2Score": 1,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Durham",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 10,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RC Tolchard",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "IC Roberts",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Durham",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 22,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RC Tolchard",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "DI Yeabsley",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Durham",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 9,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "RC Tolchard",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "GR Evans",
+                        "player2Score": 5,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 53,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PW Romaines",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SR Atkinson",
+                        "player2Score": 27,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 36,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "PW Romaines",
+                        "player1Score": 39,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "S Greensword",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 6,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "S Greensword",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "NA Riddell",
+                        "player2Score": 68,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 49,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "PJ Kippax",
+                        "player1Score": 124,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "PC Birtwisle",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 63,
+                        "wicket": 4,
+                        "playerDetails": [
+                            {
+                                "team": "Durham",
+                                "opponents": "Devon",
+                                "location": "The County Cricket Ground, Exeter",
+                                "seriesDate": "1978",
+                                "partnership": 14,
+                                "wicket": 4,
+                                "undefeated": true,
+                                "player1Name": "NA Riddell",
+                                "player1Score": 68,
+                                "player1NotOut": true,
+                                "player1Position": 4,
+                                "player2Name": "PJ Kippax",
+                                "player2Score": 124,
+                                "player2NotOut": true,
+                                "player2Position": 5
+                            },
+                            {
+                                "team": "Durham",
+                                "opponents": "Devon",
+                                "location": "The County Cricket Ground, Exeter",
+                                "seriesDate": "1978",
+                                "partnership": 49,
+                                "wicket": 4,
+                                "undefeated": true,
+                                "player1Name": "PJ Kippax",
+                                "player1Score": 124,
+                                "player1NotOut": true,
+                                "player1Position": 5,
+                                "player2Name": "PC Birtwisle",
+                                "player2Score": 18,
+                                "player2NotOut": false,
+                                "player2Position": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 17,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "PJ Kippax",
+                        "player1Score": 124,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "C Thomas",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 26,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "PJ Kippax",
+                        "player1Score": 124,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "RAD Mercer",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1978",
+                        "partnership": 111,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "PJ Kippax",
+                        "player1Score": 124,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "NA Riddell",
+                        "player2Score": 68,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "RC Tolchard",
+                "team": "Devon",
+                "opponents": "Durham",
+                "matches": 1,
+                "runs": 103,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 51.5,
+                "hs": "100"
+            }
+        ],
+        [
+            {
+                "name": "PJ Kippax",
+                "team": "Durham",
+                "opponents": "Devon",
+                "matches": 1,
+                "runs": 124,
+                "innings": 1,
+                "notOuts": 1,
+                "average": 0.0,
+                "hs": "124*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RK Benton",
+                "team": "Devon",
+                "opponents": "Durham",
+                "matches": 1,
+                "balls": 108,
+                "maidens": 2,
+                "runs": 56,
+                "wickets": 3,
+                "bbruns": 56,
+                "bbwickets": 3,
+                "average": 18.66
+            },
+            {
+                "name": "DI Yeabsley",
+                "team": "Devon",
+                "opponents": "Durham",
+                "matches": 1,
+                "balls": 198,
+                "maidens": 7,
+                "runs": 85,
+                "wickets": 3,
+                "bbruns": 63,
+                "bbwickets": 2,
+                "average": 28.33
+            }
+        ],
+        [
+            {
+                "name": "JS Wilkinson",
+                "team": "Durham",
+                "opponents": "Devon",
+                "matches": 1,
+                "balls": 326,
+                "maidens": 31,
+                "runs": 75,
+                "wickets": 5,
+                "bbruns": 54,
+                "bbwickets": 3,
+                "average": 15.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "GR Evans",
+                "team": "Devon",
+                "opponents": "Durham",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "RF Harriott",
+                "team": "Devon",
+                "opponents": "Durham",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "IC Roberts",
+                "team": "Devon",
+                "opponents": "Durham",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "G Wallen",
+                "team": "Devon",
+                "opponents": "Durham",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "PC Birtwisle",
+                "team": "Durham",
+                "opponents": "Devon",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Devon",
+                    "opponents": "Durham",
+                    "total": 212,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The County Cricket Ground, Exeter",
+                    "seriesDate": "1978"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Durham",
+                    "total": 212,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The County Cricket Ground, Exeter",
+                    "seriesDate": "1978"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Durham",
+                    "total": 51,
+                    "wickets": 6,
+                    "declared": false,
+                    "location": "The County Cricket Ground, Exeter",
+                    "seriesDate": "1978"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Devon",
+                    "total": 71,
+                    "wickets": 1,
+                    "declared": true,
+                    "location": "The County Cricket Ground, Exeter",
+                    "seriesDate": "1978"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:34.519307Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

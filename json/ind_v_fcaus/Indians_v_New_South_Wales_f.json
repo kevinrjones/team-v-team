@@ -1,0 +1,858 @@
+{
+    "team1": "Indians",
+    "team2": "New South Wales",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 5,
+        "startDate": "1947-11-07T00:00",
+        "endDate": "1999-12-02T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Indians",
+                "opponents": "New South Wales",
+                "total": 386,
+                "wickets": 5,
+                "declared": true,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1977/78"
+            }
+        ],
+        [
+            {
+                "team": "New South Wales",
+                "opponents": "Indians",
+                "total": 561,
+                "wickets": 8,
+                "declared": true,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1947/48"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "VS Hazare",
+                "team": "Indians",
+                "opponents": "New South Wales",
+                "score": 142,
+                "notOut": false,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1947/48"
+            }
+        ],
+        [
+            {
+                "name": "AR Morris",
+                "team": "New South Wales",
+                "opponents": "Indians",
+                "score": 162,
+                "notOut": false,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1947/48"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "RF Surti",
+                "team": "Indians",
+                "opponents": "New South Wales",
+                "wickets": 5,
+                "runs": 69,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1967/68"
+            }
+        ],
+        [
+            {
+                "name": "MR Whitney",
+                "team": "New South Wales",
+                "opponents": "Indians",
+                "wickets": 6,
+                "runs": 37,
+                "location": "Oakes Oval, Lismore",
+                "seriesDate": "1991/92"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "A Kumble",
+                "team": "Indians",
+                "opponents": "New South Wales",
+                "wickets": 8,
+                "runs": 88,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1999/00"
+            }
+        ],
+        [
+            {
+                "name": "MR Whitney",
+                "team": "New South Wales",
+                "opponents": "Indians",
+                "wickets": 9,
+                "runs": 82,
+                "location": "Oakes Oval, Lismore",
+                "seriesDate": "1991/92"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1999/00",
+                        "partnership": 89,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DJ Gandhi",
+                        "player1Score": 28,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "S Ramesh",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1947/48",
+                        "partnership": 25,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1977/78",
+                        "partnership": 128,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1977/78",
+                        "partnership": 87,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1947/48",
+                        "partnership": 133,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "New South Wales",
+                        "location": "Oakes Oval, Lismore",
+                        "seriesDate": "1991/92",
+                        "partnership": 44,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "SR Tendulkar",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "SC Ganguly",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "New South Wales",
+                        "location": "Oakes Oval, Lismore",
+                        "seriesDate": "1991/92",
+                        "partnership": 67,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "KS More",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "SR Tendulkar",
+                        "player2Score": 82,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1947/48",
+                        "partnership": 73,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1999/00",
+                        "partnership": 38,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AB Agarkar",
+                        "player1Score": 65,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "J Srinath",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1999/00",
+                        "partnership": 16,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "A Kumble",
+                        "player1Score": 13,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "BKV Prasad",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Indians",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1947/48",
+                        "partnership": 136,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "EW Lukeman",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AR Morris",
+                        "player2Score": 162,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Indians",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1947/48",
+                        "partnership": 153,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Indians",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1977/78",
+                        "partnership": 82,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Indians",
+                        "location": "Oakes Oval, Lismore",
+                        "seriesDate": "1991/92",
+                        "partnership": 175,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "ME Waugh",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "MG Bevan",
+                        "player2Score": 115,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Indians",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1947/48",
+                        "partnership": 84,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Indians",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1999/00",
+                        "partnership": 47,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "MJ Clarke",
+                        "player1Score": 18,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "BJ Haddin",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Indians",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1977/78",
+                        "partnership": 90,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Indians",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1947/48",
+                        "partnership": 21,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Indians",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1947/48",
+                        "partnership": 49,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "RR Lindwall",
+                        "player1Score": 47,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "FB Johnston",
+                        "player2Score": 11,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Indians",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1967/68",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "GE Corling",
+                        "player1Score": 27,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "DA Renneberg",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "M Amarnath",
+                "team": "Indians",
+                "opponents": "New South Wales",
+                "matches": 1,
+                "runs": 181,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 90.5,
+                "hs": "137"
+            }
+        ],
+        [
+            {
+                "name": "RB Simpson",
+                "team": "New South Wales",
+                "opponents": "Indians",
+                "matches": 2,
+                "runs": 236,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 59.0,
+                "hs": "94"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "BS Bedi",
+                "team": "Indians",
+                "opponents": "New South Wales",
+                "matches": 2,
+                "balls": 624,
+                "maidens": 11,
+                "runs": 236,
+                "wickets": 8,
+                "bbruns": 87,
+                "bbwickets": 5,
+                "average": 29.5
+            },
+            {
+                "name": "A Kumble",
+                "team": "Indians",
+                "opponents": "New South Wales",
+                "matches": 1,
+                "balls": 226,
+                "maidens": 7,
+                "runs": 88,
+                "wickets": 8,
+                "bbruns": 38,
+                "bbwickets": 4,
+                "average": 11.0
+            }
+        ],
+        [
+            {
+                "name": "MR Whitney",
+                "team": "New South Wales",
+                "opponents": "Indians",
+                "matches": 1,
+                "balls": 235,
+                "maidens": 11,
+                "runs": 82,
+                "wickets": 9,
+                "bbruns": 37,
+                "bbwickets": 6,
+                "average": 9.11
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "SC Ganguly",
+                "team": "Indians",
+                "opponents": "New South Wales",
+                "matches": 2,
+                "dismissals": 3
+            },
+            {
+                "name": "SMH Kirmani",
+                "team": "Indians",
+                "opponents": "New South Wales",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "GR Davies",
+                "team": "New South Wales",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 5
+            },
+            {
+                "name": "MA Taylor",
+                "team": "New South Wales",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "KS Indrajitsinhji",
+                "team": "Indians",
+                "opponents": "New South Wales",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "RA Saggers",
+                "team": "New South Wales",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Indians",
+                    "opponents": "New South Wales",
+                    "total": 147,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Oakes Oval, Lismore",
+                    "seriesDate": "1991/92"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "New South Wales",
+                    "total": 147,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Oakes Oval, Lismore",
+                    "seriesDate": "1991/92"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "New South Wales",
+                    "total": 100,
+                    "wickets": 6,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "1967/68"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New South Wales",
+                    "opponents": "Indians",
+                    "total": 192,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "1999/00"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New South Wales",
+                    "opponents": "Indians",
+                    "total": 192,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "1999/00"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New South Wales",
+                    "opponents": "Indians",
+                    "total": 149,
+                    "wickets": 3,
+                    "declared": true,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "1967/68"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:25.795068Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

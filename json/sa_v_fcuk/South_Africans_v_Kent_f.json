@@ -1,0 +1,838 @@
+{
+    "team1": "South Africans",
+    "team2": "Kent",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 15,
+        "startDate": "1901-05-23T00:00",
+        "endDate": "2012-07-13T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "South Africans",
+                "opponents": "Kent",
+                "total": 491,
+                "wickets": 7,
+                "declared": true,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "1929"
+            }
+        ],
+        [
+            {
+                "team": "Kent",
+                "opponents": "South Africans",
+                "total": 436,
+                "wickets": 10,
+                "declared": false,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "1929"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RG Pollock",
+                "team": "South Africans",
+                "opponents": "Kent",
+                "score": 203,
+                "notOut": true,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "1965"
+            }
+        ],
+        [
+            {
+                "name": "FE Woolley",
+                "team": "Kent",
+                "opponents": "South Africans",
+                "score": 176,
+                "notOut": false,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "1924"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "PR Adams",
+                "team": "South Africans",
+                "opponents": "Kent",
+                "wickets": 9,
+                "runs": 79,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "2003"
+            }
+        ],
+        [
+            {
+                "name": "C Blythe",
+                "team": "Kent",
+                "opponents": "South Africans",
+                "wickets": 6,
+                "runs": 53,
+                "location": "Foxgrove Road, Beckenham",
+                "seriesDate": "1901"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "NBF Mann",
+                "team": "South Africans",
+                "opponents": "Kent",
+                "wickets": 13,
+                "runs": 227,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "1947"
+            }
+        ],
+        [
+            {
+                "name": "C Blythe",
+                "team": "Kent",
+                "opponents": "South Africans",
+                "wickets": 10,
+                "runs": 160,
+                "location": "Private Banks Sports Ground, Catford",
+                "seriesDate": "1907"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1955",
+                        "partnership": 99,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DJ McGlew",
+                        "player1Score": 161,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JHB Waite",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Kent",
+                        "location": "Mote Park, Maidstone",
+                        "seriesDate": "1912",
+                        "partnership": 114,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1965",
+                        "partnership": 137,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1965",
+                        "partnership": 188,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "RG Pollock",
+                        "player1Score": 203,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "KC Bland",
+                        "player2Score": 61,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1947",
+                        "partnership": 150,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1929",
+                        "partnership": 187,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1994",
+                        "partnership": 157,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "DJ Richardson",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "TG Shaw",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "2003",
+                        "partnership": 46,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "G Kirsten",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "PR Adams",
+                        "player2Score": 22,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1924",
+                        "partnership": 67,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JM Blanckenberg",
+                        "player1Score": 51,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "SJ Pegler",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1929",
+                        "partnership": 100,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "EL Dalton",
+                        "player1Score": 116,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "AL Ochse",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "South Africans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1955",
+                        "partnership": 114,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AE Fagg",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AH Phebey",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "South Africans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1929",
+                        "partnership": 102,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "South Africans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1924",
+                        "partnership": 283,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "South Africans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1947",
+                        "partnership": 76,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "South Africans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1929",
+                        "partnership": 187,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "South Africans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1994",
+                        "partnership": 93,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GR Cowdrey",
+                        "player1Score": 114,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "SA Marsh",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "South Africans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1994",
+                        "partnership": 110,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "GR Cowdrey",
+                        "player1Score": 114,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "DW Headley",
+                        "player2Score": 46,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "South Africans",
+                        "location": "Private Banks Sports Ground, Catford",
+                        "seriesDate": "1907",
+                        "partnership": 58,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "South Africans",
+                        "location": "Foxgrove Road, Beckenham",
+                        "seriesDate": "1901",
+                        "partnership": 45,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "FD Browne",
+                        "player1Score": 31,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "C Blythe",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "South Africans",
+                        "location": "Private Banks Sports Ground, Catford",
+                        "seriesDate": "1907",
+                        "partnership": 36,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "EL Dalton",
+                "team": "South Africans",
+                "opponents": "Kent",
+                "matches": 2,
+                "runs": 274,
+                "innings": 3,
+                "notOuts": 1,
+                "average": 137.0,
+                "hs": "157"
+            }
+        ],
+        [
+            {
+                "name": "FE Woolley",
+                "team": "Kent",
+                "opponents": "South Africans",
+                "matches": 5,
+                "runs": 463,
+                "innings": 9,
+                "notOuts": 2,
+                "average": 66.14,
+                "hs": "176"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "HJ Tayfield",
+                "team": "South Africans",
+                "opponents": "Kent",
+                "matches": 3,
+                "balls": 805,
+                "maidens": 42,
+                "runs": 305,
+                "wickets": 14,
+                "bbruns": 76,
+                "bbwickets": 5,
+                "average": 21.78
+            }
+        ],
+        [
+            {
+                "name": "C Blythe",
+                "team": "Kent",
+                "opponents": "South Africans",
+                "matches": 4,
+                "balls": 1061,
+                "maidens": 37,
+                "runs": 532,
+                "wickets": 32,
+                "bbruns": 53,
+                "bbwickets": 6,
+                "average": 16.62
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JHB Waite",
+                "team": "South Africans",
+                "opponents": "Kent",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "J Seymour",
+                "team": "Kent",
+                "opponents": "South Africans",
+                "matches": 4,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "EA Halliwell",
+                "team": "South Africans",
+                "opponents": "Kent",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "FH Huish",
+                "team": "Kent",
+                "opponents": "South Africans",
+                "matches": 4,
+                "dismissals": 2
+            },
+            {
+                "name": "DG Ufton",
+                "team": "Kent",
+                "opponents": "South Africans",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "South Africans",
+                    "opponents": "Kent",
+                    "total": 95,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Private Banks Sports Ground, Catford",
+                    "seriesDate": "1907"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "South Africans",
+                    "opponents": "Kent",
+                    "total": 95,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Private Banks Sports Ground, Catford",
+                    "seriesDate": "1907"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "South Africans",
+                    "opponents": "Kent",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": true,
+                    "location": "St Lawrence Ground, Canterbury",
+                    "seriesDate": "1994"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Kent",
+                    "opponents": "South Africans",
+                    "total": 49,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Lawrence Ground, Canterbury",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Kent",
+                    "opponents": "South Africans",
+                    "total": 49,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Lawrence Ground, Canterbury",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Kent",
+                    "opponents": "South Africans",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "St Lawrence Ground, Canterbury",
+                    "seriesDate": "1994"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:53.639830Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

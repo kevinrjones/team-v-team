@@ -1,0 +1,880 @@
+{
+    "team1": "Denbighshire",
+    "team2": "Durham",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 4,
+        "startDate": "1934-06-25T01:00",
+        "endDate": "1935-08-19T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Denbighshire",
+                "opponents": "Durham",
+                "total": 130,
+                "wickets": 10,
+                "declared": false,
+                "location": "Marchwiel Hall, Marchwiel",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "team": "Durham",
+                "opponents": "Denbighshire",
+                "total": 309,
+                "wickets": 8,
+                "declared": true,
+                "location": "Penrhyn Avenue, Rhos-on-Sea, Colwyn Bay",
+                "seriesDate": "1935"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "EF Goodwin",
+                "team": "Denbighshire",
+                "opponents": "Durham",
+                "score": 55,
+                "notOut": true,
+                "location": "Marchwiel Hall, Marchwiel",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "name": "H Gibbon",
+                "team": "Durham",
+                "opponents": "Denbighshire",
+                "score": 108,
+                "notOut": false,
+                "location": "Marchwiel Hall, Marchwiel",
+                "seriesDate": "1934"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "S Walker",
+                "team": "Denbighshire",
+                "opponents": "Durham",
+                "wickets": 5,
+                "runs": 60,
+                "location": "Blackfyne, Blackhill, Consett",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "name": "H Gibbon",
+                "team": "Durham",
+                "opponents": "Denbighshire",
+                "wickets": 7,
+                "runs": 16,
+                "location": "Wood Terrace, South Shields",
+                "seriesDate": "1935"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "S Walker",
+                "team": "Denbighshire",
+                "opponents": "Durham",
+                "wickets": 5,
+                "runs": 60,
+                "location": "Blackfyne, Blackhill, Consett",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "name": "AL Howell",
+                "team": "Durham",
+                "opponents": "Denbighshire",
+                "wickets": 9,
+                "runs": 53,
+                "location": "Marchwiel Hall, Marchwiel",
+                "seriesDate": "1934"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Denbighshire",
+                        "opponents": "Durham",
+                        "location": "Wood Terrace, South Shields",
+                        "seriesDate": "1935",
+                        "partnership": 32,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "S Walker",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BDW Sykes",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Denbighshire",
+                        "opponents": "Durham",
+                        "location": "Penrhyn Avenue, Rhos-on-Sea, Colwyn Bay",
+                        "seriesDate": "1935",
+                        "partnership": 38,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "G Wooller",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "EF Goodwin",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Denbighshire",
+                        "opponents": "Durham",
+                        "location": "Penrhyn Avenue, Rhos-on-Sea, Colwyn Bay",
+                        "seriesDate": "1935",
+                        "partnership": 44,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "G Wooller",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "GE Hartley",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Denbighshire",
+                        "opponents": "Durham",
+                        "location": "Wood Terrace, South Shields",
+                        "seriesDate": "1935",
+                        "partnership": 23,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "EF Goodwin",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AC Straker",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Denbighshire",
+                        "opponents": "Durham",
+                        "location": "Marchwiel Hall, Marchwiel",
+                        "seriesDate": "1934",
+                        "partnership": 18,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "G Evans",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "E Rees",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Denbighshire",
+                        "opponents": "Durham",
+                        "location": "Marchwiel Hall, Marchwiel",
+                        "seriesDate": "1934",
+                        "partnership": 29,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "EA Barlow",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "EF Goodwin",
+                        "player2Score": 55,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Denbighshire",
+                        "opponents": "Durham",
+                        "location": "Wood Terrace, South Shields",
+                        "seriesDate": "1935",
+                        "partnership": 21,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "KSB Lucking",
+                        "player1Score": 8,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "E Rees",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Denbighshire",
+                        "opponents": "Durham",
+                        "location": "Wood Terrace, South Shields",
+                        "seriesDate": "1935",
+                        "partnership": 14,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JD Cross",
+                        "player1Score": 3,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "E Rees",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Denbighshire",
+                        "opponents": "Durham",
+                        "location": "Marchwiel Hall, Marchwiel",
+                        "seriesDate": "1934",
+                        "partnership": 54,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "EF Goodwin",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "E Jones",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Denbighshire",
+                        "opponents": "Durham",
+                        "location": "Penrhyn Avenue, Rhos-on-Sea, Colwyn Bay",
+                        "seriesDate": "1935",
+                        "partnership": 23,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "E Rees",
+                        "player1Score": 15,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "EA Barlow",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Denbighshire",
+                        "location": "Marchwiel Hall, Marchwiel",
+                        "seriesDate": "1934",
+                        "partnership": 103,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "EN Randle",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "H Gibbon",
+                        "player2Score": 108,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Denbighshire",
+                        "location": "Marchwiel Hall, Marchwiel",
+                        "seriesDate": "1934",
+                        "partnership": 79,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "H Gibbon",
+                        "player1Score": 108,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CL Adamson",
+                        "player2Score": 62,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Denbighshire",
+                        "location": "Marchwiel Hall, Marchwiel",
+                        "seriesDate": "1934",
+                        "partnership": 93,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "CL Adamson",
+                        "player1Score": 62,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "G Hickman",
+                        "player2Score": 43,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Denbighshire",
+                        "location": "Penrhyn Avenue, Rhos-on-Sea, Colwyn Bay",
+                        "seriesDate": "1935",
+                        "partnership": 59,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "H Gibbon",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "J Carr",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Denbighshire",
+                        "location": "Penrhyn Avenue, Rhos-on-Sea, Colwyn Bay",
+                        "seriesDate": "1935",
+                        "partnership": 43,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "H Gibbon",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JR Latchford",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Denbighshire",
+                        "location": "Penrhyn Avenue, Rhos-on-Sea, Colwyn Bay",
+                        "seriesDate": "1935",
+                        "partnership": 47,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "H Gibbon",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "TK Dobson",
+                        "player2Score": 46,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Denbighshire",
+                        "location": "Penrhyn Avenue, Rhos-on-Sea, Colwyn Bay",
+                        "seriesDate": "1935",
+                        "partnership": 42,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "TK Dobson",
+                        "player1Score": 46,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "A Elsdon",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Denbighshire",
+                        "location": "Wood Terrace, South Shields",
+                        "seriesDate": "1935",
+                        "partnership": 36,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "TK Dobson",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "AL Howell",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Denbighshire",
+                        "location": "Blackfyne, Blackhill, Consett",
+                        "seriesDate": "1934",
+                        "partnership": 57,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "GT James",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Denbighshire",
+                        "location": "Blackfyne, Blackhill, Consett",
+                        "seriesDate": "1934",
+                        "partnership": 11,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "S Ellis",
+                        "player1Score": 7,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "EF Goodwin",
+                "team": "Denbighshire",
+                "opponents": "Durham",
+                "matches": 3,
+                "runs": 118,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 23.6,
+                "hs": "55*"
+            }
+        ],
+        [
+            {
+                "name": "H Gibbon",
+                "team": "Durham",
+                "opponents": "Denbighshire",
+                "matches": 4,
+                "runs": 203,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 50.75,
+                "hs": "108"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "S Walker",
+                "team": "Denbighshire",
+                "opponents": "Durham",
+                "matches": 2,
+                "balls": 205,
+                "maidens": 7,
+                "runs": 104,
+                "wickets": 7,
+                "bbruns": 60,
+                "bbwickets": 5,
+                "average": 14.85
+            }
+        ],
+        [
+            {
+                "name": "J Carr",
+                "team": "Durham",
+                "opponents": "Denbighshire",
+                "matches": 4,
+                "balls": 528,
+                "maidens": 31,
+                "runs": 157,
+                "wickets": 23,
+                "bbruns": 22,
+                "bbwickets": 6,
+                "average": 6.82
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "G Evans",
+                "team": "Denbighshire",
+                "opponents": "Durham",
+                "matches": 3,
+                "dismissals": 2
+            },
+            {
+                "name": "KSB Lucking",
+                "team": "Denbighshire",
+                "opponents": "Durham",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "E Rees",
+                "team": "Denbighshire",
+                "opponents": "Durham",
+                "matches": 4,
+                "dismissals": 2
+            },
+            {
+                "name": "S Walker",
+                "team": "Denbighshire",
+                "opponents": "Durham",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "J Carr",
+                "team": "Durham",
+                "opponents": "Denbighshire",
+                "matches": 4,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "GT James",
+                "team": "Durham",
+                "opponents": "Denbighshire",
+                "matches": 1,
+                "dismissals": 3
+            },
+            {
+                "name": "L Wilson",
+                "team": "Durham",
+                "opponents": "Denbighshire",
+                "matches": 3,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Denbighshire",
+                    "opponents": "Durham",
+                    "total": 69,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Blackfyne, Blackhill, Consett",
+                    "seriesDate": "1934"
+                },
+                {
+                    "team": "Denbighshire",
+                    "opponents": "Durham",
+                    "total": 69,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Marchwiel Hall, Marchwiel",
+                    "seriesDate": "1934"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Denbighshire",
+                    "opponents": "Durham",
+                    "total": 69,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Blackfyne, Blackhill, Consett",
+                    "seriesDate": "1934"
+                },
+                {
+                    "team": "Denbighshire",
+                    "opponents": "Durham",
+                    "total": 69,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Marchwiel Hall, Marchwiel",
+                    "seriesDate": "1934"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Denbighshire",
+                    "opponents": "Durham",
+                    "total": 69,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Blackfyne, Blackhill, Consett",
+                    "seriesDate": "1934"
+                },
+                {
+                    "team": "Denbighshire",
+                    "opponents": "Durham",
+                    "total": 69,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Marchwiel Hall, Marchwiel",
+                    "seriesDate": "1934"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Durham",
+                    "opponents": "Denbighshire",
+                    "total": 184,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Wood Terrace, South Shields",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Denbighshire",
+                    "total": 184,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Wood Terrace, South Shields",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Denbighshire",
+                    "total": 184,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Wood Terrace, South Shields",
+                    "seriesDate": "1935"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:24.397167Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

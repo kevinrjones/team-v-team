@@ -1,0 +1,877 @@
+{
+    "team1": "Devon",
+    "team2": "Kent Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 28,
+        "startDate": "1911-07-19T00:00",
+        "endDate": "1951-08-24T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "total": 488,
+                "wickets": 10,
+                "declared": false,
+                "location": "The Rectory Field, Blackheath",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "team": "Kent Second XI",
+                "opponents": "Devon",
+                "total": 381,
+                "wickets": 10,
+                "declared": false,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1932"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "NH Humphries",
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "score": 199,
+                "notOut": false,
+                "location": "Plaistow Lane, Bromley",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "name": "HP Dinwiddy",
+                "team": "Kent Second XI",
+                "opponents": "Devon",
+                "score": 218,
+                "notOut": false,
+                "location": "The Rectory Field, Blackheath",
+                "seriesDate": "1933"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "HC Lock",
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "wickets": 8,
+                "runs": 104,
+                "location": "The Rectory Field, Blackheath",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "name": "AFH Debnam",
+                "team": "Kent Second XI",
+                "opponents": "Devon",
+                "wickets": 8,
+                "runs": 51,
+                "location": "The Recreation Ground, Torquay",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "SW Falding",
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "wickets": 11,
+                "runs": 92,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1927"
+            }
+        ],
+        [
+            {
+                "name": "AFH Debnam",
+                "team": "Kent Second XI",
+                "opponents": "Devon",
+                "wickets": 13,
+                "runs": 137,
+                "location": "The Recreation Ground, Torquay",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Kent Second XI",
+                        "location": "Plaistow Lane, Bromley",
+                        "seriesDate": "1949",
+                        "partnership": 256,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "NH Humphries",
+                        "player1Score": 199,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WC Hulland",
+                        "player2Score": 114,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Kent Second XI",
+                        "location": "The Rectory Field, Blackheath",
+                        "seriesDate": "1934",
+                        "partnership": 151,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "RG Seldon",
+                        "player1Score": 86,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "WW Hoare",
+                        "player2Score": 133,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Kent Second XI",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1929",
+                        "partnership": 124,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "EA Fulcher",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WW Hoare",
+                        "player2Score": 94,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Kent Second XI",
+                        "location": "Plaistow Lane, Bromley",
+                        "seriesDate": "1948",
+                        "partnership": 209,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DA Davies",
+                        "player1Score": 172,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "WC Hulland",
+                        "player2Score": 67,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Kent Second XI",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1947",
+                        "partnership": 82,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AF Irish",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "EF Carless",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Kent Second XI",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1947",
+                        "partnership": 107,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "NH Humphries",
+                        "player1Score": 119,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "DH Cole",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Kent Second XI",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1929",
+                        "partnership": 105,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "J Heathcoat-Amory",
+                        "player1Score": 66,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "FMI Watts",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Kent Second XI",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1927",
+                        "partnership": 84,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "FMI Watts",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "GA Wright",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Kent Second XI",
+                        "location": "The Nevill Ground, Tunbridge Wells",
+                        "seriesDate": "1927",
+                        "partnership": 43,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AR Shepherd",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "RIF McIntosh",
+                        "player2Score": 23,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Kent Second XI",
+                        "location": "Foxgrove Road, Beckenham",
+                        "seriesDate": "1911",
+                        "partnership": 51,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "D Scott",
+                        "player1Score": 40,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "WH Aston",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Devon",
+                        "location": "Plaistow Lane, Bromley",
+                        "seriesDate": "1948",
+                        "partnership": 145,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JG Larking",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GW Lees",
+                        "player2Score": 86,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1932",
+                        "partnership": 191,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "FW Honey",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RH Hewetson",
+                        "player2Score": 136,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Devon",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1950",
+                        "partnership": 177,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "BH Lock",
+                        "player1Score": 143,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JDJ Bluett",
+                        "player2Score": 105,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Devon",
+                        "location": "The Rectory Field, Blackheath",
+                        "seriesDate": "1933",
+                        "partnership": 229,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "HP Dinwiddy",
+                        "player1Score": 218,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "AGW Hill",
+                        "player2Score": 90,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Devon",
+                        "location": "The Rectory Field, Blackheath",
+                        "seriesDate": "1932",
+                        "partnership": 74,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "TA Pearce",
+                        "player1Score": 109,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GA Simpson",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1947",
+                        "partnership": 88,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "HC Munro",
+                        "player1Score": 96,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "JAC Bentall",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1947",
+                        "partnership": 82,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "JAC Bentall",
+                        "player1Score": 61,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DG Clark",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Devon",
+                        "location": "Plaistow Lane, Bromley",
+                        "seriesDate": "1949",
+                        "partnership": 101,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "BH Lock",
+                        "player1Score": 144,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JE Aitchison",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1934",
+                        "partnership": 64,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "CG Cole",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "ASP Mason",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Devon",
+                        "location": "The Fortfield, Sidmouth",
+                        "seriesDate": "1928",
+                        "partnership": 57,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "F Phillips",
+                        "player1Score": 56,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "C Fairservice",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1951",
+                        "partnership": 57,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "L Hellmuth",
+                        "player1Score": 43,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "T Osborn",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "WW Hoare",
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "matches": 13,
+                "runs": 857,
+                "innings": 22,
+                "notOuts": 3,
+                "average": 45.1,
+                "hs": "133"
+            }
+        ],
+        [
+            {
+                "name": "BH Lock",
+                "team": "Kent Second XI",
+                "opponents": "Devon",
+                "matches": 5,
+                "runs": 497,
+                "innings": 7,
+                "notOuts": 2,
+                "average": 99.4,
+                "hs": "144*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "SW Falding",
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "matches": 8,
+                "balls": 1391,
+                "maidens": 62,
+                "runs": 584,
+                "wickets": 31,
+                "bbruns": 51,
+                "bbwickets": 6,
+                "average": 18.83
+            }
+        ],
+        [
+            {
+                "name": "C Lewis",
+                "team": "Kent Second XI",
+                "opponents": "Devon",
+                "matches": 11,
+                "balls": 2188,
+                "maidens": 112,
+                "runs": 699,
+                "wickets": 50,
+                "bbruns": 42,
+                "bbwickets": 6,
+                "average": 13.98
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "FH Carroll",
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "matches": 9,
+                "dismissals": 10
+            }
+        ],
+        [
+            {
+                "name": "DG Ufton",
+                "team": "Kent Second XI",
+                "opponents": "Devon",
+                "matches": 6,
+                "dismissals": 11
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "C Beardsworth",
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "matches": 3,
+                "dismissals": 2
+            },
+            {
+                "name": "FH Carroll",
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "matches": 9,
+                "dismissals": 2
+            },
+            {
+                "name": "T Davies",
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "WW Hoare",
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "matches": 13,
+                "dismissals": 2
+            },
+            {
+                "name": "AR Shepherd",
+                "team": "Devon",
+                "opponents": "Kent Second XI",
+                "matches": 4,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "WHV Levett",
+                "team": "Kent Second XI",
+                "opponents": "Devon",
+                "matches": 9,
+                "dismissals": 11
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Devon",
+                    "opponents": "Kent Second XI",
+                    "total": 93,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The County Cricket Ground, Exeter",
+                    "seriesDate": "1933"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Kent Second XI",
+                    "total": 93,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The County Cricket Ground, Exeter",
+                    "seriesDate": "1933"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Kent Second XI",
+                    "total": 58,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "The Rectory Field, Blackheath",
+                    "seriesDate": "1933"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Devon",
+                    "total": 72,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Rectory Field, Blackheath",
+                    "seriesDate": "1930"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Devon",
+                    "total": 72,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Rectory Field, Blackheath",
+                    "seriesDate": "1930"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Devon",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Cheriton Road Sports Ground, Folkestone",
+                    "seriesDate": "1929"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:37.263081Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

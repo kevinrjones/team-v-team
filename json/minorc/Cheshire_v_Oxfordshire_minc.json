@@ -1,0 +1,831 @@
+{
+    "team1": "Cheshire",
+    "team2": "Oxfordshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 33,
+        "startDate": "1983-07-03T01:00",
+        "endDate": "2023-08-20T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cheshire",
+                "opponents": "Oxfordshire",
+                "total": 460,
+                "wickets": 9,
+                "declared": true,
+                "location": "Moss Lane, Alderley Edge",
+                "seriesDate": "2011"
+            }
+        ],
+        [
+            {
+                "team": "Oxfordshire",
+                "opponents": "Cheshire",
+                "total": 408,
+                "wickets": 8,
+                "declared": true,
+                "location": "Boughton Hall Avenue, Chester",
+                "seriesDate": "2017"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "LF Dixon",
+                "team": "Cheshire",
+                "opponents": "Oxfordshire",
+                "score": 169,
+                "notOut": false,
+                "location": "White Post Road, Bodicote",
+                "seriesDate": "2010"
+            }
+        ],
+        [
+            {
+                "name": "HGK Smith",
+                "team": "Oxfordshire",
+                "opponents": "Cheshire",
+                "score": 134,
+                "notOut": true,
+                "location": "Moss Lane, Alderley Edge",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "AJ Syddall",
+                "team": "Cheshire",
+                "opponents": "Oxfordshire",
+                "wickets": 6,
+                "runs": 23,
+                "location": "Ledwell Road, Great Tew",
+                "seriesDate": "2013"
+            }
+        ],
+        [
+            {
+                "name": "KA Arnold",
+                "team": "Oxfordshire",
+                "opponents": "Cheshire",
+                "wickets": 7,
+                "runs": 45,
+                "location": "Boughton Hall Avenue, Chester",
+                "seriesDate": "1986"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "DB Pennett",
+                "team": "Cheshire",
+                "opponents": "Oxfordshire",
+                "wickets": 10,
+                "runs": 116,
+                "location": "Whitehouse Lane, Nantwich",
+                "seriesDate": "2005"
+            }
+        ],
+        [
+            {
+                "name": "CB Keegan",
+                "team": "Oxfordshire",
+                "opponents": "Cheshire",
+                "wickets": 10,
+                "runs": 104,
+                "location": "Whitehouse Lane, Nantwich",
+                "seriesDate": "2014"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Boughton Hall Avenue, Chester",
+                        "seriesDate": "2017",
+                        "partnership": 181,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "C Rowe",
+                        "player1Score": 95,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DN Leech",
+                        "player2Score": 100,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Oxfordshire",
+                        "location": "South Downs Road, Bowdon",
+                        "seriesDate": "1992",
+                        "partnership": 154,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Oxfordshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2021",
+                        "partnership": 160,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "SJ Perry",
+                        "player1Score": 76,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "RT Sehmi",
+                        "player2Score": 80,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Church Meadow, Thame",
+                        "seriesDate": "2019",
+                        "partnership": 210,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RT Sehmi",
+                        "player1Score": 145,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SJ Perry",
+                        "player2Score": 103,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Whitehouse Lane, Nantwich",
+                        "seriesDate": "2005",
+                        "partnership": 196,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Parkgate, Neston",
+                        "seriesDate": "1996",
+                        "partnership": 110,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "ND Cross",
+                        "player1Score": 76,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JR Carpenter",
+                        "player2Score": 52,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Oxfordshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2010",
+                        "partnership": 170,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "LF Dixon",
+                        "player1Score": 169,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "AJ Hall",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Boughton Hall Avenue, Chester",
+                        "seriesDate": "2017",
+                        "partnership": 84,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "WJ Evans",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "HJ Killoran",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Morris Motors Sports Ground, Cowley",
+                        "seriesDate": "1983",
+                        "partnership": 57,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Whitehouse Lane, Nantwich",
+                        "seriesDate": "2014",
+                        "partnership": 57,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "C Rowe",
+                        "player1Score": 53,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "DA Woods",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Cheshire",
+                        "location": "South Downs Road, Bowdon",
+                        "seriesDate": "1994",
+                        "partnership": 146,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SNV Waterton",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JN Batty",
+                        "player2Score": 97,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Cheshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2023",
+                        "partnership": 133,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "L Hayes",
+                        "player1Score": 57,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DA Driscoll",
+                        "player2Score": 98,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Cheshire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1988",
+                        "partnership": 108,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Cheshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2007",
+                        "partnership": 170,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Cheshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2021",
+                        "partnership": 136,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "TM Cosford",
+                        "player1Score": 96,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "GG Tait",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Cheshire",
+                        "location": "Whitehouse Lane, Nantwich",
+                        "seriesDate": "2005",
+                        "partnership": 100,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Cheshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2010",
+                        "partnership": 123,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "DT Smith",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "SM Hole",
+                        "player2Score": 78,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Cheshire",
+                        "location": "Banbury Twenty Cricket Club Ground, Banbury",
+                        "seriesDate": "1991",
+                        "partnership": 75,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "GP Savin",
+                        "player1Score": 62,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "RA Evans",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Cheshire",
+                        "location": "Boughton Hall Avenue, Chester",
+                        "seriesDate": "2017",
+                        "partnership": 91,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "OD Clarke",
+                        "player1Score": 53,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "LM Bethell",
+                        "player2Score": 63,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Cheshire",
+                        "location": "Whitehouse Lane, Nantwich",
+                        "seriesDate": "2005",
+                        "partnership": 65,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "I Cockbain",
+                "team": "Cheshire",
+                "opponents": "Oxfordshire",
+                "matches": 14,
+                "runs": 785,
+                "innings": 24,
+                "notOuts": 1,
+                "average": 34.13,
+                "hs": "130*"
+            }
+        ],
+        [
+            {
+                "name": "PJ Garner",
+                "team": "Oxfordshire",
+                "opponents": "Cheshire",
+                "matches": 11,
+                "runs": 666,
+                "innings": 20,
+                "notOuts": 1,
+                "average": 35.05,
+                "hs": "80"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "DA Woods",
+                "team": "Cheshire",
+                "opponents": "Oxfordshire",
+                "matches": 6,
+                "balls": 1291,
+                "maidens": 57,
+                "runs": 653,
+                "wickets": 26,
+                "bbruns": 100,
+                "bbwickets": 6,
+                "average": 25.11
+            }
+        ],
+        [
+            {
+                "name": "KA Arnold",
+                "team": "Oxfordshire",
+                "opponents": "Cheshire",
+                "matches": 19,
+                "balls": 3057,
+                "maidens": 131,
+                "runs": 1372,
+                "wickets": 59,
+                "bbruns": 45,
+                "bbwickets": 7,
+                "average": 23.25
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "S Bramhall",
+                "team": "Cheshire",
+                "opponents": "Oxfordshire",
+                "matches": 10,
+                "dismissals": 11
+            }
+        ],
+        [
+            {
+                "name": "IA Hawtin",
+                "team": "Oxfordshire",
+                "opponents": "Cheshire",
+                "matches": 11,
+                "dismissals": 21
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "S Bramhall",
+                "team": "Cheshire",
+                "opponents": "Oxfordshire",
+                "matches": 10,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "IA Hawtin",
+                "team": "Oxfordshire",
+                "opponents": "Cheshire",
+                "matches": 11,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Oxfordshire",
+                    "total": 92,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Whitehouse Lane, Nantwich",
+                    "seriesDate": "2014"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Oxfordshire",
+                    "total": 92,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Whitehouse Lane, Nantwich",
+                    "seriesDate": "2014"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Oxfordshire",
+                    "total": 51,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Moss Lane, Alderley Edge",
+                    "seriesDate": "2011"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Cheshire",
+                    "total": 54,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ledwell Road, Great Tew",
+                    "seriesDate": "2013"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Cheshire",
+                    "total": 54,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ledwell Road, Great Tew",
+                    "seriesDate": "2013"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Cheshire",
+                    "total": 3,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Moss Lane, Alderley Edge",
+                    "seriesDate": "2008"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:49.997354Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

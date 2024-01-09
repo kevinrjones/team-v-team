@@ -1,0 +1,985 @@
+{
+    "team1": "Hong Kong",
+    "team2": "India",
+    "competitionTitle": "International T20",
+    "competitionSubType": "itt",
+    "matchDto": {
+        "count": 1,
+        "startDate": "2022-08-31T01:00",
+        "endDate": "2022-08-31T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Hong Kong",
+                "opponents": "India",
+                "total": 152,
+                "wickets": 5,
+                "declared": false,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "team": "India",
+                "opponents": "Hong Kong",
+                "total": 192,
+                "wickets": 2,
+                "declared": false,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Babar Hayat",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "score": 41,
+                "notOut": false,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "SA Yadav",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "score": 68,
+                "notOut": true,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "SS McKechnie",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "strikeRate": 200.0,
+                "runs": 16,
+                "balls": 8,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "SA Yadav",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "strikeRate": 261.54,
+                "runs": 68,
+                "balls": 26,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "Zeeshan Ali",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "strikeRate": 152.94,
+                "runs": 26,
+                "balls": 17,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "SA Yadav",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "strikeRate": 261.54,
+                "runs": 68,
+                "balls": 26,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "Nizakat Khan",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "strikeRate": 83.33,
+                "runs": 10,
+                "balls": 12,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "KL Rahul",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "strikeRate": 92.31,
+                "runs": 36,
+                "balls": 39,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "KD Shah",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "strikeRate": 107.14,
+                "runs": 30,
+                "balls": 28,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "KL Rahul",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "strikeRate": 92.31,
+                "runs": 36,
+                "balls": 39,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "Babar Hayat",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "boundaries": 3,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "SA Yadav",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "Babar Hayat",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "boundaries": 2,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "SA Yadav",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "Babar Hayat",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "boundaries": 5,
+                "fours": 3,
+                "sixes": 2,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "SA Yadav",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "boundaries": 12,
+                "fours": 6,
+                "sixes": 6,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "wickets": 1,
+                "runs": 19,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "Bhuvneshwar Kumar",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "wickets": 1,
+                "runs": 15,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "RA Jadeja",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "wickets": 1,
+                "runs": 15,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "wickets": 1,
+                "runs": 19,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "Bhuvneshwar Kumar",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "wickets": 1,
+                "runs": 15,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "RA Jadeja",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "wickets": 1,
+                "runs": 15,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 19,
+                "sr": 12.0,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "Bhuvneshwar Kumar",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 15,
+                "sr": 18.0,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "A Shukla",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 29,
+                "sr": 24.0,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "Bhuvneshwar Kumar",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 15,
+                "sr": 18.0,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "Ehsan Khan",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 26,
+                "sr": 6.5,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "RA Jadeja",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 15,
+                "sr": 3.75,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "Ehsan Khan",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 26,
+                "sr": 6.5,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "RA Jadeja",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 15,
+                "sr": 3.75,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "Haroon Arshad",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 53,
+                "sr": 17.67,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "Aavesh Khan",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 53,
+                "sr": 13.25,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "Haroon Arshad",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 53,
+                "sr": 17.67,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "Aavesh Khan",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 53,
+                "sr": 13.25,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "India",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2022",
+                        "partnership": 12,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Nizakat Khan",
+                        "player1Score": 10,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Yasim Murtaza",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "India",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2022",
+                        "partnership": 39,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Nizakat Khan",
+                        "player1Score": 10,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Babar Hayat",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "India",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2022",
+                        "partnership": 23,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "Babar Hayat",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "KD Shah",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "India",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2022",
+                        "partnership": 31,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "KD Shah",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Aizaz Khan",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "India",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2022",
+                        "partnership": 11,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "KD Shah",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Zeeshan Ali",
+                        "player2Score": 26,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "India",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2022",
+                        "partnership": 36,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "Zeeshan Ali",
+                        "player1Score": 26,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "SS McKechnie",
+                        "player2Score": 16,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Hong Kong",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2022",
+                        "partnership": 38,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "KL Rahul",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RG Sharma",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Hong Kong",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2022",
+                        "partnership": 56,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "KL Rahul",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "V Kohli",
+                        "player2Score": 59,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "Hong Kong",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2022",
+                        "partnership": 98,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "V Kohli",
+                        "player1Score": 59,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "SA Yadav",
+                        "player2Score": 68,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Babar Hayat",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "matches": 1,
+                "runs": 41,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 41.0,
+                "hs": "41"
+            }
+        ],
+        [
+            {
+                "name": "SA Yadav",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "matches": 1,
+                "runs": 68,
+                "innings": 1,
+                "notOuts": 1,
+                "average": 0.0,
+                "hs": "68*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "matches": 1,
+                "balls": 12,
+                "maidens": 0,
+                "runs": 19,
+                "wickets": 1,
+                "bbruns": 19,
+                "bbwickets": 1,
+                "average": 19.0
+            },
+            {
+                "name": "A Shukla",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 0,
+                "runs": 29,
+                "wickets": 1,
+                "bbruns": 29,
+                "bbwickets": 1,
+                "average": 29.0
+            }
+        ],
+        [
+            {
+                "name": "Aavesh Khan",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 0,
+                "runs": 53,
+                "wickets": 1,
+                "bbruns": 53,
+                "bbwickets": 1,
+                "average": 53.0
+            },
+            {
+                "name": "Arshdeep Singh",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 0,
+                "runs": 44,
+                "wickets": 1,
+                "bbruns": 44,
+                "bbwickets": 1,
+                "average": 44.0
+            },
+            {
+                "name": "Bhuvneshwar Kumar",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "matches": 1,
+                "balls": 18,
+                "maidens": 0,
+                "runs": 15,
+                "wickets": 1,
+                "bbruns": 15,
+                "bbwickets": 1,
+                "average": 15.0
+            },
+            {
+                "name": "RA Jadeja",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 0,
+                "runs": 15,
+                "wickets": 1,
+                "bbruns": 15,
+                "bbwickets": 1,
+                "average": 15.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "Aizaz Khan",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "SS McKechnie",
+                "team": "Hong Kong",
+                "opponents": "India",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "Aavesh Khan",
+                "team": "India",
+                "opponents": "Hong Kong",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Hong Kong",
+                    "opponents": "India",
+                    "total": 152,
+                    "wickets": 5,
+                    "declared": false,
+                    "location": "Dubai Sports City Stadium, Dubai",
+                    "seriesDate": "2022"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Hong Kong",
+                    "opponents": "India",
+                    "total": 152,
+                    "wickets": 5,
+                    "declared": false,
+                    "location": "Dubai Sports City Stadium, Dubai",
+                    "seriesDate": "2022"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "India",
+                    "opponents": "Hong Kong",
+                    "total": 192,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Dubai Sports City Stadium, Dubai",
+                    "seriesDate": "2022"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "India",
+                    "opponents": "Hong Kong",
+                    "total": 192,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Dubai Sports City Stadium, Dubai",
+                    "seriesDate": "2022"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:20:15.369036Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

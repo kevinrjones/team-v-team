@@ -1,0 +1,840 @@
+{
+    "team1": "Gentlemen",
+    "team2": "Players",
+    "competitionTitle": "Gentlemen vs Players",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 273,
+        "startDate": "1806-07-06T23:58:45",
+        "endDate": "1962-09-08T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Gentlemen",
+                "opponents": "Players",
+                "total": 578,
+                "wickets": 10,
+                "declared": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "team": "Players",
+                "opponents": "Gentlemen",
+                "total": 651,
+                "wickets": 7,
+                "declared": true,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1934"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "CB Fry",
+                "team": "Gentlemen",
+                "opponents": "Players",
+                "score": 232,
+                "notOut": true,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1903"
+            }
+        ],
+        [
+            {
+                "name": "JB Hobbs",
+                "team": "Players",
+                "opponents": "Gentlemen",
+                "score": 266,
+                "notOut": true,
+                "location": "North Marine Road, Scarborough",
+                "seriesDate": "1925"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JWA Stephenson",
+                "team": "Gentlemen",
+                "opponents": "Players",
+                "wickets": 9,
+                "runs": 46,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1936"
+            }
+        ],
+        [
+            {
+                "name": "AS Kennedy",
+                "team": "Players",
+                "opponents": "Gentlemen",
+                "wickets": 10,
+                "runs": 37,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1927"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JWHT Douglas",
+                "team": "Gentlemen",
+                "opponents": "Players",
+                "wickets": 13,
+                "runs": 172,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1914"
+            }
+        ],
+        [
+            {
+                "name": "A Fielder",
+                "team": "Players",
+                "opponents": "Gentlemen",
+                "wickets": 14,
+                "runs": 221,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1906"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Gentlemen",
+                        "opponents": "Players",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1875",
+                        "partnership": 203,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WG Grace",
+                        "player1Score": 152,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AJ Webbe",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Gentlemen",
+                        "opponents": "Players",
+                        "location": "Royal Brunswick Ground, Hove",
+                        "seriesDate": "1871",
+                        "partnership": 241,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Gentlemen",
+                        "opponents": "Players",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1903",
+                        "partnership": 309,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "CB Fry",
+                        "player1Score": 232,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "AC MacLaren",
+                        "player2Score": 168,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Gentlemen",
+                        "opponents": "Players",
+                        "location": "North Marine Road, Scarborough",
+                        "seriesDate": "1953",
+                        "partnership": 205,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Gentlemen",
+                        "opponents": "Players",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1884",
+                        "partnership": 168,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Gentlemen",
+                        "opponents": "Players",
+                        "location": "North Marine Road, Scarborough",
+                        "seriesDate": "1908",
+                        "partnership": 164,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Gentlemen",
+                        "opponents": "Players",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1904",
+                        "partnership": 249,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Gentlemen",
+                        "opponents": "Players",
+                        "location": "North Marine Road, Scarborough",
+                        "seriesDate": "1902",
+                        "partnership": 129,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Gentlemen",
+                        "opponents": "Players",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1925",
+                        "partnership": 193,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Gentlemen",
+                        "opponents": "Players",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1924",
+                        "partnership": 134,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Players",
+                        "opponents": "Gentlemen",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1926",
+                        "partnership": 263,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JB Hobbs",
+                        "player1Score": 163,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "H Sutcliffe",
+                        "player2Score": 107,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Players",
+                        "opponents": "Gentlemen",
+                        "location": "North Marine Road, Scarborough",
+                        "seriesDate": "1927",
+                        "partnership": 181,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Players",
+                        "opponents": "Gentlemen",
+                        "location": "North Marine Road, Scarborough",
+                        "seriesDate": "1925",
+                        "partnership": 298,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Players",
+                        "opponents": "Gentlemen",
+                        "location": "Cheriton Road Sports Ground, Folkestone",
+                        "seriesDate": "1927",
+                        "partnership": 226,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Players",
+                        "opponents": "Gentlemen",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1921",
+                        "partnership": 151,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Players",
+                        "opponents": "Gentlemen",
+                        "location": "Cheriton Road Sports Ground, Folkestone",
+                        "seriesDate": "1933",
+                        "partnership": 204,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Players",
+                        "opponents": "Gentlemen",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1959",
+                        "partnership": 184,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Players",
+                        "opponents": "Gentlemen",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1903",
+                        "partnership": 118,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AE Knight",
+                        "player1Score": 139,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "SF Barnes",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Players",
+                        "opponents": "Gentlemen",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1896",
+                        "partnership": 156,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "TW Hayward",
+                        "player1Score": 116,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JT Hearne",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Players",
+                        "opponents": "Gentlemen",
+                        "location": "Cheriton Road Sports Ground, Folkestone",
+                        "seriesDate": "1930",
+                        "partnership": 140,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "GS Boyes",
+                        "player1Score": 95,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "AE Thomas",
+                        "player2Score": 74,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "WG Grace",
+                "team": "Gentlemen",
+                "opponents": "Players",
+                "matches": 85,
+                "runs": 6008,
+                "innings": 151,
+                "notOuts": 10,
+                "average": 42.6,
+                "hs": "217"
+            }
+        ],
+        [
+            {
+                "name": "JB Hobbs",
+                "team": "Players",
+                "opponents": "Gentlemen",
+                "matches": 48,
+                "runs": 4008,
+                "innings": 77,
+                "notOuts": 5,
+                "average": 55.66,
+                "hs": "266*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "WG Grace",
+                "team": "Gentlemen",
+                "opponents": "Players",
+                "matches": 69,
+                "balls": 12719,
+                "maidens": 1171,
+                "runs": 5074,
+                "wickets": 271,
+                "bbruns": 25,
+                "bbwickets": 8,
+                "average": 18.72
+            }
+        ],
+        [
+            {
+                "name": "A Shaw",
+                "team": "Players",
+                "opponents": "Gentlemen",
+                "matches": 26,
+                "balls": 7595,
+                "maidens": 1001,
+                "runs": 2102,
+                "wickets": 134,
+                "bbruns": 17,
+                "bbwickets": 7,
+                "average": 15.68
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "WG Grace",
+                "team": "Gentlemen",
+                "opponents": "Players",
+                "matches": 85,
+                "dismissals": 97
+            }
+        ],
+        [
+            {
+                "name": "FE Woolley",
+                "team": "Players",
+                "opponents": "Gentlemen",
+                "matches": 30,
+                "dismissals": 43
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "EFS Tylecote",
+                "team": "Gentlemen",
+                "opponents": "Players",
+                "matches": 17,
+                "dismissals": 21
+            }
+        ],
+        [
+            {
+                "name": "TG Evans",
+                "team": "Players",
+                "opponents": "Gentlemen",
+                "matches": 20,
+                "dismissals": 20
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Gentlemen",
+                    "opponents": "Players",
+                    "total": 31,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1848"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Gentlemen",
+                    "opponents": "Players",
+                    "total": 31,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1848"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Gentlemen",
+                    "opponents": "Players",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Royal New Ground, Brighton",
+                    "seriesDate": "1845"
+                },
+                {
+                    "team": "Gentlemen",
+                    "opponents": "Players",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1922"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Players",
+                    "opponents": "Gentlemen",
+                    "total": 24,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1829"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Players",
+                    "opponents": "Gentlemen",
+                    "total": 24,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1829"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Players",
+                    "opponents": "Gentlemen",
+                    "total": 3,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1947"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:03.975347Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

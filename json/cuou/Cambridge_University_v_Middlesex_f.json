@@ -1,0 +1,878 @@
+{
+    "team1": "Cambridge University",
+    "team2": "Middlesex",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 56,
+        "startDate": "1898-05-19T00:00",
+        "endDate": "2000-05-16T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridge University",
+                "opponents": "Middlesex",
+                "total": 393,
+                "wickets": 8,
+                "declared": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1948"
+            }
+        ],
+        [
+            {
+                "team": "Middlesex",
+                "opponents": "Cambridge University",
+                "total": 448,
+                "wickets": 10,
+                "declared": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1980"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "KS Duleepsinhji",
+                "team": "Cambridge University",
+                "opponents": "Middlesex",
+                "score": 254,
+                "notOut": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1927"
+            }
+        ],
+        [
+            {
+                "name": "DCS Compton",
+                "team": "Middlesex",
+                "opponents": "Cambridge University",
+                "score": 202,
+                "notOut": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1946"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "RC Rought-Rought",
+                "team": "Cambridge University",
+                "opponents": "Middlesex",
+                "wickets": 7,
+                "runs": 36,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1930"
+            }
+        ],
+        [
+            {
+                "name": "FJ Titmus",
+                "team": "Middlesex",
+                "opponents": "Cambridge University",
+                "wickets": 9,
+                "runs": 52,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1962"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RC Rought-Rought",
+                "team": "Cambridge University",
+                "opponents": "Middlesex",
+                "wickets": 10,
+                "runs": 120,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1930"
+            }
+        ],
+        [
+            {
+                "name": "FJ Titmus",
+                "team": "Middlesex",
+                "opponents": "Cambridge University",
+                "wickets": 12,
+                "runs": 82,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1962"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Middlesex",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1951",
+                        "partnership": 167,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DS Sheppard",
+                        "player1Score": 126,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "KPA Mathews",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Middlesex",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1951",
+                        "partnership": 215,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Middlesex",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1971",
+                        "partnership": 186,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Middlesex",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1982",
+                        "partnership": 220,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Middlesex",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1980",
+                        "partnership": 148,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Middlesex",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1927",
+                        "partnership": 145,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "KS Duleepsinhji",
+                        "player1Score": 254,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "TC Longfield",
+                        "player2Score": 29,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Middlesex",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1953",
+                        "partnership": 69,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Middlesex",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "2000",
+                        "partnership": 94,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RWJ Howitt",
+                        "player1Score": 118,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "JWS Piper",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Middlesex",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1948",
+                        "partnership": 149,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "BJK Pryer",
+                        "player1Score": 75,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "RD Pearsall",
+                        "player2Score": 80,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Middlesex",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1952",
+                        "partnership": 48,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "FCM Alexander",
+                        "player1Score": 48,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "CN McCarthy",
+                        "player2Score": 23,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1949",
+                        "partnership": 229,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SM Brown",
+                        "player1Score": 179,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HPH Sharp",
+                        "player2Score": 98,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1997",
+                        "partnership": 257,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "PE Wellings",
+                        "player1Score": 128,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "MW Gatting",
+                        "player2Score": 160,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 265,
+                        "wicket": 2,
+                        "playerDetails": [
+                            {
+                                "team": "Middlesex",
+                                "opponents": "Cambridge University",
+                                "location": "FP Fenner's Ground, Cambridge",
+                                "seriesDate": "1997",
+                                "partnership": 257,
+                                "wicket": 2,
+                                "undefeated": true,
+                                "player1Name": "PE Wellings",
+                                "player1Score": 128,
+                                "player1NotOut": true,
+                                "player1Position": 2,
+                                "player2Name": "MW Gatting",
+                                "player2Score": 160,
+                                "player2NotOut": true,
+                                "player2Position": 3
+                            },
+                            {
+                                "team": "Middlesex",
+                                "opponents": "Cambridge University",
+                                "location": "FP Fenner's Ground, Cambridge",
+                                "seriesDate": "1997",
+                                "partnership": 8,
+                                "wicket": 2,
+                                "undefeated": false,
+                                "player1Name": "PE Wellings",
+                                "player1Score": 128,
+                                "player1NotOut": true,
+                                "player1Position": 2,
+                                "player2Name": "JC Pooley",
+                                "player2Score": 5,
+                                "player2NotOut": false,
+                                "player2Position": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1946",
+                        "partnership": 169,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1957",
+                        "partnership": 197,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1965",
+                        "partnership": 143,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1946",
+                        "partnership": 96,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1930",
+                        "partnership": 88,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1994",
+                        "partnership": 106,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "JD Carr",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "RL Johnson",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1933",
+                        "partnership": 49,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1952",
+                        "partnership": 86,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "R Routledge",
+                        "player1Score": 73,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "RV Bell",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "DS Sheppard",
+                "team": "Cambridge University",
+                "opponents": "Middlesex",
+                "matches": 2,
+                "runs": 395,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 98.75,
+                "hs": "143"
+            }
+        ],
+        [
+            {
+                "name": "SM Brown",
+                "team": "Middlesex",
+                "opponents": "Cambridge University",
+                "matches": 9,
+                "runs": 953,
+                "innings": 15,
+                "notOuts": 1,
+                "average": 68.07,
+                "hs": "179"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RG Marlar",
+                "team": "Cambridge University",
+                "opponents": "Middlesex",
+                "matches": 3,
+                "balls": 1146,
+                "maidens": 46,
+                "runs": 460,
+                "wickets": 16,
+                "bbruns": 57,
+                "bbwickets": 5,
+                "average": 28.75
+            }
+        ],
+        [
+            {
+                "name": "FJ Titmus",
+                "team": "Middlesex",
+                "opponents": "Cambridge University",
+                "matches": 12,
+                "balls": 3146,
+                "maidens": 213,
+                "runs": 929,
+                "wickets": 68,
+                "bbruns": 52,
+                "bbwickets": 9,
+                "average": 13.66
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "CB Howland",
+                "team": "Cambridge University",
+                "opponents": "Middlesex",
+                "matches": 2,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "JT Murray",
+                "team": "Middlesex",
+                "opponents": "Cambridge University",
+                "matches": 12,
+                "dismissals": 17
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "MG Griffith",
+                "team": "Cambridge University",
+                "opponents": "Middlesex",
+                "matches": 3,
+                "dismissals": 3
+            },
+            {
+                "name": "DJ Insole",
+                "team": "Cambridge University",
+                "opponents": "Middlesex",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "JT Murray",
+                "team": "Middlesex",
+                "opponents": "Cambridge University",
+                "matches": 12,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Middlesex",
+                    "total": 51,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1922"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Middlesex",
+                    "total": 51,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1922"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Middlesex",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1985"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Middlesex",
+                    "opponents": "Cambridge University",
+                    "total": 63,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1912"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Middlesex",
+                    "opponents": "Cambridge University",
+                    "total": 63,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1912"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Middlesex",
+                    "opponents": "Cambridge University",
+                    "total": 6,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1957"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:43.983028Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

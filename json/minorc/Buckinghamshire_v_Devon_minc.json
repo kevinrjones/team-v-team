@@ -1,0 +1,887 @@
+{
+    "team1": "Buckinghamshire",
+    "team2": "Devon",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 13,
+        "startDate": "1910-08-03T00:00",
+        "endDate": "2023-09-03T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Buckinghamshire",
+                "opponents": "Devon",
+                "total": 567,
+                "wickets": 10,
+                "declared": false,
+                "location": "Sandwell Park, West Bromwich",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "team": "Devon",
+                "opponents": "Buckinghamshire",
+                "total": 302,
+                "wickets": 10,
+                "declared": false,
+                "location": "The Maer Ground, Exmouth",
+                "seriesDate": "2006"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RAJ Richardson",
+                "team": "Buckinghamshire",
+                "opponents": "Devon",
+                "score": 166,
+                "notOut": false,
+                "location": "Sandwell Park, West Bromwich",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "name": "ND Hancock",
+                "team": "Devon",
+                "opponents": "Buckinghamshire",
+                "score": 139,
+                "notOut": true,
+                "location": "The Maer Ground, Exmouth",
+                "seriesDate": "2006"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "CD Booden",
+                "team": "Buckinghamshire",
+                "opponents": "Devon",
+                "wickets": 7,
+                "runs": 19,
+                "location": "Pound Lane, Marlow",
+                "seriesDate": "1986"
+            }
+        ],
+        [
+            {
+                "name": "A Jones",
+                "team": "Devon",
+                "opponents": "Buckinghamshire",
+                "wickets": 7,
+                "runs": 32,
+                "location": "The Maer Ground, Exmouth",
+                "seriesDate": "2006"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "S Burrow",
+                "team": "Buckinghamshire",
+                "opponents": "Devon",
+                "wickets": 9,
+                "runs": 85,
+                "location": "The Fortfield, Sidmouth",
+                "seriesDate": "1991"
+            }
+        ],
+        [
+            {
+                "name": "WF Christian",
+                "team": "Devon",
+                "opponents": "Buckinghamshire",
+                "wickets": 11,
+                "runs": 130,
+                "location": "London Road, High Wycombe",
+                "seriesDate": "1910"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Devon",
+                        "location": "Pound Lane, Marlow",
+                        "seriesDate": "1984",
+                        "partnership": 108,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "ME Milton",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AR Harwood",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2006",
+                        "partnership": 131,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AD Hales",
+                        "player1Score": 92,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JC Harrison",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Devon",
+                        "location": "Pound Lane, Marlow",
+                        "seriesDate": "1984",
+                        "partnership": 76,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "ME Milton",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RE Hayward",
+                        "player2Score": 73,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "1989",
+                        "partnership": 117,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "MJ Roberts",
+                        "player1Score": 149,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "GR Black",
+                        "player2Score": 45,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Devon",
+                        "location": "Pound Lane, Marlow",
+                        "seriesDate": "1990",
+                        "partnership": 109,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "S Burrow",
+                        "player1Score": 86,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "NG Hames",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Devon",
+                        "location": "Sandwell Park, West Bromwich",
+                        "seriesDate": "2023",
+                        "partnership": 92,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RAJ Richardson",
+                        "player1Score": 166,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "G Harvey",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "1985",
+                        "partnership": 65,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SJ Edwards",
+                        "player1Score": 68,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "PA Cooper",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2006",
+                        "partnership": 46,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "PD Atkins",
+                        "player1Score": 29,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "GDT Paskins",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Devon",
+                        "location": "Sandwell Park, West Bromwich",
+                        "seriesDate": "2023",
+                        "partnership": 59,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RAJ Richardson",
+                        "player1Score": 166,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "TRG Hampton",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Devon",
+                        "location": "Sandwell Park, West Bromwich",
+                        "seriesDate": "2023",
+                        "partnership": 33,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CPW Haddow",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "T Weymes",
+                        "player2Score": 16,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "Pound Lane, Marlow",
+                        "seriesDate": "1984",
+                        "partnership": 96,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Agha Zahid",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RC Tolchard",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "1989",
+                        "partnership": 86,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JH Edwards",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "NA Folland",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "Pound Lane, Marlow",
+                        "seriesDate": "1990",
+                        "partnership": 121,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "KG Rice",
+                        "player1Score": 84,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AJ Pugh",
+                        "player2Score": 100,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2006",
+                        "partnership": 256,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "CM Mole",
+                        "player1Score": 88,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "ND Hancock",
+                        "player2Score": 139,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2006",
+                        "partnership": 79,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "ND Hancock",
+                        "player1Score": 95,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DG Court",
+                        "player2Score": 53,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "1989",
+                        "partnership": 49,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "NR Gaywood",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "JK Tierney",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "1989",
+                        "partnership": 49,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "JK Tierney",
+                        "player1Score": 29,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "K Donohue",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "The Recreation Ground, Torquay",
+                        "seriesDate": "1983",
+                        "partnership": 45,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AW Allin",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "PA Brown",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "The Recreation Ground, Torquay",
+                        "seriesDate": "1983",
+                        "partnership": 55,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "PA Brown",
+                        "player1Score": 22,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "NJ Mountford",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "The Recreation Ground, Torquay",
+                        "seriesDate": "1983",
+                        "partnership": 14,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "ML Taylor",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "NJ Mountford",
+                        "player2Score": 3,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "Pound Lane, Marlow",
+                        "seriesDate": "1986",
+                        "partnership": 14,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "DI Yeabsley",
+                        "player1Score": 8,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "PG Considine",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "Devon",
+                        "opponents": "Buckinghamshire",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2006",
+                        "partnership": 14,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "DG Court",
+                        "player1Score": 53,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "A Jones",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "MJ Roberts",
+                "team": "Buckinghamshire",
+                "opponents": "Devon",
+                "matches": 4,
+                "runs": 448,
+                "innings": 8,
+                "notOuts": 1,
+                "average": 64.0,
+                "hs": "149*"
+            }
+        ],
+        [
+            {
+                "name": "KG Rice",
+                "team": "Devon",
+                "opponents": "Buckinghamshire",
+                "matches": 7,
+                "runs": 404,
+                "innings": 14,
+                "notOuts": 0,
+                "average": 28.85,
+                "hs": "84"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "CD Booden",
+                "team": "Buckinghamshire",
+                "opponents": "Devon",
+                "matches": 7,
+                "balls": 1129,
+                "maidens": 53,
+                "runs": 488,
+                "wickets": 26,
+                "bbruns": 19,
+                "bbwickets": 7,
+                "average": 18.76
+            }
+        ],
+        [
+            {
+                "name": "AW Allin",
+                "team": "Devon",
+                "opponents": "Buckinghamshire",
+                "matches": 5,
+                "balls": 1264,
+                "maidens": 57,
+                "runs": 634,
+                "wickets": 27,
+                "bbruns": 47,
+                "bbwickets": 6,
+                "average": 23.48
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "DJ Goldsmith",
+                "team": "Buckinghamshire",
+                "opponents": "Devon",
+                "matches": 3,
+                "dismissals": 6
+            },
+            {
+                "name": "RE Hayward",
+                "team": "Buckinghamshire",
+                "opponents": "Devon",
+                "matches": 3,
+                "dismissals": 6
+            },
+            {
+                "name": "CJ Tungate",
+                "team": "Buckinghamshire",
+                "opponents": "Devon",
+                "matches": 3,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "JH Edwards",
+                "team": "Devon",
+                "opponents": "Buckinghamshire",
+                "matches": 9,
+                "dismissals": 11
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "DJ Goldsmith",
+                "team": "Buckinghamshire",
+                "opponents": "Devon",
+                "matches": 3,
+                "dismissals": 2
+            },
+            {
+                "name": "RG Humphrey",
+                "team": "Buckinghamshire",
+                "opponents": "Devon",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "RC Turpin",
+                "team": "Devon",
+                "opponents": "Buckinghamshire",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Devon",
+                    "total": 115,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "London Road, High Wycombe",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Devon",
+                    "total": 115,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "London Road, High Wycombe",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Devon",
+                    "total": 38,
+                    "wickets": 0,
+                    "declared": true,
+                    "location": "Pound Lane, Marlow",
+                    "seriesDate": "1986"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Devon",
+                    "opponents": "Buckinghamshire",
+                    "total": 51,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Pound Lane, Marlow",
+                    "seriesDate": "1986"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Buckinghamshire",
+                    "total": 51,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Pound Lane, Marlow",
+                    "seriesDate": "1986"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Buckinghamshire",
+                    "total": 38,
+                    "wickets": 2,
+                    "declared": true,
+                    "location": "Pound Lane, Marlow",
+                    "seriesDate": "1986"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:54.107796Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

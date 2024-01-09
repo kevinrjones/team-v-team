@@ -1,0 +1,841 @@
+{
+    "team1": "Norfolk",
+    "team2": "Suffolk",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 124,
+        "startDate": "1904-07-13T00:00",
+        "endDate": "2023-08-13T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Stephen Musk"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Norfolk",
+                "opponents": "Suffolk",
+                "total": 401,
+                "wickets": 6,
+                "declared": false,
+                "location": "Woolpit Sports Field, Woolpit",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "team": "Suffolk",
+                "opponents": "Norfolk",
+                "total": 450,
+                "wickets": 6,
+                "declared": true,
+                "location": "Portman Road, Ipswich",
+                "seriesDate": "1908"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "PG Powell",
+                "team": "Norfolk",
+                "opponents": "Suffolk",
+                "score": 172,
+                "notOut": false,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "name": "FTD Wilson",
+                "team": "Suffolk",
+                "opponents": "Norfolk",
+                "score": 183,
+                "notOut": false,
+                "location": "Portman Road, Ipswich",
+                "seriesDate": "1908"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "GB Raikes",
+                "team": "Norfolk",
+                "opponents": "Suffolk",
+                "wickets": 9,
+                "runs": 24,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1910"
+            }
+        ],
+        [
+            {
+                "name": "PW Cobbold",
+                "team": "Suffolk",
+                "opponents": "Norfolk",
+                "wickets": 9,
+                "runs": 15,
+                "location": "Town Ground, Felixstowe",
+                "seriesDate": "1904"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "R Falconer",
+                "team": "Norfolk",
+                "opponents": "Suffolk",
+                "wickets": 13,
+                "runs": 95,
+                "location": "Cemetery Road, Bury St Edmunds",
+                "seriesDate": "1912"
+            }
+        ],
+        [
+            {
+                "name": "C Rutterford",
+                "team": "Suffolk",
+                "opponents": "Norfolk",
+                "wickets": 14,
+                "runs": 94,
+                "location": "The Victory Ground, Bury St Edmunds",
+                "seriesDate": "1974"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Suffolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1953",
+                        "partnership": 244,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PG Powell",
+                        "player1Score": 120,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "NH Moore",
+                        "player2Score": 122,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Suffolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1954",
+                        "partnership": 203,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "PG Powell",
+                        "player1Score": 149,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WO Thomas",
+                        "player2Score": 104,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Suffolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1970",
+                        "partnership": 146,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "FLQ Handley",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WJ Elliott",
+                        "player2Score": 77,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Suffolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1950",
+                        "partnership": 188,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "PG Powell",
+                        "player1Score": 172,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BA Clements",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Suffolk",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2002",
+                        "partnership": 108,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "CR Borrett",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "JM Spelman",
+                        "player2Score": 41,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Suffolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1958",
+                        "partnership": 93,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "EG Witherden",
+                        "player1Score": 133,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "WO Thomas",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Suffolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1904",
+                        "partnership": 107,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "GB Raikes",
+                        "player1Score": 145,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "A Shingler",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Suffolk",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2008",
+                        "partnership": 81,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SK Gray",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "C Brown",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Suffolk",
+                        "location": "Wamil Way, Mildenhall",
+                        "seriesDate": "2003",
+                        "partnership": 101,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "C Brown",
+                        "player1Score": 118,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "MD Goodrham",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Suffolk",
+                        "location": "Old London Road, Copdock",
+                        "seriesDate": "2018",
+                        "partnership": 70,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "BW Stolworthy",
+                        "player1Score": 38,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "SJ Groves",
+                        "player2Score": 23,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1964",
+                        "partnership": 251,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "ID Prior",
+                        "player1Score": 122,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CHC Piper",
+                        "player2Score": 120,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Norfolk",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2008",
+                        "partnership": 240,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TB Huggins",
+                        "player1Score": 160,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MG Cull",
+                        "player2Score": 82,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Norfolk",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2002",
+                        "partnership": 211,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AD Mawson",
+                        "player1Score": 162,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "TM Catley",
+                        "player2Score": 88,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Norfolk",
+                        "location": "Denes Oval, Lowestoft",
+                        "seriesDate": "1962",
+                        "partnership": 194,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "RE Cunnell",
+                        "player1Score": 117,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JH Harris",
+                        "player2Score": 76,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Norfolk",
+                        "location": "Denes Oval, Lowestoft",
+                        "seriesDate": "1954",
+                        "partnership": 162,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "BH Belle",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "CBT Gibbons",
+                        "player2Score": 78,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1989",
+                        "partnership": 123,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "PJ Caley",
+                        "player1Score": 86,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "NJ Gregory",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Norfolk",
+                        "location": "Old London Road, Copdock",
+                        "seriesDate": "2015",
+                        "partnership": 74,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SM Guy",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "BJ Reece",
+                        "player2Score": 42,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Norfolk",
+                        "location": "Wamil Way, Mildenhall",
+                        "seriesDate": "2006",
+                        "partnership": 124,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "CA Swallow",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "PD King",
+                        "player2Score": 98,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Norfolk",
+                        "location": "Wamil Way, Mildenhall",
+                        "seriesDate": "2003",
+                        "partnership": 113,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "CP Seal",
+                        "player1Score": 72,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "PJ Caley",
+                        "player2Score": 43,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Norfolk",
+                        "location": "Town Ground, Felixstowe",
+                        "seriesDate": "1948",
+                        "partnership": 63,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MD Corke",
+                        "player1Score": 163,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "NB Quinton",
+                        "player2Score": 3,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "SG Plumb",
+                "team": "Norfolk",
+                "opponents": "Suffolk",
+                "matches": 17,
+                "runs": 1135,
+                "innings": 30,
+                "notOuts": 3,
+                "average": 42.03,
+                "hs": "103"
+            }
+        ],
+        [
+            {
+                "name": "AG Warrington",
+                "team": "Suffolk",
+                "opponents": "Norfolk",
+                "matches": 30,
+                "runs": 1603,
+                "innings": 56,
+                "notOuts": 3,
+                "average": 30.24,
+                "hs": "87"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "E Gibson",
+                "team": "Norfolk",
+                "opponents": "Suffolk",
+                "matches": 17,
+                "balls": 2946,
+                "maidens": 136,
+                "runs": 1189,
+                "wickets": 87,
+                "bbruns": 36,
+                "bbwickets": 7,
+                "average": 13.66
+            }
+        ],
+        [
+            {
+                "name": "GC Perkins",
+                "team": "Suffolk",
+                "opponents": "Norfolk",
+                "matches": 42,
+                "balls": 8708,
+                "maidens": 592,
+                "runs": 2550,
+                "wickets": 175,
+                "bbruns": 59,
+                "bbwickets": 8,
+                "average": 14.57
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "DE Mattocks",
+                "team": "Norfolk",
+                "opponents": "Suffolk",
+                "matches": 37,
+                "dismissals": 70
+            }
+        ],
+        [
+            {
+                "name": "SA Westley",
+                "team": "Suffolk",
+                "opponents": "Norfolk",
+                "matches": 17,
+                "dismissals": 46
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "DE Mattocks",
+                "team": "Norfolk",
+                "opponents": "Suffolk",
+                "matches": 37,
+                "dismissals": 11
+            }
+        ],
+        [
+            {
+                "name": "ID Prior",
+                "team": "Suffolk",
+                "opponents": "Norfolk",
+                "matches": 20,
+                "dismissals": 13
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Suffolk",
+                    "total": 47,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Portman Road, Ipswich",
+                    "seriesDate": "1908"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Suffolk",
+                    "total": 47,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Portman Road, Ipswich",
+                    "seriesDate": "1908"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Suffolk",
+                    "total": 5,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Manor Park, Horsford",
+                    "seriesDate": "2017"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Suffolk",
+                    "opponents": "Norfolk",
+                    "total": 39,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1912"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Suffolk",
+                    "opponents": "Norfolk",
+                    "total": 39,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1912"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Suffolk",
+                    "opponents": "Norfolk",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Wamil Way, Mildenhall",
+                    "seriesDate": "1977"
+                },
+                {
+                    "team": "Suffolk",
+                    "opponents": "Norfolk",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Wamil Way, Mildenhall",
+                    "seriesDate": "1998"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:10:41.301039Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

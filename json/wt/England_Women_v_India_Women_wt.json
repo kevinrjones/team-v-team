@@ -1,0 +1,864 @@
+{
+    "team1": "England Women",
+    "team2": "India Women",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "wt",
+    "matchDto": {
+        "count": 15,
+        "startDate": "1986-06-26T01:00",
+        "endDate": "2023-12-14T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "England Women",
+                "opponents": "India Women",
+                "total": 396,
+                "wickets": 9,
+                "declared": true,
+                "location": "County Ground, Bristol",
+                "seriesDate": "2021"
+            }
+        ],
+        [
+            {
+                "team": "India Women",
+                "opponents": "England Women",
+                "total": 467,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Taunton",
+                "seriesDate": "2002"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JA Brittin",
+                "team": "England Women",
+                "opponents": "India Women",
+                "score": 125,
+                "notOut": false,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1986"
+            }
+        ],
+        [
+            {
+                "name": "MD Raj",
+                "team": "India Women",
+                "opponents": "England Women",
+                "score": 214,
+                "notOut": false,
+                "location": "County Ground, Taunton",
+                "seriesDate": "2002"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "GE McConway",
+                "team": "England Women",
+                "opponents": "India Women",
+                "wickets": 7,
+                "runs": 34,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1986"
+            }
+        ],
+        [
+            {
+                "name": "NL David",
+                "team": "India Women",
+                "opponents": "England Women",
+                "wickets": 8,
+                "runs": 53,
+                "location": "Keenan Stadium, Jamshedpur",
+                "seriesDate": "1995/96"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "S Ecclestone",
+                "team": "England Women",
+                "opponents": "India Women",
+                "wickets": 8,
+                "runs": 206,
+                "location": "County Ground, Bristol",
+                "seriesDate": "2021"
+            }
+        ],
+        [
+            {
+                "name": "JN Goswami",
+                "team": "India Women",
+                "opponents": "England Women",
+                "wickets": 10,
+                "runs": 78,
+                "location": "County Ground, Taunton",
+                "seriesDate": "2006"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "India Women",
+                        "location": "KD Singh Babu Stadium, Lucknow",
+                        "seriesDate": "2001/02",
+                        "partnership": 200,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CMG Atkins",
+                        "player1Score": 90,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "A Thompson",
+                        "player2Score": 85,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "India Women",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1986",
+                        "partnership": 207,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JA Brittin",
+                        "player1Score": 125,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CA Hodges",
+                        "player2Score": 121,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "India Women",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "2006",
+                        "partnership": 178,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "CMG Atkins",
+                        "player1Score": 68,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CM Edwards",
+                        "player2Score": 105,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "India Women",
+                        "location": "Stanley Park, Blackpool",
+                        "seriesDate": "1986",
+                        "partnership": 107,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "J Powell",
+                        "player1Score": 115,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "S Potter",
+                        "player2Score": 49,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "India Women",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1986",
+                        "partnership": 73,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "S Potter",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "J Powell",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "India Women",
+                        "location": "KD Singh Babu Stadium, Lucknow",
+                        "seriesDate": "2001/02",
+                        "partnership": 48,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "CJ Connor",
+                        "player1Score": 40,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JL Hawker",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "India Women",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "2002",
+                        "partnership": 106,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "LK Newton",
+                        "player1Score": 98,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "MC Godliman",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "India Women",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "2002",
+                        "partnership": 60,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "MC Godliman",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "NJ Shaw",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "India Women",
+                        "location": "County Ground, Bristol",
+                        "seriesDate": "2021",
+                        "partnership": 70,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SIR Dunkley",
+                        "player1Score": 74,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "A Shrubsole",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "India Women",
+                        "location": "Denis Compton Oval, Shenley",
+                        "seriesDate": "1999",
+                        "partnership": 30,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "SV Collyer",
+                        "player1Score": 21,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "CE Taylor",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, Bristol",
+                        "seriesDate": "2021",
+                        "partnership": 167,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SS Mandhana",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "S Verma",
+                        "player2Score": 96,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "England Women",
+                        "location": "Stanley Park, Blackpool",
+                        "seriesDate": "1986",
+                        "partnership": 108,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "G Banerjee",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "S Shah",
+                        "player2Score": 62,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "2006",
+                        "partnership": 136,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MD Raj",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "A Chopra",
+                        "player2Score": 98,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "2002",
+                        "partnership": 144,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MD Raj",
+                        "player1Score": 214,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "HM Kala",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "England Women",
+                        "location": "KD Singh Babu Stadium, Lucknow",
+                        "seriesDate": "2001/02",
+                        "partnership": 133,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HM Kala",
+                        "player1Score": 110,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "M Maben",
+                        "player2Score": 49,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1986",
+                        "partnership": 51,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "S Agarwal",
+                        "player1Score": 190,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "S Rangaswamy",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "2002",
+                        "partnership": 157,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MD Raj",
+                        "player1Score": 214,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JN Goswami",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "England Women",
+                        "location": "Harewood Road, Collingham",
+                        "seriesDate": "1986",
+                        "partnership": 106,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "S Kulkarni",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "M Desai",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, Bristol",
+                        "seriesDate": "2021",
+                        "partnership": 104,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "S Rana",
+                        "player1Score": 80,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "T Bhatia",
+                        "player2Score": 44,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1986",
+                        "partnership": 58,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "S Agarwal",
+                        "player1Score": 190,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "S Sridhar",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CM Edwards",
+                "team": "England Women",
+                "opponents": "India Women",
+                "matches": 6,
+                "runs": 413,
+                "innings": 12,
+                "notOuts": 0,
+                "average": 34.41,
+                "hs": "108"
+            }
+        ],
+        [
+            {
+                "name": "MD Raj",
+                "team": "India Women",
+                "opponents": "England Women",
+                "matches": 7,
+                "runs": 511,
+                "innings": 12,
+                "notOuts": 2,
+                "average": 51.1,
+                "hs": "214"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "S Ecclestone",
+                "team": "England Women",
+                "opponents": "India Women",
+                "matches": 2,
+                "balls": 633,
+                "maidens": 22,
+                "runs": 373,
+                "wickets": 13,
+                "bbruns": 88,
+                "bbwickets": 4,
+                "average": 28.69
+            },
+            {
+                "name": "JL Gunn",
+                "team": "England Women",
+                "opponents": "India Women",
+                "matches": 4,
+                "balls": 1013,
+                "maidens": 61,
+                "runs": 315,
+                "wickets": 13,
+                "bbruns": 19,
+                "bbwickets": 5,
+                "average": 24.23
+            },
+            {
+                "name": "GE McConway",
+                "team": "England Women",
+                "opponents": "India Women",
+                "matches": 3,
+                "balls": 848,
+                "maidens": 68,
+                "runs": 180,
+                "wickets": 13,
+                "bbruns": 34,
+                "bbwickets": 7,
+                "average": 13.84
+            }
+        ],
+        [
+            {
+                "name": "JN Goswami",
+                "team": "India Women",
+                "opponents": "England Women",
+                "matches": 7,
+                "balls": 1444,
+                "maidens": 86,
+                "runs": 491,
+                "wickets": 30,
+                "bbruns": 25,
+                "bbwickets": 5,
+                "average": 16.36
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "J Smit",
+                "team": "England Women",
+                "opponents": "India Women",
+                "matches": 8,
+                "dismissals": 23
+            }
+        ],
+        [
+            {
+                "name": "A Chopra",
+                "team": "India Women",
+                "opponents": "England Women",
+                "matches": 9,
+                "dismissals": 13
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "J Smit",
+                "team": "England Women",
+                "opponents": "India Women",
+                "matches": 8,
+                "dismissals": 1
+            },
+            {
+                "name": "A Stinson",
+                "team": "England Women",
+                "opponents": "India Women",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "A Jain",
+                "team": "India Women",
+                "opponents": "England Women",
+                "matches": 5,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "England Women",
+                    "opponents": "India Women",
+                    "total": 92,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sir Paul Getty's Ground, Wormsley",
+                    "seriesDate": "2014"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "England Women",
+                    "opponents": "India Women",
+                    "total": 92,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sir Paul Getty's Ground, Wormsley",
+                    "seriesDate": "2014"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "England Women",
+                    "opponents": "India Women",
+                    "total": 28,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Calcutta Cricket and Football Ground, Calcutta",
+                    "seriesDate": "1995/96"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "India Women",
+                    "opponents": "England Women",
+                    "total": 114,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sir Paul Getty's Ground, Wormsley",
+                    "seriesDate": "2014"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "India Women",
+                    "opponents": "England Women",
+                    "total": 114,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sir Paul Getty's Ground, Wormsley",
+                    "seriesDate": "2014"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "India Women",
+                    "opponents": "England Women",
+                    "total": 54,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1986"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:51.424167Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

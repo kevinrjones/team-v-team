@@ -1,0 +1,883 @@
+{
+    "team1": "New Zealanders",
+    "team2": "Yorkshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 10,
+        "startDate": "1927-07-02T01:00",
+        "endDate": "1994-05-24T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "New Zealanders",
+                "opponents": "Yorkshire",
+                "total": 370,
+                "wickets": 7,
+                "declared": true,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "team": "Yorkshire",
+                "opponents": "New Zealanders",
+                "total": 419,
+                "wickets": 10,
+                "declared": false,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1965"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "WM Wallace",
+                "team": "New Zealanders",
+                "opponents": "Yorkshire",
+                "score": 126,
+                "notOut": false,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "name": "P Holmes",
+                "team": "Yorkshire",
+                "opponents": "New Zealanders",
+                "score": 175,
+                "notOut": true,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1927"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "GF Cresswell",
+                "team": "New Zealanders",
+                "opponents": "Yorkshire",
+                "wickets": 5,
+                "runs": 30,
+                "location": "Bramall Lane, Sheffield",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "name": "H Verity",
+                "team": "Yorkshire",
+                "opponents": "New Zealanders",
+                "wickets": 6,
+                "runs": 67,
+                "location": "St George's Road, Harrogate",
+                "seriesDate": "1931"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "GF Cresswell",
+                "team": "New Zealanders",
+                "opponents": "Yorkshire",
+                "wickets": 7,
+                "runs": 132,
+                "location": "Bramall Lane, Sheffield",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "name": "H Verity",
+                "team": "Yorkshire",
+                "opponents": "New Zealanders",
+                "wickets": 11,
+                "runs": 168,
+                "location": "St George's Road, Harrogate",
+                "seriesDate": "1931"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1969",
+                        "partnership": 130,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GT Dowling",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GM Turner",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Yorkshire",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1978",
+                        "partnership": 103,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1949",
+                        "partnership": 119,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1949",
+                        "partnership": 88,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1949",
+                        "partnership": 82,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Yorkshire",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1978",
+                        "partnership": 77,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1949",
+                        "partnership": 59,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Yorkshire",
+                        "location": "St George's Road, Harrogate",
+                        "seriesDate": "1931",
+                        "partnership": 33,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Yorkshire",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1949",
+                        "partnership": 87,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1965",
+                        "partnership": 40,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JT Ward",
+                        "player1Score": 1,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "RC Motz",
+                        "player2Score": 51,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "New Zealanders",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1969",
+                        "partnership": 125,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RA Hutton",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JD Woodford",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "New Zealanders",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1937",
+                        "partnership": 141,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "New Zealanders",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1927",
+                        "partnership": 247,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "P Holmes",
+                        "player1Score": 175,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "M Leyland",
+                        "player2Score": 118,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "New Zealanders",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1969",
+                        "partnership": 142,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "New Zealanders",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1949",
+                        "partnership": 99,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "New Zealanders",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1994",
+                        "partnership": 99,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "New Zealanders",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1949",
+                        "partnership": 131,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "NWD Yardley",
+                        "player1Score": 134,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "DB Close",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "New Zealanders",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1937",
+                        "partnership": 59,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "EP Robinson",
+                        "player1Score": 40,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "AB Sellers",
+                        "player2Score": 24,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "New Zealanders",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1965",
+                        "partnership": 76,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JG Binks",
+                        "player1Score": 62,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "FS Trueman",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "New Zealanders",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1965",
+                        "partnership": 62,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JG Binks",
+                        "player1Score": 62,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "D Wilson",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "New Zealanders",
+                        "location": "St George's Road, Harrogate",
+                        "seriesDate": "1931",
+                        "partnership": 23,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "MP Donnelly",
+                "team": "New Zealanders",
+                "opponents": "Yorkshire",
+                "matches": 3,
+                "runs": 387,
+                "innings": 6,
+                "notOuts": 0,
+                "average": 64.5,
+                "hs": "97"
+            }
+        ],
+        [
+            {
+                "name": "L Hutton",
+                "team": "Yorkshire",
+                "opponents": "New Zealanders",
+                "matches": 3,
+                "runs": 345,
+                "innings": 5,
+                "notOuts": 0,
+                "average": 69.0,
+                "hs": "167"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GF Cresswell",
+                "team": "New Zealanders",
+                "opponents": "Yorkshire",
+                "matches": 2,
+                "balls": 468,
+                "maidens": 15,
+                "runs": 209,
+                "wickets": 9,
+                "bbruns": 30,
+                "bbwickets": 5,
+                "average": 23.22
+            }
+        ],
+        [
+            {
+                "name": "H Verity",
+                "team": "Yorkshire",
+                "opponents": "New Zealanders",
+                "matches": 2,
+                "balls": 596,
+                "maidens": 29,
+                "runs": 257,
+                "wickets": 15,
+                "bbruns": 67,
+                "bbwickets": 6,
+                "average": 17.13
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "HB Cave",
+                "team": "New Zealanders",
+                "opponents": "Yorkshire",
+                "matches": 3,
+                "dismissals": 4
+            },
+            {
+                "name": "MP Donnelly",
+                "team": "New Zealanders",
+                "opponents": "Yorkshire",
+                "matches": 3,
+                "dismissals": 4
+            },
+            {
+                "name": "GL Weir",
+                "team": "New Zealanders",
+                "opponents": "Yorkshire",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "RJ Blakey",
+                "team": "Yorkshire",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "KC James",
+                "team": "New Zealanders",
+                "opponents": "Yorkshire",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "FLH Mooney",
+                "team": "New Zealanders",
+                "opponents": "Yorkshire",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "DL Bairstow",
+                "team": "Yorkshire",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "DV Brennan",
+                "team": "Yorkshire",
+                "opponents": "New Zealanders",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "A Dolphin",
+                "team": "Yorkshire",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Yorkshire",
+                    "total": 134,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Avenue Cricket Ground, Bradford",
+                    "seriesDate": "1965"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Yorkshire",
+                    "total": 134,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Avenue Cricket Ground, Bradford",
+                    "seriesDate": "1965"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Yorkshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Bramall Lane, Sheffield",
+                    "seriesDate": "1958"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Yorkshire",
+                    "opponents": "New Zealanders",
+                    "total": 189,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St George's Road, Harrogate",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Yorkshire",
+                    "opponents": "New Zealanders",
+                    "total": 189,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St George's Road, Harrogate",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Yorkshire",
+                    "opponents": "New Zealanders",
+                    "total": 75,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Headingley, Leeds",
+                    "seriesDate": "1978"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:08.257624Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

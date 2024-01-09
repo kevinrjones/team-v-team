@@ -1,0 +1,845 @@
+{
+    "team1": "New Zealanders",
+    "team2": "Sussex",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 9,
+        "startDate": "1927-05-28T01:00",
+        "endDate": "1990-05-26T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "New Zealanders",
+                "opponents": "Sussex",
+                "total": 546,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Hove",
+                "seriesDate": "1937"
+            }
+        ],
+        [
+            {
+                "team": "Sussex",
+                "opponents": "New Zealanders",
+                "total": 549,
+                "wickets": 9,
+                "declared": true,
+                "location": "County Ground, Hove",
+                "seriesDate": "1931"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "CS Dempster",
+                "team": "New Zealanders",
+                "opponents": "Sussex",
+                "score": 167,
+                "notOut": false,
+                "location": "County Ground, Hove",
+                "seriesDate": "1931"
+            }
+        ],
+        [
+            {
+                "name": "JG Langridge",
+                "team": "Sussex",
+                "opponents": "New Zealanders",
+                "score": 154,
+                "notOut": false,
+                "location": "County Ground, Hove",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "RS Cunis",
+                "team": "New Zealanders",
+                "opponents": "Sussex",
+                "wickets": 6,
+                "runs": 54,
+                "location": "County Ground, Hove",
+                "seriesDate": "1969"
+            }
+        ],
+        [
+            {
+                "name": "C Oakes",
+                "team": "Sussex",
+                "opponents": "New Zealanders",
+                "wickets": 5,
+                "runs": 19,
+                "location": "County Ground, Hove",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "BE Congdon",
+                "team": "New Zealanders",
+                "opponents": "Sussex",
+                "wickets": 9,
+                "runs": 75,
+                "location": "County Ground, Hove",
+                "seriesDate": "1978"
+            }
+        ],
+        [
+            {
+                "name": "C Oakes",
+                "team": "Sussex",
+                "opponents": "New Zealanders",
+                "wickets": 6,
+                "runs": 85,
+                "location": "County Ground, Hove",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Sussex",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1990",
+                        "partnership": 147,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "TJ Franklin",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JG Wright",
+                        "player2Score": 82,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Sussex",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1990",
+                        "partnership": 114,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Sussex",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1927",
+                        "partnership": 164,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Sussex",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1990",
+                        "partnership": 73,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "JJ Crowe",
+                        "player1Score": 81,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "MJ Greatbatch",
+                        "player2Score": 51,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Sussex",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1958",
+                        "partnership": 172,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Sussex",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1937",
+                        "partnership": 127,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Sussex",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1937",
+                        "partnership": 91,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Sussex",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1937",
+                        "partnership": 103,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Sussex",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1927",
+                        "partnership": 53,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Sussex",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1978",
+                        "partnership": 19,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1990",
+                        "partnership": 99,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "NJ Lenham",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JW Hall",
+                        "player2Score": 120,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1931",
+                        "partnership": 132,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1990",
+                        "partnership": 188,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "AIC Dodemaide",
+                        "player1Score": 110,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "CM Wells",
+                        "player2Score": 113,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1927",
+                        "partnership": 93,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1931",
+                        "partnership": 139,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1969",
+                        "partnership": 132,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1927",
+                        "partnership": 69,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1927",
+                        "partnership": 56,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1937",
+                        "partnership": 79,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "J Langridge",
+                        "player1Score": 91,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "HE Scott",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "New Zealanders",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "1958",
+                        "partnership": 59,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CS Dempster",
+                "team": "New Zealanders",
+                "opponents": "Sussex",
+                "matches": 2,
+                "runs": 233,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 77.66,
+                "hs": "167"
+            }
+        ],
+        [
+            {
+                "name": "J Langridge",
+                "team": "Sussex",
+                "opponents": "New Zealanders",
+                "matches": 4,
+                "runs": 330,
+                "innings": 7,
+                "notOuts": 2,
+                "average": 66.0,
+                "hs": "92*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "J Cowie",
+                "team": "New Zealanders",
+                "opponents": "Sussex",
+                "matches": 2,
+                "balls": 364,
+                "maidens": 17,
+                "runs": 131,
+                "wickets": 12,
+                "bbruns": 22,
+                "bbwickets": 5,
+                "average": 10.91
+            }
+        ],
+        [
+            {
+                "name": "J Langridge",
+                "team": "Sussex",
+                "opponents": "New Zealanders",
+                "matches": 4,
+                "balls": 558,
+                "maidens": 18,
+                "runs": 295,
+                "wickets": 9,
+                "bbruns": 29,
+                "bbwickets": 3,
+                "average": 32.77
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "EC Petrie",
+                "team": "New Zealanders",
+                "opponents": "Sussex",
+                "matches": 1,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "ED Solkar",
+                "team": "Sussex",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "KC James",
+                "team": "New Zealanders",
+                "opponents": "Sussex",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "WL Cornford",
+                "team": "Sussex",
+                "opponents": "New Zealanders",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "SC Griffith",
+                "team": "Sussex",
+                "opponents": "New Zealanders",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "RT Webb",
+                "team": "Sussex",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Sussex",
+                    "total": 160,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Hove",
+                    "seriesDate": "1949"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Sussex",
+                    "total": 160,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Hove",
+                    "seriesDate": "1949"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Sussex",
+                    "total": 43,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "County Ground, Hove",
+                    "seriesDate": "1927"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Sussex",
+                    "opponents": "New Zealanders",
+                    "total": 130,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Hove",
+                    "seriesDate": "1949"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Sussex",
+                    "opponents": "New Zealanders",
+                    "total": 130,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Hove",
+                    "seriesDate": "1949"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Sussex",
+                    "opponents": "New Zealanders",
+                    "total": 18,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "County Ground, Hove",
+                    "seriesDate": "1931"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:05.408733Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

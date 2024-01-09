@@ -1,0 +1,832 @@
+{
+    "team1": "Cambridgeshire",
+    "team2": "Leicestershire Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 8,
+        "startDate": "1926-06-11T01:00",
+        "endDate": "1932-08-31T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridgeshire",
+                "opponents": "Leicestershire Second XI",
+                "total": 422,
+                "wickets": 10,
+                "declared": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1932"
+            }
+        ],
+        [
+            {
+                "team": "Leicestershire Second XI",
+                "opponents": "Cambridgeshire",
+                "total": 296,
+                "wickets": 10,
+                "declared": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1932"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "G Carnegie-Brown",
+                "team": "Cambridgeshire",
+                "opponents": "Leicestershire Second XI",
+                "score": 111,
+                "notOut": false,
+                "location": "Harecroft Road, Wisbech",
+                "seriesDate": "1926"
+            }
+        ],
+        [
+            {
+                "name": "SS Coulson",
+                "team": "Leicestershire Second XI",
+                "opponents": "Cambridgeshire",
+                "score": 142,
+                "notOut": true,
+                "location": "Park Road, Loughborough",
+                "seriesDate": "1926"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "CJ Smith",
+                "team": "Cambridgeshire",
+                "opponents": "Leicestershire Second XI",
+                "wickets": 7,
+                "runs": 26,
+                "location": "Bath Grounds, Ashby-de-la-Zouch",
+                "seriesDate": "1932"
+            }
+        ],
+        [
+            {
+                "name": "HA Smith",
+                "team": "Leicestershire Second XI",
+                "opponents": "Cambridgeshire",
+                "wickets": 7,
+                "runs": 19,
+                "location": "Lime Kilns Ground, Oakham",
+                "seriesDate": "1931"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RJ Covill",
+                "team": "Cambridgeshire",
+                "opponents": "Leicestershire Second XI",
+                "wickets": 10,
+                "runs": 73,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1931"
+            }
+        ],
+        [
+            {
+                "name": "HA Smith",
+                "team": "Leicestershire Second XI",
+                "opponents": "Cambridgeshire",
+                "wickets": 10,
+                "runs": 73,
+                "location": "Lime Kilns Ground, Oakham",
+                "seriesDate": "1931"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Harecroft Road, Wisbech",
+                        "seriesDate": "1926",
+                        "partnership": 76,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "FG Lilley",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AS Ling",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1932",
+                        "partnership": 63,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CE Coote",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "FW Wilkinson",
+                        "player2Score": 103,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Harecroft Road, Wisbech",
+                        "seriesDate": "1926",
+                        "partnership": 125,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "G Carnegie-Brown",
+                        "player1Score": 111,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "FA Ridgeon",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1932",
+                        "partnership": 99,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "FW Wilkinson",
+                        "player1Score": 103,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "HJ Rose",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1932",
+                        "partnership": 63,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HJ Rose",
+                        "player1Score": 60,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "FA Ridgeon",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Lime Kilns Ground, Oakham",
+                        "seriesDate": "1931",
+                        "partnership": 65,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "HWF Taylor",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JF Richardson",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Park Road, Loughborough",
+                        "seriesDate": "1926",
+                        "partnership": 19,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "EH Leek",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Park Road, Loughborough",
+                        "seriesDate": "1926",
+                        "partnership": 15,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "EH Leek",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "H Christmas",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1932",
+                        "partnership": 25,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "HB Hart",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "HWF Taylor",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Kirkby Road, Barwell",
+                        "seriesDate": "1927",
+                        "partnership": 26,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AJ Bevis",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "WH Cockell",
+                        "player2Score": 5,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Kirkby Road, Barwell",
+                        "seriesDate": "1927",
+                        "partnership": 125,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "EA Broughton",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SS Coulson",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Lime Kilns Ground, Oakham",
+                        "seriesDate": "1931",
+                        "partnership": 31,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "WH Bradshaw",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HA Smith",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Bath Grounds, Ashby-de-la-Zouch",
+                        "seriesDate": "1932",
+                        "partnership": 37,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "SH Wigginton",
+                        "player1Score": 53,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "RJ Packe",
+                        "player2Score": 12,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Lime Kilns Ground, Oakham",
+                        "seriesDate": "1931",
+                        "partnership": 66,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "WH Bradshaw",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "EA Broughton",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1932",
+                        "partnership": 48,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AT Sharp",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "HB Bowley",
+                        "player2Score": 67,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Park Road, Loughborough",
+                        "seriesDate": "1926",
+                        "partnership": 72,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "SS Coulson",
+                        "player1Score": 142,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "RL Brown",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Lime Kilns Ground, Oakham",
+                        "seriesDate": "1931",
+                        "partnership": 35,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "AT Sharp",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "EW Walker",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Kirkby Road, Barwell",
+                        "seriesDate": "1927",
+                        "partnership": 81,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "HA Smith",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JWD Smith",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Park Road, Loughborough",
+                        "seriesDate": "1926",
+                        "partnership": 32,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SS Coulson",
+                        "player1Score": 142,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "JWD Smith",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1932",
+                        "partnership": 98,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WH Marlow",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "FG Moore",
+                        "player2Score": 26,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "G Carnegie-Brown",
+                "team": "Cambridgeshire",
+                "opponents": "Leicestershire Second XI",
+                "matches": 2,
+                "runs": 202,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 50.5,
+                "hs": "111"
+            }
+        ],
+        [
+            {
+                "name": "EA Broughton",
+                "team": "Leicestershire Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 6,
+                "runs": 287,
+                "innings": 10,
+                "notOuts": 0,
+                "average": 28.7,
+                "hs": "78"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "CJ Smith",
+                "team": "Cambridgeshire",
+                "opponents": "Leicestershire Second XI",
+                "matches": 5,
+                "balls": 1134,
+                "maidens": 49,
+                "runs": 399,
+                "wickets": 23,
+                "bbruns": 26,
+                "bbwickets": 7,
+                "average": 17.34
+            }
+        ],
+        [
+            {
+                "name": "HA Smith",
+                "team": "Leicestershire Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 4,
+                "balls": 873,
+                "maidens": 46,
+                "runs": 322,
+                "wickets": 24,
+                "bbruns": 19,
+                "bbwickets": 7,
+                "average": 13.41
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "CJ Smith",
+                "team": "Cambridgeshire",
+                "opponents": "Leicestershire Second XI",
+                "matches": 5,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "EA Broughton",
+                "team": "Leicestershire Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 6,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "WH Cockell",
+                "team": "Cambridgeshire",
+                "opponents": "Leicestershire Second XI",
+                "matches": 7,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "B Tyler",
+                "team": "Leicestershire Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Leicestershire Second XI",
+                    "total": 61,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lime Kilns Ground, Oakham",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Leicestershire Second XI",
+                    "total": 61,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lime Kilns Ground, Oakham",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Leicestershire Second XI",
+                    "total": 6,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "Park Road, Loughborough",
+                    "seriesDate": "1926"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Leicestershire Second XI",
+                    "opponents": "Cambridgeshire",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Leicestershire Second XI",
+                    "opponents": "Cambridgeshire",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Leicestershire Second XI",
+                    "opponents": "Cambridgeshire",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1931"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:23.650304Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

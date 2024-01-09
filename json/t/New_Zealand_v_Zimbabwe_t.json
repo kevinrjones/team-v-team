@@ -1,0 +1,831 @@
+{
+    "team1": "New Zealand",
+    "team2": "Zimbabwe",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 17,
+        "startDate": "1992-11-01T00:00",
+        "endDate": "2016-08-06T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "New Zealand",
+                "opponents": "Zimbabwe",
+                "total": 582,
+                "wickets": 4,
+                "declared": true,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2016"
+            }
+        ],
+        [
+            {
+                "team": "Zimbabwe",
+                "opponents": "New Zealand",
+                "total": 461,
+                "wickets": 10,
+                "declared": false,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "1997/98"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "LRPL Taylor",
+                "team": "New Zealand",
+                "opponents": "Zimbabwe",
+                "score": 173,
+                "notOut": true,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2016"
+            }
+        ],
+        [
+            {
+                "name": "GJ Whittall",
+                "team": "Zimbabwe",
+                "opponents": "New Zealand",
+                "score": 203,
+                "notOut": true,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "1997/98"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "CS Martin",
+                "team": "New Zealand",
+                "opponents": "Zimbabwe",
+                "wickets": 6,
+                "runs": 26,
+                "location": "McLean Park, Napier",
+                "seriesDate": "2011/12"
+            }
+        ],
+        [
+            {
+                "name": "PA Strang",
+                "team": "Zimbabwe",
+                "opponents": "New Zealand",
+                "wickets": 8,
+                "runs": 109,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2000/01"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "SE Bond",
+                "team": "New Zealand",
+                "opponents": "Zimbabwe",
+                "wickets": 10,
+                "runs": 99,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2005/06"
+            }
+        ],
+        [
+            {
+                "name": "AG Huckle",
+                "team": "Zimbabwe",
+                "opponents": "New Zealand",
+                "wickets": 11,
+                "runs": 255,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "1997/98"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Zimbabwe",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "1995/96",
+                        "partnership": 214,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RG Twose",
+                        "player1Score": 94,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "CM Spearman",
+                        "player2Score": 112,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Zimbabwe",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2016",
+                        "partnership": 160,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TWM Latham",
+                        "player1Score": 136,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "KS Williamson",
+                        "player2Score": 113,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Zimbabwe",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2016",
+                        "partnership": 140,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "KS Williamson",
+                        "player1Score": 68,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "LRPL Taylor",
+                        "player2Score": 67,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Zimbabwe",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "1997/98",
+                        "partnership": 243,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MJ Horne",
+                        "player1Score": 157,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NJ Astle",
+                        "player2Score": 114,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Zimbabwe",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "2000/01",
+                        "partnership": 222,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "NJ Astle",
+                        "player1Score": 141,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CD McMillan",
+                        "player2Score": 142,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Zimbabwe",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2016",
+                        "partnership": 253,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "LRPL Taylor",
+                        "player1Score": 173,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "BJ Watling",
+                        "player2Score": 107,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Zimbabwe",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1997/98",
+                        "partnership": 108,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "CD McMillan",
+                        "player1Score": 139,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "DJ Nash",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Zimbabwe",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2000/01",
+                        "partnership": 144,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "CL Cairns",
+                        "player1Score": 124,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DJ Nash",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Zimbabwe",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2000/01",
+                        "partnership": 78,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AC Parore",
+                        "player1Score": 32,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "DL Vettori",
+                        "player2Score": 49,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Zimbabwe",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "1997/98",
+                        "partnership": 27,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CD McMillan",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "SB Doull",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "New Zealand",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "1997/98",
+                        "partnership": 156,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GJ Rennie",
+                        "player1Score": 57,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GW Flower",
+                        "player2Score": 151,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "New Zealand",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "1992/93",
+                        "partnership": 107,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "KJ Arnott",
+                        "player1Score": 68,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ADR Campbell",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "New Zealand",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2011/12",
+                        "partnership": 96,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "TMK Mawoyo",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BRM Taylor",
+                        "player2Score": 117,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "New Zealand",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "2000/01",
+                        "partnership": 130,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "GJ Rennie",
+                        "player1Score": 93,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "A Flower",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "New Zealand",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2000/01",
+                        "partnership": 131,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "A Flower",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "GJ Whittall",
+                        "player2Score": 188,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "New Zealand",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2000/01",
+                        "partnership": 151,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GJ Whittall",
+                        "player1Score": 188,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "HH Streak",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "New Zealand",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2016",
+                        "partnership": 118,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SC Williams",
+                        "player1Score": 119,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "AG Cremer",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "New Zealand",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1997/98",
+                        "partnership": 94,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "ADR Campbell",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "HH Streak",
+                        "player2Score": 43,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "New Zealand",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2016",
+                        "partnership": 85,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "PS Masvaure",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DT Tiripano",
+                        "player2Score": 49,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "New Zealand",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "1997/98",
+                        "partnership": 40,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "GJ Whittall",
+                        "player1Score": 203,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "EZ Matambanadzo",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "NJ Astle",
+                "team": "New Zealand",
+                "opponents": "Zimbabwe",
+                "matches": 11,
+                "runs": 813,
+                "innings": 17,
+                "notOuts": 1,
+                "average": 50.81,
+                "hs": "141"
+            }
+        ],
+        [
+            {
+                "name": "GW Flower",
+                "team": "Zimbabwe",
+                "opponents": "New Zealand",
+                "matches": 10,
+                "runs": 780,
+                "innings": 20,
+                "notOuts": 0,
+                "average": 39.0,
+                "hs": "151"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "CL Cairns",
+                "team": "New Zealand",
+                "opponents": "Zimbabwe",
+                "matches": 8,
+                "balls": 2141,
+                "maidens": 97,
+                "runs": 944,
+                "wickets": 39,
+                "bbruns": 31,
+                "bbwickets": 5,
+                "average": 24.2
+            }
+        ],
+        [
+            {
+                "name": "HH Streak",
+                "team": "Zimbabwe",
+                "opponents": "New Zealand",
+                "matches": 11,
+                "balls": 2212,
+                "maidens": 89,
+                "runs": 1063,
+                "wickets": 32,
+                "bbruns": 52,
+                "bbwickets": 4,
+                "average": 33.21
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "AC Parore",
+                "team": "New Zealand",
+                "opponents": "Zimbabwe",
+                "matches": 11,
+                "dismissals": 31
+            }
+        ],
+        [
+            {
+                "name": "A Flower",
+                "team": "Zimbabwe",
+                "opponents": "New Zealand",
+                "matches": 11,
+                "dismissals": 29
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "BB McCullum",
+                "team": "New Zealand",
+                "opponents": "Zimbabwe",
+                "matches": 4,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "A Flower",
+                "team": "Zimbabwe",
+                "opponents": "New Zealand",
+                "matches": 11,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "Zimbabwe",
+                    "total": 207,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Harare Sports Club, Harare",
+                    "seriesDate": "1997/98"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "Zimbabwe",
+                    "total": 207,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Harare Sports Club, Harare",
+                    "seriesDate": "1997/98"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "Zimbabwe",
+                    "total": 20,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Basin Reserve, Wellington",
+                    "seriesDate": "1997/98"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "New Zealand",
+                    "total": 51,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "McLean Park, Napier",
+                    "seriesDate": "2011/12"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "New Zealand",
+                    "total": 51,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "McLean Park, Napier",
+                    "seriesDate": "2011/12"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "New Zealand",
+                    "total": 51,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "McLean Park, Napier",
+                    "seriesDate": "2011/12"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:20:42.482493Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

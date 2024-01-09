@@ -1,0 +1,871 @@
+{
+    "team1": "Australia Women",
+    "team2": "India Women",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "wt",
+    "matchDto": {
+        "count": 11,
+        "startDate": "1977-01-15T00:00",
+        "endDate": "2023-12-21T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australia Women",
+                "opponents": "India Women",
+                "total": 525,
+                "wickets": 10,
+                "declared": false,
+                "location": "Sardar Vallabhbhai Patel Stadium, Ahmedabad",
+                "seriesDate": "1983/84"
+            }
+        ],
+        [
+            {
+                "team": "India Women",
+                "opponents": "Australia Women",
+                "total": 406,
+                "wickets": 10,
+                "declared": false,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "BJ Haggett",
+                "team": "Australia Women",
+                "opponents": "India Women",
+                "score": 144,
+                "notOut": false,
+                "location": "Richmond Cricket Ground, Melbourne",
+                "seriesDate": "1990/91"
+            }
+        ],
+        [
+            {
+                "name": "S Agarwal",
+                "team": "India Women",
+                "opponents": "Australia Women",
+                "score": 134,
+                "notOut": false,
+                "location": "Wankhede Stadium, Bombay",
+                "seriesDate": "1983/84"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "K Price",
+                "team": "Australia Women",
+                "opponents": "India Women",
+                "wickets": 6,
+                "runs": 72,
+                "location": "KD Singh Babu Stadium, Lucknow",
+                "seriesDate": "1983/84"
+            }
+        ],
+        [
+            {
+                "name": "DF Edulji",
+                "team": "India Women",
+                "opponents": "Australia Women",
+                "wickets": 6,
+                "runs": 64,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "1983/84"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "K Price",
+                "team": "Australia Women",
+                "opponents": "India Women",
+                "wickets": 10,
+                "runs": 107,
+                "location": "KD Singh Babu Stadium, Lucknow",
+                "seriesDate": "1983/84"
+            }
+        ],
+        [
+            {
+                "name": "S Gupta",
+                "team": "India Women",
+                "opponents": "Australia Women",
+                "wickets": 8,
+                "runs": 100,
+                "location": "KD Singh Babu Stadium, Lucknow",
+                "seriesDate": "1983/84"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "India Women",
+                        "location": "North Sydney Oval, Sydney",
+                        "seriesDate": "1990/91",
+                        "partnership": 178,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "BJ Haggett",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BJ Clark",
+                        "player2Score": 104,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "India Women",
+                        "location": "Richmond Cricket Ground, Melbourne",
+                        "seriesDate": "1990/91",
+                        "partnership": 177,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "BJ Haggett",
+                        "player1Score": 144,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DA Annetts",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "India Women",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "1983/84",
+                        "partnership": 141,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "P Verco",
+                        "player1Score": 81,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PC Dawson",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "India Women",
+                        "location": "Sardar Vallabhbhai Patel Stadium, Ahmedabad",
+                        "seriesDate": "1983/84",
+                        "partnership": 77,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "J Kennare",
+                        "player1Score": 131,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JM Jacobs",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "India Women",
+                        "location": "Carrara Oval, Carrara",
+                        "seriesDate": "2021/22",
+                        "partnership": 89,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "EA Perry",
+                        "player1Score": 68,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "AK Gardner",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "India Women",
+                        "location": "North Sydney Oval, Sydney",
+                        "seriesDate": "1990/91",
+                        "partnership": 53,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "J Broadbent",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "C Matthews",
+                        "player2Score": 16,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "India Women",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "1983/84",
+                        "partnership": 29,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "LA Larsen",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "LA Fullston",
+                        "player2Score": 16,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "India Women",
+                        "location": "Sardar Vallabhbhai Patel Stadium, Ahmedabad",
+                        "seriesDate": "1983/84",
+                        "partnership": 73,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "K Price",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "LA Fullston",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "India Women",
+                        "location": "Wankhede Stadium, Bombay",
+                        "seriesDate": "1983/84",
+                        "partnership": 67,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "LA Fullston",
+                        "player1Score": 31,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "C Matthews",
+                        "player2Score": 34,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "India Women",
+                        "location": "KD Singh Babu Stadium, Lucknow",
+                        "seriesDate": "1983/84",
+                        "partnership": 24,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "LA Larsen",
+                        "player1Score": 43,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "D Martin",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "Australia Women",
+                        "location": "Wankhede Stadium, Bombay",
+                        "seriesDate": "1983/84",
+                        "partnership": 153,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "G Banerjee",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "S Agarwal",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "Australia Women",
+                        "location": "Carrara Oval, Carrara",
+                        "seriesDate": "2021/22",
+                        "partnership": 102,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "SS Mandhana",
+                        "player1Score": 127,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PG Raut",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "Australia Women",
+                        "location": "North Sydney Oval, Sydney",
+                        "seriesDate": "1990/91",
+                        "partnership": 84,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "S Agarwal",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "R Venugopal",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "Australia Women",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2023/24",
+                        "partnership": 113,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RM Ghosh",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JI Rodrigues",
+                        "player2Score": 73,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "Australia Women",
+                        "location": "Sardar Vallabhbhai Patel Stadium, Ahmedabad",
+                        "seriesDate": "1983/84",
+                        "partnership": 67,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "S Kulkarni",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "A Pendharker",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 85,
+                        "wicket": 5,
+                        "playerDetails": [
+                            {
+                                "team": "India Women",
+                                "opponents": "Australia Women",
+                                "location": "Wankhede Stadium, Bombay",
+                                "seriesDate": "1983/84",
+                                "partnership": 65,
+                                "wicket": 5,
+                                "undefeated": true,
+                                "player1Name": "S Agarwal",
+                                "player1Score": 134,
+                                "player1NotOut": false,
+                                "player1Position": 2,
+                                "player2Name": "S Rangaswamy",
+                                "player2Score": 54,
+                                "player2NotOut": true,
+                                "player2Position": 6
+                            },
+                            {
+                                "team": "India Women",
+                                "opponents": "Australia Women",
+                                "location": "Wankhede Stadium, Bombay",
+                                "seriesDate": "1983/84",
+                                "partnership": 20,
+                                "wicket": 5,
+                                "undefeated": false,
+                                "player1Name": "S Agarwal",
+                                "player1Score": 134,
+                                "player1NotOut": false,
+                                "player1Position": 2,
+                                "player2Name": "N Jogalekar",
+                                "player2Score": 17,
+                                "player2NotOut": false,
+                                "player2Position": 7
+                            }
+                        ]
+                    }
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "Australia Women",
+                        "location": "Wankhede Stadium, Bombay",
+                        "seriesDate": "1983/84",
+                        "partnership": 93,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "S Agarwal",
+                        "player1Score": 134,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "R Dey",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "Australia Women",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "1983/84",
+                        "partnership": 52,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "N Jogalekar",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DF Edulji",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "Australia Women",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2023/24",
+                        "partnership": 122,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "DB Sharma",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "P Vastrakar",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "Australia Women",
+                        "location": "Craig Oval, Hale School, Perth",
+                        "seriesDate": "1976/77",
+                        "partnership": 28,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "DF Edulji",
+                        "player1Score": 32,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "R Dholakia",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "India Women",
+                        "opponents": "Australia Women",
+                        "location": "KD Singh Babu Stadium, Lucknow",
+                        "seriesDate": "1983/84",
+                        "partnership": 78,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "S Gupta",
+                        "player1Score": 48,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "S Chakraborty",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "P Verco",
+                "team": "Australia Women",
+                "opponents": "India Women",
+                "matches": 5,
+                "runs": 393,
+                "innings": 7,
+                "notOuts": 1,
+                "average": 65.5,
+                "hs": "105"
+            }
+        ],
+        [
+            {
+                "name": "S Agarwal",
+                "team": "India Women",
+                "opponents": "Australia Women",
+                "matches": 5,
+                "runs": 430,
+                "innings": 9,
+                "notOuts": 0,
+                "average": 47.77,
+                "hs": "134"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "LA Fullston",
+                "team": "Australia Women",
+                "opponents": "India Women",
+                "matches": 4,
+                "balls": 1441,
+                "maidens": 102,
+                "runs": 395,
+                "wickets": 20,
+                "bbruns": 54,
+                "bbwickets": 4,
+                "average": 19.75
+            }
+        ],
+        [
+            {
+                "name": "DF Edulji",
+                "team": "India Women",
+                "opponents": "Australia Women",
+                "matches": 8,
+                "balls": 2104,
+                "maidens": 78,
+                "runs": 726,
+                "wickets": 23,
+                "bbruns": 64,
+                "bbwickets": 6,
+                "average": 31.56
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "C Matthews",
+                "team": "Australia Women",
+                "opponents": "India Women",
+                "matches": 7,
+                "dismissals": 20
+            }
+        ],
+        [
+            {
+                "name": "S Kulkarni",
+                "team": "India Women",
+                "opponents": "Australia Women",
+                "matches": 7,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "C Matthews",
+                "team": "Australia Women",
+                "opponents": "India Women",
+                "matches": 7,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "N Jogalekar",
+                "team": "India Women",
+                "opponents": "Australia Women",
+                "matches": 4,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "India Women",
+                    "total": 219,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Wankhede Stadium, Mumbai",
+                    "seriesDate": "2023/24"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "India Women",
+                    "total": 219,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Wankhede Stadium, Mumbai",
+                    "seriesDate": "2023/24"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "India Women",
+                    "total": 19,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Feroz Shah Kotla, Delhi",
+                    "seriesDate": "1983/84"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "India Women",
+                    "opponents": "Australia Women",
+                    "total": 92,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Richmond Cricket Ground, Melbourne",
+                    "seriesDate": "1990/91"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "India Women",
+                    "opponents": "Australia Women",
+                    "total": 92,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Richmond Cricket Ground, Melbourne",
+                    "seriesDate": "1990/91"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "India Women",
+                    "opponents": "Australia Women",
+                    "total": 50,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Sardar Vallabhbhai Patel Stadium, Ahmedabad",
+                    "seriesDate": "1983/84"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:39.343717Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

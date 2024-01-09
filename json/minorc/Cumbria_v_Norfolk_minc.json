@@ -1,0 +1,866 @@
+{
+    "team1": "Cumbria",
+    "team2": "Norfolk",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 30,
+        "startDate": "1983-07-26T01:00",
+        "endDate": "2019-07-21T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Stephen Musk"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cumbria",
+                "opponents": "Norfolk",
+                "total": 394,
+                "wickets": 8,
+                "declared": false,
+                "location": "Furness Park, Barrow-in-Furness",
+                "seriesDate": "2010"
+            }
+        ],
+        [
+            {
+                "team": "Norfolk",
+                "opponents": "Cumbria",
+                "total": 382,
+                "wickets": 6,
+                "declared": false,
+                "location": "Furness Park, Barrow-in-Furness",
+                "seriesDate": "2010"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JWR Miles",
+                "team": "Cumbria",
+                "opponents": "Norfolk",
+                "score": 134,
+                "notOut": false,
+                "location": "Manor Park, Horsford",
+                "seriesDate": "2011"
+            }
+        ],
+        [
+            {
+                "name": "SG Plumb",
+                "team": "Norfolk",
+                "opponents": "Cumbria",
+                "score": 204,
+                "notOut": true,
+                "location": "St George's Road, Millom",
+                "seriesDate": "1988"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "MA Sharp",
+                "team": "Cumbria",
+                "opponents": "Norfolk",
+                "wickets": 6,
+                "runs": 43,
+                "location": "Manor Park, Horsford",
+                "seriesDate": "2005"
+            }
+        ],
+        [
+            {
+                "name": "R Kingshott",
+                "team": "Norfolk",
+                "opponents": "Cumbria",
+                "wickets": 7,
+                "runs": 77,
+                "location": "The Green, North Runcton",
+                "seriesDate": "1989"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "D Lloyd",
+                "team": "Cumbria",
+                "opponents": "Norfolk",
+                "wickets": 9,
+                "runs": 97,
+                "location": "Shap Road, Kendal",
+                "seriesDate": "1984"
+            }
+        ],
+        [
+            {
+                "name": "R Kingshott",
+                "team": "Norfolk",
+                "opponents": "Cumbria",
+                "wickets": 11,
+                "runs": 143,
+                "location": "The Green, North Runcton",
+                "seriesDate": "1989"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1983",
+                        "partnership": 100,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "R Entwistle",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "L Baichan",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Norfolk",
+                        "location": "Ernest Pass Memorial Ground, Barrow-in-Furness",
+                        "seriesDate": "1994",
+                        "partnership": 203,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "S Sharp",
+                        "player1Score": 96,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "SJ O'Shaughnessy",
+                        "player2Score": 124,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Norfolk",
+                        "location": "Sedbergh School, Sedbergh",
+                        "seriesDate": "2016",
+                        "partnership": 134,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MP Slack",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SM Dutton",
+                        "player2Score": 104,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Norfolk",
+                        "location": "Furness Park, Barrow-in-Furness",
+                        "seriesDate": "2019",
+                        "partnership": 106,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MP Slack",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SM Dutton",
+                        "player2Score": 82,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Norfolk",
+                        "location": "Furness Park, Barrow-in-Furness",
+                        "seriesDate": "2010",
+                        "partnership": 136,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JA Smith",
+                        "player1Score": 92,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "ML Brown",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Norfolk",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2011",
+                        "partnership": 121,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "JWR Miles",
+                        "player1Score": 134,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JA Smith",
+                        "player2Score": 105,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Norfolk",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "2007",
+                        "partnership": 117,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "A Roberts",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "M Raikes",
+                        "player2Score": 63,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1999",
+                        "partnership": 78,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SAJ Kippax",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "JM Lewis",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Norfolk",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2014",
+                        "partnership": 79,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "LK Parkinson",
+                        "player1Score": 68,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "SD Lees",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Norfolk",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "2007",
+                        "partnership": 71,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "M Gorley",
+                        "player1Score": 46,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "MA Sharp",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2005",
+                        "partnership": 109,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "C Amos",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CJ Rogers",
+                        "player2Score": 95,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "Furness Park, Barrow-in-Furness",
+                        "seriesDate": "2010",
+                        "partnership": 152,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JM Spelman",
+                        "player1Score": 115,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SS Arthurton",
+                        "player2Score": 86,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "St George's Road, Millom",
+                        "seriesDate": "1988",
+                        "partnership": 211,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RDP Huggins",
+                        "player1Score": 86,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SG Plumb",
+                        "player2Score": 204,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2011",
+                        "partnership": 108,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "TR Ward",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SS Arthurton",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1983",
+                        "partnership": 114,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "FLQ Handley",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "ER Hodson",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2005",
+                        "partnership": 96,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RD Moores",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "LTS Newton",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2011",
+                        "partnership": 80,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "LW Caswell",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "C Brown",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2002",
+                        "partnership": 67,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "C Brown",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "LTS Newton",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "Furness Park, Barrow-in-Furness",
+                        "seriesDate": "2013",
+                        "partnership": 61,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "C Brown",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "MP Eccles",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1999",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MW Thomas",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "MKL Boyden",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "2007",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MP Eccles",
+                        "player1Score": 11,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "PJ Bradshaw",
+                        "player2Score": 8,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    },
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Cumbria",
+                        "location": "Furness Park, Barrow-in-Furness",
+                        "seriesDate": "2019",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AM Watson",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "SJ Groves",
+                        "player2Score": 5,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "BW Reidy",
+                "team": "Cumbria",
+                "opponents": "Norfolk",
+                "matches": 10,
+                "runs": 592,
+                "innings": 15,
+                "notOuts": 1,
+                "average": 42.28,
+                "hs": "84"
+            }
+        ],
+        [
+            {
+                "name": "SG Plumb",
+                "team": "Norfolk",
+                "opponents": "Cumbria",
+                "matches": 12,
+                "runs": 1049,
+                "innings": 21,
+                "notOuts": 3,
+                "average": 58.27,
+                "hs": "204*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "MA Sharp",
+                "team": "Cumbria",
+                "opponents": "Norfolk",
+                "matches": 13,
+                "balls": 2098,
+                "maidens": 132,
+                "runs": 871,
+                "wickets": 30,
+                "bbruns": 43,
+                "bbwickets": 6,
+                "average": 29.03
+            }
+        ],
+        [
+            {
+                "name": "C Brown",
+                "team": "Norfolk",
+                "opponents": "Cumbria",
+                "matches": 11,
+                "balls": 1830,
+                "maidens": 70,
+                "runs": 976,
+                "wickets": 52,
+                "bbruns": 60,
+                "bbwickets": 5,
+                "average": 18.76
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "SM Dutton",
+                "team": "Cumbria",
+                "opponents": "Norfolk",
+                "matches": 13,
+                "dismissals": 28
+            }
+        ],
+        [
+            {
+                "name": "CJ Rogers",
+                "team": "Norfolk",
+                "opponents": "Cumbria",
+                "matches": 18,
+                "dismissals": 19
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "SM Dutton",
+                "team": "Cumbria",
+                "opponents": "Norfolk",
+                "matches": 13,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "DE Mattocks",
+                "team": "Norfolk",
+                "opponents": "Cumbria",
+                "matches": 7,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cumbria",
+                    "opponents": "Norfolk",
+                    "total": 127,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ernest Pass Memorial Ground, Barrow-in-Furness",
+                    "seriesDate": "2001"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cumbria",
+                    "opponents": "Norfolk",
+                    "total": 127,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ernest Pass Memorial Ground, Barrow-in-Furness",
+                    "seriesDate": "2001"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cumbria",
+                    "opponents": "Norfolk",
+                    "total": 1,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Manor Park, Horsford",
+                    "seriesDate": "2014"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Cumbria",
+                    "total": 94,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shap Road, Kendal",
+                    "seriesDate": "1984"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Cumbria",
+                    "total": 94,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shap Road, Kendal",
+                    "seriesDate": "1984"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Cumbria",
+                    "total": 13,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Ernest Pass Memorial Ground, Barrow-in-Furness",
+                    "seriesDate": "1990"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:20.504793Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

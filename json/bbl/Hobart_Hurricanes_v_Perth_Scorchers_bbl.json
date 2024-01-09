@@ -1,0 +1,1254 @@
+{
+    "team1": "Hobart Hurricanes",
+    "team2": "Perth Scorchers",
+    "competitionTitle": "Big Bash League",
+    "competitionSubType": "bbl",
+    "matchDto": {
+        "count": 20,
+        "startDate": "2011-12-18T00:00",
+        "endDate": "2023-12-20T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "total": 210,
+                "wickets": 4,
+                "declared": false,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "total": 191,
+                "wickets": 4,
+                "declared": false,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2013/14"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "DJM Short",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "score": 103,
+                "notOut": true,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2019/20"
+            }
+        ],
+        [
+            {
+                "name": "MR Marsh",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "score": 100,
+                "notOut": true,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "CJ Jordan",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "strikeRate": 295.0,
+                "runs": 59,
+                "balls": 20,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "MR Marsh",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "strikeRate": 308.33,
+                "runs": 37,
+                "balls": 12,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2013/14"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "CJ Jordan",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "strikeRate": 295.0,
+                "runs": 59,
+                "balls": 20,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "MR Marsh",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "strikeRate": 308.33,
+                "runs": 37,
+                "balls": 12,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2013/14"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "TD Paine",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "strikeRate": 45.45,
+                "runs": 5,
+                "balls": 11,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2016/17"
+            }
+        ],
+        [
+            {
+                "name": "PD Collingwood",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "strikeRate": 30.77,
+                "runs": 4,
+                "balls": 13,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2011/12"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "Shoaib Malik",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "strikeRate": 86.67,
+                "runs": 26,
+                "balls": 30,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2013/14"
+            }
+        ],
+        [
+            {
+                "name": "MJ North",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "strikeRate": 81.82,
+                "runs": 27,
+                "balls": 33,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2012/13"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "MS Wade",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "boundaries": 10,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "name": "AM Hardie",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "boundaries": 13,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2022/23"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "DJM Short",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "boundaries": 7,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2019/20"
+            }
+        ],
+        [
+            {
+                "name": "MR Marsh",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "boundaries": 5,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2021/22"
+            },
+            {
+                "name": "KR Patterson",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "boundaries": 5,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2021/22"
+            },
+            {
+                "name": "AM Hardie",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "boundaries": 5,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "MS Wade",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "boundaries": 11,
+                "fours": 10,
+                "sixes": 1,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2017/18"
+            },
+            {
+                "name": "CJ Jordan",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "boundaries": 11,
+                "fours": 6,
+                "sixes": 5,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "AM Hardie",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "boundaries": 14,
+                "fours": 13,
+                "sixes": 1,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2022/23"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "PG Dooley",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "wickets": 4,
+                "runs": 16,
+                "location": "University of Tasmania Stadium, Launceston",
+                "seriesDate": "2022/23"
+            }
+        ],
+        [
+            {
+                "name": "JA Richardson",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "wickets": 4,
+                "runs": 19,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2019/20"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "PG Dooley",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "wickets": 4,
+                "runs": 16,
+                "location": "University of Tasmania Stadium, Launceston",
+                "seriesDate": "2022/23"
+            }
+        ],
+        [
+            {
+                "name": "JA Richardson",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "wickets": 4,
+                "runs": 19,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2019/20"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "DT Christian",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "overs": "3.5",
+                "balls": 23,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 17,
+                "sr": 5.75,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "name": "LS Livingstone",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "overs": "1.1",
+                "balls": 7,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 4,
+                "sr": 3.5,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2019/20"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "DT Christian",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "overs": "3.5",
+                "balls": 23,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 17,
+                "sr": 5.75,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "name": "BM Edmondson",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 40,
+                "sr": 6.0,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2011/12"
+            },
+            {
+                "name": "JA Richardson",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 19,
+                "sr": 6.0,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2019/20"
+            },
+            {
+                "name": "JA Richardson",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 33,
+                "sr": 6.0,
+                "location": "Marvel Stadium, Melbourne",
+                "seriesDate": "2020/21"
+            },
+            {
+                "name": "JP Behrendorff",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 25,
+                "sr": 6.0,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "RJG Lockyear",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 1,
+                "sr": 1.0,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2011/12"
+            }
+        ],
+        [
+            {
+                "name": "LS Livingstone",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 2,
+                "sr": 2.0,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2019/20"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "BW Hilfenhaus",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 10,
+                "sr": 2.5,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2011/12"
+            }
+        ],
+        [
+            {
+                "name": "AC Agar",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 14,
+                "sr": 3.5,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "MJ Owen",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 18,
+                "sr": 18.0,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2020/21"
+            },
+            {
+                "name": "WB Parker",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 18,
+                "sr": 18.0,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "CPL Connolly",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "overs": "0.5",
+                "balls": 5,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 12,
+                "sr": 14.4,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "CJ Boyce",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 44,
+                "sr": 14.67,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2016/17"
+            }
+        ],
+        [
+            {
+                "name": "MR Marsh",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 53,
+                "sr": 13.25,
+                "location": "Optus Stadium, Perth",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Hobart Hurricanes",
+                        "opponents": "Perth Scorchers",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2019/20",
+                        "partnership": 69,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DJM Short",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "CP Jewell",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Hobart Hurricanes",
+                        "opponents": "Perth Scorchers",
+                        "location": "Blundstone Arena, Hobart",
+                        "seriesDate": "2012/13",
+                        "partnership": 90,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TD Paine",
+                        "player1Score": 74,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "RT Ponting",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Hobart Hurricanes",
+                        "opponents": "Perth Scorchers",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2019/20",
+                        "partnership": 69,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "BR McDermott",
+                        "player1Score": 20,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "DJM Short",
+                        "player2Score": 103,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Hobart Hurricanes",
+                        "opponents": "Perth Scorchers",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2017/18",
+                        "partnership": 88,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "BR McDermott",
+                        "player1Score": 67,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "DT Christian",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Hobart Hurricanes",
+                        "opponents": "Perth Scorchers",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2017/18",
+                        "partnership": 70,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "SA Milenko",
+                        "player1Score": 66,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "GJ Bailey",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Hobart Hurricanes",
+                        "opponents": "Perth Scorchers",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2018/19",
+                        "partnership": 57,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GJ Bailey",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "JP Faulkner",
+                        "player2Score": 28,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Hobart Hurricanes",
+                        "opponents": "Perth Scorchers",
+                        "location": "Blundstone Arena, Hobart",
+                        "seriesDate": "2016/17",
+                        "partnership": 46,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "CA Rose",
+                        "player1Score": 29,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JW Wells",
+                        "player2Score": 28,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Hobart Hurricanes",
+                        "opponents": "Perth Scorchers",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2023/24",
+                        "partnership": 65,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "CJ Jordan",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "PG Dooley",
+                        "player2Score": 3,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Hobart Hurricanes",
+                        "opponents": "Perth Scorchers",
+                        "location": "University of Tasmania Stadium, Launceston",
+                        "seriesDate": "2022/23",
+                        "partnership": 36,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "TH David",
+                        "player1Score": 46,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "PG Dooley",
+                        "player2Score": 3,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Hobart Hurricanes",
+                        "opponents": "Perth Scorchers",
+                        "location": "Blundstone Arena, Hobart",
+                        "seriesDate": "2021/22",
+                        "partnership": 17,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "WB Parker",
+                        "player1Score": 25,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "S Lamichhane",
+                        "player2Score": 8,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Perth Scorchers",
+                        "opponents": "Hobart Hurricanes",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2020/21",
+                        "partnership": 123,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "LS Livingstone",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JJ Roy",
+                        "player2Score": 74,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Perth Scorchers",
+                        "opponents": "Hobart Hurricanes",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2023/24",
+                        "partnership": 157,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "AM Hardie",
+                        "player1Score": 85,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "Z Crawley",
+                        "player2Score": 65,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Perth Scorchers",
+                        "opponents": "Hobart Hurricanes",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2022/23",
+                        "partnership": 127,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AM Hardie",
+                        "player1Score": 90,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "JP Inglis",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Perth Scorchers",
+                        "opponents": "Hobart Hurricanes",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2018/19",
+                        "partnership": 77,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "SM Whiteman",
+                        "player1Score": 68,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "HWR Cartwright",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Perth Scorchers",
+                        "opponents": "Hobart Hurricanes",
+                        "location": "Blundstone Arena, Hobart",
+                        "seriesDate": "2021/22",
+                        "partnership": 67,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MR Marsh",
+                        "player1Score": 100,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "LJ Evans",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Perth Scorchers",
+                        "opponents": "Hobart Hurricanes",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2017/18",
+                        "partnership": 41,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "AJ Turner",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "AC Agar",
+                        "player2Score": 13,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    },
+                    {
+                        "team": "Perth Scorchers",
+                        "opponents": "Hobart Hurricanes",
+                        "location": "Blundstone Arena, Hobart",
+                        "seriesDate": "2021/22",
+                        "partnership": 41,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "AC Agar",
+                        "player1Score": 7,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "MR Marsh",
+                        "player2Score": 100,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Perth Scorchers",
+                        "opponents": "Hobart Hurricanes",
+                        "location": "Marvel Stadium, Melbourne",
+                        "seriesDate": "2020/21",
+                        "partnership": 35,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "JP Inglis",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JA Richardson",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Perth Scorchers",
+                        "opponents": "Hobart Hurricanes",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2018/19",
+                        "partnership": 38,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "NM Coulter-Nile",
+                        "player1Score": 31,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "AJ Tye",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Perth Scorchers",
+                        "opponents": "Hobart Hurricanes",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2019/20",
+                        "partnership": 36,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "JA Richardson",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "ML Kelly",
+                        "player2Score": 3,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Perth Scorchers",
+                        "opponents": "Hobart Hurricanes",
+                        "location": "Optus Stadium, Perth",
+                        "seriesDate": "2017/18",
+                        "partnership": 23,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "TT Bresnan",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "MG Johnson",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "DJM Short",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "matches": 11,
+                "runs": 391,
+                "innings": 11,
+                "notOuts": 1,
+                "average": 39.1,
+                "hs": "103*"
+            }
+        ],
+        [
+            {
+                "name": "MR Marsh",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "matches": 9,
+                "runs": 324,
+                "innings": 9,
+                "notOuts": 1,
+                "average": 40.5,
+                "hs": "100*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RP Meredith",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "matches": 8,
+                "balls": 170,
+                "maidens": 0,
+                "runs": 214,
+                "wickets": 11,
+                "bbruns": 15,
+                "bbwickets": 3,
+                "average": 19.45
+            }
+        ],
+        [
+            {
+                "name": "AJ Tye",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "matches": 12,
+                "balls": 258,
+                "maidens": 0,
+                "runs": 383,
+                "wickets": 16,
+                "bbruns": 19,
+                "bbwickets": 3,
+                "average": 23.93
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "BR McDermott",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "matches": 14,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "CT Bancroft",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "matches": 9,
+                "dismissals": 5
+            },
+            {
+                "name": "JP Behrendorff",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "matches": 13,
+                "dismissals": 5
+            },
+            {
+                "name": "MR Marsh",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "matches": 9,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "TD Paine",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "matches": 7,
+                "dismissals": 1
+            },
+            {
+                "name": "MS Wade",
+                "team": "Hobart Hurricanes",
+                "opponents": "Perth Scorchers",
+                "matches": 10,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "CT Bancroft",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "matches": 9,
+                "dismissals": 3
+            },
+            {
+                "name": "JP Inglis",
+                "team": "Perth Scorchers",
+                "opponents": "Hobart Hurricanes",
+                "matches": 9,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Hobart Hurricanes",
+                    "opponents": "Perth Scorchers",
+                    "total": 98,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Blundstone Arena, Hobart",
+                    "seriesDate": "2019/20"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Hobart Hurricanes",
+                    "opponents": "Perth Scorchers",
+                    "total": 98,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Blundstone Arena, Hobart",
+                    "seriesDate": "2019/20"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Hobart Hurricanes",
+                    "opponents": "Perth Scorchers",
+                    "total": 98,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Blundstone Arena, Hobart",
+                    "seriesDate": "2019/20"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Perth Scorchers",
+                    "opponents": "Hobart Hurricanes",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Western Australia Cricket Association Ground, Perth",
+                    "seriesDate": "2011/12"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Perth Scorchers",
+                    "opponents": "Hobart Hurricanes",
+                    "total": 107,
+                    "wickets": 8,
+                    "declared": false,
+                    "location": "University of Tasmania Stadium, Launceston",
+                    "seriesDate": "2018/19"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Perth Scorchers",
+                    "opponents": "Hobart Hurricanes",
+                    "total": 107,
+                    "wickets": 8,
+                    "declared": false,
+                    "location": "University of Tasmania Stadium, Launceston",
+                    "seriesDate": "2018/19"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:44.779024Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

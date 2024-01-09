@@ -1,0 +1,1138 @@
+{
+    "team1": "England",
+    "team2": "New Zealand",
+    "competitionTitle": "ICC World Cup",
+    "competitionSubType": "wc",
+    "matchDto": {
+        "count": 11,
+        "startDate": "1975-06-11T01:00",
+        "endDate": "2023-10-05T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "England",
+                "opponents": "New Zealand",
+                "total": 322,
+                "wickets": 6,
+                "declared": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1983"
+            }
+        ],
+        [
+            {
+                "team": "New Zealand",
+                "opponents": "England",
+                "total": 283,
+                "wickets": 1,
+                "declared": false,
+                "location": "Narendra Modi Stadium, Motera, Ahmedabad",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "KWR Fletcher",
+                "team": "England",
+                "opponents": "New Zealand",
+                "score": 131,
+                "notOut": false,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "1975"
+            }
+        ],
+        [
+            {
+                "name": "DP Conway",
+                "team": "New Zealand",
+                "opponents": "England",
+                "score": 152,
+                "notOut": true,
+                "location": "Narendra Modi Stadium, Motera, Ahmedabad",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "GR Dilley",
+                "team": "England",
+                "opponents": "New Zealand",
+                "strikeRate": 221.43,
+                "runs": 31,
+                "balls": 14,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1983"
+            }
+        ],
+        [
+            {
+                "name": "BB McCullum",
+                "team": "New Zealand",
+                "opponents": "England",
+                "strikeRate": 308.0,
+                "runs": 77,
+                "balls": 25,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "GR Dilley",
+                "team": "England",
+                "opponents": "New Zealand",
+                "strikeRate": 221.43,
+                "runs": 31,
+                "balls": 14,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1983"
+            }
+        ],
+        [
+            {
+                "name": "BB McCullum",
+                "team": "New Zealand",
+                "opponents": "England",
+                "strikeRate": 308.0,
+                "runs": 77,
+                "balls": 25,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "G Boycott",
+                "team": "England",
+                "opponents": "New Zealand",
+                "strikeRate": 14.29,
+                "runs": 2,
+                "balls": 14,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1979"
+            }
+        ],
+        [
+            {
+                "name": "C de Grandhomme",
+                "team": "New Zealand",
+                "opponents": "England",
+                "strikeRate": 23.08,
+                "runs": 3,
+                "balls": 13,
+                "location": "Emirates Riverside, Chester-le-Street",
+                "seriesDate": "2019"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "W Larkins",
+                "team": "England",
+                "opponents": "New Zealand",
+                "strikeRate": 18.92,
+                "runs": 7,
+                "balls": 37,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1979"
+            }
+        ],
+        [
+            {
+                "name": "BG Hadlee",
+                "team": "New Zealand",
+                "opponents": "England",
+                "strikeRate": 24.68,
+                "runs": 19,
+                "balls": 77,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "1975"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "JM Bairstow",
+                "team": "England",
+                "opponents": "New Zealand",
+                "boundaries": 15,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Emirates Riverside, Chester-le-Street",
+                "seriesDate": "2019"
+            }
+        ],
+        [
+            {
+                "name": "DP Conway",
+                "team": "New Zealand",
+                "opponents": "England",
+                "boundaries": 19,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Narendra Modi Stadium, Motera, Ahmedabad",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "DI Gower",
+                "team": "England",
+                "opponents": "New Zealand",
+                "boundaries": 4,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1983"
+            }
+        ],
+        [
+            {
+                "name": "BB McCullum",
+                "team": "New Zealand",
+                "opponents": "England",
+                "boundaries": 7,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "JM Bairstow",
+                "team": "England",
+                "opponents": "New Zealand",
+                "boundaries": 16,
+                "fours": 15,
+                "sixes": 1,
+                "location": "Emirates Riverside, Chester-le-Street",
+                "seriesDate": "2019"
+            }
+        ],
+        [
+            {
+                "name": "DP Conway",
+                "team": "New Zealand",
+                "opponents": "England",
+                "boundaries": 22,
+                "fours": 19,
+                "sixes": 3,
+                "location": "Narendra Modi Stadium, Motera, Ahmedabad",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "RGD Willis",
+                "team": "England",
+                "opponents": "New Zealand",
+                "wickets": 4,
+                "runs": 42,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1983"
+            }
+        ],
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "England",
+                "wickets": 7,
+                "runs": 33,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RGD Willis",
+                "team": "England",
+                "opponents": "New Zealand",
+                "wickets": 4,
+                "runs": 42,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1983"
+            }
+        ],
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "England",
+                "wickets": 7,
+                "runs": 33,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "CR Woakes",
+                "team": "England",
+                "opponents": "New Zealand",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 8,
+                "sr": 9.0,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "England",
+                "overs": "9",
+                "balls": 54,
+                "maidens": 0,
+                "wickets": 7,
+                "runs": 33,
+                "sr": 7.71,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "CR Woakes",
+                "team": "England",
+                "opponents": "New Zealand",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 8,
+                "sr": 9.0,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "England",
+                "overs": "9",
+                "balls": 54,
+                "maidens": 0,
+                "wickets": 7,
+                "runs": 33,
+                "sr": 7.71,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "RGD Willis",
+                "team": "England",
+                "opponents": "New Zealand",
+                "overs": "7",
+                "balls": 42,
+                "maidens": 2,
+                "wickets": 2,
+                "runs": 9,
+                "sr": 1.29,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1983"
+            }
+        ],
+        [
+            {
+                "name": "SE Bond",
+                "team": "New Zealand",
+                "opponents": "England",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 19,
+                "sr": 1.9,
+                "location": "Beausejour Stadium, Gros Islet",
+                "seriesDate": "2006/07"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "RGD Willis",
+                "team": "England",
+                "opponents": "New Zealand",
+                "overs": "7",
+                "balls": 42,
+                "maidens": 2,
+                "wickets": 2,
+                "runs": 9,
+                "sr": 1.29,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1983"
+            }
+        ],
+        [
+            {
+                "name": "SE Bond",
+                "team": "New Zealand",
+                "opponents": "England",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 19,
+                "sr": 1.9,
+                "location": "Beausejour Stadium, Gros Islet",
+                "seriesDate": "2006/07"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "ST Finn",
+                "team": "England",
+                "opponents": "New Zealand",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 49,
+                "sr": 24.5,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "C de Grandhomme",
+                "team": "New Zealand",
+                "opponents": "England",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 11,
+                "sr": 11.0,
+                "location": "Emirates Riverside, Chester-le-Street",
+                "seriesDate": "2019"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "MA Wood",
+                "team": "England",
+                "opponents": "New Zealand",
+                "overs": "5",
+                "balls": 30,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 55,
+                "sr": 11.0,
+                "location": "Narendra Modi Stadium, Motera, Ahmedabad",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "MC Snedden",
+                "team": "New Zealand",
+                "opponents": "England",
+                "overs": "12",
+                "balls": 72,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 105,
+                "sr": 8.75,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1983"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Emirates Riverside, Chester-le-Street",
+                        "seriesDate": "2019",
+                        "partnership": 123,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JJ Roy",
+                        "player1Score": 60,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JM Bairstow",
+                        "player2Score": 106,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Sardar Patel Stadium, Motera, Ahmedabad",
+                        "seriesDate": "1995/96",
+                        "partnership": 99,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AJ Stewart",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "GA Hick",
+                        "player2Score": 85,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1975",
+                        "partnership": 83,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "KWR Fletcher",
+                        "player1Score": 131,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "FC Hayes",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1983",
+                        "partnership": 115,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "AJ Lamb",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "MW Gatting",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 110,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "BA Stokes",
+                        "player1Score": 84,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "JC Buttler",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1975",
+                        "partnership": 66,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "KWR Fletcher",
+                        "player1Score": 131,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CM Old",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1983",
+                        "partnership": 44,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "IJ Gould",
+                        "player1Score": 14,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "GR Dilley",
+                        "player2Score": 31,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Beausejour Stadium, Gros Islet",
+                        "seriesDate": "2006/07",
+                        "partnership": 71,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "PA Nixon",
+                        "player1Score": 42,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "LE Plunkett",
+                        "player2Score": 29,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 13,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "BA Stokes",
+                        "player1Score": 84,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "AU Rashid",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "New Zealand",
+                        "location": "Narendra Modi Stadium, Motera, Ahmedabad",
+                        "seriesDate": "2023/24",
+                        "partnership": 30,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "AU Rashid",
+                        "player1Score": 15,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "MA Wood",
+                        "player2Score": 13,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Westpac Stadium, Wellington",
+                        "seriesDate": "2014/15",
+                        "partnership": 105,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MJ Guptill",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BB McCullum",
+                        "player2Score": 77,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Narendra Modi Stadium, Motera, Ahmedabad",
+                        "seriesDate": "2023/24",
+                        "partnership": 273,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "R Ravindra",
+                        "player1Score": 123,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "DP Conway",
+                        "player2Score": 152,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1991/92",
+                        "partnership": 108,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AH Jones",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "MD Crowe",
+                        "player2Score": 73,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Sardar Patel Stadium, Motera, Ahmedabad",
+                        "seriesDate": "1995/96",
+                        "partnership": 55,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "NJ Astle",
+                        "player1Score": 101,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "CL Cairns",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Beausejour Stadium, Gros Islet",
+                        "seriesDate": "2006/07",
+                        "partnership": 138,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "SB Styris",
+                        "player1Score": 87,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JDP Oram",
+                        "player2Score": 63,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2019",
+                        "partnership": 46,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "C de Grandhomme",
+                        "player1Score": 16,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "TWM Latham",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1983",
+                        "partnership": 70,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "RJ Hadlee",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "JV Coney",
+                        "player2Score": 66,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1975",
+                        "partnership": 48,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "BJ McKechnie",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "DR Hadlee",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1983",
+                        "partnership": 52,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "MD Crowe",
+                        "player1Score": 97,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "MC Snedden",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "England",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1983",
+                        "partnership": 26,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MD Crowe",
+                        "player1Score": 97,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "EJ Chatfield",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JM Bairstow",
+                "team": "England",
+                "opponents": "New Zealand",
+                "matches": 3,
+                "runs": 175,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 58.33,
+                "hs": "106"
+            }
+        ],
+        [
+            {
+                "name": "MD Crowe",
+                "team": "New Zealand",
+                "opponents": "England",
+                "matches": 3,
+                "runs": 190,
+                "innings": 3,
+                "notOuts": 1,
+                "average": 95.0,
+                "hs": "97"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RGD Willis",
+                "team": "England",
+                "opponents": "New Zealand",
+                "matches": 3,
+                "balls": 186,
+                "maidens": 4,
+                "runs": 92,
+                "wickets": 7,
+                "bbruns": 42,
+                "bbwickets": 4,
+                "average": 13.14
+            }
+        ],
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "England",
+                "matches": 2,
+                "balls": 108,
+                "maidens": 0,
+                "runs": 103,
+                "wickets": 8,
+                "bbruns": 33,
+                "bbwickets": 7,
+                "average": 12.87
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JC Buttler",
+                "team": "England",
+                "opponents": "New Zealand",
+                "matches": 4,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "TWM Latham",
+                "team": "New Zealand",
+                "opponents": "England",
+                "matches": 3,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JC Buttler",
+                "team": "England",
+                "opponents": "New Zealand",
+                "matches": 4,
+                "dismissals": 1
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "England",
+                    "opponents": "New Zealand",
+                    "total": 123,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Westpac Stadium, Wellington",
+                    "seriesDate": "2014/15"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "New Zealand",
+                    "total": 123,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Westpac Stadium, Wellington",
+                    "seriesDate": "2014/15"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "New Zealand",
+                    "total": 123,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Westpac Stadium, Wellington",
+                    "seriesDate": "2014/15"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "England",
+                    "total": 186,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Trent Bridge, Nottingham",
+                    "seriesDate": "1975"
+                },
+                {
+                    "team": "New Zealand",
+                    "opponents": "England",
+                    "total": 186,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Emirates Riverside, Chester-le-Street",
+                    "seriesDate": "2019"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "England",
+                    "total": 186,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Trent Bridge, Nottingham",
+                    "seriesDate": "1975"
+                },
+                {
+                    "team": "New Zealand",
+                    "opponents": "England",
+                    "total": 186,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Emirates Riverside, Chester-le-Street",
+                    "seriesDate": "2019"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "England",
+                    "total": 125,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Westpac Stadium, Wellington",
+                    "seriesDate": "2014/15"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:30.233133Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

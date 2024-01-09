@@ -1,0 +1,1181 @@
+{
+    "team1": "Australia",
+    "team2": "Netherlands",
+    "competitionTitle": "ICC World Cup",
+    "competitionSubType": "wc",
+    "matchDto": {
+        "count": 3,
+        "startDate": "2003-02-20T00:00",
+        "endDate": "2023-10-25T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "total": 399,
+                "wickets": 8,
+                "declared": false,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "total": 129,
+                "wickets": 10,
+                "declared": false,
+                "location": "Warner Park, Basseterre",
+                "seriesDate": "2006/07"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "BJ Hodge",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "score": 123,
+                "notOut": false,
+                "location": "Warner Park, Basseterre",
+                "seriesDate": "2006/07"
+            }
+        ],
+        [
+            {
+                "name": "DLS van Bunge",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "score": 33,
+                "notOut": false,
+                "location": "Warner Park, Basseterre",
+                "seriesDate": "2006/07"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "SR Watson",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "strikeRate": 300.0,
+                "runs": 12,
+                "balls": 4,
+                "location": "Warner Park, Basseterre",
+                "seriesDate": "2006/07"
+            }
+        ],
+        [
+            {
+                "name": "PW Borren",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "strikeRate": 133.33,
+                "runs": 24,
+                "balls": 18,
+                "location": "Warner Park, Basseterre",
+                "seriesDate": "2006/07"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "GJ Maxwell",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "strikeRate": 240.91,
+                "runs": 106,
+                "balls": 44,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "PW Borren",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "strikeRate": 133.33,
+                "runs": 24,
+                "balls": 18,
+                "location": "Warner Park, Basseterre",
+                "seriesDate": "2006/07"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "ML Hayden",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "strikeRate": 55.0,
+                "runs": 33,
+                "balls": 60,
+                "location": "North West Cricket Stadium, Potchefstroom",
+                "seriesDate": "2002/03"
+            }
+        ],
+        [
+            {
+                "name": "J Smits",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "strikeRate": 25.0,
+                "runs": 3,
+                "balls": 12,
+                "location": "Warner Park, Basseterre",
+                "seriesDate": "2006/07"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "ML Hayden",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "strikeRate": 55.0,
+                "runs": 33,
+                "balls": 60,
+                "location": "North West Cricket Stadium, Potchefstroom",
+                "seriesDate": "2002/03"
+            }
+        ],
+        [
+            {
+                "name": "B Zuiderent",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "strikeRate": 31.03,
+                "runs": 9,
+                "balls": 29,
+                "location": "Warner Park, Basseterre",
+                "seriesDate": "2006/07"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "AC Gilchrist",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "boundaries": 11,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Warner Park, Basseterre",
+                "seriesDate": "2006/07"
+            },
+            {
+                "name": "DA Warner",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "boundaries": 11,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "Vikramjit Singh",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "GJ Maxwell",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "boundaries": 8,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "TBM de Leede",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "North West Cricket Stadium, Potchefstroom",
+                "seriesDate": "2002/03"
+            },
+            {
+                "name": "E Schiferli",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "North West Cricket Stadium, Potchefstroom",
+                "seriesDate": "2002/03"
+            },
+            {
+                "name": "PW Borren",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Warner Park, Basseterre",
+                "seriesDate": "2006/07"
+            },
+            {
+                "name": "DLS van Bunge",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Warner Park, Basseterre",
+                "seriesDate": "2006/07"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "GJ Maxwell",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "boundaries": 17,
+                "fours": 9,
+                "sixes": 8,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "Vikramjit Singh",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "boundaries": 6,
+                "fours": 6,
+                "sixes": 0,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "A Zampa",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "wickets": 4,
+                "runs": 8,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "LV van Beek",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "wickets": 4,
+                "runs": 74,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "A Zampa",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "wickets": 4,
+                "runs": 8,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "LV van Beek",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "wickets": 4,
+                "runs": 74,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "A Zampa",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 8,
+                "sr": 4.5,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "LV van Beek",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 74,
+                "sr": 15.0,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "A Zampa",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 8,
+                "sr": 4.5,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "LV van Beek",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 74,
+                "sr": 15.0,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "JN Gillespie",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 7,
+                "sr": 2.33,
+                "location": "North West Cricket Stadium, Potchefstroom",
+                "seriesDate": "2002/03"
+            }
+        ],
+        [
+            {
+                "name": "RP Lefebvre",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "overs": "8",
+                "balls": 48,
+                "maidens": 2,
+                "wickets": 0,
+                "runs": 19,
+                "sr": 2.38,
+                "location": "North West Cricket Stadium, Potchefstroom",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "JN Gillespie",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 7,
+                "sr": 2.33,
+                "location": "North West Cricket Stadium, Potchefstroom",
+                "seriesDate": "2002/03"
+            }
+        ],
+        [
+            {
+                "name": "RP Lefebvre",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "overs": "8",
+                "balls": 48,
+                "maidens": 2,
+                "wickets": 0,
+                "runs": 19,
+                "sr": 2.38,
+                "location": "North West Cricket Stadium, Potchefstroom",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "IJ Harvey",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "overs": "4.2",
+                "balls": 26,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 25,
+                "sr": 5.77,
+                "location": "North West Cricket Stadium, Potchefstroom",
+                "seriesDate": "2002/03"
+            }
+        ],
+        [
+            {
+                "name": "BFW de Leede",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 115,
+                "sr": 11.5,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "IJ Harvey",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "overs": "4.2",
+                "balls": 26,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 25,
+                "sr": 5.77,
+                "location": "North West Cricket Stadium, Potchefstroom",
+                "seriesDate": "2002/03"
+            }
+        ],
+        [
+            {
+                "name": "BFW de Leede",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 115,
+                "sr": 11.5,
+                "location": "Feroz Shah Kotla, Delhi",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Netherlands",
+                        "location": "Warner Park, Basseterre",
+                        "seriesDate": "2006/07",
+                        "partnership": 73,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AC Gilchrist",
+                        "player1Score": 57,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ML Hayden",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Netherlands",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2023/24",
+                        "partnership": 132,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "SPD Smith",
+                        "player1Score": 71,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DA Warner",
+                        "player2Score": 104,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Netherlands",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2023/24",
+                        "partnership": 84,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DA Warner",
+                        "player1Score": 104,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "M Labuschagne",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Netherlands",
+                        "location": "Warner Park, Basseterre",
+                        "seriesDate": "2006/07",
+                        "partnership": 204,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MJ Clarke",
+                        "player1Score": 93,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "BJ Hodge",
+                        "player2Score": 123,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Netherlands",
+                        "location": "Warner Park, Basseterre",
+                        "seriesDate": "2006/07",
+                        "partnership": 5,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MJ Clarke",
+                        "player1Score": 93,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "MEK Hussey",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Netherlands",
+                        "location": "Warner Park, Basseterre",
+                        "seriesDate": "2006/07",
+                        "partnership": 33,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "MJ Clarke",
+                        "player1Score": 93,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "SR Watson",
+                        "player2Score": 12,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Netherlands",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2023/24",
+                        "partnership": 103,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "PJ Cummins",
+                        "player1Score": 12,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "GJ Maxwell",
+                        "player2Score": 106,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Netherlands",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2023/24",
+                        "partnership": 0,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "PJ Cummins",
+                        "player1Score": 12,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "MA Starc",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Netherlands",
+                        "location": "Feroz Shah Kotla, Delhi",
+                        "seriesDate": "2023/24",
+                        "partnership": 6,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "PJ Cummins",
+                        "player1Score": 12,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "A Zampa",
+                        "player2Score": 1,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Netherlands",
+                        "opponents": "Australia",
+                        "location": "Warner Park, Basseterre",
+                        "seriesDate": "2006/07",
+                        "partnership": 36,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DJ Reekers",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "B Zuiderent",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Netherlands",
+                        "opponents": "Australia",
+                        "location": "North West Cricket Stadium, Potchefstroom",
+                        "seriesDate": "2002/03",
+                        "partnership": 10,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "LP van Troost",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "B Zuiderent",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Netherlands",
+                        "opponents": "Australia",
+                        "location": "North West Cricket Stadium, Potchefstroom",
+                        "seriesDate": "2002/03",
+                        "partnership": 24,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "LP van Troost",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "KJJ van Noortwijk",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Netherlands",
+                        "opponents": "Australia",
+                        "location": "North West Cricket Stadium, Potchefstroom",
+                        "seriesDate": "2002/03",
+                        "partnership": 17,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "KJJ van Noortwijk",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "TBM de Leede",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Netherlands",
+                        "opponents": "Australia",
+                        "location": "North West Cricket Stadium, Potchefstroom",
+                        "seriesDate": "2002/03",
+                        "partnership": 26,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "TBM de Leede",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RH Scholte",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Netherlands",
+                        "opponents": "Australia",
+                        "location": "Warner Park, Basseterre",
+                        "seriesDate": "2006/07",
+                        "partnership": 41,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "TBM de Leede",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DLS van Bunge",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Netherlands",
+                        "opponents": "Australia",
+                        "location": "Warner Park, Basseterre",
+                        "seriesDate": "2006/07",
+                        "partnership": 10,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "DLS van Bunge",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "PW Borren",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Netherlands",
+                        "opponents": "Australia",
+                        "location": "North West Cricket Stadium, Potchefstroom",
+                        "seriesDate": "2002/03",
+                        "partnership": 16,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JF Kloppenburg",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "RP Lefebvre",
+                        "player2Score": 14,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Netherlands",
+                        "opponents": "Australia",
+                        "location": "Warner Park, Basseterre",
+                        "seriesDate": "2006/07",
+                        "partnership": 23,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "PW Borren",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Adeel Raja",
+                        "player2Score": 8,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Netherlands",
+                        "opponents": "Australia",
+                        "location": "North West Cricket Stadium, Potchefstroom",
+                        "seriesDate": "2002/03",
+                        "partnership": 4,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "RP Lefebvre",
+                        "player1Score": 14,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "JJ Esmeijer",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "BJ Hodge",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "matches": 1,
+                "runs": 123,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 123.0,
+                "hs": "123"
+            }
+        ],
+        [
+            {
+                "name": "TBM de Leede",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "matches": 2,
+                "runs": 38,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 19.0,
+                "hs": "24"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GB Hogg",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "matches": 1,
+                "balls": 29,
+                "maidens": 0,
+                "runs": 27,
+                "wickets": 4,
+                "bbruns": 27,
+                "bbwickets": 4,
+                "average": 6.75
+            },
+            {
+                "name": "A Zampa",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "matches": 1,
+                "balls": 18,
+                "maidens": 0,
+                "runs": 8,
+                "wickets": 4,
+                "bbruns": 8,
+                "bbwickets": 4,
+                "average": 2.0
+            }
+        ],
+        [
+            {
+                "name": "TBM de Leede",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "matches": 2,
+                "balls": 102,
+                "maidens": 1,
+                "runs": 74,
+                "wickets": 4,
+                "bbruns": 34,
+                "bbwickets": 2,
+                "average": 18.5
+            },
+            {
+                "name": "LV van Beek",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "matches": 1,
+                "balls": 60,
+                "maidens": 0,
+                "runs": 74,
+                "wickets": 4,
+                "bbruns": 74,
+                "bbwickets": 4,
+                "average": 18.5
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JP Maher",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "CN Ackermann",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "A Dutt",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "SA Engelbrecht",
+                "team": "Netherlands",
+                "opponents": "Australia",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "AC Gilchrist",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "JP Inglis",
+                "team": "Australia",
+                "opponents": "Netherlands",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "Netherlands",
+                    "total": 170,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "North West Cricket Stadium, Potchefstroom",
+                    "seriesDate": "2002/03"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "Netherlands",
+                    "total": 170,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "North West Cricket Stadium, Potchefstroom",
+                    "seriesDate": "2002/03"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Netherlands",
+                    "opponents": "Australia",
+                    "total": 90,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Feroz Shah Kotla, Delhi",
+                    "seriesDate": "2023/24"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Netherlands",
+                    "opponents": "Australia",
+                    "total": 90,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Feroz Shah Kotla, Delhi",
+                    "seriesDate": "2023/24"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Netherlands",
+                    "opponents": "Australia",
+                    "total": 90,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Feroz Shah Kotla, Delhi",
+                    "seriesDate": "2023/24"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:29.720021Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,831 @@
+{
+    "team1": "Pakistanis",
+    "team2": "Victoria",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 6,
+        "startDate": "1972-11-24T00:00",
+        "endDate": "1995-11-24T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Pakistanis",
+                "opponents": "Victoria",
+                "total": 406,
+                "wickets": 9,
+                "declared": true,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1983/84"
+            }
+        ],
+        [
+            {
+                "team": "Victoria",
+                "opponents": "Pakistanis",
+                "total": 555,
+                "wickets": 5,
+                "declared": true,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1983/84"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Inzamam-ul-Haq",
+                "team": "Pakistanis",
+                "opponents": "Victoria",
+                "score": 132,
+                "notOut": false,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1995/96"
+            }
+        ],
+        [
+            {
+                "name": "GN Yallop",
+                "team": "Victoria",
+                "opponents": "Pakistanis",
+                "score": 220,
+                "notOut": false,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1983/84"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Tauseef Ahmed",
+                "team": "Pakistanis",
+                "opponents": "Victoria",
+                "wickets": 5,
+                "runs": 42,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1989/90"
+            }
+        ],
+        [
+            {
+                "name": "PE McIntyre",
+                "team": "Victoria",
+                "opponents": "Pakistanis",
+                "wickets": 5,
+                "runs": 53,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1989/90"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Wasim Akram",
+                "team": "Pakistanis",
+                "opponents": "Victoria",
+                "wickets": 6,
+                "runs": 61,
+                "location": "Queen Elizabeth II Oval, Bendigo",
+                "seriesDate": "1991/92"
+            }
+        ],
+        [
+            {
+                "name": "MHN Walker",
+                "team": "Victoria",
+                "opponents": "Pakistanis",
+                "wickets": 7,
+                "runs": 96,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1972/73"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1983/84",
+                        "partnership": 94,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Mohsin Khan",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Mudassar Nazar",
+                        "player2Score": 123,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1983/84",
+                        "partnership": 147,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Mudassar Nazar",
+                        "player1Score": 103,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "Qasim Umar",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1983/84",
+                        "partnership": 126,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "Mudassar Nazar",
+                        "player1Score": 103,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "Javed Miandad",
+                        "player2Score": 85,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1983/84",
+                        "partnership": 65,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "Javed Miandad",
+                        "player1Score": 106,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "Zaheer Abbas",
+                        "player2Score": 22,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1981/82",
+                        "partnership": 72,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "Saleem Malik",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Imran Khan",
+                        "player2Score": 93,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Victoria",
+                        "location": "Queen Elizabeth II Oval, Bendigo",
+                        "seriesDate": "1991/92",
+                        "partnership": 69,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Imran Khan",
+                        "player1Score": 29,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "Ijaz Ahmed",
+                        "player2Score": 67,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1981/82",
+                        "partnership": 63,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Imran Khan",
+                        "player1Score": 93,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "Ashraf Ali",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1983/84",
+                        "partnership": 53,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Zaheer Abbas",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "Wasim Bari",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1972/73",
+                        "partnership": 40,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "Saleem Altaf",
+                        "player1Score": 35,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "Masood Iqbal",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1972/73",
+                        "partnership": 38,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "Saleem Altaf",
+                        "player1Score": 35,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "Asif Masood",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Pakistanis",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1972/73",
+                        "partnership": 270,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "KR Stackpole",
+                        "player1Score": 136,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AP Sheahan",
+                        "player2Score": 143,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Pakistanis",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1981/82",
+                        "partnership": 123,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "GM Watts",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "GN Yallop",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Pakistanis",
+                        "location": "Queen Elizabeth II Oval, Bendigo",
+                        "seriesDate": "1991/92",
+                        "partnership": 45,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DJ Ramshaw",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DS Lehmann",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Pakistanis",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1972/73",
+                        "partnership": 117,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Pakistanis",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1983/84",
+                        "partnership": 148,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GN Yallop",
+                        "player1Score": 220,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "MD Taylor",
+                        "player2Score": 101,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Pakistanis",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1983/84",
+                        "partnership": 78,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "MD Taylor",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "AIC Dodemaide",
+                        "player2Score": 37,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Pakistanis",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1981/82",
+                        "partnership": 65,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "RD Robinson",
+                        "player1Score": 71,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "RJ Bright",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Pakistanis",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1972/73",
+                        "partnership": 27,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Pakistanis",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1989/90",
+                        "partnership": 21,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "PR Reiffel",
+                        "player1Score": 18,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "DW Fleming",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Pakistanis",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1995/96",
+                        "partnership": 51,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "BA Williams",
+                        "player1Score": 35,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "C Howard",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Mudassar Nazar",
+                "team": "Pakistanis",
+                "opponents": "Victoria",
+                "matches": 1,
+                "runs": 226,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 113.0,
+                "hs": "123"
+            }
+        ],
+        [
+            {
+                "name": "GM Watts",
+                "team": "Victoria",
+                "opponents": "Pakistanis",
+                "matches": 3,
+                "runs": 346,
+                "innings": 6,
+                "notOuts": 0,
+                "average": 57.66,
+                "hs": "102"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Mushtaq Ahmed",
+                "team": "Pakistanis",
+                "opponents": "Victoria",
+                "matches": 2,
+                "balls": 408,
+                "maidens": 20,
+                "runs": 202,
+                "wickets": 8,
+                "bbruns": 75,
+                "bbwickets": 3,
+                "average": 25.25
+            }
+        ],
+        [
+            {
+                "name": "MHN Walker",
+                "team": "Victoria",
+                "opponents": "Pakistanis",
+                "matches": 2,
+                "balls": 386,
+                "maidens": 15,
+                "runs": 178,
+                "wickets": 13,
+                "bbruns": 34,
+                "bbwickets": 4,
+                "average": 13.69
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "Ijaz Ahmed",
+                "team": "Pakistanis",
+                "opponents": "Victoria",
+                "matches": 3,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "DS Berry",
+                "team": "Victoria",
+                "opponents": "Pakistanis",
+                "matches": 2,
+                "dismissals": 17
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "DS Berry",
+                "team": "Victoria",
+                "opponents": "Pakistanis",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "RD Robinson",
+                "team": "Victoria",
+                "opponents": "Pakistanis",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Pakistanis",
+                    "opponents": "Victoria",
+                    "total": 154,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1995/96"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Pakistanis",
+                    "opponents": "Victoria",
+                    "total": 154,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1995/96"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Pakistanis",
+                    "opponents": "Victoria",
+                    "total": 99,
+                    "wickets": 5,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1981/82"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Victoria",
+                    "opponents": "Pakistanis",
+                    "total": 173,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1989/90"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Victoria",
+                    "opponents": "Pakistanis",
+                    "total": 173,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1989/90"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Victoria",
+                    "opponents": "Pakistanis",
+                    "total": 72,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1995/96"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:46.102080Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

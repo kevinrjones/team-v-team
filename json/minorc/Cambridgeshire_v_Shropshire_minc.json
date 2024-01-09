@@ -1,0 +1,831 @@
+{
+    "team1": "Cambridgeshire",
+    "team2": "Shropshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 14,
+        "startDate": "1965-06-09T01:00",
+        "endDate": "1971-08-11T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridgeshire",
+                "opponents": "Shropshire",
+                "total": 265,
+                "wickets": 8,
+                "declared": true,
+                "location": "High Town, Bridgnorth",
+                "seriesDate": "1967"
+            }
+        ],
+        [
+            {
+                "team": "Shropshire",
+                "opponents": "Cambridgeshire",
+                "total": 282,
+                "wickets": 7,
+                "declared": true,
+                "location": "High Town, Bridgnorth",
+                "seriesDate": "1970"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "PA Shippey",
+                "team": "Cambridgeshire",
+                "opponents": "Shropshire",
+                "score": 137,
+                "notOut": false,
+                "location": "London Road, Shrewsbury",
+                "seriesDate": "1966"
+            }
+        ],
+        [
+            {
+                "name": "RL Burton",
+                "team": "Shropshire",
+                "opponents": "Cambridgeshire",
+                "score": 100,
+                "notOut": true,
+                "location": "London Road, Shrewsbury",
+                "seriesDate": "1969"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JH Wardle",
+                "team": "Cambridgeshire",
+                "opponents": "Shropshire",
+                "wickets": 8,
+                "runs": 35,
+                "location": "Spicer's Sports Ground, Sawston",
+                "seriesDate": "1966"
+            }
+        ],
+        [
+            {
+                "name": "DL York",
+                "team": "Shropshire",
+                "opponents": "Cambridgeshire",
+                "wickets": 7,
+                "runs": 54,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1971"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JH Wardle",
+                "team": "Cambridgeshire",
+                "opponents": "Shropshire",
+                "wickets": 15,
+                "runs": 119,
+                "location": "Spicer's Sports Ground, Sawston",
+                "seriesDate": "1966"
+            }
+        ],
+        [
+            {
+                "name": "B Hughes",
+                "team": "Shropshire",
+                "opponents": "Cambridgeshire",
+                "wickets": 8,
+                "runs": 114,
+                "location": "Harecroft Road, Wisbech",
+                "seriesDate": "1967"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Shropshire",
+                        "location": "Harecroft Road, Wisbech",
+                        "seriesDate": "1967",
+                        "partnership": 147,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DHR Fairey",
+                        "player1Score": 104,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PA Shippey",
+                        "player2Score": 36,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Shropshire",
+                        "location": "The Avenue, Uppington",
+                        "seriesDate": "1971",
+                        "partnership": 93,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "PA Shippey",
+                        "player1Score": 66,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "DB Bailey",
+                        "player2Score": 18,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Shropshire",
+                        "location": "London Road, Shrewsbury",
+                        "seriesDate": "1966",
+                        "partnership": 194,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "PA Shippey",
+                        "player1Score": 137,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "TS Hale",
+                        "player2Score": 85,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Shropshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1967",
+                        "partnership": 104,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RA Gautrey",
+                        "player1Score": 57,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "DHR Fairey",
+                        "player2Score": 118,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Shropshire",
+                        "location": "Morda Road, Oswestry",
+                        "seriesDate": "1968",
+                        "partnership": 150,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GD Raw",
+                        "player1Score": 98,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RA Gautrey",
+                        "player2Score": 70,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Shropshire",
+                        "location": "Spicer's Sports Ground, Sawston",
+                        "seriesDate": "1966",
+                        "partnership": 46,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "TS Hale",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "AB Fitton",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Shropshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1970",
+                        "partnership": 64,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "P Clayton",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "CB Gadsby",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Shropshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1965",
+                        "partnership": 55,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "HJ Campbell-Ferguson",
+                        "player1Score": 43,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "CB Gadsby",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Shropshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1967",
+                        "partnership": 33,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "RA Gautrey",
+                        "player1Score": 57,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "DC Wing",
+                        "player2Score": 24,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Shropshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1969",
+                        "partnership": 17,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "TM Sills",
+                        "player1Score": 38,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "AR Wilson",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1971",
+                        "partnership": 84,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JS Johnson",
+                        "player1Score": 57,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "E Marsh",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1967",
+                        "partnership": 111,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "ADT Jones",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HM Winfield",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1965",
+                        "partnership": 85,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RM Claffey",
+                        "player1Score": 32,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DJ Barnes",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "Spicer's Sports Ground, Sawston",
+                        "seriesDate": "1966",
+                        "partnership": 63,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "ADT Jones",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "E Marsh",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "London Road, Shrewsbury",
+                        "seriesDate": "1969",
+                        "partnership": 108,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "RL Burton",
+                        "player1Score": 100,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "PH Bromley",
+                        "player2Score": 22,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1970",
+                        "partnership": 78,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "E Marsh",
+                        "player1Score": 69,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "BJ Perry",
+                        "player2Score": 58,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "Morda Road, Oswestry",
+                        "seriesDate": "1968",
+                        "partnership": 92,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "PW Gough",
+                        "player1Score": 81,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "MR Picken",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1969",
+                        "partnership": 46,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "P Bradley",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "DE Marsh",
+                        "player2Score": 17,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1965",
+                        "partnership": 36,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "DH Breakwell",
+                        "player1Score": 6,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "HJ Phillips",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1967",
+                        "partnership": 63,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "DL York",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "B Hughes",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "DHR Fairey",
+                "team": "Cambridgeshire",
+                "opponents": "Shropshire",
+                "matches": 14,
+                "runs": 750,
+                "innings": 24,
+                "notOuts": 4,
+                "average": 37.5,
+                "hs": "118"
+            }
+        ],
+        [
+            {
+                "name": "PW Gough",
+                "team": "Shropshire",
+                "opponents": "Cambridgeshire",
+                "matches": 9,
+                "runs": 504,
+                "innings": 18,
+                "notOuts": 1,
+                "average": 29.64,
+                "hs": "92"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JH Wardle",
+                "team": "Cambridgeshire",
+                "opponents": "Shropshire",
+                "matches": 6,
+                "balls": 1669,
+                "maidens": 101,
+                "runs": 563,
+                "wickets": 52,
+                "bbruns": 35,
+                "bbwickets": 8,
+                "average": 10.82
+            }
+        ],
+        [
+            {
+                "name": "DL York",
+                "team": "Shropshire",
+                "opponents": "Cambridgeshire",
+                "matches": 11,
+                "balls": 1488,
+                "maidens": 48,
+                "runs": 734,
+                "wickets": 36,
+                "bbruns": 54,
+                "bbwickets": 7,
+                "average": 20.38
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "TS Hale",
+                "team": "Cambridgeshire",
+                "opponents": "Shropshire",
+                "matches": 9,
+                "dismissals": 14
+            }
+        ],
+        [
+            {
+                "name": "RM Claffey",
+                "team": "Shropshire",
+                "opponents": "Cambridgeshire",
+                "matches": 9,
+                "dismissals": 14
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JM Brearley",
+                "team": "Cambridgeshire",
+                "opponents": "Shropshire",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "RM Claffey",
+                "team": "Shropshire",
+                "opponents": "Cambridgeshire",
+                "matches": 9,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Shropshire",
+                    "total": 138,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1971"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Shropshire",
+                    "total": 138,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1971"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Shropshire",
+                    "total": 9,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Morda Road, Oswestry",
+                    "seriesDate": "1968"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Cambridgeshire",
+                    "total": 65,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Manor Grounds, Whittlesey",
+                    "seriesDate": "1968"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Cambridgeshire",
+                    "total": 65,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Manor Grounds, Whittlesey",
+                    "seriesDate": "1968"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Cambridgeshire",
+                    "total": 29,
+                    "wickets": 0,
+                    "declared": true,
+                    "location": "The Manor Grounds, Whittlesey",
+                    "seriesDate": "1968"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:33.809169Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

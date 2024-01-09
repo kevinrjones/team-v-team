@@ -1,0 +1,855 @@
+{
+    "team1": "Durham",
+    "team2": "Worcestershire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1895-07-15T00:00",
+        "endDate": "1895-08-28T00:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Durham",
+                "opponents": "Worcestershire",
+                "total": 217,
+                "wickets": 10,
+                "declared": false,
+                "location": "Station Road, Norton",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "team": "Worcestershire",
+                "opponents": "Durham",
+                "total": 155,
+                "wickets": 10,
+                "declared": false,
+                "location": "Station Road, Norton",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JF Whitwell",
+                "team": "Durham",
+                "opponents": "Worcestershire",
+                "score": 39,
+                "notOut": false,
+                "location": "Station Road, Norton",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "AW Isaac",
+                "team": "Worcestershire",
+                "opponents": "Durham",
+                "score": 75,
+                "notOut": false,
+                "location": "Station Road, Norton",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "W Anderson",
+                "team": "Durham",
+                "opponents": "Worcestershire",
+                "wickets": 7,
+                "runs": 58,
+                "location": "Chester Road North, Kidderminster",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "A Millward",
+                "team": "Worcestershire",
+                "opponents": "Durham",
+                "wickets": 7,
+                "runs": 45,
+                "location": "Station Road, Norton",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "J Gregory",
+                "team": "Durham",
+                "opponents": "Worcestershire",
+                "wickets": 11,
+                "runs": 81,
+                "location": "Station Road, Norton",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "S Raynor",
+                "team": "Worcestershire",
+                "opponents": "Durham",
+                "wickets": 10,
+                "runs": 89,
+                "location": "Chester Road North, Kidderminster",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Worcestershire",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 67,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JW Welford",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "J Young",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Worcestershire",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 43,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "J Young",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "CY Adamson",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Worcestershire",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 42,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "CY Adamson",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JF Whitwell",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Worcestershire",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 28,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JF Whitwell",
+                        "player1Score": 39,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "WH Wilson",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Worcestershire",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 18,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "WH Wilson",
+                        "player1Score": 11,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "GWA Firth",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Worcestershire",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 27,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "WF Whitwell",
+                        "player1Score": 29,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "GWA Firth",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Worcestershire",
+                        "location": "Chester Road North, Kidderminster",
+                        "seriesDate": "1895",
+                        "partnership": 23,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "T Lambert",
+                        "player1Score": 23,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "AW Welch",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Worcestershire",
+                        "location": "Chester Road North, Kidderminster",
+                        "seriesDate": "1895",
+                        "partnership": 47,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AW Welch",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "J Gregory",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Worcestershire",
+                        "location": "Chester Road North, Kidderminster",
+                        "seriesDate": "1895",
+                        "partnership": 21,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "T Lambert",
+                        "player1Score": 23,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "D Nichol",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Worcestershire",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 9,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "T Lambert",
+                        "player1Score": 7,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "D Nichol",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Durham",
+                        "location": "Chester Road North, Kidderminster",
+                        "seriesDate": "1895",
+                        "partnership": 6,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "EGM Carmichael",
+                        "player1Score": 3,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "T Straw",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Durham",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 50,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "EG Arnold",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HK Foster",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Durham",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 26,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "HK Foster",
+                        "player1Score": 21,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "A Millward",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Durham",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 10,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "A Millward",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "FW Romney",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Durham",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 50,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "A Millward",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AW Isaac",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Durham",
+                        "location": "Station Road, Norton",
+                        "seriesDate": "1895",
+                        "partnership": 42,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "FW Romney",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "JB Fereday",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Durham",
+                        "location": "Chester Road North, Kidderminster",
+                        "seriesDate": "1895",
+                        "partnership": 39,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "A Millward",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "WHW Wilkes",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Durham",
+                        "location": "Chester Road North, Kidderminster",
+                        "seriesDate": "1895",
+                        "partnership": 43,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "TM Pike",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "A Bird",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Durham",
+                        "location": "Chester Road North, Kidderminster",
+                        "seriesDate": "1895",
+                        "partnership": 18,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "WHW Wilkes",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "EG Bromley-Martin",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Durham",
+                        "location": "Chester Road North, Kidderminster",
+                        "seriesDate": "1895",
+                        "partnership": 16,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "T Straw",
+                        "player1Score": 5,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "S Raynor",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Durham",
+                        "location": "Chester Road North, Kidderminster",
+                        "seriesDate": "1895",
+                        "partnership": 16,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "S Raynor",
+                        "player1Score": 2,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "EG Bromley-Martin",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "J Gregory",
+                "team": "Durham",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "runs": 71,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 17.75,
+                "hs": "34"
+            }
+        ],
+        [
+            {
+                "name": "AW Isaac",
+                "team": "Worcestershire",
+                "opponents": "Durham",
+                "matches": 1,
+                "runs": 75,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 37.5,
+                "hs": "75"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "J Gregory",
+                "team": "Durham",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "balls": 526,
+                "maidens": 42,
+                "runs": 173,
+                "wickets": 18,
+                "bbruns": 44,
+                "bbwickets": 6,
+                "average": 9.61
+            }
+        ],
+        [
+            {
+                "name": "A Millward",
+                "team": "Worcestershire",
+                "opponents": "Durham",
+                "matches": 2,
+                "balls": 236,
+                "maidens": 10,
+                "runs": 126,
+                "wickets": 11,
+                "bbruns": 45,
+                "bbwickets": 7,
+                "average": 11.45
+            },
+            {
+                "name": "S Raynor",
+                "team": "Worcestershire",
+                "opponents": "Durham",
+                "matches": 2,
+                "balls": 298,
+                "maidens": 14,
+                "runs": 171,
+                "wickets": 11,
+                "bbruns": 48,
+                "bbwickets": 7,
+                "average": 15.54
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "T Lambert",
+                "team": "Durham",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "EG Arnold",
+                "team": "Worcestershire",
+                "opponents": "Durham",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "T Straw",
+                "team": "Worcestershire",
+                "opponents": "Durham",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Durham",
+                    "opponents": "Worcestershire",
+                    "total": 97,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Chester Road North, Kidderminster",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Worcestershire",
+                    "total": 97,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Chester Road North, Kidderminster",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Worcestershire",
+                    "total": 97,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Chester Road North, Kidderminster",
+                    "seriesDate": "1895"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Durham",
+                    "total": 120,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Chester Road North, Kidderminster",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Durham",
+                    "total": 120,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Chester Road North, Kidderminster",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Durham",
+                    "total": 120,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Chester Road North, Kidderminster",
+                    "seriesDate": "1895"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:14.741359Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

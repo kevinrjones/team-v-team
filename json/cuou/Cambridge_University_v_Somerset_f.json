@@ -1,0 +1,885 @@
+{
+    "team1": "Cambridge University",
+    "team2": "Somerset",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 26,
+        "startDate": "1895-05-13T00:00",
+        "endDate": "1999-04-15T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridge University",
+                "opponents": "Somerset",
+                "total": 445,
+                "wickets": 7,
+                "declared": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1921"
+            }
+        ],
+        [
+            {
+                "team": "Somerset",
+                "opponents": "Cambridge University",
+                "total": 467,
+                "wickets": 8,
+                "declared": true,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1956"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "F Mitchell",
+                "team": "Cambridge University",
+                "opponents": "Somerset",
+                "score": 191,
+                "notOut": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "SMJ Woods",
+                "team": "Somerset",
+                "opponents": "Cambridge University",
+                "score": 180,
+                "notOut": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "CEM Wilson",
+                "team": "Cambridge University",
+                "opponents": "Somerset",
+                "wickets": 7,
+                "runs": 24,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "CL McCool",
+                "team": "Somerset",
+                "opponents": "Cambridge University",
+                "wickets": 7,
+                "runs": 28,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1959"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "CEM Wilson",
+                "team": "Cambridge University",
+                "opponents": "Somerset",
+                "wickets": 10,
+                "runs": 117,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "AW Wellard",
+                "team": "Somerset",
+                "opponents": "Cambridge University",
+                "wickets": 13,
+                "runs": 97,
+                "location": "Recreation Ground, Bath",
+                "seriesDate": "1946"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1960",
+                        "partnership": 198,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RM Prideaux",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AR Lewis",
+                        "player2Score": 106,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Somerset",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1935",
+                        "partnership": 218,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Somerset",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1976",
+                        "partnership": 129,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1961",
+                        "partnership": 214,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "AR Lewis",
+                        "player1Score": 100,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "NSK Reddy",
+                        "player2Score": 113,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Somerset",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1921",
+                        "partnership": 66,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Somerset",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1895",
+                        "partnership": 152,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1956",
+                        "partnership": 62,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Somerset",
+                        "location": "Recreation Ground, Bath",
+                        "seriesDate": "1947",
+                        "partnership": 89,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1936",
+                        "partnership": 55,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Somerset",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1920",
+                        "partnership": 38,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1999",
+                        "partnership": 278,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "J Cox",
+                        "player1Score": 139,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PD Bowler",
+                        "player2Score": 140,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1976",
+                        "partnership": 119,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1999",
+                        "partnership": 121,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RJ Turner",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "GD Rose",
+                        "player2Score": 48,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 158,
+                        "wicket": 3,
+                        "playerDetails": [
+                            {
+                                "team": "Somerset",
+                                "opponents": "Cambridge University",
+                                "location": "FP Fenner's Ground, Cambridge",
+                                "seriesDate": "1999",
+                                "partnership": 121,
+                                "wicket": 3,
+                                "undefeated": false,
+                                "player1Name": "RJ Turner",
+                                "player1Score": 79,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "GD Rose",
+                                "player2Score": 48,
+                                "player2NotOut": true,
+                                "player2Position": 5
+                            },
+                            {
+                                "team": "Somerset",
+                                "opponents": "Cambridge University",
+                                "location": "FP Fenner's Ground, Cambridge",
+                                "seriesDate": "1999",
+                                "partnership": 37,
+                                "wicket": 3,
+                                "undefeated": true,
+                                "player1Name": "PCL Holloway",
+                                "player1Score": 62,
+                                "player1NotOut": true,
+                                "player1Position": 1,
+                                "player2Name": "RJ Turner",
+                                "player2Score": 79,
+                                "player2NotOut": false,
+                                "player2Position": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Cambridge University",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1961",
+                        "partnership": 92,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Cambridge University",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1985",
+                        "partnership": 177,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RE Hayward",
+                        "player1Score": 100,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "RJ Harden",
+                        "player2Score": 107,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Cambridge University",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1956",
+                        "partnership": 177,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1921",
+                        "partnership": 90,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1930",
+                        "partnership": 81,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1921",
+                        "partnership": 128,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "EC Baker",
+                        "player1Score": 63,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "C Fairbanks-Smith",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "Cambridge University",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1936",
+                        "partnership": 57,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WT Luckes",
+                        "player1Score": 62,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "GB Burrough",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AR Lewis",
+                "team": "Cambridge University",
+                "opponents": "Somerset",
+                "matches": 3,
+                "runs": 475,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 95.0,
+                "hs": "148"
+            }
+        ],
+        [
+            {
+                "name": "G Atkinson",
+                "team": "Somerset",
+                "opponents": "Cambridge University",
+                "matches": 6,
+                "runs": 533,
+                "innings": 11,
+                "notOuts": 1,
+                "average": 53.3,
+                "hs": "103"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RJO Meyer",
+                "team": "Cambridge University",
+                "opponents": "Somerset",
+                "matches": 2,
+                "balls": 518,
+                "maidens": 9,
+                "runs": 307,
+                "wickets": 16,
+                "bbruns": 61,
+                "bbwickets": 5,
+                "average": 19.18
+            }
+        ],
+        [
+            {
+                "name": "AW Wellard",
+                "team": "Somerset",
+                "opponents": "Cambridge University",
+                "matches": 4,
+                "balls": 995,
+                "maidens": 41,
+                "runs": 368,
+                "wickets": 23,
+                "bbruns": 35,
+                "bbwickets": 7,
+                "average": 16.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "DL Hays",
+                "team": "Cambridge University",
+                "opponents": "Somerset",
+                "matches": 2,
+                "dismissals": 6
+            },
+            {
+                "name": "BT Swift",
+                "team": "Cambridge University",
+                "opponents": "Somerset",
+                "matches": 1,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "HW Stephenson",
+                "team": "Somerset",
+                "opponents": "Cambridge University",
+                "matches": 6,
+                "dismissals": 13
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "SC Griffith",
+                "team": "Cambridge University",
+                "opponents": "Somerset",
+                "matches": 1,
+                "dismissals": 3
+            },
+            {
+                "name": "NB Sherwell",
+                "team": "Cambridge University",
+                "opponents": "Somerset",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "WT Luckes",
+                "team": "Somerset",
+                "opponents": "Cambridge University",
+                "matches": 4,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Somerset",
+                    "total": 54,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Somerset",
+                    "total": 54,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Somerset",
+                    "total": 29,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1999"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Somerset",
+                    "opponents": "Cambridge University",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Somerset",
+                    "opponents": "Cambridge University",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Somerset",
+                    "opponents": "Cambridge University",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1935"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:51.881990Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

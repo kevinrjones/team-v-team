@@ -1,0 +1,982 @@
+{
+    "team1": "Bahamas",
+    "team2": "United States of America",
+    "competitionTitle": "International T20",
+    "competitionSubType": "itt",
+    "matchDto": {
+        "count": 1,
+        "startDate": "2021-11-13T00:00",
+        "endDate": "2021-11-13T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "total": 90,
+                "wickets": 7,
+                "declared": false,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "total": 91,
+                "wickets": 0,
+                "declared": false,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "K Hinds",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "score": 23,
+                "notOut": false,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "A Jones",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "score": 43,
+                "notOut": true,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "S Goud",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "strikeRate": 133.33,
+                "runs": 8,
+                "balls": 6,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            },
+            {
+                "name": "B Jagroo",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "strikeRate": 133.33,
+                "runs": 4,
+                "balls": 3,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "IG Holland",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "strikeRate": 108.33,
+                "runs": 39,
+                "balls": 36,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "K Hinds",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "strikeRate": 121.05,
+                "runs": 23,
+                "balls": 19,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "IG Holland",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "strikeRate": 108.33,
+                "runs": 39,
+                "balls": 36,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "M Taylor",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "strikeRate": 37.5,
+                "runs": 9,
+                "balls": 24,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "A Jones",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "strikeRate": 104.88,
+                "runs": 43,
+                "balls": 41,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "M Taylor",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "strikeRate": 37.5,
+                "runs": 9,
+                "balls": 24,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "A Jones",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "strikeRate": 104.88,
+                "runs": 43,
+                "balls": 41,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "JR Barry",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "boundaries": 2,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "IG Holland",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "boundaries": 4,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            },
+            {
+                "name": "A Jones",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "boundaries": 4,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "K Hinds",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "boundaries": 2,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "A Jones",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "JR Barry",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "boundaries": 2,
+                "fours": 2,
+                "sixes": 0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            },
+            {
+                "name": "K Hinds",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "boundaries": 2,
+                "fours": 0,
+                "sixes": 2,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "A Jones",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "boundaries": 5,
+                "fours": 4,
+                "sixes": 1,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "S Goud",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "wickets": 0,
+                "runs": 1,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "NK Patel",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "wickets": 4,
+                "runs": 17,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "S Goud",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "wickets": 0,
+                "runs": 1,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "NK Patel",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "wickets": 4,
+                "runs": 17,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+            {
+                "name": "NK Patel",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 17,
+                "sr": 6.0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+            {
+                "name": "NK Patel",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 17,
+                "sr": 6.0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "J Jagroo",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 3,
+                "sr": 3.0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "SN Netravalkar",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 1,
+                "wickets": 0,
+                "runs": 1,
+                "sr": 0.5,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "GT Taylor",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 25,
+                "sr": 6.25,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "SR Taylor",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 11,
+                "sr": 2.75,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "RP Mitchell",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 36,
+                "sr": 9.0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "TO Carmichael",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 18,
+                "sr": 9.0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "RP Mitchell",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 36,
+                "sr": 9.0,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "IG Holland",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 19,
+                "sr": 4.75,
+                "location": "Coolidge Cricket Ground, Coolidge",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bahamas",
+                        "opponents": "United States of America",
+                        "location": "Coolidge Cricket Ground, Coolidge",
+                        "seriesDate": "2021/22",
+                        "partnership": 20,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "M Taylor",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GT Taylor",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bahamas",
+                        "opponents": "United States of America",
+                        "location": "Coolidge Cricket Ground, Coolidge",
+                        "seriesDate": "2021/22",
+                        "partnership": 19,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "GT Taylor",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JR Barry",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bahamas",
+                        "opponents": "United States of America",
+                        "location": "Coolidge Cricket Ground, Coolidge",
+                        "seriesDate": "2021/22",
+                        "partnership": 25,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "JR Barry",
+                        "player1Score": 16,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "K Hinds",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bahamas",
+                        "opponents": "United States of America",
+                        "location": "Coolidge Cricket Ground, Coolidge",
+                        "seriesDate": "2021/22",
+                        "partnership": 0,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "K Hinds",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "J Jagroo",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bahamas",
+                        "opponents": "United States of America",
+                        "location": "Coolidge Cricket Ground, Coolidge",
+                        "seriesDate": "2021/22",
+                        "partnership": 2,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "K Hinds",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "MS Graham",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bahamas",
+                        "opponents": "United States of America",
+                        "location": "Coolidge Cricket Ground, Coolidge",
+                        "seriesDate": "2021/22",
+                        "partnership": 8,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "MS Graham",
+                        "player1Score": 2,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "S Goud",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bahamas",
+                        "opponents": "United States of America",
+                        "location": "Coolidge Cricket Ground, Coolidge",
+                        "seriesDate": "2021/22",
+                        "partnership": 7,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "S Goud",
+                        "player1Score": 8,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "E Haven",
+                        "player2Score": 2,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bahamas",
+                        "opponents": "United States of America",
+                        "location": "Coolidge Cricket Ground, Coolidge",
+                        "seriesDate": "2021/22",
+                        "partnership": 9,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "E Haven",
+                        "player1Score": 2,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "B Jagroo",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "United States of America",
+                        "opponents": "Bahamas",
+                        "location": "Coolidge Cricket Ground, Coolidge",
+                        "seriesDate": "2021/22",
+                        "partnership": 91,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "IG Holland",
+                        "player1Score": 39,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "A Jones",
+                        "player2Score": 43,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "K Hinds",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "matches": 1,
+                "runs": 23,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 23.0,
+                "hs": "23"
+            }
+        ],
+        [
+            {
+                "name": "A Jones",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "matches": 1,
+                "runs": 43,
+                "innings": 1,
+                "notOuts": 1,
+                "average": 0.0,
+                "hs": "43*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "S Goud",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "matches": 1,
+                "balls": 1,
+                "maidens": 0,
+                "runs": 1,
+                "wickets": 0,
+                "bbruns": 1,
+                "bbwickets": 0,
+                "average": 0.0
+            },
+            {
+                "name": "MS Graham",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "matches": 1,
+                "balls": 6,
+                "maidens": 0,
+                "runs": 8,
+                "wickets": 0,
+                "bbruns": 8,
+                "bbwickets": 0,
+                "average": 0.0
+            },
+            {
+                "name": "K Hinds",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "matches": 1,
+                "balls": 12,
+                "maidens": 0,
+                "runs": 7,
+                "wickets": 0,
+                "bbruns": 7,
+                "bbwickets": 0,
+                "average": 0.0
+            },
+            {
+                "name": "J Jagroo",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "matches": 1,
+                "balls": 6,
+                "maidens": 0,
+                "runs": 3,
+                "wickets": 0,
+                "bbruns": 3,
+                "bbwickets": 0,
+                "average": 0.0
+            },
+            {
+                "name": "RP Mitchell",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 0,
+                "runs": 36,
+                "wickets": 0,
+                "bbruns": 36,
+                "bbwickets": 0,
+                "average": 0.0
+            },
+            {
+                "name": "GT Taylor",
+                "team": "Bahamas",
+                "opponents": "United States of America",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 0,
+                "runs": 25,
+                "wickets": 0,
+                "bbruns": 25,
+                "bbwickets": 0,
+                "average": 0.0
+            }
+        ],
+        [
+            {
+                "name": "NK Patel",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 0,
+                "runs": 17,
+                "wickets": 4,
+                "bbruns": 17,
+                "bbwickets": 4,
+                "average": 4.25
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "TO Carmichael",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "A Jones",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "MD Patel",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "MD Patel",
+                "team": "United States of America",
+                "opponents": "Bahamas",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bahamas",
+                    "opponents": "United States of America",
+                    "total": 90,
+                    "wickets": 7,
+                    "declared": false,
+                    "location": "Coolidge Cricket Ground, Coolidge",
+                    "seriesDate": "2021/22"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bahamas",
+                    "opponents": "United States of America",
+                    "total": 90,
+                    "wickets": 7,
+                    "declared": false,
+                    "location": "Coolidge Cricket Ground, Coolidge",
+                    "seriesDate": "2021/22"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "United States of America",
+                    "opponents": "Bahamas",
+                    "total": 91,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Coolidge Cricket Ground, Coolidge",
+                    "seriesDate": "2021/22"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:30.841057Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,850 @@
+{
+    "team1": "Marylebone Cricket Club",
+    "team2": "Sussex",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 91,
+        "startDate": "1823-06-08T23:58:45",
+        "endDate": "2008-04-10T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Keith Walmsley"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Sussex",
+                "total": 539,
+                "wickets": 8,
+                "declared": true,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "2004"
+            }
+        ],
+        [
+            {
+                "team": "Sussex",
+                "opponents": "Marylebone Cricket Club",
+                "total": 474,
+                "wickets": 5,
+                "declared": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "2008"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "PF Warner",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Sussex",
+                "score": 204,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1905"
+            }
+        ],
+        [
+            {
+                "name": "KS Ranjitsinhji",
+                "team": "Sussex",
+                "opponents": "Marylebone Cricket Club",
+                "score": 260,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "G Wootton",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Sussex",
+                "wickets": 8,
+                "runs": 9,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1863"
+            }
+        ],
+        [
+            {
+                "name": "James Lillywhite jun",
+                "team": "Sussex",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 9,
+                "runs": 29,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1862"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "G Wootton",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Sussex",
+                "wickets": 14,
+                "runs": 46,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1862"
+            }
+        ],
+        [
+            {
+                "name": "James Lillywhite jun",
+                "team": "Sussex",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 14,
+                "runs": 57,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1862"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Sussex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1888",
+                        "partnership": 103,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WG Grace",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "F Hearne",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Sussex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1901",
+                        "partnership": 160,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CJ Burnup",
+                        "player1Score": 141,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "HA Carpenter",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Sussex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1896",
+                        "partnership": 144,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "W Gunn",
+                        "player1Score": 138,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "W Chatterton",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Sussex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2004",
+                        "partnership": 124,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "IR Bell",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "A Flower",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Sussex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1905",
+                        "partnership": 181,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "PF Warner",
+                        "player1Score": 204,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CP Foley",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Sussex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2004",
+                        "partnership": 122,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "APR Gidman",
+                        "player1Score": 91,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JS Foster",
+                        "player2Score": 110,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Sussex",
+                        "location": "Royal New Ground, Brighton",
+                        "seriesDate": "1842",
+                        "partnership": 64,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "R Kynaston",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "J Bayley",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Sussex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2004",
+                        "partnership": 77,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JS Foster",
+                        "player1Score": 110,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "JC Tredwell",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Sussex",
+                        "location": "Royal Brunswick Ground, Hove",
+                        "seriesDate": "1862",
+                        "partnership": 103,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "T Hearne",
+                        "player1Score": 134,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "RD Walker",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Sussex",
+                        "location": "Royal Brunswick Ground, Hove",
+                        "seriesDate": "1863",
+                        "partnership": 106,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "G Wootton",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "R Forster",
+                        "player2Score": 40,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1899",
+                        "partnership": 91,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CB Fry",
+                        "player1Score": 98,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "G Brann",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1897",
+                        "partnership": 88,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "FW Marlow",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "KS Ranjitsinhji",
+                        "player2Score": 260,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2007",
+                        "partnership": 225,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MH Yardy",
+                        "player1Score": 99,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "MW Goodwin",
+                        "player2Score": 134,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1905",
+                        "partnership": 159,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "CB Fry",
+                        "player1Score": 156,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AE Relf",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1853",
+                        "partnership": 121,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "J Lillywhite",
+                        "player1Score": 95,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "T Box",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2008",
+                        "partnership": 179,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "LJ Wright",
+                        "player1Score": 155,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "RSC Martin-Jenkins",
+                        "player2Score": 73,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1891",
+                        "partnership": 88,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "FW Marlow",
+                        "player1Score": 144,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "WA Humphreys",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Royal New Ground, Brighton",
+                        "seriesDate": "1844",
+                        "partnership": 65,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "CG Taylor",
+                        "player1Score": 100,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "E Napper",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1844",
+                        "partnership": 71,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "CJ Hammond",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "G Barton",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Sussex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1895",
+                        "partnership": 96,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "A Collins",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "HR Butt",
+                        "player2Score": 64,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "WG Grace",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Sussex",
+                "matches": 9,
+                "runs": 516,
+                "innings": 15,
+                "notOuts": 2,
+                "average": 39.69,
+                "hs": "103"
+            }
+        ],
+        [
+            {
+                "name": "T Box",
+                "team": "Sussex",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 39,
+                "runs": 1030,
+                "innings": 72,
+                "notOuts": 6,
+                "average": 15.6,
+                "hs": "79"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JT Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Sussex",
+                "matches": 12,
+                "balls": 2764,
+                "maidens": 191,
+                "runs": 1059,
+                "wickets": 78,
+                "bbruns": 53,
+                "bbwickets": 8,
+                "average": 13.57
+            }
+        ],
+        [
+            {
+                "name": "J Dean",
+                "team": "Sussex",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 19,
+                "balls": 3492,
+                "maidens": 135,
+                "runs": 1011,
+                "wickets": 104,
+                "bbruns": 38,
+                "bbwickets": 8,
+                "average": 9.72
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "J Grundy",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Sussex",
+                "matches": 26,
+                "dismissals": 23
+            }
+        ],
+        [
+            {
+                "name": "T Box",
+                "team": "Sussex",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 39,
+                "dismissals": 38
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "W Nicholson",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Sussex",
+                "matches": 21,
+                "dismissals": 16
+            }
+        ],
+        [
+            {
+                "name": "T Box",
+                "team": "Sussex",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 39,
+                "dismissals": 26
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Sussex",
+                    "total": 35,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1836"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Sussex",
+                    "total": 35,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1836"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Sussex",
+                    "total": 9,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1849"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Sussex",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 23,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1838"
+                },
+                {
+                    "team": "Sussex",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 23,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1856"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Sussex",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 23,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1838"
+                },
+                {
+                    "team": "Sussex",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 23,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1856"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Sussex",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 4,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1823"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:52.188660Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

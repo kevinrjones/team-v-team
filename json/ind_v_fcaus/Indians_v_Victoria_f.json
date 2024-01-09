@@ -1,0 +1,848 @@
+{
+    "team1": "Indians",
+    "team2": "Victoria",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 7,
+        "startDate": "1947-10-30T01:00",
+        "endDate": "2007-12-20T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Indians",
+                "opponents": "Victoria",
+                "total": 403,
+                "wickets": 10,
+                "declared": false,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1947/48"
+            }
+        ],
+        [
+            {
+                "team": "Victoria",
+                "opponents": "Indians",
+                "total": 520,
+                "wickets": 8,
+                "declared": true,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1967/68"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "L Amarnath",
+                "team": "Indians",
+                "opponents": "Victoria",
+                "score": 228,
+                "notOut": true,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1947/48"
+            }
+        ],
+        [
+            {
+                "name": "BJ Hodge",
+                "team": "Victoria",
+                "opponents": "Indians",
+                "score": 264,
+                "notOut": false,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2003/04"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "MH Mankad",
+                "team": "Indians",
+                "opponents": "Victoria",
+                "wickets": 4,
+                "runs": 55,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1947/48"
+            }
+        ],
+        [
+            {
+                "name": "JD Higgs",
+                "team": "Victoria",
+                "opponents": "Indians",
+                "wickets": 6,
+                "runs": 131,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1977/78"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "EAS Prasanna",
+                "team": "Indians",
+                "opponents": "Victoria",
+                "wickets": 6,
+                "runs": 131,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1977/78"
+            }
+        ],
+        [
+            {
+                "name": "WA Johnston",
+                "team": "Victoria",
+                "opponents": "Indians",
+                "wickets": 6,
+                "runs": 96,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1947/48"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Victoria",
+                        "location": "Kardinia Park, Geelong",
+                        "seriesDate": "1980/81",
+                        "partnership": 102,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "SM Gavaskar",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "TE Srinivasan",
+                        "player2Score": 69,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2003/04",
+                        "partnership": 90,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AS Chopra",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "S Ramesh",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Victoria",
+                        "location": "Kardinia Park, Geelong",
+                        "seriesDate": "1980/81",
+                        "partnership": 119,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2003/04",
+                        "partnership": 128,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "S Ramesh",
+                        "player1Score": 87,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SR Tendulkar",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1967/68",
+                        "partnership": 75,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1977/78",
+                        "partnership": 186,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1947/48",
+                        "partnership": 60,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "L Amarnath",
+                        "player1Score": 228,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "Amir Elahi",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Victoria",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1947/48",
+                        "partnership": 153,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "L Amarnath",
+                        "player1Score": 228,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "CS Nayudu",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Victoria",
+                        "location": "Kardinia Park, Geelong",
+                        "seriesDate": "1980/81",
+                        "partnership": 31,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Victoria",
+                        "location": "Kardinia Park, Geelong",
+                        "seriesDate": "1980/81",
+                        "partnership": 42,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "Yashpal Sharma",
+                        "player1Score": 201,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "DR Doshi",
+                        "player2Score": 13,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1977/78",
+                        "partnership": 51,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JM Wiener",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "PA Hibbert",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1967/68",
+                        "partnership": 148,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2003/04",
+                        "partnership": 107,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "BJ Hodge",
+                        "player1Score": 264,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "J Moss",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1947/48",
+                        "partnership": 152,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Indians",
+                        "location": "Kardinia Park, Geelong",
+                        "seriesDate": "1980/81",
+                        "partnership": 83,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2003/04",
+                        "partnership": 161,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "BJ Hodge",
+                        "player1Score": 264,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "IJ Harvey",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2003/04",
+                        "partnership": 125,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "BJ Hodge",
+                        "player1Score": 264,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CL White",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1967/68",
+                        "partnership": 41,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Victoria",
+                        "opponents": "Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1985/86",
+                        "partnership": 41,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "MGD Dimattina",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "MG Hughes",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Indians",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1967/68",
+                        "partnership": 33,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "RC Jordon",
+                        "player1Score": 30,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "RC Bitmead",
+                        "player2Score": 16,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Victoria",
+                        "opponents": "Indians",
+                        "location": "Kardinia Park, Geelong",
+                        "seriesDate": "1980/81",
+                        "partnership": 21,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CPS Chauhan",
+                "team": "Indians",
+                "opponents": "Victoria",
+                "matches": 2,
+                "runs": 272,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 90.66,
+                "hs": "157"
+            }
+        ],
+        [
+            {
+                "name": "BJ Hodge",
+                "team": "Victoria",
+                "opponents": "Indians",
+                "matches": 1,
+                "runs": 264,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 264.0,
+                "hs": "264"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "EAS Prasanna",
+                "team": "Indians",
+                "opponents": "Victoria",
+                "matches": 2,
+                "balls": 512,
+                "maidens": 7,
+                "runs": 225,
+                "wickets": 9,
+                "bbruns": 74,
+                "bbwickets": 4,
+                "average": 25.0
+            }
+        ],
+        [
+            {
+                "name": "JD Higgs",
+                "team": "Victoria",
+                "opponents": "Indians",
+                "matches": 2,
+                "balls": 564,
+                "maidens": 9,
+                "runs": 281,
+                "wickets": 8,
+                "bbruns": 131,
+                "bbwickets": 6,
+                "average": 35.12
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "B Reddy",
+                "team": "Indians",
+                "opponents": "Victoria",
+                "matches": 2,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "EA Baker",
+                "team": "Victoria",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "B Reddy",
+                "team": "Indians",
+                "opponents": "Victoria",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "IL Maddocks",
+                "team": "Victoria",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Indians",
+                    "opponents": "Victoria",
+                    "total": 203,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1947/48"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Victoria",
+                    "total": 203,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1947/48"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Victoria",
+                    "total": 102,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Kardinia Park, Geelong",
+                    "seriesDate": "1980/81"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Victoria",
+                    "opponents": "Indians",
+                    "total": 231,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kardinia Park, Geelong",
+                    "seriesDate": "1980/81"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Victoria",
+                    "opponents": "Indians",
+                    "total": 231,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kardinia Park, Geelong",
+                    "seriesDate": "1980/81"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Victoria",
+                    "opponents": "Indians",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "St Kilda Cricket Ground, Melbourne",
+                    "seriesDate": "2007/08"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:44.916630Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

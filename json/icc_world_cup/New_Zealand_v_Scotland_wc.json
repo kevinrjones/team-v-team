@@ -1,0 +1,1237 @@
+{
+    "team1": "New Zealand",
+    "team2": "Scotland",
+    "competitionTitle": "ICC World Cup",
+    "competitionSubType": "wc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1999-05-31T01:00",
+        "endDate": "2015-02-17T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "total": 146,
+                "wickets": 7,
+                "declared": false,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "total": 142,
+                "wickets": 10,
+                "declared": false,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RG Twose",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "score": 54,
+                "notOut": true,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "MW Machan",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "score": 56,
+                "notOut": false,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "DL Vettori",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "strikeRate": 200.0,
+                "runs": 8,
+                "balls": 4,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "Asim Butt",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "strikeRate": 100.0,
+                "runs": 10,
+                "balls": 10,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "CL Cairns",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "strikeRate": 125.0,
+                "runs": 20,
+                "balls": 16,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "MW Machan",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "strikeRate": 70.89,
+                "runs": 56,
+                "balls": 79,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "LRPL Taylor",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "strikeRate": 64.29,
+                "runs": 9,
+                "balls": 14,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "MJ Smith",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "strikeRate": 7.14,
+                "runs": 1,
+                "balls": 14,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "CD McMillan",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "strikeRate": 70.37,
+                "runs": 19,
+                "balls": 27,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "MJD Allingham",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "strikeRate": 8.0,
+                "runs": 2,
+                "balls": 25,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "KS Williamson",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "MW Machan",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "boundaries": 7,
+                "fours": 0,
+                "sixes": 0,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "CL Cairns",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            },
+            {
+                "name": "RG Twose",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "Asim Butt",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            },
+            {
+                "name": "RD Berrington",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            },
+            {
+                "name": "MW Machan",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "RG Twose",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "boundaries": 6,
+                "fours": 5,
+                "sixes": 1,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            },
+            {
+                "name": "KS Williamson",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "boundaries": 6,
+                "fours": 6,
+                "sixes": 0,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "MW Machan",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "boundaries": 8,
+                "fours": 7,
+                "sixes": 1,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "CZ Harris",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "wickets": 4,
+                "runs": 7,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "JH Davey",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "wickets": 3,
+                "runs": 40,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "CZ Harris",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "wickets": 4,
+                "runs": 7,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "JH Davey",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "wickets": 3,
+                "runs": 40,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "CZ Harris",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "overs": "3.1",
+                "balls": 19,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 7,
+                "sr": 4.75,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "JAR Blain",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "overs": "7",
+                "balls": 42,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 53,
+                "sr": 14.0,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            },
+            {
+                "name": "JH Davey",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "overs": "7",
+                "balls": 42,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 40,
+                "sr": 14.0,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "CZ Harris",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "overs": "3.1",
+                "balls": 19,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 7,
+                "sr": 4.75,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "JAR Blain",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "overs": "7",
+                "balls": 42,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 53,
+                "sr": 14.0,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            },
+            {
+                "name": "JH Davey",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "overs": "7",
+                "balls": 42,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 40,
+                "sr": 14.0,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "GI Allott",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 3,
+                "wickets": 3,
+                "runs": 15,
+                "sr": 1.5,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "RM Haq",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 21,
+                "sr": 5.25,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "GI Allott",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 3,
+                "wickets": 3,
+                "runs": 15,
+                "sr": 1.5,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "RM Haq",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 21,
+                "sr": 5.25,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "GD Elliott",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 11,
+                "sr": 5.5,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "JAR Blain",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "overs": "7",
+                "balls": 42,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 53,
+                "sr": 7.57,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "CE Bulfin",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "overs": "6",
+                "balls": 36,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 31,
+                "sr": 5.17,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "JAR Blain",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "overs": "7",
+                "balls": 42,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 53,
+                "sr": 7.57,
+                "location": "Raeburn Place, Edinburgh",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Scotland",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2014/15",
+                        "partnership": 18,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MJ Guptill",
+                        "player1Score": 17,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BB McCullum",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Scotland",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2014/15",
+                        "partnership": 30,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "BB McCullum",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "KS Williamson",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Scotland",
+                        "location": "Raeburn Place, Edinburgh",
+                        "seriesDate": "1999",
+                        "partnership": 62,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "CD McMillan",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RG Twose",
+                        "player2Score": 54,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Scotland",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2014/15",
+                        "partnership": 40,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "KS Williamson",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GD Elliott",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Scotland",
+                        "location": "Raeburn Place, Edinburgh",
+                        "seriesDate": "1999",
+                        "partnership": 31,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "RG Twose",
+                        "player1Score": 54,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "CL Cairns",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Scotland",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2014/15",
+                        "partnership": 16,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "L Ronchi",
+                        "player1Score": 12,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "CJ Anderson",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Scotland",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2014/15",
+                        "partnership": 4,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "L Ronchi",
+                        "player1Score": 12,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DL Vettori",
+                        "player2Score": 8,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Scotland",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2014/15",
+                        "partnership": 9,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "DL Vettori",
+                        "player1Score": 8,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "AF Milne",
+                        "player2Score": 1,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "New Zealand",
+                        "location": "Raeburn Place, Edinburgh",
+                        "seriesDate": "1999",
+                        "partnership": 2,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MJ Smith",
+                        "player1Score": 1,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MJD Allingham",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "New Zealand",
+                        "location": "Raeburn Place, Edinburgh",
+                        "seriesDate": "1999",
+                        "partnership": 9,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "MJD Allingham",
+                        "player1Score": 2,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "G Salmond",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "New Zealand",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2014/15",
+                        "partnership": 11,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "KJ Coetzer",
+                        "player1Score": 1,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MW Machan",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "New Zealand",
+                        "location": "Raeburn Place, Edinburgh",
+                        "seriesDate": "1999",
+                        "partnership": 54,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "GM Hamilton",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "IM Stanger",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "New Zealand",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2014/15",
+                        "partnership": 97,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MW Machan",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RD Berrington",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "New Zealand",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2014/15",
+                        "partnership": 8,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "MH Cross",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "RD Berrington",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "New Zealand",
+                        "location": "Raeburn Place, Edinburgh",
+                        "seriesDate": "1999",
+                        "partnership": 32,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "JG Williamson",
+                        "player1Score": 10,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "AG Davies",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "New Zealand",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2014/15",
+                        "partnership": 7,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JH Davey",
+                        "player1Score": 11,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "RML Taylor",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "New Zealand",
+                        "location": "Raeburn Place, Edinburgh",
+                        "seriesDate": "1999",
+                        "partnership": 10,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AG Davies",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Asim Butt",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Scotland",
+                        "opponents": "New Zealand",
+                        "location": "Raeburn Place, Edinburgh",
+                        "seriesDate": "1999",
+                        "partnership": 11,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AG Davies",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "NR Dyer",
+                        "player2Score": 2,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "RG Twose",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "runs": 54,
+                "innings": 1,
+                "notOuts": 1,
+                "average": 0.0,
+                "hs": "54*"
+            }
+        ],
+        [
+            {
+                "name": "MW Machan",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "matches": 1,
+                "runs": 56,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 56.0,
+                "hs": "56"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "CZ Harris",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "balls": 19,
+                "maidens": 0,
+                "runs": 7,
+                "wickets": 4,
+                "bbruns": 7,
+                "bbwickets": 4,
+                "average": 1.75
+            }
+        ],
+        [
+            {
+                "name": "JAR Blain",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "matches": 1,
+                "balls": 42,
+                "maidens": 0,
+                "runs": 53,
+                "wickets": 3,
+                "bbruns": 53,
+                "bbwickets": 3,
+                "average": 17.66
+            },
+            {
+                "name": "JH Davey",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "matches": 1,
+                "balls": 42,
+                "maidens": 0,
+                "runs": 40,
+                "wickets": 3,
+                "bbruns": 40,
+                "bbwickets": 3,
+                "average": 13.33
+            },
+            {
+                "name": "I Wardlaw",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "matches": 1,
+                "balls": 59,
+                "maidens": 0,
+                "runs": 57,
+                "wickets": 3,
+                "bbruns": 57,
+                "bbwickets": 3,
+                "average": 19.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "GI Allott",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "NJ Astle",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "CL Cairns",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "GD Elliott",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "SP Fleming",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "CZ Harris",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "BB McCullum",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "AF Milne",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "AC Parore",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "L Ronchi",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "LRPL Taylor",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "RG Twose",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "MH Cross",
+                "team": "Scotland",
+                "opponents": "New Zealand",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "L Ronchi",
+                "team": "New Zealand",
+                "opponents": "Scotland",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "Scotland",
+                    "total": 123,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "Raeburn Place, Edinburgh",
+                    "seriesDate": "1999"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Scotland",
+                    "opponents": "New Zealand",
+                    "total": 121,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Raeburn Place, Edinburgh",
+                    "seriesDate": "1999"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Scotland",
+                    "opponents": "New Zealand",
+                    "total": 121,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Raeburn Place, Edinburgh",
+                    "seriesDate": "1999"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Scotland",
+                    "opponents": "New Zealand",
+                    "total": 121,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Raeburn Place, Edinburgh",
+                    "seriesDate": "1999"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:19:26.785142Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

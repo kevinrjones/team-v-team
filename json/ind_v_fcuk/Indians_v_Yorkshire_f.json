@@ -1,0 +1,859 @@
+{
+    "team1": "Indians",
+    "team2": "Yorkshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 14,
+        "startDate": "1911-07-10T00:00",
+        "endDate": "1990-06-30T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "total": 490,
+                "wickets": 5,
+                "declared": true,
+                "location": "Bramall Lane, Sheffield",
+                "seriesDate": "1946"
+            }
+        ],
+        [
+            {
+                "team": "Yorkshire",
+                "opponents": "Indians",
+                "total": 385,
+                "wickets": 10,
+                "declared": false,
+                "location": "The Circle, Hull",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "VS Hazare",
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "score": 244,
+                "notOut": true,
+                "location": "Bramall Lane, Sheffield",
+                "seriesDate": "1946"
+            }
+        ],
+        [
+            {
+                "name": "L Hutton",
+                "team": "Yorkshire",
+                "opponents": "Indians",
+                "score": 183,
+                "notOut": true,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1946"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "M Nissar",
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "wickets": 6,
+                "runs": 74,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1936"
+            }
+        ],
+        [
+            {
+                "name": "GG Macaulay",
+                "team": "Yorkshire",
+                "opponents": "Indians",
+                "wickets": 8,
+                "runs": 21,
+                "location": "St George's Road, Harrogate",
+                "seriesDate": "1932"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "M Nissar",
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "wickets": 6,
+                "runs": 26,
+                "location": "St George's Road, Harrogate",
+                "seriesDate": "1932"
+            }
+        ],
+        [
+            {
+                "name": "GG Macaulay",
+                "team": "Yorkshire",
+                "opponents": "Indians",
+                "wickets": 10,
+                "runs": 50,
+                "location": "St George's Road, Harrogate",
+                "seriesDate": "1932"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1982",
+                        "partnership": 128,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SM Gavaskar",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GA Parkar",
+                        "player2Score": 146,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Yorkshire",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1959",
+                        "partnership": 144,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Yorkshire",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1990",
+                        "partnership": 159,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "SV Manjrekar",
+                        "player1Score": 158,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "DB Vengsarkar",
+                        "player2Score": 47,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Yorkshire",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1946",
+                        "partnership": 322,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Yorkshire",
+                        "location": "North Marine Road, Scarborough",
+                        "seriesDate": "1986",
+                        "partnership": 91,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Yorkshire",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1946",
+                        "partnership": 112,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "VS Hazare",
+                        "player1Score": 244,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "Nawab of Pataudi",
+                        "player2Score": 51,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1974",
+                        "partnership": 51,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Yorkshire",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1959",
+                        "partnership": 40,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1959",
+                        "partnership": 86,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1959",
+                        "partnership": 8,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Indians",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1990",
+                        "partnership": 152,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MD Moxon",
+                        "player1Score": 93,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AA Metcalfe",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Indians",
+                        "location": "North Marine Road, Scarborough",
+                        "seriesDate": "1986",
+                        "partnership": 173,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Indians",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1946",
+                        "partnership": 171,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "JV Wilson",
+                        "player1Score": 74,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "L Hutton",
+                        "player2Score": 183,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Indians",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1967",
+                        "partnership": 109,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Indians",
+                        "location": "North Marine Road, Scarborough",
+                        "seriesDate": "1986",
+                        "partnership": 153,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Indians",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1959",
+                        "partnership": 169,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Indians",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1974",
+                        "partnership": 60,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Indians",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1936",
+                        "partnership": 128,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "TF Smailes",
+                        "player1Score": 77,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "H Verity",
+                        "player2Score": 96,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Indians",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1936",
+                        "partnership": 40,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "H Verity",
+                        "player1Score": 96,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "H Fisher",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Indians",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1936",
+                        "partnership": 56,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "H Verity",
+                        "player1Score": 96,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "WE Bowes",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "VS Hazare",
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "matches": 3,
+                "runs": 300,
+                "innings": 4,
+                "notOuts": 1,
+                "average": 100.0,
+                "hs": "244*"
+            }
+        ],
+        [
+            {
+                "name": "MD Moxon",
+                "team": "Yorkshire",
+                "opponents": "Indians",
+                "matches": 2,
+                "runs": 373,
+                "innings": 4,
+                "notOuts": 2,
+                "average": 186.5,
+                "hs": "123"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "M Nissar",
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "matches": 2,
+                "balls": 345,
+                "maidens": 17,
+                "runs": 100,
+                "wickets": 12,
+                "bbruns": 74,
+                "bbwickets": 6,
+                "average": 8.33
+            }
+        ],
+        [
+            {
+                "name": "TF Smailes",
+                "team": "Yorkshire",
+                "opponents": "Indians",
+                "matches": 2,
+                "balls": 294,
+                "maidens": 13,
+                "runs": 98,
+                "wickets": 13,
+                "bbruns": 36,
+                "bbwickets": 6,
+                "average": 7.53
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "NS Tamhane",
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "matches": 2,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "A Wood",
+                "team": "Yorkshire",
+                "opponents": "Indians",
+                "matches": 3,
+                "dismissals": 8
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "DD Hindlekar",
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "SMH Kirmani",
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "BK Kunderan",
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "K Seshachari",
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "NS Tamhane",
+                "team": "Indians",
+                "opponents": "Yorkshire",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "A Wood",
+                "team": "Yorkshire",
+                "opponents": "Indians",
+                "matches": 3,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Indians",
+                    "opponents": "Yorkshire",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St George's Road, Harrogate",
+                    "seriesDate": "1932"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Yorkshire",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St George's Road, Harrogate",
+                    "seriesDate": "1932"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Yorkshire",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St George's Road, Harrogate",
+                    "seriesDate": "1932"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Yorkshire",
+                    "opponents": "Indians",
+                    "total": 146,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Avenue Cricket Ground, Bradford",
+                    "seriesDate": "1959"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Yorkshire",
+                    "opponents": "Indians",
+                    "total": 146,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Avenue Cricket Ground, Bradford",
+                    "seriesDate": "1959"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Yorkshire",
+                    "opponents": "Indians",
+                    "total": 35,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Park Avenue Cricket Ground, Bradford",
+                    "seriesDate": "1982"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:07.838765Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

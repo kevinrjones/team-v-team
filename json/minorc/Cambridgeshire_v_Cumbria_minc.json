@@ -1,0 +1,853 @@
+{
+    "team1": "Cambridgeshire",
+    "team2": "Cumbria",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 31,
+        "startDate": "1983-06-07T01:00",
+        "endDate": "2023-08-20T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridgeshire",
+                "opponents": "Cumbria",
+                "total": 392,
+                "wickets": 6,
+                "declared": true,
+                "location": "Harecroft Road, Wisbech",
+                "seriesDate": "2018"
+            }
+        ],
+        [
+            {
+                "team": "Cumbria",
+                "opponents": "Cambridgeshire",
+                "total": 373,
+                "wickets": 10,
+                "declared": false,
+                "location": "Parkside Road, Kendal",
+                "seriesDate": "2016"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "BF Smith",
+                "team": "Cambridgeshire",
+                "opponents": "Cumbria",
+                "score": 168,
+                "notOut": true,
+                "location": "Parkside Road, Kendal",
+                "seriesDate": "2016"
+            }
+        ],
+        [
+            {
+                "name": "JR Moyes",
+                "team": "Cumbria",
+                "opponents": "Cambridgeshire",
+                "score": 137,
+                "notOut": false,
+                "location": "Bretton Gate, Peterborough",
+                "seriesDate": "1990"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "S Turner",
+                "team": "Cambridgeshire",
+                "opponents": "Cumbria",
+                "wickets": 10,
+                "runs": 11,
+                "location": "Tynefield Park, Penrith",
+                "seriesDate": "1987"
+            }
+        ],
+        [
+            {
+                "name": "CD Williams",
+                "team": "Cumbria",
+                "opponents": "Cambridgeshire",
+                "wickets": 8,
+                "runs": 47,
+                "location": "Anglo-American Playing Fields, Saffron Walden",
+                "seriesDate": "2015"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "S Turner",
+                "team": "Cambridgeshire",
+                "opponents": "Cumbria",
+                "wickets": 13,
+                "runs": 45,
+                "location": "Tynefield Park, Penrith",
+                "seriesDate": "1987"
+            }
+        ],
+        [
+            {
+                "name": "CD Williams",
+                "team": "Cumbria",
+                "opponents": "Cambridgeshire",
+                "wickets": 10,
+                "runs": 83,
+                "location": "Anglo-American Playing Fields, Saffron Walden",
+                "seriesDate": "2015"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Cumbria",
+                        "location": "Ernest Pass Memorial Ground, Barrow-in-Furness",
+                        "seriesDate": "1999",
+                        "partnership": 113,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SA Kellett",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JSG Norman",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Cumbria",
+                        "location": "Harecroft Road, Wisbech",
+                        "seriesDate": "2018",
+                        "partnership": 118,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "BHN Howgego",
+                        "player1Score": 89,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "CJ Guest",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Cumbria",
+                        "location": "Fitz Park, Keswick",
+                        "seriesDate": "2007",
+                        "partnership": 114,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "NJ Ferraby",
+                        "player1Score": 97,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GD Freear",
+                        "player2Score": 70,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Cumbria",
+                        "location": "Bretton Gate, Peterborough",
+                        "seriesDate": "1988",
+                        "partnership": 110,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "IS Lawrence",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "NJ Adams",
+                        "player2Score": 57,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Cumbria",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "2016",
+                        "partnership": 147,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "BF Smith",
+                        "player1Score": 168,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "MA Mniszko",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Cumbria",
+                        "location": "Bretton Gate, Peterborough",
+                        "seriesDate": "2023",
+                        "partnership": 128,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "DL Andrew",
+                        "player1Score": 107,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CJ Guest",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Cumbria",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "2016",
+                        "partnership": 89,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "BF Smith",
+                        "player1Score": 168,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "LR Bruce",
+                        "player2Score": 40,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Cumbria",
+                        "location": "The Avenue Sports Club Ground, March",
+                        "seriesDate": "2003",
+                        "partnership": 71,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "PA Swannell",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "J Coleman",
+                        "player2Score": 30,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Cumbria",
+                        "location": "The Avenue Sports Club Ground, March",
+                        "seriesDate": "2009",
+                        "partnership": 45,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "LR Bruce",
+                        "player1Score": 19,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "JM Carpenter",
+                        "player2Score": 26,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Cumbria",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "2019",
+                        "partnership": 61,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "LJ Thomason",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "MR Smith",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Cambridgeshire",
+                        "location": "Bretton Gate, Peterborough",
+                        "seriesDate": "1994",
+                        "partnership": 147,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DJ Pearson",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "D Patel",
+                        "player2Score": 120,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Cambridgeshire",
+                        "location": "Anglo-American Playing Fields, Saffron Walden",
+                        "seriesDate": "2015",
+                        "partnership": 80,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JR Tolley",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "MP Slack",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Cambridgeshire",
+                        "location": "The Avenue Sports Club Ground, March",
+                        "seriesDate": "2003",
+                        "partnership": 216,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AA Metcalfe",
+                        "player1Score": 84,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GD Lloyd",
+                        "player2Score": 125,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Cambridgeshire",
+                        "location": "Bretton Gate, Peterborough",
+                        "seriesDate": "2023",
+                        "partnership": 170,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MH Sempill",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SM Dutton",
+                        "player2Score": 104,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Cambridgeshire",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "2019",
+                        "partnership": 140,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "GC Platten",
+                        "player1Score": 48,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "J du Toit",
+                        "player2Score": 101,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Cambridgeshire",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "2016",
+                        "partnership": 117,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GJ Pratt",
+                        "player1Score": 68,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "MH McKiernan",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Cambridgeshire",
+                        "location": "The Avenue Sports Club Ground, March",
+                        "seriesDate": "2009",
+                        "partnership": 204,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "JA Smith",
+                        "player1Score": 130,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "J Beaumont",
+                        "player2Score": 77,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Cambridgeshire",
+                        "location": "Ernest Pass Memorial Ground, Barrow-in-Furness",
+                        "seriesDate": "2022",
+                        "partnership": 98,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "MH Sempill",
+                        "player1Score": 129,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "D Postlethwaite",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Cambridgeshire",
+                        "location": "Ernest Pass Memorial Ground, Barrow-in-Furness",
+                        "seriesDate": "2022",
+                        "partnership": 71,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "MH Sempill",
+                        "player1Score": 129,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JJ Stirling",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "2006",
+                        "partnership": 46,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JW Coxon",
+                        "player1Score": 94,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "MA Sharp",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "NT Gadsby",
+                "team": "Cambridgeshire",
+                "opponents": "Cumbria",
+                "matches": 14,
+                "runs": 685,
+                "innings": 25,
+                "notOuts": 0,
+                "average": 27.4,
+                "hs": "118"
+            }
+        ],
+        [
+            {
+                "name": "DJ Pearson",
+                "team": "Cumbria",
+                "opponents": "Cambridgeshire",
+                "matches": 8,
+                "runs": 439,
+                "innings": 13,
+                "notOuts": 3,
+                "average": 43.9,
+                "hs": "131*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Ajaz Akhtar",
+                "team": "Cambridgeshire",
+                "opponents": "Cumbria",
+                "matches": 15,
+                "balls": 2621,
+                "maidens": 135,
+                "runs": 1183,
+                "wickets": 61,
+                "bbruns": 56,
+                "bbwickets": 6,
+                "average": 19.39
+            }
+        ],
+        [
+            {
+                "name": "BW Reidy",
+                "team": "Cumbria",
+                "opponents": "Cambridgeshire",
+                "matches": 9,
+                "balls": 1071,
+                "maidens": 42,
+                "runs": 558,
+                "wickets": 29,
+                "bbruns": 29,
+                "bbwickets": 4,
+                "average": 19.24
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "NT Gadsby",
+                "team": "Cambridgeshire",
+                "opponents": "Cumbria",
+                "matches": 14,
+                "dismissals": 9
+            },
+            {
+                "name": "CJ Guest",
+                "team": "Cambridgeshire",
+                "opponents": "Cumbria",
+                "matches": 4,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "SM Dutton",
+                "team": "Cumbria",
+                "opponents": "Cambridgeshire",
+                "matches": 12,
+                "dismissals": 22
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JT Bowers",
+                "team": "Cambridgeshire",
+                "opponents": "Cumbria",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "SM Dutton",
+                "team": "Cumbria",
+                "opponents": "Cambridgeshire",
+                "matches": 12,
+                "dismissals": 2
+            },
+            {
+                "name": "BR Howarth",
+                "team": "Cumbria",
+                "opponents": "Cambridgeshire",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "LK Parkinson",
+                "team": "Cumbria",
+                "opponents": "Cambridgeshire",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Cumbria",
+                    "total": 73,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Avenue Sports Club Ground, March",
+                    "seriesDate": "2003"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Cumbria",
+                    "total": 73,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Avenue Sports Club Ground, March",
+                    "seriesDate": "2003"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Cumbria",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Fitz Park, Keswick",
+                    "seriesDate": "2007"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cumbria",
+                    "opponents": "Cambridgeshire",
+                    "total": 47,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Tynefield Park, Penrith",
+                    "seriesDate": "1987"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cumbria",
+                    "opponents": "Cambridgeshire",
+                    "total": 47,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Tynefield Park, Penrith",
+                    "seriesDate": "1987"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cumbria",
+                    "opponents": "Cambridgeshire",
+                    "total": 47,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Tynefield Park, Penrith",
+                    "seriesDate": "1987"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:16.870432Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

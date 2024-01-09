@@ -1,0 +1,838 @@
+{
+    "team1": "West Indians",
+    "team2": "Somerset",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 17,
+        "startDate": "1923-08-08T01:00",
+        "endDate": "2000-08-23T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "West Indians",
+                "opponents": "Somerset",
+                "total": 482,
+                "wickets": 6,
+                "declared": true,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1933"
+            }
+        ],
+        [
+            {
+                "team": "Somerset",
+                "opponents": "West Indians",
+                "total": 488,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Taunton",
+                "seriesDate": "2000"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "GA Headley",
+                "team": "West Indians",
+                "opponents": "Somerset",
+                "score": 224,
+                "notOut": true,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1933"
+            }
+        ],
+        [
+            {
+                "name": "KA Parsons",
+                "team": "Somerset",
+                "opponents": "West Indians",
+                "score": 193,
+                "notOut": true,
+                "location": "County Ground, Taunton",
+                "seriesDate": "2000"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "S Ramadhin",
+                "team": "West Indians",
+                "opponents": "Somerset",
+                "wickets": 6,
+                "runs": 57,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "name": "WHR Andrews",
+                "team": "Somerset",
+                "opponents": "West Indians",
+                "wickets": 6,
+                "runs": 40,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1939"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "S Ramadhin",
+                "team": "West Indians",
+                "opponents": "Somerset",
+                "wickets": 11,
+                "runs": 155,
+                "location": "County Ground, Taunton",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "name": "WT Greswell",
+                "team": "Somerset",
+                "opponents": "West Indians",
+                "wickets": 9,
+                "runs": 103,
+                "location": "Recreation Ground, Bath",
+                "seriesDate": "1928"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1995",
+                        "partnership": 242,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CL Hooper",
+                        "player1Score": 176,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SL Campbell",
+                        "player2Score": 93,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1995",
+                        "partnership": 206,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1950",
+                        "partnership": 213,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Somerset",
+                        "location": "Recreation Ground, Bath",
+                        "seriesDate": "1963",
+                        "partnership": 182,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1966",
+                        "partnership": 125,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1966",
+                        "partnership": 126,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "JS Solomon",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "DAJ Holford",
+                        "player2Score": 59,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1995",
+                        "partnership": 55,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "2000",
+                        "partnership": 114,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "MV Nagamootoo",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "W Phillip",
+                        "player2Score": 67,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Somerset",
+                        "location": "Recreation Ground, Bath",
+                        "seriesDate": "1963",
+                        "partnership": 42,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "CC Griffith",
+                        "player1Score": 27,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "LA King",
+                        "player2Score": 27,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Somerset",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1950",
+                        "partnership": 28,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "West Indians",
+                        "location": "Recreation Ground, Bath",
+                        "seriesDate": "1963",
+                        "partnership": 81,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "G Atkinson",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "B Roe",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "West Indians",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1969",
+                        "partnership": 114,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "West Indians",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1995",
+                        "partnership": 150,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "West Indians",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1933",
+                        "partnership": 111,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "West Indians",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "2000",
+                        "partnership": 138,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "M Burns",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "KA Parsons",
+                        "player2Score": 193,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "West Indians",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "2000",
+                        "partnership": 98,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "M Burns",
+                        "player1Score": 78,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "ID Blackwell",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "West Indians",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1995",
+                        "partnership": 136,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "West Indians",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1976",
+                        "partnership": 82,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "West Indians",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1991",
+                        "partnership": 36,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Somerset",
+                        "opponents": "West Indians",
+                        "location": "County Ground, Taunton",
+                        "seriesDate": "1933",
+                        "partnership": 69,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "WT Luckes",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "J Priddy",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CL Hooper",
+                "team": "West Indians",
+                "opponents": "Somerset",
+                "matches": 3,
+                "runs": 401,
+                "innings": 4,
+                "notOuts": 1,
+                "average": 133.66,
+                "hs": "176"
+            }
+        ],
+        [
+            {
+                "name": "KA Parsons",
+                "team": "Somerset",
+                "opponents": "West Indians",
+                "matches": 3,
+                "runs": 254,
+                "innings": 6,
+                "notOuts": 2,
+                "average": 63.5,
+                "hs": "193*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "MD Marshall",
+                "team": "West Indians",
+                "opponents": "Somerset",
+                "matches": 4,
+                "balls": 492,
+                "maidens": 20,
+                "runs": 189,
+                "wickets": 13,
+                "bbruns": 31,
+                "bbwickets": 5,
+                "average": 14.53
+            }
+        ],
+        [
+            {
+                "name": "AW Wellard",
+                "team": "Somerset",
+                "opponents": "West Indians",
+                "matches": 4,
+                "balls": 946,
+                "maidens": 28,
+                "runs": 378,
+                "wickets": 17,
+                "bbruns": 43,
+                "bbwickets": 4,
+                "average": 22.23
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "CO Browne",
+                "team": "West Indians",
+                "opponents": "Somerset",
+                "matches": 2,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "RJ Turner",
+                "team": "Somerset",
+                "opponents": "West Indians",
+                "matches": 3,
+                "dismissals": 14
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RJ Christiani",
+                "team": "West Indians",
+                "opponents": "Somerset",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "JL Hendriks",
+                "team": "West Indians",
+                "opponents": "Somerset",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "HW Stephenson",
+                "team": "Somerset",
+                "opponents": "West Indians",
+                "matches": 3,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Somerset",
+                    "total": 78,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Taunton",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Somerset",
+                    "total": 78,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Taunton",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Somerset",
+                    "total": 12,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "County Ground, Taunton",
+                    "seriesDate": "1988"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Somerset",
+                    "opponents": "West Indians",
+                    "total": 87,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Taunton",
+                    "seriesDate": "1995"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Somerset",
+                    "opponents": "West Indians",
+                    "total": 87,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Taunton",
+                    "seriesDate": "1995"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Somerset",
+                    "opponents": "West Indians",
+                    "total": 77,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "County Ground, Taunton",
+                    "seriesDate": "1980"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:04.951855Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

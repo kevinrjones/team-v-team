@@ -1,0 +1,855 @@
+{
+    "team1": "Bangladesh",
+    "team2": "South Africa",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 14,
+        "startDate": "2002-10-18T01:00",
+        "endDate": "2022-04-08T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bangladesh",
+                "opponents": "South Africa",
+                "total": 326,
+                "wickets": 10,
+                "declared": false,
+                "location": "Zohur Ahmed Chowdhury Stadium, Chittagong",
+                "seriesDate": "2015"
+            }
+        ],
+        [
+            {
+                "team": "South Africa",
+                "opponents": "Bangladesh",
+                "total": 583,
+                "wickets": 7,
+                "declared": true,
+                "location": "Bir Shrestha Shahid Ruhul Amin Stadium, Chittagong",
+                "seriesDate": "2007/08"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Mahmudul Hasan",
+                "team": "Bangladesh",
+                "opponents": "South Africa",
+                "score": 137,
+                "notOut": false,
+                "location": "Hollywoodbets Kingsmead, Durban",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "GC Smith",
+                "team": "South Africa",
+                "opponents": "Bangladesh",
+                "score": 232,
+                "notOut": false,
+                "location": "Bir Shrestha Shahid Ruhul Amin Stadium, Chittagong",
+                "seriesDate": "2007/08"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Shahadat Hossain",
+                "team": "Bangladesh",
+                "opponents": "South Africa",
+                "wickets": 6,
+                "runs": 27,
+                "location": "Shere Bangla National Stadium, Mirpur",
+                "seriesDate": "2007/08"
+            }
+        ],
+        [
+            {
+                "name": "KA Maharaj",
+                "team": "South Africa",
+                "opponents": "Bangladesh",
+                "wickets": 7,
+                "runs": 32,
+                "location": "Hollywoodbets Kingsmead, Durban",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Shahadat Hossain",
+                "team": "Bangladesh",
+                "opponents": "South Africa",
+                "wickets": 9,
+                "runs": 97,
+                "location": "Shere Bangla National Stadium, Mirpur",
+                "seriesDate": "2007/08"
+            }
+        ],
+        [
+            {
+                "name": "K Rabada",
+                "team": "South Africa",
+                "opponents": "Bangladesh",
+                "wickets": 10,
+                "runs": 63,
+                "location": "Mangaung Oval, Bloemfontein",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "South Africa",
+                        "location": "North West Cricket Stadium, Potchefstroom",
+                        "seriesDate": "2002/03",
+                        "partnership": 52,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Hannan Sarkar",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Al Sahariar",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "South Africa",
+                        "location": "MA Aziz Stadium, Chittagong",
+                        "seriesDate": "2003",
+                        "partnership": 131,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Javed Omar",
+                        "player1Score": 71,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Habibul Bashar",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "South Africa",
+                        "location": "Zohur Ahmed Chowdhury Stadium, Chittagong",
+                        "seriesDate": "2015",
+                        "partnership": 89,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "Tamim Iqbal",
+                        "player1Score": 57,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Mahmudullah",
+                        "player2Score": 67,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "South Africa",
+                        "location": "Shere Bangla National Stadium, Mirpur",
+                        "seriesDate": "2015",
+                        "partnership": 94,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "Mahmudullah",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Mushfiqur Rahim",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "South Africa",
+                        "location": "Senwes Park, Potchefstroom",
+                        "seriesDate": "2017/18",
+                        "partnership": 69,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "Mominul Haque",
+                        "player1Score": 77,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Mahmudullah",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "South Africa",
+                        "location": "Zohur Ahmed Chowdhury Stadium, Chittagong",
+                        "seriesDate": "2015",
+                        "partnership": 82,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Shakib Al Hasan",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "Liton Das",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    },
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "South Africa",
+                        "location": "Hollywoodbets Kingsmead, Durban",
+                        "seriesDate": "2021/22",
+                        "partnership": 82,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Mahmudul Hasan",
+                        "player1Score": 137,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Liton Das",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "South Africa",
+                        "location": "Mangaung Oval, Bloemfontein",
+                        "seriesDate": "2017/18",
+                        "partnership": 50,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Liton Das",
+                        "player1Score": 70,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "Taijul Islam",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "South Africa",
+                        "location": "Bir Shrestha Shahid Ruhul Amin Stadium, Chittagong",
+                        "seriesDate": "2007/08",
+                        "partnership": 56,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Abdur Razzak",
+                        "player1Score": 32,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "Shahadat Hossain",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "South Africa",
+                        "location": "OUTsurance Oval, Bloemfontein",
+                        "seriesDate": "2008/09",
+                        "partnership": 60,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "Mushfiqur Rahim",
+                        "player1Score": 48,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "Shahadat Hossain",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "South Africa",
+                        "location": "SuperSport Park, Centurion",
+                        "seriesDate": "2008/09",
+                        "partnership": 56,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "Mushfiqur Rahim",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Mahbubul Alam",
+                        "player2Score": 1,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Bangladesh",
+                        "location": "Bir Shrestha Shahid Ruhul Amin Stadium, Chittagong",
+                        "seriesDate": "2007/08",
+                        "partnership": 415,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "ND McKenzie",
+                        "player1Score": 226,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GC Smith",
+                        "player2Score": 232,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Bangladesh",
+                        "location": "Buffalo Park, East London",
+                        "seriesDate": "2002/03",
+                        "partnership": 272,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "GC Smith",
+                        "player1Score": 200,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "G Kirsten",
+                        "player2Score": 150,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Bangladesh",
+                        "location": "MA Aziz Stadium, Chittagong",
+                        "seriesDate": "2003",
+                        "partnership": 429,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "JA Rudolph",
+                        "player1Score": 222,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "HH Dippenaar",
+                        "player2Score": 177,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Bangladesh",
+                        "location": "Mangaung Oval, Bloemfontein",
+                        "seriesDate": "2017/18",
+                        "partnership": 247,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "HM Amla",
+                        "player1Score": 132,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "F du Plessis",
+                        "player2Score": 135,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Bangladesh",
+                        "location": "Bangabandhu National Stadium, Dhaka",
+                        "seriesDate": "2003",
+                        "partnership": 107,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JA Rudolph",
+                        "player1Score": 71,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "MV Boucher",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Bangladesh",
+                        "location": "SuperSport Park, Centurion",
+                        "seriesDate": "2008/09",
+                        "partnership": 271,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AG Prince",
+                        "player1Score": 162,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "MV Boucher",
+                        "player2Score": 117,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Bangladesh",
+                        "location": "St George's Park, Gqeberha",
+                        "seriesDate": "2021/22",
+                        "partnership": 80,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "PWA Mulder",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "KA Maharaj",
+                        "player2Score": 84,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Bangladesh",
+                        "location": "St George's Park, Gqeberha",
+                        "seriesDate": "2021/22",
+                        "partnership": 38,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SR Harmer",
+                        "player1Score": 29,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "KA Maharaj",
+                        "player2Score": 84,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Bangladesh",
+                        "location": "Bangabandhu National Stadium, Dhaka",
+                        "seriesDate": "2003",
+                        "partnership": 36,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RJ Peterson",
+                        "player1Score": 61,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "PR Adams",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "South Africa",
+                        "opponents": "Bangladesh",
+                        "location": "Hollywoodbets Kingsmead, Durban",
+                        "seriesDate": "2021/22",
+                        "partnership": 35,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "SR Harmer",
+                        "player1Score": 38,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "D Olivier",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Mushfiqur Rahim",
+                "team": "Bangladesh",
+                "opponents": "South Africa",
+                "matches": 10,
+                "runs": 390,
+                "innings": 18,
+                "notOuts": 0,
+                "average": 21.66,
+                "hs": "65"
+            }
+        ],
+        [
+            {
+                "name": "GC Smith",
+                "team": "South Africa",
+                "opponents": "Bangladesh",
+                "matches": 8,
+                "runs": 743,
+                "innings": 9,
+                "notOuts": 0,
+                "average": 82.55,
+                "hs": "232"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Shahadat Hossain",
+                "team": "Bangladesh",
+                "opponents": "South Africa",
+                "matches": 4,
+                "balls": 641,
+                "maidens": 12,
+                "runs": 418,
+                "wickets": 15,
+                "bbruns": 27,
+                "bbwickets": 6,
+                "average": 27.86
+            }
+        ],
+        [
+            {
+                "name": "M Ntini",
+                "team": "South Africa",
+                "opponents": "Bangladesh",
+                "matches": 8,
+                "balls": 1349,
+                "maidens": 66,
+                "runs": 573,
+                "wickets": 35,
+                "bbruns": 19,
+                "bbwickets": 5,
+                "average": 16.37
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "Liton Das",
+                "team": "Bangladesh",
+                "opponents": "South Africa",
+                "matches": 6,
+                "dismissals": 10
+            }
+        ],
+        [
+            {
+                "name": "MV Boucher",
+                "team": "South Africa",
+                "opponents": "Bangladesh",
+                "matches": 8,
+                "dismissals": 38
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "Liton Das",
+                "team": "Bangladesh",
+                "opponents": "South Africa",
+                "matches": 6,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "MV Boucher",
+                "team": "South Africa",
+                "opponents": "Bangladesh",
+                "matches": 8,
+                "dismissals": 2
+            },
+            {
+                "name": "K Verreynne",
+                "team": "South Africa",
+                "opponents": "Bangladesh",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bangladesh",
+                    "opponents": "South Africa",
+                    "total": 53,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Hollywoodbets Kingsmead, Durban",
+                    "seriesDate": "2021/22"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bangladesh",
+                    "opponents": "South Africa",
+                    "total": 53,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Hollywoodbets Kingsmead, Durban",
+                    "seriesDate": "2021/22"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bangladesh",
+                    "opponents": "South Africa",
+                    "total": 53,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Hollywoodbets Kingsmead, Durban",
+                    "seriesDate": "2021/22"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "South Africa",
+                    "opponents": "Bangladesh",
+                    "total": 170,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shere Bangla National Stadium, Mirpur",
+                    "seriesDate": "2007/08"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "South Africa",
+                    "opponents": "Bangladesh",
+                    "total": 170,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shere Bangla National Stadium, Mirpur",
+                    "seriesDate": "2007/08"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "South Africa",
+                    "opponents": "Bangladesh",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Shere Bangla National Stadium, Mirpur",
+                    "seriesDate": "2015"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:19:00.992115Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

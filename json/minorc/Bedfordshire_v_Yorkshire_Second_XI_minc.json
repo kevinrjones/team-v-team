@@ -1,0 +1,860 @@
+{
+    "team1": "Bedfordshire",
+    "team2": "Yorkshire Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 1,
+        "startDate": "1972-09-15T01:00",
+        "endDate": "1972-09-15T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "total": 278,
+                "wickets": 10,
+                "declared": false,
+                "location": "Shaw Lane, Barnsley",
+                "seriesDate": "1972"
+            }
+        ],
+        [
+            {
+                "team": "Yorkshire Second XI",
+                "opponents": "Bedfordshire",
+                "total": 284,
+                "wickets": 10,
+                "declared": false,
+                "location": "Shaw Lane, Barnsley",
+                "seriesDate": "1972"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "TK Rosier",
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "score": 118,
+                "notOut": false,
+                "location": "Shaw Lane, Barnsley",
+                "seriesDate": "1972"
+            }
+        ],
+        [
+            {
+                "name": "DEV Padgett",
+                "team": "Yorkshire Second XI",
+                "opponents": "Bedfordshire",
+                "score": 84,
+                "notOut": false,
+                "location": "Shaw Lane, Barnsley",
+                "seriesDate": "1972"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "TK Rosier",
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "wickets": 8,
+                "runs": 35,
+                "location": "Shaw Lane, Barnsley",
+                "seriesDate": "1972"
+            }
+        ],
+        [
+            {
+                "name": "DM Ross",
+                "team": "Yorkshire Second XI",
+                "opponents": "Bedfordshire",
+                "wickets": 4,
+                "runs": 44,
+                "location": "Shaw Lane, Barnsley",
+                "seriesDate": "1972"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "TK Rosier",
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "wickets": 10,
+                "runs": 81,
+                "location": "Shaw Lane, Barnsley",
+                "seriesDate": "1972"
+            }
+        ],
+        [
+            {
+                "name": "DM Ross",
+                "team": "Yorkshire Second XI",
+                "opponents": "Bedfordshire",
+                "wickets": 8,
+                "runs": 107,
+                "location": "Shaw Lane, Barnsley",
+                "seriesDate": "1972"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 29,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "R Cox",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AW Durley",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 39,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "R Cox",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ME Gear",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 43,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "ME Gear",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "TK Rosier",
+                        "player2Score": 118,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 60,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "TK Rosier",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AD Curtis",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 28,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "ME Gear",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "MI McLaren",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 32,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "TK Rosier",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RO Demming",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 36,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "TK Rosier",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "WJ Bushby",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 11,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "AW Durley",
+                        "player1Score": 5,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "GM Jarrett",
+                        "player2Score": 8,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 5,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "GM Jarrett",
+                        "player1Score": 2,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "J Smith",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 15,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "J Smith",
+                        "player1Score": 11,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "TGA Morley",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Bedfordshire",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 42,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PJ Squires",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RG Lumb",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Bedfordshire",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 22,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "RG Lumb",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AJ Dalton",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Bedfordshire",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 7,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RG Lumb",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "C Johnson",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Bedfordshire",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 30,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RG Lumb",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GB Stevenson",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Bedfordshire",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 10,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GB Stevenson",
+                        "player1Score": 8,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DEV Padgett",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Bedfordshire",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 47,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "P Carrick",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DEV Padgett",
+                        "player2Score": 84,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Bedfordshire",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 11,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "P Carrick",
+                        "player1Score": 4,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "N Smith",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Bedfordshire",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 114,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "DEV Padgett",
+                        "player1Score": 84,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "DM Ross",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Bedfordshire",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 19,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "DM Ross",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "MK Bore",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Bedfordshire",
+                        "location": "Shaw Lane, Barnsley",
+                        "seriesDate": "1972",
+                        "partnership": 6,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MK Bore",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "AL Robinson",
+                        "player2Score": 2,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "TK Rosier",
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "matches": 1,
+                "runs": 118,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 59.0,
+                "hs": "118"
+            }
+        ],
+        [
+            {
+                "name": "DEV Padgett",
+                "team": "Yorkshire Second XI",
+                "opponents": "Bedfordshire",
+                "matches": 1,
+                "runs": 90,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 45.0,
+                "hs": "84"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "TK Rosier",
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "matches": 1,
+                "balls": 207,
+                "maidens": 9,
+                "runs": 81,
+                "wickets": 10,
+                "bbruns": 35,
+                "bbwickets": 8,
+                "average": 8.1
+            }
+        ],
+        [
+            {
+                "name": "DM Ross",
+                "team": "Yorkshire Second XI",
+                "opponents": "Bedfordshire",
+                "matches": 1,
+                "balls": 247,
+                "maidens": 11,
+                "runs": 107,
+                "wickets": 8,
+                "bbruns": 44,
+                "bbwickets": 4,
+                "average": 13.37
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "R Cox",
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "ME Gear",
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "GM Jarrett",
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "MI McLaren",
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "TK Rosier",
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "C Johnson",
+                "team": "Yorkshire Second XI",
+                "opponents": "Bedfordshire",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "AW Durley",
+                "team": "Bedfordshire",
+                "opponents": "Yorkshire Second XI",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "N Smith",
+                "team": "Yorkshire Second XI",
+                "opponents": "Bedfordshire",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Yorkshire Second XI",
+                    "total": 278,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shaw Lane, Barnsley",
+                    "seriesDate": "1972"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Yorkshire Second XI",
+                    "total": 278,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shaw Lane, Barnsley",
+                    "seriesDate": "1972"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Yorkshire Second XI",
+                    "total": 115,
+                    "wickets": 7,
+                    "declared": false,
+                    "location": "Shaw Lane, Barnsley",
+                    "seriesDate": "1972"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Yorkshire Second XI",
+                    "opponents": "Bedfordshire",
+                    "total": 108,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shaw Lane, Barnsley",
+                    "seriesDate": "1972"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Yorkshire Second XI",
+                    "opponents": "Bedfordshire",
+                    "total": 108,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shaw Lane, Barnsley",
+                    "seriesDate": "1972"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Yorkshire Second XI",
+                    "opponents": "Bedfordshire",
+                    "total": 108,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shaw Lane, Barnsley",
+                    "seriesDate": "1972"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:20.910124Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

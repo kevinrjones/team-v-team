@@ -1,0 +1,838 @@
+{
+    "team1": "Berkshire",
+    "team2": "Worcestershire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1897-07-28T00:00",
+        "endDate": "1897-08-11T00:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Berkshire",
+                "opponents": "Worcestershire",
+                "total": 254,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "team": "Worcestershire",
+                "opponents": "Berkshire",
+                "total": 270,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "LGA Collins",
+                "team": "Berkshire",
+                "opponents": "Worcestershire",
+                "score": 53,
+                "notOut": false,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "name": "FL Bowley",
+                "team": "Worcestershire",
+                "opponents": "Berkshire",
+                "score": 60,
+                "notOut": false,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "H Barrett",
+                "team": "Berkshire",
+                "opponents": "Worcestershire",
+                "wickets": 5,
+                "runs": 31,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "name": "RD Burrows",
+                "team": "Worcestershire",
+                "opponents": "Berkshire",
+                "wickets": 5,
+                "runs": 24,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "H Barrett",
+                "team": "Berkshire",
+                "opponents": "Worcestershire",
+                "wickets": 6,
+                "runs": 79,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "name": "RD Burrows",
+                "team": "Worcestershire",
+                "opponents": "Berkshire",
+                "wickets": 8,
+                "runs": 115,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1897",
+                        "partnership": 97,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "LGA Collins",
+                        "player1Score": 53,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "FM Ingram",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1897",
+                        "partnership": 30,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "LGA Collins",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HFM Morres",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 20,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "LGA Collins",
+                        "player1Score": 11,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "HFM Morres",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1897",
+                        "partnership": 35,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "LGA Collins",
+                        "player1Score": 53,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AH Delmé-Radcliffe",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 12,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AE Relf",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "LGA Collins",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 12,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AE Relf",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "ACM Croome",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 79,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "HFM Morres",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "P Christopherson",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1897",
+                        "partnership": 22,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "H Barrett",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "ACM Croome",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1897",
+                        "partnership": 38,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "ACM Croome",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "MJ Dauglish",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 40,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "OT Cooke",
+                        "player1Score": 12,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "JWS Wheble",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1897",
+                        "partnership": 18,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HK Foster",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "EP Jobson",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 46,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "HK Foster",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "EG Arnold",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 28,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "EG Arnold",
+                        "player1Score": 53,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GE Bromley-Martin",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1897",
+                        "partnership": 89,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "EP Jobson",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "FL Bowley",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1897",
+                        "partnership": 24,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "FL Bowley",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "EG Arnold",
+                        "player2Score": 37,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 75,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GF Wheldon",
+                        "player1Score": 29,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "EG Bromley-Martin",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1897",
+                        "partnership": 0,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "EG Bromley-Martin",
+                        "player1Score": 4,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "A Millward",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1897",
+                        "partnership": 12,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "A Millward",
+                        "player1Score": 4,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "RD Burrows",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 10,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RD Burrows",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "A Bird",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 28,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "A Bird",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "T Straw",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "LGA Collins",
+                "team": "Berkshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "runs": 96,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 24.0,
+                "hs": "53"
+            }
+        ],
+        [
+            {
+                "name": "FL Bowley",
+                "team": "Worcestershire",
+                "opponents": "Berkshire",
+                "matches": 1,
+                "runs": 98,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 49.0,
+                "hs": "60"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "W Barker",
+                "team": "Berkshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "balls": 340,
+                "maidens": 19,
+                "runs": 156,
+                "wickets": 6,
+                "bbruns": 51,
+                "bbwickets": 4,
+                "average": 26.0
+            },
+            {
+                "name": "H Barrett",
+                "team": "Berkshire",
+                "opponents": "Worcestershire",
+                "matches": 1,
+                "balls": 184,
+                "maidens": 13,
+                "runs": 79,
+                "wickets": 6,
+                "bbruns": 31,
+                "bbwickets": 5,
+                "average": 13.16
+            }
+        ],
+        [
+            {
+                "name": "EG Arnold",
+                "team": "Worcestershire",
+                "opponents": "Berkshire",
+                "matches": 2,
+                "balls": 518,
+                "maidens": 39,
+                "runs": 202,
+                "wickets": 14,
+                "bbruns": 47,
+                "bbwickets": 5,
+                "average": 14.42
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "A Daffen",
+                "team": "Berkshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "T Straw",
+                "team": "Worcestershire",
+                "opponents": "Berkshire",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "T Straw",
+                "team": "Worcestershire",
+                "opponents": "Berkshire",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Worcestershire",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Worcestershire",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Worcestershire",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1897"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Berkshire",
+                    "total": 120,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Berkshire",
+                    "total": 120,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Berkshire",
+                    "total": 120,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1897"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:51.064890Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

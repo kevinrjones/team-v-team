@@ -1,0 +1,839 @@
+{
+    "team1": "Wiltshire",
+    "team2": "Worcestershire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1898-07-22T00:00",
+        "endDate": "1898-08-12T00:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Wiltshire",
+                "opponents": "Worcestershire",
+                "total": 197,
+                "wickets": 10,
+                "declared": false,
+                "location": "The County Ground, Swindon",
+                "seriesDate": "1898"
+            }
+        ],
+        [
+            {
+                "team": "Worcestershire",
+                "opponents": "Wiltshire",
+                "total": 356,
+                "wickets": 8,
+                "declared": false,
+                "location": "The County Ground, Swindon",
+                "seriesDate": "1898"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AJ Atfield",
+                "team": "Wiltshire",
+                "opponents": "Worcestershire",
+                "score": 54,
+                "notOut": false,
+                "location": "The County Ground, Swindon",
+                "seriesDate": "1898"
+            }
+        ],
+        [
+            {
+                "name": "RE Foster",
+                "team": "Worcestershire",
+                "opponents": "Wiltshire",
+                "score": 147,
+                "notOut": true,
+                "location": "The County Ground, Swindon",
+                "seriesDate": "1898"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "W Overton",
+                "team": "Wiltshire",
+                "opponents": "Worcestershire",
+                "wickets": 5,
+                "runs": 114,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1898"
+            }
+        ],
+        [
+            {
+                "name": "GA Wilson",
+                "team": "Worcestershire",
+                "opponents": "Wiltshire",
+                "wickets": 6,
+                "runs": 17,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1898"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "AM Miller",
+                "team": "Wiltshire",
+                "opponents": "Worcestershire",
+                "wickets": 7,
+                "runs": 81,
+                "location": "The County Ground, Swindon",
+                "seriesDate": "1898"
+            }
+        ],
+        [
+            {
+                "name": "A Bird",
+                "team": "Worcestershire",
+                "opponents": "Wiltshire",
+                "wickets": 10,
+                "runs": 65,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1898"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Worcestershire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 20,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "FW Newman",
+                        "player1Score": 2,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CS Awdry",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Worcestershire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 0,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CS Awdry",
+                        "player1Score": 18,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "OG Radcliffe",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Worcestershire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 35,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "OG Radcliffe",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CAH Ransome",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Worcestershire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 16,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "CAH Ransome",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "ET Shorland",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Worcestershire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 0,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "ET Shorland",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "HS Snell",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Worcestershire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 1,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "ET Shorland",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "AM Miller",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Worcestershire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 89,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "ET Shorland",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "AJ Atfield",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Worcestershire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 31,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AJ Atfield",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "WH Goudge",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Worcestershire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 5,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "WH Goudge",
+                        "player1Score": 16,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "T Smart",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Worcestershire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 0,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "T Smart",
+                        "player1Score": 4,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "W Overton",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Wiltshire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 15,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GE Bromley-Martin",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "HK Foster",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Wiltshire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 40,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "GE Bromley-Martin",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "WL Foster",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Wiltshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1898",
+                        "partnership": 131,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RE Foster",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GE Bromley-Martin",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Wiltshire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 15,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RE Foster",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "GF Wheldon",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Wiltshire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 9,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GF Wheldon",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "A Millward",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Wiltshire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 0,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RD Burrows",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "A Millward",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Wiltshire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 91,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "EG Bromley-Martin",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "A Bird",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Wiltshire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 14,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RE Foster",
+                        "player1Score": 147,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "RD Burrows",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Wiltshire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 156,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "RE Foster",
+                        "player1Score": 147,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "GA Wilson",
+                        "player2Score": 80,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Wiltshire",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1898",
+                        "partnership": 11,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "GA Wilson",
+                        "player1Score": 8,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "T Straw",
+                        "player2Score": 1,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AJ Atfield",
+                "team": "Wiltshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "runs": 84,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 28.0,
+                "hs": "54"
+            }
+        ],
+        [
+            {
+                "name": "RE Foster",
+                "team": "Worcestershire",
+                "opponents": "Wiltshire",
+                "matches": 2,
+                "runs": 240,
+                "innings": 3,
+                "notOuts": 1,
+                "average": 120.0,
+                "hs": "147*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "AM Miller",
+                "team": "Wiltshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "balls": 287,
+                "maidens": 13,
+                "runs": 148,
+                "wickets": 11,
+                "bbruns": 26,
+                "bbwickets": 4,
+                "average": 13.45
+            }
+        ],
+        [
+            {
+                "name": "A Bird",
+                "team": "Worcestershire",
+                "opponents": "Wiltshire",
+                "matches": 2,
+                "balls": 275,
+                "maidens": 16,
+                "runs": 116,
+                "wickets": 13,
+                "bbruns": 41,
+                "bbwickets": 6,
+                "average": 8.92
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "AJ Atfield",
+                "team": "Wiltshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "W Overton",
+                "team": "Wiltshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "HS Snell",
+                "team": "Wiltshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "GA Wilson",
+                "team": "Worcestershire",
+                "opponents": "Wiltshire",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "T Straw",
+                "team": "Worcestershire",
+                "opponents": "Wiltshire",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Worcestershire",
+                    "total": 43,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1898"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Worcestershire",
+                    "total": 43,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1898"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Worcestershire",
+                    "total": 43,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1898"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Wiltshire",
+                    "total": 161,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The County Ground, Swindon",
+                    "seriesDate": "1898"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Wiltshire",
+                    "total": 161,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The County Ground, Swindon",
+                    "seriesDate": "1898"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Wiltshire",
+                    "total": 161,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The County Ground, Swindon",
+                    "seriesDate": "1898"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:11:23.326646Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

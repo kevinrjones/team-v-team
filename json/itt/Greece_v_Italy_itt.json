@@ -1,0 +1,926 @@
+{
+    "team1": "Greece",
+    "team2": "Italy",
+    "competitionTitle": "International T20",
+    "competitionSubType": "itt",
+    "matchDto": {
+        "count": 1,
+        "startDate": "2022-07-12T01:00",
+        "endDate": "2022-07-12T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Greece",
+                "opponents": "Italy",
+                "total": 67,
+                "wickets": 6,
+                "declared": false,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "team": "Italy",
+                "opponents": "Greece",
+                "total": 69,
+                "wickets": 1,
+                "declared": false,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "SA Bogdos",
+                "team": "Greece",
+                "opponents": "Italy",
+                "score": 19,
+                "notOut": false,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "AJ Mosca",
+                "team": "Italy",
+                "opponents": "Greece",
+                "score": 34,
+                "notOut": true,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "G Fatouros",
+                "team": "Greece",
+                "opponents": "Italy",
+                "strikeRate": 83.33,
+                "runs": 15,
+                "balls": 18,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "AJ Mosca",
+                "team": "Italy",
+                "opponents": "Greece",
+                "strikeRate": 103.03,
+                "runs": 34,
+                "balls": 33,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+            {
+                "name": "AJ Mosca",
+                "team": "Italy",
+                "opponents": "Greece",
+                "strikeRate": 103.03,
+                "runs": 34,
+                "balls": 33,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "Aslam Mohammad",
+                "team": "Greece",
+                "opponents": "Italy",
+                "strikeRate": 16.67,
+                "runs": 2,
+                "balls": 12,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "BBJL Perera",
+                "team": "Italy",
+                "opponents": "Greece",
+                "strikeRate": 82.14,
+                "runs": 23,
+                "balls": 28,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "SA Bogdos",
+                "team": "Greece",
+                "opponents": "Italy",
+                "strikeRate": 50.0,
+                "runs": 19,
+                "balls": 38,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Aristides Karvelas",
+                "team": "Greece",
+                "opponents": "Italy",
+                "strikeRate": 50.0,
+                "runs": 10,
+                "balls": 20,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "BBJL Perera",
+                "team": "Italy",
+                "opponents": "Greece",
+                "strikeRate": 82.14,
+                "runs": 23,
+                "balls": 28,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "SA Bogdos",
+                "team": "Greece",
+                "opponents": "Italy",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "G Fatouros",
+                "team": "Greece",
+                "opponents": "Italy",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Alexandros Karvelas",
+                "team": "Greece",
+                "opponents": "Italy",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Aristides Karvelas",
+                "team": "Greece",
+                "opponents": "Italy",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "AJ Mosca",
+                "team": "Italy",
+                "opponents": "Greece",
+                "boundaries": 4,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "G Fatouros",
+                "team": "Greece",
+                "opponents": "Italy",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "AJ Mosca",
+                "team": "Italy",
+                "opponents": "Greece",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "BBJL Perera",
+                "team": "Italy",
+                "opponents": "Greece",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "G Fatouros",
+                "team": "Greece",
+                "opponents": "Italy",
+                "boundaries": 2,
+                "fours": 1,
+                "sixes": 1,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "AJ Mosca",
+                "team": "Italy",
+                "opponents": "Greece",
+                "boundaries": 5,
+                "fours": 4,
+                "sixes": 1,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Alexandros Karvelas",
+                "team": "Greece",
+                "opponents": "Italy",
+                "wickets": 1,
+                "runs": 13,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "CJPF Kalugamage",
+                "team": "Italy",
+                "opponents": "Greece",
+                "wickets": 3,
+                "runs": 11,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Alexandros Karvelas",
+                "team": "Greece",
+                "opponents": "Italy",
+                "wickets": 1,
+                "runs": 13,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "CJPF Kalugamage",
+                "team": "Italy",
+                "opponents": "Greece",
+                "wickets": 3,
+                "runs": 11,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "Alexandros Karvelas",
+                "team": "Greece",
+                "opponents": "Italy",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 13,
+                "sr": 12.0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "CJPF Kalugamage",
+                "team": "Italy",
+                "opponents": "Greece",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 3,
+                "runs": 11,
+                "sr": 8.0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+            {
+                "name": "CJPF Kalugamage",
+                "team": "Italy",
+                "opponents": "Greece",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 3,
+                "runs": 11,
+                "sr": 8.0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "Aristides Karvelas",
+                "team": "Greece",
+                "opponents": "Italy",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 10,
+                "sr": 3.33,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "GK Berg",
+                "team": "Italy",
+                "opponents": "Greece",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 10,
+                "sr": 2.5,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "Aristides Karvelas",
+                "team": "Greece",
+                "opponents": "Italy",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 10,
+                "sr": 3.33,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "GK Berg",
+                "team": "Italy",
+                "opponents": "Greece",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 10,
+                "sr": 2.5,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "AS Mehmi",
+                "team": "Greece",
+                "opponents": "Italy",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 10,
+                "sr": 10.0,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "Bashar Khan",
+                "team": "Italy",
+                "opponents": "Greece",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 0,
+                "runs": 21,
+                "sr": 5.25,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "Aristides Karvelas",
+                "team": "Greece",
+                "opponents": "Italy",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 10,
+                "sr": 3.33,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "Bashar Khan",
+                "team": "Italy",
+                "opponents": "Greece",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 0,
+                "runs": 21,
+                "sr": 5.25,
+                "location": "Tikkurila Cricket Ground, Vantaa",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Greece",
+                        "opponents": "Italy",
+                        "location": "Tikkurila Cricket Ground, Vantaa",
+                        "seriesDate": "2022",
+                        "partnership": 19,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Alexandros Karvelas",
+                        "player1Score": 10,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SA Bogdos",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Greece",
+                        "opponents": "Italy",
+                        "location": "Tikkurila Cricket Ground, Vantaa",
+                        "seriesDate": "2022",
+                        "partnership": 21,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "SA Bogdos",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "G Fatouros",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Greece",
+                        "opponents": "Italy",
+                        "location": "Tikkurila Cricket Ground, Vantaa",
+                        "seriesDate": "2022",
+                        "partnership": 0,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "SA Bogdos",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "A Manousis",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Greece",
+                        "opponents": "Italy",
+                        "location": "Tikkurila Cricket Ground, Vantaa",
+                        "seriesDate": "2022",
+                        "partnership": 18,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "SA Bogdos",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "Aristides Karvelas",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Greece",
+                        "opponents": "Italy",
+                        "location": "Tikkurila Cricket Ground, Vantaa",
+                        "seriesDate": "2022",
+                        "partnership": 2,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "SA Bogdos",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AS Mehmi",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Greece",
+                        "opponents": "Italy",
+                        "location": "Tikkurila Cricket Ground, Vantaa",
+                        "seriesDate": "2022",
+                        "partnership": 6,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AS Mehmi",
+                        "player1Score": 6,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "Aslam Mohammad",
+                        "player2Score": 2,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Greece",
+                        "opponents": "Italy",
+                        "location": "Tikkurila Cricket Ground, Vantaa",
+                        "seriesDate": "2022",
+                        "partnership": 1,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "Aslam Mohammad",
+                        "player1Score": 2,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "C Bogdanos",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Italy",
+                        "opponents": "Greece",
+                        "location": "Tikkurila Cricket Ground, Vantaa",
+                        "seriesDate": "2022",
+                        "partnership": 5,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "J Mosca",
+                        "player1Score": 3,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BBJL Perera",
+                        "player2Score": 23,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Italy",
+                        "opponents": "Greece",
+                        "location": "Tikkurila Cricket Ground, Vantaa",
+                        "seriesDate": "2022",
+                        "partnership": 64,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "BBJL Perera",
+                        "player1Score": 23,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "AJ Mosca",
+                        "player2Score": 34,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "SA Bogdos",
+                "team": "Greece",
+                "opponents": "Italy",
+                "matches": 1,
+                "runs": 19,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 19.0,
+                "hs": "19"
+            }
+        ],
+        [
+            {
+                "name": "AJ Mosca",
+                "team": "Italy",
+                "opponents": "Greece",
+                "matches": 1,
+                "runs": 34,
+                "innings": 1,
+                "notOuts": 1,
+                "average": 0.0,
+                "hs": "34*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "A Karvelas",
+                "team": "Greece",
+                "opponents": "Italy",
+                "matches": 1,
+                "balls": 12,
+                "maidens": 0,
+                "runs": 13,
+                "wickets": 1,
+                "bbruns": 13,
+                "bbwickets": 1,
+                "average": 13.0
+            }
+        ],
+        [
+            {
+                "name": "CJPF Kalugamage",
+                "team": "Italy",
+                "opponents": "Greece",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 1,
+                "runs": 11,
+                "wickets": 3,
+                "bbruns": 11,
+                "bbwickets": 3,
+                "average": 3.66
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "GK Berg",
+                "team": "Italy",
+                "opponents": "Greece",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "CJPF Kalugamage",
+                "team": "Italy",
+                "opponents": "Greece",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Greece",
+                    "opponents": "Italy",
+                    "total": 67,
+                    "wickets": 6,
+                    "declared": false,
+                    "location": "Tikkurila Cricket Ground, Vantaa",
+                    "seriesDate": "2022"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Greece",
+                    "opponents": "Italy",
+                    "total": 67,
+                    "wickets": 6,
+                    "declared": false,
+                    "location": "Tikkurila Cricket Ground, Vantaa",
+                    "seriesDate": "2022"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Italy",
+                    "opponents": "Greece",
+                    "total": 69,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Tikkurila Cricket Ground, Vantaa",
+                    "seriesDate": "2022"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:20:13.310508Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

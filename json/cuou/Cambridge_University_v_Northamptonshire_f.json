@@ -1,0 +1,831 @@
+{
+    "team1": "Cambridge University",
+    "team2": "Northamptonshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 35,
+        "startDate": "1906-05-28T00:00",
+        "endDate": "1999-05-09T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridge University",
+                "opponents": "Northamptonshire",
+                "total": 405,
+                "wickets": 10,
+                "declared": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1906"
+            }
+        ],
+        [
+            {
+                "team": "Northamptonshire",
+                "opponents": "Cambridge University",
+                "total": 494,
+                "wickets": 8,
+                "declared": true,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1960"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "DW Varey",
+                "team": "Cambridge University",
+                "opponents": "Northamptonshire",
+                "score": 156,
+                "notOut": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1982"
+            }
+        ],
+        [
+            {
+                "name": "W Barron",
+                "team": "Northamptonshire",
+                "opponents": "Cambridge University",
+                "score": 161,
+                "notOut": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1948"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "AF Morcom",
+                "team": "Cambridge University",
+                "opponents": "Northamptonshire",
+                "wickets": 6,
+                "runs": 25,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1906"
+            }
+        ],
+        [
+            {
+                "name": "TM Lamb",
+                "team": "Northamptonshire",
+                "opponents": "Cambridge University",
+                "wickets": 7,
+                "runs": 56,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1980"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "AF Morcom",
+                "team": "Cambridge University",
+                "opponents": "Northamptonshire",
+                "wickets": 12,
+                "runs": 98,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1906"
+            }
+        ],
+        [
+            {
+                "name": "WE Merritt",
+                "team": "Northamptonshire",
+                "opponents": "Cambridge University",
+                "wickets": 12,
+                "runs": 161,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1939"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Northamptonshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1938",
+                        "partnership": 241,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PA Gibb",
+                        "player1Score": 141,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JR Thompson",
+                        "player2Score": 96,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1961",
+                        "partnership": 109,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Northamptonshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1948",
+                        "partnership": 122,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1962",
+                        "partnership": 155,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Northamptonshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1999",
+                        "partnership": 132,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "KDM Walker",
+                        "player1Score": 132,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BJ Collins",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1924",
+                        "partnership": 128,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Northamptonshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1937",
+                        "partnership": 68,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Northamptonshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1980",
+                        "partnership": 129,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Northamptonshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1964",
+                        "partnership": 45,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Northamptonshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1939",
+                        "partnership": 75,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JP Blake",
+                        "player1Score": 82,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "JD Ruane",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Cambridge University",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1962",
+                        "partnership": 227,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MEJC Norman",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "C Milburn",
+                        "player2Score": 129,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1948",
+                        "partnership": 265,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Cambridge University",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1962",
+                        "partnership": 175,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "CA Fry",
+                        "player1Score": 71,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "D Ramsamooj",
+                        "player2Score": 100,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1991",
+                        "partnership": 128,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Cambridge University",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1954",
+                        "partnership": 191,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "GE Tribe",
+                        "player1Score": 136,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "V Broderick",
+                        "player2Score": 71,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Cambridge University",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1960",
+                        "partnership": 198,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Cambridge University",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 80,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1933",
+                        "partnership": 73,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Cambridge University",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1960",
+                        "partnership": 144,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "JG Williamson",
+                        "player1Score": 106,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "ME Scott",
+                        "player2Score": 43,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Cambridge University",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1928",
+                        "partnership": 70,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "RM Prideaux",
+                "team": "Cambridge University",
+                "opponents": "Northamptonshire",
+                "matches": 3,
+                "runs": 263,
+                "innings": 6,
+                "notOuts": 2,
+                "average": 65.75,
+                "hs": "83"
+            }
+        ],
+        [
+            {
+                "name": "RG Williams",
+                "team": "Northamptonshire",
+                "opponents": "Cambridge University",
+                "matches": 7,
+                "runs": 542,
+                "innings": 10,
+                "notOuts": 5,
+                "average": 108.4,
+                "hs": "141"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "AF Morcom",
+                "team": "Cambridge University",
+                "opponents": "Northamptonshire",
+                "matches": 1,
+                "balls": 282,
+                "maidens": 13,
+                "runs": 98,
+                "wickets": 12,
+                "bbruns": 25,
+                "bbwickets": 6,
+                "average": 8.16
+            }
+        ],
+        [
+            {
+                "name": "ME Scott",
+                "team": "Northamptonshire",
+                "opponents": "Cambridge University",
+                "matches": 7,
+                "balls": 1791,
+                "maidens": 139,
+                "runs": 566,
+                "wickets": 30,
+                "bbruns": 57,
+                "bbwickets": 6,
+                "average": 18.86
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "NWD Yardley",
+                "team": "Cambridge University",
+                "opponents": "Northamptonshire",
+                "matches": 2,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "G Sharp",
+                "team": "Northamptonshire",
+                "opponents": "Cambridge University",
+                "matches": 6,
+                "dismissals": 18
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "PA Gibb",
+                "team": "Cambridge University",
+                "opponents": "Northamptonshire",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "G Sharp",
+                "team": "Northamptonshire",
+                "opponents": "Cambridge University",
+                "matches": 6,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Northamptonshire",
+                    "total": 100,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1970"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Northamptonshire",
+                    "total": 100,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1970"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Northamptonshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1998"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Northamptonshire",
+                    "opponents": "Cambridge University",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1906"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Northamptonshire",
+                    "opponents": "Cambridge University",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1906"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Northamptonshire",
+                    "opponents": "Cambridge University",
+                    "total": 56,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1954"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:46.863918Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

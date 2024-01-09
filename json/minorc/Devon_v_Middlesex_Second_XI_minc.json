@@ -1,0 +1,870 @@
+{
+    "team1": "Devon",
+    "team2": "Middlesex Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1935-07-05T01:00",
+        "endDate": "1936-06-15T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Devon",
+                "opponents": "Middlesex Second XI",
+                "total": 250,
+                "wickets": 10,
+                "declared": false,
+                "location": "Arden Field, Finchley",
+                "seriesDate": "1936"
+            }
+        ],
+        [
+            {
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "total": 328,
+                "wickets": 10,
+                "declared": false,
+                "location": "United Services Ground, Plymouth",
+                "seriesDate": "1935"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "GM Emmett",
+                "team": "Devon",
+                "opponents": "Middlesex Second XI",
+                "score": 105,
+                "notOut": false,
+                "location": "United Services Ground, Plymouth",
+                "seriesDate": "1935"
+            }
+        ],
+        [
+            {
+                "name": "WR Watkins",
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "score": 89,
+                "notOut": false,
+                "location": "United Services Ground, Plymouth",
+                "seriesDate": "1935"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "HC Lock",
+                "team": "Devon",
+                "opponents": "Middlesex Second XI",
+                "wickets": 5,
+                "runs": 93,
+                "location": "United Services Ground, Plymouth",
+                "seriesDate": "1935"
+            }
+        ],
+        [
+            {
+                "name": "WR Watkins",
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "wickets": 5,
+                "runs": 30,
+                "location": "Arden Field, Finchley",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "HC Lock",
+                "team": "Devon",
+                "opponents": "Middlesex Second XI",
+                "wickets": 6,
+                "runs": 125,
+                "location": "United Services Ground, Plymouth",
+                "seriesDate": "1935"
+            }
+        ],
+        [
+            {
+                "name": "FJ Durston",
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "wickets": 7,
+                "runs": 65,
+                "location": "Arden Field, Finchley",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Middlesex Second XI",
+                        "location": "Arden Field, Finchley",
+                        "seriesDate": "1936",
+                        "partnership": 75,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WW Hoare",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CJP Pearson",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Middlesex Second XI",
+                        "location": "Arden Field, Finchley",
+                        "seriesDate": "1936",
+                        "partnership": 31,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CEH Poynder",
+                        "player1Score": 32,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "WW Hoare",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Middlesex Second XI",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1935",
+                        "partnership": 42,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "EJ Hatfield",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GM Emmett",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Middlesex Second XI",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1935",
+                        "partnership": 27,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "GM Emmett",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JAI Watts",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    },
+                    {
+                        "team": "Devon",
+                        "opponents": "Middlesex Second XI",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1935",
+                        "partnership": 27,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "GM Emmett",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JAI Watts",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Middlesex Second XI",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1935",
+                        "partnership": 34,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GM Emmett",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JHL Watts",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Middlesex Second XI",
+                        "location": "Arden Field, Finchley",
+                        "seriesDate": "1936",
+                        "partnership": 56,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "DC Coulton",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "LP Price",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Middlesex Second XI",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1935",
+                        "partnership": 21,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "GM Emmett",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "LP Price",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Middlesex Second XI",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1935",
+                        "partnership": 49,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "GM Emmett",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "GKD Simmons",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Middlesex Second XI",
+                        "location": "Arden Field, Finchley",
+                        "seriesDate": "1936",
+                        "partnership": 18,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "FS Campling",
+                        "player1Score": 15,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "GKD Simmons",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Middlesex Second XI",
+                        "location": "Arden Field, Finchley",
+                        "seriesDate": "1936",
+                        "partnership": 38,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "FS Campling",
+                        "player1Score": 15,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "HC Lock",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Devon",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1935",
+                        "partnership": 156,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "R Felton",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WR Watkins",
+                        "player2Score": 89,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Devon",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1935",
+                        "partnership": 55,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "HF Benka",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "FE Covington",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Devon",
+                        "location": "Arden Field, Finchley",
+                        "seriesDate": "1936",
+                        "partnership": 16,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "EW Swanton",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AEC Smith",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Devon",
+                        "location": "Arden Field, Finchley",
+                        "seriesDate": "1936",
+                        "partnership": 108,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "HPH Sharp",
+                        "player1Score": 49,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "AEC Smith",
+                        "player2Score": 74,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Devon",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1935",
+                        "partnership": 19,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GH Adlard",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CWC Poore",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Devon",
+                        "location": "Arden Field, Finchley",
+                        "seriesDate": "1936",
+                        "partnership": 22,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "HPH Sharp",
+                        "player1Score": 13,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "AW Childs-Clarke",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Devon",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1935",
+                        "partnership": 83,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "FW Putner",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "AE Wilson",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Devon",
+                        "location": "Arden Field, Finchley",
+                        "seriesDate": "1936",
+                        "partnership": 6,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AW Childs-Clarke",
+                        "player1Score": 17,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "EH Sweetland",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Devon",
+                        "location": "Arden Field, Finchley",
+                        "seriesDate": "1936",
+                        "partnership": 10,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "HPH Sharp",
+                        "player1Score": 13,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "JA Young",
+                        "player2Score": 2,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex Second XI",
+                        "opponents": "Devon",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1935",
+                        "partnership": 11,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AW Childs-Clarke",
+                        "player1Score": 9,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "L Haverson",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "GM Emmett",
+                "team": "Devon",
+                "opponents": "Middlesex Second XI",
+                "matches": 1,
+                "runs": 163,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 81.5,
+                "hs": "105"
+            }
+        ],
+        [
+            {
+                "name": "WR Watkins",
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "matches": 2,
+                "runs": 169,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 56.33,
+                "hs": "89"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "HC Lock",
+                "team": "Devon",
+                "opponents": "Middlesex Second XI",
+                "matches": 2,
+                "balls": 564,
+                "maidens": 11,
+                "runs": 240,
+                "wickets": 11,
+                "bbruns": 93,
+                "bbwickets": 5,
+                "average": 21.81
+            }
+        ],
+        [
+            {
+                "name": "FJ Durston",
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "matches": 2,
+                "balls": 492,
+                "maidens": 25,
+                "runs": 182,
+                "wickets": 13,
+                "bbruns": 48,
+                "bbwickets": 5,
+                "average": 14.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "WW Hoare",
+                "team": "Devon",
+                "opponents": "Middlesex Second XI",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "HF Benka",
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "AW Childs-Clarke",
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "EW Swanton",
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "JA Young",
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "EH Sweetland",
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "AE Wilson",
+                "team": "Middlesex Second XI",
+                "opponents": "Devon",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Devon",
+                    "opponents": "Middlesex Second XI",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Arden Field, Finchley",
+                    "seriesDate": "1936"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Middlesex Second XI",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Arden Field, Finchley",
+                    "seriesDate": "1936"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Middlesex Second XI",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Arden Field, Finchley",
+                    "seriesDate": "1936"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Middlesex Second XI",
+                    "opponents": "Devon",
+                    "total": 328,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "United Services Ground, Plymouth",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Middlesex Second XI",
+                    "opponents": "Devon",
+                    "total": 328,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "United Services Ground, Plymouth",
+                    "seriesDate": "1935"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Middlesex Second XI",
+                    "opponents": "Devon",
+                    "total": 63,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "United Services Ground, Plymouth",
+                    "seriesDate": "1935"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:38.060913Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

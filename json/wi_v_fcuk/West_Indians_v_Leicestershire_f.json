@@ -1,0 +1,863 @@
+{
+    "team1": "West Indians",
+    "team2": "Leicestershire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 18,
+        "startDate": "1906-08-06T00:00",
+        "endDate": "2009-04-20T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "West Indians",
+                "opponents": "Leicestershire",
+                "total": 682,
+                "wickets": 2,
+                "declared": true,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "team": "Leicestershire",
+                "opponents": "West Indians",
+                "total": 355,
+                "wickets": 7,
+                "declared": true,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1991"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "FMM Worrell",
+                "team": "West Indians",
+                "opponents": "Leicestershire",
+                "score": 241,
+                "notOut": true,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "name": "JC Balderstone",
+                "team": "Leicestershire",
+                "opponents": "West Indians",
+                "score": 125,
+                "notOut": false,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1976"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "AL Valentine",
+                "team": "West Indians",
+                "opponents": "Leicestershire",
+                "wickets": 6,
+                "runs": 8,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1957"
+            }
+        ],
+        [
+            {
+                "name": "WW Odell",
+                "team": "Leicestershire",
+                "opponents": "West Indians",
+                "wickets": 6,
+                "runs": 60,
+                "location": "Aylestone Road, Leicester",
+                "seriesDate": "1906"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "S Ramadhin",
+                "team": "West Indians",
+                "opponents": "Leicestershire",
+                "wickets": 10,
+                "runs": 117,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "name": "WW Odell",
+                "team": "Leicestershire",
+                "opponents": "West Indians",
+                "wickets": 8,
+                "runs": 113,
+                "location": "Aylestone Road, Leicester",
+                "seriesDate": "1906"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1976",
+                        "partnership": 191,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CG Greenidge",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "RC Fredericks",
+                        "player2Score": 114,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1969",
+                        "partnership": 324,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "MC Carew",
+                        "player1Score": 172,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "RC Fredericks",
+                        "player2Score": 168,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1950",
+                        "partnership": 340,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "FMM Worrell",
+                        "player1Score": 241,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "ED Weekes",
+                        "player2Score": 200,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1984",
+                        "partnership": 290,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1995",
+                        "partnership": 223,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1957",
+                        "partnership": 158,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "2000",
+                        "partnership": 53,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "RD Jacobs",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "MV Nagamootoo",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Leicestershire",
+                        "location": "Aylestone Road, Leicester",
+                        "seriesDate": "1939",
+                        "partnership": 58,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Leicestershire",
+                        "location": "Aylestone Road, Leicester",
+                        "seriesDate": "1923",
+                        "partnership": 64,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1988",
+                        "partnership": 61,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "BP Patterson",
+                        "player1Score": 23,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "CG Greenidge",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "West Indians",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "2000",
+                        "partnership": 90,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DL Maddy",
+                        "player1Score": 48,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "IJ Sutcliffe",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "West Indians",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1976",
+                        "partnership": 229,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "West Indians",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1976",
+                        "partnership": 114,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "West Indians",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1969",
+                        "partnership": 96,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "West Indians",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1991",
+                        "partnership": 88,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "DR Martyn",
+                        "player1Score": 60,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "BF Smith",
+                        "player2Score": 29,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "West Indians",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "2000",
+                        "partnership": 152,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "BF Smith",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "VJ Wells",
+                        "player2Score": 84,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "West Indians",
+                        "location": "Aylestone Road, Leicester",
+                        "seriesDate": "1906",
+                        "partnership": 51,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "West Indians",
+                        "location": "Aylestone Road, Leicester",
+                        "seriesDate": "1906",
+                        "partnership": 73,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "West Indians",
+                        "location": "Aylestone Road, Leicester",
+                        "seriesDate": "1923",
+                        "partnership": 70,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "F Bale",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "JC Bradshaw",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "West Indians",
+                        "location": "Aylestone Road, Leicester",
+                        "seriesDate": "1933",
+                        "partnership": 45,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CG Greenidge",
+                "team": "West Indians",
+                "opponents": "Leicestershire",
+                "matches": 4,
+                "runs": 433,
+                "innings": 5,
+                "notOuts": 2,
+                "average": 144.33,
+                "hs": "165"
+            }
+        ],
+        [
+            {
+                "name": "JC Balderstone",
+                "team": "Leicestershire",
+                "opponents": "West Indians",
+                "matches": 2,
+                "runs": 284,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 71.0,
+                "hs": "125"
+            },
+            {
+                "name": "GL Berry",
+                "team": "Leicestershire",
+                "opponents": "West Indians",
+                "matches": 4,
+                "runs": 284,
+                "innings": 6,
+                "notOuts": 0,
+                "average": 47.33,
+                "hs": "121"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "AL Valentine",
+                "team": "West Indians",
+                "opponents": "Leicestershire",
+                "matches": 3,
+                "balls": 776,
+                "maidens": 55,
+                "runs": 271,
+                "wickets": 17,
+                "bbruns": 8,
+                "bbwickets": 6,
+                "average": 15.94
+            }
+        ],
+        [
+            {
+                "name": "HA Smith",
+                "team": "Leicestershire",
+                "opponents": "West Indians",
+                "matches": 3,
+                "balls": 765,
+                "maidens": 17,
+                "runs": 400,
+                "wickets": 15,
+                "bbruns": 53,
+                "bbwickets": 5,
+                "average": 26.66
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "DW Allan",
+                "team": "West Indians",
+                "opponents": "Leicestershire",
+                "matches": 2,
+                "dismissals": 6
+            },
+            {
+                "name": "IVA Richards",
+                "team": "West Indians",
+                "opponents": "Leicestershire",
+                "matches": 4,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "PA Nixon",
+                "team": "Leicestershire",
+                "opponents": "West Indians",
+                "matches": 2,
+                "dismissals": 5
+            },
+            {
+                "name": "HA Smith",
+                "team": "Leicestershire",
+                "opponents": "West Indians",
+                "matches": 3,
+                "dismissals": 5
+            },
+            {
+                "name": "P Whitticase",
+                "team": "Leicestershire",
+                "opponents": "West Indians",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "DW Allan",
+                "team": "West Indians",
+                "opponents": "Leicestershire",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "RW Tolchard",
+                "team": "Leicestershire",
+                "opponents": "West Indians",
+                "matches": 4,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Leicestershire",
+                    "total": 156,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Aylestone Road, Leicester",
+                    "seriesDate": "1933"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Leicestershire",
+                    "total": 156,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Aylestone Road, Leicester",
+                    "seriesDate": "1933"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Leicestershire",
+                    "total": 39,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Aylestone Road, Leicester",
+                    "seriesDate": "1928"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Leicestershire",
+                    "opponents": "West Indians",
+                    "total": 74,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Leicestershire",
+                    "opponents": "West Indians",
+                    "total": 74,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Leicestershire",
+                    "opponents": "West Indians",
+                    "total": 26,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "2000"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:58.362303Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,841 @@
+{
+    "team1": "Hertfordshire",
+    "team2": "Worcestershire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 6,
+        "startDate": "1895-07-29T00:00",
+        "endDate": "1897-08-06T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Hertfordshire",
+                "opponents": "Worcestershire",
+                "total": 214,
+                "wickets": 10,
+                "declared": false,
+                "location": "Park Avenue, Watford",
+                "seriesDate": "1896"
+            }
+        ],
+        [
+            {
+                "team": "Worcestershire",
+                "opponents": "Hertfordshire",
+                "total": 397,
+                "wickets": 7,
+                "declared": true,
+                "location": "Park Avenue, Watford",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "H Pigg",
+                "team": "Hertfordshire",
+                "opponents": "Worcestershire",
+                "score": 75,
+                "notOut": false,
+                "location": "Park Avenue, Watford",
+                "seriesDate": "1896"
+            }
+        ],
+        [
+            {
+                "name": "HK Foster",
+                "team": "Worcestershire",
+                "opponents": "Hertfordshire",
+                "score": 176,
+                "notOut": false,
+                "location": "Park Avenue, Watford",
+                "seriesDate": "1896"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "HE White",
+                "team": "Hertfordshire",
+                "opponents": "Worcestershire",
+                "wickets": 5,
+                "runs": 52,
+                "location": "Malvern College Ground, Malvern",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "A Bird",
+                "team": "Worcestershire",
+                "opponents": "Hertfordshire",
+                "wickets": 7,
+                "runs": 27,
+                "location": "Park Avenue, Watford",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "VA Titchmarsh",
+                "team": "Hertfordshire",
+                "opponents": "Worcestershire",
+                "wickets": 7,
+                "runs": 102,
+                "location": "Malvern College Ground, Malvern",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "EG Bromley-Martin",
+                "team": "Worcestershire",
+                "opponents": "Hertfordshire",
+                "wickets": 11,
+                "runs": 107,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Worcestershire",
+                        "location": "Malvern College Ground, Malvern",
+                        "seriesDate": "1895",
+                        "partnership": 39,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HJ Hill",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "A Butcher",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Worcestershire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1895",
+                        "partnership": 26,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 35,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Worcestershire",
+                        "location": "Malvern College Ground, Malvern",
+                        "seriesDate": "1895",
+                        "partnership": 38,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "H Pigg",
+                        "player1Score": 23,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "VA Titchmarsh",
+                        "player2Score": 21,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Worcestershire",
+                        "location": "Boughton Park, Worcester",
+                        "seriesDate": "1896",
+                        "partnership": 28,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Worcestershire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1896",
+                        "partnership": 40,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Worcestershire",
+                        "location": "Malvern College Ground, Malvern",
+                        "seriesDate": "1895",
+                        "partnership": 39,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Worcestershire",
+                        "location": "Boughton Park, Worcester",
+                        "seriesDate": "1896",
+                        "partnership": 40,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Worcestershire",
+                        "location": "Malvern College Ground, Malvern",
+                        "seriesDate": "1895",
+                        "partnership": 40,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "HE White",
+                        "player1Score": 64,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "W Hearn",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Worcestershire",
+                        "location": "Malvern College Ground, Malvern",
+                        "seriesDate": "1895",
+                        "partnership": 36,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "HE White",
+                        "player1Score": 64,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "HW Pank",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 36,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WE Coleman",
+                        "player1Score": 25,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "EN Goodyear",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1897",
+                        "partnership": 108,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HK Foster",
+                        "player1Score": 93,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "EP Jobson",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1897",
+                        "partnership": 67,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1896",
+                        "partnership": 109,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1896",
+                        "partnership": 56,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1895",
+                        "partnership": 19,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1897",
+                        "partnership": 15,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1897",
+                        "partnership": 64,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1897",
+                        "partnership": 58,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "EG Bromley-Martin",
+                        "player1Score": 58,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "RD Burrows",
+                        "player2Score": 33,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Hertfordshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 44,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Hertfordshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 47,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "H Pigg",
+                "team": "Hertfordshire",
+                "opponents": "Worcestershire",
+                "matches": 6,
+                "runs": 167,
+                "innings": 11,
+                "notOuts": 1,
+                "average": 16.7,
+                "hs": "75"
+            }
+        ],
+        [
+            {
+                "name": "HK Foster",
+                "team": "Worcestershire",
+                "opponents": "Hertfordshire",
+                "matches": 6,
+                "runs": 393,
+                "innings": 8,
+                "notOuts": 1,
+                "average": 56.14,
+                "hs": "176"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "VA Titchmarsh",
+                "team": "Hertfordshire",
+                "opponents": "Worcestershire",
+                "matches": 6,
+                "balls": 927,
+                "maidens": 58,
+                "runs": 415,
+                "wickets": 17,
+                "bbruns": 44,
+                "bbwickets": 4,
+                "average": 24.41
+            }
+        ],
+        [
+            {
+                "name": "EG Bromley-Martin",
+                "team": "Worcestershire",
+                "opponents": "Hertfordshire",
+                "matches": 5,
+                "balls": 830,
+                "maidens": 36,
+                "runs": 393,
+                "wickets": 37,
+                "bbruns": 65,
+                "bbwickets": 7,
+                "average": 10.62
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "GEB Pritchett",
+                "team": "Hertfordshire",
+                "opponents": "Worcestershire",
+                "matches": 3,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "T Straw",
+                "team": "Worcestershire",
+                "opponents": "Hertfordshire",
+                "matches": 6,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "T Straw",
+                "team": "Worcestershire",
+                "opponents": "Hertfordshire",
+                "matches": 6,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Worcestershire",
+                    "total": 62,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Avenue, Watford",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Worcestershire",
+                    "total": 62,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Avenue, Watford",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Worcestershire",
+                    "total": 62,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Avenue, Watford",
+                    "seriesDate": "1896"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Hertfordshire",
+                    "total": 115,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Malvern College Ground, Malvern",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Hertfordshire",
+                    "total": 115,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Malvern College Ground, Malvern",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Hertfordshire",
+                    "total": 26,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Park Avenue, Watford",
+                    "seriesDate": "1895"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:57.123174Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,1206 @@
+{
+    "team1": "Australia",
+    "team2": "New Zealand",
+    "competitionTitle": "International T20",
+    "competitionSubType": "itt",
+    "matchDto": {
+        "count": 16,
+        "startDate": "2005-02-17T00:00",
+        "endDate": "2022-10-22T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "total": 245,
+                "wickets": 5,
+                "declared": false,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "total": 243,
+                "wickets": 6,
+                "declared": false,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RT Ponting",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "score": 98,
+                "notOut": true,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2004/05"
+            }
+        ],
+        [
+            {
+                "name": "BB McCullum",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "score": 116,
+                "notOut": true,
+                "location": "AMI Stadium, Christchurch",
+                "seriesDate": "2009/10"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "JA Richardson",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "strikeRate": 400.0,
+                "runs": 4,
+                "balls": 1,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "LRPL Taylor",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "strikeRate": 283.33,
+                "runs": 17,
+                "balls": 6,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "DR Sams",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "strikeRate": 273.33,
+                "runs": 41,
+                "balls": 15,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "JDS Neesham",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "strikeRate": 281.25,
+                "runs": 45,
+                "balls": 16,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "MP Stoinis",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "strikeRate": 50.0,
+                "runs": 7,
+                "balls": 14,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2022/23"
+            }
+        ],
+        [
+            {
+                "name": "PJ Ingram",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "strikeRate": 20.0,
+                "runs": 2,
+                "balls": 10,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2009/10"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "MJ Clarke",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "strikeRate": 69.23,
+                "runs": 18,
+                "balls": 26,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2009/10"
+            }
+        ],
+        [
+            {
+                "name": "KS Williamson",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "strikeRate": 38.1,
+                "runs": 8,
+                "balls": 21,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "DJM Short",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "boundaries": 8,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2017/18"
+            },
+            {
+                "name": "AJ Finch",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "boundaries": 8,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Sky Stadium, Wellington",
+                "seriesDate": "2020/21"
+            },
+            {
+                "name": "GJ Maxwell",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "boundaries": 8,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Sky Stadium, Wellington",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "BB McCullum",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "boundaries": 12,
+                "fours": 0,
+                "sixes": 0,
+                "location": "AMI Stadium, Christchurch",
+                "seriesDate": "2009/10"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "RT Ponting",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "boundaries": 5,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2004/05"
+            },
+            {
+                "name": "CL White",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "boundaries": 5,
+                "fours": 0,
+                "sixes": 0,
+                "location": "AMI Stadium, Christchurch",
+                "seriesDate": "2009/10"
+            },
+            {
+                "name": "DA Warner",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "boundaries": 5,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2017/18"
+            },
+            {
+                "name": "MP Stoinis",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "boundaries": 5,
+                "fours": 0,
+                "sixes": 0,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2020/21"
+            },
+            {
+                "name": "GJ Maxwell",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "boundaries": 5,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Sky Stadium, Wellington",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "MJ Guptill",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "boundaries": 9,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "GJ Maxwell",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "boundaries": 13,
+                "fours": 8,
+                "sixes": 5,
+                "location": "Sky Stadium, Wellington",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "BB McCullum",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "boundaries": 20,
+                "fours": 12,
+                "sixes": 8,
+                "location": "AMI Stadium, Christchurch",
+                "seriesDate": "2009/10"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "AC Agar",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "wickets": 6,
+                "runs": 30,
+                "location": "Sky Stadium, Wellington",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "IS Sodhi",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "wickets": 4,
+                "runs": 28,
+                "location": "Hagley Oval, Christchurch",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "AC Agar",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "wickets": 6,
+                "runs": 30,
+                "location": "Sky Stadium, Wellington",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "IS Sodhi",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "wickets": 4,
+                "runs": 28,
+                "location": "Hagley Oval, Christchurch",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "AC Agar",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 6,
+                "runs": 30,
+                "sr": 4.0,
+                "location": "Sky Stadium, Wellington",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "JDS Neesham",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 10,
+                "sr": 3.0,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "AC Agar",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 6,
+                "runs": 30,
+                "sr": 4.0,
+                "location": "Sky Stadium, Wellington",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "MJ McClenaghan",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 17,
+                "sr": 6.0,
+                "location": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+                "seriesDate": "2015/16"
+            },
+            {
+                "name": "IS Sodhi",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 28,
+                "sr": 6.0,
+                "location": "Hagley Oval, Christchurch",
+                "seriesDate": "2020/21"
+            },
+            {
+                "name": "MJ Santner",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 31,
+                "sr": 6.0,
+                "location": "University Oval, Dunedin",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "MP Stoinis",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 2,
+                "sr": 2.0,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "overs": "2.1",
+                "balls": 13,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 6,
+                "sr": 2.77,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2022/23"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "AC Agar",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 11,
+                "sr": 2.75,
+                "location": "Sky Stadium, Wellington",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "DL Vettori",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 13,
+                "sr": 3.25,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2009/10"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "A Symonds",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 39,
+                "sr": 19.5,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2007/08"
+            }
+        ],
+        [
+            {
+                "name": "BM Wheeler",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "overs": "3.1",
+                "balls": 19,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 64,
+                "sr": 20.21,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "AJ Tye",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 64,
+                "sr": 16.0,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "name": "BM Wheeler",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "overs": "3.1",
+                "balls": 19,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 64,
+                "sr": 20.21,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "New Zealand",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2017/18",
+                        "partnership": 121,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DA Warner",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DJM Short",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "New Zealand",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2021/22",
+                        "partnership": 92,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "MR Marsh",
+                        "player1Score": 77,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "DA Warner",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "New Zealand",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2017/18",
+                        "partnership": 77,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "CA Lynn",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GJ Maxwell",
+                        "player2Score": 40,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "New Zealand",
+                        "location": "AMI Stadium, Christchurch",
+                        "seriesDate": "2009/10",
+                        "partnership": 82,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MJ Clarke",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CL White",
+                        "player2Score": 64,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "New Zealand",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2004/05",
+                        "partnership": 83,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RT Ponting",
+                        "player1Score": 98,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "SM Katich",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "New Zealand",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2004/05",
+                        "partnership": 77,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "RT Ponting",
+                        "player1Score": 98,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "MEK Hussey",
+                        "player2Score": 31,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "New Zealand",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2020/21",
+                        "partnership": 92,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MP Stoinis",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DR Sams",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "New Zealand",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2022/23",
+                        "partnership": 20,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "PJ Cummins",
+                        "player1Score": 21,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "MA Starc",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "New Zealand",
+                        "location": "Hagley Oval, Christchurch",
+                        "seriesDate": "2020/21",
+                        "partnership": 9,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JA Richardson",
+                        "player1Score": 11,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "KW Richardson",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "New Zealand",
+                        "location": "Hagley Oval, Christchurch",
+                        "seriesDate": "2020/21",
+                        "partnership": 23,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JA Richardson",
+                        "player1Score": 11,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "A Zampa",
+                        "player2Score": 13,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Australia",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2017/18",
+                        "partnership": 132,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MJ Guptill",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "C Munro",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Australia",
+                        "location": "University Oval, Dunedin",
+                        "seriesDate": "2020/21",
+                        "partnership": 131,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "MJ Guptill",
+                        "player1Score": 97,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "KS Williamson",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Australia",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2021/22",
+                        "partnership": 68,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "KS Williamson",
+                        "player1Score": 85,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GD Phillips",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Australia",
+                        "location": "Hagley Oval, Christchurch",
+                        "seriesDate": "2020/21",
+                        "partnership": 74,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DP Conway",
+                        "player1Score": 99,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "GD Phillips",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Australia",
+                        "location": "AMI Stadium, Christchurch",
+                        "seriesDate": "2009/10",
+                        "partnership": 68,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "BB McCullum",
+                        "player1Score": 116,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "GJ Hopkins",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Australia",
+                        "location": "Hagley Oval, Christchurch",
+                        "seriesDate": "2020/21",
+                        "partnership": 44,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "DP Conway",
+                        "player1Score": 99,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "MJ Santner",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Australia",
+                        "location": "AMI Stadium, Christchurch",
+                        "seriesDate": "2009/10",
+                        "partnership": 50,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "BB McCullum",
+                        "player1Score": 116,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "NL McCullum",
+                        "player2Score": 14,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Australia",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2004/05",
+                        "partnership": 40,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SB Styris",
+                        "player1Score": 66,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JW Wilson",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Australia",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2017/18",
+                        "partnership": 38,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "LRPL Taylor",
+                        "player1Score": 43,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "IS Sodhi",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2007/08",
+                        "partnership": 28,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JDP Oram",
+                        "player1Score": 66,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "JS Patel",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AJ Finch",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "matches": 9,
+                "runs": 269,
+                "innings": 9,
+                "notOuts": 3,
+                "average": 44.83,
+                "hs": "79*"
+            }
+        ],
+        [
+            {
+                "name": "MJ Guptill",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "matches": 13,
+                "runs": 463,
+                "innings": 13,
+                "notOuts": 0,
+                "average": 35.61,
+                "hs": "105"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "AC Agar",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "matches": 9,
+                "balls": 174,
+                "maidens": 0,
+                "runs": 208,
+                "wickets": 13,
+                "bbruns": 30,
+                "bbwickets": 6,
+                "average": 16.0
+            }
+        ],
+        [
+            {
+                "name": "IS Sodhi",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "matches": 11,
+                "balls": 246,
+                "maidens": 0,
+                "runs": 320,
+                "wickets": 17,
+                "bbruns": 28,
+                "bbwickets": 4,
+                "average": 18.82
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "GJ Maxwell",
+                "team": "Australia",
+                "opponents": "New Zealand",
+                "matches": 11,
+                "dismissals": 11
+            }
+        ],
+        [
+            {
+                "name": "MJ Guptill",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "matches": 13,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "TL Seifert",
+                "team": "New Zealand",
+                "opponents": "Australia",
+                "matches": 8,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australia",
+                    "opponents": "New Zealand",
+                    "total": 111,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "2022/23"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "New Zealand",
+                    "total": 111,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "2022/23"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "New Zealand",
+                    "total": 96,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "2017/18"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "Australia",
+                    "total": 106,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sky Stadium, Wellington",
+                    "seriesDate": "2020/21"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "Australia",
+                    "total": 106,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sky Stadium, Wellington",
+                    "seriesDate": "2020/21"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "Australia",
+                    "total": 106,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sky Stadium, Wellington",
+                    "seriesDate": "2020/21"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:54.384898Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

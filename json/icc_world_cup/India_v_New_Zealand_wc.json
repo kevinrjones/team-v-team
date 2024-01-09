@@ -1,0 +1,1223 @@
+{
+    "team1": "India",
+    "team2": "New Zealand",
+    "competitionTitle": "ICC World Cup",
+    "competitionSubType": "wc",
+    "matchDto": {
+        "count": 10,
+        "startDate": "1975-06-14T01:00",
+        "endDate": "2023-11-15T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "India",
+                "opponents": "New Zealand",
+                "total": 397,
+                "wickets": 4,
+                "declared": false,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "team": "New Zealand",
+                "opponents": "India",
+                "total": 327,
+                "wickets": 10,
+                "declared": false,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "V Kohli",
+                "team": "India",
+                "opponents": "New Zealand",
+                "score": 117,
+                "notOut": false,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "DJ Mitchell",
+                "team": "New Zealand",
+                "opponents": "India",
+                "score": 134,
+                "notOut": false,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "Kapil Dev",
+                "team": "India",
+                "opponents": "New Zealand",
+                "strikeRate": 206.25,
+                "runs": 33,
+                "balls": 16,
+                "location": "Carisbrook, Dunedin",
+                "seriesDate": "1991/92"
+            }
+        ],
+        [
+            {
+                "name": "IDS Smith",
+                "team": "New Zealand",
+                "opponents": "India",
+                "strikeRate": 200.0,
+                "runs": 10,
+                "balls": 5,
+                "location": "M Chinnaswamy Stadium, Bangalore",
+                "seriesDate": "1987/88"
+            },
+            {
+                "name": "LH Ferguson",
+                "team": "New Zealand",
+                "opponents": "India",
+                "strikeRate": 200.0,
+                "runs": 6,
+                "balls": 3,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "Kapil Dev",
+                "team": "India",
+                "opponents": "New Zealand",
+                "strikeRate": 206.25,
+                "runs": 33,
+                "balls": 16,
+                "location": "Carisbrook, Dunedin",
+                "seriesDate": "1991/92"
+            }
+        ],
+        [
+            {
+                "name": "AC Parore",
+                "team": "New Zealand",
+                "opponents": "India",
+                "strikeRate": 185.71,
+                "runs": 26,
+                "balls": 14,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "BS Bedi",
+                "team": "India",
+                "opponents": "New Zealand",
+                "strikeRate": 8.33,
+                "runs": 1,
+                "balls": 12,
+                "location": "Headingley, Leeds",
+                "seriesDate": "1979"
+            }
+        ],
+        [
+            {
+                "name": "MJ Guptill",
+                "team": "New Zealand",
+                "opponents": "India",
+                "strikeRate": 7.14,
+                "runs": 1,
+                "balls": 14,
+                "location": "Emirates Old Trafford, Manchester",
+                "seriesDate": "2019"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "KD Karthik",
+                "team": "India",
+                "opponents": "New Zealand",
+                "strikeRate": 24.0,
+                "runs": 6,
+                "balls": 25,
+                "location": "Emirates Old Trafford, Manchester",
+                "seriesDate": "2019"
+            }
+        ],
+        [
+            {
+                "name": "DL Vettori",
+                "team": "New Zealand",
+                "opponents": "India",
+                "strikeRate": 32.5,
+                "runs": 13,
+                "balls": 40,
+                "location": "SuperSport Park, Centurion",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "SM Gavaskar",
+                "team": "India",
+                "opponents": "New Zealand",
+                "boundaries": 10,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Vidarbha Cricket Association Ground, Nagpur",
+                "seriesDate": "1987/88"
+            }
+        ],
+        [
+            {
+                "name": "GM Turner",
+                "team": "New Zealand",
+                "opponents": "India",
+                "boundaries": 13,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1975"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "SS Iyer",
+                "team": "India",
+                "opponents": "New Zealand",
+                "boundaries": 8,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "DJ Mitchell",
+                "team": "New Zealand",
+                "opponents": "India",
+                "boundaries": 7,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "SM Gavaskar",
+                "team": "India",
+                "opponents": "New Zealand",
+                "boundaries": 13,
+                "fours": 10,
+                "sixes": 3,
+                "location": "Vidarbha Cricket Association Ground, Nagpur",
+                "seriesDate": "1987/88"
+            }
+        ],
+        [
+            {
+                "name": "DJ Mitchell",
+                "team": "New Zealand",
+                "opponents": "India",
+                "boundaries": 16,
+                "fours": 9,
+                "sixes": 7,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Mohammed Shami",
+                "team": "India",
+                "opponents": "New Zealand",
+                "wickets": 7,
+                "runs": 57,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "BJ McKechnie",
+                "team": "New Zealand",
+                "opponents": "India",
+                "wickets": 3,
+                "runs": 24,
+                "location": "Headingley, Leeds",
+                "seriesDate": "1979"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Mohammed Shami",
+                "team": "India",
+                "opponents": "New Zealand",
+                "wickets": 7,
+                "runs": 57,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "BJ McKechnie",
+                "team": "New Zealand",
+                "opponents": "India",
+                "wickets": 3,
+                "runs": 24,
+                "location": "Headingley, Leeds",
+                "seriesDate": "1979"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "D Mongia",
+                "team": "India",
+                "opponents": "New Zealand",
+                "overs": "0.1",
+                "balls": 1,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 0,
+                "sr": 1.0,
+                "location": "SuperSport Park, Centurion",
+                "seriesDate": "2002/03"
+            }
+        ],
+        [
+            {
+                "name": "CZ Harris",
+                "team": "New Zealand",
+                "opponents": "India",
+                "overs": "9",
+                "balls": 54,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 55,
+                "sr": 18.0,
+                "location": "Carisbrook, Dunedin",
+                "seriesDate": "1991/92"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "Mohammed Shami",
+                "team": "India",
+                "opponents": "New Zealand",
+                "overs": "9.5",
+                "balls": 59,
+                "maidens": 0,
+                "wickets": 7,
+                "runs": 57,
+                "sr": 8.43,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "CZ Harris",
+                "team": "New Zealand",
+                "opponents": "India",
+                "overs": "9",
+                "balls": 54,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 55,
+                "sr": 18.0,
+                "location": "Carisbrook, Dunedin",
+                "seriesDate": "1991/92"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "D Mongia",
+                "team": "India",
+                "opponents": "New Zealand",
+                "overs": "0.1",
+                "balls": 1,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 0,
+                "sr": 0.0,
+                "location": "SuperSport Park, Centurion",
+                "seriesDate": "2002/03"
+            }
+        ],
+        [
+            {
+                "name": "RJ Hadlee",
+                "team": "New Zealand",
+                "opponents": "India",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 2,
+                "wickets": 2,
+                "runs": 20,
+                "sr": 2.0,
+                "location": "Headingley, Leeds",
+                "seriesDate": "1979"
+            },
+            {
+                "name": "BJ McKechnie",
+                "team": "New Zealand",
+                "opponents": "India",
+                "overs": "12",
+                "balls": 72,
+                "maidens": 1,
+                "wickets": 3,
+                "runs": 24,
+                "sr": 2.0,
+                "location": "Headingley, Leeds",
+                "seriesDate": "1979"
+            },
+            {
+                "name": "CD McMillan",
+                "team": "New Zealand",
+                "opponents": "India",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 1,
+                "wickets": 0,
+                "runs": 4,
+                "sr": 2.0,
+                "location": "SuperSport Park, Centurion",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "BS Bedi",
+                "team": "India",
+                "opponents": "New Zealand",
+                "overs": "12",
+                "balls": 72,
+                "maidens": 6,
+                "wickets": 1,
+                "runs": 28,
+                "sr": 2.33,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1975"
+            }
+        ],
+        [
+            {
+                "name": "RJ Hadlee",
+                "team": "New Zealand",
+                "opponents": "India",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 2,
+                "wickets": 2,
+                "runs": 20,
+                "sr": 2.0,
+                "location": "Headingley, Leeds",
+                "seriesDate": "1979"
+            },
+            {
+                "name": "BJ McKechnie",
+                "team": "New Zealand",
+                "opponents": "India",
+                "overs": "12",
+                "balls": 72,
+                "maidens": 1,
+                "wickets": 3,
+                "runs": 24,
+                "sr": 2.0,
+                "location": "Headingley, Leeds",
+                "seriesDate": "1979"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "M Siraj",
+                "team": "India",
+                "opponents": "New Zealand",
+                "overs": "9",
+                "balls": 54,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 78,
+                "sr": 8.67,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "India",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 100,
+                "sr": 10.0,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "M Siraj",
+                "team": "India",
+                "opponents": "New Zealand",
+                "overs": "9",
+                "balls": 54,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 78,
+                "sr": 8.67,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "India",
+                "overs": "10",
+                "balls": 60,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 100,
+                "sr": 10.0,
+                "location": "Wankhede Stadium, Mumbai",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "New Zealand",
+                        "location": "Vidarbha Cricket Association Ground, Nagpur",
+                        "seriesDate": "1987/88",
+                        "partnership": 136,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "K Srikkanth",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SM Gavaskar",
+                        "player2Score": 103,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "New Zealand",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2023/24",
+                        "partnership": 163,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "V Kohli",
+                        "player1Score": 117,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SS Iyer",
+                        "player2Score": 105,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 256,
+                        "wicket": 2,
+                        "playerDetails": [
+                            {
+                                "team": "India",
+                                "opponents": "New Zealand",
+                                "location": "Wankhede Stadium, Mumbai",
+                                "seriesDate": "2023/24",
+                                "partnership": 163,
+                                "wicket": 2,
+                                "undefeated": false,
+                                "player1Name": "V Kohli",
+                                "player1Score": 117,
+                                "player1NotOut": false,
+                                "player1Position": 3,
+                                "player2Name": "SS Iyer",
+                                "player2Score": 105,
+                                "player2NotOut": false,
+                                "player2Position": 4
+                            },
+                            {
+                                "team": "India",
+                                "opponents": "New Zealand",
+                                "location": "Wankhede Stadium, Mumbai",
+                                "seriesDate": "2023/24",
+                                "partnership": 93,
+                                "wicket": 2,
+                                "undefeated": true,
+                                "player1Name": "S Gill",
+                                "player1Score": 80,
+                                "player1NotOut": true,
+                                "player1Position": 2,
+                                "player2Name": "V Kohli",
+                                "player2Score": 117,
+                                "player2NotOut": false,
+                                "player2Position": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "New Zealand",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2023/24",
+                        "partnership": 54,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "SS Iyer",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "KL Rahul",
+                        "player2Score": 39,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "New Zealand",
+                        "location": "SuperSport Park, Centurion",
+                        "seriesDate": "2002/03",
+                        "partnership": 129,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "M Kaif",
+                        "player1Score": 68,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "RS Dravid",
+                        "player2Score": 53,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "New Zealand",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1999",
+                        "partnership": 54,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AD Jadeja",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RR Singh",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "New Zealand",
+                        "location": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+                        "seriesDate": "2023/24",
+                        "partnership": 78,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "V Kohli",
+                        "player1Score": 95,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RA Jadeja",
+                        "player2Score": 39,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "New Zealand",
+                        "location": "Emirates Old Trafford, Manchester",
+                        "seriesDate": "2019",
+                        "partnership": 116,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MS Dhoni",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "RA Jadeja",
+                        "player2Score": 77,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "New Zealand",
+                        "location": "M Chinnaswamy Stadium, Bangalore",
+                        "seriesDate": "1987/88",
+                        "partnership": 82,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "Kapil Dev",
+                        "player1Score": 72,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "KS More",
+                        "player2Score": 42,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "New Zealand",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1975",
+                        "partnership": 60,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "S Abid Ali",
+                        "player1Score": 70,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "S Venkataraghavan",
+                        "player2Score": 26,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "India",
+                        "opponents": "New Zealand",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1975",
+                        "partnership": 13,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "S Venkataraghavan",
+                        "player1Score": 26,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "BS Bedi",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "India",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1979",
+                        "partnership": 100,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JG Wright",
+                        "player1Score": 48,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BA Edgar",
+                        "player2Score": 84,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "India",
+                        "location": "Carisbrook, Dunedin",
+                        "seriesDate": "1991/92",
+                        "partnership": 82,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "MJ Greatbatch",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AH Jones",
+                        "player2Score": 67,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "India",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2023/24",
+                        "partnership": 181,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "KS Williamson",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DJ Mitchell",
+                        "player2Score": 134,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "India",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1999",
+                        "partnership": 83,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MJ Horne",
+                        "player1Score": 74,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RG Twose",
+                        "player2Score": 60,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "India",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2023/24",
+                        "partnership": 75,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DJ Mitchell",
+                        "player1Score": 134,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "GD Phillips",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "India",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1975",
+                        "partnership": 39,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GM Turner",
+                        "player1Score": 114,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "RJ Hadlee",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "India",
+                        "location": "M Chinnaswamy Stadium, Bangalore",
+                        "seriesDate": "1987/88",
+                        "partnership": 17,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "AH Jones",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "IDS Smith",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "India",
+                        "location": "SuperSport Park, Centurion",
+                        "seriesDate": "2002/03",
+                        "partnership": 33,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JDP Oram",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "DL Vettori",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "India",
+                        "location": "Vidarbha Cricket Association Ground, Nagpur",
+                        "seriesDate": "1987/88",
+                        "partnership": 39,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "MC Snedden",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "W Watson",
+                        "player2Score": 12,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "India",
+                        "location": "Wankhede Stadium, Mumbai",
+                        "seriesDate": "2023/24",
+                        "partnership": 6,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "TA Boult",
+                        "player1Score": 2,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "LH Ferguson",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "V Kohli",
+                "team": "India",
+                "opponents": "New Zealand",
+                "matches": 3,
+                "runs": 213,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 71.0,
+                "hs": "117"
+            }
+        ],
+        [
+            {
+                "name": "DJ Mitchell",
+                "team": "New Zealand",
+                "opponents": "India",
+                "matches": 2,
+                "runs": 264,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 132.0,
+                "hs": "134"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Mohammed Shami",
+                "team": "India",
+                "opponents": "New Zealand",
+                "matches": 2,
+                "balls": 119,
+                "maidens": 0,
+                "runs": 111,
+                "wickets": 12,
+                "bbruns": 57,
+                "bbwickets": 7,
+                "average": 9.25
+            }
+        ],
+        [
+            {
+                "name": "BJ McKechnie",
+                "team": "New Zealand",
+                "opponents": "India",
+                "matches": 2,
+                "balls": 144,
+                "maidens": 2,
+                "runs": 73,
+                "wickets": 6,
+                "bbruns": 24,
+                "bbwickets": 3,
+                "average": 12.16
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RA Jadeja",
+                "team": "India",
+                "opponents": "New Zealand",
+                "matches": 3,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "TWM Latham",
+                "team": "New Zealand",
+                "opponents": "India",
+                "matches": 3,
+                "dismissals": 3
+            },
+            {
+                "name": "WK Lees",
+                "team": "New Zealand",
+                "opponents": "India",
+                "matches": 1,
+                "dismissals": 3
+            },
+            {
+                "name": "KS Williamson",
+                "team": "New Zealand",
+                "opponents": "India",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "KS More",
+                "team": "India",
+                "opponents": "New Zealand",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "India",
+                    "opponents": "New Zealand",
+                    "total": 182,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Headingley, Leeds",
+                    "seriesDate": "1979"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "India",
+                    "opponents": "New Zealand",
+                    "total": 182,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Headingley, Leeds",
+                    "seriesDate": "1979"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "India",
+                    "opponents": "New Zealand",
+                    "total": 150,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "SuperSport Park, Centurion",
+                    "seriesDate": "2002/03"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "India",
+                    "total": 146,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "SuperSport Park, Centurion",
+                    "seriesDate": "2002/03"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "India",
+                    "total": 146,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "SuperSport Park, Centurion",
+                    "seriesDate": "2002/03"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "India",
+                    "total": 146,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "SuperSport Park, Centurion",
+                    "seriesDate": "2002/03"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:51.346261Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

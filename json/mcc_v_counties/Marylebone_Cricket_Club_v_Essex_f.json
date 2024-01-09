@@ -1,0 +1,926 @@
+{
+    "team1": "Marylebone Cricket Club",
+    "team2": "Essex",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 13,
+        "startDate": "1789-07-07T23:58:45",
+        "endDate": "2018-03-27T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "total": 408,
+                "wickets": 8,
+                "declared": true,
+                "location": "Kensington Oval, Bridgetown",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "team": "Essex",
+                "opponents": "Marylebone Cricket Club",
+                "total": 356,
+                "wickets": 10,
+                "declared": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "SR Hain",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "score": 140,
+                "notOut": true,
+                "location": "Kensington Oval, Bridgetown",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "name": "AV Avery",
+                "team": "Essex",
+                "opponents": "Marylebone Cricket Club",
+                "score": 143,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JC Laker",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "wickets": 7,
+                "runs": 36,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1951"
+            }
+        ],
+        [
+            {
+                "name": "CJ Kortright",
+                "team": "Essex",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 6,
+                "runs": 23,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1896"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "AE Trott",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "wickets": 10,
+                "runs": 108,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "name": "CJ Kortright",
+                "team": "Essex",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 10,
+                "runs": 57,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1896"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Essex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1984",
+                        "partnership": 103,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CL Smith",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "TA Lloyd",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 118,
+                        "wicket": 1,
+                        "playerDetails": [
+                            {
+                                "team": "Marylebone Cricket Club",
+                                "opponents": "Essex",
+                                "location": "Lord's Cricket Ground, St John's Wood",
+                                "seriesDate": "1897",
+                                "partnership": 49,
+                                "wicket": 1,
+                                "undefeated": true,
+                                "player1Name": "RW Nicholls",
+                                "player1Score": 75,
+                                "player1NotOut": false,
+                                "player1Position": 1,
+                                "player2Name": "J Gifford",
+                                "player2Score": 37,
+                                "player2NotOut": false,
+                                "player2Position": 2
+                            },
+                            {
+                                "team": "Marylebone Cricket Club",
+                                "opponents": "Essex",
+                                "location": "Lord's Cricket Ground, St John's Wood",
+                                "seriesDate": "1897",
+                                "partnership": 69,
+                                "wicket": 1,
+                                "undefeated": false,
+                                "player1Name": "RW Nicholls",
+                                "player1Score": 75,
+                                "player1NotOut": false,
+                                "player1Position": 1,
+                                "player2Name": "H Wrathall",
+                                "player2Score": 28,
+                                "player2NotOut": false,
+                                "player2Position": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Essex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1949",
+                        "partnership": 101,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JDB Robertson",
+                        "player1Score": 95,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WJ Edrich",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Essex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1985",
+                        "partnership": 163,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MD Moxon",
+                        "player1Score": 104,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MCJ Nicholas",
+                        "player2Score": 121,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Essex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1984",
+                        "partnership": 170,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "TA Lloyd",
+                        "player1Score": 102,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "MW Gatting",
+                        "player2Score": 75,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Essex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1987",
+                        "partnership": 150,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MW Gatting",
+                        "player1Score": 111,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RC Ontong",
+                        "player2Score": 63,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Essex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1949",
+                        "partnership": 98,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RO Jenkins",
+                        "player1Score": 68,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "BJ Howard",
+                        "player2Score": 114,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Essex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1949",
+                        "partnership": 51,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "RO Jenkins",
+                        "player1Score": 68,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "AB Lavers",
+                        "player2Score": 17,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Essex",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "2017/18",
+                        "partnership": 172,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SR Hain",
+                        "player1Score": 140,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "DM Bess",
+                        "player2Score": 107,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Essex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1897",
+                        "partnership": 45,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "GJ Thompson",
+                        "player1Score": 27,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "RJ Burrell",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Essex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1897",
+                        "partnership": 38,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "GJ Thompson",
+                        "player1Score": 27,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "L Whitehead",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1980",
+                        "partnership": 98,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GA Gooch",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MH Denness",
+                        "player2Score": 69,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "2017/18",
+                        "partnership": 51,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "ASS Nijjar",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "T Westley",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1949",
+                        "partnership": 85,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AV Avery",
+                        "player1Score": 143,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "WB Morris",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1949",
+                        "partnership": 186,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "AV Avery",
+                        "player1Score": 143,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "TE Bailey",
+                        "player2Score": 82,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1951",
+                        "partnership": 81,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AV Avery",
+                        "player1Score": 7,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "TE Bailey",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1985",
+                        "partnership": 80,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "KR Pont",
+                        "player1Score": 62,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "DE East",
+                        "player2Score": 39,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1897",
+                        "partnership": 89,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "HGP Owen",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "AL Gibson",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1984",
+                        "partnership": 52,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "NA Foster",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JK Lever",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1896",
+                        "partnership": 99,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "FG Bull",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "W Mead",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1897",
+                        "partnership": 64,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CJ Kortright",
+                        "player1Score": 66,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "H Pickett",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CJ Tavaré",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "matches": 1,
+                "runs": 199,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 99.5,
+                "hs": "115"
+            }
+        ],
+        [
+            {
+                "name": "GA Gooch",
+                "team": "Essex",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 4,
+                "runs": 251,
+                "innings": 8,
+                "notOuts": 0,
+                "average": 31.37,
+                "hs": "78"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JT Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "matches": 2,
+                "balls": 485,
+                "maidens": 30,
+                "runs": 189,
+                "wickets": 15,
+                "bbruns": 59,
+                "bbwickets": 7,
+                "average": 12.6
+            }
+        ],
+        [
+            {
+                "name": "CJ Kortright",
+                "team": "Essex",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "balls": 431,
+                "maidens": 19,
+                "runs": 238,
+                "wickets": 19,
+                "bbruns": 23,
+                "bbwickets": 6,
+                "average": 12.52
+            },
+            {
+                "name": "W Mead",
+                "team": "Essex",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "balls": 650,
+                "maidens": 42,
+                "runs": 225,
+                "wickets": 19,
+                "bbruns": 41,
+                "bbwickets": 5,
+                "average": 11.84
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "CJ Richards",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "matches": 1,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "DE East",
+                "team": "Essex",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "dismissals": 6
+            },
+            {
+                "name": "GA Gooch",
+                "team": "Essex",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 4,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JH Board",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "G Davenport",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "GO Dawkes",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "JA Simpson",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "W Storer",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Essex",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "JS Foster",
+                "team": "Essex",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "TM Russell",
+                "team": "Essex",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Essex",
+                    "total": 41,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Essex",
+                    "total": 41,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Essex",
+                    "total": 41,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1896"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Essex",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 78,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1951"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Essex",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 78,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1951"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Essex",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1960"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:03.397751Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,862 @@
+{
+    "team1": "New Zealanders",
+    "team2": "Marylebone Cricket Club",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 7,
+        "startDate": "1927-05-11T01:00",
+        "endDate": "1973-05-19T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "New Zealanders",
+                "opponents": "Marylebone Cricket Club",
+                "total": 460,
+                "wickets": 10,
+                "declared": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1927"
+            }
+        ],
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "New Zealanders",
+                "total": 426,
+                "wickets": 4,
+                "declared": true,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1927"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "GM Turner",
+                "team": "New Zealanders",
+                "opponents": "Marylebone Cricket Club",
+                "score": 153,
+                "notOut": true,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1973"
+            }
+        ],
+        [
+            {
+                "name": "CH Titchmarsh",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New Zealanders",
+                "score": 171,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1927"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "WE Merritt",
+                "team": "New Zealanders",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 7,
+                "runs": 28,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1931"
+            }
+        ],
+        [
+            {
+                "name": "GOB Allen",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New Zealanders",
+                "wickets": 7,
+                "runs": 120,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1927"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JA Hayes",
+                "team": "New Zealanders",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 11,
+                "runs": 89,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1958"
+            }
+        ],
+        [
+            {
+                "name": "GOB Allen",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New Zealanders",
+                "wickets": 10,
+                "runs": 156,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1927"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1973",
+                        "partnership": 211,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JM Parker",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GM Turner",
+                        "player2Score": 153,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1965",
+                        "partnership": 105,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "BE Congdon",
+                        "player1Score": 56,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "BW Sinclair",
+                        "player2Score": 52,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1949",
+                        "partnership": 52,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1927",
+                        "partnership": 62,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1927",
+                        "partnership": 79,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1927",
+                        "partnership": 115,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1949",
+                        "partnership": 176,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1927",
+                        "partnership": 88,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1927",
+                        "partnership": 68,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "HM McGirr",
+                        "player1Score": 58,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "WE Merritt",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1931",
+                        "partnership": 11,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "TC Lowry",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "AM Matheson",
+                        "player2Score": 5,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New Zealanders",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1927",
+                        "partnership": 188,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CH Titchmarsh",
+                        "player1Score": 71,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "MD Lyon",
+                        "player2Score": 110,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New Zealanders",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1927",
+                        "partnership": 69,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New Zealanders",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1949",
+                        "partnership": 69,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New Zealanders",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1927",
+                        "partnership": 194,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "GOB Allen",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "H Ashton",
+                        "player2Score": 88,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New Zealanders",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1958",
+                        "partnership": 41,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New Zealanders",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1927",
+                        "partnership": 124,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New Zealanders",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1958",
+                        "partnership": 42,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New Zealanders",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1949",
+                        "partnership": 61,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New Zealanders",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1931",
+                        "partnership": 58,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "DR Jardine",
+                        "player1Score": 62,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JC White",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New Zealanders",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1958",
+                        "partnership": 15,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "MHJ Allen",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "AE Moss",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New Zealanders",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1927",
+                        "partnership": 44,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "TC Lowry",
+                "team": "New Zealanders",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "runs": 270,
+                "innings": 3,
+                "notOuts": 2,
+                "average": 270.0,
+                "hs": "106"
+            }
+        ],
+        [
+            {
+                "name": "CH Titchmarsh",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "runs": 242,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 121.0,
+                "hs": "171"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "WE Merritt",
+                "team": "New Zealanders",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "balls": 521,
+                "maidens": 12,
+                "runs": 284,
+                "wickets": 13,
+                "bbruns": 28,
+                "bbwickets": 7,
+                "average": 21.84
+            }
+        ],
+        [
+            {
+                "name": "GOB Allen",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "balls": 219,
+                "maidens": 5,
+                "runs": 156,
+                "wickets": 10,
+                "bbruns": 120,
+                "bbwickets": 7,
+                "average": 15.6
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "ML Page",
+                "team": "New Zealanders",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "dismissals": 6
+            },
+            {
+                "name": "EC Petrie",
+                "team": "New Zealanders",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "R Swetman",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "KC James",
+                "team": "New Zealanders",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "FLH Mooney",
+                "team": "New Zealanders",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "WB Franklin",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New Zealanders",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 190,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 190,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 56,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1937"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "New Zealanders",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "New Zealanders",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1931"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "New Zealanders",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1937"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:57.619309Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,845 @@
+{
+    "team1": "Northamptonshire",
+    "team2": "Northumberland",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 16,
+        "startDate": "1896-08-05T00:00",
+        "endDate": "1904-07-18T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Northamptonshire",
+                "opponents": "Northumberland",
+                "total": 459,
+                "wickets": 8,
+                "declared": true,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "team": "Northumberland",
+                "opponents": "Northamptonshire",
+                "total": 485,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1901"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "WH Kingston",
+                "team": "Northamptonshire",
+                "opponents": "Northumberland",
+                "score": 163,
+                "notOut": false,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "G Simpson",
+                "team": "Northumberland",
+                "opponents": "Northamptonshire",
+                "score": 141,
+                "notOut": true,
+                "location": "Osborne Avenue, Jesmond",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "GJ Thompson",
+                "team": "Northamptonshire",
+                "opponents": "Northumberland",
+                "wickets": 8,
+                "runs": 45,
+                "location": "Osborne Avenue, Jesmond",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "G Elsey",
+                "team": "Northumberland",
+                "opponents": "Northamptonshire",
+                "wickets": 8,
+                "runs": 58,
+                "location": "Osborne Avenue, Jesmond",
+                "seriesDate": "1902"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "GJ Thompson",
+                "team": "Northamptonshire",
+                "opponents": "Northumberland",
+                "wickets": 15,
+                "runs": 96,
+                "location": "Osborne Avenue, Jesmond",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "G Elsey",
+                "team": "Northumberland",
+                "opponents": "Northamptonshire",
+                "wickets": 8,
+                "runs": 58,
+                "location": "Osborne Avenue, Jesmond",
+                "seriesDate": "1902"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Northumberland",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1901",
+                        "partnership": 110,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WH Kingston",
+                        "player1Score": 107,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GJ Thompson",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Northumberland",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1899",
+                        "partnership": 105,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Northumberland",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1904",
+                        "partnership": 255,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Northumberland",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1901",
+                        "partnership": 79,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Northumberland",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1903",
+                        "partnership": 114,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Northumberland",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1896",
+                        "partnership": 76,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Northumberland",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1904",
+                        "partnership": 170,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "T Horton",
+                        "player1Score": 70,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "GAT Vials",
+                        "player2Score": 93,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Northumberland",
+                        "location": "Northumberland Club Ground, Heaton",
+                        "seriesDate": "1896",
+                        "partnership": 89,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Northumberland",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1900",
+                        "partnership": 81,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Northumberland",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1901",
+                        "partnership": 39,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "M Cox",
+                        "player1Score": 32,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "H Thompson",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1901",
+                        "partnership": 177,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "FGH Clayton",
+                        "player1Score": 116,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RGE Mortimer",
+                        "player2Score": 55,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Northamptonshire",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1900",
+                        "partnership": 111,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1902",
+                        "partnership": 64,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Northamptonshire",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1902",
+                        "partnership": 61,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Northamptonshire",
+                        "location": "Northumberland Club Ground, Heaton",
+                        "seriesDate": "1896",
+                        "partnership": 71,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Northamptonshire",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1899",
+                        "partnership": 88,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Northamptonshire",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1900",
+                        "partnership": 63,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Northamptonshire",
+                        "location": "Northumberland Club Ground, Heaton",
+                        "seriesDate": "1896",
+                        "partnership": 77,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Northamptonshire",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1897",
+                        "partnership": 96,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "G Simpson",
+                        "player1Score": 141,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "J Murphy",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Northumberland",
+                        "opponents": "Northamptonshire",
+                        "location": "Osborne Avenue, Jesmond",
+                        "seriesDate": "1897",
+                        "partnership": 46,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "G Simpson",
+                        "player1Score": 141,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "WE Robinson",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "WH Kingston",
+                "team": "Northamptonshire",
+                "opponents": "Northumberland",
+                "matches": 15,
+                "runs": 712,
+                "innings": 21,
+                "notOuts": 3,
+                "average": 39.55,
+                "hs": "163"
+            }
+        ],
+        [
+            {
+                "name": "FGH Clayton",
+                "team": "Northumberland",
+                "opponents": "Northamptonshire",
+                "matches": 16,
+                "runs": 728,
+                "innings": 29,
+                "notOuts": 2,
+                "average": 26.96,
+                "hs": "116"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GJ Thompson",
+                "team": "Northamptonshire",
+                "opponents": "Northumberland",
+                "matches": 16,
+                "balls": 3666,
+                "maidens": 192,
+                "runs": 1614,
+                "wickets": 122,
+                "bbruns": 45,
+                "bbwickets": 8,
+                "average": 13.22
+            }
+        ],
+        [
+            {
+                "name": "G Elsey",
+                "team": "Northumberland",
+                "opponents": "Northamptonshire",
+                "matches": 12,
+                "balls": 2284,
+                "maidens": 120,
+                "runs": 919,
+                "wickets": 51,
+                "bbruns": 58,
+                "bbwickets": 8,
+                "average": 18.01
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "BC Smith",
+                "team": "Northamptonshire",
+                "opponents": "Northumberland",
+                "matches": 16,
+                "dismissals": 17
+            }
+        ],
+        [
+            {
+                "name": "G Elsey",
+                "team": "Northumberland",
+                "opponents": "Northamptonshire",
+                "matches": 12,
+                "dismissals": 10
+            },
+            {
+                "name": "L Greenwood",
+                "team": "Northumberland",
+                "opponents": "Northamptonshire",
+                "matches": 9,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "BC Smith",
+                "team": "Northamptonshire",
+                "opponents": "Northumberland",
+                "matches": 16,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "L Greenwood",
+                "team": "Northumberland",
+                "opponents": "Northamptonshire",
+                "matches": 9,
+                "dismissals": 1
+            },
+            {
+                "name": "J Murphy",
+                "team": "Northumberland",
+                "opponents": "Northamptonshire",
+                "matches": 4,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Northamptonshire",
+                    "opponents": "Northumberland",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Northamptonshire",
+                    "opponents": "Northumberland",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Northamptonshire",
+                    "opponents": "Northumberland",
+                    "total": 58,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Osborne Avenue, Jesmond",
+                    "seriesDate": "1899"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Northumberland",
+                    "opponents": "Northamptonshire",
+                    "total": 29,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Osborne Avenue, Jesmond",
+                    "seriesDate": "1901"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Northumberland",
+                    "opponents": "Northamptonshire",
+                    "total": 29,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Osborne Avenue, Jesmond",
+                    "seriesDate": "1901"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Northumberland",
+                    "opponents": "Northamptonshire",
+                    "total": 29,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Osborne Avenue, Jesmond",
+                    "seriesDate": "1901"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:10:43.637288Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

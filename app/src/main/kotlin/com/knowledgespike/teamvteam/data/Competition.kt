@@ -17,7 +17,7 @@ data class Author(val opponent: String, val name: String)
 
 data class TeamsAndOpponents(
     val teamName: String,
-    val teamdIds: List<Int>,
+    val teamIds: List<Int>,
     val opponentsName: String,
     val opponentIds: List<Int>
 )

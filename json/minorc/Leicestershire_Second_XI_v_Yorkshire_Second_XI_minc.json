@@ -1,0 +1,851 @@
+{
+    "team1": "Leicestershire Second XI",
+    "team2": "Yorkshire Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 4,
+        "startDate": "1928-06-06T01:00",
+        "endDate": "1929-08-21T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Leicestershire Second XI",
+                "opponents": "Yorkshire Second XI",
+                "total": 206,
+                "wickets": 10,
+                "declared": false,
+                "location": "Duke's Park, Bridlington",
+                "seriesDate": "1929"
+            }
+        ],
+        [
+            {
+                "team": "Yorkshire Second XI",
+                "opponents": "Leicestershire Second XI",
+                "total": 275,
+                "wickets": 8,
+                "declared": true,
+                "location": "Town Fields, Doncaster",
+                "seriesDate": "1928"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AT Sharp",
+                "team": "Leicestershire Second XI",
+                "opponents": "Yorkshire Second XI",
+                "score": 72,
+                "notOut": false,
+                "location": "Duke's Park, Bridlington",
+                "seriesDate": "1929"
+            }
+        ],
+        [
+            {
+                "name": "H Fisher",
+                "team": "Yorkshire Second XI",
+                "opponents": "Leicestershire Second XI",
+                "score": 86,
+                "notOut": true,
+                "location": "Town Fields, Doncaster",
+                "seriesDate": "1928"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "HC Snary",
+                "team": "Leicestershire Second XI",
+                "opponents": "Yorkshire Second XI",
+                "wickets": 5,
+                "runs": 26,
+                "location": "Town Ground, Coalville",
+                "seriesDate": "1929"
+            }
+        ],
+        [
+            {
+                "name": "EN Backhouse",
+                "team": "Yorkshire Second XI",
+                "opponents": "Leicestershire Second XI",
+                "wickets": 7,
+                "runs": 62,
+                "location": "Town Ground, Coalville",
+                "seriesDate": "1929"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "HC Snary",
+                "team": "Leicestershire Second XI",
+                "opponents": "Yorkshire Second XI",
+                "wickets": 8,
+                "runs": 66,
+                "location": "Town Ground, Coalville",
+                "seriesDate": "1929"
+            }
+        ],
+        [
+            {
+                "name": "EN Backhouse",
+                "team": "Yorkshire Second XI",
+                "opponents": "Leicestershire Second XI",
+                "wickets": 11,
+                "runs": 74,
+                "location": "Town Ground, Coalville",
+                "seriesDate": "1929"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Town Ground, Coalville",
+                        "seriesDate": "1929",
+                        "partnership": 87,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "EW Dawson",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WH Bradshaw",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Duke's Park, Bridlington",
+                        "seriesDate": "1929",
+                        "partnership": 37,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Town Fields, Doncaster",
+                        "seriesDate": "1928",
+                        "partnership": 44,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Duke's Park, Bridlington",
+                        "seriesDate": "1929",
+                        "partnership": 13,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Duke's Park, Bridlington",
+                        "seriesDate": "1929",
+                        "partnership": 89,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Town Ground, Coalville",
+                        "seriesDate": "1929",
+                        "partnership": 22,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Town Ground, Coalville",
+                        "seriesDate": "1929",
+                        "partnership": 31,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Duke's Park, Bridlington",
+                        "seriesDate": "1929",
+                        "partnership": 27,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Town Ground, Coalville",
+                        "seriesDate": "1929",
+                        "partnership": 19,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "HC Snary",
+                        "player1Score": 13,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "HA Smith",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire Second XI",
+                        "opponents": "Yorkshire Second XI",
+                        "location": "Duke's Park, Bridlington",
+                        "seriesDate": "1929",
+                        "partnership": 15,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Town Fields, Doncaster",
+                        "seriesDate": "1928",
+                        "partnership": 116,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AE Whitehead",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "H Bedford",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Duke's Park, Bridlington",
+                        "seriesDate": "1929",
+                        "partnership": 37,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Duke's Park, Bridlington",
+                        "seriesDate": "1929",
+                        "partnership": 81,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "WB Broadhead",
+                        "player1Score": 80,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "C Turner",
+                        "player2Score": 34,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Duke's Park, Bridlington",
+                        "seriesDate": "1929",
+                        "partnership": 44,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Town Ground, Coalville",
+                        "seriesDate": "1929",
+                        "partnership": 25,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Town Fields, Doncaster",
+                        "seriesDate": "1928",
+                        "partnership": 82,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Town Ground, Coalville",
+                        "seriesDate": "1929",
+                        "partnership": 21,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Town Ground, Coalville",
+                        "seriesDate": "1929",
+                        "partnership": 55,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Duke's Park, Bridlington",
+                        "seriesDate": "1929",
+                        "partnership": 40,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire Second XI",
+                        "opponents": "Leicestershire Second XI",
+                        "location": "Duke's Park, Bridlington",
+                        "seriesDate": "1929",
+                        "partnership": 17,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CH Hall",
+                        "player1Score": 14,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "A Goulder",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "WH Bradshaw",
+                "team": "Leicestershire Second XI",
+                "opponents": "Yorkshire Second XI",
+                "matches": 4,
+                "runs": 107,
+                "innings": 6,
+                "notOuts": 0,
+                "average": 17.83,
+                "hs": "35"
+            }
+        ],
+        [
+            {
+                "name": "AE Whitehead",
+                "team": "Yorkshire Second XI",
+                "opponents": "Leicestershire Second XI",
+                "matches": 4,
+                "runs": 174,
+                "innings": 6,
+                "notOuts": 0,
+                "average": 29.0,
+                "hs": "69"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "FJ Bowley",
+                "team": "Leicestershire Second XI",
+                "opponents": "Yorkshire Second XI",
+                "matches": 4,
+                "balls": 580,
+                "maidens": 32,
+                "runs": 245,
+                "wickets": 11,
+                "bbruns": 49,
+                "bbwickets": 5,
+                "average": 22.27
+            },
+            {
+                "name": "HC Snary",
+                "team": "Leicestershire Second XI",
+                "opponents": "Yorkshire Second XI",
+                "matches": 2,
+                "balls": 538,
+                "maidens": 34,
+                "runs": 166,
+                "wickets": 11,
+                "bbruns": 26,
+                "bbwickets": 5,
+                "average": 15.09
+            }
+        ],
+        [
+            {
+                "name": "CH Hall",
+                "team": "Yorkshire Second XI",
+                "opponents": "Leicestershire Second XI",
+                "matches": 3,
+                "balls": 552,
+                "maidens": 23,
+                "runs": 234,
+                "wickets": 21,
+                "bbruns": 44,
+                "bbwickets": 6,
+                "average": 11.14
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "P Corrall",
+                "team": "Leicestershire Second XI",
+                "opponents": "Yorkshire Second XI",
+                "matches": 4,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "AE Whitehead",
+                "team": "Yorkshire Second XI",
+                "opponents": "Leicestershire Second XI",
+                "matches": 4,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "P Corrall",
+                "team": "Leicestershire Second XI",
+                "opponents": "Yorkshire Second XI",
+                "matches": 4,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "J Bamforth",
+                "team": "Yorkshire Second XI",
+                "opponents": "Leicestershire Second XI",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "GH Wigglesworth",
+                "team": "Yorkshire Second XI",
+                "opponents": "Leicestershire Second XI",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Leicestershire Second XI",
+                    "opponents": "Yorkshire Second XI",
+                    "total": 63,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Town Ground, Coalville",
+                    "seriesDate": "1929"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Leicestershire Second XI",
+                    "opponents": "Yorkshire Second XI",
+                    "total": 63,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Town Ground, Coalville",
+                    "seriesDate": "1929"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Leicestershire Second XI",
+                    "opponents": "Yorkshire Second XI",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Ashby Road, Hinckley",
+                    "seriesDate": "1928"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Yorkshire Second XI",
+                    "opponents": "Leicestershire Second XI",
+                    "total": 106,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Town Ground, Coalville",
+                    "seriesDate": "1929"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Yorkshire Second XI",
+                    "opponents": "Leicestershire Second XI",
+                    "total": 106,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Town Ground, Coalville",
+                    "seriesDate": "1929"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Yorkshire Second XI",
+                    "opponents": "Leicestershire Second XI",
+                    "total": 60,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Ashby Road, Hinckley",
+                    "seriesDate": "1928"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:10:20.883874Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

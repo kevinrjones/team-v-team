@@ -1,0 +1,845 @@
+{
+    "team1": "Australia Women",
+    "team2": "England Women",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "wt",
+    "matchDto": {
+        "count": 52,
+        "startDate": "1934-12-28T00:00",
+        "endDate": "2023-06-22T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australia Women",
+                "opponents": "England Women",
+                "total": 569,
+                "wickets": 6,
+                "declared": true,
+                "location": "Woodbridge Road, Guildford",
+                "seriesDate": "1998"
+            }
+        ],
+        [
+            {
+                "team": "England Women",
+                "opponents": "Australia Women",
+                "total": 463,
+                "wickets": 10,
+                "declared": false,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "EA Perry",
+                "team": "Australia Women",
+                "opponents": "England Women",
+                "score": 213,
+                "notOut": true,
+                "location": "North Sydney Oval, Sydney",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "name": "TT Beaumont",
+                "team": "England Women",
+                "opponents": "Australia Women",
+                "score": 208,
+                "notOut": false,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "AK Gardner",
+                "team": "Australia Women",
+                "opponents": "England Women",
+                "wickets": 8,
+                "runs": 66,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "name": "MB Duggan",
+                "team": "England Women",
+                "opponents": "Australia Women",
+                "wickets": 7,
+                "runs": 6,
+                "location": "St Kilda Cricket Ground, Melbourne",
+                "seriesDate": "1957/58"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "AK Gardner",
+                "team": "Australia Women",
+                "opponents": "England Women",
+                "wickets": 12,
+                "runs": 165,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "name": "LC Pearson",
+                "team": "England Women",
+                "opponents": "Australia Women",
+                "wickets": 11,
+                "runs": 107,
+                "location": "Bankstown Oval, Sydney",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1998",
+                        "partnership": 127,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "LM Keightley",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BJ Clark",
+                        "player2Score": 136,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1998",
+                        "partnership": 174,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "BJ Clark",
+                        "player1Score": 136,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "KL Rolton",
+                        "player2Score": 176,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "England Women",
+                        "location": "Harewood Road, Collingham",
+                        "seriesDate": "1987",
+                        "partnership": 309,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "LA Reeler",
+                        "player1Score": 110,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "DA Annetts",
+                        "player2Score": 193,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "England Women",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "2001",
+                        "partnership": 253,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "KL Rolton",
+                        "player1Score": 209,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "LC Broadfoot",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "England Women",
+                        "location": "Bankstown Oval, Sydney",
+                        "seriesDate": "2002/03",
+                        "partnership": 136,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "LC Sthalekar",
+                        "player1Score": 120,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "AJ Blackwell",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "2009",
+                        "partnership": 229,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "JM Fields",
+                        "player1Score": 139,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RL Haynes",
+                        "player2Score": 98,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "England Women",
+                        "location": "North Sydney Oval, Sydney",
+                        "seriesDate": "2017/18",
+                        "partnership": 103,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "EA Perry",
+                        "player1Score": 213,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "TM McGrath",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "2005",
+                        "partnership": 112,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "KA Blackwell",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "S Nitschke",
+                        "player2Score": 88,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "England Women",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "2023",
+                        "partnership": 95,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AJ Sutherland",
+                        "player1Score": 137,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "KJ Garth",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "England Women",
+                        "location": "County Ground, Hove",
+                        "seriesDate": "2005",
+                        "partnership": 119,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "S Nitschke",
+                        "player1Score": 81,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "CR Smith",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "Australia Women",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1976",
+                        "partnership": 164,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "E Bakewell",
+                        "player1Score": 77,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DL Thomas",
+                        "player2Score": 90,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "Australia Women",
+                        "location": "Thebarton Oval, Adelaide",
+                        "seriesDate": "1968/69",
+                        "partnership": 127,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "E Bakewell",
+                        "player1Score": 113,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "R Heyhoe",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "Australia Women",
+                        "location": "Bradman Oval, Bowral",
+                        "seriesDate": "2007/08",
+                        "partnership": 159,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "SC Taylor",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CM Edwards",
+                        "player2Score": 94,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "Australia Women",
+                        "location": "Woodbridge Road, Guildford",
+                        "seriesDate": "1998",
+                        "partnership": 100,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JA Brittin",
+                        "player1Score": 146,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "CJ Connor",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "Australia Women",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1957/58",
+                        "partnership": 119,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MC Robinson",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RE Westbrook",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "Australia Women",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2013/14",
+                        "partnership": 85,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "JL Gunn",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "CM Edwards",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "Australia Women",
+                        "location": "Sir Paul Getty's Ground, Wormsley",
+                        "seriesDate": "2013",
+                        "partnership": 156,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "HC Knight",
+                        "player1Score": 157,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "LA Marsh",
+                        "player2Score": 55,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "Australia Women",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "2001",
+                        "partnership": 51,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SC Taylor",
+                        "player1Score": 137,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "D Holden",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "Australia Women",
+                        "location": "Manuka Oval, Canberra",
+                        "seriesDate": "2021/22",
+                        "partnership": 100,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "HC Knight",
+                        "player1Score": 168,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "S Ecclestone",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "England Women",
+                        "opponents": "Australia Women",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "2005",
+                        "partnership": 85,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "KH Brunt",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "IT Guha",
+                        "player2Score": 31,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "KL Rolton",
+                "team": "Australia Women",
+                "opponents": "England Women",
+                "matches": 11,
+                "runs": 874,
+                "innings": 19,
+                "notOuts": 4,
+                "average": 58.26,
+                "hs": "209*"
+            }
+        ],
+        [
+            {
+                "name": "CM Edwards",
+                "team": "England Women",
+                "opponents": "Australia Women",
+                "matches": 13,
+                "runs": 1026,
+                "innings": 26,
+                "notOuts": 5,
+                "average": 48.85,
+                "hs": "114*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "ER Wilson",
+                "team": "Australia Women",
+                "opponents": "England Women",
+                "matches": 9,
+                "balls": 2417,
+                "maidens": 144,
+                "runs": 673,
+                "wickets": 53,
+                "bbruns": 7,
+                "bbwickets": 7,
+                "average": 12.69
+            }
+        ],
+        [
+            {
+                "name": "ME Maclagan",
+                "team": "England Women",
+                "opponents": "Australia Women",
+                "matches": 12,
+                "balls": 3068,
+                "maidens": 205,
+                "runs": 862,
+                "wickets": 51,
+                "bbruns": 10,
+                "bbwickets": 7,
+                "average": 16.9
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JC Price",
+                "team": "Australia Women",
+                "opponents": "England Women",
+                "matches": 9,
+                "dismissals": 20
+            }
+        ],
+        [
+            {
+                "name": "CA Hodges",
+                "team": "England Women",
+                "opponents": "Australia Women",
+                "matches": 9,
+                "dismissals": 14
+            },
+            {
+                "name": "SC Taylor",
+                "team": "England Women",
+                "opponents": "Australia Women",
+                "matches": 8,
+                "dismissals": 14
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "L Larter",
+                "team": "Australia Women",
+                "opponents": "England Women",
+                "matches": 6,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "SA Hodges",
+                "team": "England Women",
+                "opponents": "Australia Women",
+                "matches": 5,
+                "dismissals": 6
+            },
+            {
+                "name": "EA Snowball",
+                "team": "England Women",
+                "opponents": "Australia Women",
+                "matches": 9,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "England Women",
+                    "total": 38,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Kilda Cricket Ground, Melbourne",
+                    "seriesDate": "1957/58"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "England Women",
+                    "total": 38,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Kilda Cricket Ground, Melbourne",
+                    "seriesDate": "1957/58"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "England Women",
+                    "total": 9,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Headingley, Leeds",
+                    "seriesDate": "2001"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "England Women",
+                    "opponents": "Australia Women",
+                    "total": 35,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Kilda Cricket Ground, Melbourne",
+                    "seriesDate": "1957/58"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "England Women",
+                    "opponents": "Australia Women",
+                    "total": 35,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Kilda Cricket Ground, Melbourne",
+                    "seriesDate": "1957/58"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "England Women",
+                    "opponents": "Australia Women",
+                    "total": 9,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1937"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:33.445351Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

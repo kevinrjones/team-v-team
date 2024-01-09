@@ -1,0 +1,807 @@
+{
+    "team1": "Cheshire",
+    "team2": "Worcestershire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1895-07-22T00:00",
+        "endDate": "1895-08-19T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cheshire",
+                "opponents": "Worcestershire",
+                "total": 178,
+                "wickets": 10,
+                "declared": false,
+                "location": "Townfield Lane, Oxton",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "team": "Worcestershire",
+                "opponents": "Cheshire",
+                "total": 253,
+                "wickets": 8,
+                "declared": true,
+                "location": "Townfield Lane, Oxton",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "T Pointon",
+                "team": "Cheshire",
+                "opponents": "Worcestershire",
+                "score": 76,
+                "notOut": true,
+                "location": "Townfield Lane, Oxton",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "FL Bowley",
+                "team": "Worcestershire",
+                "opponents": "Cheshire",
+                "score": 96,
+                "notOut": false,
+                "location": "Townfield Lane, Oxton",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "A Smith",
+                "team": "Cheshire",
+                "opponents": "Worcestershire",
+                "wickets": 7,
+                "runs": 46,
+                "location": "Boughton Park, Worcester",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "A Bird",
+                "team": "Worcestershire",
+                "opponents": "Cheshire",
+                "wickets": 5,
+                "runs": 22,
+                "location": "Boughton Park, Worcester",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "A Smith",
+                "team": "Cheshire",
+                "opponents": "Worcestershire",
+                "wickets": 8,
+                "runs": 68,
+                "location": "Boughton Park, Worcester",
+                "seriesDate": "1895"
+            }
+        ],
+        [
+            {
+                "name": "EG Arnold",
+                "team": "Worcestershire",
+                "opponents": "Cheshire",
+                "wickets": 9,
+                "runs": 82,
+                "location": "Boughton Park, Worcester",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Worcestershire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 20,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "T Pointon",
+                        "player1Score": 76,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "J Ravenscroft",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Worcestershire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 126,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "T Pointon",
+                        "player1Score": 76,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "G Davenport",
+                        "player2Score": 60,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Worcestershire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 26,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Worcestershire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 21,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Worcestershire",
+                        "location": "Boughton Park, Worcester",
+                        "seriesDate": "1895",
+                        "partnership": 16,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "T Pointon",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "J Wright",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Worcestershire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 20,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Worcestershire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 0,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Worcestershire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 62,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Worcestershire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 1,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "M Court",
+                        "player1Score": 24,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "JJ Disney",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Worcestershire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 0,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "M Court",
+                        "player1Score": 24,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "J Bretherton",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Cheshire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 65,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "FL Bowley",
+                        "player1Score": 96,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "EG Arnold",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Cheshire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 28,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Cheshire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 31,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Cheshire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 62,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Cheshire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 33,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Cheshire",
+                        "location": "Boughton Park, Worcester",
+                        "seriesDate": "1895",
+                        "partnership": 38,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Cheshire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 29,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Cheshire",
+                        "location": "Boughton Park, Worcester",
+                        "seriesDate": "1895",
+                        "partnership": 41,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Cheshire",
+                        "location": "Townfield Lane, Oxton",
+                        "seriesDate": "1895",
+                        "partnership": 0,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "W Bird",
+                        "player1Score": 11,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "S Raynor",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "T Pointon",
+                "team": "Cheshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "runs": 178,
+                "innings": 4,
+                "notOuts": 2,
+                "average": 89.0,
+                "hs": "76*"
+            }
+        ],
+        [
+            {
+                "name": "FL Bowley",
+                "team": "Worcestershire",
+                "opponents": "Cheshire",
+                "matches": 2,
+                "runs": 132,
+                "innings": 4,
+                "notOuts": 1,
+                "average": 44.0,
+                "hs": "96"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "S Brown",
+                "team": "Cheshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "balls": 516,
+                "maidens": 29,
+                "runs": 218,
+                "wickets": 10,
+                "bbruns": 89,
+                "bbwickets": 4,
+                "average": 21.8
+            }
+        ],
+        [
+            {
+                "name": "EG Arnold",
+                "team": "Worcestershire",
+                "opponents": "Cheshire",
+                "matches": 2,
+                "balls": 400,
+                "maidens": 31,
+                "runs": 129,
+                "wickets": 10,
+                "bbruns": 33,
+                "bbwickets": 5,
+                "average": 12.9
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "HR Bromley-Davenport",
+                "team": "Cheshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "A Bird",
+                "team": "Worcestershire",
+                "opponents": "Cheshire",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JJ Disney",
+                "team": "Cheshire",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Worcestershire",
+                    "total": 61,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Park, Worcester",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Worcestershire",
+                    "total": 61,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Park, Worcester",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Worcestershire",
+                    "total": 61,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Park, Worcester",
+                    "seriesDate": "1895"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Cheshire",
+                    "total": 116,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Park, Worcester",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Cheshire",
+                    "total": 116,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Boughton Park, Worcester",
+                    "seriesDate": "1895"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Cheshire",
+                    "total": 56,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "Boughton Park, Worcester",
+                    "seriesDate": "1895"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:56.837973Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

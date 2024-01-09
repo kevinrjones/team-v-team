@@ -1,0 +1,905 @@
+{
+    "team1": "New Zealanders",
+    "team2": "Queensland",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 9,
+        "startDate": "1913-12-19T00:00",
+        "endDate": "2001-11-01T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "New Zealanders",
+                "opponents": "Queensland",
+                "total": 461,
+                "wickets": 8,
+                "declared": true,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1980/81"
+            }
+        ],
+        [
+            {
+                "team": "Queensland",
+                "opponents": "New Zealanders",
+                "total": 571,
+                "wickets": 10,
+                "declared": false,
+                "location": "Cazaly's Australian Rules Football Park, Cairns",
+                "seriesDate": "1997/98"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "NJ Astle",
+                "team": "New Zealanders",
+                "opponents": "Queensland",
+                "score": 223,
+                "notOut": false,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "2001/02"
+            }
+        ],
+        [
+            {
+                "name": "ML Love",
+                "team": "Queensland",
+                "opponents": "New Zealanders",
+                "score": 201,
+                "notOut": true,
+                "location": "Cazaly's Australian Rules Football Park, Cairns",
+                "seriesDate": "1997/98"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "D Reese",
+                "team": "New Zealanders",
+                "opponents": "Queensland",
+                "wickets": 7,
+                "runs": 53,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1913/14"
+            }
+        ],
+        [
+            {
+                "name": "AHR Dell",
+                "team": "Queensland",
+                "opponents": "New Zealanders",
+                "wickets": 6,
+                "runs": 23,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1973/74"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "D Reese",
+                "team": "New Zealanders",
+                "opponents": "Queensland",
+                "wickets": 9,
+                "runs": 70,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1913/14"
+            }
+        ],
+        [
+            {
+                "name": "AHR Dell",
+                "team": "Queensland",
+                "opponents": "New Zealanders",
+                "wickets": 12,
+                "runs": 63,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1973/74"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1980/81",
+                        "partnership": 132,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JG Wright",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BA Edgar",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Queensland",
+                        "location": "Cazaly's Australian Rules Football Park, Cairns",
+                        "seriesDate": "1997/98",
+                        "partnership": 37,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "BA Young",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "MJ Horne",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1967/68",
+                        "partnership": 144,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "2001/02",
+                        "partnership": 175,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "SP Fleming",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "NJ Astle",
+                        "player2Score": 223,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Queensland",
+                        "location": "Salter Oval, Bundaberg",
+                        "seriesDate": "1982/83",
+                        "partnership": 122,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GP Howarth",
+                        "player1Score": 138,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JFM Morrison",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "2001/02",
+                        "partnership": 96,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "NJ Astle",
+                        "player1Score": 223,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CL Cairns",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1980/81",
+                        "partnership": 159,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1980/81",
+                        "partnership": 36,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1973/74",
+                        "partnership": 60,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealanders",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1967/68",
+                        "partnership": 28,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "New Zealanders",
+                        "location": "Salter Oval, Bundaberg",
+                        "seriesDate": "1982/83",
+                        "partnership": 232,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "KC Wessels",
+                        "player1Score": 129,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RB Kerr",
+                        "player2Score": 102,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "New Zealanders",
+                        "location": "Cazaly's Australian Rules Football Park, Cairns",
+                        "seriesDate": "1997/98",
+                        "partnership": 285,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "ML Love",
+                        "player1Score": 201,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "JP Maher",
+                        "player2Score": 114,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 296,
+                        "wicket": 2,
+                        "playerDetails": [
+                            {
+                                "team": "Queensland",
+                                "opponents": "New Zealanders",
+                                "location": "Cazaly's Australian Rules Football Park, Cairns",
+                                "seriesDate": "1997/98",
+                                "partnership": 285,
+                                "wicket": 2,
+                                "undefeated": true,
+                                "player1Name": "ML Love",
+                                "player1Score": 201,
+                                "player1NotOut": true,
+                                "player1Position": 2,
+                                "player2Name": "JP Maher",
+                                "player2Score": 114,
+                                "player2NotOut": false,
+                                "player2Position": 3
+                            },
+                            {
+                                "team": "Queensland",
+                                "opponents": "New Zealanders",
+                                "location": "Cazaly's Australian Rules Football Park, Cairns",
+                                "seriesDate": "1997/98",
+                                "partnership": 11,
+                                "wicket": 2,
+                                "undefeated": false,
+                                "player1Name": "JP Maher",
+                                "player1Score": 114,
+                                "player1NotOut": false,
+                                "player1Position": 3,
+                                "player2Name": "SG Law",
+                                "player2Score": 10,
+                                "player2NotOut": false,
+                                "player2Position": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "New Zealanders",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1985/86",
+                        "partnership": 162,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "BA Courtice",
+                        "player1Score": 112,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "AR Border",
+                        "player2Score": 102,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "New Zealanders",
+                        "location": "Salter Oval, Bundaberg",
+                        "seriesDate": "1982/83",
+                        "partnership": 100,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "AR Border",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "BA Courtice",
+                        "player2Score": 21,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "New Zealanders",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1980/81",
+                        "partnership": 101,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "New Zealanders",
+                        "location": "Salter Oval, Bundaberg",
+                        "seriesDate": "1982/83",
+                        "partnership": 42,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "KC Wessels",
+                        "player1Score": 16,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "RB Kerr",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "New Zealanders",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1973/74",
+                        "partnership": 85,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "New Zealanders",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1925/26",
+                        "partnership": 77,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "W Rowe",
+                        "player1Score": 65,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "HD Noyes",
+                        "player2Score": 53,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "New Zealanders",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1980/81",
+                        "partnership": 62,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "New Zealanders",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1985/86",
+                        "partnership": 18,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "H Frei",
+                        "player1Score": 7,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "JR Thomson",
+                        "player2Score": 11,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JV Coney",
+                "team": "New Zealanders",
+                "opponents": "Queensland",
+                "matches": 4,
+                "runs": 277,
+                "innings": 8,
+                "notOuts": 2,
+                "average": 46.16,
+                "hs": "96"
+            }
+        ],
+        [
+            {
+                "name": "AR Border",
+                "team": "Queensland",
+                "opponents": "New Zealanders",
+                "matches": 3,
+                "runs": 393,
+                "innings": 5,
+                "notOuts": 3,
+                "average": 196.5,
+                "hs": "104*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "SL Boock",
+                "team": "New Zealanders",
+                "opponents": "Queensland",
+                "matches": 2,
+                "balls": 576,
+                "maidens": 26,
+                "runs": 263,
+                "wickets": 10,
+                "bbruns": 83,
+                "bbwickets": 4,
+                "average": 26.3
+            }
+        ],
+        [
+            {
+                "name": "CB Barstow",
+                "team": "Queensland",
+                "opponents": "New Zealanders",
+                "matches": 2,
+                "balls": 317,
+                "maidens": 9,
+                "runs": 129,
+                "wickets": 12,
+                "bbruns": 45,
+                "bbwickets": 5,
+                "average": 10.75
+            },
+            {
+                "name": "AHR Dell",
+                "team": "Queensland",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "balls": 203,
+                "maidens": 7,
+                "runs": 63,
+                "wickets": 12,
+                "bbruns": 23,
+                "bbwickets": 6,
+                "average": 5.25
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JV Coney",
+                "team": "New Zealanders",
+                "opponents": "Queensland",
+                "matches": 4,
+                "dismissals": 6
+            },
+            {
+                "name": "WK Lees",
+                "team": "New Zealanders",
+                "opponents": "Queensland",
+                "matches": 2,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "RB Phillips",
+                "team": "Queensland",
+                "opponents": "New Zealanders",
+                "matches": 3,
+                "dismissals": 15
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "C Boxshall",
+                "team": "New Zealanders",
+                "opponents": "Queensland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "TC Lowry",
+                "team": "New Zealanders",
+                "opponents": "Queensland",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "AC Parore",
+                "team": "New Zealanders",
+                "opponents": "Queensland",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "WT Evans",
+                "team": "Queensland",
+                "opponents": "New Zealanders",
+                "matches": 1,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Queensland",
+                    "total": 89,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1913/14"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Queensland",
+                    "total": 89,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1913/14"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealanders",
+                    "opponents": "Queensland",
+                    "total": 89,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1913/14"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Queensland",
+                    "opponents": "New Zealanders",
+                    "total": 114,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1913/14"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Queensland",
+                    "opponents": "New Zealanders",
+                    "total": 114,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1913/14"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Queensland",
+                    "opponents": "New Zealanders",
+                    "total": 44,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1967/68"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:34.555213Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

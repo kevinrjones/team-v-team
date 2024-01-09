@@ -1,0 +1,831 @@
+{
+    "team1": "Hertfordshire",
+    "team2": "Oxfordshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 15,
+        "startDate": "1902-07-10T00:00",
+        "endDate": "1989-09-10T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Hertfordshire",
+                "opponents": "Oxfordshire",
+                "total": 377,
+                "wickets": 7,
+                "declared": true,
+                "location": "Christ Church Ground, Oxford",
+                "seriesDate": "1905"
+            }
+        ],
+        [
+            {
+                "team": "Oxfordshire",
+                "opponents": "Hertfordshire",
+                "total": 315,
+                "wickets": 7,
+                "declared": false,
+                "location": "Christ Church Ground, Oxford",
+                "seriesDate": "1905"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "HE White",
+                "team": "Hertfordshire",
+                "opponents": "Oxfordshire",
+                "score": 152,
+                "notOut": true,
+                "location": "Park Avenue, Watford",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "SC Wells",
+                "team": "Oxfordshire",
+                "opponents": "Hertfordshire",
+                "score": 114,
+                "notOut": false,
+                "location": "Burford Road, Shipton-under-Wychwood",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "HE White",
+                "team": "Hertfordshire",
+                "opponents": "Oxfordshire",
+                "wickets": 8,
+                "runs": 49,
+                "location": "Cricketfield Lane, Bishop's Stortford",
+                "seriesDate": "1902"
+            }
+        ],
+        [
+            {
+                "name": "A Rogers",
+                "team": "Oxfordshire",
+                "opponents": "Hertfordshire",
+                "wickets": 7,
+                "runs": 77,
+                "location": "Park Avenue, Watford",
+                "seriesDate": "1903"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "HE White",
+                "team": "Hertfordshire",
+                "opponents": "Oxfordshire",
+                "wickets": 15,
+                "runs": 91,
+                "location": "Cricketfield Lane, Bishop's Stortford",
+                "seriesDate": "1902"
+            }
+        ],
+        [
+            {
+                "name": "P Rogers",
+                "team": "Oxfordshire",
+                "opponents": "Hertfordshire",
+                "wickets": 9,
+                "runs": 73,
+                "location": "Cricketfield Lane, Bishop's Stortford",
+                "seriesDate": "1902"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1923",
+                        "partnership": 54,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "A Grimsdell",
+                        "player1Score": 22,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "CBG Hunter",
+                        "player2Score": 31,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1989",
+                        "partnership": 60,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1922",
+                        "partnership": 104,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1922",
+                        "partnership": 96,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1922",
+                        "partnership": 51,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1989",
+                        "partnership": 31,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1989",
+                        "partnership": 33,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1902",
+                        "partnership": 19,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1902",
+                        "partnership": 47,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "CD Fastnedge",
+                        "player1Score": 32,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "WH Marsh",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1922",
+                        "partnership": 2,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "R Driscoll",
+                        "player1Score": 1,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "WH Marsh",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Hertfordshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1989",
+                        "partnership": 57,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MD Nurton",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SNV Waterton",
+                        "player2Score": 75,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1922",
+                        "partnership": 80,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Hertfordshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1989",
+                        "partnership": 92,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Hertfordshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1989",
+                        "partnership": 21,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "SNV Waterton",
+                        "player1Score": 75,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "PM Jobson",
+                        "player2Score": 11,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1922",
+                        "partnership": 8,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1922",
+                        "partnership": 17,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1922",
+                        "partnership": 47,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Hertford College Ground, Oxford",
+                        "seriesDate": "1903",
+                        "partnership": 53,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "W Smith",
+                        "player1Score": 51,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "E Wakelin",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1922",
+                        "partnership": 5,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "E Wakelin",
+                        "player1Score": 46,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "GH Holiday",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1922",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "E Wakelin",
+                        "player1Score": 46,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JW Piper",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "HE White",
+                "team": "Hertfordshire",
+                "opponents": "Oxfordshire",
+                "matches": 10,
+                "runs": 713,
+                "innings": 14,
+                "notOuts": 2,
+                "average": 59.41,
+                "hs": "152*"
+            }
+        ],
+        [
+            {
+                "name": "JF Marsh",
+                "team": "Oxfordshire",
+                "opponents": "Hertfordshire",
+                "matches": 10,
+                "runs": 306,
+                "innings": 17,
+                "notOuts": 1,
+                "average": 19.12,
+                "hs": "50"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "HE White",
+                "team": "Hertfordshire",
+                "opponents": "Oxfordshire",
+                "matches": 10,
+                "balls": 2205,
+                "maidens": 116,
+                "runs": 736,
+                "wickets": 67,
+                "bbruns": 49,
+                "bbwickets": 8,
+                "average": 10.98
+            }
+        ],
+        [
+            {
+                "name": "A Rogers",
+                "team": "Oxfordshire",
+                "opponents": "Hertfordshire",
+                "matches": 10,
+                "balls": 2044,
+                "maidens": 82,
+                "runs": 890,
+                "wickets": 45,
+                "bbruns": 77,
+                "bbwickets": 7,
+                "average": 19.77
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "HE White",
+                "team": "Hertfordshire",
+                "opponents": "Oxfordshire",
+                "matches": 10,
+                "dismissals": 11
+            }
+        ],
+        [
+            {
+                "name": "JW Marsh",
+                "team": "Oxfordshire",
+                "opponents": "Hertfordshire",
+                "matches": 10,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "A Grimsdell",
+                "team": "Hertfordshire",
+                "opponents": "Oxfordshire",
+                "matches": 3,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "JW Marsh",
+                "team": "Oxfordshire",
+                "opponents": "Hertfordshire",
+                "matches": 10,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Oxfordshire",
+                    "total": 82,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Christ Church Ground, Oxford",
+                    "seriesDate": "1922"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Oxfordshire",
+                    "total": 82,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Christ Church Ground, Oxford",
+                    "seriesDate": "1922"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Oxfordshire",
+                    "total": 54,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Park Avenue, Watford",
+                    "seriesDate": "1923"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Hertfordshire",
+                    "total": 74,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Avenue, Watford",
+                    "seriesDate": "1905"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Hertfordshire",
+                    "total": 74,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Avenue, Watford",
+                    "seriesDate": "1905"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Hertfordshire",
+                    "total": 74,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Avenue, Watford",
+                    "seriesDate": "1905"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:51.772047Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

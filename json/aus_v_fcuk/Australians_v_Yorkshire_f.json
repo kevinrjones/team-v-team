@@ -1,0 +1,838 @@
+{
+    "team1": "Australians",
+    "team2": "Yorkshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 54,
+        "startDate": "1878-05-30T00:00",
+        "endDate": "1985-06-05T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australians",
+                "opponents": "Yorkshire",
+                "total": 470,
+                "wickets": 10,
+                "declared": false,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1893"
+            }
+        ],
+        [
+            {
+                "team": "Yorkshire",
+                "opponents": "Australians",
+                "total": 377,
+                "wickets": 10,
+                "declared": false,
+                "location": "Bramall Lane, Sheffield",
+                "seriesDate": "1953"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "BC Booth",
+                "team": "Australians",
+                "opponents": "Yorkshire",
+                "score": 193,
+                "notOut": true,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1964"
+            }
+        ],
+        [
+            {
+                "name": "JT Brown sen",
+                "team": "Yorkshire",
+                "opponents": "Australians",
+                "score": 167,
+                "notOut": false,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1899"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "CV Grimmett",
+                "team": "Australians",
+                "opponents": "Yorkshire",
+                "wickets": 10,
+                "runs": 37,
+                "location": "Bramall Lane, Sheffield",
+                "seriesDate": "1930"
+            }
+        ],
+        [
+            {
+                "name": "W Ringrose",
+                "team": "Yorkshire",
+                "opponents": "Australians",
+                "wickets": 9,
+                "runs": 76,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1905"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "H Trumble",
+                "team": "Australians",
+                "opponents": "Yorkshire",
+                "wickets": 12,
+                "runs": 44,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1902"
+            }
+        ],
+        [
+            {
+                "name": "GH Hirst",
+                "team": "Yorkshire",
+                "opponents": "Australians",
+                "wickets": 13,
+                "runs": 149,
+                "location": "Park Avenue Cricket Ground, Bradford",
+                "seriesDate": "1899"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Yorkshire",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1905",
+                        "partnership": 122,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "VT Trumper",
+                        "player1Score": 85,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RA Duff",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Yorkshire",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1934",
+                        "partnership": 189,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Yorkshire",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1985",
+                        "partnership": 142,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "GM Wood",
+                        "player1Score": 102,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "GM Ritchie",
+                        "player2Score": 58,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Yorkshire",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1964",
+                        "partnership": 182,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1964",
+                        "partnership": 167,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1953",
+                        "partnership": 152,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Yorkshire",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1886",
+                        "partnership": 98,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1905",
+                        "partnership": 102,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1890",
+                        "partnership": 94,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Yorkshire",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1888",
+                        "partnership": 67,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Australians",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1899",
+                        "partnership": 119,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "J Tunnicliffe",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JT Brown sen",
+                        "player2Score": 84,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Australians",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1964",
+                        "partnership": 197,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Australians",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1921",
+                        "partnership": 61,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "H Sutcliffe",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "W Rhodes",
+                        "player2Score": 63,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Australians",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1890",
+                        "partnership": 119,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Australians",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1899",
+                        "partnership": 99,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Australians",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1909",
+                        "partnership": 137,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Australians",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1934",
+                        "partnership": 76,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Australians",
+                        "location": "Park Avenue Cricket Ground, Bradford",
+                        "seriesDate": "1888",
+                        "partnership": 64,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "ET Hirst",
+                        "player1Score": 87,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "S Wade",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Australians",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1934",
+                        "partnership": 90,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Yorkshire",
+                        "opponents": "Australians",
+                        "location": "Bramall Lane, Sheffield",
+                        "seriesDate": "1921",
+                        "partnership": 36,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "DCF Burton",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "A Waddington",
+                        "player2Score": 18,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "SE Gregory",
+                "team": "Australians",
+                "opponents": "Yorkshire",
+                "matches": 18,
+                "runs": 522,
+                "innings": 28,
+                "notOuts": 3,
+                "average": 20.88,
+                "hs": "59"
+            }
+        ],
+        [
+            {
+                "name": "D Denton",
+                "team": "Yorkshire",
+                "opponents": "Australians",
+                "matches": 13,
+                "runs": 715,
+                "innings": 22,
+                "notOuts": 3,
+                "average": 37.63,
+                "hs": "153*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "FR Spofforth",
+                "team": "Australians",
+                "opponents": "Yorkshire",
+                "matches": 10,
+                "balls": 1730,
+                "maidens": 182,
+                "runs": 631,
+                "wickets": 57,
+                "bbruns": 45,
+                "bbwickets": 6,
+                "average": 11.07
+            }
+        ],
+        [
+            {
+                "name": "R Peel",
+                "team": "Yorkshire",
+                "opponents": "Australians",
+                "matches": 14,
+                "balls": 2401,
+                "maidens": 214,
+                "runs": 847,
+                "wickets": 60,
+                "bbruns": 116,
+                "bbwickets": 7,
+                "average": 14.11
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JM Blackham",
+                "team": "Australians",
+                "opponents": "Yorkshire",
+                "matches": 15,
+                "dismissals": 14
+            },
+            {
+                "name": "GJ Bonnor",
+                "team": "Australians",
+                "opponents": "Yorkshire",
+                "matches": 10,
+                "dismissals": 14
+            }
+        ],
+        [
+            {
+                "name": "D Hunter",
+                "team": "Yorkshire",
+                "opponents": "Australians",
+                "matches": 14,
+                "dismissals": 30
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JM Blackham",
+                "team": "Australians",
+                "opponents": "Yorkshire",
+                "matches": 15,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "D Hunter",
+                "team": "Yorkshire",
+                "opponents": "Australians",
+                "matches": 14,
+                "dismissals": 8
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australians",
+                    "opponents": "Yorkshire",
+                    "total": 23,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Headingley, Leeds",
+                    "seriesDate": "1902"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australians",
+                    "opponents": "Yorkshire",
+                    "total": 23,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Headingley, Leeds",
+                    "seriesDate": "1902"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australians",
+                    "opponents": "Yorkshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Bramall Lane, Sheffield",
+                    "seriesDate": "1899"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Yorkshire",
+                    "opponents": "Australians",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Headingley, Leeds",
+                    "seriesDate": "1893"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Yorkshire",
+                    "opponents": "Australians",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Headingley, Leeds",
+                    "seriesDate": "1893"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Yorkshire",
+                    "opponents": "Australians",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Bramall Lane, Sheffield",
+                    "seriesDate": "1926"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:21.474669Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

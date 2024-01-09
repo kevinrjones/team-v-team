@@ -1,0 +1,859 @@
+{
+    "team1": "Australians",
+    "team2": "Essex",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 31,
+        "startDate": "1896-05-14T00:00",
+        "endDate": "2015-07-01T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australians",
+                "opponents": "Essex",
+                "total": 721,
+                "wickets": 10,
+                "declared": false,
+                "location": "Southchurch Park, Southend-on-Sea",
+                "seriesDate": "1948"
+            }
+        ],
+        [
+            {
+                "team": "Essex",
+                "opponents": "Australians",
+                "total": 425,
+                "wickets": 6,
+                "declared": true,
+                "location": "Southchurch Park, Southend-on-Sea",
+                "seriesDate": "1964"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "W Bardsley",
+                "team": "Australians",
+                "opponents": "Essex",
+                "score": 219,
+                "notOut": false,
+                "location": "County Ground, Leyton",
+                "seriesDate": "1909"
+            }
+        ],
+        [
+            {
+                "name": "T Westley",
+                "team": "Essex",
+                "opponents": "Australians",
+                "score": 144,
+                "notOut": false,
+                "location": "The Essex County Ground, Chelmsford",
+                "seriesDate": "2015"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "DA Renneberg",
+                "team": "Australians",
+                "opponents": "Essex",
+                "wickets": 8,
+                "runs": 72,
+                "location": "Southchurch Park, Southend-on-Sea",
+                "seriesDate": "1968"
+            }
+        ],
+        [
+            {
+                "name": "HI Young",
+                "team": "Essex",
+                "opponents": "Australians",
+                "wickets": 7,
+                "runs": 32,
+                "location": "County Ground, Leyton",
+                "seriesDate": "1899"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "H Trumble",
+                "team": "Australians",
+                "opponents": "Essex",
+                "wickets": 12,
+                "runs": 131,
+                "location": "County Ground, Leyton",
+                "seriesDate": "1899"
+            }
+        ],
+        [
+            {
+                "name": "CP Buckenham",
+                "team": "Essex",
+                "opponents": "Australians",
+                "wickets": 12,
+                "runs": 137,
+                "location": "County Ground, Leyton",
+                "seriesDate": "1905"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Essex",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1975",
+                        "partnership": 185,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "A Turner",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BM Laird",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Essex",
+                        "location": "County Ground, Leyton",
+                        "seriesDate": "1926",
+                        "partnership": 270,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Essex",
+                        "location": "County Ground, Leyton",
+                        "seriesDate": "1912",
+                        "partnership": 362,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Essex",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1985",
+                        "partnership": 162,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Essex",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1989",
+                        "partnership": 133,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DC Boon",
+                        "player1Score": 151,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DM Jones",
+                        "player2Score": 70,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Essex",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "2001",
+                        "partnership": 251,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "AC Gilchrist",
+                        "player1Score": 150,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "DR Martyn",
+                        "player2Score": 114,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Essex",
+                        "location": "Southchurch Park, Southend-on-Sea",
+                        "seriesDate": "1956",
+                        "partnership": 125,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Essex",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "2001",
+                        "partnership": 98,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "GD McGrath",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "CR Miller",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Essex",
+                        "location": "County Ground, Leyton",
+                        "seriesDate": "1905",
+                        "partnership": 51,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Essex",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "2001",
+                        "partnership": 79,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "DR Martyn",
+                        "player1Score": 46,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "AC Gilchrist",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Australians",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1993",
+                        "partnership": 121,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GA Gooch",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "NV Knight",
+                        "player2Score": 87,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Australians",
+                        "location": "The Essex County Ground, Chelmsford",
+                        "seriesDate": "2015",
+                        "partnership": 213,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "T Westley",
+                        "player1Score": 144,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RS Bopara",
+                        "player2Score": 107,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Australians",
+                        "location": "Southchurch Park, Southend-on-Sea",
+                        "seriesDate": "1964",
+                        "partnership": 184,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Australians",
+                        "location": "County Ground, Leyton",
+                        "seriesDate": "1909",
+                        "partnership": 112,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Australians",
+                        "location": "Valentine's Park, Ilford",
+                        "seriesDate": "1972",
+                        "partnership": 87,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Australians",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1975",
+                        "partnership": 133,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "BR Hardie",
+                        "player1Score": 88,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "RNS Hobbs",
+                        "player2Score": 100,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Australians",
+                        "location": "Southchurch Park, Southend-on-Sea",
+                        "seriesDate": "1948",
+                        "partnership": 131,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "TPB Smith",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "TN Pearce",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Australians",
+                        "location": "County Ground, Chelmsford",
+                        "seriesDate": "1985",
+                        "partnership": 46,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "BR Hardie",
+                        "player1Score": 113,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "DE East",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Australians",
+                        "location": "County Ground, Leyton",
+                        "seriesDate": "1905",
+                        "partnership": 65,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Essex",
+                        "opponents": "Australians",
+                        "location": "County Ground, Leyton",
+                        "seriesDate": "1899",
+                        "partnership": 55,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AP Lucas",
+                        "player1Score": 46,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "HI Young",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "W Bardsley",
+                "team": "Australians",
+                "opponents": "Essex",
+                "matches": 5,
+                "runs": 573,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 114.6,
+                "hs": "219"
+            }
+        ],
+        [
+            {
+                "name": "CP McGahey",
+                "team": "Essex",
+                "opponents": "Australians",
+                "matches": 10,
+                "runs": 546,
+                "innings": 18,
+                "notOuts": 2,
+                "average": 34.12,
+                "hs": "72"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "H Trumble",
+                "team": "Australians",
+                "opponents": "Essex",
+                "matches": 3,
+                "balls": 1122,
+                "maidens": 65,
+                "runs": 417,
+                "wickets": 27,
+                "bbruns": 79,
+                "bbwickets": 8,
+                "average": 15.44
+            }
+        ],
+        [
+            {
+                "name": "CP Buckenham",
+                "team": "Essex",
+                "opponents": "Australians",
+                "matches": 6,
+                "balls": 1152,
+                "maidens": 14,
+                "runs": 795,
+                "wickets": 25,
+                "bbruns": 45,
+                "bbwickets": 6,
+                "average": 31.8
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "A Cotter",
+                "team": "Australians",
+                "opponents": "Essex",
+                "matches": 4,
+                "dismissals": 5
+            },
+            {
+                "name": "HSTL Hendry",
+                "team": "Australians",
+                "opponents": "Essex",
+                "matches": 3,
+                "dismissals": 5
+            },
+            {
+                "name": "WP Howell",
+                "team": "Australians",
+                "opponents": "Essex",
+                "matches": 2,
+                "dismissals": 5
+            },
+            {
+                "name": "JJ Kelly",
+                "team": "Australians",
+                "opponents": "Essex",
+                "matches": 4,
+                "dismissals": 5
+            },
+            {
+                "name": "RB Phillips",
+                "team": "Australians",
+                "opponents": "Essex",
+                "matches": 1,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "B Taylor",
+                "team": "Essex",
+                "opponents": "Australians",
+                "matches": 5,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "WAS Oldfield",
+                "team": "Australians",
+                "opponents": "Essex",
+                "matches": 3,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "MA Garnham",
+                "team": "Essex",
+                "opponents": "Australians",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australians",
+                    "opponents": "Essex",
+                    "total": 73,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Leyton",
+                    "seriesDate": "1899"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australians",
+                    "opponents": "Essex",
+                    "total": 73,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Leyton",
+                    "seriesDate": "1899"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australians",
+                    "opponents": "Essex",
+                    "total": 73,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Leyton",
+                    "seriesDate": "1899"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Essex",
+                    "opponents": "Australians",
+                    "total": 67,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Leyton",
+                    "seriesDate": "1930"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Essex",
+                    "opponents": "Australians",
+                    "total": 67,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Leyton",
+                    "seriesDate": "1930"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Essex",
+                    "opponents": "Australians",
+                    "total": 5,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "County Ground, Leyton",
+                    "seriesDate": "1926"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:53.062783Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,850 @@
+{
+    "team1": "Durham",
+    "team2": "Shropshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 22,
+        "startDate": "1972-06-19T01:00",
+        "endDate": "1982-08-23T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Durham",
+                "opponents": "Shropshire",
+                "total": 294,
+                "wickets": 10,
+                "declared": false,
+                "location": "Ashbrooke, Sunderland",
+                "seriesDate": "1981"
+            }
+        ],
+        [
+            {
+                "team": "Shropshire",
+                "opponents": "Durham",
+                "total": 259,
+                "wickets": 5,
+                "declared": true,
+                "location": "Orleton Park, Wellington",
+                "seriesDate": "1973"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "NA Riddell",
+                "team": "Durham",
+                "opponents": "Shropshire",
+                "score": 106,
+                "notOut": false,
+                "location": "Park Drive, Hartlepool",
+                "seriesDate": "1975"
+            }
+        ],
+        [
+            {
+                "name": "RL Burton",
+                "team": "Shropshire",
+                "opponents": "Durham",
+                "score": 134,
+                "notOut": false,
+                "location": "Morda Road, Oswestry",
+                "seriesDate": "1976"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JS Stoker",
+                "team": "Durham",
+                "opponents": "Shropshire",
+                "wickets": 8,
+                "runs": 28,
+                "location": "London Road, Shrewsbury",
+                "seriesDate": "1975"
+            }
+        ],
+        [
+            {
+                "name": "P Bradley",
+                "team": "Shropshire",
+                "opponents": "Durham",
+                "wickets": 7,
+                "runs": 34,
+                "location": "Feethams Cricket Ground, Darlington",
+                "seriesDate": "1973"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JS Stoker",
+                "team": "Durham",
+                "opponents": "Shropshire",
+                "wickets": 12,
+                "runs": 52,
+                "location": "London Road, Shrewsbury",
+                "seriesDate": "1975"
+            }
+        ],
+        [
+            {
+                "name": "P Bradley",
+                "team": "Shropshire",
+                "opponents": "Durham",
+                "wickets": 9,
+                "runs": 91,
+                "location": "Orleton Park, Wellington",
+                "seriesDate": "1973"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Shropshire",
+                        "location": "Ropery Lane, Chester-le-Street",
+                        "seriesDate": "1982",
+                        "partnership": 116,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "IM Richards",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "S Greensword",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Shropshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1977",
+                        "partnership": 143,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "SR Atkinson",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "PJ Crane",
+                        "player2Score": 47,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Shropshire",
+                        "location": "Orleton Park, Wellington",
+                        "seriesDate": "1974",
+                        "partnership": 101,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "TF Greenshields",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "S Greensword",
+                        "player2Score": 85,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Shropshire",
+                        "location": "London Road, Shrewsbury",
+                        "seriesDate": "1980",
+                        "partnership": 106,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "NA Riddell",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "PC Birtwisle",
+                        "player2Score": 49,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Shropshire",
+                        "location": "Morda Road, Oswestry",
+                        "seriesDate": "1976",
+                        "partnership": 52,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RAD Mercer",
+                        "player1Score": 36,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "DR O'Sullivan",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Shropshire",
+                        "location": "Feethams Cricket Ground, Darlington",
+                        "seriesDate": "1979",
+                        "partnership": 58,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "BL Cairns",
+                        "player1Score": 28,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "NA Riddell",
+                        "player2Score": 61,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Shropshire",
+                        "location": "Ropery Lane, Chester-le-Street",
+                        "seriesDate": "1978",
+                        "partnership": 77,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "PJ Crane",
+                        "player1Score": 21,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "C Thomas",
+                        "player2Score": 52,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Shropshire",
+                        "location": "Park Drive, Hartlepool",
+                        "seriesDate": "1977",
+                        "partnership": 40,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "PJ Crane",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DR O'Sullivan",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Shropshire",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1981",
+                        "partnership": 70,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "BL Cairns",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "RAD Mercer",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Shropshire",
+                        "location": "Audley Avenue, Newport",
+                        "seriesDate": "1978",
+                        "partnership": 25,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "DD Parsana",
+                        "player1Score": 25,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JS Wilkinson",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Durham",
+                        "location": "Ropery Lane, Chester-le-Street",
+                        "seriesDate": "1978",
+                        "partnership": 131,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DNF Slade",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GR Cass",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Durham",
+                        "location": "Grove Ground, Market Drayton",
+                        "seriesDate": "1972",
+                        "partnership": 140,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JS Johnson",
+                        "player1Score": 80,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "RL Burton",
+                        "player2Score": 67,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Durham",
+                        "location": "Ashbrooke, Sunderland",
+                        "seriesDate": "1981",
+                        "partnership": 58,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "JS Johnson",
+                        "player1Score": 84,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DS de Silva",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Durham",
+                        "location": "Morda Road, Oswestry",
+                        "seriesDate": "1976",
+                        "partnership": 87,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RL Burton",
+                        "player1Score": 74,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DNF Slade",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Durham",
+                        "location": "Orleton Park, Wellington",
+                        "seriesDate": "1973",
+                        "partnership": 62,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DJ Humphries",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "E Marsh",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Durham",
+                        "location": "Morda Road, Oswestry",
+                        "seriesDate": "1976",
+                        "partnership": 108,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RL Burton",
+                        "player1Score": 134,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RK Sethi",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Durham",
+                        "location": "Audley Avenue, Newport",
+                        "seriesDate": "1981",
+                        "partnership": 59,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "BJ Perry",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "GR Cass",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Durham",
+                        "location": "Ropery Lane, Chester-le-Street",
+                        "seriesDate": "1978",
+                        "partnership": 33,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RL Burton",
+                        "player1Score": 49,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "MA Meman",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Durham",
+                        "location": "London Road, Shrewsbury",
+                        "seriesDate": "1980",
+                        "partnership": 44,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "JA Smith",
+                        "player1Score": 10,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "GR Cass",
+                        "player2Score": 60,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Durham",
+                        "location": "Audley Avenue, Newport",
+                        "seriesDate": "1982",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JA Smith",
+                        "player1Score": 27,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "DJ Ashley",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "NA Riddell",
+                "team": "Durham",
+                "opponents": "Shropshire",
+                "matches": 21,
+                "runs": 822,
+                "innings": 31,
+                "notOuts": 5,
+                "average": 31.61,
+                "hs": "106"
+            }
+        ],
+        [
+            {
+                "name": "JS Johnson",
+                "team": "Shropshire",
+                "opponents": "Durham",
+                "matches": 17,
+                "runs": 987,
+                "innings": 28,
+                "notOuts": 5,
+                "average": 42.91,
+                "hs": "86"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "S Greensword",
+                "team": "Durham",
+                "opponents": "Shropshire",
+                "matches": 12,
+                "balls": 1792,
+                "maidens": 92,
+                "runs": 717,
+                "wickets": 35,
+                "bbruns": 23,
+                "bbwickets": 5,
+                "average": 20.48
+            }
+        ],
+        [
+            {
+                "name": "P Bradley",
+                "team": "Shropshire",
+                "opponents": "Durham",
+                "matches": 8,
+                "balls": 1064,
+                "maidens": 56,
+                "runs": 460,
+                "wickets": 33,
+                "bbruns": 34,
+                "bbwickets": 7,
+                "average": 13.93
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RAD Mercer",
+                "team": "Durham",
+                "opponents": "Shropshire",
+                "matches": 15,
+                "dismissals": 23
+            }
+        ],
+        [
+            {
+                "name": "GR Cass",
+                "team": "Shropshire",
+                "opponents": "Durham",
+                "matches": 12,
+                "dismissals": 16
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RAD Mercer",
+                "team": "Durham",
+                "opponents": "Shropshire",
+                "matches": 15,
+                "dismissals": 10
+            }
+        ],
+        [
+            {
+                "name": "GR Cass",
+                "team": "Shropshire",
+                "opponents": "Durham",
+                "matches": 12,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Durham",
+                    "opponents": "Shropshire",
+                    "total": 107,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Feethams Cricket Ground, Darlington",
+                    "seriesDate": "1973"
+                },
+                {
+                    "team": "Durham",
+                    "opponents": "Shropshire",
+                    "total": 107,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Drive, Hartlepool",
+                    "seriesDate": "1977"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Shropshire",
+                    "total": 107,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Feethams Cricket Ground, Darlington",
+                    "seriesDate": "1973"
+                },
+                {
+                    "team": "Durham",
+                    "opponents": "Shropshire",
+                    "total": 107,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Park Drive, Hartlepool",
+                    "seriesDate": "1977"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Shropshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Grangefield Road, Stockton-on-Tees",
+                    "seriesDate": "1980"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Durham",
+                    "total": 59,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "London Road, Shrewsbury",
+                    "seriesDate": "1975"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Durham",
+                    "total": 59,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "London Road, Shrewsbury",
+                    "seriesDate": "1975"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Durham",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "High Town, Bridgnorth",
+                    "seriesDate": "1977"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:09.409822Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

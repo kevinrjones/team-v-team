@@ -1,0 +1,838 @@
+{
+    "team1": "Indians",
+    "team2": "Oxford University",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 7,
+        "startDate": "1911-06-01T00:00",
+        "endDate": "1967-05-13T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Indians",
+                "opponents": "Oxford University",
+                "total": 459,
+                "wickets": 4,
+                "declared": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1959"
+            }
+        ],
+        [
+            {
+                "team": "Oxford University",
+                "opponents": "Indians",
+                "total": 297,
+                "wickets": 10,
+                "declared": false,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "PR Umrigar",
+                "team": "Indians",
+                "opponents": "Oxford University",
+                "score": 229,
+                "notOut": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1952"
+            }
+        ],
+        [
+            {
+                "name": "MP Donnelly",
+                "team": "Oxford University",
+                "opponents": "Indians",
+                "score": 116,
+                "notOut": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1946"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Ghulam Ahmed",
+                "team": "Indians",
+                "opponents": "Oxford University",
+                "wickets": 8,
+                "runs": 84,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1952"
+            }
+        ],
+        [
+            {
+                "name": "AJ Evans",
+                "team": "Oxford University",
+                "opponents": "Indians",
+                "wickets": 5,
+                "runs": 32,
+                "location": "Christ Church Ground, Oxford",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Ghulam Ahmed",
+                "team": "Indians",
+                "opponents": "Oxford University",
+                "wickets": 13,
+                "runs": 150,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1952"
+            }
+        ],
+        [
+            {
+                "name": "AJ Evans",
+                "team": "Oxford University",
+                "opponents": "Indians",
+                "wickets": 9,
+                "runs": 49,
+                "location": "Christ Church Ground, Oxford",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1932",
+                        "partnership": 87,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "S Wazir Ali",
+                        "player1Score": 132,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Naoomal Jaoomal",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1936",
+                        "partnership": 62,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1959",
+                        "partnership": 246,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1952",
+                        "partnership": 366,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "PR Umrigar",
+                        "player1Score": 229,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "VS Hazare",
+                        "player2Score": 161,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1959",
+                        "partnership": 143,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "VL Manjrekar",
+                        "player1Score": 204,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "CG Borde",
+                        "player2Score": 57,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Oxford University",
+                        "location": "Christ Church Ground, Oxford",
+                        "seriesDate": "1911",
+                        "partnership": 74,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1936",
+                        "partnership": 23,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1936",
+                        "partnership": 114,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1967",
+                        "partnership": 67,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "S Guha",
+                        "player1Score": 7,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "Nawab of Pataudi",
+                        "player2Score": 144,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1946",
+                        "partnership": 29,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "Abdul Hafeez",
+                        "player1Score": 30,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "SG Shinde",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1959",
+                        "partnership": 107,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AC Smith",
+                        "player1Score": 48,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DM Green",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1936",
+                        "partnership": 30,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1936",
+                        "partnership": 94,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1946",
+                        "partnership": 171,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "MP Donnelly",
+                        "player1Score": 116,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "RH Maudsley",
+                        "player2Score": 54,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1952",
+                        "partnership": 110,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1932",
+                        "partnership": 133,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1959",
+                        "partnership": 52,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1936",
+                        "partnership": 66,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Indians",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1952",
+                        "partnership": 34,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Indians",
+                        "location": "Christ Church Ground, Oxford",
+                        "seriesDate": "1911",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "IPF Campbell",
+                        "player1Score": 106,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "RO Lagden",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "PR Umrigar",
+                "team": "Indians",
+                "opponents": "Oxford University",
+                "matches": 2,
+                "runs": 284,
+                "innings": 3,
+                "notOuts": 2,
+                "average": 284.0,
+                "hs": "229*"
+            }
+        ],
+        [
+            {
+                "name": "MP Donnelly",
+                "team": "Oxford University",
+                "opponents": "Indians",
+                "matches": 1,
+                "runs": 177,
+                "innings": 2,
+                "notOuts": 1,
+                "average": 177.0,
+                "hs": "116*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Ghulam Ahmed",
+                "team": "Indians",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "balls": 509,
+                "maidens": 29,
+                "runs": 150,
+                "wickets": 13,
+                "bbruns": 84,
+                "bbwickets": 8,
+                "average": 11.53
+            }
+        ],
+        [
+            {
+                "name": "AJ Evans",
+                "team": "Oxford University",
+                "opponents": "Indians",
+                "matches": 1,
+                "balls": 216,
+                "maidens": 20,
+                "runs": 49,
+                "wickets": 9,
+                "bbruns": 32,
+                "bbwickets": 5,
+                "average": 5.44
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "DD Hindlekar",
+                "team": "Indians",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "AJ Evans",
+                "team": "Oxford University",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "DD Hindlekar",
+                "team": "Indians",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "RA Brooks",
+                "team": "Oxford University",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "RH Twining",
+                "team": "Oxford University",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Indians",
+                    "opponents": "Oxford University",
+                    "total": 97,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Christ Church Ground, Oxford",
+                    "seriesDate": "1911"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Oxford University",
+                    "total": 97,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Christ Church Ground, Oxford",
+                    "seriesDate": "1911"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Oxford University",
+                    "total": 32,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1932"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Indians",
+                    "total": 132,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1932"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Indians",
+                    "total": 132,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1932"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Indians",
+                    "total": 40,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1967"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:02.190209Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

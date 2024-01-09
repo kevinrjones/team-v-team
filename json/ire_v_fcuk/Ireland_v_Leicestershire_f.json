@@ -1,0 +1,838 @@
+{
+    "team1": "Ireland",
+    "team2": "Leicestershire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1959-08-12T01:00",
+        "endDate": "1961-05-17T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "total": 259,
+                "wickets": 10,
+                "declared": false,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1959"
+            }
+        ],
+        [
+            {
+                "team": "Leicestershire",
+                "opponents": "Ireland",
+                "total": 305,
+                "wickets": 5,
+                "declared": true,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1959"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "MH Stevenson",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "score": 80,
+                "notOut": false,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1959"
+            }
+        ],
+        [
+            {
+                "name": "W Watson",
+                "team": "Leicestershire",
+                "opponents": "Ireland",
+                "score": 106,
+                "notOut": false,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1959"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "F Fee",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "wickets": 3,
+                "runs": 78,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1959"
+            }
+        ],
+        [
+            {
+                "name": "JS Savage",
+                "team": "Leicestershire",
+                "opponents": "Ireland",
+                "wickets": 6,
+                "runs": 84,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1959"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "F Fee",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "wickets": 5,
+                "runs": 119,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1959"
+            }
+        ],
+        [
+            {
+                "name": "JS Savage",
+                "team": "Leicestershire",
+                "opponents": "Ireland",
+                "wickets": 8,
+                "runs": 101,
+                "location": "Grace Road, Leicester",
+                "seriesDate": "1959"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1961",
+                        "partnership": 20,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "T McCloy",
+                        "player1Score": 18,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SF Bergin",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1959",
+                        "partnership": 91,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1959",
+                        "partnership": 53,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1959",
+                        "partnership": 59,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1959",
+                        "partnership": 10,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1959",
+                        "partnership": 33,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1959",
+                        "partnership": 21,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Ireland",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1961",
+                        "partnership": 21,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "GAA Duffy",
+                        "player1Score": 27,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "NB Hool",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1959",
+                        "partnership": 27,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1961",
+                        "partnership": 8,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "NB Hool",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "KW Hope",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Leicestershire",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1961",
+                        "partnership": 26,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "NB Hool",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "RE Bernstein",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Ireland",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1959",
+                        "partnership": 63,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "W Watson",
+                        "player1Score": 106,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "D Kirby",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Ireland",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1959",
+                        "partnership": 53,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Ireland",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1959",
+                        "partnership": 65,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Ireland",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1959",
+                        "partnership": 106,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Ireland",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1961",
+                        "partnership": 85,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Ireland",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1961",
+                        "partnership": 54,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Ireland",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1961",
+                        "partnership": 9,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Ireland",
+                        "location": "Grace Road, Leicester",
+                        "seriesDate": "1961",
+                        "partnership": 11,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "JS Savage",
+                        "player1Score": 1,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "R Julian",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "H Martin",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "matches": 2,
+                "runs": 84,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 21.0,
+                "hs": "61"
+            }
+        ],
+        [
+            {
+                "name": "W Watson",
+                "team": "Leicestershire",
+                "opponents": "Ireland",
+                "matches": 1,
+                "runs": 106,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 106.0,
+                "hs": "106"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "F Fee",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "matches": 1,
+                "balls": 260,
+                "maidens": 9,
+                "runs": 119,
+                "wickets": 5,
+                "bbruns": 78,
+                "bbwickets": 3,
+                "average": 23.8
+            }
+        ],
+        [
+            {
+                "name": "JS Savage",
+                "team": "Leicestershire",
+                "opponents": "Ireland",
+                "matches": 2,
+                "balls": 416,
+                "maidens": 33,
+                "runs": 120,
+                "wickets": 12,
+                "bbruns": 84,
+                "bbwickets": 6,
+                "average": 10.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "SF Bergin",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "RE Bernstein",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "GAA Duffy",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "AJ Finlay",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "NB Hool",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "KW Hope",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "WR Hunter",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "H Martin",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "PA Neville",
+                "team": "Ireland",
+                "opponents": "Leicestershire",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "AC Revill",
+                "team": "Leicestershire",
+                "opponents": "Ireland",
+                "matches": 1,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Ireland",
+                    "opponents": "Leicestershire",
+                    "total": 88,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1961"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Ireland",
+                    "opponents": "Leicestershire",
+                    "total": 88,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1961"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Ireland",
+                    "opponents": "Leicestershire",
+                    "total": 88,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1961"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Leicestershire",
+                    "opponents": "Ireland",
+                    "total": 65,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Grace Road, Leicester",
+                    "seriesDate": "1959"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:51.283857Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

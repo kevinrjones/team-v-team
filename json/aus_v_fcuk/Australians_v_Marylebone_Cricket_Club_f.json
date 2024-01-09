@@ -1,0 +1,866 @@
+{
+    "team1": "Australians",
+    "team2": "Marylebone Cricket Club",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 34,
+        "startDate": "1878-05-27T00:00",
+        "endDate": "2001-06-25T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "total": 559,
+                "wickets": 6,
+                "declared": true,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Australians",
+                "total": 481,
+                "wickets": 10,
+                "declared": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1884"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "WH Ponsford",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "score": 281,
+                "notOut": true,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "name": "EH Hendren",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Australians",
+                "score": 135,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1934"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "DK Lillee",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 7,
+                "runs": 67,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1975"
+            }
+        ],
+        [
+            {
+                "name": "JT Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Australians",
+                "wickets": 9,
+                "runs": 73,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1896"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "FR Spofforth",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 10,
+                "runs": 20,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1878"
+            }
+        ],
+        [
+            {
+                "name": "JT Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Australians",
+                "wickets": 13,
+                "runs": 77,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1896"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1961",
+                        "partnership": 186,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "WM Lawry",
+                        "player1Score": 84,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "RB Simpson",
+                        "player2Score": 92,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1956",
+                        "partnership": 282,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1934",
+                        "partnership": 389,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1975",
+                        "partnership": 166,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "GS Chappell",
+                        "player1Score": 86,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "KD Walters",
+                        "player2Score": 103,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1938",
+                        "partnership": 162,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1985",
+                        "partnership": 206,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Arundel Castle Cricket Club Ground, Arundel",
+                        "seriesDate": "2001",
+                        "partnership": 190,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SM Katich",
+                        "player1Score": 168,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "SK Warne",
+                        "player2Score": 69,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1896",
+                        "partnership": 112,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1896",
+                        "partnership": 41,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JJ Kelly",
+                        "player1Score": 18,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "E Jones",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1926",
+                        "partnership": 119,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "WH Ponsford",
+                        "player1Score": 110,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "AJ Richardson",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Australians",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1909",
+                        "partnership": 157,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HK Foster",
+                        "player1Score": 84,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "FA Tarrant",
+                        "player2Score": 65,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Australians",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1890",
+                        "partnership": 109,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Australians",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1985",
+                        "partnership": 239,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "MCJ Nicholas",
+                        "player1Score": 115,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "AJ Lamb",
+                        "player2Score": 122,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Australians",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1884",
+                        "partnership": 124,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Australians",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1890",
+                        "partnership": 159,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Australians",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1893",
+                        "partnership": 152,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Australians",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1975",
+                        "partnership": 107,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Australians",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1921",
+                        "partnership": 87,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AJ Evans",
+                        "player1Score": 69,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JC Hubble",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Australians",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1902",
+                        "partnership": 73,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "F Mitchell",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JT Hearne",
+                        "player2Score": 35,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Australians",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1896",
+                        "partnership": 61,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AD Pougher",
+                        "player1Score": 51,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "A Woodcock",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "WH Ponsford",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "runs": 488,
+                "innings": 4,
+                "notOuts": 3,
+                "average": 488.0,
+                "hs": "281*"
+            }
+        ],
+        [
+            {
+                "name": "WG Grace",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Australians",
+                "matches": 11,
+                "runs": 489,
+                "innings": 19,
+                "notOuts": 0,
+                "average": 25.73,
+                "hs": "101"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "H Trumble",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 9,
+                "balls": 1374,
+                "maidens": 78,
+                "runs": 654,
+                "wickets": 29,
+                "bbruns": 84,
+                "bbwickets": 6,
+                "average": 22.55
+            }
+        ],
+        [
+            {
+                "name": "JT Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Australians",
+                "matches": 7,
+                "balls": 1649,
+                "maidens": 129,
+                "runs": 651,
+                "wickets": 37,
+                "bbruns": 73,
+                "bbwickets": 9,
+                "average": 17.59
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "H Trumble",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 9,
+                "dismissals": 15
+            }
+        ],
+        [
+            {
+                "name": "M Sherwin",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Australians",
+                "matches": 5,
+                "dismissals": 12
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JM Blackham",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 5,
+                "dismissals": 2
+            },
+            {
+                "name": "ATW Grout",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "JJ Kelly",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 6,
+                "dismissals": 2
+            },
+            {
+                "name": "WL Murdoch",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 5,
+                "dismissals": 2
+            },
+            {
+                "name": "D Tallon",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "CW Walker",
+                "team": "Australians",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "M Sherwin",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Australians",
+                "matches": 5,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australians",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 18,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australians",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 18,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australians",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 0,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1905"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Australians",
+                    "total": 19,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1878"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Australians",
+                    "total": 19,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1878"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Australians",
+                    "total": 19,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1878"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:10.563482Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

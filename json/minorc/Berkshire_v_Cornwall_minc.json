@@ -1,0 +1,832 @@
+{
+    "team1": "Berkshire",
+    "team2": "Cornwall",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 93,
+        "startDate": "1906-07-18T00:00",
+        "endDate": "2019-08-18T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Berkshire",
+                "opponents": "Cornwall",
+                "total": 456,
+                "wickets": 7,
+                "declared": true,
+                "location": "Tremorvah, Truro",
+                "seriesDate": "1906"
+            }
+        ],
+        [
+            {
+                "team": "Cornwall",
+                "opponents": "Berkshire",
+                "total": 371,
+                "wickets": 10,
+                "declared": false,
+                "location": "The Brakspear Ground, Remenham",
+                "seriesDate": "2014"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "SP Naylor",
+                "team": "Berkshire",
+                "opponents": "Cornwall",
+                "score": 188,
+                "notOut": true,
+                "location": "The Brakspear Ground, Remenham",
+                "seriesDate": "2011"
+            }
+        ],
+        [
+            {
+                "name": "R Harris",
+                "team": "Cornwall",
+                "opponents": "Berkshire",
+                "score": 192,
+                "notOut": false,
+                "location": "Roskear, Camborne",
+                "seriesDate": "1954"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "HJC Mundy",
+                "team": "Berkshire",
+                "opponents": "Cornwall",
+                "wickets": 8,
+                "runs": 32,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1930"
+            }
+        ],
+        [
+            {
+                "name": "F Whiting",
+                "team": "Cornwall",
+                "opponents": "Berkshire",
+                "wickets": 8,
+                "runs": 24,
+                "location": "Roskear, Camborne",
+                "seriesDate": "1928"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RR Relf",
+                "team": "Berkshire",
+                "opponents": "Cornwall",
+                "wickets": 13,
+                "runs": 82,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1924"
+            }
+        ],
+        [
+            {
+                "name": "F Whiting",
+                "team": "Cornwall",
+                "opponents": "Berkshire",
+                "wickets": 13,
+                "runs": 79,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1914"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cornwall",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "1954",
+                        "partnership": 222,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JA Mence",
+                        "player1Score": 91,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AA Hillary",
+                        "player2Score": 132,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cornwall",
+                        "location": "Sonning Lane, Reading",
+                        "seriesDate": "1988",
+                        "partnership": 188,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "MG Lickley",
+                        "player1Score": 85,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "PJ Heseltine",
+                        "player2Score": 98,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cornwall",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "2004",
+                        "partnership": 164,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "RWJ Howitt",
+                        "player1Score": 58,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "PJ Prichard",
+                        "player2Score": 114,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cornwall",
+                        "location": "The Brakspear Ground, Remenham",
+                        "seriesDate": "2014",
+                        "partnership": 108,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "Waqas Hussain",
+                        "player1Score": 113,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RK Morris",
+                        "player2Score": 124,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cornwall",
+                        "location": "The Brakspear Ground, Remenham",
+                        "seriesDate": "2011",
+                        "partnership": 128,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "SP Naylor",
+                        "player1Score": 188,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "JC Morris",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cornwall",
+                        "location": "Wokingham Road, Hurst",
+                        "seriesDate": "2000",
+                        "partnership": 106,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "SA Seymour",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "MG Lane",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cornwall",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1930",
+                        "partnership": 110,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "JL Carr",
+                        "player1Score": 138,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "WY Woodburn",
+                        "player2Score": 42,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cornwall",
+                        "location": "Enborne Lodge, Newbury",
+                        "seriesDate": "2002",
+                        "partnership": 133,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "MA Smith",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "SJ Wyatt",
+                        "player2Score": 84,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cornwall",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1975",
+                        "partnership": 101,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "GEJ Child",
+                        "player1Score": 69,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "FC Baines",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cornwall",
+                        "location": "Church Road, Reading",
+                        "seriesDate": "1971",
+                        "partnership": 51,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "PW Watts",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "AR Castell",
+                        "player2Score": 13,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Berkshire",
+                        "location": "Sonning Lane, Reading",
+                        "seriesDate": "1992",
+                        "partnership": 106,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SJ Wherry",
+                        "player1Score": 60,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SM Williams",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1951",
+                        "partnership": 134,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TW Cory",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ALSS Thackara",
+                        "player2Score": 101,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Berkshire",
+                        "location": "Gallowstree Common, Kidmore End",
+                        "seriesDate": "1981",
+                        "partnership": 150,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "EG Willcock",
+                        "player1Score": 107,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "JMH Graham-Brown",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Berkshire",
+                        "location": "Enborne Lodge, Newbury",
+                        "seriesDate": "1990",
+                        "partnership": 126,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "KJC Thomas",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GR Furse",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Berkshire",
+                        "location": "Reading School Ground, Erleigh Road, Reading",
+                        "seriesDate": "1996",
+                        "partnership": 124,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "MP Briers",
+                        "player1Score": 95,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "GR Furse",
+                        "player2Score": 44,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1929",
+                        "partnership": 129,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "WD Cory",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "H Ollerearnshaw",
+                        "player2Score": 70,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Berkshire",
+                        "location": "Wheal Eliza, Bethel, St Austell",
+                        "seriesDate": "2013",
+                        "partnership": 65,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "DF Davis",
+                        "player1Score": 131,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "MJ Bone",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Berkshire",
+                        "location": "Enborne Lodge, Newbury",
+                        "seriesDate": "2008",
+                        "partnership": 59,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "BA Smeeth",
+                        "player1Score": 76,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "AD Angove",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1911",
+                        "partnership": 130,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RF Vibart",
+                        "player1Score": 149,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "EF Hawken",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Berkshire",
+                        "location": "Wheal Eliza, Bethel, St Austell",
+                        "seriesDate": "2013",
+                        "partnership": 45,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "DF Davis",
+                        "player1Score": 131,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "Shakeel Ahmed",
+                        "player2Score": 8,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JA Mence",
+                "team": "Berkshire",
+                "opponents": "Cornwall",
+                "matches": 12,
+                "runs": 816,
+                "innings": 15,
+                "notOuts": 1,
+                "average": 58.28,
+                "hs": "182*"
+            }
+        ],
+        [
+            {
+                "name": "H Tresawna",
+                "team": "Cornwall",
+                "opponents": "Berkshire",
+                "matches": 27,
+                "runs": 962,
+                "innings": 44,
+                "notOuts": 4,
+                "average": 24.05,
+                "hs": "96*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GM Hawksworth",
+                "team": "Berkshire",
+                "opponents": "Cornwall",
+                "matches": 20,
+                "balls": 4390,
+                "maidens": 266,
+                "runs": 1453,
+                "wickets": 120,
+                "bbruns": 78,
+                "bbwickets": 8,
+                "average": 12.1
+            }
+        ],
+        [
+            {
+                "name": "F Whiting",
+                "team": "Cornwall",
+                "opponents": "Berkshire",
+                "matches": 28,
+                "balls": 5224,
+                "maidens": 268,
+                "runs": 2235,
+                "wickets": 140,
+                "bbruns": 24,
+                "bbwickets": 8,
+                "average": 15.96
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "GEJ Child",
+                "team": "Berkshire",
+                "opponents": "Cornwall",
+                "matches": 16,
+                "dismissals": 24
+            }
+        ],
+        [
+            {
+                "name": "CM Gazzard",
+                "team": "Cornwall",
+                "opponents": "Berkshire",
+                "matches": 4,
+                "dismissals": 15
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "DW Stokes",
+                "team": "Berkshire",
+                "opponents": "Cornwall",
+                "matches": 11,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "GHI Bickford",
+                "team": "Cornwall",
+                "opponents": "Berkshire",
+                "matches": 9,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Cornwall",
+                    "total": 38,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Egloshayle Road, Wadebridge",
+                    "seriesDate": "1968"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Cornwall",
+                    "total": 38,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Egloshayle Road, Wadebridge",
+                    "seriesDate": "1968"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Cornwall",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1928"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Berkshire",
+                    "total": 53,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Roskear, Camborne",
+                    "seriesDate": "1922"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Berkshire",
+                    "total": 53,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Roskear, Camborne",
+                    "seriesDate": "1922"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Berkshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Trescobeas, Falmouth",
+                    "seriesDate": "1985"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:27.471229Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

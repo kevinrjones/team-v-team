@@ -1,0 +1,888 @@
+{
+    "team1": "Gloucestershire Second XI",
+    "team2": "Surrey Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 13,
+        "startDate": "1939-06-09T01:00",
+        "endDate": "1958-07-28T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Gloucestershire Second XI",
+                "opponents": "Surrey Second XI",
+                "total": 372,
+                "wickets": 10,
+                "declared": false,
+                "location": "Ashley Down Ground, Bristol",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "team": "Surrey Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "total": 451,
+                "wickets": 5,
+                "declared": true,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1939"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "GW Parker",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Surrey Second XI",
+                "score": 165,
+                "notOut": false,
+                "location": "Ashley Down Ground, Bristol",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "name": "GJ Whittaker",
+                "team": "Surrey Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "score": 253,
+                "notOut": true,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1950"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "LM Cranfield",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Surrey Second XI",
+                "wickets": 9,
+                "runs": 38,
+                "location": "Ashley Down Ground, Bristol",
+                "seriesDate": "1947"
+            }
+        ],
+        [
+            {
+                "name": "TH Clark",
+                "team": "Surrey Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "wickets": 6,
+                "runs": 97,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "BD Wells",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Surrey Second XI",
+                "wickets": 12,
+                "runs": 58,
+                "location": "Erinoid Ground, Stroud",
+                "seriesDate": "1958"
+            }
+        ],
+        [
+            {
+                "name": "WT Nevell",
+                "team": "Surrey Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "wickets": 9,
+                "runs": 74,
+                "location": "Ashley Down Ground, Bristol",
+                "seriesDate": "1939"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1949",
+                        "partnership": 98,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DTL Bailey",
+                        "player1Score": 57,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AGS Wilcox",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 107,
+                        "wicket": 1,
+                        "playerDetails": [
+                            {
+                                "team": "Gloucestershire Second XI",
+                                "opponents": "Surrey Second XI",
+                                "location": "Kennington Oval, Kennington",
+                                "seriesDate": "1949",
+                                "partnership": 98,
+                                "wicket": 1,
+                                "undefeated": false,
+                                "player1Name": "DTL Bailey",
+                                "player1Score": 57,
+                                "player1NotOut": false,
+                                "player1Position": 2,
+                                "player2Name": "AGS Wilcox",
+                                "player2Score": 71,
+                                "player2NotOut": false,
+                                "player2Position": 3
+                            },
+                            {
+                                "team": "Gloucestershire Second XI",
+                                "opponents": "Surrey Second XI",
+                                "location": "Kennington Oval, Kennington",
+                                "seriesDate": "1949",
+                                "partnership": 9,
+                                "wicket": 1,
+                                "undefeated": true,
+                                "player1Name": "BH Lyon",
+                                "player1Score": 55,
+                                "player1NotOut": false,
+                                "player1Position": 1,
+                                "player2Name": "DTL Bailey",
+                                "player2Score": 57,
+                                "player2NotOut": false,
+                                "player2Position": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1958",
+                        "partnership": 82,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "RK Whiley",
+                        "player1Score": 28,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RJ Etheridge",
+                        "player2Score": 55,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1950",
+                        "partnership": 224,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DTL Bailey",
+                        "player1Score": 129,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "CI Monks",
+                        "player2Score": 114,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1958",
+                        "partnership": 94,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JD Currie",
+                        "player1Score": 53,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "HJ Jarman",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Surrey Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1948",
+                        "partnership": 120,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "TW Graveney",
+                        "player1Score": 82,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "CA Milton",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Surrey Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1949",
+                        "partnership": 45,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GW Parker",
+                        "player1Score": 165,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "PB Nicholls",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Surrey Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1949",
+                        "partnership": 151,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "GW Parker",
+                        "player1Score": 165,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JAGC Law",
+                        "player2Score": 67,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1957",
+                        "partnership": 36,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JR Bernard",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "AV Avery",
+                        "player2Score": 35,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1948",
+                        "partnership": 84,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "JKR Graveney",
+                        "player1Score": 39,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "DH Boxall",
+                        "player2Score": 42,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1947",
+                        "partnership": 37,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JKR Graveney",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "C Hollinshead",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1958",
+                        "partnership": 230,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "ABD Parsons",
+                        "player1Score": 101,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JH Edrich",
+                        "player2Score": 116,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1947",
+                        "partnership": 103,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1939",
+                        "partnership": 270,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1950",
+                        "partnership": 164,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "GJ Whittaker",
+                        "player1Score": 253,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "DE Pratt",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1948",
+                        "partnership": 103,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1939",
+                        "partnership": 65,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1957",
+                        "partnership": 15,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "D Gibson",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "LA Johnson",
+                        "player2Score": 12,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    },
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1958",
+                        "partnership": 15,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "DF Cox",
+                        "player1Score": 46,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "PG McKelvey",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1939",
+                        "partnership": 126,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "HR Crouch",
+                        "player1Score": 94,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "B Constable",
+                        "player2Score": 60,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1947",
+                        "partnership": 40,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "GNG Kirby",
+                        "player1Score": 21,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "WS Surridge",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1957",
+                        "partnership": 11,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "D Gibson",
+                        "player1Score": 22,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "PG McKelvey",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AGS Wilcox",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Surrey Second XI",
+                "matches": 9,
+                "runs": 476,
+                "innings": 14,
+                "notOuts": 0,
+                "average": 34.0,
+                "hs": "71"
+            }
+        ],
+        [
+            {
+                "name": "GJ Whittaker",
+                "team": "Surrey Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "matches": 7,
+                "runs": 507,
+                "innings": 9,
+                "notOuts": 2,
+                "average": 72.42,
+                "hs": "253*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "DA Allen",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Surrey Second XI",
+                "matches": 4,
+                "balls": 695,
+                "maidens": 38,
+                "runs": 348,
+                "wickets": 19,
+                "bbruns": 73,
+                "bbwickets": 5,
+                "average": 18.31
+            }
+        ],
+        [
+            {
+                "name": "WT Nevell",
+                "team": "Surrey Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "matches": 2,
+                "balls": 466,
+                "maidens": 6,
+                "runs": 181,
+                "wickets": 15,
+                "bbruns": 17,
+                "bbwickets": 5,
+                "average": 12.06
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "AGS Wilcox",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Surrey Second XI",
+                "matches": 9,
+                "dismissals": 10
+            }
+        ],
+        [
+            {
+                "name": "GNG Kirby",
+                "team": "Surrey Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "matches": 7,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RJ Etheridge",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Surrey Second XI",
+                "matches": 3,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "GNG Kirby",
+                "team": "Surrey Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "matches": 7,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Gloucestershire Second XI",
+                    "opponents": "Surrey Second XI",
+                    "total": 137,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1947"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Gloucestershire Second XI",
+                    "opponents": "Surrey Second XI",
+                    "total": 137,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1947"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Gloucestershire Second XI",
+                    "opponents": "Surrey Second XI",
+                    "total": 18,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Erinoid Ground, Stroud",
+                    "seriesDate": "1958"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Surrey Second XI",
+                    "opponents": "Gloucestershire Second XI",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Erinoid Ground, Stroud",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Surrey Second XI",
+                    "opponents": "Gloucestershire Second XI",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Erinoid Ground, Stroud",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Surrey Second XI",
+                    "opponents": "Gloucestershire Second XI",
+                    "total": 21,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Ashley Down Ground, Bristol",
+                    "seriesDate": "1939"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:36.168202Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

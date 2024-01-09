@@ -1,0 +1,871 @@
+{
+    "team1": "Cambridge University",
+    "team2": "Glamorgan",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 28,
+        "startDate": "1929-05-08T01:00",
+        "endDate": "1998-05-13T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridge University",
+                "opponents": "Glamorgan",
+                "total": 513,
+                "wickets": 5,
+                "declared": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "team": "Glamorgan",
+                "opponents": "Cambridge University",
+                "total": 416,
+                "wickets": 8,
+                "declared": true,
+                "location": "St Helen's, Swansea",
+                "seriesDate": "1975"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "ET Killick",
+                "team": "Cambridge University",
+                "opponents": "Glamorgan",
+                "score": 200,
+                "notOut": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1929"
+            }
+        ],
+        [
+            {
+                "name": "AR Butcher",
+                "team": "Glamorgan",
+                "opponents": "Cambridge University",
+                "score": 166,
+                "notOut": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1988"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "KI Hodgson",
+                "team": "Cambridge University",
+                "opponents": "Glamorgan",
+                "wickets": 8,
+                "runs": 68,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1982"
+            }
+        ],
+        [
+            {
+                "name": "J Mercer",
+                "team": "Glamorgan",
+                "opponents": "Cambridge University",
+                "wickets": 7,
+                "runs": 72,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1929"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "KI Hodgson",
+                "team": "Cambridge University",
+                "opponents": "Glamorgan",
+                "wickets": 10,
+                "runs": 139,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1982"
+            }
+        ],
+        [
+            {
+                "name": "EA Cordle",
+                "team": "Glamorgan",
+                "opponents": "Cambridge University",
+                "wickets": 9,
+                "runs": 73,
+                "location": "Ynysangharad Park, Pontypridd",
+                "seriesDate": "1971"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Glamorgan",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1938",
+                        "partnership": 223,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "BD Carris",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PA Gibb",
+                        "player2Score": 133,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Glamorgan",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1929",
+                        "partnership": 331,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "WK Harbinson",
+                        "player1Score": 109,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "ET Killick",
+                        "player2Score": 200,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Glamorgan",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1929",
+                        "partnership": 185,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Glamorgan",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1934",
+                        "partnership": 225,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Glamorgan",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1972",
+                        "partnership": 177,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "Majid Khan",
+                        "player1Score": 109,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "DR Owen-Thomas",
+                        "player2Score": 61,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Glamorgan",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1982",
+                        "partnership": 105,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1934",
+                        "partnership": 89,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Glamorgan",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1993",
+                        "partnership": 50,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RQ Cake",
+                        "player1Score": 57,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "CM Pitcher",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1934",
+                        "partnership": 54,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Glamorgan",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1975",
+                        "partnership": 63,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "SP Coverdale",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "ME Allbrook",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1994",
+                        "partnership": 171,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SP James",
+                        "player1Score": 138,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "A Dale",
+                        "player2Score": 109,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 224,
+                        "wicket": 1,
+                        "playerDetails": [
+                            {
+                                "team": "Glamorgan",
+                                "opponents": "Cambridge University",
+                                "location": "FP Fenner's Ground, Cambridge",
+                                "seriesDate": "1996",
+                                "partnership": 162,
+                                "wicket": 1,
+                                "undefeated": true,
+                                "player1Name": "SP James",
+                                "player1Score": 102,
+                                "player1NotOut": true,
+                                "player1Position": 1,
+                                "player2Name": "MP Maynard",
+                                "player2Score": 100,
+                                "player2NotOut": true,
+                                "player2Position": 2
+                            },
+                            {
+                                "team": "Glamorgan",
+                                "opponents": "Cambridge University",
+                                "location": "FP Fenner's Ground, Cambridge",
+                                "seriesDate": "1996",
+                                "partnership": 62,
+                                "wicket": 1,
+                                "undefeated": false,
+                                "player1Name": "SP James",
+                                "player1Score": 102,
+                                "player1NotOut": true,
+                                "player1Position": 1,
+                                "player2Name": "PA Cottey",
+                                "player2Score": 21,
+                                "player2NotOut": false,
+                                "player2Position": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1996",
+                        "partnership": 247,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "H Morris",
+                        "player1Score": 126,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "DL Hemp",
+                        "player2Score": 103,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1962",
+                        "partnership": 158,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cambridge University",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1938",
+                        "partnership": 186,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cambridge University",
+                        "location": "Ynysangharad Park, Pontypridd",
+                        "seriesDate": "1965",
+                        "partnership": 99,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1929",
+                        "partnership": 125,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cambridge University",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1972",
+                        "partnership": 127,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MJ Llewellyn",
+                        "player1Score": 112,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "EA Cordle",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1977",
+                        "partnership": 120,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "EW Jones",
+                        "player1Score": 51,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "KJ Lyons",
+                        "player2Score": 65,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1982",
+                        "partnership": 57,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cambridge University",
+                        "location": "Steel Company of Wales Ground, Margam",
+                        "seriesDate": "1963",
+                        "partnership": 75,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JS Pressdee",
+                        "player1Score": 88,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "DJ Shepherd",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Majid Khan",
+                "team": "Cambridge University",
+                "opponents": "Glamorgan",
+                "matches": 4,
+                "runs": 410,
+                "innings": 8,
+                "notOuts": 2,
+                "average": 68.33,
+                "hs": "139*"
+            }
+        ],
+        [
+            {
+                "name": "A Jones",
+                "team": "Glamorgan",
+                "opponents": "Cambridge University",
+                "matches": 14,
+                "runs": 1002,
+                "innings": 25,
+                "notOuts": 1,
+                "average": 41.75,
+                "hs": "115"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "PH Edmonds",
+                "team": "Cambridge University",
+                "opponents": "Glamorgan",
+                "matches": 4,
+                "balls": 1212,
+                "maidens": 63,
+                "runs": 434,
+                "wickets": 17,
+                "bbruns": 93,
+                "bbwickets": 4,
+                "average": 25.52
+            }
+        ],
+        [
+            {
+                "name": "EA Cordle",
+                "team": "Glamorgan",
+                "opponents": "Cambridge University",
+                "matches": 10,
+                "balls": 1415,
+                "maidens": 70,
+                "runs": 516,
+                "wickets": 29,
+                "bbruns": 35,
+                "bbwickets": 5,
+                "average": 17.79
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "CRV Taylor",
+                "team": "Cambridge University",
+                "opponents": "Glamorgan",
+                "matches": 4,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "EW Jones",
+                "team": "Glamorgan",
+                "opponents": "Cambridge University",
+                "matches": 11,
+                "dismissals": 23
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "CRV Taylor",
+                "team": "Cambridge University",
+                "opponents": "Glamorgan",
+                "matches": 4,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "EW Jones",
+                "team": "Glamorgan",
+                "opponents": "Cambridge University",
+                "matches": 11,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Glamorgan",
+                    "total": 99,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1991"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Glamorgan",
+                    "total": 99,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1991"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Glamorgan",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1991"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Cambridge University",
+                    "total": 149,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1964"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Cambridge University",
+                    "total": 149,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1964"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Cambridge University",
+                    "total": 23,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Penrhyn Avenue, Rhos-on-Sea, Colwyn Bay",
+                    "seriesDate": "1968"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:14.666135Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

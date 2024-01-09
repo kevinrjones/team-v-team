@@ -2,13 +2,17 @@ package com.knowledgespike.teamvteam.database
 
 import com.knowledgespike.db.tables.references.MATCHES
 import com.knowledgespike.db.tables.references.MATCHSUBTYPE
+import com.knowledgespike.extensions.generateFileName
 import com.knowledgespike.teamvteam.Application.Companion.dialect
 import com.knowledgespike.teamvteam.TeamNameToIds
 import com.knowledgespike.teamvteam.daos.MatchDto
 import com.knowledgespike.teamvteam.data.Author
 import com.knowledgespike.teamvteam.data.TeamsAndOpponents
+import com.knowledgespike.teamvteam.getTvTJsonData
 import com.knowledgespike.teamvteam.logging.LoggerDelegate
-import kotlinx.coroutines.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import kotlinx.datetime.Instant
 import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.TimeZone
@@ -65,7 +69,8 @@ class ProcessTeams(
         userName: String,
         password: String,
         matchSubType: String,
-        callback: (teamPairDetails: TeamPairDetails) -> Unit
+        jsonDirectory: String,
+        callback: (teamPairDetails: TeamPairDetails, jsonDirectory: String) -> Unit
     ) {
 
         val matchType: String = matchTypeFromSubType(matchSubType)
@@ -83,37 +88,92 @@ class ProcessTeams(
                         arrayOf(teamsAndOpponents.teamName, teamsAndOpponents.opponentsName),
                         matchDto
                     )
-                val jobs = mutableListOf<Job>()
 
-                withContext(Dispatchers.IO) {
-                    val job = launch {
-                        getTeamRecords(teamPairDetails, teamRecords, teamsAndOpponents, matchType, matchSubType)
-                        getIndividualRecords(teamPairDetails, teamRecords, teamsAndOpponents, matchType, matchSubType)
+                val fileName = teamPairDetails.generateFileName(matchSubType)
+
+                val lastUpdatedDate = getLastUpdatedDate(jsonDirectory, fileName)
+
+
+                if (lastUpdatedDate == null || checkIfShouldProcess(
+                        connectionString,
+                        userName,
+                        password,
+                        teamsAndOpponents.teamIds,
+                        teamsAndOpponents.opponentIds,
+                        matchType,
+                        lastUpdatedDate
+                    )
+                ) {
+
+
+                    withContext(Dispatchers.IO) {
+                        val job = launch {
+                            getTeamRecords(teamPairDetails, teamRecords, teamsAndOpponents, matchType, matchSubType)
+                            getIndividualRecords(
+                                teamPairDetails,
+                                teamRecords,
+                                teamsAndOpponents,
+                                matchType,
+                                matchSubType
+                            )
+
+                        val maybeAuthors1 = opponentsWithAuthors
+                            .filter { it.key == teamPairDetails.teams[0] }
+                            .get(teamPairDetails.teams[0])?.map { it }
+                            ?.filter { it.opponent == teamPairDetails.teams[1] }
+                            ?.map { it.name }
+                        val maybeAuthors2 = opponentsWithAuthors
+                            .filter { it.key == teamPairDetails.teams[1] }
+                            .get(teamPairDetails.teams[1])?.map { it }
+                            ?.filter { it.opponent == teamPairDetails.teams[0] }
+                            ?.map { it.name }
+
+                        if (maybeAuthors1 != null && maybeAuthors1.isNotEmpty())
+                            teamPairDetails.authors.addAll(maybeAuthors1)
+                        if (maybeAuthors2 != null && maybeAuthors2.isNotEmpty())
+                            teamPairDetails.authors.addAll(maybeAuthors2)
+
+                        }
+
+                        job.join()
+
+                        callback(teamPairDetails, jsonDirectory)
                     }
-                    jobs.add(job)
-                    jobs.forEach { j -> j.join() }
-
-                    val maybeAuthors1 = opponentsWithAuthors
-                        .filter { it.key == teamPairDetails.teams[0] }
-                        .get(teamPairDetails.teams[0])?.map { it }
-                        ?.filter { it.opponent == teamPairDetails.teams[1] }
-                        ?.map { it.name }
-                    val maybeAuthors2 = opponentsWithAuthors
-                        .filter { it.key == teamPairDetails.teams[1] }
-                        .get(teamPairDetails.teams[1])?.map { it }
-                        ?.filter { it.opponent == teamPairDetails.teams[0] }
-                        ?.map { it.name }
-
-                    if (maybeAuthors1 != null && maybeAuthors1.isNotEmpty())
-                        teamPairDetails.authors.addAll(maybeAuthors1)
-                    if (maybeAuthors2 != null && maybeAuthors2.isNotEmpty())
-                        teamPairDetails.authors.addAll(maybeAuthors2)
-
-
-                    callback(teamPairDetails)
                 }
             }
         }
+    }
+
+    private fun getLastUpdatedDate(jsonDirectory: String, fileName: String): Long? {
+        val details = getTvTJsonData(jsonDirectory, fileName)
+        return details?.lastUpdated?.epochSeconds
+    }
+
+    private fun checkIfShouldProcess(
+        connectionString: String,
+        userName: String,
+        password: String,
+        teamIds: List<Int>,
+        opponentIds: List<Int>,
+        matchType: String,
+        dateOffset: Long
+    ): Boolean {
+        DriverManager.getConnection(connectionString, userName, password).use { connection ->
+            val context = DSL.using(connection, dialect)
+            val res = context.select(MATCHES.ID).from(MATCHES).where(
+                (MATCHES.HOMETEAMID.`in`(teamIds)
+                    .or(MATCHES.HOMETEAMID.`in`(opponentIds)))
+                    .and(
+                        MATCHES.AWAYTEAMID.`in`(opponentIds)
+                            .or(MATCHES.AWAYTEAMID.`in`(teamIds))
+                    )
+                    .and(MATCHES.MATCHTYPE.eq(matchType))
+                    .and(MATCHES.ADDEDDATEASOFFSET.gt(dateOffset))
+            ).fetch()
+
+            if (res.isNotEmpty) return true
+        }
+        return false
     }
 
 
@@ -132,7 +192,7 @@ class ProcessTeams(
             matchTypesToExclude.add("sec")
 
         DriverManager.getConnection(connectionString, userName, password).use { conn ->
-            
+
 
             val context = DSL.using(conn, dialect)
             val result = context.select(
@@ -140,11 +200,11 @@ class ProcessTeams(
                 min(MATCHES.MATCHSTARTDATEASOFFSET).`as`("startDate"),
                 max(MATCHES.MATCHSTARTDATEASOFFSET).`as`("endDate"),
             ).from(MATCHES).where(
-                (MATCHES.HOMETEAMID.`in`(teamsAndOpponents.teamdIds)
+                (MATCHES.HOMETEAMID.`in`(teamsAndOpponents.teamIds)
                     .or(MATCHES.HOMETEAMID.`in`(teamsAndOpponents.opponentIds)))
                     .and(
                         MATCHES.AWAYTEAMID.`in`(teamsAndOpponents.opponentIds)
-                            .or(MATCHES.AWAYTEAMID.`in`(teamsAndOpponents.teamdIds))
+                            .or(MATCHES.AWAYTEAMID.`in`(teamsAndOpponents.teamIds))
                     )
                     .and(
                         MATCHES.ID.`in`(
@@ -187,7 +247,7 @@ class ProcessTeams(
     ) {
 
         val teamParamA = TeamParams(
-            teamsAndOpponents.teamdIds,
+            teamsAndOpponents.teamIds,
             teamsAndOpponents.opponentIds,
             teamsAndOpponents.teamName,
             teamsAndOpponents.opponentsName,
@@ -196,7 +256,7 @@ class ProcessTeams(
         )
         val teamParamB = TeamParams(
             teamsAndOpponents.opponentIds,
-            teamsAndOpponents.teamdIds,
+            teamsAndOpponents.teamIds,
             teamsAndOpponents.opponentsName,
             teamsAndOpponents.teamName,
             matchType,
@@ -215,7 +275,7 @@ class ProcessTeams(
         matchSubType: String
     ) {
         val teamParamA = TeamParams(
-            teamsAndOpponents.teamdIds,
+            teamsAndOpponents.teamIds,
             teamsAndOpponents.opponentIds,
             teamsAndOpponents.teamName,
             teamsAndOpponents.opponentsName,
@@ -224,7 +284,7 @@ class ProcessTeams(
         )
         val teamParamB = TeamParams(
             teamsAndOpponents.opponentIds,
-            teamsAndOpponents.teamdIds,
+            teamsAndOpponents.teamIds,
             teamsAndOpponents.opponentsName,
             teamsAndOpponents.teamName,
             matchType,

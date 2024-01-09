@@ -1,0 +1,911 @@
+{
+    "team1": "Marylebone Cricket Club",
+    "team2": "Hampshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 40,
+        "startDate": "1797-08-06T23:58:45",
+        "endDate": "1974-04-24T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Keith Walmsley"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "total": 373,
+                "wickets": 10,
+                "declared": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1861"
+            }
+        ],
+        [
+            {
+                "team": "Hampshire",
+                "opponents": "Marylebone Cricket Club",
+                "total": 382,
+                "wickets": 10,
+                "declared": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1913"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "G Davenport",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "score": 101,
+                "notOut": true,
+                "location": "County Ground, Southampton",
+                "seriesDate": "1885"
+            }
+        ],
+        [
+            {
+                "name": "BA Richards",
+                "team": "Hampshire",
+                "opponents": "Marylebone Cricket Club",
+                "score": 189,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1974"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "A Rylott",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "wickets": 8,
+                "runs": 26,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1878"
+            }
+        ],
+        [
+            {
+                "name": "A Mynn",
+                "team": "Hampshire",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 8,
+                "runs": 54,
+                "location": "Day's (Antelope) Ground, Southampton",
+                "seriesDate": "1844"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "A Rylott",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "wickets": 14,
+                "runs": 34,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1878"
+            }
+        ],
+        [
+            {
+                "name": "CR Young",
+                "team": "Hampshire",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 13,
+                "runs": 57,
+                "location": "Day's (Antelope) Ground, Southampton",
+                "seriesDate": "1880"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1963",
+                        "partnership": 116,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JB Bolus",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "W Watson",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1869",
+                        "partnership": 84,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "T Hearne",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "EGG Sutton",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1877",
+                        "partnership": 112,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "JS Russel",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RT Richardson",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1963",
+                        "partnership": 81,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "FJ Titmus",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "PH Parfitt",
+                        "player2Score": 101,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1963",
+                        "partnership": 91,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "PH Parfitt",
+                        "player1Score": 101,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "MJK Smith",
+                        "player2Score": 58,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1844",
+                        "partnership": 69,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "J Dean",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "A Haygarth",
+                        "player2Score": 42,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1959",
+                        "partnership": 76,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "JF Pretlove",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "B Taylor",
+                        "player2Score": 55,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "Day's (Antelope) Ground, Southampton",
+                        "seriesDate": "1843",
+                        "partnership": 48,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RW Keate",
+                        "player1Score": 18,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "JH Dark",
+                        "player2Score": 34,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    },
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1885",
+                        "partnership": 48,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "G Davenport",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "CW Hulse",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    },
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1956",
+                        "partnership": 48,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JP Fellows-Smith",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "RJ Hurst",
+                        "player2Score": 23,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1911",
+                        "partnership": 52,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JT Hearne",
+                        "player1Score": 30,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "B Tremlin",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Hampshire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1953",
+                        "partnership": 32,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "JW Martin",
+                        "player1Score": 12,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "JHG Deighton",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1963",
+                        "partnership": 53,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RE Marshall",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JR Gray",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1959",
+                        "partnership": 100,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "RE Marshall",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "H Horton",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1963",
+                        "partnership": 82,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "H Horton",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DA Livingstone",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1959",
+                        "partnership": 114,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DO Baldry",
+                        "player1Score": 123,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "ACD Ingleby-Mackenzie",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1913",
+                        "partnership": 62,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "J Stone",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "J Evans",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1956",
+                        "partnership": 184,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "HM Barnard",
+                        "player1Score": 128,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "PJ Sainsbury",
+                        "player2Score": 67,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1963",
+                        "partnership": 105,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "ACD Ingleby-Mackenzie",
+                        "player1Score": 77,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "BSV Timms",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1913",
+                        "partnership": 98,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "EM Sprot",
+                        "player1Score": 90,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JA Newman",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1895",
+                        "partnership": 52,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "FH Bacon",
+                        "player1Score": 12,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "HWR Bencraft",
+                        "player2Score": 28,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    },
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1895",
+                        "partnership": 52,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "HWR Bencraft",
+                        "player1Score": 22,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "T Soar",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1914",
+                        "partnership": 86,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "HAH Smith",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "GC Harrison",
+                        "player2Score": 91,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Lord F Beauclerk",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "matches": 8,
+                "runs": 291,
+                "innings": 15,
+                "notOuts": 1,
+                "average": 20.78,
+                "hs": "75*"
+            }
+        ],
+        [
+            {
+                "name": "W Ward",
+                "team": "Hampshire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 8,
+                "runs": 270,
+                "innings": 15,
+                "notOuts": 1,
+                "average": 19.28,
+                "hs": "68"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "A Rylott",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "matches": 5,
+                "balls": 1058,
+                "maidens": 137,
+                "runs": 272,
+                "wickets": 38,
+                "bbruns": 26,
+                "bbwickets": 8,
+                "average": 7.15
+            }
+        ],
+        [
+            {
+                "name": "CR Young",
+                "team": "Hampshire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 5,
+                "balls": 916,
+                "maidens": 98,
+                "runs": 346,
+                "wickets": 37,
+                "bbruns": 19,
+                "bbwickets": 7,
+                "average": 9.35
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "W Dorrinton",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "matches": 4,
+                "dismissals": 7
+            },
+            {
+                "name": "A Rylott",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "matches": 5,
+                "dismissals": 7
+            },
+            {
+                "name": "GF Vernon",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "matches": 2,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "CR Young",
+                "team": "Hampshire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 6,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "W Dorrinton",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "matches": 4,
+                "dismissals": 2
+            },
+            {
+                "name": "TG Evans",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "F Wyld",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Hampshire",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "G Ubsdell",
+                "team": "Hampshire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Hampshire",
+                    "total": 43,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Day's (Antelope) Ground, Southampton",
+                    "seriesDate": "1880"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Hampshire",
+                    "total": 43,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Day's (Antelope) Ground, Southampton",
+                    "seriesDate": "1880"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Hampshire",
+                    "total": 43,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Day's (Antelope) Ground, Southampton",
+                    "seriesDate": "1880"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Hampshire",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 24,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1878"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Hampshire",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 24,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1878"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Hampshire",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 18,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1880"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:18.178550Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

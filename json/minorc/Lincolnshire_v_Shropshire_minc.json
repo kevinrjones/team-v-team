@@ -1,0 +1,825 @@
+{
+    "team1": "Lincolnshire",
+    "team2": "Shropshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 20,
+        "startDate": "1961-06-14T01:00",
+        "endDate": "1970-07-01T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Chris Keywood"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Lincolnshire",
+                "opponents": "Shropshire",
+                "total": 354,
+                "wickets": 5,
+                "declared": true,
+                "location": "Rolls Royce Ground, Shrewsbury",
+                "seriesDate": "1962"
+            }
+        ],
+        [
+            {
+                "team": "Shropshire",
+                "opponents": "Lincolnshire",
+                "total": 299,
+                "wickets": 6,
+                "declared": false,
+                "location": "Abbey Lawn, Bourne",
+                "seriesDate": "1967"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "B Swift",
+                "team": "Lincolnshire",
+                "opponents": "Shropshire",
+                "score": 152,
+                "notOut": false,
+                "location": "Rolls Royce Ground, Shrewsbury",
+                "seriesDate": "1962"
+            }
+        ],
+        [
+            {
+                "name": "ADT Jones",
+                "team": "Shropshire",
+                "opponents": "Lincolnshire",
+                "score": 125,
+                "notOut": false,
+                "location": "Abbey Lawn, Bourne",
+                "seriesDate": "1967"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "J Lawrence",
+                "team": "Lincolnshire",
+                "opponents": "Shropshire",
+                "wickets": 7,
+                "runs": 45,
+                "location": "Rolls Royce Ground, Shrewsbury",
+                "seriesDate": "1962"
+            }
+        ],
+        [
+            {
+                "name": "K Arch",
+                "team": "Shropshire",
+                "opponents": "Lincolnshire",
+                "wickets": 7,
+                "runs": 38,
+                "location": "High Town, Bridgnorth",
+                "seriesDate": "1961"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "NM McVicker",
+                "team": "Lincolnshire",
+                "opponents": "Shropshire",
+                "wickets": 10,
+                "runs": 62,
+                "location": "Brumby Hall, Scunthorpe",
+                "seriesDate": "1963"
+            }
+        ],
+        [
+            {
+                "name": "P Bradley",
+                "team": "Shropshire",
+                "opponents": "Lincolnshire",
+                "wickets": 11,
+                "runs": 74,
+                "location": "High Town, Bridgnorth",
+                "seriesDate": "1969"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Shropshire",
+                        "location": "Augusta Street, Grimsby",
+                        "seriesDate": "1970",
+                        "partnership": 63,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CD Fearnley",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "G Robinson",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Shropshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1969",
+                        "partnership": 85,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CD Fearnley",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "T Johnson",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Shropshire",
+                        "location": "Abbey Lawn, Bourne",
+                        "seriesDate": "1967",
+                        "partnership": 97,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "G Robinson",
+                        "player1Score": 137,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "IS Madray",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Shropshire",
+                        "location": "Grove Ground, Market Drayton",
+                        "seriesDate": "1966",
+                        "partnership": 78,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "IS Madray",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CA Richardson",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Shropshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1968",
+                        "partnership": 71,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MJ Keyworth",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CA Richardson",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Shropshire",
+                        "location": "Ross Sports Club Ground, Weelsby Road, Grimsby",
+                        "seriesDate": "1969",
+                        "partnership": 43,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "CD Fearnley",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JB Evans",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Shropshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1968",
+                        "partnership": 77,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "CA Richardson",
+                        "player1Score": 61,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "NM McVicker",
+                        "player2Score": 49,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Shropshire",
+                        "location": "Ross Sports Club Ground, Weelsby Road, Grimsby",
+                        "seriesDate": "1969",
+                        "partnership": 46,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "HJ Price",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "S Ramadhin",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Shropshire",
+                        "location": "Ellesmere College Ground, Ellesmere",
+                        "seriesDate": "1967",
+                        "partnership": 31,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JB Evans",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "R Hanson",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Shropshire",
+                        "location": "Augusta Street, Grimsby",
+                        "seriesDate": "1962",
+                        "partnership": 108,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "EH Nutter",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "JRC Todd",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Abbey Lawn, Bourne",
+                        "seriesDate": "1967",
+                        "partnership": 48,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "ADT Jones",
+                        "player1Score": 125,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JS Johnson",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Abbey Lawn, Bourne",
+                        "seriesDate": "1967",
+                        "partnership": 180,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Lincolnshire",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1969",
+                        "partnership": 58,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Lindum Sports Club Ground, Lincoln",
+                        "seriesDate": "1964",
+                        "partnership": 74,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Lincolnshire",
+                        "location": "London Road, Shrewsbury",
+                        "seriesDate": "1965",
+                        "partnership": 64,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "C Smith",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "FB Everall",
+                        "player2Score": 27,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Augusta Street, Grimsby",
+                        "seriesDate": "1970",
+                        "partnership": 64,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Grove Ground, Market Drayton",
+                        "seriesDate": "1966",
+                        "partnership": 47,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "GA Taylor",
+                        "player1Score": 85,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "DF Lowe",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Lindum Sports Club Ground, Lincoln",
+                        "seriesDate": "1964",
+                        "partnership": 32,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Brumby Hall, Scunthorpe",
+                        "seriesDate": "1966",
+                        "partnership": 46,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Lincolnshire",
+                        "location": "Grove Ground, Market Drayton",
+                        "seriesDate": "1966",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "GA Taylor",
+                        "player1Score": 85,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "DL York",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "M Maslin",
+                "team": "Lincolnshire",
+                "opponents": "Shropshire",
+                "matches": 14,
+                "runs": 726,
+                "innings": 24,
+                "notOuts": 4,
+                "average": 36.3,
+                "hs": "122"
+            }
+        ],
+        [
+            {
+                "name": "ADT Jones",
+                "team": "Shropshire",
+                "opponents": "Lincolnshire",
+                "matches": 19,
+                "runs": 905,
+                "innings": 38,
+                "notOuts": 2,
+                "average": 25.13,
+                "hs": "125"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "J Lawrence",
+                "team": "Lincolnshire",
+                "opponents": "Shropshire",
+                "matches": 13,
+                "balls": 2668,
+                "maidens": 120,
+                "runs": 1062,
+                "wickets": 75,
+                "bbruns": 45,
+                "bbwickets": 7,
+                "average": 14.16
+            }
+        ],
+        [
+            {
+                "name": "DL York",
+                "team": "Shropshire",
+                "opponents": "Lincolnshire",
+                "matches": 16,
+                "balls": 2406,
+                "maidens": 60,
+                "runs": 1422,
+                "wickets": 65,
+                "bbruns": 82,
+                "bbwickets": 6,
+                "average": 21.87
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RN Beeson",
+                "team": "Lincolnshire",
+                "opponents": "Shropshire",
+                "matches": 11,
+                "dismissals": 27
+            }
+        ],
+        [
+            {
+                "name": "ADT Jones",
+                "team": "Shropshire",
+                "opponents": "Lincolnshire",
+                "matches": 19,
+                "dismissals": 19
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RN Beeson",
+                "team": "Lincolnshire",
+                "opponents": "Shropshire",
+                "matches": 11,
+                "dismissals": 15
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Lincolnshire",
+                    "opponents": "Shropshire",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "High Town, Bridgnorth",
+                    "seriesDate": "1961"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Lincolnshire",
+                    "opponents": "Shropshire",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "High Town, Bridgnorth",
+                    "seriesDate": "1961"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Lincolnshire",
+                    "opponents": "Shropshire",
+                    "total": 7,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Rolls Royce Ground, Shrewsbury",
+                    "seriesDate": "1964"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Lincolnshire",
+                    "total": 94,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ross Sports Club Ground, Weelsby Road, Grimsby",
+                    "seriesDate": "1969"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Lincolnshire",
+                    "total": 94,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ross Sports Club Ground, Weelsby Road, Grimsby",
+                    "seriesDate": "1969"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Lincolnshire",
+                    "total": 32,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "High Town, Bridgnorth",
+                    "seriesDate": "1969"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:10:25.588040Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

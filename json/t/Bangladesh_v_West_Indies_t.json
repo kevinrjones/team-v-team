@@ -1,0 +1,864 @@
+{
+    "team1": "Bangladesh",
+    "team2": "West Indies",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 20,
+        "startDate": "2002-12-08T00:00",
+        "endDate": "2022-06-24T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bangladesh",
+                "opponents": "West Indies",
+                "total": 556,
+                "wickets": 10,
+                "declared": false,
+                "location": "Shere Bangla National Stadium, Mirpur",
+                "seriesDate": "2012/13"
+            }
+        ],
+        [
+            {
+                "team": "West Indies",
+                "opponents": "Bangladesh",
+                "total": 648,
+                "wickets": 9,
+                "declared": true,
+                "location": "Sheikh Abu Naser Stadium, Khulna",
+                "seriesDate": "2012/13"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Mahmudullah",
+                "team": "Bangladesh",
+                "opponents": "West Indies",
+                "score": 136,
+                "notOut": false,
+                "location": "Shere Bangla National Stadium, Mirpur",
+                "seriesDate": "2018/19"
+            }
+        ],
+        [
+            {
+                "name": "RR Sarwan",
+                "team": "West Indies",
+                "opponents": "Bangladesh",
+                "score": 261,
+                "notOut": true,
+                "location": "Sabina Park, Kingston",
+                "seriesDate": "2004"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Mehedi Hasan",
+                "team": "Bangladesh",
+                "opponents": "West Indies",
+                "wickets": 7,
+                "runs": 58,
+                "location": "Shere Bangla National Stadium, Mirpur",
+                "seriesDate": "2018/19"
+            }
+        ],
+        [
+            {
+                "name": "JJC Lawson",
+                "team": "West Indies",
+                "opponents": "Bangladesh",
+                "wickets": 6,
+                "runs": 3,
+                "location": "Bangabandhu National Stadium, Dhaka",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Mehedi Hasan",
+                "team": "Bangladesh",
+                "opponents": "West Indies",
+                "wickets": 12,
+                "runs": 117,
+                "location": "Shere Bangla National Stadium, Mirpur",
+                "seriesDate": "2018/19"
+            }
+        ],
+        [
+            {
+                "name": "JO Holder",
+                "team": "West Indies",
+                "opponents": "Bangladesh",
+                "wickets": 11,
+                "runs": 103,
+                "location": "Sabina Park, Kingston",
+                "seriesDate": "2018"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "West Indies",
+                        "location": "Arnos Vale Playing Field, Kingstown",
+                        "seriesDate": "2009",
+                        "partnership": 82,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Tamim Iqbal",
+                        "player1Score": 128,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Imrul Kayes",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "West Indies",
+                        "location": "Arnos Vale Playing Field, Kingstown",
+                        "seriesDate": "2009",
+                        "partnership": 146,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Tamim Iqbal",
+                        "player1Score": 128,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Junaid Siddique",
+                        "player2Score": 78,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "West Indies",
+                        "location": "Beausejour Stadium, Gros Islet",
+                        "seriesDate": "2014",
+                        "partnership": 110,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "Tamim Iqbal",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Mominul Haque",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "West Indies",
+                        "location": "Shere Bangla National Stadium, Mirpur",
+                        "seriesDate": "2012/13",
+                        "partnership": 167,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "Naeem Islam",
+                        "player1Score": 108,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Shakib Al Hasan",
+                        "player2Score": 89,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "West Indies",
+                        "location": "Zohur Ahmed Chowdhury Stadium, Chittagong",
+                        "seriesDate": "2020/21",
+                        "partnership": 133,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "Mominul Haque",
+                        "player1Score": 115,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Liton Das",
+                        "player2Score": 69,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "West Indies",
+                        "location": "Sheikh Abu Naser Stadium, Khulna",
+                        "seriesDate": "2012/13",
+                        "partnership": 144,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Shakib Al Hasan",
+                        "player1Score": 97,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "Nasir Hossain",
+                        "player2Score": 94,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "West Indies",
+                        "location": "Shere Bangla National Stadium, Mirpur",
+                        "seriesDate": "2020/21",
+                        "partnership": 126,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Liton Das",
+                        "player1Score": 71,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "Mehedi Hasan",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "West Indies",
+                        "location": "Beausejour Stadium, Gros Islet",
+                        "seriesDate": "2004",
+                        "partnership": 87,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Mohammad Ashraful",
+                        "player1Score": 81,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "Mohammad Rafique",
+                        "player2Score": 111,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "West Indies",
+                        "location": "Sheikh Abu Naser Stadium, Khulna",
+                        "seriesDate": "2012/13",
+                        "partnership": 184,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "Mahmudullah",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Abul Hasan",
+                        "player2Score": 113,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "West Indies",
+                        "location": "Beausejour Stadium, Gros Islet",
+                        "seriesDate": "2004",
+                        "partnership": 46,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "Mohammad Rafique",
+                        "player1Score": 111,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "Tareq Aziz",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "West Indies",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "2004",
+                        "partnership": 46,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "Tapash Baisya",
+                        "player1Score": 48,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "Tareq Aziz",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Bangladesh",
+                        "location": "Beausejour Stadium, Gros Islet",
+                        "seriesDate": "2014",
+                        "partnership": 143,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "KC Brathwaite",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "LR Johnson",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Bangladesh",
+                        "location": "Shere Bangla National Stadium, Mirpur",
+                        "seriesDate": "2012/13",
+                        "partnership": 189,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "KOA Powell",
+                        "player1Score": 110,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DM Bravo",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Bangladesh",
+                        "location": "Sheikh Abu Naser Stadium, Khulna",
+                        "seriesDate": "2012/13",
+                        "partnership": 326,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DM Bravo",
+                        "player1Score": 127,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "MN Samuels",
+                        "player2Score": 260,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Bangladesh",
+                        "location": "Zohur Ahmed Chowdhury Stadium, Chittagong",
+                        "seriesDate": "2020/21",
+                        "partnership": 216,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "NE Bonner",
+                        "player1Score": 86,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "KR Mayers",
+                        "player2Score": 210,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Bangladesh",
+                        "location": "Shere Bangla National Stadium, Mirpur",
+                        "seriesDate": "2012/13",
+                        "partnership": 296,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "S Chanderpaul",
+                        "player1Score": 203,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "D Ramdin",
+                        "player2Score": 126,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Bangladesh",
+                        "location": "Zohur Ahmed Chowdhury Stadium, Chittagong",
+                        "seriesDate": "2020/21",
+                        "partnership": 100,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "KR Mayers",
+                        "player1Score": 210,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "JM Da Silva",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Bangladesh",
+                        "location": "Shere Bangla National Stadium, Mirpur",
+                        "seriesDate": "2020/21",
+                        "partnership": 118,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "JM Da Silva",
+                        "player1Score": 92,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "AS Joseph",
+                        "player2Score": 82,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Bangladesh",
+                        "location": "Queen's Park (New), St George's",
+                        "seriesDate": "2009",
+                        "partnership": 59,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "TM Dowlin",
+                        "player1Score": 95,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RA Austin",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Bangladesh",
+                        "location": "Zohur Ahmed Chowdhury Stadium, Chittagong",
+                        "seriesDate": "2018/19",
+                        "partnership": 63,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SW Ambris",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JA Warrican",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Bangladesh",
+                        "location": "Shere Bangla National Stadium, Mirpur",
+                        "seriesDate": "2018/19",
+                        "partnership": 42,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "KAJ Roach",
+                        "player1Score": 37,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "SH Lewis",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Tamim Iqbal",
+                "team": "Bangladesh",
+                "opponents": "West Indies",
+                "matches": 14,
+                "runs": 954,
+                "innings": 28,
+                "notOuts": 0,
+                "average": 34.07,
+                "hs": "128"
+            }
+        ],
+        [
+            {
+                "name": "KC Brathwaite",
+                "team": "West Indies",
+                "opponents": "Bangladesh",
+                "matches": 12,
+                "runs": 967,
+                "innings": 23,
+                "notOuts": 2,
+                "average": 46.04,
+                "hs": "212"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Shakib Al Hasan",
+                "team": "Bangladesh",
+                "opponents": "West Indies",
+                "matches": 13,
+                "balls": 2679,
+                "maidens": 93,
+                "runs": 1226,
+                "wickets": 47,
+                "bbruns": 33,
+                "bbwickets": 6,
+                "average": 26.08
+            }
+        ],
+        [
+            {
+                "name": "KAJ Roach",
+                "team": "West Indies",
+                "opponents": "Bangladesh",
+                "matches": 11,
+                "balls": 1892,
+                "maidens": 74,
+                "runs": 915,
+                "wickets": 44,
+                "bbruns": 48,
+                "bbwickets": 6,
+                "average": 20.79
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "Mushfiqur Rahim",
+                "team": "Bangladesh",
+                "opponents": "West Indies",
+                "matches": 14,
+                "dismissals": 20
+            }
+        ],
+        [
+            {
+                "name": "D Ramdin",
+                "team": "West Indies",
+                "opponents": "Bangladesh",
+                "matches": 4,
+                "dismissals": 20
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "Mushfiqur Rahim",
+                "team": "Bangladesh",
+                "opponents": "West Indies",
+                "matches": 14,
+                "dismissals": 3
+            },
+            {
+                "name": "Nurul Hasan",
+                "team": "Bangladesh",
+                "opponents": "West Indies",
+                "matches": 4,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "RD Jacobs",
+                "team": "West Indies",
+                "opponents": "Bangladesh",
+                "matches": 4,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bangladesh",
+                    "opponents": "West Indies",
+                    "total": 43,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sir Vivian Richards Stadium, North Sound",
+                    "seriesDate": "2018"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bangladesh",
+                    "opponents": "West Indies",
+                    "total": 43,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sir Vivian Richards Stadium, North Sound",
+                    "seriesDate": "2018"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bangladesh",
+                    "opponents": "West Indies",
+                    "total": 43,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sir Vivian Richards Stadium, North Sound",
+                    "seriesDate": "2018"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Bangladesh",
+                    "total": 111,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shere Bangla National Stadium, Mirpur",
+                    "seriesDate": "2018/19"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Bangladesh",
+                    "total": 111,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shere Bangla National Stadium, Mirpur",
+                    "seriesDate": "2018/19"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Bangladesh",
+                    "total": 13,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Arnos Vale Playing Field, Kingstown",
+                    "seriesDate": "2014"
+                },
+                {
+                    "team": "West Indies",
+                    "opponents": "Bangladesh",
+                    "total": 13,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Darren Sammy National Cricket Stadium, Gros Islet",
+                    "seriesDate": "2022"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:19:04.222529Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

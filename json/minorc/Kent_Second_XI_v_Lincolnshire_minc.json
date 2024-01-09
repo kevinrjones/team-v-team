@@ -1,0 +1,856 @@
+{
+    "team1": "Kent Second XI",
+    "team2": "Lincolnshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 4,
+        "startDate": "1913-07-28T00:00",
+        "endDate": "1914-07-31T00:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Chris Keywood"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Kent Second XI",
+                "opponents": "Lincolnshire",
+                "total": 253,
+                "wickets": 8,
+                "declared": false,
+                "location": "The Grove, Hythe",
+                "seriesDate": "1913"
+            }
+        ],
+        [
+            {
+                "team": "Lincolnshire",
+                "opponents": "Kent Second XI",
+                "total": 319,
+                "wickets": 10,
+                "declared": false,
+                "location": "The Grove, Hythe",
+                "seriesDate": "1913"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "LHW Troughton",
+                "team": "Kent Second XI",
+                "opponents": "Lincolnshire",
+                "score": 106,
+                "notOut": true,
+                "location": "The Grove, Hythe",
+                "seriesDate": "1913"
+            }
+        ],
+        [
+            {
+                "name": "BP Nevile",
+                "team": "Lincolnshire",
+                "opponents": "Kent Second XI",
+                "score": 73,
+                "notOut": false,
+                "location": "The Grove, Hythe",
+                "seriesDate": "1913"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "GAJ Smith",
+                "team": "Kent Second XI",
+                "opponents": "Lincolnshire",
+                "wickets": 6,
+                "runs": 26,
+                "location": "Jubilee Park, Woodhall Spa",
+                "seriesDate": "1914"
+            }
+        ],
+        [
+            {
+                "name": "JJ Broughton",
+                "team": "Lincolnshire",
+                "opponents": "Kent Second XI",
+                "wickets": 6,
+                "runs": 44,
+                "location": "Old County Ground, Town Malling",
+                "seriesDate": "1914"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "AP Freeman",
+                "team": "Kent Second XI",
+                "opponents": "Lincolnshire",
+                "wickets": 11,
+                "runs": 120,
+                "location": "Old County Ground, Town Malling",
+                "seriesDate": "1914"
+            }
+        ],
+        [
+            {
+                "name": "JJ Broughton",
+                "team": "Lincolnshire",
+                "opponents": "Kent Second XI",
+                "wickets": 11,
+                "runs": 73,
+                "location": "Old County Ground, Town Malling",
+                "seriesDate": "1914"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Lincolnshire",
+                        "location": "Jubilee Park, Woodhall Spa",
+                        "seriesDate": "1914",
+                        "partnership": 50,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JC Colquhoun",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GEC Wood",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Lincolnshire",
+                        "location": "The Grove, Hythe",
+                        "seriesDate": "1913",
+                        "partnership": 41,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Lincolnshire",
+                        "location": "Old County Ground, Town Malling",
+                        "seriesDate": "1914",
+                        "partnership": 41,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Lincolnshire",
+                        "location": "Jubilee Park, Woodhall Spa",
+                        "seriesDate": "1914",
+                        "partnership": 39,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Lincolnshire",
+                        "location": "Jubilee Park, Woodhall Spa",
+                        "seriesDate": "1914",
+                        "partnership": 48,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Lincolnshire",
+                        "location": "The Grove, Hythe",
+                        "seriesDate": "1913",
+                        "partnership": 55,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Lincolnshire",
+                        "location": "The Grove, Hythe",
+                        "seriesDate": "1913",
+                        "partnership": 103,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Lincolnshire",
+                        "location": "Jubilee Park, Woodhall Spa",
+                        "seriesDate": "1914",
+                        "partnership": 44,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Lincolnshire",
+                        "location": "Jubilee Park, Woodhall Spa",
+                        "seriesDate": "1914",
+                        "partnership": 21,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Lincolnshire",
+                        "location": "Jubilee Park, Woodhall Spa",
+                        "seriesDate": "1914",
+                        "partnership": 21,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Lincolnshire",
+                        "location": "Jubilee Park, Woodhall Spa",
+                        "seriesDate": "1913",
+                        "partnership": 17,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "RG Draper",
+                        "player1Score": 10,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "HJ Preston",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Old County Ground, Town Malling",
+                        "seriesDate": "1914",
+                        "partnership": 56,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CJ Nevile",
+                        "player1Score": 18,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "W Rose",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Kent Second XI",
+                        "location": "The Grove, Hythe",
+                        "seriesDate": "1913",
+                        "partnership": 74,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "WE Thompson",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "F Geeson",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Kent Second XI",
+                        "location": "The Grove, Hythe",
+                        "seriesDate": "1913",
+                        "partnership": 52,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Kent Second XI",
+                        "location": "The Grove, Hythe",
+                        "seriesDate": "1913",
+                        "partnership": 34,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Jubilee Park, Woodhall Spa",
+                        "seriesDate": "1913",
+                        "partnership": 49,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JJ Broughton",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "W Rose",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Jubilee Park, Woodhall Spa",
+                        "seriesDate": "1913",
+                        "partnership": 43,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "W Rose",
+                        "player1Score": 60,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "EE Riley",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Kent Second XI",
+                        "location": "The Grove, Hythe",
+                        "seriesDate": "1913",
+                        "partnership": 75,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "BP Nevile",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "G Hemingway",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Jubilee Park, Woodhall Spa",
+                        "seriesDate": "1913",
+                        "partnership": 14,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "W Rose",
+                        "player1Score": 60,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "R Warner",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Old County Ground, Town Malling",
+                        "seriesDate": "1914",
+                        "partnership": 102,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "J Kitchen",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "FB Mantle",
+                        "player2Score": 27,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Jubilee Park, Woodhall Spa",
+                        "seriesDate": "1913",
+                        "partnership": 11,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "EE Riley",
+                        "player1Score": 17,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "JA Brooke",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "LHW Troughton",
+                "team": "Kent Second XI",
+                "opponents": "Lincolnshire",
+                "matches": 2,
+                "runs": 160,
+                "innings": 4,
+                "notOuts": 1,
+                "average": 53.33,
+                "hs": "106*"
+            }
+        ],
+        [
+            {
+                "name": "W Rose",
+                "team": "Lincolnshire",
+                "opponents": "Kent Second XI",
+                "matches": 4,
+                "runs": 242,
+                "innings": 8,
+                "notOuts": 1,
+                "average": 34.57,
+                "hs": "68"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "AP Freeman",
+                "team": "Kent Second XI",
+                "opponents": "Lincolnshire",
+                "matches": 3,
+                "balls": 457,
+                "maidens": 7,
+                "runs": 260,
+                "wickets": 21,
+                "bbruns": 54,
+                "bbwickets": 6,
+                "average": 12.38
+            }
+        ],
+        [
+            {
+                "name": "JJ Broughton",
+                "team": "Lincolnshire",
+                "opponents": "Kent Second XI",
+                "matches": 3,
+                "balls": 510,
+                "maidens": 15,
+                "runs": 246,
+                "wickets": 19,
+                "bbruns": 44,
+                "bbwickets": 6,
+                "average": 12.94
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "F Dutnall",
+                "team": "Kent Second XI",
+                "opponents": "Lincolnshire",
+                "matches": 4,
+                "dismissals": 4
+            },
+            {
+                "name": "GEC Wood",
+                "team": "Kent Second XI",
+                "opponents": "Lincolnshire",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "W Rose",
+                "team": "Lincolnshire",
+                "opponents": "Kent Second XI",
+                "matches": 4,
+                "dismissals": 8
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "AF Leach-Lewis",
+                "team": "Kent Second XI",
+                "opponents": "Lincolnshire",
+                "matches": 4,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "W Rose",
+                "team": "Lincolnshire",
+                "opponents": "Kent Second XI",
+                "matches": 4,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Lincolnshire",
+                    "total": 67,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old County Ground, Town Malling",
+                    "seriesDate": "1914"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Lincolnshire",
+                    "total": 67,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old County Ground, Town Malling",
+                    "seriesDate": "1914"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Lincolnshire",
+                    "total": 67,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old County Ground, Town Malling",
+                    "seriesDate": "1914"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Lincolnshire",
+                    "opponents": "Kent Second XI",
+                    "total": 64,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Jubilee Park, Woodhall Spa",
+                    "seriesDate": "1914"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Lincolnshire",
+                    "opponents": "Kent Second XI",
+                    "total": 64,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Jubilee Park, Woodhall Spa",
+                    "seriesDate": "1914"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Lincolnshire",
+                    "opponents": "Kent Second XI",
+                    "total": 64,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Jubilee Park, Woodhall Spa",
+                    "seriesDate": "1914"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:58.133954Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

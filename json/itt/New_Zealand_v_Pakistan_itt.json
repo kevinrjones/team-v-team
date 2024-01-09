@@ -1,0 +1,1237 @@
+{
+    "team1": "New Zealand",
+    "team2": "Pakistan",
+    "competitionTitle": "International T20",
+    "competitionSubType": "itt",
+    "matchDto": {
+        "count": 34,
+        "startDate": "2007-09-22T01:00",
+        "endDate": "2023-04-24T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "total": 196,
+                "wickets": 5,
+                "declared": false,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2015/16"
+            }
+        ],
+        [
+            {
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "total": 201,
+                "wickets": 4,
+                "declared": false,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "MS Chapman",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "score": 104,
+                "notOut": true,
+                "location": "Rawalpindi Cricket Stadium, Rawalpindi",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "name": "Babar Azam",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "score": 101,
+                "notOut": true,
+                "location": "Gaddafi Stadium, Lahore",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "C de Grandhomme",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "strikeRate": 333.33,
+                "runs": 10,
+                "balls": 3,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "name": "Haider Ali",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "strikeRate": 500.0,
+                "runs": 10,
+                "balls": 2,
+                "location": "Hagley Oval, Christchurch",
+                "seriesDate": "2022/23"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "PD McGlashan",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "strikeRate": 260.0,
+                "runs": 26,
+                "balls": 10,
+                "location": "Seddon Park, Hamilton",
+                "seriesDate": "2010/11"
+            }
+        ],
+        [
+            {
+                "name": "Abdul Razzaq",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "strikeRate": 309.09,
+                "runs": 34,
+                "balls": 11,
+                "location": "AMI Stadium, Christchurch",
+                "seriesDate": "2010/11"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "MJ Guptill",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "strikeRate": 20.0,
+                "runs": 2,
+                "balls": 10,
+                "location": "Kensington Oval, Bridgetown",
+                "seriesDate": "2010"
+            }
+        ],
+        [
+            {
+                "name": "Misbah-ul-Haq",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "strikeRate": 23.08,
+                "runs": 3,
+                "balls": 13,
+                "location": "Kensington Oval, Bridgetown",
+                "seriesDate": "2010"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "BJ Watling",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "strikeRate": 61.11,
+                "runs": 22,
+                "balls": 36,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2009/10"
+            }
+        ],
+        [
+            {
+                "name": "Khushdil Shah",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "strikeRate": 70.0,
+                "runs": 14,
+                "balls": 20,
+                "location": "Seddon Park, Hamilton",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "KS Williamson",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "boundaries": 11,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Seddon Park, Hamilton",
+                "seriesDate": "2015/16"
+            },
+            {
+                "name": "MS Chapman",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "boundaries": 11,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Rawalpindi Cricket Stadium, Rawalpindi",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "name": "Babar Azam",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "boundaries": 11,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Hagley Oval, Christchurch",
+                "seriesDate": "2022/23"
+            },
+            {
+                "name": "Babar Azam",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "boundaries": 11,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Gaddafi Stadium, Lahore",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "C Munro",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2015/16"
+            },
+            {
+                "name": "FH Allen",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Hagley Oval, Christchurch",
+                "seriesDate": "2022/23"
+            }
+        ],
+        [
+            {
+                "name": "Iftikhar Ahmed",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Gaddafi Stadium, Lahore",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "MS Chapman",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "boundaries": 15,
+                "fours": 11,
+                "sixes": 4,
+                "location": "Rawalpindi Cricket Stadium, Rawalpindi",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "name": "Mohammad Hafeez",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "boundaries": 15,
+                "fours": 10,
+                "sixes": 5,
+                "location": "Seddon Park, Hamilton",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "wickets": 5,
+                "runs": 18,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2010/11"
+            }
+        ],
+        [
+            {
+                "name": "Umar Gul",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "wickets": 5,
+                "runs": 6,
+                "location": "The Brit Oval, Kennington",
+                "seriesDate": "2009"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "wickets": 5,
+                "runs": 18,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2010/11"
+            }
+        ],
+        [
+            {
+                "name": "Umar Gul",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "wickets": 5,
+                "runs": 6,
+                "location": "The Brit Oval, Kennington",
+                "seriesDate": "2009"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "GD Elliott",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 7,
+                "sr": 4.0,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2015/16"
+            },
+            {
+                "name": "C Munro",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "overs": "0.4",
+                "balls": 4,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 12,
+                "sr": 4.0,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2017/18"
+            }
+        ],
+        [
+            {
+                "name": "Imad Wasim",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 2,
+                "sr": 3.0,
+                "location": "Gaddafi Stadium, Lahore",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 5,
+                "runs": 18,
+                "sr": 4.8,
+                "location": "Eden Park, Auckland",
+                "seriesDate": "2010/11"
+            }
+        ],
+        [
+            {
+                "name": "Umar Gul",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 5,
+                "runs": 6,
+                "sr": 3.6,
+                "location": "The Brit Oval, Kennington",
+                "seriesDate": "2009"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "AF Milne",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "overs": "3.1",
+                "balls": 19,
+                "maidens": 1,
+                "wickets": 3,
+                "runs": 8,
+                "sr": 2.53,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2015/16"
+            }
+        ],
+        [
+            {
+                "name": "Umar Gul",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 5,
+                "runs": 6,
+                "sr": 2.0,
+                "location": "The Brit Oval, Kennington",
+                "seriesDate": "2009"
+            },
+            {
+                "name": "Imad Wasim",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 2,
+                "sr": 2.0,
+                "location": "Gaddafi Stadium, Lahore",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "AF Milne",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "overs": "3.1",
+                "balls": 19,
+                "maidens": 1,
+                "wickets": 3,
+                "runs": 8,
+                "sr": 2.53,
+                "location": "Westpac Stadium, Wellington",
+                "seriesDate": "2015/16"
+            }
+        ],
+        [
+            {
+                "name": "Umar Gul",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 5,
+                "runs": 6,
+                "sr": 2.0,
+                "location": "The Brit Oval, Kennington",
+                "seriesDate": "2009"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "JDS Neesham",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "overs": "0.1",
+                "balls": 1,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 6,
+                "sr": 36.0,
+                "location": "Dubai Sports City Stadium, Dubai",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "Wahab Riaz",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 19,
+                "sr": 19.0,
+                "location": "Seddon Park, Hamilton",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "IS Sodhi",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 58,
+                "sr": 14.5,
+                "location": "Hagley Oval, Christchurch",
+                "seriesDate": "2022/23"
+            }
+        ],
+        [
+            {
+                "name": "Umar Gul",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 47,
+                "sr": 15.67,
+                "location": "Seddon Park, Hamilton",
+                "seriesDate": "2010/11"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Pakistan",
+                        "location": "Seddon Park, Hamilton",
+                        "seriesDate": "2015/16",
+                        "partnership": 171,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "MJ Guptill",
+                        "player1Score": 87,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "KS Williamson",
+                        "player2Score": 72,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Pakistan",
+                        "location": "Seddon Park, Hamilton",
+                        "seriesDate": "2020/21",
+                        "partnership": 129,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "TL Seifert",
+                        "player1Score": 84,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "KS Williamson",
+                        "player2Score": 57,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Pakistan",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2018/19",
+                        "partnership": 83,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "GD Phillips",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "KS Williamson",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Pakistan",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2022/23",
+                        "partnership": 68,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "KS Williamson",
+                        "player1Score": 46,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DJ Mitchell",
+                        "player2Score": 53,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 80,
+                        "wicket": 4,
+                        "playerDetails": [
+                            {
+                                "team": "New Zealand",
+                                "opponents": "Pakistan",
+                                "location": "Westpac Stadium, Wellington",
+                                "seriesDate": "2015/16",
+                                "partnership": 64,
+                                "wicket": 4,
+                                "undefeated": false,
+                                "player1Name": "CJ Anderson",
+                                "player1Score": 82,
+                                "player1NotOut": true,
+                                "player1Position": 4,
+                                "player2Name": "GD Elliott",
+                                "player2Score": 19,
+                                "player2NotOut": false,
+                                "player2Position": 6
+                            },
+                            {
+                                "team": "New Zealand",
+                                "opponents": "Pakistan",
+                                "location": "Westpac Stadium, Wellington",
+                                "seriesDate": "2015/16",
+                                "partnership": 16,
+                                "wicket": 4,
+                                "undefeated": true,
+                                "player1Name": "CJ Anderson",
+                                "player1Score": 82,
+                                "player1NotOut": true,
+                                "player1Position": 4,
+                                "player2Name": "LRPL Taylor",
+                                "player2Score": 6,
+                                "player2NotOut": true,
+                                "player2Position": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Pakistan",
+                        "location": "Rawalpindi Cricket Stadium, Rawalpindi",
+                        "seriesDate": "2023",
+                        "partnership": 121,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "MS Chapman",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "JDS Neesham",
+                        "player2Score": 45,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Pakistan",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2010/11",
+                        "partnership": 31,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "LRPL Taylor",
+                        "player1Score": 39,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "PD McGlashan",
+                        "player2Score": 5,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Pakistan",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2017/18",
+                        "partnership": 54,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MJ Santner",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "BM Wheeler",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Pakistan",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2017/18",
+                        "partnership": 34,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "MJ Santner",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "IS Sodhi",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Pakistan",
+                        "location": "Sahara Park Newlands, Cape Town",
+                        "seriesDate": "2007/08",
+                        "partnership": 17,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "LRPL Taylor",
+                        "player1Score": 37,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "JS Patel",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand",
+                        "opponents": "Pakistan",
+                        "location": "AMI Stadium, Christchurch",
+                        "seriesDate": "2010/11",
+                        "partnership": 7,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "KD Mills",
+                        "player1Score": 7,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "AF Milne",
+                        "player2Score": 3,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "New Zealand",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2022/23",
+                        "partnership": 105,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Mohammad Rizwan",
+                        "player1Score": 57,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Babar Azam",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "New Zealand",
+                        "location": "Dubai Sports City Stadium, Dubai",
+                        "seriesDate": "2018/19",
+                        "partnership": 94,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Babar Azam",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "Mohammad Hafeez",
+                        "player2Score": 53,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "New Zealand",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2017/18",
+                        "partnership": 91,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "Babar Azam",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "Sarfraz Ahmed",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "New Zealand",
+                        "location": "Rawalpindi Cricket Stadium, Rawalpindi",
+                        "seriesDate": "2023",
+                        "partnership": 71,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "Mohammad Rizwan",
+                        "player1Score": 98,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "Iftikhar Ahmed",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "New Zealand",
+                        "location": "Gaddafi Stadium, Lahore",
+                        "seriesDate": "2023",
+                        "partnership": 87,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "Babar Azam",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "Iftikhar Ahmed",
+                        "player2Score": 33,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "New Zealand",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "2010",
+                        "partnership": 53,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Abdul Razzaq",
+                        "player1Score": 29,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "Salman Butt",
+                        "player2Score": 67,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "New Zealand",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2020/21",
+                        "partnership": 35,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Shadab Khan",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "Fahim Ashraf",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "New Zealand",
+                        "location": "Gaddafi Stadium, Lahore",
+                        "seriesDate": "2023",
+                        "partnership": 61,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Iftikhar Ahmed",
+                        "player1Score": 60,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Fahim Ashraf",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "New Zealand",
+                        "location": "Gaddafi Stadium, Lahore",
+                        "seriesDate": "2023",
+                        "partnership": 21,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "Fahim Ashraf",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Haris Rauf",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "New Zealand",
+                        "location": "Eden Park, Auckland",
+                        "seriesDate": "2010/11",
+                        "partnership": 31,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "Wahab Riaz",
+                        "player1Score": 30,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "Shoaib Akhtar",
+                        "player2Score": 8,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "KS Williamson",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "matches": 19,
+                "runs": 584,
+                "innings": 19,
+                "notOuts": 3,
+                "average": 36.5,
+                "hs": "72*"
+            }
+        ],
+        [
+            {
+                "name": "Mohammad Hafeez",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "matches": 18,
+                "runs": 563,
+                "innings": 18,
+                "notOuts": 3,
+                "average": 37.53,
+                "hs": "99*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "matches": 18,
+                "balls": 427,
+                "maidens": 1,
+                "runs": 508,
+                "wickets": 28,
+                "bbruns": 18,
+                "bbwickets": 5,
+                "average": 18.14
+            }
+        ],
+        [
+            {
+                "name": "Haris Rauf",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "matches": 12,
+                "balls": 284,
+                "maidens": 0,
+                "runs": 366,
+                "wickets": 25,
+                "bbruns": 18,
+                "bbwickets": 4,
+                "average": 14.64
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "TG Southee",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "matches": 18,
+                "dismissals": 12
+            }
+        ],
+        [
+            {
+                "name": "Fakhar Zaman",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "matches": 10,
+                "dismissals": 10
+            },
+            {
+                "name": "Shoaib Malik",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "matches": 13,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "TWM Latham",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "matches": 6,
+                "dismissals": 1
+            },
+            {
+                "name": "GD Phillips",
+                "team": "New Zealand",
+                "opponents": "Pakistan",
+                "matches": 13,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "Sarfraz Ahmed",
+                "team": "Pakistan",
+                "opponents": "New Zealand",
+                "matches": 12,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "Pakistan",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "AMI Stadium, Christchurch",
+                    "seriesDate": "2010/11"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "Pakistan",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "AMI Stadium, Christchurch",
+                    "seriesDate": "2010/11"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealand",
+                    "opponents": "Pakistan",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "AMI Stadium, Christchurch",
+                    "seriesDate": "2010/11"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Pakistan",
+                    "opponents": "New Zealand",
+                    "total": 101,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Westpac Stadium, Wellington",
+                    "seriesDate": "2015/16"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Pakistan",
+                    "opponents": "New Zealand",
+                    "total": 101,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Westpac Stadium, Wellington",
+                    "seriesDate": "2015/16"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Pakistan",
+                    "opponents": "New Zealand",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Rawalpindi Cricket Stadium, Rawalpindi",
+                    "seriesDate": "2023"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:21:44.833402Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

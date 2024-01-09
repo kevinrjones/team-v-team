@@ -1,0 +1,882 @@
+{
+    "team1": "West Indies",
+    "team2": "Zimbabwe",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 12,
+        "startDate": "2000-03-16T00:00",
+        "endDate": "2023-02-12T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "West Indies",
+                "opponents": "Zimbabwe",
+                "total": 559,
+                "wickets": 6,
+                "declared": true,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2001"
+            }
+        ],
+        [
+            {
+                "team": "Zimbabwe",
+                "opponents": "West Indies",
+                "total": 563,
+                "wickets": 9,
+                "declared": true,
+                "location": "Harare Sports Club, Harare",
+                "seriesDate": "2001"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "T Chanderpaul",
+                "team": "West Indies",
+                "opponents": "Zimbabwe",
+                "score": 207,
+                "notOut": true,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022/23"
+            }
+        ],
+        [
+            {
+                "name": "H Masakadza",
+                "team": "Zimbabwe",
+                "opponents": "West Indies",
+                "score": 147,
+                "notOut": false,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "G Motie",
+                "team": "West Indies",
+                "opponents": "Zimbabwe",
+                "wickets": 7,
+                "runs": 37,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022/23"
+            }
+        ],
+        [
+            {
+                "name": "RW Price",
+                "team": "Zimbabwe",
+                "opponents": "West Indies",
+                "wickets": 6,
+                "runs": 73,
+                "location": "Harare Sports Club, Harare",
+                "seriesDate": "2003/04"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "G Motie",
+                "team": "West Indies",
+                "opponents": "Zimbabwe",
+                "wickets": 13,
+                "runs": 99,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022/23"
+            }
+        ],
+        [
+            {
+                "name": "RW Price",
+                "team": "Zimbabwe",
+                "opponents": "West Indies",
+                "wickets": 10,
+                "runs": 161,
+                "location": "Harare Sports Club, Harare",
+                "seriesDate": "2003/04"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Zimbabwe",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2022/23",
+                        "partnership": 336,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "T Chanderpaul",
+                        "player1Score": 207,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "KC Brathwaite",
+                        "player2Score": 182,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Zimbabwe",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2001",
+                        "partnership": 100,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "D Ganga",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "S Chanderpaul",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Zimbabwe",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2022/23",
+                        "partnership": 107,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RA Reifer",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "J Blackwood",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Zimbabwe",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2003/04",
+                        "partnership": 190,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RR Sarwan",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "BC Lara",
+                        "player2Score": 191,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Zimbabwe",
+                        "location": "Windsor Park, Roseau",
+                        "seriesDate": "2012/13",
+                        "partnership": 173,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "S Chanderpaul",
+                        "player1Score": 108,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "D Ramdin",
+                        "player2Score": 86,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Zimbabwe",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2022/23",
+                        "partnership": 85,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RL Chase",
+                        "player1Score": 70,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JM Da Silva",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Zimbabwe",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "2012/13",
+                        "partnership": 106,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "D Ramdin",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DJG Sammy",
+                        "player2Score": 73,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Zimbabwe",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2017/18",
+                        "partnership": 212,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SO Dowrich",
+                        "player1Score": 103,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "JO Holder",
+                        "player2Score": 110,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Zimbabwe",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "2012/13",
+                        "partnership": 33,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "D Ramdin",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "TL Best",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Zimbabwe",
+                        "location": "Queen's Park Oval, Port of Spain",
+                        "seriesDate": "1999/00",
+                        "partnership": 26,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WW Hinds",
+                        "player1Score": 46,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "CA Walsh",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "West Indies",
+                        "opponents": "Zimbabwe",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2003/04",
+                        "partnership": 26,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CD Collymore",
+                        "player1Score": 11,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "FH Edwards",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "West Indies",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2001",
+                        "partnership": 164,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DD Ebrahim",
+                        "player1Score": 71,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ADR Campbell",
+                        "player2Score": 103,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "West Indies",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2001",
+                        "partnership": 91,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "ADR Campbell",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "H Masakadza",
+                        "player2Score": 119,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "West Indies",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2001",
+                        "partnership": 169,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "H Masakadza",
+                        "player1Score": 119,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CB Wishart",
+                        "player2Score": 93,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "West Indies",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1999/00",
+                        "partnership": 176,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MW Goodwin",
+                        "player1Score": 113,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "A Flower",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "West Indies",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2017/18",
+                        "partnership": 98,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "PJ Moor",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "Sikandar Raza",
+                        "player2Score": 89,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "West Indies",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2003/04",
+                        "partnership": 79,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "S Matsikenyeri",
+                        "player1Score": 57,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "T Taibu",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "West Indies",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2001",
+                        "partnership": 154,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "HH Streak",
+                        "player1Score": 83,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "AM Blignaut",
+                        "player2Score": 92,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "West Indies",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2003/04",
+                        "partnership": 168,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "HH Streak",
+                        "player1Score": 127,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "AM Blignaut",
+                        "player2Score": 91,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "West Indies",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2003/04",
+                        "partnership": 34,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AM Blignaut",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "RW Price",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "West Indies",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1999/00",
+                        "partnership": 54,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "SV Carlisle",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "HK Olonga",
+                        "player2Score": 22,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CH Gayle",
+                "team": "West Indies",
+                "opponents": "Zimbabwe",
+                "matches": 8,
+                "runs": 498,
+                "innings": 13,
+                "notOuts": 2,
+                "average": 45.27,
+                "hs": "175"
+            }
+        ],
+        [
+            {
+                "name": "H Masakadza",
+                "team": "Zimbabwe",
+                "opponents": "West Indies",
+                "matches": 5,
+                "runs": 428,
+                "innings": 10,
+                "notOuts": 0,
+                "average": 42.8,
+                "hs": "147"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "G Motie",
+                "team": "West Indies",
+                "opponents": "Zimbabwe",
+                "matches": 2,
+                "balls": 536,
+                "maidens": 21,
+                "runs": 259,
+                "wickets": 19,
+                "bbruns": 37,
+                "bbwickets": 7,
+                "average": 13.63
+            },
+            {
+                "name": "S Shillingford",
+                "team": "West Indies",
+                "opponents": "Zimbabwe",
+                "matches": 2,
+                "balls": 449,
+                "maidens": 16,
+                "runs": 200,
+                "wickets": 19,
+                "bbruns": 49,
+                "bbwickets": 6,
+                "average": 10.52
+            }
+        ],
+        [
+            {
+                "name": "RW Price",
+                "team": "Zimbabwe",
+                "opponents": "West Indies",
+                "matches": 5,
+                "balls": 1468,
+                "maidens": 56,
+                "runs": 690,
+                "wickets": 24,
+                "bbruns": 73,
+                "bbwickets": 6,
+                "average": 28.75
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RD Jacobs",
+                "team": "West Indies",
+                "opponents": "Zimbabwe",
+                "matches": 5,
+                "dismissals": 16
+            }
+        ],
+        [
+            {
+                "name": "A Flower",
+                "team": "Zimbabwe",
+                "opponents": "West Indies",
+                "matches": 2,
+                "dismissals": 8
+            },
+            {
+                "name": "T Taibu",
+                "team": "Zimbabwe",
+                "opponents": "West Indies",
+                "matches": 4,
+                "dismissals": 8
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JM Da Silva",
+                "team": "West Indies",
+                "opponents": "Zimbabwe",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "SO Dowrich",
+                "team": "West Indies",
+                "opponents": "Zimbabwe",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "RW Chakabva",
+                "team": "Zimbabwe",
+                "opponents": "West Indies",
+                "matches": 3,
+                "dismissals": 2
+            },
+            {
+                "name": "T Taibu",
+                "team": "Zimbabwe",
+                "opponents": "West Indies",
+                "matches": 4,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Zimbabwe",
+                    "total": 128,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Queens Sports Club, Bulawayo",
+                    "seriesDate": "2003/04"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Zimbabwe",
+                    "total": 128,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Queens Sports Club, Bulawayo",
+                    "seriesDate": "2003/04"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Zimbabwe",
+                    "total": 12,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Kensington Oval, Bridgetown",
+                    "seriesDate": "2012/13"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "West Indies",
+                    "total": 63,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Queen's Park Oval, Port of Spain",
+                    "seriesDate": "1999/00"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "West Indies",
+                    "total": 63,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Queen's Park Oval, Port of Spain",
+                    "seriesDate": "1999/00"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "West Indies",
+                    "total": 63,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Queen's Park Oval, Port of Spain",
+                    "seriesDate": "1999/00"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:21:11.555993Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

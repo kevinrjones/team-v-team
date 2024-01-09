@@ -1,0 +1,910 @@
+{
+    "team1": "Indians",
+    "team2": "Warwickshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 9,
+        "startDate": "1911-06-15T00:00",
+        "endDate": "1982-05-09T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Indians",
+                "opponents": "Warwickshire",
+                "total": 562,
+                "wickets": 10,
+                "declared": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1971"
+            }
+        ],
+        [
+            {
+                "team": "Warwickshire",
+                "opponents": "Indians",
+                "total": 447,
+                "wickets": 7,
+                "declared": true,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1982"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "SM Gavaskar",
+                "team": "Indians",
+                "opponents": "Warwickshire",
+                "score": 172,
+                "notOut": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1982"
+            }
+        ],
+        [
+            {
+                "name": "JA Jameson",
+                "team": "Warwickshire",
+                "opponents": "Indians",
+                "score": 231,
+                "notOut": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1971"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Amir Elahi",
+                "team": "Indians",
+                "opponents": "Warwickshire",
+                "wickets": 5,
+                "runs": 48,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1936"
+            }
+        ],
+        [
+            {
+                "name": "AB Crawford",
+                "team": "Warwickshire",
+                "opponents": "Indians",
+                "wickets": 6,
+                "runs": 36,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "BS Bedi",
+                "team": "Indians",
+                "opponents": "Warwickshire",
+                "wickets": 8,
+                "runs": 170,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1971"
+            }
+        ],
+        [
+            {
+                "name": "JH Mayer",
+                "team": "Warwickshire",
+                "opponents": "Indians",
+                "wickets": 7,
+                "runs": 24,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1959",
+                        "partnership": 84,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "P Roy",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NJ Contractor",
+                        "player2Score": 73,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1982",
+                        "partnership": 168,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1971",
+                        "partnership": 144,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1982",
+                        "partnership": 136,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1967",
+                        "partnership": 72,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "CG Borde",
+                        "player1Score": 84,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "Hanumant Singh",
+                        "player2Score": 33,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1959",
+                        "partnership": 59,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1959",
+                        "partnership": 111,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1932",
+                        "partnership": 217,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1932",
+                        "partnership": 36,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "ND Marshall",
+                        "player1Score": 102,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "SR Godambe",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1946",
+                        "partnership": 43,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "VM Merchant",
+                        "player1Score": 86,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "DD Hindlekar",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1971",
+                        "partnership": 132,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "J Whitehouse",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JA Jameson",
+                        "player2Score": 231,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1959",
+                        "partnership": 76,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "MJK Smith",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 92,
+                        "wicket": 2,
+                        "playerDetails": [
+                            {
+                                "team": "Warwickshire",
+                                "opponents": "Indians",
+                                "location": "Edgbaston, Birmingham",
+                                "seriesDate": "1959",
+                                "partnership": 16,
+                                "wicket": 2,
+                                "undefeated": true,
+                                "player1Name": "unknown",
+                                "player1Score": 0,
+                                "player1NotOut": false,
+                                "player1Position": 0,
+                                "player2Name": "unknown",
+                                "player2Score": 0,
+                                "player2NotOut": false,
+                                "player2Position": 0
+                            },
+                            {
+                                "team": "Warwickshire",
+                                "opponents": "Indians",
+                                "location": "Edgbaston, Birmingham",
+                                "seriesDate": "1959",
+                                "partnership": 76,
+                                "wicket": 2,
+                                "undefeated": false,
+                                "player1Name": "unknown",
+                                "player1Score": 0,
+                                "player1NotOut": false,
+                                "player1Position": 0,
+                                "player2Name": "MJK Smith",
+                                "player2Score": 52,
+                                "player2NotOut": false,
+                                "player2Position": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1971",
+                        "partnership": 241,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1982",
+                        "partnership": 144,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1982",
+                        "partnership": 63,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1932",
+                        "partnership": 63,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1982",
+                        "partnership": 175,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "AM Ferreira",
+                        "player1Score": 112,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "RGD Willis",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1932",
+                        "partnership": 68,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1911",
+                        "partnership": 16,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1911",
+                        "partnership": 21,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AB Crawford",
+                        "player1Score": 24,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "EF Field",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "SM Gavaskar",
+                "team": "Indians",
+                "opponents": "Warwickshire",
+                "matches": 2,
+                "runs": 229,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 76.33,
+                "hs": "172"
+            }
+        ],
+        [
+            {
+                "name": "JA Jameson",
+                "team": "Warwickshire",
+                "opponents": "Indians",
+                "matches": 2,
+                "runs": 242,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 121.0,
+                "hs": "231"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "BS Bedi",
+                "team": "Indians",
+                "opponents": "Warwickshire",
+                "matches": 1,
+                "balls": 354,
+                "maidens": 16,
+                "runs": 170,
+                "wickets": 8,
+                "bbruns": 64,
+                "bbwickets": 5,
+                "average": 21.25
+            }
+        ],
+        [
+            {
+                "name": "FR Foster",
+                "team": "Warwickshire",
+                "opponents": "Indians",
+                "matches": 1,
+                "balls": 174,
+                "maidens": 8,
+                "runs": 64,
+                "wickets": 7,
+                "bbruns": 31,
+                "bbwickets": 5,
+                "average": 9.14
+            },
+            {
+                "name": "HH Jarrett",
+                "team": "Warwickshire",
+                "opponents": "Indians",
+                "matches": 1,
+                "balls": 313,
+                "maidens": 7,
+                "runs": 213,
+                "wickets": 7,
+                "bbruns": 158,
+                "bbwickets": 5,
+                "average": 30.42
+            },
+            {
+                "name": "JH Mayer",
+                "team": "Warwickshire",
+                "opponents": "Indians",
+                "matches": 1,
+                "balls": 113,
+                "maidens": 9,
+                "runs": 24,
+                "wickets": 7,
+                "bbruns": 18,
+                "bbwickets": 4,
+                "average": 3.42
+            },
+            {
+                "name": "GAE Paine",
+                "team": "Warwickshire",
+                "opponents": "Indians",
+                "matches": 1,
+                "balls": 343,
+                "maidens": 17,
+                "runs": 190,
+                "wickets": 7,
+                "bbruns": 110,
+                "bbwickets": 5,
+                "average": 27.14
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "Dilawar Hussain",
+                "team": "Indians",
+                "opponents": "Warwickshire",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "JA Jameson",
+                "team": "Warwickshire",
+                "opponents": "Indians",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "NS Tamhane",
+                "team": "Indians",
+                "opponents": "Warwickshire",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "CC Goodway",
+                "team": "Warwickshire",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Indians",
+                    "opponents": "Warwickshire",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1911"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Warwickshire",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1911"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Warwickshire",
+                    "total": 21,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1946"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Warwickshire",
+                    "opponents": "Indians",
+                    "total": 181,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1936"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Warwickshire",
+                    "opponents": "Indians",
+                    "total": 181,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1936"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Warwickshire",
+                    "opponents": "Indians",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1967"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:05.941859Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

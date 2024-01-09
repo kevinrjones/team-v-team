@@ -1,0 +1,811 @@
+{
+    "team1": "Berkshire",
+    "team2": "Cambridgeshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 4,
+        "startDate": "1949-08-08T01:00",
+        "endDate": "1950-08-16T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Berkshire",
+                "opponents": "Cambridgeshire",
+                "total": 403,
+                "wickets": 8,
+                "declared": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "team": "Cambridgeshire",
+                "opponents": "Berkshire",
+                "total": 400,
+                "wickets": 5,
+                "declared": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JA Mence",
+                "team": "Berkshire",
+                "opponents": "Cambridgeshire",
+                "score": 159,
+                "notOut": true,
+                "location": "Sutton's Seeds, Cintra Ground, Reading",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "name": "CE Coote",
+                "team": "Cambridgeshire",
+                "opponents": "Berkshire",
+                "score": 200,
+                "notOut": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1949"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "AW Flatman",
+                "team": "Berkshire",
+                "opponents": "Cambridgeshire",
+                "wickets": 6,
+                "runs": 45,
+                "location": "Sutton's Seeds, Cintra Ground, Reading",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "name": "RA Taylor",
+                "team": "Cambridgeshire",
+                "opponents": "Berkshire",
+                "wickets": 4,
+                "runs": 18,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1950"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "AW Flatman",
+                "team": "Berkshire",
+                "opponents": "Cambridgeshire",
+                "wickets": 9,
+                "runs": 97,
+                "location": "Sutton's Seeds, Cintra Ground, Reading",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "name": "RA Taylor",
+                "team": "Cambridgeshire",
+                "opponents": "Berkshire",
+                "wickets": 7,
+                "runs": 93,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1950"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 158,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MA Salmon",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JA Mence",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1949",
+                        "partnership": 145,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JGB Moulsdale",
+                        "player1Score": 109,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "CM Northover",
+                        "player2Score": 115,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1949",
+                        "partnership": 19,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "CM Northover",
+                        "player1Score": 115,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "EB Lloyd",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1949",
+                        "partnership": 68,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "CM Northover",
+                        "player1Score": 115,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JA Mence",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "Sutton's Seeds, Cintra Ground, Reading",
+                        "seriesDate": "1949",
+                        "partnership": 121,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JA Mence",
+                        "player1Score": 159,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "F Berry",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "Sutton's Seeds, Cintra Ground, Reading",
+                        "seriesDate": "1950",
+                        "partnership": 124,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RD Morbey",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "DW Stokes",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "Sutton's Seeds, Cintra Ground, Reading",
+                        "seriesDate": "1949",
+                        "partnership": 82,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "P Lincoln-Gordon",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "JA Mence",
+                        "player2Score": 159,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "Sutton's Seeds, Cintra Ground, Reading",
+                        "seriesDate": "1949",
+                        "partnership": 27,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "JA Mence",
+                        "player1Score": 159,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "WW Smith",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1949",
+                        "partnership": 6,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "RH Tomlin",
+                        "player1Score": 7,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "G Sayles",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Berkshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1949",
+                        "partnership": 43,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HWF Taylor",
+                        "player1Score": 16,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CE Coote",
+                        "player2Score": 200,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Berkshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1949",
+                        "partnership": 101,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CE Coote",
+                        "player1Score": 200,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "PG Clarke",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Berkshire",
+                        "location": "Sutton's Seeds, Cintra Ground, Reading",
+                        "seriesDate": "1950",
+                        "partnership": 37,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MA Crouch",
+                        "player1Score": 49,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "HWF Taylor",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Berkshire",
+                        "location": "Sutton's Seeds, Cintra Ground, Reading",
+                        "seriesDate": "1949",
+                        "partnership": 59,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "RA Taylor",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "CE Coote",
+                        "player2Score": 14,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Berkshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1949",
+                        "partnership": 152,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "CE Coote",
+                        "player1Score": 200,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JD Cornwell",
+                        "player2Score": 57,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Berkshire",
+                        "location": "Sutton's Seeds, Cintra Ground, Reading",
+                        "seriesDate": "1950",
+                        "partnership": 76,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "HWF Taylor",
+                        "player1Score": 86,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "CJ Smith",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Berkshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 80,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "RA Gautrey",
+                        "player1Score": 151,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "SRC Royston",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Berkshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 78,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RA Gautrey",
+                        "player1Score": 151,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "SSM Tebbit",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Berkshire",
+                        "location": "Sutton's Seeds, Cintra Ground, Reading",
+                        "seriesDate": "1949",
+                        "partnership": 23,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RA Taylor",
+                        "player1Score": 37,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "SRC Royston",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Berkshire",
+                        "location": "Sutton's Seeds, Cintra Ground, Reading",
+                        "seriesDate": "1950",
+                        "partnership": 10,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CMB Sessions",
+                        "player1Score": 1,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "SRC Royston",
+                        "player2Score": 8,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JA Mence",
+                "team": "Berkshire",
+                "opponents": "Cambridgeshire",
+                "matches": 4,
+                "runs": 373,
+                "innings": 6,
+                "notOuts": 2,
+                "average": 93.25,
+                "hs": "159*"
+            }
+        ],
+        [
+            {
+                "name": "RA Gautrey",
+                "team": "Cambridgeshire",
+                "opponents": "Berkshire",
+                "matches": 4,
+                "runs": 238,
+                "innings": 5,
+                "notOuts": 1,
+                "average": 59.5,
+                "hs": "151"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "AW Flatman",
+                "team": "Berkshire",
+                "opponents": "Cambridgeshire",
+                "matches": 2,
+                "balls": 406,
+                "maidens": 21,
+                "runs": 149,
+                "wickets": 9,
+                "bbruns": 45,
+                "bbwickets": 6,
+                "average": 16.55
+            }
+        ],
+        [
+            {
+                "name": "RA Taylor",
+                "team": "Cambridgeshire",
+                "opponents": "Berkshire",
+                "matches": 4,
+                "balls": 606,
+                "maidens": 23,
+                "runs": 251,
+                "wickets": 10,
+                "bbruns": 18,
+                "bbwickets": 4,
+                "average": 25.1
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JA Mence",
+                "team": "Berkshire",
+                "opponents": "Cambridgeshire",
+                "matches": 4,
+                "dismissals": 3
+            },
+            {
+                "name": "DW Stokes",
+                "team": "Berkshire",
+                "opponents": "Cambridgeshire",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "GT Collins",
+                "team": "Cambridgeshire",
+                "opponents": "Berkshire",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "G Sayles",
+                "team": "Berkshire",
+                "opponents": "Cambridgeshire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "DW Stokes",
+                "team": "Berkshire",
+                "opponents": "Cambridgeshire",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "SSM Tebbit",
+                "team": "Cambridgeshire",
+                "opponents": "Berkshire",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Cambridgeshire",
+                    "total": 20,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Sutton's Seeds, Cintra Ground, Reading",
+                    "seriesDate": "1950"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Berkshire",
+                    "total": 162,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sutton's Seeds, Cintra Ground, Reading",
+                    "seriesDate": "1950"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Berkshire",
+                    "total": 162,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sutton's Seeds, Cintra Ground, Reading",
+                    "seriesDate": "1950"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Berkshire",
+                    "total": 83,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "Sutton's Seeds, Cintra Ground, Reading",
+                    "seriesDate": "1949"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:24.768130Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

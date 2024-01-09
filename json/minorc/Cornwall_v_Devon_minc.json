@@ -1,0 +1,848 @@
+{
+    "team1": "Cornwall",
+    "team2": "Devon",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 161,
+        "startDate": "1904-07-11T00:00",
+        "endDate": "2022-07-10T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cornwall",
+                "opponents": "Devon",
+                "total": 522,
+                "wickets": 9,
+                "declared": true,
+                "location": "United Services Ground, Plymouth",
+                "seriesDate": "1947"
+            }
+        ],
+        [
+            {
+                "team": "Devon",
+                "opponents": "Cornwall",
+                "total": 483,
+                "wickets": 10,
+                "declared": false,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1905"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "CM Casley",
+                "team": "Cornwall",
+                "opponents": "Devon",
+                "score": 162,
+                "notOut": false,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1951"
+            }
+        ],
+        [
+            {
+                "name": "EW Burdett",
+                "team": "Devon",
+                "opponents": "Cornwall",
+                "score": 233,
+                "notOut": false,
+                "location": "Kelly College Ground, Tavistock",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "DJ Halfyard",
+                "team": "Cornwall",
+                "opponents": "Devon",
+                "wickets": 8,
+                "runs": 27,
+                "location": "Roskear, Camborne",
+                "seriesDate": "1974"
+            }
+        ],
+        [
+            {
+                "name": "WJO Jordan",
+                "team": "Devon",
+                "opponents": "Cornwall",
+                "wickets": 9,
+                "runs": 50,
+                "location": "Peverell Park, Plymouth",
+                "seriesDate": "1970"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "DJ Halfyard",
+                "team": "Cornwall",
+                "opponents": "Devon",
+                "wickets": 16,
+                "runs": 85,
+                "location": "Roskear, Camborne",
+                "seriesDate": "1974"
+            }
+        ],
+        [
+            {
+                "name": "HC Lock",
+                "team": "Devon",
+                "opponents": "Cornwall",
+                "wickets": 16,
+                "runs": 94,
+                "location": "Roskear, Camborne",
+                "seriesDate": "1937"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Devon",
+                        "location": "Boscawen Park, Truro",
+                        "seriesDate": "1996",
+                        "partnership": 134,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SM Williams",
+                        "player1Score": 53,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GM Thomas",
+                        "player2Score": 97,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Devon",
+                        "location": "Boscawen Park, Truro",
+                        "seriesDate": "2003",
+                        "partnership": 169,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "NA Stoddard",
+                        "player1Score": 54,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "DJ Roberts",
+                        "player2Score": 112,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Devon",
+                        "location": "School Ground, Truro",
+                        "seriesDate": "1934",
+                        "partnership": 204,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "SL Stephens",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JK Hosking",
+                        "player2Score": 137,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Devon",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1947",
+                        "partnership": 189,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "WN Dorning",
+                        "player1Score": 93,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "CM Casley",
+                        "player2Score": 141,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2004",
+                        "partnership": 179,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RC Driver",
+                        "player1Score": 115,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "TG Sharp",
+                        "player2Score": 113,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Devon",
+                        "location": "The Recreation Ground, Bovey Tracey",
+                        "seriesDate": "1980",
+                        "partnership": 114,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "TJ Angove",
+                        "player1Score": 72,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "M Bryant",
+                        "player2Score": 65,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Devon",
+                        "location": "Ottermouth, Budleigh Salterton",
+                        "seriesDate": "2007",
+                        "partnership": 120,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "ML Robins",
+                        "player1Score": 93,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JCJ Stephens",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Devon",
+                        "location": "Ladycross, Werrington",
+                        "seriesDate": "2018",
+                        "partnership": 83,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "PS Smith",
+                        "player1Score": 83,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "AC Libby",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Devon",
+                        "location": "Boscawen Park, Truro",
+                        "seriesDate": "2009",
+                        "partnership": 87,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "GD Edwards",
+                        "player1Score": 47,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "RJ Harrison",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Devon",
+                        "location": "Roskear, Camborne",
+                        "seriesDate": "1939",
+                        "partnership": 82,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "T Harry",
+                        "player1Score": 49,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "C Kendall",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cornwall",
+                        "location": "Egloshayle Road, Wadebridge",
+                        "seriesDate": "1962",
+                        "partnership": 153,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HD Fairclough",
+                        "player1Score": 81,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JMRS Kerr",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cornwall",
+                        "location": "South Devon Ground, Newton Abbot",
+                        "seriesDate": "1932",
+                        "partnership": 196,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TEM Battersby",
+                        "player1Score": 91,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SW Falding",
+                        "player2Score": 102,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cornwall",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1947",
+                        "partnership": 183,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "H Keeling",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CW Ford",
+                        "player2Score": 151,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cornwall",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "1995",
+                        "partnership": 192,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "NA Folland",
+                        "player1Score": 151,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "AJ Pugh",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cornwall",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1949",
+                        "partnership": 152,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AF Irish",
+                        "player1Score": 144,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "KC Kinnersley",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cornwall",
+                        "location": "Wheal Eliza, Bethel, St Austell",
+                        "seriesDate": "2006",
+                        "partnership": 195,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "ND Hancock",
+                        "player1Score": 155,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "APW Allen",
+                        "player2Score": 100,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cornwall",
+                        "location": "The Fortfield, Sidmouth",
+                        "seriesDate": "2016",
+                        "partnership": 174,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "JFS Dart",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "ZGG Bess",
+                        "player2Score": 166,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cornwall",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1949",
+                        "partnership": 87,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "GJH Edwards",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "EI Terrell",
+                        "player2Score": 69,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cornwall",
+                        "location": "The Fortfield, Sidmouth",
+                        "seriesDate": "2016",
+                        "partnership": 103,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "ZGG Bess",
+                        "player1Score": 166,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JA Stephens",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cornwall",
+                        "location": "The Recreation Ground, Torquay",
+                        "seriesDate": "1968",
+                        "partnership": 69,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JG Fox",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "B Williams",
+                        "player2Score": 27,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "H Tresawna",
+                "team": "Cornwall",
+                "opponents": "Devon",
+                "matches": 41,
+                "runs": 1750,
+                "innings": 76,
+                "notOuts": 4,
+                "average": 24.3,
+                "hs": "142"
+            }
+        ],
+        [
+            {
+                "name": "WF Light",
+                "team": "Devon",
+                "opponents": "Cornwall",
+                "matches": 32,
+                "runs": 1279,
+                "innings": 47,
+                "notOuts": 1,
+                "average": 27.8,
+                "hs": "157"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "F Whiting",
+                "team": "Cornwall",
+                "opponents": "Devon",
+                "matches": 36,
+                "balls": 7922,
+                "maidens": 340,
+                "runs": 3524,
+                "wickets": 176,
+                "bbruns": 32,
+                "bbwickets": 7,
+                "average": 20.02
+            }
+        ],
+        [
+            {
+                "name": "DI Yeabsley",
+                "team": "Devon",
+                "opponents": "Cornwall",
+                "matches": 43,
+                "balls": 7489,
+                "maidens": 424,
+                "runs": 2385,
+                "wickets": 153,
+                "bbruns": 33,
+                "bbwickets": 8,
+                "average": 15.58
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "WJ Lawry",
+                "team": "Cornwall",
+                "opponents": "Devon",
+                "matches": 30,
+                "dismissals": 51
+            }
+        ],
+        [
+            {
+                "name": "FH Carroll",
+                "team": "Devon",
+                "opponents": "Cornwall",
+                "matches": 26,
+                "dismissals": 32
+            },
+            {
+                "name": "WF Light",
+                "team": "Devon",
+                "opponents": "Cornwall",
+                "matches": 32,
+                "dismissals": 32
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "WJ Lawry",
+                "team": "Cornwall",
+                "opponents": "Devon",
+                "matches": 30,
+                "dismissals": 15
+            }
+        ],
+        [
+            {
+                "name": "T Davies",
+                "team": "Devon",
+                "opponents": "Cornwall",
+                "matches": 22,
+                "dismissals": 16
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Devon",
+                    "total": 27,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Peverell Park, Plymouth",
+                    "seriesDate": "1965"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Devon",
+                    "total": 27,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Peverell Park, Plymouth",
+                    "seriesDate": "1965"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Devon",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The County Cricket Ground, Exeter",
+                    "seriesDate": "1930"
+                },
+                {
+                    "team": "Cornwall",
+                    "opponents": "Devon",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Wheal Eliza, Bethel, St Austell",
+                    "seriesDate": "2012"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Devon",
+                    "opponents": "Cornwall",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Roskear, Camborne",
+                    "seriesDate": "1939"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Cornwall",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Roskear, Camborne",
+                    "seriesDate": "1939"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Cornwall",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Sandhills, Instow",
+                    "seriesDate": "1997"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:03.731775Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

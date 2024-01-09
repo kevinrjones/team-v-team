@@ -1,0 +1,872 @@
+{
+    "team1": "Devon",
+    "team2": "Monmouthshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 39,
+        "startDate": "1901-07-26T00:00",
+        "endDate": "1928-08-20T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Devon",
+                "opponents": "Monmouthshire",
+                "total": 487,
+                "wickets": 5,
+                "declared": true,
+                "location": "The Fortfield, Sidmouth",
+                "seriesDate": "1914"
+            }
+        ],
+        [
+            {
+                "team": "Monmouthshire",
+                "opponents": "Devon",
+                "total": 475,
+                "wickets": 8,
+                "declared": true,
+                "location": "Rodney Parade, Newport",
+                "seriesDate": "1905"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "FH Carroll",
+                "team": "Devon",
+                "opponents": "Monmouthshire",
+                "score": 197,
+                "notOut": false,
+                "location": "The Fortfield, Sidmouth",
+                "seriesDate": "1914"
+            }
+        ],
+        [
+            {
+                "name": "ES Phillips",
+                "team": "Monmouthshire",
+                "opponents": "Devon",
+                "score": 162,
+                "notOut": false,
+                "location": "Rodney Parade, Newport",
+                "seriesDate": "1905"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "WF Light",
+                "team": "Devon",
+                "opponents": "Monmouthshire",
+                "wickets": 9,
+                "runs": 55,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "HA Gilbert",
+                "team": "Monmouthshire",
+                "opponents": "Devon",
+                "wickets": 9,
+                "runs": 10,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1913"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "J Heathcoat-Amory",
+                "team": "Devon",
+                "opponents": "Monmouthshire",
+                "wickets": 13,
+                "runs": 48,
+                "location": "Welfare Ground, Abercarn",
+                "seriesDate": "1922"
+            }
+        ],
+        [
+            {
+                "name": "FJ Scoulding",
+                "team": "Monmouthshire",
+                "opponents": "Devon",
+                "wickets": 15,
+                "runs": 114,
+                "location": "Rodney Parade, Newport",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Monmouthshire",
+                        "location": "The Fortfield, Sidmouth",
+                        "seriesDate": "1914",
+                        "partnership": 107,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "EA Fulcher",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SO Reed",
+                        "player2Score": 97,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Monmouthshire",
+                        "location": "The Fortfield, Sidmouth",
+                        "seriesDate": "1914",
+                        "partnership": 130,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "FH Carroll",
+                        "player1Score": 197,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SO Reed",
+                        "player2Score": 97,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Monmouthshire",
+                        "location": "Rodney Parade, Newport",
+                        "seriesDate": "1906",
+                        "partnership": 150,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RG Cruwys",
+                        "player1Score": 136,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GC Harrison",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Monmouthshire",
+                        "location": "The Fortfield, Sidmouth",
+                        "seriesDate": "1914",
+                        "partnership": 129,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "FH Carroll",
+                        "player1Score": 197,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "WF Light",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Monmouthshire",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1906",
+                        "partnership": 112,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HF Brunskill",
+                        "player1Score": 124,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "T Davies",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Monmouthshire",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1902",
+                        "partnership": 100,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "HA Francis",
+                        "player1Score": 117,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "EB Brutton",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Monmouthshire",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1908",
+                        "partnership": 119,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "JF Shelley",
+                        "player1Score": 122,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "GM Hawksworth",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Monmouthshire",
+                        "location": "South Devon Ground, Newton Abbot",
+                        "seriesDate": "1925",
+                        "partnership": 43,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "WJB Whiteway-Wilkinson",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "FH Carroll",
+                        "player2Score": 23,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Monmouthshire",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1906",
+                        "partnership": 94,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RS Barnes",
+                        "player1Score": 70,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "GM Hawksworth",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Monmouthshire",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1923",
+                        "partnership": 168,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "J Heathcoat-Amory",
+                        "player1Score": 111,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "GHK Sherlock",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Devon",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1923",
+                        "partnership": 84,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "KC Raikes",
+                        "player1Score": 53,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GA Webb",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1912",
+                        "partnership": 202,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AJ Silverlock",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NC Phillips",
+                        "player2Score": 128,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Devon",
+                        "location": "Rodney Parade, Newport",
+                        "seriesDate": "1902",
+                        "partnership": 108,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "F Rees",
+                        "player1Score": 78,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "PC Phillips",
+                        "player2Score": 78,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 148,
+                        "wicket": 3,
+                        "playerDetails": [
+                            {
+                                "team": "Monmouthshire",
+                                "opponents": "Devon",
+                                "location": "Rodney Parade, Newport",
+                                "seriesDate": "1902",
+                                "partnership": 40,
+                                "wicket": 3,
+                                "undefeated": false,
+                                "player1Name": "PC Phillips",
+                                "player1Score": 78,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "WEC Hudden",
+                                "player2Score": 20,
+                                "player2NotOut": false,
+                                "player2Position": 5
+                            },
+                            {
+                                "team": "Monmouthshire",
+                                "opponents": "Devon",
+                                "location": "Rodney Parade, Newport",
+                                "seriesDate": "1902",
+                                "partnership": 108,
+                                "wicket": 3,
+                                "undefeated": true,
+                                "player1Name": "F Rees",
+                                "player1Score": 78,
+                                "player1NotOut": true,
+                                "player1Position": 3,
+                                "player2Name": "PC Phillips",
+                                "player2Score": 78,
+                                "player2NotOut": false,
+                                "player2Position": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Devon",
+                        "location": "Rodney Parade, Newport",
+                        "seriesDate": "1905",
+                        "partnership": 160,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "ES Phillips",
+                        "player1Score": 162,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "AL Tatham",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Devon",
+                        "location": "Gras Lawn, Exeter",
+                        "seriesDate": "1901",
+                        "partnership": 55,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "NC Phillips",
+                        "player1Score": 29,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "PC Phillips",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Devon",
+                        "location": "The Fortfield, Sidmouth",
+                        "seriesDate": "1914",
+                        "partnership": 77,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "EJ Diver",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "ET James",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1912",
+                        "partnership": 66,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "FG Phillips",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "WP Geen",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1908",
+                        "partnership": 60,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AL Tatham",
+                        "player1Score": 62,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "LH Weight",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Devon",
+                        "location": "Rodney Parade, Newport",
+                        "seriesDate": "1905",
+                        "partnership": 88,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "GL Robathan",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "WA Williams",
+                        "player2Score": 48,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Monmouthshire",
+                        "opponents": "Devon",
+                        "location": "The County Cricket Ground, Exeter",
+                        "seriesDate": "1908",
+                        "partnership": 41,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WA Williams",
+                        "player1Score": 39,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "R Steeples",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "WF Light",
+                "team": "Devon",
+                "opponents": "Monmouthshire",
+                "matches": 33,
+                "runs": 1073,
+                "innings": 52,
+                "notOuts": 7,
+                "average": 23.84,
+                "hs": "103"
+            }
+        ],
+        [
+            {
+                "name": "AJ Silverlock",
+                "team": "Monmouthshire",
+                "opponents": "Devon",
+                "matches": 23,
+                "runs": 1341,
+                "innings": 38,
+                "notOuts": 3,
+                "average": 38.31,
+                "hs": "112*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "WF Light",
+                "team": "Devon",
+                "opponents": "Monmouthshire",
+                "matches": 28,
+                "balls": 4258,
+                "maidens": 131,
+                "runs": 1976,
+                "wickets": 140,
+                "bbruns": 55,
+                "bbwickets": 9,
+                "average": 14.11
+            }
+        ],
+        [
+            {
+                "name": "R Steeples",
+                "team": "Monmouthshire",
+                "opponents": "Devon",
+                "matches": 15,
+                "balls": 2701,
+                "maidens": 96,
+                "runs": 1293,
+                "wickets": 99,
+                "bbruns": 50,
+                "bbwickets": 8,
+                "average": 13.06
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "WF Light",
+                "team": "Devon",
+                "opponents": "Monmouthshire",
+                "matches": 33,
+                "dismissals": 31
+            }
+        ],
+        [
+            {
+                "name": "AJ Silverlock",
+                "team": "Monmouthshire",
+                "opponents": "Devon",
+                "matches": 23,
+                "dismissals": 19
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "T Davies",
+                "team": "Devon",
+                "opponents": "Monmouthshire",
+                "matches": 21,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "SC Wilcox",
+                "team": "Monmouthshire",
+                "opponents": "Devon",
+                "matches": 16,
+                "dismissals": 19
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Devon",
+                    "opponents": "Monmouthshire",
+                    "total": 35,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "United Services Ground, Plymouth",
+                    "seriesDate": "1905"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Monmouthshire",
+                    "total": 35,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "United Services Ground, Plymouth",
+                    "seriesDate": "1905"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Monmouthshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Rodney Parade, Newport",
+                    "seriesDate": "1901"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Monmouthshire",
+                    "opponents": "Devon",
+                    "total": 26,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Welfare Ground, Abercarn",
+                    "seriesDate": "1922"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Monmouthshire",
+                    "opponents": "Devon",
+                    "total": 26,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Welfare Ground, Abercarn",
+                    "seriesDate": "1922"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Monmouthshire",
+                    "opponents": "Devon",
+                    "total": 26,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Welfare Ground, Abercarn",
+                    "seriesDate": "1922"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:38.523865Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

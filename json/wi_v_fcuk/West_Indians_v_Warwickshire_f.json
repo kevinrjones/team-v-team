@@ -1,0 +1,845 @@
+{
+    "team1": "West Indians",
+    "team2": "Warwickshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 10,
+        "startDate": "1923-07-14T01:00",
+        "endDate": "1980-08-02T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "West Indians",
+                "opponents": "Warwickshire",
+                "total": 474,
+                "wickets": 10,
+                "declared": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1933"
+            }
+        ],
+        [
+            {
+                "team": "Warwickshire",
+                "opponents": "West Indians",
+                "total": 384,
+                "wickets": 10,
+                "declared": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1928"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "GA Headley",
+                "team": "West Indians",
+                "opponents": "Warwickshire",
+                "score": 182,
+                "notOut": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1933"
+            }
+        ],
+        [
+            {
+                "name": "JH Parsons",
+                "team": "Warwickshire",
+                "opponents": "West Indians",
+                "score": 161,
+                "notOut": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1928"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "S Ramadhin",
+                "team": "West Indians",
+                "opponents": "Warwickshire",
+                "wickets": 7,
+                "runs": 43,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1957"
+            }
+        ],
+        [
+            {
+                "name": "CWC Grove",
+                "team": "Warwickshire",
+                "opponents": "West Indians",
+                "wickets": 8,
+                "runs": 38,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1950"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "S Ramadhin",
+                "team": "West Indians",
+                "opponents": "Warwickshire",
+                "wickets": 10,
+                "runs": 97,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1957"
+            }
+        ],
+        [
+            {
+                "name": "AW Speed",
+                "team": "Warwickshire",
+                "opponents": "West Indians",
+                "wickets": 9,
+                "runs": 99,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1928"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1928",
+                        "partnership": 135,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "G Challenor",
+                        "player1Score": 81,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CA Roach",
+                        "player2Score": 69,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1976",
+                        "partnership": 123,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1963",
+                        "partnership": 84,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1966",
+                        "partnership": 148,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1933",
+                        "partnership": 228,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1963",
+                        "partnership": 115,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1966",
+                        "partnership": 122,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1950",
+                        "partnership": 35,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1980",
+                        "partnership": 51,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Warwickshire",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1923",
+                        "partnership": 48,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "West Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1957",
+                        "partnership": 49,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "NF Horner",
+                        "player1Score": 98,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "FC Gardner",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "West Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1966",
+                        "partnership": 109,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "DL Amiss",
+                        "player1Score": 160,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "MJK Smith",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "West Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1933",
+                        "partnership": 116,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "West Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1980",
+                        "partnership": 133,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "West Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1928",
+                        "partnership": 207,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "West Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1950",
+                        "partnership": 123,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "West Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1966",
+                        "partnership": 42,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "DL Amiss",
+                        "player1Score": 160,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "JM Allan",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "West Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1963",
+                        "partnership": 75,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "West Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1923",
+                        "partnership": 55,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire",
+                        "opponents": "West Indians",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1923",
+                        "partnership": 27,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "GA Headley",
+                "team": "West Indians",
+                "opponents": "Warwickshire",
+                "matches": 1,
+                "runs": 182,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 182.0,
+                "hs": "182"
+            }
+        ],
+        [
+            {
+                "name": "RES Wyatt",
+                "team": "Warwickshire",
+                "opponents": "West Indians",
+                "matches": 4,
+                "runs": 274,
+                "innings": 7,
+                "notOuts": 2,
+                "average": 54.8,
+                "hs": "150*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "AL Valentine",
+                "team": "West Indians",
+                "opponents": "Warwickshire",
+                "matches": 2,
+                "balls": 592,
+                "maidens": 35,
+                "runs": 202,
+                "wickets": 11,
+                "bbruns": 36,
+                "bbwickets": 4,
+                "average": 18.36
+            }
+        ],
+        [
+            {
+                "name": "WE Hollies",
+                "team": "Warwickshire",
+                "opponents": "West Indians",
+                "matches": 3,
+                "balls": 569,
+                "maidens": 22,
+                "runs": 222,
+                "wickets": 13,
+                "bbruns": 57,
+                "bbwickets": 6,
+                "average": 17.07
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "LN Constantine",
+                "team": "West Indians",
+                "opponents": "Warwickshire",
+                "matches": 3,
+                "dismissals": 4
+            },
+            {
+                "name": "DL Murray",
+                "team": "West Indians",
+                "opponents": "Warwickshire",
+                "matches": 2,
+                "dismissals": 4
+            },
+            {
+                "name": "VS Pascall",
+                "team": "West Indians",
+                "opponents": "Warwickshire",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "FR Santall",
+                "team": "Warwickshire",
+                "opponents": "West Indians",
+                "matches": 4,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "DL Murray",
+                "team": "West Indians",
+                "opponents": "Warwickshire",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "J Buckingham",
+                "team": "Warwickshire",
+                "opponents": "West Indians",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Warwickshire",
+                    "total": 156,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1950"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Warwickshire",
+                    "total": 156,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1950"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Warwickshire",
+                    "total": 24,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1923"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Warwickshire",
+                    "opponents": "West Indians",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1923"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Warwickshire",
+                    "opponents": "West Indians",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1923"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Warwickshire",
+                    "opponents": "West Indians",
+                    "total": 48,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1933"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:08.405315Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

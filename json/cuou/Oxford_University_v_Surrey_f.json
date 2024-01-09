@@ -1,0 +1,855 @@
+{
+    "team1": "Oxford University",
+    "team2": "Surrey",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 91,
+        "startDate": "1864-06-16T00:00",
+        "endDate": "1994-06-11T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Oxford University",
+                "opponents": "Surrey",
+                "total": 577,
+                "wickets": 10,
+                "declared": false,
+                "location": "Park Lane, Reigate",
+                "seriesDate": "1909"
+            }
+        ],
+        [
+            {
+                "team": "Surrey",
+                "opponents": "Oxford University",
+                "total": 650,
+                "wickets": 10,
+                "declared": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1888"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "NM Ford",
+                "team": "Oxford University",
+                "opponents": "Surrey",
+                "score": 180,
+                "notOut": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1930"
+            }
+        ],
+        [
+            {
+                "name": "WW Read",
+                "team": "Surrey",
+                "opponents": "Oxford University",
+                "score": 338,
+                "notOut": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1888"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "FHE Cunliffe",
+                "team": "Oxford University",
+                "opponents": "Surrey",
+                "wickets": 8,
+                "runs": 26,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1896"
+            }
+        ],
+        [
+            {
+                "name": "GAR Lock",
+                "team": "Surrey",
+                "opponents": "Oxford University",
+                "wickets": 9,
+                "runs": 77,
+                "location": "Woodbridge Road, Guildford",
+                "seriesDate": "1960"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RHB Bettington",
+                "team": "Oxford University",
+                "opponents": "Surrey",
+                "wickets": 13,
+                "runs": 128,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1920"
+            }
+        ],
+        [
+            {
+                "name": "TW Hayward",
+                "team": "Surrey",
+                "opponents": "Oxford University",
+                "wickets": 14,
+                "runs": 103,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1927",
+                        "partnership": 207,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AM Crawley",
+                        "player1Score": 150,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PVF Cazalet",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1932",
+                        "partnership": 225,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 152,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1930",
+                        "partnership": 276,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1926",
+                        "partnership": 141,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1887",
+                        "partnership": 183,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1935",
+                        "partnership": 124,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "NS Mitchell-Innes",
+                        "player1Score": 132,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "AP Singleton",
+                        "player2Score": 69,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1919",
+                        "partnership": 85,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Surrey",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1896",
+                        "partnership": 93,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "PS Waddy",
+                        "player1Score": 107,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "FHE Cunliffe",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Surrey",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1896",
+                        "partnership": 71,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Oxford University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1926",
+                        "partnership": 428,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JB Hobbs",
+                        "player1Score": 261,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "A Sandham",
+                        "player2Score": 183,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Oxford University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1928",
+                        "partnership": 231,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Oxford University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1910",
+                        "partnership": 208,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Oxford University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1932",
+                        "partnership": 293,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Oxford University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1889",
+                        "partnership": 148,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Oxford University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1888",
+                        "partnership": 204,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Oxford University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1919",
+                        "partnership": 141,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "A Ducat",
+                        "player1Score": 306,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "WJ Abel",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Oxford University",
+                        "location": "Woodbridge Road, Guildford",
+                        "seriesDate": "1955",
+                        "partnership": 102,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Oxford University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1931",
+                        "partnership": 83,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Surrey",
+                        "opponents": "Oxford University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1951",
+                        "partnership": 83,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Surrey",
+                        "opponents": "Oxford University",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1919",
+                        "partnership": 94,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "A Ducat",
+                        "player1Score": 306,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "T Rushby",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "NS Mitchell-Innes",
+                "team": "Oxford University",
+                "opponents": "Surrey",
+                "matches": 4,
+                "runs": 414,
+                "innings": 7,
+                "notOuts": 1,
+                "average": 69.0,
+                "hs": "171"
+            }
+        ],
+        [
+            {
+                "name": "TW Hayward",
+                "team": "Surrey",
+                "opponents": "Oxford University",
+                "matches": 18,
+                "runs": 1374,
+                "innings": 31,
+                "notOuts": 5,
+                "average": 52.84,
+                "hs": "144"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RHB Bettington",
+                "team": "Oxford University",
+                "opponents": "Surrey",
+                "matches": 4,
+                "balls": 837,
+                "maidens": 22,
+                "runs": 444,
+                "wickets": 33,
+                "bbruns": 67,
+                "bbwickets": 8,
+                "average": 13.45
+            }
+        ],
+        [
+            {
+                "name": "GA Lohmann",
+                "team": "Surrey",
+                "opponents": "Oxford University",
+                "matches": 10,
+                "balls": 2238,
+                "maidens": 233,
+                "runs": 767,
+                "wickets": 54,
+                "bbruns": 42,
+                "bbwickets": 7,
+                "average": 14.2
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "AJ Evans",
+                "team": "Oxford University",
+                "opponents": "Surrey",
+                "matches": 5,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "R Abel",
+                "team": "Surrey",
+                "opponents": "Oxford University",
+                "matches": 18,
+                "dismissals": 29
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "FW Gilligan",
+                "team": "Oxford University",
+                "opponents": "Surrey",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "AJW McIntyre",
+                "team": "Surrey",
+                "opponents": "Oxford University",
+                "matches": 8,
+                "dismissals": 5
+            },
+            {
+                "name": "EW Pooley",
+                "team": "Surrey",
+                "opponents": "Oxford University",
+                "matches": 7,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Surrey",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Surrey",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1910"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Surrey",
+                    "total": 11,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1921"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Surrey",
+                    "opponents": "Oxford University",
+                    "total": 63,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1886"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Surrey",
+                    "opponents": "Oxford University",
+                    "total": 63,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1886"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Surrey",
+                    "opponents": "Oxford University",
+                    "total": 4,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1965"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:55.756741Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

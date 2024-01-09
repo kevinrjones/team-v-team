@@ -1,0 +1,846 @@
+{
+    "team1": "Berkshire",
+    "team2": "Glamorgan",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 14,
+        "startDate": "1899-08-09T00:00",
+        "endDate": "1905-08-14T00:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Berkshire",
+                "opponents": "Glamorgan",
+                "total": 352,
+                "wickets": 9,
+                "declared": true,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1905"
+            }
+        ],
+        [
+            {
+                "team": "Glamorgan",
+                "opponents": "Berkshire",
+                "total": 489,
+                "wickets": 10,
+                "declared": false,
+                "location": "St Helen's, Swansea",
+                "seriesDate": "1903"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RA Williams",
+                "team": "Berkshire",
+                "opponents": "Glamorgan",
+                "score": 100,
+                "notOut": false,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1902"
+            }
+        ],
+        [
+            {
+                "name": "WJ Bancroft",
+                "team": "Glamorgan",
+                "opponents": "Berkshire",
+                "score": 207,
+                "notOut": false,
+                "location": "St Helen's, Swansea",
+                "seriesDate": "1903"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "RA Williams",
+                "team": "Berkshire",
+                "opponents": "Glamorgan",
+                "wickets": 10,
+                "runs": 129,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1901"
+            }
+        ],
+        [
+            {
+                "name": "H Creber",
+                "team": "Glamorgan",
+                "opponents": "Berkshire",
+                "wickets": 8,
+                "runs": 59,
+                "location": "Cardiff Arms Park, Cardiff",
+                "seriesDate": "1899"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "CE Brown",
+                "team": "Berkshire",
+                "opponents": "Glamorgan",
+                "wickets": 14,
+                "runs": 101,
+                "location": "Cardiff Arms Park, Cardiff",
+                "seriesDate": "1900"
+            }
+        ],
+        [
+            {
+                "name": "H Creber",
+                "team": "Glamorgan",
+                "opponents": "Berkshire",
+                "wickets": 14,
+                "runs": 144,
+                "location": "Cardiff Arms Park, Cardiff",
+                "seriesDate": "1899"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Glamorgan",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1901",
+                        "partnership": 121,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JA Gibb",
+                        "player1Score": 68,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "FE Rowe",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1902",
+                        "partnership": 83,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CE Brown",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JA Gibb",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Glamorgan",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1899",
+                        "partnership": 87,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "HFM Morres",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "ER Morres",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Glamorgan",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1905",
+                        "partnership": 78,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "SV Shea-Simmons",
+                        "player1Score": 46,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "FE Rowe",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Glamorgan",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1902",
+                        "partnership": 86,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RA Williams",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CJ Collins",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Glamorgan",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1902",
+                        "partnership": 70,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RA Williams",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "H Barrett",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Glamorgan",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1904",
+                        "partnership": 77,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "DHBH Blundell",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "EA Watts",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Glamorgan",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1901",
+                        "partnership": 50,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "CE Brown",
+                        "player1Score": 40,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "H Barrett",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Glamorgan",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1905",
+                        "partnership": 38,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "ACM Croome",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "W Barker",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Glamorgan",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1905",
+                        "partnership": 40,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "ACM Croome",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "W Cave",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1899",
+                        "partnership": 71,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "EW Jones",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "HE Morgan",
+                        "player2Score": 53,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Berkshire",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1905",
+                        "partnership": 85,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TAL Whittington",
+                        "player1Score": 66,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "WJ Bancroft",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Berkshire",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1899",
+                        "partnership": 148,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "HE Morgan",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "W Russell",
+                        "player2Score": 143,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Berkshire",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1903",
+                        "partnership": 223,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "EW Jones",
+                        "player1Score": 152,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "WJ Bancroft",
+                        "player2Score": 207,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Berkshire",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1901",
+                        "partnership": 117,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "EW Jones",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "WH Brain",
+                        "player2Score": 101,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1902",
+                        "partnership": 62,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "JH Brain",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "A Gibson",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Berkshire",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1901",
+                        "partnership": 58,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "WH Brain",
+                        "player1Score": 101,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "W Russell",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1904",
+                        "partnership": 52,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AE Waite",
+                        "player1Score": 30,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "HA Ellis",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1904",
+                        "partnership": 46,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SH Rees",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "H Creber",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Berkshire",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1902",
+                        "partnership": 70,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "A Nash",
+                        "player1Score": 18,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "S Lowe",
+                        "player2Score": 35,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "EA Watts",
+                "team": "Berkshire",
+                "opponents": "Glamorgan",
+                "matches": 13,
+                "runs": 496,
+                "innings": 25,
+                "notOuts": 1,
+                "average": 20.66,
+                "hs": "55"
+            }
+        ],
+        [
+            {
+                "name": "W Russell",
+                "team": "Glamorgan",
+                "opponents": "Berkshire",
+                "matches": 14,
+                "runs": 656,
+                "innings": 22,
+                "notOuts": 3,
+                "average": 34.52,
+                "hs": "143"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "W Barker",
+                "team": "Berkshire",
+                "opponents": "Glamorgan",
+                "matches": 12,
+                "balls": 2070,
+                "maidens": 64,
+                "runs": 1118,
+                "wickets": 48,
+                "bbruns": 73,
+                "bbwickets": 6,
+                "average": 23.29
+            }
+        ],
+        [
+            {
+                "name": "H Creber",
+                "team": "Glamorgan",
+                "opponents": "Berkshire",
+                "matches": 14,
+                "balls": 3628,
+                "maidens": 139,
+                "runs": 1619,
+                "wickets": 108,
+                "bbruns": 59,
+                "bbwickets": 8,
+                "average": 14.99
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "EA Watts",
+                "team": "Berkshire",
+                "opponents": "Glamorgan",
+                "matches": 13,
+                "dismissals": 24
+            }
+        ],
+        [
+            {
+                "name": "WJ Bancroft",
+                "team": "Glamorgan",
+                "opponents": "Berkshire",
+                "matches": 14,
+                "dismissals": 24
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "HW Edwards",
+                "team": "Berkshire",
+                "opponents": "Glamorgan",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "A Henderson",
+                "team": "Berkshire",
+                "opponents": "Glamorgan",
+                "matches": 6,
+                "dismissals": 1
+            },
+            {
+                "name": "EA Watts",
+                "team": "Berkshire",
+                "opponents": "Glamorgan",
+                "matches": 13,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "WH Brain",
+                "team": "Glamorgan",
+                "opponents": "Berkshire",
+                "matches": 12,
+                "dismissals": 19
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Glamorgan",
+                    "total": 64,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Helen's, Swansea",
+                    "seriesDate": "1903"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Glamorgan",
+                    "total": 64,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Helen's, Swansea",
+                    "seriesDate": "1903"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Glamorgan",
+                    "total": 64,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Helen's, Swansea",
+                    "seriesDate": "1903"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Berkshire",
+                    "total": 120,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1902"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Berkshire",
+                    "total": 120,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1902"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Berkshire",
+                    "total": 39,
+                    "wickets": 9,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1903"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:34.569675Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

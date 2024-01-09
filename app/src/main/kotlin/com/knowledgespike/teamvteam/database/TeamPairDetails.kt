@@ -4,7 +4,7 @@ import com.knowledgespike.teamvteam.daos.*
 
 data class TeamPairDetails(val teams: Array<String>,  val matchDto: MatchDto) {
 
-    val strikeRateScoreLimit = 20
+    val strikeRateScoreLimit: Int = 20
     val strikeRateLowerBallsLimit = 10
     val strikeRateUpperBallsLimit = 20
     val economyRateOversLimit = 3

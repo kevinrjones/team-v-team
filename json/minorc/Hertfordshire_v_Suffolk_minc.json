@@ -1,0 +1,857 @@
+{
+    "team1": "Hertfordshire",
+    "team2": "Suffolk",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 124,
+        "startDate": "1906-06-25T00:00",
+        "endDate": "2018-08-05T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Hertfordshire",
+                "opponents": "Suffolk",
+                "total": 428,
+                "wickets": 3,
+                "declared": true,
+                "location": "Town Ground, Felixstowe",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "team": "Suffolk",
+                "opponents": "Hertfordshire",
+                "total": 446,
+                "wickets": 4,
+                "declared": false,
+                "location": "Balls Park, Hertford",
+                "seriesDate": "2009"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "FP Longton",
+                "team": "Hertfordshire",
+                "opponents": "Suffolk",
+                "score": 200,
+                "notOut": true,
+                "location": "Town Ground, Felixstowe",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "name": "MG Cull",
+                "team": "Suffolk",
+                "opponents": "Hertfordshire",
+                "score": 208,
+                "notOut": true,
+                "location": "Balls Park, Hertford",
+                "seriesDate": "2009"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "EA Roberts",
+                "team": "Hertfordshire",
+                "opponents": "Suffolk",
+                "wickets": 9,
+                "runs": 35,
+                "location": "Ditchmore Lane, Stevenage",
+                "seriesDate": "1938"
+            }
+        ],
+        [
+            {
+                "name": "GC Perkins",
+                "team": "Suffolk",
+                "opponents": "Hertfordshire",
+                "wickets": 10,
+                "runs": 23,
+                "location": "Town Ground, Felixstowe",
+                "seriesDate": "1960"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "HE White",
+                "team": "Hertfordshire",
+                "opponents": "Suffolk",
+                "wickets": 14,
+                "runs": 81,
+                "location": "Park Avenue, Watford",
+                "seriesDate": "1909"
+            }
+        ],
+        [
+            {
+                "name": "GC Perkins",
+                "team": "Suffolk",
+                "opponents": "Hertfordshire",
+                "wickets": 13,
+                "runs": 67,
+                "location": "Ditchmore Lane, Stevenage",
+                "seriesDate": "1954"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Suffolk",
+                        "location": "Letchworth Corner, Letchworth",
+                        "seriesDate": "1990",
+                        "partnership": 173,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "NPG Wright",
+                        "player1Score": 75,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "JD Carr",
+                        "player2Score": 82,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Suffolk",
+                        "location": "Ipswich School Ground, Ipswich",
+                        "seriesDate": "1997",
+                        "partnership": 175,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "MH James",
+                        "player1Score": 119,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DM Ward",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Suffolk",
+                        "location": "Town Ground, Felixstowe",
+                        "seriesDate": "1937",
+                        "partnership": 135,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Suffolk",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1981",
+                        "partnership": 164,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Suffolk",
+                        "location": "Old London Road, Copdock",
+                        "seriesDate": "2017",
+                        "partnership": 214,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "SRW Gale",
+                        "player1Score": 154,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "D Chatfield",
+                        "player2Score": 106,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Suffolk",
+                        "location": "Balls Park, Hertford",
+                        "seriesDate": "2009",
+                        "partnership": 126,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "NGE Walker",
+                        "player1Score": 121,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JE Southgate",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Suffolk",
+                        "location": "Letchworth Corner, Letchworth",
+                        "seriesDate": "1955",
+                        "partnership": 111,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Suffolk",
+                        "location": "The Victory Ground, Bury St Edmunds",
+                        "seriesDate": "2008",
+                        "partnership": 125,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AS Lewis",
+                        "player1Score": 87,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DM Ward",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Suffolk",
+                        "location": "Town Ground, Felixstowe",
+                        "seriesDate": "1938",
+                        "partnership": 86,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "EA Roberts",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "A Grimsdell",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Suffolk",
+                        "location": "Portman Road, Ipswich",
+                        "seriesDate": "1906",
+                        "partnership": 95,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "LG Hosier",
+                        "player1Score": 45,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "G Fellowes",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Hertfordshire",
+                        "location": "Ransomes and Reavell Sports and Social Club Ground, Ipswich",
+                        "seriesDate": "2002",
+                        "partnership": 211,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AD Mawson",
+                        "player1Score": 139,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RJ Catley",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Hertfordshire",
+                        "location": "The Victory Ground, Bury St Edmunds",
+                        "seriesDate": "2008",
+                        "partnership": 160,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "BJ France",
+                        "player1Score": 91,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "MG Cull",
+                        "player2Score": 138,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Hertfordshire",
+                        "location": "Home Farm, North Mymms",
+                        "seriesDate": "2018",
+                        "partnership": 262,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "KP Young",
+                        "player1Score": 139,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JLO Cawkwell",
+                        "player2Score": 135,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1934",
+                        "partnership": 201,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Hertfordshire",
+                        "location": "Old London Road, Copdock",
+                        "seriesDate": "2017",
+                        "partnership": 138,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MG Cull",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BD Shepperson",
+                        "player2Score": 129,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Hertfordshire",
+                        "location": "Denis Compton Oval, Shenley",
+                        "seriesDate": "1998",
+                        "partnership": 97,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Hertfordshire",
+                        "location": "Old London Road, Copdock",
+                        "seriesDate": "2014",
+                        "partnership": 97,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "MA Comber",
+                        "player1Score": 114,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "SBJ Ward",
+                        "player2Score": 57,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Hertfordshire",
+                        "location": "Marlins, Long Marston",
+                        "seriesDate": "2015",
+                        "partnership": 113,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "BJ Reece",
+                        "player1Score": 66,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JA Beaumont",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Hertfordshire",
+                        "location": "Town Ground, Felixstowe",
+                        "seriesDate": "1983",
+                        "partnership": 92,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Hertfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "2003",
+                        "partnership": 69,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "PJ Caley",
+                        "player1Score": 67,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "CP Seal",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Suffolk",
+                        "opponents": "Hertfordshire",
+                        "location": "Town Ground, Felixstowe",
+                        "seriesDate": "1938",
+                        "partnership": 43,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "TW Tyrwhitt-Drake",
+                "team": "Hertfordshire",
+                "opponents": "Suffolk",
+                "matches": 13,
+                "runs": 1095,
+                "innings": 22,
+                "notOuts": 2,
+                "average": 54.75,
+                "hs": "180*"
+            }
+        ],
+        [
+            {
+                "name": "RE Cunnell",
+                "team": "Suffolk",
+                "opponents": "Hertfordshire",
+                "matches": 37,
+                "runs": 1564,
+                "innings": 63,
+                "notOuts": 16,
+                "average": 33.27,
+                "hs": "89"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JD Appleyard",
+                "team": "Hertfordshire",
+                "opponents": "Suffolk",
+                "matches": 29,
+                "balls": 4376,
+                "maidens": 224,
+                "runs": 1807,
+                "wickets": 95,
+                "bbruns": 47,
+                "bbwickets": 6,
+                "average": 19.02
+            }
+        ],
+        [
+            {
+                "name": "GC Perkins",
+                "team": "Suffolk",
+                "opponents": "Hertfordshire",
+                "matches": 35,
+                "balls": 7774,
+                "maidens": 503,
+                "runs": 2373,
+                "wickets": 193,
+                "bbruns": 23,
+                "bbwickets": 10,
+                "average": 12.29
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "FE Collyer",
+                "team": "Hertfordshire",
+                "opponents": "Suffolk",
+                "matches": 31,
+                "dismissals": 71
+            }
+        ],
+        [
+            {
+                "name": "ID Prior",
+                "team": "Suffolk",
+                "opponents": "Hertfordshire",
+                "matches": 19,
+                "dismissals": 44
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RG Simons",
+                "team": "Hertfordshire",
+                "opponents": "Suffolk",
+                "matches": 25,
+                "dismissals": 34
+            }
+        ],
+        [
+            {
+                "name": "SA Westley",
+                "team": "Suffolk",
+                "opponents": "Hertfordshire",
+                "matches": 19,
+                "dismissals": 11
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Suffolk",
+                    "total": 69,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Town Ground, Felixstowe",
+                    "seriesDate": "1960"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Suffolk",
+                    "total": 69,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Town Ground, Felixstowe",
+                    "seriesDate": "1960"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Suffolk",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Clarence Park, St Albans",
+                    "seriesDate": "1958"
+                },
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Suffolk",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Marlins, Long Marston",
+                    "seriesDate": "2012"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Suffolk",
+                    "opponents": "Hertfordshire",
+                    "total": 45,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Durrants Sports Ground, Croxley Green",
+                    "seriesDate": "1980"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Suffolk",
+                    "opponents": "Hertfordshire",
+                    "total": 45,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Durrants Sports Ground, Croxley Green",
+                    "seriesDate": "1980"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Suffolk",
+                    "opponents": "Hertfordshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Marlins, Long Marston",
+                    "seriesDate": "2012"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:55.580596Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

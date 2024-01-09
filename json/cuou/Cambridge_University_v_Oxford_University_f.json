@@ -1,0 +1,854 @@
+{
+    "team1": "Cambridge University",
+    "team2": "Oxford University",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 175,
+        "startDate": "1827-06-03T23:58:45",
+        "endDate": "2020-09-03T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridge University",
+                "opponents": "Oxford University",
+                "total": 604,
+                "wickets": 10,
+                "declared": false,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "2002"
+            }
+        ],
+        [
+            {
+                "team": "Oxford University",
+                "opponents": "Cambridge University",
+                "total": 611,
+                "wickets": 5,
+                "declared": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "2010"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "G Goonesena",
+                "team": "Cambridge University",
+                "opponents": "Oxford University",
+                "score": 211,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1957"
+            }
+        ],
+        [
+            {
+                "name": "SS Agarwal",
+                "team": "Oxford University",
+                "opponents": "Cambridge University",
+                "score": 313,
+                "notOut": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "2013"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "GE Jeffery",
+                "team": "Cambridge University",
+                "opponents": "Oxford University",
+                "wickets": 8,
+                "runs": 44,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1873"
+            }
+        ],
+        [
+            {
+                "name": "SE Butler",
+                "team": "Oxford University",
+                "opponents": "Cambridge University",
+                "wickets": 10,
+                "runs": 38,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1871"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "AG Steel",
+                "team": "Cambridge University",
+                "opponents": "Oxford University",
+                "wickets": 13,
+                "runs": 73,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1878"
+            }
+        ],
+        [
+            {
+                "name": "SE Butler",
+                "team": "Oxford University",
+                "opponents": "Cambridge University",
+                "wickets": 15,
+                "runs": 95,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1871"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Oxford University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1934",
+                        "partnership": 205,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AW Allen",
+                        "player1Score": 115,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GW Parker",
+                        "player2Score": 94,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Oxford University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1983",
+                        "partnership": 215,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TS Curtis",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RJ Boyd-Moss",
+                        "player2Score": 139,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Oxford University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2000",
+                        "partnership": 187,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "QJ Hughes",
+                        "player1Score": 119,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JP Pyemont",
+                        "player2Score": 124,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Oxford University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1992",
+                        "partnership": 166,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "JP Crawley",
+                        "player1Score": 106,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "RM Wight",
+                        "player2Score": 62,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Oxford University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1922",
+                        "partnership": 172,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "H Ashton",
+                        "player1Score": 90,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "APF Chapman",
+                        "player2Score": 102,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "2008",
+                        "partnership": 216,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AS Ansari",
+                        "player1Score": 193,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "NMH Whittington",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Oxford University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1957",
+                        "partnership": 289,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Oxford University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1921",
+                        "partnership": 84,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Oxford University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1904",
+                        "partnership": 97,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "JF Marsh",
+                        "player1Score": 172,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "FJV Hopley",
+                        "player2Score": 54,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Oxford University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1993",
+                        "partnership": 70,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CM Pitcher",
+                        "player1Score": 27,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "AR Whittall",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Cambridge University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "2010",
+                        "partnership": 259,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DA King",
+                        "player1Score": 189,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SS Agarwal",
+                        "player2Score": 117,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Cambridge University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1947",
+                        "partnership": 226,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "WG Keighley",
+                        "player1Score": 99,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HA Pawson",
+                        "player2Score": 135,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "2005",
+                        "partnership": 408,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "S Oberoi",
+                        "player1Score": 247,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DR Fox",
+                        "player2Score": 184,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Cambridge University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1994",
+                        "partnership": 250,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "CM Gupte",
+                        "player1Score": 122,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CJ Hollins",
+                        "player2Score": 131,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Cambridge University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "2018",
+                        "partnership": 267,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DA Escott",
+                        "player1Score": 175,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "MA Naylor",
+                        "player2Score": 202,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Cambridge University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1987",
+                        "partnership": 191,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "MA Crawley",
+                        "player1Score": 140,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "SD Weale",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Cambridge University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1877",
+                        "partnership": 142,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "FM Buckland",
+                        "player1Score": 117,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "HG Tylecote",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Cambridge University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1948",
+                        "partnership": 112,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "HE Webb",
+                        "player1Score": 145,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "AWH Mallett",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "2011",
+                        "partnership": 88,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "R Sharma",
+                        "player1Score": 114,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SA Westaway",
+                        "player2Score": 63,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "Cambridge University",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1906",
+                        "partnership": 90,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WJH Curwen",
+                        "player1Score": 34,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "EG Martin",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "RJ Boyd-Moss",
+                "team": "Cambridge University",
+                "opponents": "Oxford University",
+                "matches": 4,
+                "runs": 489,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 97.8,
+                "hs": "139"
+            }
+        ],
+        [
+            {
+                "name": "MJK Smith",
+                "team": "Oxford University",
+                "opponents": "Cambridge University",
+                "matches": 3,
+                "runs": 477,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 95.4,
+                "hs": "201*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "AG Steel",
+                "team": "Cambridge University",
+                "opponents": "Oxford University",
+                "matches": 4,
+                "balls": 1271,
+                "maidens": 164,
+                "runs": 342,
+                "wickets": 38,
+                "bbruns": 62,
+                "bbwickets": 8,
+                "average": 9.0
+            }
+        ],
+        [
+            {
+                "name": "CDB Marsham",
+                "team": "Oxford University",
+                "opponents": "Cambridge University",
+                "matches": 5,
+                "balls": 1261,
+                "maidens": 105,
+                "runs": 362,
+                "wickets": 40,
+                "bbruns": 17,
+                "bbwickets": 6,
+                "average": 9.05
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "MW Payne",
+                "team": "Cambridge University",
+                "opponents": "Oxford University",
+                "matches": 4,
+                "dismissals": 15
+            }
+        ],
+        [
+            {
+                "name": "SA Westaway",
+                "team": "Oxford University",
+                "opponents": "Cambridge University",
+                "matches": 5,
+                "dismissals": 24
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RD Balfour",
+                "team": "Cambridge University",
+                "opponents": "Oxford University",
+                "matches": 4,
+                "dismissals": 5
+            },
+            {
+                "name": "HA Richardson",
+                "team": "Cambridge University",
+                "opponents": "Oxford University",
+                "matches": 3,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "IP Campbell",
+                "team": "Oxford University",
+                "opponents": "Cambridge University",
+                "matches": 2,
+                "dismissals": 4
+            },
+            {
+                "name": "AG Pawson",
+                "team": "Oxford University",
+                "opponents": "Cambridge University",
+                "matches": 4,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Oxford University",
+                    "total": 39,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1858"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Oxford University",
+                    "total": 39,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1858"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Oxford University",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1980"
+                },
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Oxford University",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1990"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Cambridge University",
+                    "total": 32,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1878"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Cambridge University",
+                    "total": 32,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1878"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "Cambridge University",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1990"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:57.960733Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,822 @@
+{
+    "team1": "Bedfordshire",
+    "team2": "Devon",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1997-09-07T01:00",
+        "endDate": "2004-09-12T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bedfordshire",
+                "opponents": "Devon",
+                "total": 251,
+                "wickets": 6,
+                "declared": false,
+                "location": "Wardown Park, Luton",
+                "seriesDate": "1997"
+            }
+        ],
+        [
+            {
+                "team": "Devon",
+                "opponents": "Bedfordshire",
+                "total": 288,
+                "wickets": 9,
+                "declared": false,
+                "location": "The Maer Ground, Exmouth",
+                "seriesDate": "2004"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AJ Trott",
+                "team": "Bedfordshire",
+                "opponents": "Devon",
+                "score": 83,
+                "notOut": true,
+                "location": "The Maer Ground, Exmouth",
+                "seriesDate": "2004"
+            }
+        ],
+        [
+            {
+                "name": "AV Suppiah",
+                "team": "Devon",
+                "opponents": "Bedfordshire",
+                "score": 97,
+                "notOut": false,
+                "location": "The Maer Ground, Exmouth",
+                "seriesDate": "2004"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "RN Dalton",
+                "team": "Bedfordshire",
+                "opponents": "Devon",
+                "wickets": 5,
+                "runs": 43,
+                "location": "Wardown Park, Luton",
+                "seriesDate": "1997"
+            }
+        ],
+        [
+            {
+                "name": "ND Hancock",
+                "team": "Devon",
+                "opponents": "Bedfordshire",
+                "wickets": 7,
+                "runs": 80,
+                "location": "The Maer Ground, Exmouth",
+                "seriesDate": "2004"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RN Dalton",
+                "team": "Bedfordshire",
+                "opponents": "Devon",
+                "wickets": 6,
+                "runs": 82,
+                "location": "Wardown Park, Luton",
+                "seriesDate": "1997"
+            }
+        ],
+        [
+            {
+                "name": "ND Hancock",
+                "team": "Devon",
+                "opponents": "Bedfordshire",
+                "wickets": 8,
+                "runs": 150,
+                "location": "The Maer Ground, Exmouth",
+                "seriesDate": "2004"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Devon",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1997",
+                        "partnership": 92,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "W Larkins",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AR Roberts",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Devon",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1997",
+                        "partnership": 67,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AR Roberts",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DR Clarke",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2004",
+                        "partnership": 25,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DJM Mercer",
+                        "player1Score": 10,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JEP Walford",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Devon",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1997",
+                        "partnership": 57,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DJM Mercer",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "CK Bullen",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2004",
+                        "partnership": 140,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "JEP Walford",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "AJ Trott",
+                        "player2Score": 83,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Devon",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1997",
+                        "partnership": 32,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "CK Bullen",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "PDB Hoare",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Devon",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1997",
+                        "partnership": 28,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "PDB Hoare",
+                        "player1Score": 8,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "ZA Sher",
+                        "player2Score": 16,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2004",
+                        "partnership": 5,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SJ Watts",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "MW Patterson",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2004",
+                        "partnership": 17,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "MW Patterson",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "S Rashid",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2004",
+                        "partnership": 64,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MW Patterson",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "WE Sneath",
+                        "player2Score": 31,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Bedfordshire",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2004",
+                        "partnership": 162,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MP Hunt",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AV Suppiah",
+                        "player2Score": 97,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1997",
+                        "partnership": 72,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "KAO Barrett",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NA Folland",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1997",
+                        "partnership": 52,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "NA Folland",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "PM Roebuck",
+                        "player2Score": 56,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Bedfordshire",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2004",
+                        "partnership": 13,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "AJ Pugh",
+                        "player1Score": 32,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "CM Mole",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1997",
+                        "partnership": 43,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "PM Roebuck",
+                        "player1Score": 56,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "AJ Pugh",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Bedfordshire",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2004",
+                        "partnership": 12,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AJ Pugh",
+                        "player1Score": 32,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "DF Lye",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1997",
+                        "partnership": 77,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "CMW Read",
+                        "player1Score": 30,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "K Donohue",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Bedfordshire",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2004",
+                        "partnership": 25,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "TS Anning",
+                        "player1Score": 27,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "AJ Procter",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1997",
+                        "partnership": 4,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "CMW Read",
+                        "player1Score": 30,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "J Rhodes",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Bedfordshire",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2004",
+                        "partnership": 11,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "TS Anning",
+                        "player1Score": 27,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "A Jones",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JEP Walford",
+                "team": "Bedfordshire",
+                "opponents": "Devon",
+                "matches": 1,
+                "runs": 107,
+                "innings": 2,
+                "notOuts": 1,
+                "average": 107.0,
+                "hs": "55*"
+            }
+        ],
+        [
+            {
+                "name": "AV Suppiah",
+                "team": "Devon",
+                "opponents": "Bedfordshire",
+                "matches": 1,
+                "runs": 97,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 97.0,
+                "hs": "97"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RN Dalton",
+                "team": "Bedfordshire",
+                "opponents": "Devon",
+                "matches": 1,
+                "balls": 198,
+                "maidens": 10,
+                "runs": 82,
+                "wickets": 6,
+                "bbruns": 43,
+                "bbwickets": 5,
+                "average": 13.66
+            }
+        ],
+        [
+            {
+                "name": "ND Hancock",
+                "team": "Devon",
+                "opponents": "Bedfordshire",
+                "matches": 1,
+                "balls": 270,
+                "maidens": 7,
+                "runs": 150,
+                "wickets": 8,
+                "bbruns": 80,
+                "bbwickets": 7,
+                "average": 18.75
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "CK Bullen",
+                "team": "Bedfordshire",
+                "opponents": "Devon",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "RI Dawson",
+                "team": "Devon",
+                "opponents": "Bedfordshire",
+                "matches": 1,
+                "dismissals": 3
+            },
+            {
+                "name": "CMW Read",
+                "team": "Devon",
+                "opponents": "Bedfordshire",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "GD Sandford",
+                "team": "Bedfordshire",
+                "opponents": "Devon",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Devon",
+                    "total": 214,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Maer Ground, Exmouth",
+                    "seriesDate": "2004"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Devon",
+                    "total": 119,
+                    "wickets": 9,
+                    "declared": false,
+                    "location": "Wardown Park, Luton",
+                    "seriesDate": "1997"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Devon",
+                    "total": 119,
+                    "wickets": 9,
+                    "declared": false,
+                    "location": "Wardown Park, Luton",
+                    "seriesDate": "1997"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Bedfordshire",
+                    "total": 216,
+                    "wickets": 5,
+                    "declared": false,
+                    "location": "Wardown Park, Luton",
+                    "seriesDate": "1997"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Bedfordshire",
+                    "total": 180,
+                    "wickets": 8,
+                    "declared": true,
+                    "location": "Wardown Park, Luton",
+                    "seriesDate": "1997"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:56.808824Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

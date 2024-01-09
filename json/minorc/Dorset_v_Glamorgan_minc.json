@@ -1,0 +1,839 @@
+{
+    "team1": "Dorset",
+    "team2": "Glamorgan",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1907-07-19T00:00",
+        "endDate": "1907-07-31T00:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Dorset",
+                "opponents": "Glamorgan",
+                "total": 216,
+                "wickets": 10,
+                "declared": false,
+                "location": "Cardiff Arms Park, Cardiff",
+                "seriesDate": "1907"
+            }
+        ],
+        [
+            {
+                "team": "Glamorgan",
+                "opponents": "Dorset",
+                "total": 460,
+                "wickets": 4,
+                "declared": true,
+                "location": "Recreation Ground, Blandford",
+                "seriesDate": "1907"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "WH Arundell",
+                "team": "Dorset",
+                "opponents": "Glamorgan",
+                "score": 102,
+                "notOut": false,
+                "location": "Cardiff Arms Park, Cardiff",
+                "seriesDate": "1907"
+            }
+        ],
+        [
+            {
+                "name": "NVH Riches",
+                "team": "Glamorgan",
+                "opponents": "Dorset",
+                "score": 217,
+                "notOut": true,
+                "location": "Recreation Ground, Blandford",
+                "seriesDate": "1907"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "CF Stacey",
+                "team": "Dorset",
+                "opponents": "Glamorgan",
+                "wickets": 4,
+                "runs": 39,
+                "location": "Cardiff Arms Park, Cardiff",
+                "seriesDate": "1907"
+            }
+        ],
+        [
+            {
+                "name": "A Nash",
+                "team": "Glamorgan",
+                "opponents": "Dorset",
+                "wickets": 5,
+                "runs": 26,
+                "location": "Recreation Ground, Blandford",
+                "seriesDate": "1907"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "CF Stacey",
+                "team": "Dorset",
+                "opponents": "Glamorgan",
+                "wickets": 7,
+                "runs": 132,
+                "location": "Cardiff Arms Park, Cardiff",
+                "seriesDate": "1907"
+            }
+        ],
+        [
+            {
+                "name": "H Creber",
+                "team": "Glamorgan",
+                "opponents": "Dorset",
+                "wickets": 9,
+                "runs": 100,
+                "location": "Recreation Ground, Blandford",
+                "seriesDate": "1907"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 55,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HM Greenhill",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WH Arundell",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 15,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "WH Arundell",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "HM Greenhill",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 24,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "WH Arundell",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "FAS Sewell",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Glamorgan",
+                        "location": "Recreation Ground, Blandford",
+                        "seriesDate": "1907",
+                        "partnership": 66,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "WH Arundell",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "HM Greenhill",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 15,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "WH Arundell",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "CP Goodden",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Glamorgan",
+                        "location": "Recreation Ground, Blandford",
+                        "seriesDate": "1907",
+                        "partnership": 13,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "C Burt",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "HF Hodges",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 50,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "WH MacAlpine-Leny",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "WH Arundell",
+                        "player2Score": 102,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 52,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "WH Arundell",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "HF Hodges",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 51,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "HV Browne",
+                        "player1Score": 73,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "CF Stacey",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 44,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WH Arundell",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "SW Talbot",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Dorset",
+                        "location": "Recreation Ground, Blandford",
+                        "seriesDate": "1907",
+                        "partnership": 96,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "NVH Riches",
+                        "player1Score": 217,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "DJ Smith",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Dorset",
+                        "location": "Recreation Ground, Blandford",
+                        "seriesDate": "1907",
+                        "partnership": 82,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "NVH Riches",
+                        "player1Score": 217,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "WJ Bancroft",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Dorset",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 107,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DJ Smith",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RA Gibbs",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Dorset",
+                        "location": "Recreation Ground, Blandford",
+                        "seriesDate": "1907",
+                        "partnership": 27,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "NVH Riches",
+                        "player1Score": 217,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "JO Hirst",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Dorset",
+                        "location": "Recreation Ground, Blandford",
+                        "seriesDate": "1907",
+                        "partnership": 244,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "NVH Riches",
+                        "player1Score": 217,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "ER Sweet-Escott",
+                        "player2Score": 104,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Dorset",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 91,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "HB Letcher",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "ER Sweet-Escott",
+                        "player2Score": 69,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Dorset",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 21,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "HB Letcher",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JH Brain",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Dorset",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 24,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RA Gibbs",
+                        "player1Score": 40,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "EA Preedy",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Dorset",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 24,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "EA Preedy",
+                        "player1Score": 26,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "H Creber",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Dorset",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1907",
+                        "partnership": 3,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "EA Preedy",
+                        "player1Score": 26,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "A Nash",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "WH Arundell",
+                "team": "Dorset",
+                "opponents": "Glamorgan",
+                "matches": 2,
+                "runs": 155,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 38.75,
+                "hs": "102"
+            }
+        ],
+        [
+            {
+                "name": "NVH Riches",
+                "team": "Glamorgan",
+                "opponents": "Dorset",
+                "matches": 2,
+                "runs": 234,
+                "innings": 3,
+                "notOuts": 1,
+                "average": 117.0,
+                "hs": "217*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "CF Stacey",
+                "team": "Dorset",
+                "opponents": "Glamorgan",
+                "matches": 2,
+                "balls": 354,
+                "maidens": 4,
+                "runs": 223,
+                "wickets": 9,
+                "bbruns": 39,
+                "bbwickets": 4,
+                "average": 24.77
+            }
+        ],
+        [
+            {
+                "name": "H Creber",
+                "team": "Glamorgan",
+                "opponents": "Dorset",
+                "matches": 2,
+                "balls": 496,
+                "maidens": 17,
+                "runs": 258,
+                "wickets": 16,
+                "bbruns": 60,
+                "bbwickets": 5,
+                "average": 16.12
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "HV Browne",
+                "team": "Dorset",
+                "opponents": "Glamorgan",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "P Crimmins",
+                "team": "Dorset",
+                "opponents": "Glamorgan",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "NVH Riches",
+                "team": "Glamorgan",
+                "opponents": "Dorset",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RSK Blucke",
+                "team": "Dorset",
+                "opponents": "Glamorgan",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "JH Brain",
+                "team": "Glamorgan",
+                "opponents": "Dorset",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Glamorgan",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Recreation Ground, Blandford",
+                    "seriesDate": "1907"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Glamorgan",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Recreation Ground, Blandford",
+                    "seriesDate": "1907"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Glamorgan",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Recreation Ground, Blandford",
+                    "seriesDate": "1907"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Dorset",
+                    "total": 304,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Cardiff Arms Park, Cardiff",
+                    "seriesDate": "1907"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Dorset",
+                    "total": 304,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Cardiff Arms Park, Cardiff",
+                    "seriesDate": "1907"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Dorset",
+                    "total": 118,
+                    "wickets": 8,
+                    "declared": false,
+                    "location": "Cardiff Arms Park, Cardiff",
+                    "seriesDate": "1907"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:46.487199Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

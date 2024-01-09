@@ -1,0 +1,831 @@
+{
+    "team1": "Durham",
+    "team2": "Marylebone Cricket Club",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 3,
+        "startDate": "2009-04-09T01:00",
+        "endDate": "2014-03-23T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Durham",
+                "opponents": "Marylebone Cricket Club",
+                "total": 459,
+                "wickets": 9,
+                "declared": true,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2010"
+            }
+        ],
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Durham",
+                "total": 282,
+                "wickets": 10,
+                "declared": false,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2013/14"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "KJ Coetzer",
+                "team": "Durham",
+                "opponents": "Marylebone Cricket Club",
+                "score": 172,
+                "notOut": false,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2010"
+            }
+        ],
+        [
+            {
+                "name": "V Sehwag",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Durham",
+                "score": 109,
+                "notOut": false,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2013/14"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "J Harrison",
+                "team": "Durham",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 5,
+                "runs": 60,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2013/14"
+            }
+        ],
+        [
+            {
+                "name": "MS Panesar",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Durham",
+                "wickets": 5,
+                "runs": 63,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2013/14"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "SG Borthwick",
+                "team": "Durham",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 8,
+                "runs": 84,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2010"
+            }
+        ],
+        [
+            {
+                "name": "MS Panesar",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Durham",
+                "wickets": 7,
+                "runs": 129,
+                "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                "seriesDate": "2013/14"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2010",
+                        "partnership": 181,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MJ Di Venuto",
+                        "player1Score": 131,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "KJ Coetzer",
+                        "player2Score": 172,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2013/14",
+                        "partnership": 84,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "KK Jennings",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "SG Borthwick",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2010",
+                        "partnership": 92,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "KJ Coetzer",
+                        "player1Score": 172,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DM Benkenstein",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2010",
+                        "partnership": 35,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "KJ Coetzer",
+                        "player1Score": 172,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "ID Blackwell",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2009",
+                        "partnership": 170,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "WR Smith",
+                        "player1Score": 71,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "ID Blackwell",
+                        "player2Score": 102,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2010",
+                        "partnership": 46,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "P Mustard",
+                        "player1Score": 23,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "KJ Coetzer",
+                        "player2Score": 172,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2010",
+                        "partnership": 125,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "KJ Coetzer",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "CD Thorp",
+                        "player2Score": 79,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2013/14",
+                        "partnership": 28,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "U Arshad",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "J Harrison",
+                        "player2Score": 16,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2013/14",
+                        "partnership": 11,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "P Coughlin",
+                        "player1Score": 14,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "C Rushworth",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2013/14",
+                        "partnership": 41,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "J Harrison",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "C Rushworth",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Durham",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2013/14",
+                        "partnership": 57,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "LM Reece",
+                        "player1Score": 85,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SD Robson",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Durham",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2013/14",
+                        "partnership": 112,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "LM Reece",
+                        "player1Score": 85,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DJ Bell-Drummond",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Durham",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2013/14",
+                        "partnership": 67,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DJ Bell-Drummond",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "V Sehwag",
+                        "player2Score": 109,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Durham",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2013/14",
+                        "partnership": 105,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "V Sehwag",
+                        "player1Score": 109,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SR Patel",
+                        "player2Score": 48,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Durham",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2010",
+                        "partnership": 61,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DJ Malan",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JS Foster",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Durham",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2009",
+                        "partnership": 43,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "T Westley",
+                        "player1Score": 18,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "AU Rashid",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Durham",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2013/14",
+                        "partnership": 33,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "OP Rayner",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "KW Hogg",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Durham",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2010",
+                        "partnership": 59,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "TJ Murtagh",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "J Lewis",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Durham",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2010",
+                        "partnership": 23,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "TJ Murtagh",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "DA Cosker",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Durham",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2010",
+                        "partnership": 35,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "TJ Murtagh",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "SP Kirby",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "KJ Coetzer",
+                "team": "Durham",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "runs": 224,
+                "innings": 2,
+                "notOuts": 1,
+                "average": 224.0,
+                "hs": "172"
+            }
+        ],
+        [
+            {
+                "name": "V Sehwag",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Durham",
+                "matches": 1,
+                "runs": 114,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 57.0,
+                "hs": "109"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "SG Borthwick",
+                "team": "Durham",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 2,
+                "balls": 353,
+                "maidens": 6,
+                "runs": 256,
+                "wickets": 13,
+                "bbruns": 27,
+                "bbwickets": 4,
+                "average": 19.69
+            }
+        ],
+        [
+            {
+                "name": "MS Panesar",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Durham",
+                "matches": 1,
+                "balls": 272,
+                "maidens": 6,
+                "runs": 129,
+                "wickets": 7,
+                "bbruns": 63,
+                "bbwickets": 5,
+                "average": 18.42
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "P Mustard",
+                "team": "Durham",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "HAPW Jayawardene",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Durham",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "JS Foster",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Durham",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "HAPW Jayawardene",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Durham",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Durham",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 248,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2013/14"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 248,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2013/14"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 228,
+                    "wickets": 6,
+                    "declared": true,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2010"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Durham",
+                    "total": 162,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2010"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Durham",
+                    "total": 162,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2010"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Durham",
+                    "total": 126,
+                    "wickets": 7,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "2009"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:37.789130Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

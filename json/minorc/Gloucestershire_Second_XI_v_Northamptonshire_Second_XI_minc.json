@@ -1,0 +1,842 @@
+{
+    "team1": "Gloucestershire Second XI",
+    "team2": "Northamptonshire Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1959-05-20T01:00",
+        "endDate": "1959-06-08T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Gloucestershire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "total": 126,
+                "wickets": 1,
+                "declared": false,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1959"
+            }
+        ],
+        [
+            {
+                "team": "Northamptonshire Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "total": 213,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1959"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RJ Etheridge",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "score": 74,
+                "notOut": false,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1959"
+            }
+        ],
+        [
+            {
+                "name": "V Broderick",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "score": 80,
+                "notOut": false,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1959"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "FJ Andrew",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "wickets": 4,
+                "runs": 21,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1959"
+            }
+        ],
+        [
+            {
+                "name": "L McGibbon",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "wickets": 5,
+                "runs": 39,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1959"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "FJ Andrew",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "wickets": 4,
+                "runs": 21,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1959"
+            }
+        ],
+        [
+            {
+                "name": "L McGibbon",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "wickets": 5,
+                "runs": 56,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1959"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 114,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DG A'Court",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "RJ Etheridge",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 12,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "DG A'Court",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "J Daft",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 10,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RJ Etheridge",
+                        "player1Score": 5,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "GM Emmett",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 17,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "GM Emmett",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "HJ Jarman",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1959",
+                        "partnership": 28,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HJ Jarman",
+                        "player1Score": 5,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "GM Emmett",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1959",
+                        "partnership": 32,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GM Emmett",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "GGM Wiltshire",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1959",
+                        "partnership": 13,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "GM Emmett",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "MR Williams",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 11,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "S Howlett",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "BD Wells",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1959",
+                        "partnership": 3,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "MR Williams",
+                        "player1Score": 8,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "FJ Andrew",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 18,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "S Howlett",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "D Marsh",
+                        "player2Score": 17,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1959",
+                        "partnership": 69,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PJ Watts",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "LA Wilson",
+                        "player2Score": 39,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 33,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "PJ Watts",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "M Griffiths",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1959",
+                        "partnership": 26,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "LA Wilson",
+                        "player1Score": 39,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "JG Williamson",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 12,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "BS Crump",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "J Wild",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 19,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "J Wild",
+                        "player1Score": 16,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "V Broderick",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 26,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "V Broderick",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "PD Watts",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 2,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "V Broderick",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "LA Johnson",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 30,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "MR Dilley",
+                        "player1Score": 7,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "V Broderick",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 42,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "V Broderick",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "PA Shenton",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Gloucestershire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1959",
+                        "partnership": 4,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "V Broderick",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "L McGibbon",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "GM Emmett",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 2,
+                "runs": 80,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 40.0,
+                "hs": "54"
+            },
+            {
+                "name": "RJ Etheridge",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 2,
+                "runs": 80,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 26.66,
+                "hs": "74"
+            }
+        ],
+        [
+            {
+                "name": "PJ Watts",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "matches": 2,
+                "runs": 88,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 44.0,
+                "hs": "47"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "FJ Andrew",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 2,
+                "balls": 132,
+                "maidens": 4,
+                "runs": 48,
+                "wickets": 5,
+                "bbruns": 21,
+                "bbwickets": 4,
+                "average": 9.6
+            }
+        ],
+        [
+            {
+                "name": "MR Dilley",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "matches": 2,
+                "balls": 123,
+                "maidens": 5,
+                "runs": 67,
+                "wickets": 8,
+                "bbruns": 15,
+                "bbwickets": 4,
+                "average": 8.37
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RJ Etheridge",
+                "team": "Gloucestershire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "V Broderick",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "PJ Watts",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "J Wild",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Gloucestershire Second XI",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Gloucestershire Second XI",
+                    "opponents": "Northamptonshire Second XI",
+                    "total": 92,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ashley Down Ground, Bristol",
+                    "seriesDate": "1959"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Gloucestershire Second XI",
+                    "opponents": "Northamptonshire Second XI",
+                    "total": 92,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ashley Down Ground, Bristol",
+                    "seriesDate": "1959"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Gloucestershire Second XI",
+                    "opponents": "Northamptonshire Second XI",
+                    "total": 92,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Ashley Down Ground, Bristol",
+                    "seriesDate": "1959"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Northamptonshire Second XI",
+                    "opponents": "Gloucestershire Second XI",
+                    "total": 213,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1959"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Northamptonshire Second XI",
+                    "opponents": "Gloucestershire Second XI",
+                    "total": 213,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1959"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Northamptonshire Second XI",
+                    "opponents": "Gloucestershire Second XI",
+                    "total": 96,
+                    "wickets": 3,
+                    "declared": false,
+                    "location": "Ashley Down Ground, Bristol",
+                    "seriesDate": "1959"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:34.771789Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

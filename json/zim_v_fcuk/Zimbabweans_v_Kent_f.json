@@ -1,0 +1,824 @@
+{
+    "team1": "Zimbabweans",
+    "team2": "Kent",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1993-09-11T01:00",
+        "endDate": "2000-05-03T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Zimbabweans",
+                "opponents": "Kent",
+                "total": 165,
+                "wickets": 10,
+                "declared": false,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "2000"
+            }
+        ],
+        [
+            {
+                "team": "Kent",
+                "opponents": "Zimbabweans",
+                "total": 487,
+                "wickets": 8,
+                "declared": true,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "2000"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "NC Johnson",
+                "team": "Zimbabweans",
+                "opponents": "Kent",
+                "score": 70,
+                "notOut": false,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "2000"
+            }
+        ],
+        [
+            {
+                "name": "RS Dravid",
+                "team": "Kent",
+                "opponents": "Zimbabweans",
+                "score": 182,
+                "notOut": false,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "2000"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "DH Brain",
+                "team": "Zimbabweans",
+                "opponents": "Kent",
+                "wickets": 6,
+                "runs": 48,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "1993"
+            }
+        ],
+        [
+            {
+                "name": "MA Ealham",
+                "team": "Kent",
+                "opponents": "Zimbabweans",
+                "wickets": 5,
+                "runs": 14,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "1993"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "DH Brain",
+                "team": "Zimbabweans",
+                "opponents": "Kent",
+                "wickets": 6,
+                "runs": 63,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "1993"
+            }
+        ],
+        [
+            {
+                "name": "DD Masters",
+                "team": "Kent",
+                "opponents": "Zimbabweans",
+                "wickets": 9,
+                "runs": 81,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "2000"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "2000",
+                        "partnership": 15,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GW Flower",
+                        "player1Score": 10,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "TR Gripper",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1993",
+                        "partnership": 49,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "GW Flower",
+                        "player1Score": 18,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "ADR Campbell",
+                        "player2Score": 26,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "2000",
+                        "partnership": 24,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MW Goodwin",
+                        "player1Score": 21,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GJ Whittall",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1993",
+                        "partnership": 12,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1993",
+                        "partnership": 12,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "2000",
+                        "partnership": 30,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "NC Johnson",
+                        "player1Score": 70,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DP Viljoen",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "2000",
+                        "partnership": 29,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SV Carlisle",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "HH Streak",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "2000",
+                        "partnership": 51,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "NC Johnson",
+                        "player1Score": 70,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "ML Nkala",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "2000",
+                        "partnership": 30,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "T Taibu",
+                        "player1Score": 9,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "ML Nkala",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabweans",
+                        "opponents": "Kent",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1993",
+                        "partnership": 8,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Zimbabweans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1993",
+                        "partnership": 68,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "TR Ward",
+                        "player1Score": 36,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "DP Fulton",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Zimbabweans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1993",
+                        "partnership": 10,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Zimbabweans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1993",
+                        "partnership": 8,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Zimbabweans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "2000",
+                        "partnership": 104,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RS Dravid",
+                        "player1Score": 182,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AP Wells",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Zimbabweans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "2000",
+                        "partnership": 208,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "JB Hockley",
+                        "player1Score": 74,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "RS Dravid",
+                        "player2Score": 182,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Zimbabweans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "2000",
+                        "partnership": 61,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RS Dravid",
+                        "player1Score": 182,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "PA Nixon",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Zimbabweans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1993",
+                        "partnership": 166,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Zimbabweans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "2000",
+                        "partnership": 29,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "PA Nixon",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JM Golding",
+                        "player2Score": 18,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Zimbabweans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1993",
+                        "partnership": 1,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Kent",
+                        "opponents": "Zimbabweans",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1993",
+                        "partnership": 0,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "SC Willis",
+                        "player1Score": 0,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "MM Patel",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "NC Johnson",
+                "team": "Zimbabweans",
+                "opponents": "Kent",
+                "matches": 1,
+                "runs": 70,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 35.0,
+                "hs": "70"
+            }
+        ],
+        [
+            {
+                "name": "RS Dravid",
+                "team": "Kent",
+                "opponents": "Zimbabweans",
+                "matches": 1,
+                "runs": 182,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 182.0,
+                "hs": "182"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "DH Brain",
+                "team": "Zimbabweans",
+                "opponents": "Kent",
+                "matches": 1,
+                "balls": 148,
+                "maidens": 7,
+                "runs": 63,
+                "wickets": 6,
+                "bbruns": 48,
+                "bbwickets": 6,
+                "average": 10.5
+            }
+        ],
+        [
+            {
+                "name": "DD Masters",
+                "team": "Kent",
+                "opponents": "Zimbabweans",
+                "matches": 1,
+                "balls": 210,
+                "maidens": 11,
+                "runs": 81,
+                "wickets": 9,
+                "bbruns": 37,
+                "bbwickets": 5,
+                "average": 9.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "GA Briant",
+                "team": "Zimbabweans",
+                "opponents": "Kent",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "MV Fleming",
+                "team": "Kent",
+                "opponents": "Zimbabweans",
+                "matches": 2,
+                "dismissals": 3
+            },
+            {
+                "name": "MM Patel",
+                "team": "Kent",
+                "opponents": "Zimbabweans",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Zimbabweans",
+                    "opponents": "Kent",
+                    "total": 83,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Lawrence Ground, Canterbury",
+                    "seriesDate": "1993"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Zimbabweans",
+                    "opponents": "Kent",
+                    "total": 83,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Lawrence Ground, Canterbury",
+                    "seriesDate": "1993"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Zimbabweans",
+                    "opponents": "Kent",
+                    "total": 53,
+                    "wickets": 1,
+                    "declared": true,
+                    "location": "St Lawrence Ground, Canterbury",
+                    "seriesDate": "1993"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Kent",
+                    "opponents": "Zimbabweans",
+                    "total": 264,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Lawrence Ground, Canterbury",
+                    "seriesDate": "1993"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Kent",
+                    "opponents": "Zimbabweans",
+                    "total": 264,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Lawrence Ground, Canterbury",
+                    "seriesDate": "1993"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Kent",
+                    "opponents": "Zimbabweans",
+                    "total": 68,
+                    "wickets": 1,
+                    "declared": true,
+                    "location": "St Lawrence Ground, Canterbury",
+                    "seriesDate": "1993"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:42.664841Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

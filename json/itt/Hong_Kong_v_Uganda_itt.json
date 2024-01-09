@@ -1,0 +1,1427 @@
+{
+    "team1": "Hong Kong",
+    "team2": "Uganda",
+    "competitionTitle": "International T20",
+    "competitionSubType": "itt",
+    "matchDto": {
+        "count": 2,
+        "startDate": "2022-07-11T01:00",
+        "endDate": "2022-07-17T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "total": 98,
+                "wickets": 8,
+                "declared": false,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "total": 102,
+                "wickets": 7,
+                "declared": false,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "KD Shah",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "score": 37,
+                "notOut": false,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "Riazat Ali Shah",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "score": 28,
+                "notOut": true,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "SS McKechnie",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "strikeRate": 200.0,
+                "runs": 6,
+                "balls": 3,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "RG Mukasa",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "strikeRate": 133.33,
+                "runs": 4,
+                "balls": 3,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "KD Shah",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "strikeRate": 80.43,
+                "runs": 37,
+                "balls": 46,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "S Ssesazi",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "strikeRate": 79.31,
+                "runs": 23,
+                "balls": 29,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "Yasim Murtaza",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "strikeRate": 25.0,
+                "runs": 3,
+                "balls": 12,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "F Achelam",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "strikeRate": 9.09,
+                "runs": 1,
+                "balls": 11,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "Babar Hayat",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "strikeRate": 37.5,
+                "runs": 9,
+                "balls": 24,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "RB Patel",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "strikeRate": 64.71,
+                "runs": 22,
+                "balls": 34,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "KD Shah",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 2,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Zeeshan Ali",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 2,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "S Ssesazi",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "boundaries": 4,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "Aizaz Khan",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Babar Hayat",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Ehsan Khan",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Haroon Arshad",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "SS McKechnie",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Nizakat Khan",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "KD Shah",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "A Shukla",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Yasim Murtaza",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Zeeshan Ali",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Aftab Hussain",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Aizaz Khan",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Babar Hayat",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Ehsan Khan",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "SS McKechnie",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Nizakat Khan",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "KD Shah",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Shahid Wasif",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Yasim Murtaza",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Zeeshan Ali",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 0,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "DM Nakrani",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "boundaries": 1,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "KD Shah",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 2,
+                "fours": 2,
+                "sixes": 0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Zeeshan Ali",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "boundaries": 2,
+                "fours": 2,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "S Ssesazi",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "boundaries": 4,
+                "fours": 4,
+                "sixes": 0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Aizaz Khan",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "wickets": 3,
+                "runs": 22,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "wickets": 3,
+                "runs": 22,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "DM Nakrani",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "wickets": 4,
+                "runs": 12,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Aizaz Khan",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "wickets": 3,
+                "runs": 22,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "wickets": 3,
+                "runs": 22,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "DM Nakrani",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "wickets": 4,
+                "runs": 12,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "Aizaz Khan",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 22,
+                "sr": 8.0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 22,
+                "sr": 8.0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "DM Nakrani",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 12,
+                "sr": 6.0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "Aizaz Khan",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 22,
+                "sr": 8.0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            },
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 22,
+                "sr": 8.0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "DM Nakrani",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 12,
+                "sr": 6.0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 12,
+                "sr": 3.0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "F Nsubuga",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 10,
+                "sr": 2.5,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 12,
+                "sr": 3.0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "F Nsubuga",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 10,
+                "sr": 2.5,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "KD Shah",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 6,
+                "sr": 6.0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "F Akankwasa",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 9,
+                "sr": 9.0,
+                "location": "Bulawayo Athletic Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "Aftab Hussain",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 23,
+                "sr": 5.75,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "C Kyewuta",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 28,
+                "sr": 7.0,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2022"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "Uganda",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 15,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Aizaz Khan",
+                        "player1Score": 8,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "Nizakat Khan",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "Uganda",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 2,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Aizaz Khan",
+                        "player1Score": 7,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "Babar Hayat",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "Uganda",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 16,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "Babar Hayat",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "KD Shah",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "Uganda",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 34,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "KD Shah",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Zeeshan Ali",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "Uganda",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 4,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "KD Shah",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Haroon Arshad",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "Uganda",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 55,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Shahid Wasif",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "Zeeshan Ali",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "Uganda",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 8,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Zeeshan Ali",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "SS McKechnie",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "Uganda",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 7,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Ehsan Khan",
+                        "player1Score": 6,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "SS McKechnie",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "Uganda",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 1,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "SS McKechnie",
+                        "player1Score": 6,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "Aftab Hussain",
+                        "player2Score": 1,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Hong Kong",
+                        "opponents": "Uganda",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 5,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "Ehsan Khan",
+                        "player1Score": 6,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "Mohammad Ghazanfar",
+                        "player2Score": 2,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Uganda",
+                        "opponents": "Hong Kong",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 51,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "S Ssesazi",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RB Patel",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Uganda",
+                        "opponents": "Hong Kong",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 21,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "RG Mukasa",
+                        "player1Score": 6,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RB Patel",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Uganda",
+                        "opponents": "Hong Kong",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 8,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "K Waiswa",
+                        "player1Score": 7,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Riazat Ali Shah",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Uganda",
+                        "opponents": "Hong Kong",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 4,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "Riazat Ali Shah",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RG Mukasa",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Uganda",
+                        "opponents": "Hong Kong",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 14,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "Riazat Ali Shah",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "DM Nakrani",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Uganda",
+                        "opponents": "Hong Kong",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 10,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Riazat Ali Shah",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "F Akankwasa",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    },
+                    {
+                        "team": "Uganda",
+                        "opponents": "Hong Kong",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 10,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Riazat Ali Shah",
+                        "player1Score": 14,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "J Miyagi",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Uganda",
+                        "opponents": "Hong Kong",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 13,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Riazat Ali Shah",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "F Achelam",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Uganda",
+                        "opponents": "Hong Kong",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 22,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Riazat Ali Shah",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "F Nsubuga",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Uganda",
+                        "opponents": "Hong Kong",
+                        "location": "Bulawayo Athletic Club, Bulawayo",
+                        "seriesDate": "2022",
+                        "partnership": 3,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "Riazat Ali Shah",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "C Kyewuta",
+                        "player2Score": 1,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "KD Shah",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "matches": 2,
+                "runs": 43,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 21.5,
+                "hs": "37"
+            }
+        ],
+        [
+            {
+                "name": "Riazat Ali Shah",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "matches": 2,
+                "runs": 42,
+                "innings": 2,
+                "notOuts": 1,
+                "average": 42.0,
+                "hs": "28*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Aizaz Khan",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "matches": 2,
+                "balls": 48,
+                "maidens": 1,
+                "runs": 36,
+                "wickets": 5,
+                "bbruns": 22,
+                "bbwickets": 3,
+                "average": 7.2
+            },
+            {
+                "name": "Mohammad Ghazanfar",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "matches": 2,
+                "balls": 48,
+                "maidens": 1,
+                "runs": 34,
+                "wickets": 5,
+                "bbruns": 22,
+                "bbwickets": 3,
+                "average": 6.8
+            }
+        ],
+        [
+            {
+                "name": "C Kyewuta",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "matches": 2,
+                "balls": 48,
+                "maidens": 0,
+                "runs": 49,
+                "wickets": 4,
+                "bbruns": 21,
+                "bbwickets": 2,
+                "average": 12.25
+            },
+            {
+                "name": "DM Nakrani",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 0,
+                "runs": 12,
+                "wickets": 4,
+                "bbruns": 12,
+                "bbwickets": 4,
+                "average": 3.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "A Shukla",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "Yasim Murtaza",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "F Achelam",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "F Akankwasa",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "F Nsubuga",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "RB Patel",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "S Ssesazi",
+                "team": "Uganda",
+                "opponents": "Hong Kong",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "SS McKechnie",
+                "team": "Hong Kong",
+                "opponents": "Uganda",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Hong Kong",
+                    "opponents": "Uganda",
+                    "total": 87,
+                    "wickets": 9,
+                    "declared": false,
+                    "location": "Bulawayo Athletic Club, Bulawayo",
+                    "seriesDate": "2022"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Hong Kong",
+                    "opponents": "Uganda",
+                    "total": 87,
+                    "wickets": 9,
+                    "declared": false,
+                    "location": "Bulawayo Athletic Club, Bulawayo",
+                    "seriesDate": "2022"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Uganda",
+                    "opponents": "Hong Kong",
+                    "total": 102,
+                    "wickets": 7,
+                    "declared": false,
+                    "location": "Queens Sports Club, Bulawayo",
+                    "seriesDate": "2022"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Uganda",
+                    "opponents": "Hong Kong",
+                    "total": 88,
+                    "wickets": 8,
+                    "declared": false,
+                    "location": "Bulawayo Athletic Club, Bulawayo",
+                    "seriesDate": "2022"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:20:19.338252Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,831 @@
+{
+    "team1": "Pakistan",
+    "team2": "Sri Lanka",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 59,
+        "startDate": "1982-03-05T00:00",
+        "endDate": "2023-07-24T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Pakistan",
+                "opponents": "Sri Lanka",
+                "total": 765,
+                "wickets": 6,
+                "declared": true,
+                "location": "National Stadium, Karachi",
+                "seriesDate": "2008/09"
+            }
+        ],
+        [
+            {
+                "team": "Sri Lanka",
+                "opponents": "Pakistan",
+                "total": 644,
+                "wickets": 7,
+                "declared": true,
+                "location": "National Stadium, Karachi",
+                "seriesDate": "2008/09"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Younis Khan",
+                "team": "Pakistan",
+                "opponents": "Sri Lanka",
+                "score": 313,
+                "notOut": false,
+                "location": "National Stadium, Karachi",
+                "seriesDate": "2008/09"
+            }
+        ],
+        [
+            {
+                "name": "ST Jayasuriya",
+                "team": "Sri Lanka",
+                "opponents": "Pakistan",
+                "score": 253,
+                "notOut": false,
+                "location": "Iqbal Stadium, Faisalabad",
+                "seriesDate": "2004/05"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Imran Khan",
+                "team": "Pakistan",
+                "opponents": "Sri Lanka",
+                "wickets": 8,
+                "runs": 58,
+                "location": "Gaddafi Stadium, Lahore",
+                "seriesDate": "1981/82"
+            }
+        ],
+        [
+            {
+                "name": "HMRKB Herath",
+                "team": "Sri Lanka",
+                "opponents": "Pakistan",
+                "wickets": 9,
+                "runs": 127,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2014"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Imran Khan",
+                "team": "Pakistan",
+                "opponents": "Sri Lanka",
+                "wickets": 14,
+                "runs": 116,
+                "location": "Gaddafi Stadium, Lahore",
+                "seriesDate": "1981/82"
+            }
+        ],
+        [
+            {
+                "name": "HMRKB Herath",
+                "team": "Sri Lanka",
+                "opponents": "Pakistan",
+                "wickets": 14,
+                "runs": 184,
+                "location": "Sinhalese Sports Club Ground, Colombo",
+                "seriesDate": "2014"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Sri Lanka",
+                        "location": "National Stadium, Karachi",
+                        "seriesDate": "2019/20",
+                        "partnership": 278,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Abid Ali",
+                        "player1Score": 174,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "Shan Masood",
+                        "player2Score": 135,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Sri Lanka",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2012",
+                        "partnership": 287,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Azhar Ali",
+                        "player1Score": 157,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Mohammad Hafeez",
+                        "player2Score": 196,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Sri Lanka",
+                        "location": "Iqbal Stadium, Faisalabad",
+                        "seriesDate": "1985/86",
+                        "partnership": 397,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "Qasim Umar",
+                        "player1Score": 206,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Javed Miandad",
+                        "player2Score": 203,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Sri Lanka",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2013/14",
+                        "partnership": 218,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "Younis Khan",
+                        "player1Score": 136,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Misbah-ul-Haq",
+                        "player2Score": 135,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Sri Lanka",
+                        "location": "National Stadium, Karachi",
+                        "seriesDate": "2008/09",
+                        "partnership": 174,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "Younis Khan",
+                        "player1Score": 313,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Faisal Iqbal",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Sri Lanka",
+                        "location": "Galle International Stadium, Galle",
+                        "seriesDate": "2023",
+                        "partnership": 177,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Saud Shakil",
+                        "player1Score": 208,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "Agha Salman",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Sri Lanka",
+                        "location": "National Stadium, Karachi",
+                        "seriesDate": "2008/09",
+                        "partnership": 169,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "Kamran Akmal",
+                        "player1Score": 158,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "Yasir Arafat",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Sri Lanka",
+                        "location": "National Stadium, Karachi",
+                        "seriesDate": "1999/00",
+                        "partnership": 88,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Moin Khan",
+                        "player1Score": 70,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Waqar Younis",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Sri Lanka",
+                        "location": "Rawalpindi Cricket Stadium, Rawalpindi",
+                        "seriesDate": "1999/00",
+                        "partnership": 145,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "Younis Khan",
+                        "player1Score": 107,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "Wasim Akram",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Sri Lanka",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2000",
+                        "partnership": 90,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "Wasim Akram",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Arshad Khan",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Pakistan",
+                        "location": "Asgiriya Stadium, Kandy",
+                        "seriesDate": "2000",
+                        "partnership": 335,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MS Atapattu",
+                        "player1Score": 207,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "ST Jayasuriya",
+                        "player2Score": 188,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Pakistan",
+                        "location": "Sinhalese Sports Club Ground, Colombo",
+                        "seriesDate": "2012",
+                        "partnership": 225,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TM Dilshan",
+                        "player1Score": 121,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "KC Sangakkara",
+                        "player2Score": 192,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Pakistan",
+                        "location": "Iqbal Stadium, Faisalabad",
+                        "seriesDate": "1995/96",
+                        "partnership": 176,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "UC Hathurusingha",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "PA de Silva",
+                        "player2Score": 105,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Pakistan",
+                        "location": "National Stadium, Karachi",
+                        "seriesDate": "2008/09",
+                        "partnership": 437,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DPMD Jayawardene",
+                        "player1Score": 240,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "TT Samaraweera",
+                        "player2Score": 231,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Pakistan",
+                        "location": "Gaddafi Stadium, Lahore",
+                        "seriesDate": "2008/09",
+                        "partnership": 207,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "TT Samaraweera",
+                        "player1Score": 214,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "TM Dilshan",
+                        "player2Score": 145,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Pakistan",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2011/12",
+                        "partnership": 201,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "KC Sangakkara",
+                        "player1Score": 211,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "HAPW Jayawardene",
+                        "player2Score": 120,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Pakistan",
+                        "location": "Asgiriya Stadium, Kandy",
+                        "seriesDate": "1994",
+                        "partnership": 131,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "HP Tillakaratne",
+                        "player1Score": 83,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "RS Kalpage",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Pakistan",
+                        "location": "Pallekele Cricket Stadium, Pallekele",
+                        "seriesDate": "2012",
+                        "partnership": 84,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "NLTC Perera",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "KMDN Kulasekara",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Pakistan",
+                        "location": "Iqbal Stadium, Faisalabad",
+                        "seriesDate": "2004/05",
+                        "partnership": 101,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "ST Jayasuriya",
+                        "player1Score": 253,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "CRD Fernando",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Sri Lanka",
+                        "opponents": "Pakistan",
+                        "location": "Bangabandhu National Stadium, Dhaka",
+                        "seriesDate": "1998/99",
+                        "partnership": 73,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "HP Tillakaratne",
+                        "player1Score": 55,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "KSC de Silva",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Younis Khan",
+                "team": "Pakistan",
+                "opponents": "Sri Lanka",
+                "matches": 29,
+                "runs": 2286,
+                "innings": 48,
+                "notOuts": 4,
+                "average": 51.95,
+                "hs": "313"
+            }
+        ],
+        [
+            {
+                "name": "KC Sangakkara",
+                "team": "Sri Lanka",
+                "opponents": "Pakistan",
+                "matches": 23,
+                "runs": 2911,
+                "innings": 45,
+                "notOuts": 6,
+                "average": 74.64,
+                "hs": "230"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Saeed Ajmal",
+                "team": "Pakistan",
+                "opponents": "Sri Lanka",
+                "matches": 14,
+                "balls": 5068,
+                "maidens": 161,
+                "runs": 2170,
+                "wickets": 66,
+                "bbruns": 68,
+                "bbwickets": 5,
+                "average": 32.87
+            }
+        ],
+        [
+            {
+                "name": "HMRKB Herath",
+                "team": "Sri Lanka",
+                "opponents": "Pakistan",
+                "matches": 20,
+                "balls": 6591,
+                "maidens": 230,
+                "runs": 2976,
+                "wickets": 106,
+                "bbruns": 127,
+                "bbwickets": 9,
+                "average": 28.07
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "Moin Khan",
+                "team": "Pakistan",
+                "opponents": "Sri Lanka",
+                "matches": 16,
+                "dismissals": 35
+            }
+        ],
+        [
+            {
+                "name": "DPMD Jayawardene",
+                "team": "Sri Lanka",
+                "opponents": "Pakistan",
+                "matches": 29,
+                "dismissals": 37
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "Sarfraz Ahmed",
+                "team": "Pakistan",
+                "opponents": "Sri Lanka",
+                "matches": 11,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "DPDN Dickwella",
+                "team": "Sri Lanka",
+                "opponents": "Pakistan",
+                "matches": 8,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Pakistan",
+                    "opponents": "Sri Lanka",
+                    "total": 90,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "P Sara Oval, Colombo",
+                    "seriesDate": "2009"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Pakistan",
+                    "opponents": "Sri Lanka",
+                    "total": 90,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "P Sara Oval, Colombo",
+                    "seriesDate": "2009"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Pakistan",
+                    "opponents": "Sri Lanka",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Asgiriya Stadium, Kandy",
+                    "seriesDate": "2000"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "Pakistan",
+                    "total": 71,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Asgiriya Stadium, Kandy",
+                    "seriesDate": "1994"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "Pakistan",
+                    "total": 71,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Asgiriya Stadium, Kandy",
+                    "seriesDate": "1994"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Sri Lanka",
+                    "opponents": "Pakistan",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Municipal Stadium, Gujranwala",
+                    "seriesDate": "1991/92"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:20:50.160452Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

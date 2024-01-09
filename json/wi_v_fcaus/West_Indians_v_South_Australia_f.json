@@ -1,0 +1,858 @@
+{
+    "team1": "West Indians",
+    "team2": "South Australia",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 12,
+        "startDate": "1930-12-05T00:00",
+        "endDate": "1988-11-04T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "West Indians",
+                "opponents": "South Australia",
+                "total": 593,
+                "wickets": 8,
+                "declared": true,
+                "location": "Adelaide Oval, Adelaide",
+                "seriesDate": "1988/89"
+            }
+        ],
+        [
+            {
+                "team": "South Australia",
+                "opponents": "West Indians",
+                "total": 484,
+                "wickets": 10,
+                "declared": false,
+                "location": "Adelaide Oval, Adelaide",
+                "seriesDate": "1968/69"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "CG Greenidge",
+                "team": "West Indians",
+                "opponents": "South Australia",
+                "score": 213,
+                "notOut": false,
+                "location": "Adelaide Oval, Adelaide",
+                "seriesDate": "1988/89"
+            }
+        ],
+        [
+            {
+                "name": "IM Chappell",
+                "team": "South Australia",
+                "opponents": "West Indians",
+                "score": 180,
+                "notOut": false,
+                "location": "Adelaide Oval, Adelaide",
+                "seriesDate": "1968/69"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "AL Valentine",
+                "team": "West Indians",
+                "opponents": "South Australia",
+                "wickets": 7,
+                "runs": 52,
+                "location": "Adelaide Oval, Adelaide",
+                "seriesDate": "1951/52"
+            }
+        ],
+        [
+            {
+                "name": "GJ Winter",
+                "team": "South Australia",
+                "opponents": "West Indians",
+                "wickets": 7,
+                "runs": 65,
+                "location": "Adelaide Oval, Adelaide",
+                "seriesDate": "1981/82"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "AL Valentine",
+                "team": "West Indians",
+                "opponents": "South Australia",
+                "wickets": 12,
+                "runs": 164,
+                "location": "Adelaide Oval, Adelaide",
+                "seriesDate": "1951/52"
+            }
+        ],
+        [
+            {
+                "name": "CV Grimmett",
+                "team": "South Australia",
+                "opponents": "West Indians",
+                "wickets": 9,
+                "runs": 114,
+                "location": "Adelaide Oval, Adelaide",
+                "seriesDate": "1930/31"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "South Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1988/89",
+                        "partnership": 169,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CG Greenidge",
+                        "player1Score": 213,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DL Haynes",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "South Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1988/89",
+                        "partnership": 87,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CG Greenidge",
+                        "player1Score": 213,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RB Richardson",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "South Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1975/76",
+                        "partnership": 65,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "South Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1988/89",
+                        "partnership": 169,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "CG Greenidge",
+                        "player1Score": 213,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "IVA Richards",
+                        "player2Score": 136,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "South Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1984/85",
+                        "partnership": 140,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "PJL Dujon",
+                        "player1Score": 151,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "CH Lloyd",
+                        "player2Score": 63,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "South Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1981/82",
+                        "partnership": 166,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "HA Gomes",
+                        "player1Score": 95,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DA Murray",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "South Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1968/69",
+                        "partnership": 127,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "South Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1968/69",
+                        "partnership": 40,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "South Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1975/76",
+                        "partnership": 39,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "South Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1975/76",
+                        "partnership": 53,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MA Holding",
+                        "player1Score": 51,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "LR Gibbs",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "South Australia",
+                        "opponents": "West Indians",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1981/82",
+                        "partnership": 141,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WM Darling",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "KP Harris",
+                        "player2Score": 49,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "South Australia",
+                        "opponents": "West Indians",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1988/89",
+                        "partnership": 113,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AMJ Hilditch",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "PC Nobes",
+                        "player2Score": 95,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "South Australia",
+                        "opponents": "West Indians",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1968/69",
+                        "partnership": 208,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "South Australia",
+                        "opponents": "West Indians",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1968/69",
+                        "partnership": 81,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "South Australia",
+                        "opponents": "West Indians",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1984/85",
+                        "partnership": 103,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DFG O'Connor",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "MD Haysman",
+                        "player2Score": 91,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "South Australia",
+                        "opponents": "West Indians",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1975/76",
+                        "partnership": 138,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "South Australia",
+                        "opponents": "West Indians",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1984/85",
+                        "partnership": 57,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MD Haysman",
+                        "player1Score": 91,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "RJ Inverarity",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "South Australia",
+                        "opponents": "West Indians",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1968/69",
+                        "partnership": 171,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "South Australia",
+                        "opponents": "West Indians",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1951/52",
+                        "partnership": 67,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "South Australia",
+                        "opponents": "West Indians",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1930/31",
+                        "partnership": 93,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CG Greenidge",
+                "team": "West Indians",
+                "opponents": "South Australia",
+                "matches": 5,
+                "runs": 471,
+                "innings": 9,
+                "notOuts": 0,
+                "average": 52.33,
+                "hs": "213"
+            }
+        ],
+        [
+            {
+                "name": "DW Hookes",
+                "team": "South Australia",
+                "opponents": "West Indians",
+                "matches": 6,
+                "runs": 325,
+                "innings": 10,
+                "notOuts": 0,
+                "average": 32.5,
+                "hs": "67"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "J Garner",
+                "team": "West Indians",
+                "opponents": "South Australia",
+                "matches": 2,
+                "balls": 351,
+                "maidens": 13,
+                "runs": 169,
+                "wickets": 15,
+                "bbruns": 45,
+                "bbwickets": 5,
+                "average": 11.26
+            }
+        ],
+        [
+            {
+                "name": "CV Grimmett",
+                "team": "South Australia",
+                "opponents": "West Indians",
+                "matches": 2,
+                "balls": 760,
+                "maidens": 8,
+                "runs": 351,
+                "wickets": 17,
+                "bbruns": 43,
+                "bbwickets": 5,
+                "average": 20.64
+            },
+            {
+                "name": "AA Mallett",
+                "team": "South Australia",
+                "opponents": "West Indians",
+                "matches": 5,
+                "balls": 1362,
+                "maidens": 56,
+                "runs": 491,
+                "wickets": 17,
+                "bbruns": 60,
+                "bbwickets": 3,
+                "average": 28.88
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "DL Murray",
+                "team": "West Indians",
+                "opponents": "South Australia",
+                "matches": 3,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "AJ Woodcock",
+                "team": "South Australia",
+                "opponents": "West Indians",
+                "matches": 3,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JL Hendriks",
+                "team": "West Indians",
+                "opponents": "South Australia",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "CL Walcott",
+                "team": "West Indians",
+                "opponents": "South Australia",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "CW Walker",
+                "team": "South Australia",
+                "opponents": "West Indians",
+                "matches": 2,
+                "dismissals": 3
+            },
+            {
+                "name": "DB Yagmich",
+                "team": "South Australia",
+                "opponents": "West Indians",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indians",
+                    "opponents": "South Australia",
+                    "total": 93,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Adelaide Oval, Adelaide",
+                    "seriesDate": "1951/52"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "South Australia",
+                    "total": 93,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Adelaide Oval, Adelaide",
+                    "seriesDate": "1951/52"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "South Australia",
+                    "total": 42,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Adelaide Oval, Adelaide",
+                    "seriesDate": "1979/80"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "South Australia",
+                    "opponents": "West Indians",
+                    "total": 79,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Adelaide Oval, Adelaide",
+                    "seriesDate": "1981/82"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "South Australia",
+                    "opponents": "West Indians",
+                    "total": 79,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Adelaide Oval, Adelaide",
+                    "seriesDate": "1981/82"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "South Australia",
+                    "opponents": "West Indians",
+                    "total": 4,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Adelaide Oval, Adelaide",
+                    "seriesDate": "1930/31"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:41.007805Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

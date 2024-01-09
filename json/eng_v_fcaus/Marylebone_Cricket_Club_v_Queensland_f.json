@@ -1,0 +1,911 @@
+{
+    "team1": "Marylebone Cricket Club",
+    "team2": "Queensland",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 27,
+        "startDate": "1903-11-27T00:00",
+        "endDate": "2002-11-02T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Queensland",
+                "total": 581,
+                "wickets": 6,
+                "declared": true,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1962/63"
+            }
+        ],
+        [
+            {
+                "team": "Queensland",
+                "opponents": "Marylebone Cricket Club",
+                "total": 582,
+                "wickets": 10,
+                "declared": false,
+                "location": "Allan Border Field, Brisbane",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "CJ Barnett",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Queensland",
+                "score": 259,
+                "notOut": false,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1936/37"
+            }
+        ],
+        [
+            {
+                "name": "ML Love",
+                "team": "Queensland",
+                "opponents": "Marylebone Cricket Club",
+                "score": 250,
+                "notOut": false,
+                "location": "Allan Border Field, Brisbane",
+                "seriesDate": "2002/03"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "MS Nichols",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Queensland",
+                "wickets": 8,
+                "runs": 65,
+                "location": "Exhibition Ground, Brisbane",
+                "seriesDate": "1929/30"
+            }
+        ],
+        [
+            {
+                "name": "AC Dale",
+                "team": "Queensland",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 7,
+                "runs": 33,
+                "location": "Cazaly's Australian Rules Football Park, Cairns",
+                "seriesDate": "1998/99"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "C Blythe",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Queensland",
+                "wickets": 11,
+                "runs": 83,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1907/08"
+            }
+        ],
+        [
+            {
+                "name": "AB Henschell",
+                "team": "Queensland",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 9,
+                "runs": 111,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1982/83"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1936/37",
+                        "partnership": 295,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AE Fagg",
+                        "player1Score": 112,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CJ Barnett",
+                        "player2Score": 259,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1965/66",
+                        "partnership": 201,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 242,
+                        "wicket": 2,
+                        "playerDetails": [
+                            {
+                                "team": "Marylebone Cricket Club",
+                                "opponents": "Queensland",
+                                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                                "seriesDate": "1970/71",
+                                "partnership": 62,
+                                "wicket": 2,
+                                "undefeated": false,
+                                "player1Name": "unknown",
+                                "player1Score": 0,
+                                "player1NotOut": false,
+                                "player1Position": 0,
+                                "player2Name": "KWR Fletcher",
+                                "player2Score": 77,
+                                "player2NotOut": false,
+                                "player2Position": 4
+                            },
+                            {
+                                "team": "Marylebone Cricket Club",
+                                "opponents": "Queensland",
+                                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                                "seriesDate": "1970/71",
+                                "partnership": 180,
+                                "wicket": 2,
+                                "undefeated": true,
+                                "player1Name": "unknown",
+                                "player1Score": 0,
+                                "player1NotOut": false,
+                                "player1Position": 0,
+                                "player2Name": "unknown",
+                                "player2Score": 0,
+                                "player2NotOut": false,
+                                "player2Position": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Queensland",
+                        "location": "Carrara Oval, Carrara",
+                        "seriesDate": "1990/91",
+                        "partnership": 169,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "JE Morris",
+                        "player1Score": 132,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "GA Gooch",
+                        "player2Score": 93,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1954/55",
+                        "partnership": 234,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1935/36",
+                        "partnership": 182,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1962/63",
+                        "partnership": 180,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Queensland",
+                        "location": "Heritage Oval, Toowoomba",
+                        "seriesDate": "1994/95",
+                        "partnership": 145,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "MW Gatting",
+                        "player1Score": 203,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "AJ Stewart",
+                        "player2Score": 53,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Queensland",
+                        "location": "Exhibition Ground, Brisbane",
+                        "seriesDate": "1928/29",
+                        "partnership": 137,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1935/36",
+                        "partnership": 66,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JM Sims",
+                        "player1Score": 31,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "SC Griffith",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1986/87",
+                        "partnership": 55,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "NA Foster",
+                        "player1Score": 74,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "GC Small",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Heritage Oval, Toowoomba",
+                        "seriesDate": "1994/95",
+                        "partnership": 231,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "TJ Barsby",
+                        "player1Score": 101,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ML Hayden",
+                        "player2Score": 119,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1970/71",
+                        "partnership": 171,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Exhibition Ground, Brisbane",
+                        "seriesDate": "1929/30",
+                        "partnership": 158,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1982/83",
+                        "partnership": 165,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "GS Chappell",
+                        "player1Score": 126,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AB Henschell",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Heritage Oval, Toowoomba",
+                        "seriesDate": "1994/95",
+                        "partnership": 205,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "A Symonds",
+                        "player1Score": 108,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "JP Maher",
+                        "player2Score": 100,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1946/47",
+                        "partnership": 103,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1946/47",
+                        "partnership": 117,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "GG Cook",
+                        "player1Score": 169,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "AS Young",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Exhibition Ground, Brisbane",
+                        "seriesDate": "1928/29",
+                        "partnership": 85,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1950/51",
+                        "partnership": 81,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "EA Toovey",
+                        "player1Score": 58,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "LG Chapman",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Carrara Oval, Carrara",
+                        "seriesDate": "1990/91",
+                        "partnership": 25,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "TV Hohns",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "CG Rackemann",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "GA Gooch",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Queensland",
+                "matches": 5,
+                "runs": 415,
+                "innings": 10,
+                "notOuts": 1,
+                "average": 46.11,
+                "hs": "115"
+            }
+        ],
+        [
+            {
+                "name": "GS Chappell",
+                "team": "Queensland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "runs": 400,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 80.0,
+                "hs": "126"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "IT Botham",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Queensland",
+                "matches": 3,
+                "balls": 622,
+                "maidens": 23,
+                "runs": 291,
+                "wickets": 13,
+                "bbruns": 70,
+                "bbwickets": 5,
+                "average": 22.38
+            },
+            {
+                "name": "H Verity",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Queensland",
+                "matches": 2,
+                "balls": 635,
+                "maidens": 27,
+                "runs": 150,
+                "wickets": 13,
+                "bbruns": 50,
+                "bbwickets": 5,
+                "average": 11.53
+            },
+            {
+                "name": "RGD Willis",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Queensland",
+                "matches": 3,
+                "balls": 545,
+                "maidens": 20,
+                "runs": 229,
+                "wickets": 13,
+                "bbruns": 43,
+                "bbwickets": 3,
+                "average": 17.61
+            }
+        ],
+        [
+            {
+                "name": "CG Rackemann",
+                "team": "Queensland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 4,
+                "balls": 696,
+                "maidens": 36,
+                "runs": 350,
+                "wickets": 15,
+                "bbruns": 25,
+                "bbwickets": 5,
+                "average": 23.33
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "GA Gooch",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Queensland",
+                "matches": 5,
+                "dismissals": 9
+            },
+            {
+                "name": "RW Taylor",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Queensland",
+                "matches": 3,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "GS Chappell",
+                "team": "Queensland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "dismissals": 11
+            },
+            {
+                "name": "JA Maclean",
+                "team": "Queensland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 3,
+                "dismissals": 11
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "LEG Ames",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Queensland",
+                "matches": 3,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "D Tallon",
+                "team": "Queensland",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 4,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Queensland",
+                    "total": 135,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1986/87"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Queensland",
+                    "total": 135,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1986/87"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Queensland",
+                    "total": 32,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Carrara Oval, Carrara",
+                    "seriesDate": "1990/91"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Queensland",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 78,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1907/08"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Queensland",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 78,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1907/08"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Queensland",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 5,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1950/51"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:00.127537Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

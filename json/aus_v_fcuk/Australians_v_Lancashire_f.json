@@ -1,0 +1,864 @@
+{
+    "team1": "Australians",
+    "team2": "Lancashire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 43,
+        "startDate": "1878-08-15T00:00",
+        "endDate": "1993-07-28T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australians",
+                "opponents": "Lancashire",
+                "total": 548,
+                "wickets": 6,
+                "declared": true,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1961"
+            }
+        ],
+        [
+            {
+                "team": "Lancashire",
+                "opponents": "Australians",
+                "total": 346,
+                "wickets": 10,
+                "declared": false,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1961"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "WM Woodfull",
+                "team": "Australians",
+                "opponents": "Lancashire",
+                "score": 172,
+                "notOut": true,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1934"
+            }
+        ],
+        [
+            {
+                "name": "G Pullar",
+                "team": "Lancashire",
+                "opponents": "Australians",
+                "score": 165,
+                "notOut": false,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1961"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "FR Spofforth",
+                "team": "Australians",
+                "opponents": "Lancashire",
+                "wickets": 9,
+                "runs": 53,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1878"
+            }
+        ],
+        [
+            {
+                "name": "J I'Anson",
+                "team": "Lancashire",
+                "opponents": "Australians",
+                "wickets": 7,
+                "runs": 31,
+                "location": "Aigburth, Liverpool",
+                "seriesDate": "1899"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "G Giffen",
+                "team": "Australians",
+                "opponents": "Lancashire",
+                "wickets": 16,
+                "runs": 65,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1886"
+            }
+        ],
+        [
+            {
+                "name": "GH Littlewood",
+                "team": "Lancashire",
+                "opponents": "Australians",
+                "wickets": 12,
+                "runs": 98,
+                "location": "Aigburth, Liverpool",
+                "seriesDate": "1902"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1961",
+                        "partnership": 177,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WM Lawry",
+                        "player1Score": 122,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RB Simpson",
+                        "player2Score": 103,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1934",
+                        "partnership": 281,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1961",
+                        "partnership": 170,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1961",
+                        "partnership": 197,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1948",
+                        "partnership": 122,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "RN Harvey",
+                        "player1Score": 76,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "RA Hamence",
+                        "player2Score": 49,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1930",
+                        "partnership": 124,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1902",
+                        "partnership": 131,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1953",
+                        "partnership": 143,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1899",
+                        "partnership": 74,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australians",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1890",
+                        "partnership": 42,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "SE Gregory",
+                        "player1Score": 59,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "H Trumble",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Australians",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1926",
+                        "partnership": 116,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JWH Makepeace",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "C Hallows",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Australians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1961",
+                        "partnership": 102,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Australians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1938",
+                        "partnership": 107,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Australians",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1912",
+                        "partnership": 87,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Australians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1953",
+                        "partnership": 102,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Australians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1972",
+                        "partnership": 74,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "B Wood",
+                        "player1Score": 58,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "FM Engineer",
+                        "player2Score": 36,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Australians",
+                        "location": "Aigburth, Liverpool",
+                        "seriesDate": "1930",
+                        "partnership": 60,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Australians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1938",
+                        "partnership": 71,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Australians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1989",
+                        "partnership": 71,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JD Fitton",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "I Folley",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Australians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1905",
+                        "partnership": 45,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JS Sharp",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "A Kermode",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Australians",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1977",
+                        "partnership": 58,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "R Arrowsmith",
+                        "player1Score": 30,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "PG Lee",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "C Hill",
+                "team": "Australians",
+                "opponents": "Lancashire",
+                "matches": 7,
+                "runs": 461,
+                "innings": 11,
+                "notOuts": 0,
+                "average": 41.9,
+                "hs": "149"
+            }
+        ],
+        [
+            {
+                "name": "C Hallows",
+                "team": "Lancashire",
+                "opponents": "Australians",
+                "matches": 6,
+                "runs": 388,
+                "innings": 11,
+                "notOuts": 0,
+                "average": 35.27,
+                "hs": "85"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "G Giffen",
+                "team": "Australians",
+                "opponents": "Lancashire",
+                "matches": 4,
+                "balls": 858,
+                "maidens": 68,
+                "runs": 326,
+                "wickets": 37,
+                "bbruns": 23,
+                "bbwickets": 8,
+                "average": 8.81
+            }
+        ],
+        [
+            {
+                "name": "J Briggs",
+                "team": "Lancashire",
+                "opponents": "Australians",
+                "matches": 8,
+                "balls": 1619,
+                "maidens": 125,
+                "runs": 579,
+                "wickets": 40,
+                "bbruns": 63,
+                "bbwickets": 7,
+                "average": 14.47
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JJ Kelly",
+                "team": "Australians",
+                "opponents": "Lancashire",
+                "matches": 8,
+                "dismissals": 14
+            }
+        ],
+        [
+            {
+                "name": "FM Engineer",
+                "team": "Lancashire",
+                "opponents": "Australians",
+                "matches": 4,
+                "dismissals": 10
+            },
+            {
+                "name": "JT Tyldesley",
+                "team": "Lancashire",
+                "opponents": "Australians",
+                "matches": 9,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JJ Kelly",
+                "team": "Australians",
+                "opponents": "Lancashire",
+                "matches": 8,
+                "dismissals": 10
+            }
+        ],
+        [
+            {
+                "name": "G Duckworth",
+                "team": "Lancashire",
+                "opponents": "Australians",
+                "matches": 4,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australians",
+                    "opponents": "Lancashire",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1888"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australians",
+                    "opponents": "Lancashire",
+                    "total": 66,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1888"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australians",
+                    "opponents": "Lancashire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1980"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "Australians",
+                    "total": 28,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Aigburth, Liverpool",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "Australians",
+                    "total": 28,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Aigburth, Liverpool",
+                    "seriesDate": "1896"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "Australians",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1902"
+                },
+                {
+                    "team": "Lancashire",
+                    "opponents": "Australians",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Old Trafford, Manchester",
+                    "seriesDate": "1956"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:08.695536Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

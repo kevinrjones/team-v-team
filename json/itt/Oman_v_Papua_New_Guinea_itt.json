@@ -1,0 +1,988 @@
+{
+    "team1": "Oman",
+    "team2": "Papua New Guinea",
+    "competitionTitle": "International T20",
+    "competitionSubType": "itt",
+    "matchDto": {
+        "count": 1,
+        "startDate": "2021-10-17T01:00",
+        "endDate": "2021-10-17T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "total": 131,
+                "wickets": 0,
+                "declared": false,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "total": 129,
+                "wickets": 9,
+                "declared": false,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Jatinder Singh",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "score": 73,
+                "notOut": true,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "A Vala",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "score": 56,
+                "notOut": false,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "Jatinder Singh",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "strikeRate": 173.81,
+                "runs": 73,
+                "balls": 42,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "CJA Amini",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "strikeRate": 142.31,
+                "runs": 37,
+                "balls": 26,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "Jatinder Singh",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "strikeRate": 173.81,
+                "runs": 73,
+                "balls": 42,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "CJA Amini",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "strikeRate": 142.31,
+                "runs": 37,
+                "balls": 26,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "Aaqib Ilyas",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "strikeRate": 116.28,
+                "runs": 50,
+                "balls": 43,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "N Pokana",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "strikeRate": 50.0,
+                "runs": 5,
+                "balls": 10,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "Aaqib Ilyas",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "strikeRate": 116.28,
+                "runs": 50,
+                "balls": 43,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "A Vala",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "strikeRate": 130.23,
+                "runs": 56,
+                "balls": 43,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "Jatinder Singh",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "boundaries": 7,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "CJA Amini",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "boundaries": 4,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            },
+            {
+                "name": "A Vala",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "boundaries": 4,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "Jatinder Singh",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "boundaries": 4,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "A Vala",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "boundaries": 3,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "Jatinder Singh",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "boundaries": 11,
+                "fours": 7,
+                "sixes": 4,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "A Vala",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "boundaries": 7,
+                "fours": 4,
+                "sixes": 3,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Zeeshan Maqsood",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "wickets": 4,
+                "runs": 20,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "SK Atai",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "wickets": 0,
+                "runs": 9,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Zeeshan Maqsood",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "wickets": 4,
+                "runs": 20,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "SK Atai",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "wickets": 0,
+                "runs": 9,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "Zeeshan Maqsood",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 20,
+                "sr": 6.0,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "Zeeshan Maqsood",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 20,
+                "sr": 6.0,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "Bilal Khan",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 16,
+                "sr": 4.0,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "N Pokana",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 15,
+                "sr": 7.5,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "Bilal Khan",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 1,
+                "wickets": 2,
+                "runs": 16,
+                "sr": 4.0,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "DA Ravu",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 28,
+                "sr": 9.33,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "Khawar Ali",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 17,
+                "sr": 8.5,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "CJA Amini",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "overs": "2.4",
+                "balls": 16,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 31,
+                "sr": 11.63,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "Mohammad Nadeem",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 23,
+                "sr": 7.67,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ],
+        [
+            {
+                "name": "DA Ravu",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 28,
+                "sr": 9.33,
+                "location": "Al Amerat Cricket Ground, Al Amerat",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oman",
+                        "opponents": "Papua New Guinea",
+                        "location": "Al Amerat Cricket Ground, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 131,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "Aaqib Ilyas",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "Jatinder Singh",
+                        "player2Score": 73,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Papua New Guinea",
+                        "opponents": "Oman",
+                        "location": "Al Amerat Cricket Ground, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 0,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "TP Ura",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "L Siaka",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Papua New Guinea",
+                        "opponents": "Oman",
+                        "location": "Al Amerat Cricket Ground, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 0,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "L Siaka",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "A Vala",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Papua New Guinea",
+                        "opponents": "Oman",
+                        "location": "Al Amerat Cricket Ground, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 81,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "A Vala",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CJA Amini",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Papua New Guinea",
+                        "opponents": "Oman",
+                        "location": "Al Amerat Cricket Ground, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 21,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "A Vala",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "S Bau",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Papua New Guinea",
+                        "opponents": "Oman",
+                        "location": "Al Amerat Cricket Ground, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 10,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "S Bau",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "N Vanua",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Papua New Guinea",
+                        "opponents": "Oman",
+                        "location": "Al Amerat Cricket Ground, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 1,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "S Bau",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "SK Atai",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Papua New Guinea",
+                        "opponents": "Oman",
+                        "location": "Al Amerat Cricket Ground, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 0,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SK Atai",
+                        "player1Score": 3,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "K Doriga",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Papua New Guinea",
+                        "opponents": "Oman",
+                        "location": "Al Amerat Cricket Ground, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 4,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SK Atai",
+                        "player1Score": 3,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DA Ravu",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Papua New Guinea",
+                        "opponents": "Oman",
+                        "location": "Al Amerat Cricket Ground, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 1,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "DA Ravu",
+                        "player1Score": 1,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "KV Morea",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Papua New Guinea",
+                        "opponents": "Oman",
+                        "location": "Al Amerat Cricket Ground, Al Amerat",
+                        "seriesDate": "2021/22",
+                        "partnership": 11,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "KV Morea",
+                        "player1Score": 6,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "N Pokana",
+                        "player2Score": 5,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Jatinder Singh",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "matches": 1,
+                "runs": 73,
+                "innings": 1,
+                "notOuts": 1,
+                "average": 0.0,
+                "hs": "73*"
+            }
+        ],
+        [
+            {
+                "name": "A Vala",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "matches": 1,
+                "runs": 56,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 56.0,
+                "hs": "56"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Zeeshan Maqsood",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "matches": 1,
+                "balls": 24,
+                "maidens": 0,
+                "runs": 20,
+                "wickets": 4,
+                "bbruns": 20,
+                "bbwickets": 4,
+                "average": 5.0
+            }
+        ],
+        [
+            {
+                "name": "CJA Amini",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "matches": 1,
+                "balls": 16,
+                "maidens": 0,
+                "runs": 31,
+                "wickets": 0,
+                "bbruns": 31,
+                "bbwickets": 0,
+                "average": 0.0
+            },
+            {
+                "name": "SK Atai",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "matches": 1,
+                "balls": 6,
+                "maidens": 0,
+                "runs": 9,
+                "wickets": 0,
+                "bbruns": 9,
+                "bbwickets": 0,
+                "average": 0.0
+            },
+            {
+                "name": "KV Morea",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "matches": 1,
+                "balls": 12,
+                "maidens": 0,
+                "runs": 18,
+                "wickets": 0,
+                "bbruns": 18,
+                "bbwickets": 0,
+                "average": 0.0
+            },
+            {
+                "name": "N Pokana",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "matches": 1,
+                "balls": 12,
+                "maidens": 0,
+                "runs": 15,
+                "wickets": 0,
+                "bbruns": 15,
+                "bbwickets": 0,
+                "average": 0.0
+            },
+            {
+                "name": "DA Ravu",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "matches": 1,
+                "balls": 18,
+                "maidens": 0,
+                "runs": 28,
+                "wickets": 0,
+                "bbruns": 28,
+                "bbwickets": 0,
+                "average": 0.0
+            },
+            {
+                "name": "L Siaka",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "matches": 1,
+                "balls": 12,
+                "maidens": 0,
+                "runs": 17,
+                "wickets": 0,
+                "bbruns": 17,
+                "bbwickets": 0,
+                "average": 0.0
+            },
+            {
+                "name": "A Vala",
+                "team": "Papua New Guinea",
+                "opponents": "Oman",
+                "matches": 1,
+                "balls": 6,
+                "maidens": 0,
+                "runs": 11,
+                "wickets": 0,
+                "bbruns": 11,
+                "bbwickets": 0,
+                "average": 0.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "Jatinder Singh",
+                "team": "Oman",
+                "opponents": "Papua New Guinea",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oman",
+                    "opponents": "Papua New Guinea",
+                    "total": 131,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Al Amerat Cricket Ground, Al Amerat",
+                    "seriesDate": "2021/22"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Papua New Guinea",
+                    "opponents": "Oman",
+                    "total": 129,
+                    "wickets": 9,
+                    "declared": false,
+                    "location": "Al Amerat Cricket Ground, Al Amerat",
+                    "seriesDate": "2021/22"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Papua New Guinea",
+                    "opponents": "Oman",
+                    "total": 129,
+                    "wickets": 9,
+                    "declared": false,
+                    "location": "Al Amerat Cricket Ground, Al Amerat",
+                    "seriesDate": "2021/22"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:21:56.751285Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

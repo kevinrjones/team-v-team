@@ -1,0 +1,866 @@
+{
+    "team1": "Indians",
+    "team2": "Gloucestershire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 12,
+        "startDate": "1911-08-24T00:00",
+        "endDate": "1996-05-11T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "total": 406,
+                "wickets": 10,
+                "declared": false,
+                "location": "The Royal and Sun Alliance County Ground, Bristol",
+                "seriesDate": "1996"
+            }
+        ],
+        [
+            {
+                "team": "Gloucestershire",
+                "opponents": "Indians",
+                "total": 379,
+                "wickets": 6,
+                "declared": true,
+                "location": "Ashley Down Ground, Bristol",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "NS Sidhu",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "score": 142,
+                "notOut": false,
+                "location": "The Royal and Sun Alliance County Ground, Bristol",
+                "seriesDate": "1990"
+            }
+        ],
+        [
+            {
+                "name": "FB Roberts",
+                "team": "Gloucestershire",
+                "opponents": "Indians",
+                "score": 154,
+                "notOut": true,
+                "location": "Ashley Down Ground, Bristol",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "L Amar Singh",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "wickets": 8,
+                "runs": 90,
+                "location": "Clifton College Close Ground, Clifton",
+                "seriesDate": "1932"
+            }
+        ],
+        [
+            {
+                "name": "MJ Procter",
+                "team": "Gloucestershire",
+                "opponents": "Indians",
+                "wickets": 7,
+                "runs": 13,
+                "location": "Phoenix County Ground, Bristol",
+                "seriesDate": "1979"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "L Amar Singh",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "wickets": 12,
+                "runs": 211,
+                "location": "Clifton College Close Ground, Clifton",
+                "seriesDate": "1932"
+            }
+        ],
+        [
+            {
+                "name": "TWJ Goddard",
+                "team": "Gloucestershire",
+                "opponents": "Indians",
+                "wickets": 11,
+                "runs": 147,
+                "location": "College Ground, Cheltenham",
+                "seriesDate": "1946"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Gloucestershire",
+                        "location": "The Royal and Sun Alliance County Ground, Bristol",
+                        "seriesDate": "1990",
+                        "partnership": 251,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RJ Shastri",
+                        "player1Score": 133,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "NS Sidhu",
+                        "player2Score": 142,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Gloucestershire",
+                        "location": "Phoenix County Ground, Bristol",
+                        "seriesDate": "1979",
+                        "partnership": 160,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Gloucestershire",
+                        "location": "The Royal and Sun Alliance County Ground, Bristol",
+                        "seriesDate": "1990",
+                        "partnership": 73,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Gloucestershire",
+                        "location": "Victoria Ground, Cheltenham",
+                        "seriesDate": "1986",
+                        "partnership": 89,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Gloucestershire",
+                        "location": "Clifton College Close Ground, Clifton",
+                        "seriesDate": "1932",
+                        "partnership": 108,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Gloucestershire",
+                        "location": "Phoenix County Ground, Bristol",
+                        "seriesDate": "1982",
+                        "partnership": 107,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "Yashpal Sharma",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "Madan Lal",
+                        "player2Score": 51,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Gloucestershire",
+                        "location": "Clifton College Close Ground, Clifton",
+                        "seriesDate": "1932",
+                        "partnership": 75,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Gloucestershire",
+                        "location": "The Royal and Sun Alliance County Ground, Bristol",
+                        "seriesDate": "1996",
+                        "partnership": 60,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "J Srinath",
+                        "player1Score": 29,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "RS Dravid",
+                        "player2Score": 86,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Gloucestershire",
+                        "location": "The Royal and Sun Alliance County Ground, Bristol",
+                        "seriesDate": "1990",
+                        "partnership": 127,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Gloucestershire",
+                        "location": "Clifton College Close Ground, Clifton",
+                        "seriesDate": "1932",
+                        "partnership": 31,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire",
+                        "opponents": "Indians",
+                        "location": "College Ground, Cheltenham",
+                        "seriesDate": "1959",
+                        "partnership": 124,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CA Milton",
+                        "player1Score": 77,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BJ Meyer",
+                        "player2Score": 63,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire",
+                        "opponents": "Indians",
+                        "location": "College Ground, Cheltenham",
+                        "seriesDate": "1959",
+                        "partnership": 94,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire",
+                        "opponents": "Indians",
+                        "location": "Victoria Ground, Cheltenham",
+                        "seriesDate": "1986",
+                        "partnership": 81,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire",
+                        "opponents": "Indians",
+                        "location": "Ashley Down Ground, Bristol",
+                        "seriesDate": "1911",
+                        "partnership": 151,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "FB Roberts",
+                        "player1Score": 154,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "GL Jessop",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire",
+                        "opponents": "Indians",
+                        "location": "Clifton College Close Ground, Clifton",
+                        "seriesDate": "1932",
+                        "partnership": 135,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire",
+                        "opponents": "Indians",
+                        "location": "The Royal and Sun Alliance County Ground, Bristol",
+                        "seriesDate": "1990",
+                        "partnership": 99,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire",
+                        "opponents": "Indians",
+                        "location": "Phoenix County Ground, Bristol",
+                        "seriesDate": "1979",
+                        "partnership": 116,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire",
+                        "opponents": "Indians",
+                        "location": "College Ground, Cheltenham",
+                        "seriesDate": "1959",
+                        "partnership": 92,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire",
+                        "opponents": "Indians",
+                        "location": "The Royal and Sun Alliance County Ground, Bristol",
+                        "seriesDate": "1990",
+                        "partnership": 47,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Gloucestershire",
+                        "opponents": "Indians",
+                        "location": "Wagon Works Ground, Gloucester",
+                        "seriesDate": "1974",
+                        "partnership": 48,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "NS Sidhu",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "matches": 2,
+                "runs": 304,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 76.0,
+                "hs": "142"
+            }
+        ],
+        [
+            {
+                "name": "P Bainbridge",
+                "team": "Gloucestershire",
+                "opponents": "Indians",
+                "matches": 3,
+                "runs": 207,
+                "innings": 4,
+                "notOuts": 2,
+                "average": 103.5,
+                "hs": "81*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "L Amar Singh",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "matches": 1,
+                "balls": 426,
+                "maidens": 12,
+                "runs": 211,
+                "wickets": 12,
+                "bbruns": 90,
+                "bbwickets": 8,
+                "average": 17.58
+            }
+        ],
+        [
+            {
+                "name": "TWJ Goddard",
+                "team": "Gloucestershire",
+                "opponents": "Indians",
+                "matches": 2,
+                "balls": 647,
+                "maidens": 20,
+                "runs": 320,
+                "wickets": 21,
+                "bbruns": 81,
+                "bbwickets": 7,
+                "average": 15.23
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "FM Engineer",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "matches": 1,
+                "dismissals": 4
+            },
+            {
+                "name": "KSG Limbdi",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "matches": 1,
+                "dismissals": 4
+            },
+            {
+                "name": "Yashpal Sharma",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "RCJ Williams",
+                "team": "Gloucestershire",
+                "opponents": "Indians",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "FM Engineer",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "PG Joshi",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "RB Nimbalkar",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "K Seshachari",
+                "team": "Indians",
+                "opponents": "Gloucestershire",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "AE Wilson",
+                "team": "Gloucestershire",
+                "opponents": "Indians",
+                "matches": 3,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Indians",
+                    "opponents": "Gloucestershire",
+                    "total": 117,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Phoenix County Ground, Bristol",
+                    "seriesDate": "1979"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Gloucestershire",
+                    "total": 117,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Phoenix County Ground, Bristol",
+                    "seriesDate": "1979"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Gloucestershire",
+                    "total": 74,
+                    "wickets": 8,
+                    "declared": false,
+                    "location": "Ashley Down Ground, Bristol",
+                    "seriesDate": "1911"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Gloucestershire",
+                    "opponents": "Indians",
+                    "total": 187,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "College Ground, Cheltenham",
+                    "seriesDate": "1946"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Gloucestershire",
+                    "opponents": "Indians",
+                    "total": 187,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "College Ground, Cheltenham",
+                    "seriesDate": "1946"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Gloucestershire",
+                    "opponents": "Indians",
+                    "total": 39,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "Phoenix County Ground, Bristol",
+                    "seriesDate": "1982"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:50.023011Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

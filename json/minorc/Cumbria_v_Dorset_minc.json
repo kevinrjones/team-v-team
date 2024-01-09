@@ -1,0 +1,853 @@
+{
+    "team1": "Cumbria",
+    "team2": "Dorset",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1999-09-12T01:00",
+        "endDate": "2000-09-10T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cumbria",
+                "opponents": "Dorset",
+                "total": 315,
+                "wickets": 7,
+                "declared": true,
+                "location": "Parkside Road, Kendal",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "team": "Dorset",
+                "opponents": "Cumbria",
+                "total": 396,
+                "wickets": 10,
+                "declared": false,
+                "location": "Parkside Road, Kendal",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "SJ O'Shaughnessy",
+                "team": "Cumbria",
+                "opponents": "Dorset",
+                "score": 118,
+                "notOut": false,
+                "location": "Parkside Road, Kendal",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "AJ Sexton",
+                "team": "Dorset",
+                "opponents": "Cumbria",
+                "score": 196,
+                "notOut": false,
+                "location": "Parkside Road, Kendal",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "SAJ Kippax",
+                "team": "Cumbria",
+                "opponents": "Dorset",
+                "wickets": 4,
+                "runs": 91,
+                "location": "Parkside Road, Kendal",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "TJ Sharpe",
+                "team": "Dorset",
+                "opponents": "Cumbria",
+                "wickets": 4,
+                "runs": 19,
+                "location": "Kinson Park Road, Bournemouth",
+                "seriesDate": "2000"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "DB Pennett",
+                "team": "Cumbria",
+                "opponents": "Dorset",
+                "wickets": 7,
+                "runs": 124,
+                "location": "Parkside Road, Kendal",
+                "seriesDate": "1999"
+            }
+        ],
+        [
+            {
+                "name": "VJ Pike",
+                "team": "Dorset",
+                "opponents": "Cumbria",
+                "wickets": 6,
+                "runs": 170,
+                "location": "Kinson Park Road, Bournemouth",
+                "seriesDate": "2000"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Dorset",
+                        "location": "Kinson Park Road, Bournemouth",
+                        "seriesDate": "2000",
+                        "partnership": 113,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "ST Knox",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DJ Pearson",
+                        "player2Score": 108,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Dorset",
+                        "location": "Kinson Park Road, Bournemouth",
+                        "seriesDate": "2000",
+                        "partnership": 54,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "DJ Pearson",
+                        "player1Score": 108,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "AA Metcalfe",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Dorset",
+                        "location": "Kinson Park Road, Bournemouth",
+                        "seriesDate": "2000",
+                        "partnership": 101,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "JM Lewis",
+                        "player1Score": 60,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "DJ Pearson",
+                        "player2Score": 108,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Dorset",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "1999",
+                        "partnership": 157,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DJ Pearson",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "SJ O'Shaughnessy",
+                        "player2Score": 118,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Dorset",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "1999",
+                        "partnership": 30,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "SJ O'Shaughnessy",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "ST Knox",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Dorset",
+                        "location": "Kinson Park Road, Bournemouth",
+                        "seriesDate": "2000",
+                        "partnership": 24,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "SM Dutton",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JM Lewis",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Dorset",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "1999",
+                        "partnership": 55,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SM Dutton",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "P Beech",
+                        "player2Score": 43,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Dorset",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "1999",
+                        "partnership": 42,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "P Beech",
+                        "player1Score": 43,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "SAJ Kippax",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Dorset",
+                        "location": "Kinson Park Road, Bournemouth",
+                        "seriesDate": "2000",
+                        "partnership": 12,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SAJ Kippax",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "DB Pennett",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cumbria",
+                        "opponents": "Dorset",
+                        "location": "Kinson Park Road, Bournemouth",
+                        "seriesDate": "2000",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "DB Pennett",
+                        "player1Score": 9,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "MA Sharp",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Cumbria",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "1999",
+                        "partnership": 86,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JJE Hardy",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AJ Sexton",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Cumbria",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "1999",
+                        "partnership": 155,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AJ Sexton",
+                        "player1Score": 196,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "PJ Deakin",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Cumbria",
+                        "location": "Kinson Park Road, Bournemouth",
+                        "seriesDate": "2000",
+                        "partnership": 92,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "M Swarbrick",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DJ Cowley",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Cumbria",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "1999",
+                        "partnership": 123,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "AJ Sexton",
+                        "player1Score": 196,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "SWD Rintoul",
+                        "player2Score": 34,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Cumbria",
+                        "location": "Kinson Park Road, Bournemouth",
+                        "seriesDate": "2000",
+                        "partnership": 20,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "PJ Deakin",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "TCZ Lamb",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Cumbria",
+                        "location": "Kinson Park Road, Bournemouth",
+                        "seriesDate": "2000",
+                        "partnership": 19,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "TCZ Lamb",
+                        "player1Score": 24,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "SWD Rintoul",
+                        "player2Score": 8,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Cumbria",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "1999",
+                        "partnership": 48,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SWD Rintoul",
+                        "player1Score": 34,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "TC Hicks",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Cumbria",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "1999",
+                        "partnership": 8,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SWD Rintoul",
+                        "player1Score": 34,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "VJ Pike",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Cumbria",
+                        "location": "Kinson Park Road, Bournemouth",
+                        "seriesDate": "2000",
+                        "partnership": 22,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SWD Rintoul",
+                        "player1Score": 34,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "VJ Pike",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Cumbria",
+                        "location": "Parkside Road, Kendal",
+                        "seriesDate": "1999",
+                        "partnership": 16,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "TJ Sharpe",
+                        "player1Score": 8,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "SM Forshaw",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "DJ Pearson",
+                "team": "Cumbria",
+                "opponents": "Dorset",
+                "matches": 2,
+                "runs": 210,
+                "innings": 4,
+                "notOuts": 1,
+                "average": 70.0,
+                "hs": "108*"
+            }
+        ],
+        [
+            {
+                "name": "AJ Sexton",
+                "team": "Dorset",
+                "opponents": "Cumbria",
+                "matches": 1,
+                "runs": 237,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 118.5,
+                "hs": "196"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "DB Pennett",
+                "team": "Cumbria",
+                "opponents": "Dorset",
+                "matches": 2,
+                "balls": 434,
+                "maidens": 23,
+                "runs": 216,
+                "wickets": 11,
+                "bbruns": 106,
+                "bbwickets": 4,
+                "average": 19.63
+            }
+        ],
+        [
+            {
+                "name": "VJ Pike",
+                "team": "Dorset",
+                "opponents": "Cumbria",
+                "matches": 2,
+                "balls": 672,
+                "maidens": 27,
+                "runs": 336,
+                "wickets": 9,
+                "bbruns": 55,
+                "bbwickets": 3,
+                "average": 37.33
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "SM Dutton",
+                "team": "Cumbria",
+                "opponents": "Dorset",
+                "matches": 2,
+                "dismissals": 3
+            },
+            {
+                "name": "SAJ Kippax",
+                "team": "Cumbria",
+                "opponents": "Dorset",
+                "matches": 2,
+                "dismissals": 3
+            },
+            {
+                "name": "DJ Pearson",
+                "team": "Cumbria",
+                "opponents": "Dorset",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "TCZ Lamb",
+                "team": "Dorset",
+                "opponents": "Cumbria",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "SM Dutton",
+                "team": "Cumbria",
+                "opponents": "Dorset",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "TCZ Lamb",
+                "team": "Dorset",
+                "opponents": "Cumbria",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "MG Miller",
+                "team": "Dorset",
+                "opponents": "Cumbria",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cumbria",
+                    "opponents": "Dorset",
+                    "total": 152,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kinson Park Road, Bournemouth",
+                    "seriesDate": "2000"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cumbria",
+                    "opponents": "Dorset",
+                    "total": 152,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kinson Park Road, Bournemouth",
+                    "seriesDate": "2000"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cumbria",
+                    "opponents": "Dorset",
+                    "total": 152,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kinson Park Road, Bournemouth",
+                    "seriesDate": "2000"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Cumbria",
+                    "total": 130,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Parkside Road, Kendal",
+                    "seriesDate": "1999"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Cumbria",
+                    "total": 130,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Parkside Road, Kendal",
+                    "seriesDate": "1999"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Cumbria",
+                    "total": 130,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Parkside Road, Kendal",
+                    "seriesDate": "1999"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:16.694033Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

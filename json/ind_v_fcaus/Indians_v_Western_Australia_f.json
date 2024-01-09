@@ -1,0 +1,848 @@
+{
+    "team1": "Indians",
+    "team2": "Western Australia",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 5,
+        "startDate": "1947-10-17T01:00",
+        "endDate": "1980-11-22T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Indians",
+                "opponents": "Western Australia",
+                "total": 312,
+                "wickets": 4,
+                "declared": true,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1980/81"
+            }
+        ],
+        [
+            {
+                "team": "Western Australia",
+                "opponents": "Indians",
+                "total": 480,
+                "wickets": 5,
+                "declared": true,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1967/68"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "SM Gavaskar",
+                "team": "Indians",
+                "opponents": "Western Australia",
+                "score": 157,
+                "notOut": false,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1980/81"
+            }
+        ],
+        [
+            {
+                "name": "GC Becker",
+                "team": "Western Australia",
+                "opponents": "Indians",
+                "score": 195,
+                "notOut": false,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1967/68"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "MH Mankad",
+                "team": "Indians",
+                "opponents": "Western Australia",
+                "wickets": 5,
+                "runs": 60,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1947/48"
+            }
+        ],
+        [
+            {
+                "name": "MU Herbert",
+                "team": "Western Australia",
+                "opponents": "Indians",
+                "wickets": 7,
+                "runs": 45,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1947/48"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "MH Mankad",
+                "team": "Indians",
+                "opponents": "Western Australia",
+                "wickets": 9,
+                "runs": 101,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1947/48"
+            }
+        ],
+        [
+            {
+                "name": "CW Puckett",
+                "team": "Western Australia",
+                "opponents": "Indians",
+                "wickets": 11,
+                "runs": 134,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1947/48"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Western Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1980/81",
+                        "partnership": 112,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SM Gavaskar",
+                        "player1Score": 157,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CPS Chauhan",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Western Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1980/81",
+                        "partnership": 76,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "Yashpal Sharma",
+                        "player1Score": 31,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "DB Vengsarkar",
+                        "player2Score": 59,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Western Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1980/81",
+                        "partnership": 132,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Western Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1947/48",
+                        "partnership": 64,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Western Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1967/68",
+                        "partnership": 174,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Western Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1947/48",
+                        "partnership": 92,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Western Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1977/78",
+                        "partnership": 50,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Western Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1977/78",
+                        "partnership": 73,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Western Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1967/68",
+                        "partnership": 22,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RG Nadkarni",
+                        "player1Score": 21,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "BS Chandrasekhar",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Western Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1947/48",
+                        "partnership": 11,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Western Australia",
+                        "opponents": "Indians",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1977/78",
+                        "partnership": 138,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RI Charlesworth",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GM Wood",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Western Australia",
+                        "opponents": "Indians",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1967/68",
+                        "partnership": 149,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Western Australia",
+                        "opponents": "Indians",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1967/68",
+                        "partnership": 172,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Western Australia",
+                        "opponents": "Indians",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1977/78",
+                        "partnership": 127,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Western Australia",
+                        "opponents": "Indians",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1967/68",
+                        "partnership": 122,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RJ Inverarity",
+                        "player1Score": 53,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "R Edwards",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Western Australia",
+                        "opponents": "Indians",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1980/81",
+                        "partnership": 92,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "CE Penter",
+                        "player1Score": 42,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "CS Serjeant",
+                        "player2Score": 56,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Western Australia",
+                        "opponents": "Indians",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1947/48",
+                        "partnership": 32,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Western Australia",
+                        "opponents": "Indians",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1947/48",
+                        "partnership": 22,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Western Australia",
+                        "opponents": "Indians",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1947/48",
+                        "partnership": 16,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Western Australia",
+                        "opponents": "Indians",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1947/48",
+                        "partnership": 1,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CW Puckett",
+                        "player1Score": 0,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "KR Cumming",
+                        "player2Score": 1,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "Western Australia",
+                        "opponents": "Indians",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "1947/48",
+                        "partnership": 1,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "BA Rigg",
+                        "player1Score": 54,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "KR Cumming",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "SM Gavaskar",
+                "team": "Indians",
+                "opponents": "Western Australia",
+                "matches": 2,
+                "runs": 178,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 59.33,
+                "hs": "157"
+            }
+        ],
+        [
+            {
+                "name": "GC Becker",
+                "team": "Western Australia",
+                "opponents": "Indians",
+                "matches": 1,
+                "runs": 195,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 195.0,
+                "hs": "195"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "MH Mankad",
+                "team": "Indians",
+                "opponents": "Western Australia",
+                "matches": 2,
+                "balls": 541,
+                "maidens": 13,
+                "runs": 181,
+                "wickets": 15,
+                "bbruns": 60,
+                "bbwickets": 5,
+                "average": 12.06
+            }
+        ],
+        [
+            {
+                "name": "JB Gannon",
+                "team": "Western Australia",
+                "opponents": "Indians",
+                "matches": 2,
+                "balls": 456,
+                "maidens": 7,
+                "runs": 243,
+                "wickets": 12,
+                "bbruns": 70,
+                "bbwickets": 4,
+                "average": 20.25
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JK Irani",
+                "team": "Indians",
+                "opponents": "Western Australia",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "KJ Wright",
+                "team": "Western Australia",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "FM Engineer",
+                "team": "Indians",
+                "opponents": "Western Australia",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "GT Kessey",
+                "team": "Western Australia",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Indians",
+                    "opponents": "Western Australia",
+                    "total": 127,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Western Australia Cricket Association Ground, Perth",
+                    "seriesDate": "1947/48"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Western Australia",
+                    "total": 127,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Western Australia Cricket Association Ground, Perth",
+                    "seriesDate": "1947/48"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Western Australia",
+                    "total": 116,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Western Australia Cricket Association Ground, Perth",
+                    "seriesDate": "1980/81"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Western Australia",
+                    "opponents": "Indians",
+                    "total": 171,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Western Australia Cricket Association Ground, Perth",
+                    "seriesDate": "1947/48"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Western Australia",
+                    "opponents": "Indians",
+                    "total": 171,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Western Australia Cricket Association Ground, Perth",
+                    "seriesDate": "1947/48"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Western Australia",
+                    "opponents": "Indians",
+                    "total": 70,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "Western Australia Cricket Association Ground, Perth",
+                    "seriesDate": "1947/48"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:48.203355Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

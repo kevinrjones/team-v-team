@@ -1,0 +1,831 @@
+{
+    "team1": "Marylebone Cricket Club",
+    "team2": "New South Wales",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 40,
+        "startDate": "1903-11-20T00:00",
+        "endDate": "1994-11-12T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "New South Wales",
+                "total": 734,
+                "wickets": 7,
+                "declared": true,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1928/29"
+            }
+        ],
+        [
+            {
+                "team": "New South Wales",
+                "opponents": "Marylebone Cricket Club",
+                "total": 629,
+                "wickets": 8,
+                "declared": true,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1929/30"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RT Simpson",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New South Wales",
+                "score": 259,
+                "notOut": false,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1950/51"
+            }
+        ],
+        [
+            {
+                "name": "TJE Andrews",
+                "team": "New South Wales",
+                "opponents": "Marylebone Cricket Club",
+                "score": 224,
+                "notOut": false,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1924/25"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "TPB Smith",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New South Wales",
+                "wickets": 9,
+                "runs": 121,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1946/47"
+            }
+        ],
+        [
+            {
+                "name": "R Benaud",
+                "team": "New South Wales",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 7,
+                "runs": 18,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1962/63"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "TPB Smith",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New South Wales",
+                "wickets": 12,
+                "runs": 218,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1946/47"
+            }
+        ],
+        [
+            {
+                "name": "JG Lush",
+                "team": "New South Wales",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 13,
+                "runs": 115,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1936/37"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1970/71",
+                        "partnership": 228,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "G Boycott",
+                        "player1Score": 129,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "BW Luckhurst",
+                        "player2Score": 135,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1924/25",
+                        "partnership": 202,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1950/51",
+                        "partnership": 236,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1928/29",
+                        "partnership": 333,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1954/55",
+                        "partnership": 163,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1965/66",
+                        "partnership": 150,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "WE Russell",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "BR Knight",
+                        "player2Score": 94,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1903/04",
+                        "partnership": 143,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1932/33",
+                        "partnership": 100,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1924/25",
+                        "partnership": 59,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "EH Hendren",
+                        "player1Score": 75,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "RK Tyldesley",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "New South Wales",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1903/04",
+                        "partnership": 66,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "W Rhodes",
+                        "player1Score": 49,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "AE Relf",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1920/21",
+                        "partnership": 244,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HL Collins",
+                        "player1Score": 106,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CG Macartney",
+                        "player2Score": 161,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1924/25",
+                        "partnership": 270,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1907/08",
+                        "partnership": 169,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "W Bardsley",
+                        "player1Score": 108,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "VT Trumper",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1928/29",
+                        "partnership": 249,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "AF Kippax",
+                        "player1Score": 136,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "DG Bradman",
+                        "player2Score": 132,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1970/71",
+                        "partnership": 132,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1929/30",
+                        "partnership": 185,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1907/08",
+                        "partnership": 153,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "EF Waddy",
+                        "player1Score": 107,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "AJ Bowden",
+                        "player2Score": 87,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1911/12",
+                        "partnership": 144,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SE Gregory",
+                        "player1Score": 186,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "SH Emery",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1974/75",
+                        "partnership": 94,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New South Wales",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "1924/25",
+                        "partnership": 34,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "L Hutton",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New South Wales",
+                "matches": 6,
+                "runs": 785,
+                "innings": 10,
+                "notOuts": 0,
+                "average": 78.5,
+                "hs": "150"
+            }
+        ],
+        [
+            {
+                "name": "CG Macartney",
+                "team": "New South Wales",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 9,
+                "runs": 650,
+                "innings": 17,
+                "notOuts": 2,
+                "average": 43.33,
+                "hs": "161"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "MW Tate",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New South Wales",
+                "matches": 5,
+                "balls": 1085,
+                "maidens": 17,
+                "runs": 414,
+                "wickets": 21,
+                "bbruns": 74,
+                "bbwickets": 7,
+                "average": 19.71
+            }
+        ],
+        [
+            {
+                "name": "AA Mailey",
+                "team": "New South Wales",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 6,
+                "balls": 1619,
+                "maidens": 15,
+                "runs": 1097,
+                "wickets": 35,
+                "bbruns": 172,
+                "bbwickets": 7,
+                "average": 31.34
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RW Taylor",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New South Wales",
+                "matches": 4,
+                "dismissals": 12
+            }
+        ],
+        [
+            {
+                "name": "RB Simpson",
+                "team": "New South Wales",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 4,
+                "dismissals": 15
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "TG Evans",
+                "team": "Marylebone Cricket Club",
+                "opponents": "New South Wales",
+                "matches": 4,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "WAS Oldfield",
+                "team": "New South Wales",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 11,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "New South Wales",
+                    "total": 73,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "1936/37"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "New South Wales",
+                    "total": 73,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "1936/37"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "New South Wales",
+                    "total": 2,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "1965/66"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New South Wales",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 96,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "1907/08"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New South Wales",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 96,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "1907/08"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New South Wales",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 39,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "1935/36"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:53.100626Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

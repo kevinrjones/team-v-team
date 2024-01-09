@@ -1,0 +1,854 @@
+{
+    "team1": "Cambridge University",
+    "team2": "Nottinghamshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 44,
+        "startDate": "1896-06-08T00:00",
+        "endDate": "1999-04-12T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridge University",
+                "opponents": "Nottinghamshire",
+                "total": 424,
+                "wickets": 10,
+                "declared": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1936"
+            }
+        ],
+        [
+            {
+                "team": "Nottinghamshire",
+                "opponents": "Cambridge University",
+                "total": 559,
+                "wickets": 8,
+                "declared": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "HT Bartlett",
+                "team": "Cambridge University",
+                "opponents": "Nottinghamshire",
+                "score": 183,
+                "notOut": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1935"
+            }
+        ],
+        [
+            {
+                "name": "WW Keeton",
+                "team": "Nottinghamshire",
+                "opponents": "Cambridge University",
+                "score": 200,
+                "notOut": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1932"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "ME Allbrook",
+                "team": "Cambridge University",
+                "opponents": "Nottinghamshire",
+                "wickets": 7,
+                "runs": 79,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1978"
+            }
+        ],
+        [
+            {
+                "name": "SJ Staples",
+                "team": "Nottinghamshire",
+                "opponents": "Cambridge University",
+                "wickets": 8,
+                "runs": 72,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1933"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "DC Rought-Rought",
+                "team": "Cambridge University",
+                "opponents": "Nottinghamshire",
+                "wickets": 10,
+                "runs": 201,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1935"
+            }
+        ],
+        [
+            {
+                "name": "SJ Staples",
+                "team": "Nottinghamshire",
+                "opponents": "Cambridge University",
+                "wickets": 12,
+                "runs": 81,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1928"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Nottinghamshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1978",
+                        "partnership": 119,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MK Fosh",
+                        "player1Score": 71,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AM Mubarak",
+                        "player2Score": 77,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Nottinghamshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1989",
+                        "partnership": 160,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Nottinghamshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1982",
+                        "partnership": 132,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Nottinghamshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1934",
+                        "partnership": 172,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Nottinghamshire",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1953",
+                        "partnership": 220,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "R Subba Row",
+                        "player1Score": 146,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "FCM Alexander",
+                        "player2Score": 99,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Nottinghamshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1935",
+                        "partnership": 132,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Nottinghamshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1967",
+                        "partnership": 142,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Nottinghamshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1980",
+                        "partnership": 143,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "N Russom",
+                        "player1Score": 65,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "DC Holliday",
+                        "player2Score": 76,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Nottinghamshire",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1984",
+                        "partnership": 111,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AG Davies",
+                        "player1Score": 68,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "TA Cotterell",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "Nottinghamshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1936",
+                        "partnership": 53,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1995",
+                        "partnership": 245,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "C Banton",
+                        "player1Score": 80,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "GW Mike",
+                        "player2Score": 54,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1990",
+                        "partnership": 183,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire",
+                        "opponents": "Cambridge University",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1959",
+                        "partnership": 169,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "HM Winfield",
+                        "player1Score": 77,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "KR Miller",
+                        "player2Score": 102,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1932",
+                        "partnership": 162,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire",
+                        "opponents": "Cambridge University",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1953",
+                        "partnership": 173,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire",
+                        "opponents": "Cambridge University",
+                        "location": "Trent Bridge, Nottingham",
+                        "seriesDate": "1962",
+                        "partnership": 181,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1979",
+                        "partnership": 144,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1974",
+                        "partnership": 83,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "JD Bond",
+                        "player1Score": 65,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "PA Wilkinson",
+                        "player2Score": 28,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1925",
+                        "partnership": 117,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "WRD Payton",
+                        "player1Score": 140,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "TL Richmond",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Nottinghamshire",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1935",
+                        "partnership": 100,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WA Sime",
+                        "player1Score": 53,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "W Voce",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "SP James",
+                "team": "Cambridge University",
+                "opponents": "Nottinghamshire",
+                "matches": 2,
+                "runs": 272,
+                "innings": 4,
+                "notOuts": 1,
+                "average": 90.66,
+                "hs": "117"
+            }
+        ],
+        [
+            {
+                "name": "AW Carr",
+                "team": "Nottinghamshire",
+                "opponents": "Cambridge University",
+                "matches": 9,
+                "runs": 633,
+                "innings": 14,
+                "notOuts": 1,
+                "average": 48.69,
+                "hs": "123"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "ED Blundell",
+                "team": "Cambridge University",
+                "opponents": "Nottinghamshire",
+                "matches": 2,
+                "balls": 538,
+                "maidens": 24,
+                "runs": 271,
+                "wickets": 16,
+                "bbruns": 51,
+                "bbwickets": 6,
+                "average": 16.93
+            }
+        ],
+        [
+            {
+                "name": "W Voce",
+                "team": "Nottinghamshire",
+                "opponents": "Cambridge University",
+                "matches": 8,
+                "balls": 1394,
+                "maidens": 38,
+                "runs": 650,
+                "wickets": 41,
+                "bbruns": 51,
+                "bbwickets": 6,
+                "average": 15.85
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "ET Killick",
+                "team": "Cambridge University",
+                "opponents": "Nottinghamshire",
+                "matches": 3,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "B Lilley",
+                "team": "Nottinghamshire",
+                "opponents": "Cambridge University",
+                "matches": 12,
+                "dismissals": 25
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JP Arscott",
+                "team": "Cambridge University",
+                "opponents": "Nottinghamshire",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "JM Brearley",
+                "team": "Cambridge University",
+                "opponents": "Nottinghamshire",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "CB Howland",
+                "team": "Cambridge University",
+                "opponents": "Nottinghamshire",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "B Lilley",
+                "team": "Nottinghamshire",
+                "opponents": "Cambridge University",
+                "matches": 12,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Nottinghamshire",
+                    "total": 34,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1932"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Nottinghamshire",
+                    "total": 34,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1932"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "Nottinghamshire",
+                    "total": 9,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1971"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Nottinghamshire",
+                    "opponents": "Cambridge University",
+                    "total": 63,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1963"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Nottinghamshire",
+                    "opponents": "Cambridge University",
+                    "total": 63,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1963"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Nottinghamshire",
+                    "opponents": "Cambridge University",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": true,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1969"
+                },
+                {
+                    "team": "Nottinghamshire",
+                    "opponents": "Cambridge University",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Trent Bridge, Nottingham",
+                    "seriesDate": "1999"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:50.182341Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,842 @@
+{
+    "team1": "Berkshire",
+    "team2": "Hertfordshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 48,
+        "startDate": "1895-08-02T00:00",
+        "endDate": "1990-09-09T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New",
+        "James Wright"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Berkshire",
+                "opponents": "Hertfordshire",
+                "total": 493,
+                "wickets": 9,
+                "declared": true,
+                "location": "Clarence Park, St Albans",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "team": "Hertfordshire",
+                "opponents": "Berkshire",
+                "total": 414,
+                "wickets": 9,
+                "declared": true,
+                "location": "Lucas Lane, Hitchin",
+                "seriesDate": "1975"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "JH Human",
+                "team": "Berkshire",
+                "opponents": "Hertfordshire",
+                "score": 231,
+                "notOut": false,
+                "location": "Crossman's Ground, Cokenach",
+                "seriesDate": "1932"
+            }
+        ],
+        [
+            {
+                "name": "PGT Kingsley",
+                "team": "Hertfordshire",
+                "opponents": "Berkshire",
+                "score": 158,
+                "notOut": false,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1930"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "AW Flatman",
+                "team": "Berkshire",
+                "opponents": "Hertfordshire",
+                "wickets": 8,
+                "runs": 49,
+                "location": "Ditchmore Lane, Stevenage",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "name": "HW Pank",
+                "team": "Hertfordshire",
+                "opponents": "Berkshire",
+                "wickets": 8,
+                "runs": 9,
+                "location": "Park Avenue, Watford",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RR Relf",
+                "team": "Berkshire",
+                "opponents": "Hertfordshire",
+                "wickets": 13,
+                "runs": 125,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1933"
+            }
+        ],
+        [
+            {
+                "name": "F Appleyard",
+                "team": "Hertfordshire",
+                "opponents": "Berkshire",
+                "wickets": 12,
+                "runs": 134,
+                "location": "Balls Park, Hertford",
+                "seriesDate": "1938"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Hertfordshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1936",
+                        "partnership": 134,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HL Lewis",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "G Sayles",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Crossman's Ground, Cokenach",
+                        "seriesDate": "1932",
+                        "partnership": 103,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JH Human",
+                        "player1Score": 231,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RJF Remnant",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Ditchmore Lane, Stevenage",
+                        "seriesDate": "1927",
+                        "partnership": 123,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "ACG Luther",
+                        "player1Score": 101,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "PGE Nash",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Hertfordshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1934",
+                        "partnership": 73,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RR Relf",
+                        "player1Score": 39,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JH Human",
+                        "player2Score": 122,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1896",
+                        "partnership": 143,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "LGA Collins",
+                        "player1Score": 60,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "FM Ingram",
+                        "player2Score": 89,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1947",
+                        "partnership": 138,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "TP Lawrence",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "GWS Waites",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Reading School Ground, Erleigh Road, Reading",
+                        "seriesDate": "1895",
+                        "partnership": 109,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Hertfordshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1934",
+                        "partnership": 69,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JH Human",
+                        "player1Score": 122,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "EH Maule",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1948",
+                        "partnership": 110,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "F Berry",
+                        "player1Score": 94,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "OPF Sutton",
+                        "player2Score": 56,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Hertfordshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1933",
+                        "partnership": 53,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CW Mole",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "CFS Buckley",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Berkshire",
+                        "location": "Crossman's Ground, Cokenach",
+                        "seriesDate": "1933",
+                        "partnership": 149,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CB Fordham",
+                        "player1Score": 129,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "FP Longton",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Berkshire",
+                        "location": "Park Avenue, Watford",
+                        "seriesDate": "1920",
+                        "partnership": 98,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CH Titchmarsh",
+                        "player1Score": 51,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "HJ Paris",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1896",
+                        "partnership": 118,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "A Butcher",
+                        "player1Score": 71,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "F Field",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Berkshire",
+                        "location": "Ditchmore Lane, Stevenage",
+                        "seriesDate": "1949",
+                        "partnership": 223,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DB Parkin",
+                        "player1Score": 141,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RG Bennett",
+                        "player2Score": 133,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Berkshire",
+                        "location": "Balls Park, Hertford",
+                        "seriesDate": "1938",
+                        "partnership": 142,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GV Ledger",
+                        "player1Score": 97,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JG Cruikshank",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1939",
+                        "partnership": 114,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AJ Kempster",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "GV Ledger",
+                        "player2Score": 69,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1933",
+                        "partnership": 119,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "FC de Saram",
+                        "player1Score": 101,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "JG Bland",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Berkshire",
+                        "location": "Crossman's Ground, Cokenach",
+                        "seriesDate": "1934",
+                        "partnership": 77,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "PR Stephenson",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "EA Roberts",
+                        "player2Score": 102,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1947",
+                        "partnership": 108,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "LC Bateman",
+                        "player1Score": 122,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "A Grimsdell",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1949",
+                        "partnership": 60,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "LO King",
+                        "player1Score": 42,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "J Holt",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JH Human",
+                "team": "Berkshire",
+                "opponents": "Hertfordshire",
+                "matches": 5,
+                "runs": 736,
+                "innings": 10,
+                "notOuts": 0,
+                "average": 73.6,
+                "hs": "231"
+            }
+        ],
+        [
+            {
+                "name": "CB Fordham",
+                "team": "Hertfordshire",
+                "opponents": "Berkshire",
+                "matches": 15,
+                "runs": 925,
+                "innings": 26,
+                "notOuts": 2,
+                "average": 38.54,
+                "hs": "129*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RR Relf",
+                "team": "Berkshire",
+                "opponents": "Hertfordshire",
+                "matches": 15,
+                "balls": 4179,
+                "maidens": 199,
+                "runs": 1501,
+                "wickets": 82,
+                "bbruns": 82,
+                "bbwickets": 7,
+                "average": 18.3
+            }
+        ],
+        [
+            {
+                "name": "EA Roberts",
+                "team": "Hertfordshire",
+                "opponents": "Berkshire",
+                "matches": 28,
+                "balls": 4810,
+                "maidens": 161,
+                "runs": 2119,
+                "wickets": 122,
+                "bbruns": 28,
+                "bbwickets": 8,
+                "average": 17.36
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "DW Stokes",
+                "team": "Berkshire",
+                "opponents": "Hertfordshire",
+                "matches": 22,
+                "dismissals": 31
+            }
+        ],
+        [
+            {
+                "name": "A Grimsdell",
+                "team": "Hertfordshire",
+                "opponents": "Berkshire",
+                "matches": 21,
+                "dismissals": 32
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "DW Stokes",
+                "team": "Berkshire",
+                "opponents": "Hertfordshire",
+                "matches": 22,
+                "dismissals": 12
+            }
+        ],
+        [
+            {
+                "name": "A Grimsdell",
+                "team": "Hertfordshire",
+                "opponents": "Berkshire",
+                "matches": 21,
+                "dismissals": 19
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Hertfordshire",
+                    "total": 58,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1938"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Hertfordshire",
+                    "total": 58,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1938"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Hertfordshire",
+                    "total": 33,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1920"
+                },
+                {
+                    "team": "Berkshire",
+                    "opponents": "Hertfordshire",
+                    "total": 33,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1939"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Berkshire",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1920"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Berkshire",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Kensington Road, Reading",
+                    "seriesDate": "1920"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Berkshire",
+                    "total": 1,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Ditchmore Lane, Stevenage",
+                    "seriesDate": "1946"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:36.252769Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

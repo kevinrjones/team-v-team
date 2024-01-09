@@ -1,0 +1,885 @@
+{
+    "team1": "Bangladesh",
+    "team2": "Zimbabwe",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 18,
+        "startDate": "2001-04-19T01:00",
+        "endDate": "2021-07-07T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bangladesh",
+                "opponents": "Zimbabwe",
+                "total": 560,
+                "wickets": 6,
+                "declared": true,
+                "location": "Shere Bangla National Stadium, Mirpur",
+                "seriesDate": "2019/20"
+            }
+        ],
+        [
+            {
+                "team": "Zimbabwe",
+                "opponents": "Bangladesh",
+                "total": 542,
+                "wickets": 7,
+                "declared": true,
+                "location": "MA Aziz Stadium, Chittagong",
+                "seriesDate": "2001/02"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Mushfiqur Rahim",
+                "team": "Bangladesh",
+                "opponents": "Zimbabwe",
+                "score": 219,
+                "notOut": true,
+                "location": "Shere Bangla National Stadium, Mirpur",
+                "seriesDate": "2018/19"
+            }
+        ],
+        [
+            {
+                "name": "BRM Taylor",
+                "team": "Zimbabwe",
+                "opponents": "Bangladesh",
+                "score": 171,
+                "notOut": false,
+                "location": "Harare Sports Club, Harare",
+                "seriesDate": "2013"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Taijul Islam",
+                "team": "Bangladesh",
+                "opponents": "Zimbabwe",
+                "wickets": 8,
+                "runs": 39,
+                "location": "Shere Bangla National Stadium, Mirpur",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "DT Hondo",
+                "team": "Zimbabwe",
+                "opponents": "Bangladesh",
+                "wickets": 6,
+                "runs": 59,
+                "location": "Bangabandhu National Stadium, Dhaka",
+                "seriesDate": "2004/05"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Enamul Haque",
+                "team": "Bangladesh",
+                "opponents": "Zimbabwe",
+                "wickets": 12,
+                "runs": 200,
+                "location": "Bangabandhu National Stadium, Dhaka",
+                "seriesDate": "2004/05"
+            }
+        ],
+        [
+            {
+                "name": "AM Blignaut",
+                "team": "Zimbabwe",
+                "opponents": "Bangladesh",
+                "wickets": 8,
+                "runs": 110,
+                "location": "Queens Sports Club, Bulawayo",
+                "seriesDate": "2000/01"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "Zimbabwe",
+                        "location": "Zohur Ahmed Chowdhury Stadium, Chittagong",
+                        "seriesDate": "2014/15",
+                        "partnership": 224,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Tamim Iqbal",
+                        "player1Score": 109,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Imrul Kayes",
+                        "player2Score": 130,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "Zimbabwe",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2021",
+                        "partnership": 196,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "Nazmul Hossain",
+                        "player1Score": 117,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "Shadman Islam",
+                        "player2Score": 115,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "Zimbabwe",
+                        "location": "Sheikh Abu Naser Stadium, Khulna",
+                        "seriesDate": "2014/15",
+                        "partnership": 95,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "Tamim Iqbal",
+                        "player1Score": 109,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Mahmudullah",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "Zimbabwe",
+                        "location": "Shere Bangla National Stadium, Mirpur",
+                        "seriesDate": "2018/19",
+                        "partnership": 266,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "Mominul Haque",
+                        "player1Score": 161,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Mushfiqur Rahim",
+                        "player2Score": 219,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "Zimbabwe",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2013",
+                        "partnership": 123,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "Shakib Al Hasan",
+                        "player1Score": 81,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "Mushfiqur Rahim",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "Zimbabwe",
+                        "location": "Shere Bangla National Stadium, Mirpur",
+                        "seriesDate": "2019/20",
+                        "partnership": 111,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Mushfiqur Rahim",
+                        "player1Score": 203,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "Liton Das",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "Zimbabwe",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2021",
+                        "partnership": 138,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Liton Das",
+                        "player1Score": 95,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "Mahmudullah",
+                        "player2Score": 150,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "Zimbabwe",
+                        "location": "Shere Bangla National Stadium, Mirpur",
+                        "seriesDate": "2018/19",
+                        "partnership": 144,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "Mushfiqur Rahim",
+                        "player1Score": 219,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "Mehedi Hasan",
+                        "player2Score": 68,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "Zimbabwe",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2021",
+                        "partnership": 191,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "Mahmudullah",
+                        "player1Score": 150,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "Taskin Ahmed",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bangladesh",
+                        "opponents": "Zimbabwe",
+                        "location": "Zohur Ahmed Chowdhury Stadium, Chittagong",
+                        "seriesDate": "2014/15",
+                        "partnership": 51,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "Rubel Hossain",
+                        "player1Score": 45,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "Jubair Hossain",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Bangladesh",
+                        "location": "MA Aziz Stadium, Chittagong",
+                        "seriesDate": "2001/02",
+                        "partnership": 108,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DD Ebrahim",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "TR Gripper",
+                        "player2Score": 112,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Bangladesh",
+                        "location": "Zohur Ahmed Chowdhury Stadium, Chittagong",
+                        "seriesDate": "2014/15",
+                        "partnership": 160,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Sikandar Raza",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "H Masakadza",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Bangladesh",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2011",
+                        "partnership": 142,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "H Masakadza",
+                        "player1Score": 104,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "BRM Taylor",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Bangladesh",
+                        "location": "Queens Sports Club, Bulawayo",
+                        "seriesDate": "2000/01",
+                        "partnership": 149,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "GJ Whittall",
+                        "player1Score": 119,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "A Flower",
+                        "player2Score": 73,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Bangladesh",
+                        "location": "Bangabandhu National Stadium, Dhaka",
+                        "seriesDate": "2004/05",
+                        "partnership": 150,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "T Taibu",
+                        "player1Score": 153,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "BRM Taylor",
+                        "player2Score": 78,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Bangladesh",
+                        "location": "Sheikh Abu Naser Stadium, Khulna",
+                        "seriesDate": "2014/15",
+                        "partnership": 147,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "H Masakadza",
+                        "player1Score": 158,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RW Chakabva",
+                        "player2Score": 101,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 189,
+                        "wicket": 6,
+                        "playerDetails": [
+                            {
+                                "team": "Zimbabwe",
+                                "opponents": "Bangladesh",
+                                "location": "MA Aziz Stadium, Chittagong",
+                                "seriesDate": "2001/02",
+                                "partnership": 123,
+                                "wicket": 6,
+                                "undefeated": false,
+                                "player1Name": "CB Wishart",
+                                "player1Score": 114,
+                                "player1NotOut": false,
+                                "player1Position": 7,
+                                "player2Name": "DA Marillier",
+                                "player2Score": 52,
+                                "player2NotOut": false,
+                                "player2Position": 8
+                            },
+                            {
+                                "team": "Zimbabwe",
+                                "opponents": "Bangladesh",
+                                "location": "MA Aziz Stadium, Chittagong",
+                                "seriesDate": "2001/02",
+                                "partnership": 66,
+                                "wicket": 6,
+                                "undefeated": true,
+                                "player1Name": "A Flower",
+                                "player1Score": 114,
+                                "player1NotOut": true,
+                                "player1Position": 5,
+                                "player2Name": "CB Wishart",
+                                "player2Score": 114,
+                                "player2NotOut": false,
+                                "player2Position": 7
+                            }
+                        ]
+                    }
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Bangladesh",
+                        "location": "MA Aziz Stadium, Chittagong",
+                        "seriesDate": "2004/05",
+                        "partnership": 119,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "T Taibu",
+                        "player1Score": 92,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "E Chigumbura",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Bangladesh",
+                        "location": "Bangabandhu National Stadium, Dhaka",
+                        "seriesDate": "2001/02",
+                        "partnership": 108,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "HH Streak",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "TJ Friend",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Bangladesh",
+                        "location": "Bangabandhu National Stadium, Dhaka",
+                        "seriesDate": "2004/05",
+                        "partnership": 67,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "T Taibu",
+                        "player1Score": 153,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "DT Hondo",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Bangladesh",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "2013",
+                        "partnership": 38,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "H Masakadza",
+                        "player1Score": 111,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "KM Jarvis",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Mushfiqur Rahim",
+                "team": "Bangladesh",
+                "opponents": "Zimbabwe",
+                "matches": 10,
+                "runs": 857,
+                "innings": 18,
+                "notOuts": 3,
+                "average": 57.13,
+                "hs": "219*"
+            }
+        ],
+        [
+            {
+                "name": "BRM Taylor",
+                "team": "Zimbabwe",
+                "opponents": "Bangladesh",
+                "matches": 12,
+                "runs": 1239,
+                "innings": 24,
+                "notOuts": 4,
+                "average": 61.95,
+                "hs": "171"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Taijul Islam",
+                "team": "Bangladesh",
+                "opponents": "Zimbabwe",
+                "matches": 6,
+                "balls": 1961,
+                "maidens": 63,
+                "runs": 907,
+                "wickets": 41,
+                "bbruns": 39,
+                "bbwickets": 8,
+                "average": 22.12
+            }
+        ],
+        [
+            {
+                "name": "KM Jarvis",
+                "team": "Zimbabwe",
+                "opponents": "Bangladesh",
+                "matches": 5,
+                "balls": 1059,
+                "maidens": 36,
+                "runs": 583,
+                "wickets": 24,
+                "bbruns": 71,
+                "bbwickets": 5,
+                "average": 24.29
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "Mushfiqur Rahim",
+                "team": "Bangladesh",
+                "opponents": "Zimbabwe",
+                "matches": 10,
+                "dismissals": 20
+            }
+        ],
+        [
+            {
+                "name": "RW Chakabva",
+                "team": "Zimbabwe",
+                "opponents": "Bangladesh",
+                "matches": 8,
+                "dismissals": 20
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "Khaled Mashud",
+                "team": "Bangladesh",
+                "opponents": "Zimbabwe",
+                "matches": 7,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "A Flower",
+                "team": "Zimbabwe",
+                "opponents": "Bangladesh",
+                "matches": 4,
+                "dismissals": 2
+            },
+            {
+                "name": "R Mutumbami",
+                "team": "Zimbabwe",
+                "opponents": "Bangladesh",
+                "matches": 3,
+                "dismissals": 2
+            },
+            {
+                "name": "T Taibu",
+                "team": "Zimbabwe",
+                "opponents": "Bangladesh",
+                "matches": 5,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bangladesh",
+                    "opponents": "Zimbabwe",
+                    "total": 107,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bangabandhu National Stadium, Dhaka",
+                    "seriesDate": "2001/02"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bangladesh",
+                    "opponents": "Zimbabwe",
+                    "total": 107,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bangabandhu National Stadium, Dhaka",
+                    "seriesDate": "2001/02"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bangladesh",
+                    "opponents": "Zimbabwe",
+                    "total": 101,
+                    "wickets": 7,
+                    "declared": false,
+                    "location": "Shere Bangla National Stadium, Mirpur",
+                    "seriesDate": "2014/15"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "Bangladesh",
+                    "total": 114,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shere Bangla National Stadium, Mirpur",
+                    "seriesDate": "2014/15"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "Bangladesh",
+                    "total": 114,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Shere Bangla National Stadium, Mirpur",
+                    "seriesDate": "2014/15"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "Bangladesh",
+                    "total": 11,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "MA Aziz Stadium, Chittagong",
+                    "seriesDate": "2001/02"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:19:05.338786Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

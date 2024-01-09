@@ -1,0 +1,884 @@
+{
+    "team1": "Pakistanis",
+    "team2": "Middlesex",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 7,
+        "startDate": "1954-08-28T01:00",
+        "endDate": "1992-05-30T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Pakistanis",
+                "opponents": "Middlesex",
+                "total": 352,
+                "wickets": 7,
+                "declared": true,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1962"
+            }
+        ],
+        [
+            {
+                "team": "Middlesex",
+                "opponents": "Pakistanis",
+                "total": 452,
+                "wickets": 3,
+                "declared": true,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1967"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Hanif Mohammad",
+                "team": "Pakistanis",
+                "opponents": "Middlesex",
+                "score": 191,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1962"
+            }
+        ],
+        [
+            {
+                "name": "WE Russell",
+                "team": "Middlesex",
+                "opponents": "Pakistanis",
+                "score": 167,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1967"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Mushtaq Mohammad",
+                "team": "Pakistanis",
+                "opponents": "Middlesex",
+                "wickets": 7,
+                "runs": 59,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1974"
+            }
+        ],
+        [
+            {
+                "name": "AH Latchman",
+                "team": "Middlesex",
+                "opponents": "Pakistanis",
+                "wickets": 7,
+                "runs": 91,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1967"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Shujauddin",
+                "team": "Pakistanis",
+                "opponents": "Middlesex",
+                "wickets": 7,
+                "runs": 151,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1954"
+            }
+        ],
+        [
+            {
+                "name": "AH Latchman",
+                "team": "Middlesex",
+                "opponents": "Pakistanis",
+                "wickets": 8,
+                "runs": 191,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1967"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Middlesex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1987",
+                        "partnership": 167,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Rameez Raja",
+                        "player1Score": 84,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Mansoor Akhtar",
+                        "player2Score": 87,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 176,
+                        "wicket": 1,
+                        "playerDetails": [
+                            {
+                                "team": "Pakistanis",
+                                "opponents": "Middlesex",
+                                "location": "Lord's Cricket Ground, St John's Wood",
+                                "seriesDate": "1987",
+                                "partnership": 167,
+                                "wicket": 1,
+                                "undefeated": false,
+                                "player1Name": "Rameez Raja",
+                                "player1Score": 84,
+                                "player1NotOut": false,
+                                "player1Position": 1,
+                                "player2Name": "Mansoor Akhtar",
+                                "player2Score": 87,
+                                "player2NotOut": false,
+                                "player2Position": 3
+                            },
+                            {
+                                "team": "Pakistanis",
+                                "opponents": "Middlesex",
+                                "location": "Lord's Cricket Ground, St John's Wood",
+                                "seriesDate": "1987",
+                                "partnership": 9,
+                                "wicket": 1,
+                                "undefeated": true,
+                                "player1Name": "Rameez Raja",
+                                "player1Score": 84,
+                                "player1NotOut": false,
+                                "player1Position": 1,
+                                "player2Name": "Shoaib Mohammad",
+                                "player2Score": 4,
+                                "player2NotOut": true,
+                                "player2Position": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Middlesex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1962",
+                        "partnership": 107,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Middlesex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1992",
+                        "partnership": 125,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Middlesex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1962",
+                        "partnership": 114,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Middlesex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1967",
+                        "partnership": 59,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "Majid Khan",
+                        "player1Score": 107,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "Ghulam Abbas",
+                        "player2Score": 21,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Middlesex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1954",
+                        "partnership": 66,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "Imtiaz Ahmed",
+                        "player1Score": 47,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "MEZ Ghazali",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Middlesex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1954",
+                        "partnership": 100,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Middlesex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1987",
+                        "partnership": 14,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Middlesex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1987",
+                        "partnership": 13,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Middlesex",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1987",
+                        "partnership": 16,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "Tauseef Ahmed",
+                        "player1Score": 9,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "Mohsin Kamal",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Pakistanis",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1967",
+                        "partnership": 312,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WE Russell",
+                        "player1Score": 167,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MJ Harris",
+                        "player2Score": 160,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Pakistanis",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1987",
+                        "partnership": 81,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "JD Carr",
+                        "player1Score": 81,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "PR Downton",
+                        "player2Score": 45,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Pakistanis",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1962",
+                        "partnership": 153,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Pakistanis",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1987",
+                        "partnership": 59,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Pakistanis",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1954",
+                        "partnership": 103,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Pakistanis",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1962",
+                        "partnership": 53,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Pakistanis",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1954",
+                        "partnership": 29,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Pakistanis",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1962",
+                        "partnership": 32,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "JT Murray",
+                        "player1Score": 20,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "CD Drybrough",
+                        "player2Score": 13,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Pakistanis",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1974",
+                        "partnership": 16,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Middlesex",
+                        "opponents": "Pakistanis",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1974",
+                        "partnership": 1,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "NG Featherstone",
+                        "player1Score": 37,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "MWW Selvey",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Majid Khan",
+                "team": "Pakistanis",
+                "opponents": "Middlesex",
+                "matches": 3,
+                "runs": 276,
+                "innings": 5,
+                "notOuts": 3,
+                "average": 138.0,
+                "hs": "107*"
+            }
+        ],
+        [
+            {
+                "name": "PH Parfitt",
+                "team": "Middlesex",
+                "opponents": "Pakistanis",
+                "matches": 2,
+                "runs": 281,
+                "innings": 3,
+                "notOuts": 1,
+                "average": 140.5,
+                "hs": "122"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Mushtaq Mohammad",
+                "team": "Pakistanis",
+                "opponents": "Middlesex",
+                "matches": 0,
+                "balls": 162,
+                "maidens": 9,
+                "runs": 59,
+                "wickets": 7,
+                "bbruns": 59,
+                "bbwickets": 7,
+                "average": 8.42
+            },
+            {
+                "name": "Shujauddin",
+                "team": "Pakistanis",
+                "opponents": "Middlesex",
+                "matches": 1,
+                "balls": 394,
+                "maidens": 16,
+                "runs": 151,
+                "wickets": 7,
+                "bbruns": 66,
+                "bbwickets": 4,
+                "average": 21.57
+            }
+        ],
+        [
+            {
+                "name": "AH Latchman",
+                "team": "Middlesex",
+                "opponents": "Pakistanis",
+                "matches": 1,
+                "balls": 420,
+                "maidens": 21,
+                "runs": 191,
+                "wickets": 8,
+                "bbruns": 91,
+                "bbwickets": 7,
+                "average": 23.87
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "Imtiaz Ahmed",
+                "team": "Pakistanis",
+                "opponents": "Middlesex",
+                "matches": 2,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "PR Downton",
+                "team": "Middlesex",
+                "opponents": "Pakistanis",
+                "matches": 2,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "Imtiaz Ahmed",
+                "team": "Pakistanis",
+                "opponents": "Middlesex",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "LH Compton",
+                "team": "Middlesex",
+                "opponents": "Pakistanis",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Pakistanis",
+                    "opponents": "Middlesex",
+                    "total": 237,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1967"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Pakistanis",
+                    "opponents": "Middlesex",
+                    "total": 237,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1967"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Pakistanis",
+                    "opponents": "Middlesex",
+                    "total": 5,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1992"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Middlesex",
+                    "opponents": "Pakistanis",
+                    "total": 77,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1974"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Middlesex",
+                    "opponents": "Pakistanis",
+                    "total": 77,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1974"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Middlesex",
+                    "opponents": "Pakistanis",
+                    "total": 30,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1982"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:54.998973Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,832 @@
+{
+    "team1": "Bedfordshire",
+    "team2": "Staffordshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 67,
+        "startDate": "1900-06-21T00:00",
+        "endDate": "2022-07-03T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bedfordshire",
+                "opponents": "Staffordshire",
+                "total": 403,
+                "wickets": 8,
+                "declared": true,
+                "location": "Bedford School Ground, Bedford",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "team": "Staffordshire",
+                "opponents": "Bedfordshire",
+                "total": 571,
+                "wickets": 4,
+                "declared": true,
+                "location": "Wardown Park, Luton",
+                "seriesDate": "2013"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "G Pollitt",
+                "team": "Bedfordshire",
+                "opponents": "Staffordshire",
+                "score": 175,
+                "notOut": false,
+                "location": "Danescourt, Wolverhampton",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "T Maxfield",
+                "team": "Staffordshire",
+                "opponents": "Bedfordshire",
+                "score": 221,
+                "notOut": false,
+                "location": "Wardown Park, Luton",
+                "seriesDate": "2013"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "TGA Morley",
+                "team": "Bedfordshire",
+                "opponents": "Staffordshire",
+                "wickets": 7,
+                "runs": 23,
+                "location": "Gorway, Walsall",
+                "seriesDate": "1964"
+            }
+        ],
+        [
+            {
+                "name": "SF Barnes",
+                "team": "Staffordshire",
+                "opponents": "Bedfordshire",
+                "wickets": 8,
+                "runs": 10,
+                "location": "Bedford Modern School Ground, Bedford",
+                "seriesDate": "1906"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "TGA Morley",
+                "team": "Bedfordshire",
+                "opponents": "Staffordshire",
+                "wickets": 12,
+                "runs": 74,
+                "location": "Gorway, Walsall",
+                "seriesDate": "1964"
+            }
+        ],
+        [
+            {
+                "name": "D Follett",
+                "team": "Staffordshire",
+                "opponents": "Bedfordshire",
+                "wickets": 14,
+                "runs": 56,
+                "location": "The Vale, Westoning",
+                "seriesDate": "2001"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Staffordshire",
+                        "location": "Bedford Modern School Ground, Bedford",
+                        "seriesDate": "1906",
+                        "partnership": 134,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HJJ Hodgkins",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "G Pollitt",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Staffordshire",
+                        "location": "Haden Hill Park, Haden Hill",
+                        "seriesDate": "2011",
+                        "partnership": 147,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "SD Stubbings",
+                        "player1Score": 97,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "GR Thurstance",
+                        "player2Score": 86,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Staffordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "2013",
+                        "partnership": 143,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "LW Thomas",
+                        "player1Score": 125,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GR Thurstance",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Staffordshire",
+                        "location": "Hints Road, Tamworth",
+                        "seriesDate": "2002",
+                        "partnership": 164,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "A Shankar",
+                        "player1Score": 104,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JA Knott",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Staffordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1904",
+                        "partnership": 113,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HR Orr",
+                        "player1Score": 126,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "TA Brown",
+                        "player2Score": 48,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Staffordshire",
+                        "location": "Lancot Park, Totternhoe",
+                        "seriesDate": "2022",
+                        "partnership": 214,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "GR Thurstance",
+                        "player1Score": 117,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "MJ Taylor",
+                        "player2Score": 106,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Staffordshire",
+                        "location": "Danescourt, Wolverhampton",
+                        "seriesDate": "1903",
+                        "partnership": 90,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "TA Brown",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "RH Moss",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Staffordshire",
+                        "location": "Lancot Park, Totternhoe",
+                        "seriesDate": "2022",
+                        "partnership": 91,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JM Kettleborough",
+                        "player1Score": 115,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "JC Fuller",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Staffordshire",
+                        "location": "Gorway, Walsall",
+                        "seriesDate": "1964",
+                        "partnership": 108,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JM Mordue",
+                        "player1Score": 69,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "GM Jarrett",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Staffordshire",
+                        "location": "Dunstable Grammar School Ground, Dunstable",
+                        "seriesDate": "1902",
+                        "partnership": 66,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "L Parbury",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "HW Oclee",
+                        "player2Score": 46,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Lichfield Road, Stone",
+                        "seriesDate": "1992",
+                        "partnership": 228,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "RD Salmon",
+                        "player1Score": 102,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "SJ Dean",
+                        "player2Score": 109,
+                        "player2NotOut": true,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "2016",
+                        "partnership": 193,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "K Ali",
+                        "player1Score": 129,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "TA Steele",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "2013",
+                        "partnership": 289,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "T Maxfield",
+                        "player1Score": 221,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "PJ Wilshaw",
+                        "player2Score": 138,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Danescourt, Wolverhampton",
+                        "seriesDate": "1961",
+                        "partnership": 152,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "DS Steele",
+                        "player1Score": 67,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JT Ikin",
+                        "player2Score": 116,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Trentham Road, Stoke-on-Trent",
+                        "seriesDate": "2005",
+                        "partnership": 172,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "KJ Barnett",
+                        "player1Score": 112,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "PJ Wilshaw",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "2010",
+                        "partnership": 195,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "PSJ Goodwin",
+                        "player1Score": 99,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "BT McGuire",
+                        "player2Score": 96,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Lancot Park, Totternhoe",
+                        "seriesDate": "2022",
+                        "partnership": 165,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "T Maxfield",
+                        "player1Score": 93,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DP Richardson",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Haden Hill Park, Haden Hill",
+                        "seriesDate": "2011",
+                        "partnership": 136,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "PJ Wilshaw",
+                        "player1Score": 126,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "CJ Barker",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Haden Hill Park, Haden Hill",
+                        "seriesDate": "2011",
+                        "partnership": 55,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "PJ Wilshaw",
+                        "player1Score": 35,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "GD Morris",
+                        "player2Score": 27,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Trentham Road, Stoke-on-Trent",
+                        "seriesDate": "2014",
+                        "partnership": 112,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MJ Hill",
+                        "player1Score": 110,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "PA Byrne",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AR Roberts",
+                "team": "Bedfordshire",
+                "opponents": "Staffordshire",
+                "matches": 10,
+                "runs": 590,
+                "innings": 15,
+                "notOuts": 2,
+                "average": 45.38,
+                "hs": "140"
+            }
+        ],
+        [
+            {
+                "name": "SJ Dean",
+                "team": "Staffordshire",
+                "opponents": "Bedfordshire",
+                "matches": 14,
+                "runs": 1041,
+                "innings": 25,
+                "notOuts": 2,
+                "average": 45.26,
+                "hs": "123"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GE Wharmby",
+                "team": "Bedfordshire",
+                "opponents": "Staffordshire",
+                "matches": 10,
+                "balls": 2413,
+                "maidens": 132,
+                "runs": 845,
+                "wickets": 51,
+                "bbruns": 21,
+                "bbwickets": 6,
+                "average": 16.56
+            }
+        ],
+        [
+            {
+                "name": "T Grimshaw",
+                "team": "Staffordshire",
+                "opponents": "Bedfordshire",
+                "matches": 6,
+                "balls": 1112,
+                "maidens": 36,
+                "runs": 523,
+                "wickets": 38,
+                "bbruns": 29,
+                "bbwickets": 6,
+                "average": 13.76
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "J Smith",
+                "team": "Bedfordshire",
+                "opponents": "Staffordshire",
+                "matches": 17,
+                "dismissals": 18
+            }
+        ],
+        [
+            {
+                "name": "JT Ikin",
+                "team": "Staffordshire",
+                "opponents": "Bedfordshire",
+                "matches": 20,
+                "dismissals": 31
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "MW Crouch",
+                "team": "Bedfordshire",
+                "opponents": "Staffordshire",
+                "matches": 14,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "MI Humphries",
+                "team": "Staffordshire",
+                "opponents": "Bedfordshire",
+                "matches": 12,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Staffordshire",
+                    "total": 22,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Gorway, Walsall",
+                    "seriesDate": "1962"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Staffordshire",
+                    "total": 22,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Gorway, Walsall",
+                    "seriesDate": "1962"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Staffordshire",
+                    "total": 12,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Oldfields Ground, Uttoxeter",
+                    "seriesDate": "1957"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Bedfordshire",
+                    "total": 39,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford County School Ground, Bedford",
+                    "seriesDate": "1900"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Bedfordshire",
+                    "total": 39,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford County School Ground, Bedford",
+                    "seriesDate": "1900"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Bedfordshire",
+                    "total": 11,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "County Ground, Stoke-on-Trent",
+                    "seriesDate": "1902"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:17.555990Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

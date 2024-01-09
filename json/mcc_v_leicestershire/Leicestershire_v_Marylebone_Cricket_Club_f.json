@@ -1,0 +1,859 @@
+{
+    "team1": "Leicestershire",
+    "team2": "Marylebone Cricket Club",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 19,
+        "startDate": "1894-05-24T00:00",
+        "endDate": "1976-04-21T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Keith Walmsley"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Leicestershire",
+                "opponents": "Marylebone Cricket Club",
+                "total": 461,
+                "wickets": 10,
+                "declared": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Leicestershire",
+                "total": 396,
+                "wickets": 10,
+                "declared": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AE Knight",
+                "team": "Leicestershire",
+                "opponents": "Marylebone Cricket Club",
+                "score": 203,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "A Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Leicestershire",
+                "score": 194,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1902"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "A Woodcock",
+                "team": "Leicestershire",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 9,
+                "runs": 28,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1899"
+            }
+        ],
+        [
+            {
+                "name": "JT Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Leicestershire",
+                "wickets": 7,
+                "runs": 57,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1898"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "A Woodcock",
+                "team": "Leicestershire",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 14,
+                "runs": 72,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1899"
+            }
+        ],
+        [
+            {
+                "name": "JT Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Leicestershire",
+                "wickets": 12,
+                "runs": 124,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1903"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1976",
+                        "partnership": 71,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "B Dudleston",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "JF Steele",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1976",
+                        "partnership": 112,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "B Dudleston",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "JC Balderstone",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1904",
+                        "partnership": 291,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AE Knight",
+                        "player1Score": 203,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JH King",
+                        "player2Score": 128,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1976",
+                        "partnership": 62,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "BF Davison",
+                        "player1Score": 103,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "R Illingworth",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1907",
+                        "partnership": 80,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "S Coe",
+                        "player1Score": 100,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "VFS Crawford",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1898",
+                        "partnership": 108,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AE Knight",
+                        "player1Score": 93,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "S Coe",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1901",
+                        "partnership": 68,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "F Geeson",
+                        "player1Score": 71,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "CE de Trafford",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1910",
+                        "partnership": 36,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AT Sharp",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "WE Astill",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1906",
+                        "partnership": 30,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "H Whitehead",
+                        "player1Score": 32,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "GC Gill",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Leicestershire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1901",
+                        "partnership": 44,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "A Woodcock",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "JP Whiteside",
+                        "player2Score": 17,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Leicestershire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1976",
+                        "partnership": 301,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DL Amiss",
+                        "player1Score": 164,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JM Brearley",
+                        "player2Score": 137,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Leicestershire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1895",
+                        "partnership": 60,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "GA Davidson",
+                        "player1Score": 28,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "W Flowers",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Leicestershire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1902",
+                        "partnership": 172,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "A Hearne",
+                        "player1Score": 194,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "GJ Thompson",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Leicestershire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1902",
+                        "partnership": 120,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "A Hearne",
+                        "player1Score": 194,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DHBH Blundell",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Leicestershire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1900",
+                        "partnership": 199,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AP Lucas",
+                        "player1Score": 95,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "KJ Key",
+                        "player2Score": 101,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Leicestershire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1903",
+                        "partnership": 60,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "LC Braund",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "AE Trott",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Leicestershire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1911",
+                        "partnership": 105,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "G Brown",
+                        "player1Score": 84,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "NC Tufnell",
+                        "player2Score": 53,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Leicestershire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1898",
+                        "partnership": 75,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "G Thornton",
+                        "player1Score": 85,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "JT Hearne",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Leicestershire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1904",
+                        "partnership": 56,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "FA Tarrant",
+                        "player1Score": 84,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "JT Hearne",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Leicestershire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1911",
+                        "partnership": 62,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "APFC Somerset",
+                        "player1Score": 39,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "E Mignon",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AE Knight",
+                "team": "Leicestershire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 15,
+                "runs": 746,
+                "innings": 29,
+                "notOuts": 0,
+                "average": 25.72,
+                "hs": "203"
+            }
+        ],
+        [
+            {
+                "name": "A Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Leicestershire",
+                "matches": 6,
+                "runs": 271,
+                "innings": 10,
+                "notOuts": 2,
+                "average": 33.87,
+                "hs": "194"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "A Woodcock",
+                "team": "Leicestershire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 7,
+                "balls": 1246,
+                "maidens": 54,
+                "runs": 753,
+                "wickets": 50,
+                "bbruns": 28,
+                "bbwickets": 9,
+                "average": 15.06
+            }
+        ],
+        [
+            {
+                "name": "JT Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Leicestershire",
+                "matches": 8,
+                "balls": 2040,
+                "maidens": 122,
+                "runs": 859,
+                "wickets": 60,
+                "bbruns": 57,
+                "bbwickets": 7,
+                "average": 14.31
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JP Whiteside",
+                "team": "Leicestershire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 12,
+                "dismissals": 21
+            }
+        ],
+        [
+            {
+                "name": "AE Trott",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Leicestershire",
+                "matches": 9,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JP Whiteside",
+                "team": "Leicestershire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 12,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "FH Huish",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Leicestershire",
+                "matches": 3,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Leicestershire",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 30,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1899"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Leicestershire",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 30,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1899"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Leicestershire",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 30,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1899"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Leicestershire",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1899"
+                },
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Leicestershire",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1906"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Leicestershire",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1899"
+                },
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Leicestershire",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1906"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Leicestershire",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1899"
+                },
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Leicestershire",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1906"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:44.453412Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

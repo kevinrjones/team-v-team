@@ -1,7 +1,8 @@
 [versions]
 catalogUpdateVersion_version = "0.8.3"
 commons_cli_version = "1.6.0"
-jooq_version = "3.19.1"
+#jooq_version = "3.19.1"
+jooq_version = "3.18.8"
 kotlin_couroutines_version = "1.7.3"
 kotlin_version = "1.9.22"
 kotlinx_datetime_version = "0.5.0"
@@ -10,6 +11,18 @@ kotlinx_serialization_version = "1.6.2"
 logback_version = "1.4.14"
 mariaDbVersion = "3.3.2"
 updateVersion_version = "0.50.0"
+
+#catalogUpdateVersion_version = "0.8.1"
+#commons_cli_version = "1.5.0"
+#jooq_version = "3.18.7"
+#kotlin_couroutines_version = "1.7.3"
+#kotlin_version = "1.9.10"
+#kotlinx_datetime_version = "0.5.0"
+#kotlinx_html_version = "0.10.1"
+#kotlinx_serialization_version = "1.6.0"
+#logback_version = "1.4.12"
+#mariaDbVersion = "3.3.1"
+#updateVersion_version = "0.49.0"
 
 [libraries]
 commonsCli = { module = "commons-cli:commons-cli", version.ref = "commons_cli_version" }
@@ -27,6 +40,8 @@ mariadb = { module = "org.mariadb.jdbc:mariadb-java-client", version.ref = "mari
 
 [plugins]
 catalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "catalogUpdateVersion_version" }
+jooq = {id = "org.jooq.jooq-codegen-gradle", version="3.19.1"}
 kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin_version" }
 kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin_version" }
 versionUpdate = { id = "com.github.ben-manes.versions", version.ref = "updateVersion_version" }
+

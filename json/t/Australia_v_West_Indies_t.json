@@ -1,0 +1,888 @@
+{
+    "team1": "Australia",
+    "team2": "West Indies",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 118,
+        "startDate": "1930-12-12T00:00",
+        "endDate": "2022-12-08T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australia",
+                "opponents": "West Indies",
+                "total": 758,
+                "wickets": 8,
+                "declared": true,
+                "location": "Sabina Park, Kingston",
+                "seriesDate": "1954/55"
+            }
+        ],
+        [
+            {
+                "team": "West Indies",
+                "opponents": "Australia",
+                "total": 616,
+                "wickets": 10,
+                "declared": false,
+                "location": "Adelaide Oval, Adelaide",
+                "seriesDate": "1968/69"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AC Voges",
+                "team": "Australia",
+                "opponents": "West Indies",
+                "score": 269,
+                "notOut": true,
+                "location": "Blundstone Arena, Hobart",
+                "seriesDate": "2015/16"
+            }
+        ],
+        [
+            {
+                "name": "BC Lara",
+                "team": "West Indies",
+                "opponents": "Australia",
+                "score": 277,
+                "notOut": false,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "1992/93"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "GD McKenzie",
+                "team": "Australia",
+                "opponents": "West Indies",
+                "wickets": 8,
+                "runs": 71,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1968/69"
+            }
+        ],
+        [
+            {
+                "name": "CEL Ambrose",
+                "team": "West Indies",
+                "opponents": "Australia",
+                "wickets": 7,
+                "runs": 25,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1992/93"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "MG Hughes",
+                "team": "Australia",
+                "opponents": "West Indies",
+                "wickets": 13,
+                "runs": 217,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "1988/89"
+            }
+        ],
+        [
+            {
+                "name": "MA Holding",
+                "team": "West Indies",
+                "opponents": "Australia",
+                "wickets": 11,
+                "runs": 107,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "1981/82"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "West Indies",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "1964/65",
+                        "partnership": 382,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WM Lawry",
+                        "player1Score": 210,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RB Simpson",
+                        "player2Score": 201,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "West Indies",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "1968/69",
+                        "partnership": 298,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "WM Lawry",
+                        "player1Score": 205,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "IM Chappell",
+                        "player2Score": 165,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "West Indies",
+                        "location": "Queen's Park Oval, Port of Spain",
+                        "seriesDate": "2002/03",
+                        "partnership": 315,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RT Ponting",
+                        "player1Score": 206,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DS Lehmann",
+                        "player2Score": 160,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "West Indies",
+                        "location": "Blundstone Arena, Hobart",
+                        "seriesDate": "2015/16",
+                        "partnership": 449,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "AC Voges",
+                        "player1Score": 269,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "SE Marsh",
+                        "player2Score": 182,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "West Indies",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "1998/99",
+                        "partnership": 281,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "SR Waugh",
+                        "player1Score": 199,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RT Ponting",
+                        "player2Score": 104,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "West Indies",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "1954/55",
+                        "partnership": 206,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "KR Miller",
+                        "player1Score": 137,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RG Archer",
+                        "player2Score": 98,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "West Indies",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1960/61",
+                        "partnership": 134,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "AK Davidson",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "R Benaud",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "West Indies",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1954/55",
+                        "partnership": 137,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "R Benaud",
+                        "player1Score": 121,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "IWG Johnson",
+                        "player2Score": 27,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "West Indies",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1988/89",
+                        "partnership": 114,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "DM Jones",
+                        "player1Score": 216,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "MG Hughes",
+                        "player2Score": 72,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "West Indies",
+                        "location": "Bourda, Georgetown",
+                        "seriesDate": "1983/84",
+                        "partnership": 97,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "TG Hogan",
+                        "player1Score": 42,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "RM Hogg",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    },
+                    {
+                        "team": "Australia",
+                        "opponents": "West Indies",
+                        "location": "Windsor Park, Roseau",
+                        "seriesDate": "2015",
+                        "partnership": 97,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AC Voges",
+                        "player1Score": 130,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "JR Hazlewood",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Australia",
+                        "location": "Bourda, Georgetown",
+                        "seriesDate": "1983/84",
+                        "partnership": 250,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "CG Greenidge",
+                        "player1Score": 120,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "DL Haynes",
+                        "player2Score": 103,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Australia",
+                        "location": "Bourda, Georgetown",
+                        "seriesDate": "1990/91",
+                        "partnership": 297,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "DL Haynes",
+                        "player1Score": 111,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RB Richardson",
+                        "player2Score": 182,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Australia",
+                        "location": "Antigua Recreation Ground, St John's",
+                        "seriesDate": "1983/84",
+                        "partnership": 308,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RB Richardson",
+                        "player1Score": 154,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "IVA Richards",
+                        "player2Score": 178,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Australia",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1975/76",
+                        "partnership": 198,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "LG Rowe",
+                        "player1Score": 107,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AI Kallicharran",
+                        "player2Score": 101,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Australia",
+                        "location": "Sabina Park, Kingston",
+                        "seriesDate": "1998/99",
+                        "partnership": 322,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "BC Lara",
+                        "player1Score": 213,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JC Adams",
+                        "player2Score": 94,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 344,
+                        "wicket": 5,
+                        "playerDetails": [
+                            {
+                                "team": "West Indies",
+                                "opponents": "Australia",
+                                "location": "Sabina Park, Kingston",
+                                "seriesDate": "1998/99",
+                                "partnership": 322,
+                                "wicket": 5,
+                                "undefeated": false,
+                                "player1Name": "BC Lara",
+                                "player1Score": 213,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "JC Adams",
+                                "player2Score": 94,
+                                "player2NotOut": false,
+                                "player2Position": 7
+                            },
+                            {
+                                "team": "West Indies",
+                                "opponents": "Australia",
+                                "location": "Sabina Park, Kingston",
+                                "seriesDate": "1998/99",
+                                "partnership": 22,
+                                "wicket": 5,
+                                "undefeated": true,
+                                "player1Name": "BC Lara",
+                                "player1Score": 213,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "PT Collins",
+                                "player2Score": 13,
+                                "player2NotOut": false,
+                                "player2Position": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Australia",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "1972/73",
+                        "partnership": 165,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RB Kanhai",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DL Murray",
+                        "player2Score": 90,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Australia",
+                        "location": "Kensington Oval, Bridgetown",
+                        "seriesDate": "1954/55",
+                        "partnership": 347,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "DS Atkinson",
+                        "player1Score": 219,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "CC Depeiaza",
+                        "player2Score": 122,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Australia",
+                        "location": "Queen's Park Oval, Port of Spain",
+                        "seriesDate": "1990/91",
+                        "partnership": 87,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "PJL Dujon",
+                        "player1Score": 70,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "CEL Ambrose",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "1968/69",
+                        "partnership": 122,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "DAJ Holford",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "JL Hendriks",
+                        "player2Score": 37,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indies",
+                        "opponents": "Australia",
+                        "location": "Adelaide Oval, Adelaide",
+                        "seriesDate": "2009/10",
+                        "partnership": 68,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "BP Nash",
+                        "player1Score": 92,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "R Rampaul",
+                        "player2Score": 40,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "SR Waugh",
+                "team": "Australia",
+                "opponents": "West Indies",
+                "matches": 32,
+                "runs": 2192,
+                "innings": 51,
+                "notOuts": 7,
+                "average": 49.81,
+                "hs": "200"
+            }
+        ],
+        [
+            {
+                "name": "BC Lara",
+                "team": "West Indies",
+                "opponents": "Australia",
+                "matches": 30,
+                "runs": 2815,
+                "innings": 56,
+                "notOuts": 2,
+                "average": 52.12,
+                "hs": "277"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GD McGrath",
+                "team": "Australia",
+                "opponents": "West Indies",
+                "matches": 23,
+                "balls": 5475,
+                "maidens": 287,
+                "runs": 2132,
+                "wickets": 110,
+                "bbruns": 17,
+                "bbwickets": 6,
+                "average": 19.38
+            }
+        ],
+        [
+            {
+                "name": "CA Walsh",
+                "team": "West Indies",
+                "opponents": "Australia",
+                "matches": 37,
+                "balls": 8560,
+                "maidens": 286,
+                "runs": 3872,
+                "wickets": 135,
+                "bbruns": 54,
+                "bbwickets": 6,
+                "average": 28.68
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "IA Healy",
+                "team": "Australia",
+                "opponents": "West Indies",
+                "matches": 28,
+                "dismissals": 72
+            }
+        ],
+        [
+            {
+                "name": "PJL Dujon",
+                "team": "West Indies",
+                "opponents": "Australia",
+                "matches": 23,
+                "dismissals": 85
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "GRA Langley",
+                "team": "Australia",
+                "opponents": "West Indies",
+                "matches": 9,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "JL Hendriks",
+                "team": "West Indies",
+                "opponents": "Australia",
+                "matches": 9,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australia",
+                    "opponents": "West Indies",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Western Australia Cricket Association Ground, Perth",
+                    "seriesDate": "1984/85"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "West Indies",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Western Australia Cricket Association Ground, Perth",
+                    "seriesDate": "1984/85"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "West Indies",
+                    "total": 8,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Kensington Oval, Bridgetown",
+                    "seriesDate": "2002/03"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Australia",
+                    "total": 51,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Queen's Park Oval, Port of Spain",
+                    "seriesDate": "1998/99"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Australia",
+                    "total": 51,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Queen's Park Oval, Port of Spain",
+                    "seriesDate": "1998/99"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indies",
+                    "opponents": "Australia",
+                    "total": 3,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Sabina Park, Kingston",
+                    "seriesDate": "1998/99"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:43.810147Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

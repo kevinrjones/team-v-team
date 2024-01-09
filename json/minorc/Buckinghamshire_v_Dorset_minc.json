@@ -1,0 +1,839 @@
+{
+    "team1": "Buckinghamshire",
+    "team2": "Dorset",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 18,
+        "startDate": "1908-07-29T00:00",
+        "endDate": "1991-05-27T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Buckinghamshire",
+                "opponents": "Dorset",
+                "total": 363,
+                "wickets": 10,
+                "declared": false,
+                "location": "London Road, High Wycombe",
+                "seriesDate": "1946"
+            }
+        ],
+        [
+            {
+                "team": "Dorset",
+                "opponents": "Buckinghamshire",
+                "total": 369,
+                "wickets": 10,
+                "declared": false,
+                "location": "Poole Park, Poole",
+                "seriesDate": "1909"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AR Harwood",
+                "team": "Buckinghamshire",
+                "opponents": "Dorset",
+                "score": 142,
+                "notOut": true,
+                "location": "London Road, High Wycombe",
+                "seriesDate": "1988"
+            }
+        ],
+        [
+            {
+                "name": "PFC Williams",
+                "team": "Dorset",
+                "opponents": "Buckinghamshire",
+                "score": 163,
+                "notOut": false,
+                "location": "Chalvey Road, Slough",
+                "seriesDate": "1908"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "GA Wilson",
+                "team": "Buckinghamshire",
+                "opponents": "Dorset",
+                "wickets": 8,
+                "runs": 109,
+                "location": "Chalvey Road, Slough",
+                "seriesDate": "1908"
+            }
+        ],
+        [
+            {
+                "name": "IEW Sanders",
+                "team": "Dorset",
+                "opponents": "Buckinghamshire",
+                "wickets": 6,
+                "runs": 46,
+                "location": "Kinson Park Road, Bournemouth",
+                "seriesDate": "1985"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "GA Wilson",
+                "team": "Buckinghamshire",
+                "opponents": "Dorset",
+                "wickets": 15,
+                "runs": 191,
+                "location": "Chalvey Road, Slough",
+                "seriesDate": "1908"
+            }
+        ],
+        [
+            {
+                "name": "CB Sharpe",
+                "team": "Dorset",
+                "opponents": "Buckinghamshire",
+                "wickets": 11,
+                "runs": 105,
+                "location": "St Mary's Field, Bridport",
+                "seriesDate": "1921"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Dorset",
+                        "location": "Sherborne School, Sherborne",
+                        "seriesDate": "1989",
+                        "partnership": 84,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AR Harwood",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MJ Roberts",
+                        "player2Score": 67,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Dorset",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1988",
+                        "partnership": 141,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AR Harwood",
+                        "player1Score": 142,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "PD Atkins",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Dorset",
+                        "location": "Sherborne School, Sherborne",
+                        "seriesDate": "1989",
+                        "partnership": 105,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "ME Milton",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "S Burrow",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Dorset",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1914",
+                        "partnership": 83,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "EA Shaw",
+                        "player1Score": 117,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RN Hamilton",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Dorset",
+                        "location": "Chalvey Road, Slough",
+                        "seriesDate": "1986",
+                        "partnership": 100,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "S Burrow",
+                        "player1Score": 73,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "JKS Edwards",
+                        "player2Score": 39,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Dorset",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1946",
+                        "partnership": 138,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "CH Taylor",
+                        "player1Score": 99,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "P Isherwood",
+                        "player2Score": 102,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Dorset",
+                        "location": "Chalvey Road, Slough",
+                        "seriesDate": "1986",
+                        "partnership": 70,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SJ Edwards",
+                        "player1Score": 15,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "SG Lynch",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Dorset",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1946",
+                        "partnership": 82,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "WB Franklin",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "P Isherwood",
+                        "player2Score": 102,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Dorset",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1946",
+                        "partnership": 95,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "WB Franklin",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "OG Battcock",
+                        "player2Score": 79,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Dorset",
+                        "location": "Poole Park, Poole",
+                        "seriesDate": "1908",
+                        "partnership": 29,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "TR Kent",
+                        "player1Score": 18,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "SJA Vickerstaff",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Buckinghamshire",
+                        "location": "Sherborne School, Sherborne",
+                        "seriesDate": "1991",
+                        "partnership": 113,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DJ Pepperell",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GS Calway",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Buckinghamshire",
+                        "location": "Sherborne School, Sherborne",
+                        "seriesDate": "1989",
+                        "partnership": 90,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "SJ Legg",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "C Stone",
+                        "player2Score": 73,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Buckinghamshire",
+                        "location": "Shardeloes, Amersham",
+                        "seriesDate": "1990",
+                        "partnership": 157,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "JA Claughton",
+                        "player1Score": 81,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "VB Lewis",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Buckinghamshire",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1988",
+                        "partnership": 62,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "SWD Rintoul",
+                        "player1Score": 26,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "C Stone",
+                        "player2Score": 42,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Buckinghamshire",
+                        "location": "Sherborne School, Sherborne",
+                        "seriesDate": "1989",
+                        "partnership": 119,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GS Calway",
+                        "player1Score": 117,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "S Sawney",
+                        "player2Score": 39,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Buckinghamshire",
+                        "location": "Sherborne School, Sherborne",
+                        "seriesDate": "1989",
+                        "partnership": 45,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "S Sawney",
+                        "player1Score": 39,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "ICD Stuart",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Buckinghamshire",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1921",
+                        "partnership": 104,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "HM Greenhill",
+                        "player1Score": 61,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "EH Ryle",
+                        "player2Score": 70,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Buckinghamshire",
+                        "location": "Chalvey Road, Slough",
+                        "seriesDate": "1986",
+                        "partnership": 31,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "C Stone",
+                        "player1Score": 23,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "ICD Stuart",
+                        "player2Score": 8,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Buckinghamshire",
+                        "location": "Pound Lane, Marlow",
+                        "seriesDate": "1909",
+                        "partnership": 70,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "HF Hodges",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "W Harrison",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Buckinghamshire",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1921",
+                        "partnership": 39,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "W Harrison",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "CB Sharpe",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AR Harwood",
+                "team": "Buckinghamshire",
+                "opponents": "Dorset",
+                "matches": 7,
+                "runs": 561,
+                "innings": 13,
+                "notOuts": 1,
+                "average": 46.75,
+                "hs": "142*"
+            }
+        ],
+        [
+            {
+                "name": "GS Calway",
+                "team": "Dorset",
+                "opponents": "Buckinghamshire",
+                "matches": 6,
+                "runs": 522,
+                "innings": 12,
+                "notOuts": 0,
+                "average": 43.5,
+                "hs": "117"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "AW Lyon",
+                "team": "Buckinghamshire",
+                "opponents": "Dorset",
+                "matches": 6,
+                "balls": 1330,
+                "maidens": 62,
+                "runs": 630,
+                "wickets": 29,
+                "bbruns": 12,
+                "bbwickets": 6,
+                "average": 21.72
+            }
+        ],
+        [
+            {
+                "name": "C Stone",
+                "team": "Dorset",
+                "opponents": "Buckinghamshire",
+                "matches": 7,
+                "balls": 1496,
+                "maidens": 68,
+                "runs": 691,
+                "wickets": 23,
+                "bbruns": 59,
+                "bbwickets": 5,
+                "average": 30.04
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "DJ Goldsmith",
+                "team": "Buckinghamshire",
+                "opponents": "Dorset",
+                "matches": 6,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "GS Calway",
+                "team": "Dorset",
+                "opponents": "Buckinghamshire",
+                "matches": 6,
+                "dismissals": 7
+            },
+            {
+                "name": "WV Jephson",
+                "team": "Dorset",
+                "opponents": "Buckinghamshire",
+                "matches": 2,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "DJ Goldsmith",
+                "team": "Buckinghamshire",
+                "opponents": "Dorset",
+                "matches": 6,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "HWFB Farrer",
+                "team": "Dorset",
+                "opponents": "Buckinghamshire",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Dorset",
+                    "total": 96,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Mary's Field, Bridport",
+                    "seriesDate": "1921"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Dorset",
+                    "total": 96,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Mary's Field, Bridport",
+                    "seriesDate": "1921"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Dorset",
+                    "total": 15,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Poole Park, Poole",
+                    "seriesDate": "1909"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Buckinghamshire",
+                    "total": 99,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Recreation Ground, Dorchester",
+                    "seriesDate": "1987"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Buckinghamshire",
+                    "total": 99,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Recreation Ground, Dorchester",
+                    "seriesDate": "1987"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Buckinghamshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Canford School Ground, Wimborne",
+                    "seriesDate": "1946"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:54.637369Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

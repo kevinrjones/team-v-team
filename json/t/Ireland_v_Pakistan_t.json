@@ -1,0 +1,837 @@
+{
+    "team1": "Ireland",
+    "team2": "Pakistan",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 1,
+        "startDate": "2018-05-11T01:00",
+        "endDate": "2018-05-11T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Ireland",
+                "opponents": "Pakistan",
+                "total": 339,
+                "wickets": 10,
+                "declared": false,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2018"
+            }
+        ],
+        [
+            {
+                "team": "Pakistan",
+                "opponents": "Ireland",
+                "total": 310,
+                "wickets": 9,
+                "declared": true,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2018"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "KJ O'Brien",
+                "team": "Ireland",
+                "opponents": "Pakistan",
+                "score": 118,
+                "notOut": false,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2018"
+            }
+        ],
+        [
+            {
+                "name": "Fahim Ashraf",
+                "team": "Pakistan",
+                "opponents": "Ireland",
+                "score": 83,
+                "notOut": false,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2018"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "TJ Murtagh",
+                "team": "Ireland",
+                "opponents": "Pakistan",
+                "wickets": 4,
+                "runs": 45,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2018"
+            }
+        ],
+        [
+            {
+                "name": "Mohammad Abbas",
+                "team": "Pakistan",
+                "opponents": "Ireland",
+                "wickets": 5,
+                "runs": 66,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2018"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "TJ Murtagh",
+                "team": "Ireland",
+                "opponents": "Pakistan",
+                "wickets": 6,
+                "runs": 100,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2018"
+            }
+        ],
+        [
+            {
+                "name": "Mohammad Abbas",
+                "team": "Pakistan",
+                "opponents": "Ireland",
+                "wickets": 9,
+                "runs": 110,
+                "location": "The Village, Malahide, Dublin",
+                "seriesDate": "2018"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Pakistan",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 69,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "WTS Porterfield",
+                        "player1Score": 32,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "EC Joyce",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Pakistan",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 0,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "WTS Porterfield",
+                        "player1Score": 1,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "A Balbirnie",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    },
+                    {
+                        "team": "Ireland",
+                        "opponents": "Pakistan",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 0,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "WTS Porterfield",
+                        "player1Score": 32,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "A Balbirnie",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Pakistan",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 25,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "WTS Porterfield",
+                        "player1Score": 32,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NJ O'Brien",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Pakistan",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 2,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "NJ O'Brien",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "PR Stirling",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Pakistan",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 32,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "PR Stirling",
+                        "player1Score": 11,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "KJ O'Brien",
+                        "player2Score": 118,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Pakistan",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 30,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GC Wilson",
+                        "player1Score": 12,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "KJ O'Brien",
+                        "player2Score": 118,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Pakistan",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 114,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "KJ O'Brien",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "SR Thompson",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Pakistan",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 50,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "KJ O'Brien",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "TE Kane",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Pakistan",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 34,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "GC Wilson",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "WB Rankin",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Ireland",
+                        "opponents": "Pakistan",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 23,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "GC Wilson",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "TJ Murtagh",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Ireland",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 13,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Azhar Ali",
+                        "player1Score": 4,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Imam-ul-Haq",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Ireland",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 11,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Imam-ul-Haq",
+                        "player1Score": 74,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "Haris Sohail",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Ireland",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 58,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "Haris Sohail",
+                        "player1Score": 31,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Asad Shafiq",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Ireland",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 126,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "Imam-ul-Haq",
+                        "player1Score": 74,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "Babar Azam",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Ireland",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 49,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "Asad Shafiq",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Sarfraz Ahmed",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Ireland",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 8,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "Shadab Khan",
+                        "player1Score": 4,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "Imam-ul-Haq",
+                        "player2Score": 74,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Ireland",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 117,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Shadab Khan",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "Fahim Ashraf",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Ireland",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 28,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Fahim Ashraf",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "Mohammad Aamer",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Ireland",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 2,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "Mohammad Aamer",
+                        "player1Score": 13,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "Mohammad Abbas",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "Ireland",
+                        "location": "The Village, Malahide, Dublin",
+                        "seriesDate": "2018",
+                        "partnership": 4,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "Mohammad Abbas",
+                        "player1Score": 4,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "Rahat Ali",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "KJ O'Brien",
+                "team": "Ireland",
+                "opponents": "Pakistan",
+                "matches": 1,
+                "runs": 158,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 79.0,
+                "hs": "118"
+            }
+        ],
+        [
+            {
+                "name": "Fahim Ashraf",
+                "team": "Pakistan",
+                "opponents": "Ireland",
+                "matches": 1,
+                "runs": 83,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 83.0,
+                "hs": "83"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "TJ Murtagh",
+                "team": "Ireland",
+                "opponents": "Pakistan",
+                "matches": 1,
+                "balls": 246,
+                "maidens": 8,
+                "runs": 100,
+                "wickets": 6,
+                "bbruns": 45,
+                "bbwickets": 4,
+                "average": 16.66
+            }
+        ],
+        [
+            {
+                "name": "Mohammad Abbas",
+                "team": "Pakistan",
+                "opponents": "Ireland",
+                "matches": 1,
+                "balls": 237,
+                "maidens": 14,
+                "runs": 110,
+                "wickets": 9,
+                "bbruns": 66,
+                "bbwickets": 5,
+                "average": 12.22
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "PR Stirling",
+                "team": "Ireland",
+                "opponents": "Pakistan",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "Babar Azam",
+                "team": "Pakistan",
+                "opponents": "Ireland",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "Haris Sohail",
+                "team": "Pakistan",
+                "opponents": "Ireland",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "Imam-ul-Haq",
+                "team": "Pakistan",
+                "opponents": "Ireland",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "Sarfraz Ahmed",
+                "team": "Pakistan",
+                "opponents": "Ireland",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Ireland",
+                    "opponents": "Pakistan",
+                    "total": 130,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Village, Malahide, Dublin",
+                    "seriesDate": "2018"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Ireland",
+                    "opponents": "Pakistan",
+                    "total": 130,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Village, Malahide, Dublin",
+                    "seriesDate": "2018"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Ireland",
+                    "opponents": "Pakistan",
+                    "total": 130,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Village, Malahide, Dublin",
+                    "seriesDate": "2018"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Pakistan",
+                    "opponents": "Ireland",
+                    "total": 160,
+                    "wickets": 5,
+                    "declared": false,
+                    "location": "The Village, Malahide, Dublin",
+                    "seriesDate": "2018"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:20:24.695700Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

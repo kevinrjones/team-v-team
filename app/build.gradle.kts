@@ -10,6 +10,7 @@ plugins {
 
     alias(libs.plugins.versionUpdate)
     alias(libs.plugins.catalogUpdate)
+//    alias(libs.plugins.jooq)
 }
 
 buildscript {
@@ -53,6 +54,8 @@ dependencies {
     implementation(libs.kotlinxHtml)
 
     implementation(libs.commonsCli)
+
+//    jooqCodegen(libs.mariadb)
 }
 
 application {
@@ -63,8 +66,8 @@ application {
 
 sourceSets {
     this.main {
-        java.srcDir("$buildDir/generated/java")
-//        kotlin.srcDir("$projectDir/src/generated/kotlin")
+        val generatedDir: Provider<Directory> = layout.buildDirectory.dir("generated/java")
+        java.srcDir(generatedDir)
     }
 }
 
@@ -84,11 +87,43 @@ kotlin {
     jvmToolchain(17)
 }
 
+//jooq {
+//    configuration {
+//        val output: Provider<Directory> = layout.buildDirectory.dir(".")
+//        basedir = "%{output.get()}"
+//        jdbc {
+//            driver = "org.mariadb.jdbc.Driver"
+//            url = "jdbc:mariadb://localhost:3306/cricketarchive"
+//            user = "cricketarchive"
+//            password = "p4ssw0rd"
+//        }
+//        generator {
+//            name = "org.jooq.codegen.KotlinGenerator"
+//            database {
+//                inputSchema = "cricketarchive"
+//                name = "org.jooq.meta.mariadb.MariaDBDatabase"
+//            }
+//            generator {
+//                target {
+//                    packageName = "com.knowledgespike.db"
+//                    directory = "generated/java"
+//                    isClean = true
+//                }
+//            }
+//        }
+//    }
+//}
+//
+//tasks.compileKotlin {
+//    dependsOn(tasks["jooqCodegen"])
+//}
+
 tasks.create("generateJOOQ") {
+    val output: Provider<Directory> = layout.buildDirectory.dir(".")
+
     GenerationTool.generate(
         Configuration()
-            .withBasedir("$buildDir")
-//            .withBasedir("$projectDir/src/")
+            .withBasedir("${output.get()}")
             .withJdbc(
                 Jdbc()
                     .withDriver("org.mariadb.jdbc.Driver")

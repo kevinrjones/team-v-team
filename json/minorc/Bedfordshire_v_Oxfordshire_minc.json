@@ -1,0 +1,832 @@
+{
+    "team1": "Bedfordshire",
+    "team2": "Oxfordshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 48,
+        "startDate": "1895-08-02T00:00",
+        "endDate": "1948-08-27T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bedfordshire",
+                "opponents": "Oxfordshire",
+                "total": 539,
+                "wickets": 7,
+                "declared": true,
+                "location": "Bedford School Ground, Bedford",
+                "seriesDate": "1947"
+            }
+        ],
+        [
+            {
+                "team": "Oxfordshire",
+                "opponents": "Bedfordshire",
+                "total": 446,
+                "wickets": 10,
+                "declared": false,
+                "location": "Bedford School Ground, Bedford",
+                "seriesDate": "1926"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AB Poole",
+                "team": "Bedfordshire",
+                "opponents": "Oxfordshire",
+                "score": 234,
+                "notOut": false,
+                "location": "Northern Aluminium Company Ground, Banbury",
+                "seriesDate": "1936"
+            }
+        ],
+        [
+            {
+                "name": "C Walters",
+                "team": "Oxfordshire",
+                "opponents": "Bedfordshire",
+                "score": 220,
+                "notOut": true,
+                "location": "Wardown Park, Luton",
+                "seriesDate": "1924"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "NE Browning",
+                "team": "Bedfordshire",
+                "opponents": "Oxfordshire",
+                "wickets": 8,
+                "runs": 100,
+                "location": "St John's College Ground, Oxford",
+                "seriesDate": "1935"
+            }
+        ],
+        [
+            {
+                "name": "A Rogers",
+                "team": "Oxfordshire",
+                "opponents": "Bedfordshire",
+                "wickets": 9,
+                "runs": 6,
+                "location": "Britannia Works Ground, Banbury",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "J Payne",
+                "team": "Bedfordshire",
+                "opponents": "Oxfordshire",
+                "wickets": 13,
+                "runs": 86,
+                "location": "Merton College Ground, Oxford",
+                "seriesDate": "1937"
+            }
+        ],
+        [
+            {
+                "name": "P Rogers",
+                "team": "Oxfordshire",
+                "opponents": "Bedfordshire",
+                "wickets": 14,
+                "runs": 96,
+                "location": "Bedford School Ground, Bedford",
+                "seriesDate": "1895"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1947",
+                        "partnership": 225,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GLB August",
+                        "player1Score": 201,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JAR Oliver",
+                        "player2Score": 123,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1903",
+                        "partnership": 177,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "BL Peel",
+                        "player1Score": 107,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "GE Wharmby",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Northern Aluminium Company Ground, Banbury",
+                        "seriesDate": "1936",
+                        "partnership": 222,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RDK Winlaw",
+                        "player1Score": 124,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "AB Poole",
+                        "player2Score": 234,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1946",
+                        "partnership": 132,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "TH Clark",
+                        "player1Score": 139,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AD Panton",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1933",
+                        "partnership": 124,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "WA Sime",
+                        "player1Score": 137,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "AB Poole",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "St John's College Ground, Oxford",
+                        "seriesDate": "1935",
+                        "partnership": 100,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "AB Poole",
+                        "player1Score": 100,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "EE Ward",
+                        "player2Score": 29,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Christ Church Ground, Oxford",
+                        "seriesDate": "1947",
+                        "partnership": 130,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "ST Morris",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AD Panton",
+                        "player2Score": 53,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1935",
+                        "partnership": 78,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "NE Browning",
+                        "player1Score": 96,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "RV Ward",
+                        "player2Score": 85,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1937",
+                        "partnership": 84,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "ED Dynes",
+                        "player1Score": 30,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "DB Coleman",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "New College Ground, Oxford",
+                        "seriesDate": "1939",
+                        "partnership": 85,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AWE Winlaw",
+                        "player1Score": 68,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "A Haywood",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1931",
+                        "partnership": 171,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "SCB Lee",
+                        "player1Score": 92,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "H Walker",
+                        "player2Score": 85,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1924",
+                        "partnership": 331,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "C Walters",
+                        "player1Score": 220,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "MB Burrows",
+                        "player2Score": 151,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1935",
+                        "partnership": 142,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "HG Webb",
+                        "player1Score": 85,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "J Barmby",
+                        "player2Score": 82,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "New College Ground, Oxford",
+                        "seriesDate": "1939",
+                        "partnership": 112,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "SFS Williams",
+                        "player1Score": 40,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "JG Halliday",
+                        "player2Score": 129,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Hertford College Ground, Oxford",
+                        "seriesDate": "1902",
+                        "partnership": 80,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "St John's College Ground, Oxford",
+                        "seriesDate": "1948",
+                        "partnership": 130,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "JF Mendl",
+                        "player1Score": 117,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CTG Carr",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "St John's College Ground, Oxford",
+                        "seriesDate": "1924",
+                        "partnership": 103,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "F Hartley",
+                        "player1Score": 118,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "CB Ormerod",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Christ Church Ground, Oxford",
+                        "seriesDate": "1947",
+                        "partnership": 110,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AH Reynolds",
+                        "player1Score": 114,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "LEG Hemming",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1926",
+                        "partnership": 148,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RP Thomas",
+                        "player1Score": 141,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "AF Alington",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Bedfordshire",
+                        "location": "Merton College Ground, Oxford",
+                        "seriesDate": "1925",
+                        "partnership": 35,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WG Bailey",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "G Coppock",
+                        "player2Score": 13,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AB Poole",
+                "team": "Bedfordshire",
+                "opponents": "Oxfordshire",
+                "matches": 27,
+                "runs": 822,
+                "innings": 34,
+                "notOuts": 3,
+                "average": 26.51,
+                "hs": "234"
+            }
+        ],
+        [
+            {
+                "name": "H Walker",
+                "team": "Oxfordshire",
+                "opponents": "Bedfordshire",
+                "matches": 23,
+                "runs": 1256,
+                "innings": 37,
+                "notOuts": 4,
+                "average": 38.06,
+                "hs": "160"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "TA Brown",
+                "team": "Bedfordshire",
+                "opponents": "Oxfordshire",
+                "matches": 10,
+                "balls": 2244,
+                "maidens": 101,
+                "runs": 887,
+                "wickets": 67,
+                "bbruns": 27,
+                "bbwickets": 7,
+                "average": 13.23
+            }
+        ],
+        [
+            {
+                "name": "C Walters",
+                "team": "Oxfordshire",
+                "opponents": "Bedfordshire",
+                "matches": 26,
+                "balls": 4409,
+                "maidens": 204,
+                "runs": 1611,
+                "wickets": 78,
+                "bbruns": 38,
+                "bbwickets": 6,
+                "average": 20.65
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "ED Dynes",
+                "team": "Bedfordshire",
+                "opponents": "Oxfordshire",
+                "matches": 17,
+                "dismissals": 18
+            }
+        ],
+        [
+            {
+                "name": "WW Inge",
+                "team": "Oxfordshire",
+                "opponents": "Bedfordshire",
+                "matches": 23,
+                "dismissals": 21
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "RL Hills",
+                "team": "Bedfordshire",
+                "opponents": "Oxfordshire",
+                "matches": 6,
+                "dismissals": 11
+            }
+        ],
+        [
+            {
+                "name": "WW Inge",
+                "team": "Oxfordshire",
+                "opponents": "Bedfordshire",
+                "matches": 23,
+                "dismissals": 14
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Oxfordshire",
+                    "total": 22,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "New College Ground, Oxford",
+                    "seriesDate": "1901"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Oxfordshire",
+                    "total": 22,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "New College Ground, Oxford",
+                    "seriesDate": "1901"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Oxfordshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "St John's College Ground, Oxford",
+                    "seriesDate": "1932"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Bedfordshire",
+                    "total": 59,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford School Ground, Bedford",
+                    "seriesDate": "1939"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Bedfordshire",
+                    "total": 59,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford School Ground, Bedford",
+                    "seriesDate": "1939"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Bedfordshire",
+                    "total": 8,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Wardown Park, Luton",
+                    "seriesDate": "1934"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:15.314059Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

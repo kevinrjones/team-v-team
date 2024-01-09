@@ -1,6 +1,6 @@
 package com.knowledgespike.teamvteam
 
-import com.knowledgespike.teamvteam.database.TeamPairDetails
+import com.knowledgespike.teamvteam.json.TeamPairDetailsData
 
 /**
  * If teams have 'opponents' in the JSON then those opponents don't have a top level HTML page as it is never linked
@@ -8,5 +8,5 @@ import com.knowledgespike.teamvteam.database.TeamPairDetails
  */
 data class TeamPairHomePagesData(
     val shouldHaveOwnPage: Boolean,
-    val teamPairDetails: MutableList<TeamPairDetails>
+    val teamPairDetails: MutableList<TeamPairDetailsData>
 )

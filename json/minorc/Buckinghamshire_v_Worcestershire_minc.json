@@ -1,0 +1,854 @@
+{
+    "team1": "Buckinghamshire",
+    "team2": "Worcestershire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 4,
+        "startDate": "1897-07-30T00:00",
+        "endDate": "1898-08-17T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Buckinghamshire",
+                "opponents": "Worcestershire",
+                "total": 249,
+                "wickets": 10,
+                "declared": false,
+                "location": "Wendover Road, Aylesbury",
+                "seriesDate": "1898"
+            }
+        ],
+        [
+            {
+                "team": "Worcestershire",
+                "opponents": "Buckinghamshire",
+                "total": 277,
+                "wickets": 10,
+                "declared": false,
+                "location": "Wendover Road, Aylesbury",
+                "seriesDate": "1898"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "CRH Gresson",
+                "team": "Buckinghamshire",
+                "opponents": "Worcestershire",
+                "score": 70,
+                "notOut": false,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "name": "WL Foster",
+                "team": "Worcestershire",
+                "opponents": "Buckinghamshire",
+                "score": 70,
+                "notOut": false,
+                "location": "Wendover Road, Aylesbury",
+                "seriesDate": "1898"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "G Nash",
+                "team": "Buckinghamshire",
+                "opponents": "Worcestershire",
+                "wickets": 6,
+                "runs": 59,
+                "location": "Wendover Road, Aylesbury",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "name": "RD Burrows",
+                "team": "Worcestershire",
+                "opponents": "Buckinghamshire",
+                "wickets": 7,
+                "runs": 18,
+                "location": "Wendover Road, Aylesbury",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "G Nash",
+                "team": "Buckinghamshire",
+                "opponents": "Worcestershire",
+                "wickets": 10,
+                "runs": 132,
+                "location": "Wendover Road, Aylesbury",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "name": "A Bird",
+                "team": "Worcestershire",
+                "opponents": "Buckinghamshire",
+                "wickets": 10,
+                "runs": 78,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1898"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 102,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CE Cobb",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CRH Gresson",
+                        "player2Score": 70,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1898",
+                        "partnership": 55,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Worcestershire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1898",
+                        "partnership": 32,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Worcestershire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1897",
+                        "partnership": 45,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 35,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Worcestershire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1898",
+                        "partnership": 58,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Worcestershire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1898",
+                        "partnership": 29,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Worcestershire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1898",
+                        "partnership": 31,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Worcestershire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1897",
+                        "partnership": 4,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "FT Higgins-Bernard",
+                        "player1Score": 1,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "CH Allcock",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    },
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1898",
+                        "partnership": 4,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "CE Cobb",
+                        "player1Score": 11,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "GAMCW Powell",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Worcestershire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1898",
+                        "partnership": 14,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JW Stratton",
+                        "player1Score": 4,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "G Nash",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1898",
+                        "partnership": 62,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HK Foster",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GE Bromley-Martin",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1898",
+                        "partnership": 47,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Buckinghamshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 39,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Buckinghamshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1898",
+                        "partnership": 43,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Buckinghamshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1898",
+                        "partnership": 52,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1897",
+                        "partnership": 46,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Buckinghamshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1897",
+                        "partnership": 53,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1898",
+                        "partnership": 38,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1898",
+                        "partnership": 55,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Buckinghamshire",
+                        "location": "Wendover Road, Aylesbury",
+                        "seriesDate": "1897",
+                        "partnership": 23,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CE Cobb",
+                "team": "Buckinghamshire",
+                "opponents": "Worcestershire",
+                "matches": 4,
+                "runs": 202,
+                "innings": 7,
+                "notOuts": 1,
+                "average": 33.66,
+                "hs": "59"
+            }
+        ],
+        [
+            {
+                "name": "GF Wheldon",
+                "team": "Worcestershire",
+                "opponents": "Buckinghamshire",
+                "matches": 4,
+                "runs": 158,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 31.6,
+                "hs": "50"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "CH Allcock",
+                "team": "Buckinghamshire",
+                "opponents": "Worcestershire",
+                "matches": 3,
+                "balls": 434,
+                "maidens": 24,
+                "runs": 241,
+                "wickets": 15,
+                "bbruns": 89,
+                "bbwickets": 6,
+                "average": 16.06
+            },
+            {
+                "name": "G Nash",
+                "team": "Buckinghamshire",
+                "opponents": "Worcestershire",
+                "matches": 4,
+                "balls": 667,
+                "maidens": 27,
+                "runs": 381,
+                "wickets": 15,
+                "bbruns": 59,
+                "bbwickets": 6,
+                "average": 25.4
+            }
+        ],
+        [
+            {
+                "name": "RD Burrows",
+                "team": "Worcestershire",
+                "opponents": "Buckinghamshire",
+                "matches": 4,
+                "balls": 513,
+                "maidens": 33,
+                "runs": 202,
+                "wickets": 20,
+                "bbruns": 18,
+                "bbwickets": 7,
+                "average": 10.1
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "CE Cobb",
+                "team": "Buckinghamshire",
+                "opponents": "Worcestershire",
+                "matches": 4,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "T Straw",
+                "team": "Worcestershire",
+                "opponents": "Buckinghamshire",
+                "matches": 4,
+                "dismissals": 11
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "CE Cobb",
+                "team": "Buckinghamshire",
+                "opponents": "Worcestershire",
+                "matches": 4,
+                "dismissals": 4
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Worcestershire",
+                    "total": 82,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Wendover Road, Aylesbury",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Worcestershire",
+                    "total": 82,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Wendover Road, Aylesbury",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Worcestershire",
+                    "total": 82,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Wendover Road, Aylesbury",
+                    "seriesDate": "1897"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Buckinghamshire",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Wendover Road, Aylesbury",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Buckinghamshire",
+                    "total": 109,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Wendover Road, Aylesbury",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Buckinghamshire",
+                    "total": 55,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1897"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:15.081302Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

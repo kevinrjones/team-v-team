@@ -1,0 +1,1249 @@
+{
+    "team1": "Melbourne Stars",
+    "team2": "Sydney Thunder",
+    "competitionTitle": "Big Bash League",
+    "competitionSubType": "bbl",
+    "matchDto": {
+        "count": 20,
+        "startDate": "2011-12-17T00:00",
+        "endDate": "2023-12-23T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "total": 194,
+                "wickets": 2,
+                "declared": false,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2019/20"
+            }
+        ],
+        [
+            {
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "total": 219,
+                "wickets": 7,
+                "declared": false,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "NCR Larkin",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "score": 83,
+                "notOut": true,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2019/20"
+            }
+        ],
+        [
+            {
+                "name": "Usman Khawaja",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "score": 109,
+                "notOut": true,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2015/16"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+            {
+                "name": "BR Dunk",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "strikeRate": 233.33,
+                "runs": 21,
+                "balls": 9,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "CJ McKay",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "strikeRate": 300.0,
+                "runs": 9,
+                "balls": 3,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2015/16"
+            },
+            {
+                "name": "CJ Green",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "strikeRate": 300.0,
+                "runs": 12,
+                "balls": 4,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "BR Dunk",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "strikeRate": 233.33,
+                "runs": 21,
+                "balls": 9,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "BCJ Cutting",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "strikeRate": 285.71,
+                "runs": 20,
+                "balls": 7,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2020/21"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+            {
+                "name": "NJ Maddinson",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "strikeRate": 50.0,
+                "runs": 5,
+                "balls": 10,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "CJ Green",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "strikeRate": 30.77,
+                "runs": 4,
+                "balls": 13,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2017/18"
+            }
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+            {
+                "name": "CL White",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "strikeRate": 88.46,
+                "runs": 23,
+                "balls": 26,
+                "location": "Spotless Stadium, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "AB McDonald",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "strikeRate": 71.88,
+                "runs": 23,
+                "balls": 32,
+                "location": "Spotless Stadium, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ]
+    ],
+    "mostFours": [
+        [
+            {
+                "name": "KP Pietersen",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "boundaries": 10,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Spotless Stadium, Sydney",
+                "seriesDate": "2014/15"
+            }
+        ],
+        [
+            {
+                "name": "Usman Khawaja",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "boundaries": 12,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2015/16"
+            }
+        ]
+    ],
+    "mostSixes": [
+        [
+            {
+                "name": "KP Pietersen",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2015/16"
+            }
+        ],
+        [
+            {
+                "name": "DA Warner",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "boundaries": 6,
+                "fours": 0,
+                "sixes": 0,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2011/12"
+            }
+        ]
+    ],
+    "mostBoundaries": [
+        [
+            {
+                "name": "NCR Larkin",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "boundaries": 12,
+                "fours": 9,
+                "sixes": 3,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2019/20"
+            }
+        ],
+        [
+            {
+                "name": "Usman Khawaja",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "boundaries": 15,
+                "fours": 12,
+                "sixes": 3,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2015/16"
+            }
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "BJ Webster",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "wickets": 4,
+                "runs": 29,
+                "location": "Lavington Sports Oval, Albury",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "DR Sams",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "wickets": 4,
+                "runs": 33,
+                "location": "Lavington Sports Oval, Albury",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "BJ Webster",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "wickets": 4,
+                "runs": 29,
+                "location": "Lavington Sports Oval, Albury",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "DR Sams",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "wickets": 4,
+                "runs": 33,
+                "location": "Lavington Sports Oval, Albury",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+            {
+                "name": "GJ Maxwell",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 5,
+                "sr": 6.0,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2012/13"
+            },
+            {
+                "name": "DJ Hussey",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 9,
+                "sr": 6.0,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2015/16"
+            },
+            {
+                "name": "CD Hinchliffe",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 8,
+                "sr": 6.0,
+                "location": "Sydney Showground Stadium, Sydney",
+                "seriesDate": "2019/20"
+            },
+            {
+                "name": "B Stanlake",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 19,
+                "sr": 6.0,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2020/21"
+            },
+            {
+                "name": "GJ Maxwell",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 7,
+                "sr": 6.0,
+                "location": "Sydney Showground Stadium, Sydney",
+                "seriesDate": "2021/22"
+            },
+            {
+                "name": "BJ Webster",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 29,
+                "sr": 6.0,
+                "location": "Lavington Sports Oval, Albury",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "CH Gayle",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 5,
+                "sr": 3.0,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2012/13"
+            }
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+            {
+                "name": "BJ Webster",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 29,
+                "sr": 6.0,
+                "location": "Lavington Sports Oval, Albury",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "CJ Green",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 34,
+                "sr": 6.0,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2020/21"
+            },
+            {
+                "name": "DR Sams",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 4,
+                "runs": 33,
+                "sr": 6.0,
+                "location": "Lavington Sports Oval, Albury",
+                "seriesDate": "2023/24"
+            }
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+            {
+                "name": "A Zampa",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 10,
+                "sr": 2.5,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "DR Sams",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 3,
+                "runs": 5,
+                "sr": 2.5,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2018/19"
+            }
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "A Zampa",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 2,
+                "runs": 10,
+                "sr": 2.5,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2020/21"
+            }
+        ],
+        [
+            {
+                "name": "DP Nannes",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 15,
+                "sr": 3.75,
+                "location": "ANZ Stadium, Sydney",
+                "seriesDate": "2013/14"
+            }
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+            {
+                "name": "MP Stoinis",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "overs": "1",
+                "balls": 6,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 17,
+                "sr": 17.0,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2018/19"
+            }
+        ],
+        [
+            {
+                "name": "GS Sandhu",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "overs": "2",
+                "balls": 12,
+                "maidens": 0,
+                "wickets": 1,
+                "runs": 25,
+                "sr": 12.5,
+                "location": "Manuka Oval, Canberra",
+                "seriesDate": "2018/19"
+            },
+            {
+                "name": "DR Sams",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 50,
+                "sr": 12.5,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+            {
+                "name": "MT Steketee",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "overs": "3",
+                "balls": 18,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 43,
+                "sr": 14.33,
+                "location": "Lavington Sports Oval, Albury",
+                "seriesDate": "2023/24"
+            }
+        ],
+        [
+            {
+                "name": "DR Sams",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "overs": "4",
+                "balls": 24,
+                "maidens": 0,
+                "wickets": 0,
+                "runs": 50,
+                "sr": 12.5,
+                "location": "Melbourne Cricket Ground, Melbourne",
+                "seriesDate": "2021/22"
+            }
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Melbourne Stars",
+                        "opponents": "Sydney Thunder",
+                        "location": "Spotless Stadium, Sydney",
+                        "seriesDate": "2016/17",
+                        "partnership": 49,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GJ Maxwell",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "LJ Wright",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Melbourne Stars",
+                        "opponents": "Sydney Thunder",
+                        "location": "Sydney Showground Stadium, Sydney",
+                        "seriesDate": "2019/20",
+                        "partnership": 123,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "MP Stoinis",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NCR Larkin",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Melbourne Stars",
+                        "opponents": "Sydney Thunder",
+                        "location": "Carrara Oval, Carrara",
+                        "seriesDate": "2018/19",
+                        "partnership": 80,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "NCR Larkin",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "GJ Maxwell",
+                        "player2Score": 41,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Melbourne Stars",
+                        "opponents": "Sydney Thunder",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2021/22",
+                        "partnership": 80,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "NCR Larkin",
+                        "player1Score": 52,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "HWR Cartwright",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Melbourne Stars",
+                        "opponents": "Sydney Thunder",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2015/16",
+                        "partnership": 84,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "KP Pietersen",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JP Faulkner",
+                        "player2Score": 45,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Melbourne Stars",
+                        "opponents": "Sydney Thunder",
+                        "location": "Manuka Oval, Canberra",
+                        "seriesDate": "2018/19",
+                        "partnership": 22,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "NCR Larkin",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "EP Gulbis",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Melbourne Stars",
+                        "opponents": "Sydney Thunder",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2015/16",
+                        "partnership": 32,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "A Zampa",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "EP Gulbis",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Melbourne Stars",
+                        "opponents": "Sydney Thunder",
+                        "location": "Manuka Oval, Canberra",
+                        "seriesDate": "2022/23",
+                        "partnership": 18,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "NM Coulter-Nile",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "TA Boult",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Melbourne Stars",
+                        "opponents": "Sydney Thunder",
+                        "location": "Manuka Oval, Canberra",
+                        "seriesDate": "2020/21",
+                        "partnership": 16,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "A Zampa",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "B Stanlake",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Melbourne Stars",
+                        "opponents": "Sydney Thunder",
+                        "location": "Manuka Oval, Canberra",
+                        "seriesDate": "2020/21",
+                        "partnership": 4,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "Zahir Khan",
+                        "player1Score": 0,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "A Zampa",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Sydney Thunder",
+                        "opponents": "Melbourne Stars",
+                        "location": "Manuka Oval, Canberra",
+                        "seriesDate": "2020/21",
+                        "partnership": 89,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Usman Khawaja",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AD Hales",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Sydney Thunder",
+                        "opponents": "Melbourne Stars",
+                        "location": "Manuka Oval, Canberra",
+                        "seriesDate": "2020/21",
+                        "partnership": 69,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CJ Ferguson",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "AD Hales",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Sydney Thunder",
+                        "opponents": "Melbourne Stars",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2021/22",
+                        "partnership": 89,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MR Gilkes",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SW Billings",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Sydney Thunder",
+                        "opponents": "Melbourne Stars",
+                        "location": "Spotless Stadium, Sydney",
+                        "seriesDate": "2014/15",
+                        "partnership": 59,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "AC Blizzard",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AB McDonald",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Sydney Thunder",
+                        "opponents": "Melbourne Stars",
+                        "location": "Spotless Stadium, Sydney",
+                        "seriesDate": "2016/17",
+                        "partnership": 84,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "EJG Morgan",
+                        "player1Score": 71,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "PJ Cummins",
+                        "player2Score": 22,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Sydney Thunder",
+                        "opponents": "Melbourne Stars",
+                        "location": "Carrara Oval, Carrara",
+                        "seriesDate": "2018/19",
+                        "partnership": 58,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "DR Sams",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "CJ Green",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Sydney Thunder",
+                        "opponents": "Melbourne Stars",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2022/23",
+                        "partnership": 24,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "DR Sams",
+                        "player1Score": 28,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "CJ Green",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Sydney Thunder",
+                        "opponents": "Melbourne Stars",
+                        "location": "Manuka Oval, Canberra",
+                        "seriesDate": "2022/23",
+                        "partnership": 26,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "CJ Green",
+                        "player1Score": 17,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "GS Sandhu",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Sydney Thunder",
+                        "opponents": "Melbourne Stars",
+                        "location": "Melbourne Cricket Ground, Melbourne",
+                        "seriesDate": "2012/13",
+                        "partnership": 10,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "GS Sandhu",
+                        "player1Score": 6,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "LA Doran",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Sydney Thunder",
+                        "opponents": "Melbourne Stars",
+                        "location": "Manuka Oval, Canberra",
+                        "seriesDate": "2022/23",
+                        "partnership": 8,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "GS Sandhu",
+                        "player1Score": 20,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "BJ Doggett",
+                        "player2Score": 1,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "MP Stoinis",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "matches": 16,
+                "runs": 420,
+                "innings": 15,
+                "notOuts": 1,
+                "average": 30.0,
+                "hs": "83"
+            }
+        ],
+        [
+            {
+                "name": "Usman Khawaja",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "matches": 10,
+                "runs": 350,
+                "innings": 10,
+                "notOuts": 1,
+                "average": 38.88,
+                "hs": "109*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "A Zampa",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "matches": 14,
+                "balls": 318,
+                "maidens": 0,
+                "runs": 392,
+                "wickets": 22,
+                "bbruns": 25,
+                "bbwickets": 3,
+                "average": 17.81
+            }
+        ],
+        [
+            {
+                "name": "DR Sams",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "matches": 12,
+                "balls": 254,
+                "maidens": 1,
+                "runs": 353,
+                "wickets": 18,
+                "bbruns": 33,
+                "bbwickets": 4,
+                "average": 19.61
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "BR Dunk",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "matches": 6,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "CJ Green",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "matches": 13,
+                "dismissals": 12
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JM Clarke",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "matches": 4,
+                "dismissals": 1
+            },
+            {
+                "name": "PSP Handscomb",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "matches": 7,
+                "dismissals": 1
+            },
+            {
+                "name": "N Pooran",
+                "team": "Melbourne Stars",
+                "opponents": "Sydney Thunder",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "CT Bancroft",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "SW Billings",
+                "team": "Sydney Thunder",
+                "opponents": "Melbourne Stars",
+                "matches": 3,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Melbourne Stars",
+                    "opponents": "Sydney Thunder",
+                    "total": 144,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Manuka Oval, Canberra",
+                    "seriesDate": "2020/21"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Melbourne Stars",
+                    "opponents": "Sydney Thunder",
+                    "total": 74,
+                    "wickets": 6,
+                    "declared": false,
+                    "location": "Manuka Oval, Canberra",
+                    "seriesDate": "2018/19"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Melbourne Stars",
+                    "opponents": "Sydney Thunder",
+                    "total": 74,
+                    "wickets": 6,
+                    "declared": false,
+                    "location": "Manuka Oval, Canberra",
+                    "seriesDate": "2018/19"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Sydney Thunder",
+                    "opponents": "Melbourne Stars",
+                    "total": 132,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "2012/13"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Sydney Thunder",
+                    "opponents": "Melbourne Stars",
+                    "total": 106,
+                    "wickets": 8,
+                    "declared": false,
+                    "location": "Spotless Stadium, Sydney",
+                    "seriesDate": "2014/15"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Sydney Thunder",
+                    "opponents": "Melbourne Stars",
+                    "total": 106,
+                    "wickets": 8,
+                    "declared": false,
+                    "location": "Spotless Stadium, Sydney",
+                    "seriesDate": "2014/15"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:54.585104Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

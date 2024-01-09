@@ -1,0 +1,857 @@
+{
+    "team1": "Kent Second XI",
+    "team2": "Wiltshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 60,
+        "startDate": "1911-07-12T00:00",
+        "endDate": "1957-08-26T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Kent Second XI",
+                "opponents": "Wiltshire",
+                "total": 431,
+                "wickets": 8,
+                "declared": true,
+                "location": "Hardenhuish Park, Chippenham",
+                "seriesDate": "1911"
+            }
+        ],
+        [
+            {
+                "team": "Wiltshire",
+                "opponents": "Kent Second XI",
+                "total": 368,
+                "wickets": 10,
+                "declared": false,
+                "location": "The County Ground, Swindon",
+                "seriesDate": "1924"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AF Woollett",
+                "team": "Kent Second XI",
+                "opponents": "Wiltshire",
+                "score": 212,
+                "notOut": true,
+                "location": "County Ground, Trowbridge",
+                "seriesDate": "1949"
+            }
+        ],
+        [
+            {
+                "name": "GS Butler",
+                "team": "Wiltshire",
+                "opponents": "Kent Second XI",
+                "score": 183,
+                "notOut": false,
+                "location": "The Rectory Field, Blackheath",
+                "seriesDate": "1929"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "NW Harding",
+                "team": "Kent Second XI",
+                "opponents": "Wiltshire",
+                "wickets": 9,
+                "runs": 39,
+                "location": "The County Ground, Swindon",
+                "seriesDate": "1937"
+            }
+        ],
+        [
+            {
+                "name": "AW Newman",
+                "team": "Wiltshire",
+                "opponents": "Kent Second XI",
+                "wickets": 7,
+                "runs": 30,
+                "location": "The County Ground, Swindon",
+                "seriesDate": "1924"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "NW Harding",
+                "team": "Kent Second XI",
+                "opponents": "Wiltshire",
+                "wickets": 18,
+                "runs": 100,
+                "location": "The County Ground, Swindon",
+                "seriesDate": "1937"
+            }
+        ],
+        [
+            {
+                "name": "AW Newman",
+                "team": "Wiltshire",
+                "opponents": "Kent Second XI",
+                "wickets": 13,
+                "runs": 180,
+                "location": "Old County Ground, Town Malling",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Wiltshire",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1949",
+                        "partnership": 253,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "R Mayes",
+                        "player1Score": 142,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AF Woollett",
+                        "player2Score": 110,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Wiltshire",
+                        "location": "County Ground, Trowbridge",
+                        "seriesDate": "1949",
+                        "partnership": 257,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AF Woollett",
+                        "player1Score": 212,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "RJ Morris",
+                        "player2Score": 108,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Wiltshire",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1932",
+                        "partnership": 246,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "TA Pearce",
+                        "player1Score": 207,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "TA Crawford",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Wiltshire",
+                        "location": "Salisbury and South Wilts Sports Club, Salisbury",
+                        "seriesDate": "1935",
+                        "partnership": 152,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "TW Spencer",
+                        "player1Score": 150,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "DAS Day",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Wiltshire",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1934",
+                        "partnership": 163,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AGW Hill",
+                        "player1Score": 112,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "TW Spencer",
+                        "player2Score": 102,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Wiltshire",
+                        "location": "Hardenhuish Park, Chippenham",
+                        "seriesDate": "1911",
+                        "partnership": 192,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "PE Morfee",
+                        "player1Score": 123,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "AL Hosie",
+                        "player2Score": 88,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Wiltshire",
+                        "location": "Hardenhuish Park, Chippenham",
+                        "seriesDate": "1957",
+                        "partnership": 114,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MJL Willard",
+                        "player1Score": 47,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "AL Dixon",
+                        "player2Score": 73,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Wiltshire",
+                        "location": "Hardenhuish Park, Chippenham",
+                        "seriesDate": "1957",
+                        "partnership": 69,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "MJL Willard",
+                        "player1Score": 47,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "AE Fagg",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Wiltshire",
+                        "location": "Cheriton Road Sports Ground, Folkestone",
+                        "seriesDate": "1956",
+                        "partnership": 102,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "BW Luckhurst",
+                        "player1Score": 39,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "C Lewis",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Wiltshire",
+                        "location": "The Grove, Sittingbourne",
+                        "seriesDate": "1930",
+                        "partnership": 67,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WHV Levett",
+                        "player1Score": 25,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "A Blunden",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Tonbridge School Ground, Tonbridge",
+                        "seriesDate": "1957",
+                        "partnership": 202,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JR Thompson",
+                        "player1Score": 133,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AB Chivers",
+                        "player2Score": 44,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Hardenhuish Park, Chippenham",
+                        "seriesDate": "1950",
+                        "partnership": 127,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "RG Hurn",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "ES Snook",
+                        "player2Score": 75,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Kent Second XI",
+                        "location": "The County Ground, Swindon",
+                        "seriesDate": "1924",
+                        "partnership": 164,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "EHF Fuller",
+                        "player1Score": 111,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AW Newman",
+                        "player2Score": 176,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Kent Second XI",
+                        "location": "The Rectory Field, Blackheath",
+                        "seriesDate": "1923",
+                        "partnership": 80,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "AW Newman",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RW Awdry",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Kent Second XI",
+                        "location": "County Ground, Trowbridge",
+                        "seriesDate": "1932",
+                        "partnership": 153,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AE Lloyd",
+                        "player1Score": 110,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "EM Nash",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Kent Second XI",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1949",
+                        "partnership": 119,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AEH Rutter",
+                        "player1Score": 85,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JE Wells",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Wellesley House School Ground, Broadstairs",
+                        "seriesDate": "1938",
+                        "partnership": 103,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "EM Nash",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "CE Awdry",
+                        "player2Score": 73,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Tonbridge School Ground, Tonbridge",
+                        "seriesDate": "1955",
+                        "partnership": 82,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "JB Russell",
+                        "player1Score": 45,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JH Merryweather",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Kent Second XI",
+                        "location": "The Grove, Sittingbourne",
+                        "seriesDate": "1930",
+                        "partnership": 104,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "FW Fitzgerald",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "WA Smith",
+                        "player2Score": 56,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Hardenhuish Park, Chippenham",
+                        "seriesDate": "1911",
+                        "partnership": 58,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "FS Farebrother",
+                        "player1Score": 24,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "CG Fraser",
+                        "player2Score": 23,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "EG Witherden",
+                "team": "Kent Second XI",
+                "opponents": "Wiltshire",
+                "matches": 8,
+                "runs": 675,
+                "innings": 12,
+                "notOuts": 2,
+                "average": 67.5,
+                "hs": "142"
+            }
+        ],
+        [
+            {
+                "name": "GS Butler",
+                "team": "Wiltshire",
+                "opponents": "Kent Second XI",
+                "matches": 20,
+                "runs": 1019,
+                "innings": 36,
+                "notOuts": 0,
+                "average": 28.3,
+                "hs": "183"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "C Lewis",
+                "team": "Kent Second XI",
+                "opponents": "Wiltshire",
+                "matches": 13,
+                "balls": 2042,
+                "maidens": 93,
+                "runs": 847,
+                "wickets": 50,
+                "bbruns": 55,
+                "bbwickets": 6,
+                "average": 16.94
+            }
+        ],
+        [
+            {
+                "name": "WA Smith",
+                "team": "Wiltshire",
+                "opponents": "Kent Second XI",
+                "matches": 21,
+                "balls": 3746,
+                "maidens": 146,
+                "runs": 1741,
+                "wickets": 89,
+                "bbruns": 46,
+                "bbwickets": 7,
+                "average": 19.56
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "HJ Hubble",
+                "team": "Kent Second XI",
+                "opponents": "Wiltshire",
+                "matches": 10,
+                "dismissals": 13
+            },
+            {
+                "name": "GA Simpson",
+                "team": "Kent Second XI",
+                "opponents": "Wiltshire",
+                "matches": 26,
+                "dismissals": 13
+            }
+        ],
+        [
+            {
+                "name": "EM Nash",
+                "team": "Wiltshire",
+                "opponents": "Kent Second XI",
+                "matches": 31,
+                "dismissals": 44
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "WHV Levett",
+                "team": "Kent Second XI",
+                "opponents": "Wiltshire",
+                "matches": 6,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "EM Nash",
+                "team": "Wiltshire",
+                "opponents": "Kent Second XI",
+                "matches": 31,
+                "dismissals": 28
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Wiltshire",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The County Ground, Swindon",
+                    "seriesDate": "1924"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Wiltshire",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The County Ground, Swindon",
+                    "seriesDate": "1924"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Wiltshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The Rectory Field, Blackheath",
+                    "seriesDate": "1925"
+                },
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Wiltshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The County Ground, Swindon",
+                    "seriesDate": "1927"
+                },
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Wiltshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Angel Ground, Tonbridge",
+                    "seriesDate": "1927"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Kent Second XI",
+                    "total": 59,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Trowbridge",
+                    "seriesDate": "1948"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Kent Second XI",
+                    "total": 59,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Trowbridge",
+                    "seriesDate": "1948"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Kent Second XI",
+                    "total": 6,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Wellesley House School Ground, Broadstairs",
+                    "seriesDate": "1947"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:10:04.564107Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

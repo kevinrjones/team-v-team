@@ -1,0 +1,849 @@
+{
+    "team1": "Devon",
+    "team2": "Wiltshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 46,
+        "startDate": "1901-08-02T00:00",
+        "endDate": "2022-08-21T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Devon",
+                "opponents": "Wiltshire",
+                "total": 474,
+                "wickets": 10,
+                "declared": false,
+                "location": "Station Road, Corsham",
+                "seriesDate": "2011"
+            }
+        ],
+        [
+            {
+                "team": "Wiltshire",
+                "opponents": "Devon",
+                "total": 506,
+                "wickets": 7,
+                "declared": false,
+                "location": "The Recreation Ground, Torquay",
+                "seriesDate": "1989"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "TCG Sandford",
+                "team": "Devon",
+                "opponents": "Wiltshire",
+                "score": 164,
+                "notOut": false,
+                "location": "Gras Lawn, Exeter",
+                "seriesDate": "1901"
+            }
+        ],
+        [
+            {
+                "name": "KN Foyle",
+                "team": "Wiltshire",
+                "opponents": "Devon",
+                "score": 183,
+                "notOut": false,
+                "location": "The Recreation Ground, Torquay",
+                "seriesDate": "1989"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "MB Shepherd",
+                "team": "Devon",
+                "opponents": "Wiltshire",
+                "wickets": 8,
+                "runs": 40,
+                "location": "The Fortfield, Sidmouth",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "M Amarnath",
+                "team": "Wiltshire",
+                "opponents": "Devon",
+                "wickets": 9,
+                "runs": 42,
+                "location": "Salisbury and South Wilts Sports Club, Salisbury",
+                "seriesDate": "1984"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "MB Shepherd",
+                "team": "Devon",
+                "opponents": "Wiltshire",
+                "wickets": 13,
+                "runs": 72,
+                "location": "The Fortfield, Sidmouth",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "AM Miller",
+                "team": "Wiltshire",
+                "opponents": "Devon",
+                "wickets": 12,
+                "runs": 93,
+                "location": "The County Cricket Ground, Exeter",
+                "seriesDate": "1904"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Wiltshire",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1921",
+                        "partnership": 233,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RS Clark",
+                        "player1Score": 119,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "FH Carroll",
+                        "player2Score": 105,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Wiltshire",
+                        "location": "Salisbury and South Wilts Sports Club, Salisbury",
+                        "seriesDate": "1997",
+                        "partnership": 214,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "GTJ Townsend",
+                        "player1Score": 102,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "NA Folland",
+                        "player2Score": 102,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Wiltshire",
+                        "location": "The Fortfield, Sidmouth",
+                        "seriesDate": "2022",
+                        "partnership": 189,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MW Thompson",
+                        "player1Score": 128,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "EH Hamilton",
+                        "player2Score": 84,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Wiltshire",
+                        "location": "The Recreation Ground, Torquay",
+                        "seriesDate": "1998",
+                        "partnership": 135,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MJ Wood",
+                        "player1Score": 42,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "AJ Pugh",
+                        "player2Score": 163,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Wiltshire",
+                        "location": "Salisbury and South Wilts Sports Club, Salisbury",
+                        "seriesDate": "2017",
+                        "partnership": 171,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "JJ Bess",
+                        "player1Score": 90,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "ZGG Bess",
+                        "player2Score": 75,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Wiltshire",
+                        "location": "Gras Lawn, Exeter",
+                        "seriesDate": "1901",
+                        "partnership": 135,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "TCG Sandford",
+                        "player1Score": 164,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "WH Aston",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Wiltshire",
+                        "location": "County Ground, Trowbridge",
+                        "seriesDate": "1970",
+                        "partnership": 64,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "CA Cole",
+                        "player1Score": 40,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "PJ Eele",
+                        "player2Score": 34,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Wiltshire",
+                        "location": "Salisbury and South Wilts Sports Club, Salisbury",
+                        "seriesDate": "2002",
+                        "partnership": 129,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "PM Roebuck",
+                        "player1Score": 93,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "TS Anning",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Wiltshire",
+                        "location": "The Recreation Ground, Bovey Tracey",
+                        "seriesDate": "2001",
+                        "partnership": 75,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AJ Procter",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "PM Warren",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Wiltshire",
+                        "location": "Station Road, Corsham",
+                        "seriesDate": "2011",
+                        "partnership": 69,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "S Barlow",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "C Bradley",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "1992",
+                        "partnership": 169,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PM Marsh",
+                        "player1Score": 87,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "LK Smith",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2013",
+                        "partnership": 148,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TPA Davies",
+                        "player1Score": 109,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JJ Breet",
+                        "player2Score": 93,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    },
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Devon",
+                        "location": "Creedy Park, Sandford",
+                        "seriesDate": "2019",
+                        "partnership": 148,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "J Goodwin",
+                        "player1Score": 86,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "UA Qureshi",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Devon",
+                        "location": "The Recreation Ground, Bovey Tracey",
+                        "seriesDate": "1983",
+                        "partnership": 95,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DJM Mercer",
+                        "player1Score": 40,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JM Rice",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Devon",
+                        "location": "County Ground, Trowbridge",
+                        "seriesDate": "1986",
+                        "partnership": 160,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "RJ Lanchbury",
+                        "player1Score": 105,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "RC Cooper",
+                        "player2Score": 59,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Devon",
+                        "location": "United Services Ground, Plymouth",
+                        "seriesDate": "1921",
+                        "partnership": 175,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "AA Bankier",
+                        "player1Score": 160,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "AS Sellick",
+                        "player2Score": 21,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Devon",
+                        "location": "County Ground, Trowbridge",
+                        "seriesDate": "1901",
+                        "partnership": 149,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AM Miller",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "ES Warrilow",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Devon",
+                        "location": "Station Road, Corsham",
+                        "seriesDate": "2011",
+                        "partnership": 171,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "TI Morton",
+                        "player1Score": 167,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "OJ Alsop",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Devon",
+                        "location": "County Ground, Trowbridge",
+                        "seriesDate": "1986",
+                        "partnership": 86,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "J Cullip",
+                        "player1Score": 51,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "P Meehan",
+                        "player2Score": 32,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Devon",
+                        "location": "Salisbury and South Wilts Sports Club, Salisbury",
+                        "seriesDate": "2017",
+                        "partnership": 46,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "Tahir Afridi",
+                        "player1Score": 32,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "JCW Arney",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Wiltshire",
+                        "opponents": "Devon",
+                        "location": "Gras Lawn, Exeter",
+                        "seriesDate": "1901",
+                        "partnership": 157,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "W Overton",
+                        "player1Score": 109,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "FW Newman",
+                        "player2Score": 40,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "NA Folland",
+                "team": "Devon",
+                "opponents": "Wiltshire",
+                "matches": 16,
+                "runs": 1451,
+                "innings": 26,
+                "notOuts": 7,
+                "average": 76.36,
+                "hs": "127"
+            }
+        ],
+        [
+            {
+                "name": "BH White",
+                "team": "Wiltshire",
+                "opponents": "Devon",
+                "matches": 12,
+                "runs": 474,
+                "innings": 23,
+                "notOuts": 0,
+                "average": 20.6,
+                "hs": "63"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "PM Roebuck",
+                "team": "Devon",
+                "opponents": "Wiltshire",
+                "matches": 9,
+                "balls": 1380,
+                "maidens": 84,
+                "runs": 413,
+                "wickets": 34,
+                "bbruns": 23,
+                "bbwickets": 6,
+                "average": 12.14
+            }
+        ],
+        [
+            {
+                "name": "W Overton",
+                "team": "Wiltshire",
+                "opponents": "Devon",
+                "matches": 9,
+                "balls": 1642,
+                "maidens": 73,
+                "runs": 759,
+                "wickets": 51,
+                "bbruns": 44,
+                "bbwickets": 6,
+                "average": 14.88
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "MW Thompson",
+                "team": "Devon",
+                "opponents": "Wiltshire",
+                "matches": 8,
+                "dismissals": 22
+            }
+        ],
+        [
+            {
+                "name": "TN Shardlow",
+                "team": "Wiltshire",
+                "opponents": "Devon",
+                "matches": 9,
+                "dismissals": 11
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "T Davies",
+                "team": "Devon",
+                "opponents": "Wiltshire",
+                "matches": 6,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "TN Shardlow",
+                "team": "Wiltshire",
+                "opponents": "Devon",
+                "matches": 9,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Devon",
+                    "opponents": "Wiltshire",
+                    "total": 55,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The County Cricket Ground, Exeter",
+                    "seriesDate": "1903"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Wiltshire",
+                    "total": 55,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The County Cricket Ground, Exeter",
+                    "seriesDate": "1903"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Wiltshire",
+                    "total": 52,
+                    "wickets": 5,
+                    "declared": false,
+                    "location": "The Maer Ground, Exmouth",
+                    "seriesDate": "2007"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Devon",
+                    "total": 50,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Maer Ground, Exmouth",
+                    "seriesDate": "2007"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Devon",
+                    "total": 50,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Maer Ground, Exmouth",
+                    "seriesDate": "2007"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Wiltshire",
+                    "opponents": "Devon",
+                    "total": 30,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "The County Ground, Swindon",
+                    "seriesDate": "1995"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:45.947908Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

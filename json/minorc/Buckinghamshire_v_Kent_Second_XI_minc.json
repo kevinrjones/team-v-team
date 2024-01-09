@@ -1,0 +1,848 @@
+{
+    "team1": "Buckinghamshire",
+    "team2": "Kent Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 27,
+        "startDate": "1911-07-31T00:00",
+        "endDate": "1958-08-15T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Buckinghamshire",
+                "opponents": "Kent Second XI",
+                "total": 330,
+                "wickets": 9,
+                "declared": true,
+                "location": "St Lawrence Ground, Canterbury",
+                "seriesDate": "1956"
+            }
+        ],
+        [
+            {
+                "team": "Kent Second XI",
+                "opponents": "Buckinghamshire",
+                "total": 321,
+                "wickets": 10,
+                "declared": false,
+                "location": "Folkestone Cricket Club Ground, Folkestone",
+                "seriesDate": "1911"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "WB Franklin",
+                "team": "Buckinghamshire",
+                "opponents": "Kent Second XI",
+                "score": 135,
+                "notOut": false,
+                "location": "Cheriton Road Sports Ground, Folkestone",
+                "seriesDate": "1928"
+            }
+        ],
+        [
+            {
+                "name": "TF Mitchell",
+                "team": "Kent Second XI",
+                "opponents": "Buckinghamshire",
+                "score": 123,
+                "notOut": false,
+                "location": "The Rectory Field, Blackheath",
+                "seriesDate": "1927"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "F Edwards",
+                "team": "Buckinghamshire",
+                "opponents": "Kent Second XI",
+                "wickets": 8,
+                "runs": 13,
+                "location": "London Road, High Wycombe",
+                "seriesDate": "1930"
+            }
+        ],
+        [
+            {
+                "name": "G Smith",
+                "team": "Kent Second XI",
+                "opponents": "Buckinghamshire",
+                "wickets": 8,
+                "runs": 77,
+                "location": "London Road, High Wycombe",
+                "seriesDate": "1952"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "F Edwards",
+                "team": "Buckinghamshire",
+                "opponents": "Kent Second XI",
+                "wickets": 15,
+                "runs": 44,
+                "location": "London Road, High Wycombe",
+                "seriesDate": "1930"
+            }
+        ],
+        [
+            {
+                "name": "G Smith",
+                "team": "Kent Second XI",
+                "opponents": "Buckinghamshire",
+                "wickets": 11,
+                "runs": 38,
+                "location": "The Meadow, Chesham",
+                "seriesDate": "1956"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Folkestone Cricket Club Ground, Folkestone",
+                        "seriesDate": "1911",
+                        "partnership": 135,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "H Jennison",
+                        "player1Score": 87,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NDC Ross",
+                        "player2Score": 82,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    },
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Kent Second XI",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1956",
+                        "partnership": 135,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PLB Stoddart",
+                        "player1Score": 73,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "NV Butler",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Kent Second XI",
+                        "location": "The Nevill Ground, Tunbridge Wells",
+                        "seriesDate": "1932",
+                        "partnership": 143,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Bletchley Park",
+                        "seriesDate": "1929",
+                        "partnership": 166,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Foxgrove Road, Beckenham",
+                        "seriesDate": "1930",
+                        "partnership": 89,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Kent Second XI",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1956",
+                        "partnership": 106,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Kent Second XI",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1933",
+                        "partnership": 100,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Kent Second XI",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1957",
+                        "partnership": 125,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Stoke Poges Golf Club, Stoke Poges",
+                        "seriesDate": "1911",
+                        "partnership": 47,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Bickley Park Road, Bickley",
+                        "seriesDate": "1926",
+                        "partnership": 58,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "EW Hazelton",
+                        "player1Score": 45,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "F Edwards",
+                        "player2Score": 32,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Buckinghamshire",
+                        "opponents": "Kent Second XI",
+                        "location": "Folkestone Cricket Club Ground, Folkestone",
+                        "seriesDate": "1911",
+                        "partnership": 75,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "MW Wright",
+                        "player1Score": 57,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "HW Hearne",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Buckinghamshire",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1933",
+                        "partnership": 75,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AE Fagg",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PR Sunnucks",
+                        "player2Score": 113,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Buckinghamshire",
+                        "location": "Foxgrove Road, Beckenham",
+                        "seriesDate": "1929",
+                        "partnership": 113,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Buckinghamshire",
+                        "location": "Bat and Ball Ground, Gravesend",
+                        "seriesDate": "1933",
+                        "partnership": 119,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Buckinghamshire",
+                        "location": "Foxgrove Road, Beckenham",
+                        "seriesDate": "1930",
+                        "partnership": 64,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Buckinghamshire",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1957",
+                        "partnership": 88,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Buckinghamshire",
+                        "location": "St Lawrence Ground, Canterbury",
+                        "seriesDate": "1956",
+                        "partnership": 88,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Buckinghamshire",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1931",
+                        "partnership": 68,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Buckinghamshire",
+                        "location": "Stoke Poges Golf Club, Stoke Poges",
+                        "seriesDate": "1911",
+                        "partnership": 87,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Buckinghamshire",
+                        "location": "The Nevill Ground, Tunbridge Wells",
+                        "seriesDate": "1932",
+                        "partnership": 49,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AE Fagg",
+                        "player1Score": 57,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "C Lewis",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Kent Second XI",
+                        "opponents": "Buckinghamshire",
+                        "location": "London Road, High Wycombe",
+                        "seriesDate": "1933",
+                        "partnership": 45,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "PR Sunnucks",
+                        "player1Score": 113,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "DVP Wright",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "WB Franklin",
+                "team": "Buckinghamshire",
+                "opponents": "Kent Second XI",
+                "matches": 20,
+                "runs": 671,
+                "innings": 32,
+                "notOuts": 2,
+                "average": 22.36,
+                "hs": "135"
+            }
+        ],
+        [
+            {
+                "name": "HJ Hubble",
+                "team": "Kent Second XI",
+                "opponents": "Buckinghamshire",
+                "matches": 9,
+                "runs": 286,
+                "innings": 15,
+                "notOuts": 0,
+                "average": 19.06,
+                "hs": "71"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "F Edwards",
+                "team": "Buckinghamshire",
+                "opponents": "Kent Second XI",
+                "matches": 17,
+                "balls": 4153,
+                "maidens": 242,
+                "runs": 1319,
+                "wickets": 137,
+                "bbruns": 13,
+                "bbwickets": 8,
+                "average": 9.62
+            }
+        ],
+        [
+            {
+                "name": "G Smith",
+                "team": "Kent Second XI",
+                "opponents": "Buckinghamshire",
+                "matches": 3,
+                "balls": 737,
+                "maidens": 36,
+                "runs": 275,
+                "wickets": 26,
+                "bbruns": 77,
+                "bbwickets": 8,
+                "average": 10.57
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "WB Franklin",
+                "team": "Buckinghamshire",
+                "opponents": "Kent Second XI",
+                "matches": 20,
+                "dismissals": 27
+            }
+        ],
+        [
+            {
+                "name": "WHV Levett",
+                "team": "Kent Second XI",
+                "opponents": "Buckinghamshire",
+                "matches": 9,
+                "dismissals": 11
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "WB Franklin",
+                "team": "Buckinghamshire",
+                "opponents": "Kent Second XI",
+                "matches": 20,
+                "dismissals": 27
+            }
+        ],
+        [
+            {
+                "name": "LEG Ames",
+                "team": "Kent Second XI",
+                "opponents": "Buckinghamshire",
+                "matches": 4,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Kent Second XI",
+                    "total": 26,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "London Road, High Wycombe",
+                    "seriesDate": "1930"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Kent Second XI",
+                    "total": 26,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "London Road, High Wycombe",
+                    "seriesDate": "1930"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Buckinghamshire",
+                    "opponents": "Kent Second XI",
+                    "total": 26,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "London Road, High Wycombe",
+                    "seriesDate": "1930"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Buckinghamshire",
+                    "total": 15,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bletchley Park",
+                    "seriesDate": "1925"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Buckinghamshire",
+                    "total": 15,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bletchley Park",
+                    "seriesDate": "1925"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Kent Second XI",
+                    "opponents": "Buckinghamshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The Meadow, Chesham",
+                    "seriesDate": "1957"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:00.980480Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

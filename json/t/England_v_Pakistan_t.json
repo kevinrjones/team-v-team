@@ -1,0 +1,861 @@
+{
+    "team1": "England",
+    "team2": "Pakistan",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 89,
+        "startDate": "1954-06-10T01:00",
+        "endDate": "2022-12-17T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "England",
+                "opponents": "Pakistan",
+                "total": 657,
+                "wickets": 10,
+                "declared": false,
+                "location": "Rawalpindi Cricket Stadium, Rawalpindi",
+                "seriesDate": "2022/23"
+            }
+        ],
+        [
+            {
+                "team": "Pakistan",
+                "opponents": "England",
+                "total": 708,
+                "wickets": 10,
+                "declared": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1987"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "DCS Compton",
+                "team": "England",
+                "opponents": "Pakistan",
+                "score": 278,
+                "notOut": false,
+                "location": "Trent Bridge, Nottingham",
+                "seriesDate": "1954"
+            }
+        ],
+        [
+            {
+                "name": "Zaheer Abbas",
+                "team": "Pakistan",
+                "opponents": "England",
+                "score": 274,
+                "notOut": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1971"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "IT Botham",
+                "team": "England",
+                "opponents": "Pakistan",
+                "wickets": 8,
+                "runs": 34,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1978"
+            }
+        ],
+        [
+            {
+                "name": "Abdul Qadir",
+                "team": "Pakistan",
+                "opponents": "England",
+                "wickets": 9,
+                "runs": 56,
+                "location": "Gaddafi Stadium, Lahore",
+                "seriesDate": "1987/88"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "DL Underwood",
+                "team": "England",
+                "opponents": "Pakistan",
+                "wickets": 13,
+                "runs": 71,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1974"
+            }
+        ],
+        [
+            {
+                "name": "Abdul Qadir",
+                "team": "Pakistan",
+                "opponents": "England",
+                "wickets": 13,
+                "runs": 101,
+                "location": "Gaddafi Stadium, Lahore",
+                "seriesDate": "1987/88"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Pakistan",
+                        "location": "Rawalpindi Cricket Stadium, Rawalpindi",
+                        "seriesDate": "2022/23",
+                        "partnership": 233,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Z Crawley",
+                        "player1Score": 122,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BM Duckett",
+                        "player2Score": 107,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Pakistan",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1962",
+                        "partnership": 248,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "MC Cowdrey",
+                        "player1Score": 182,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "ER Dexter",
+                        "player2Score": 172,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Pakistan",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "2001",
+                        "partnership": 267,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MP Vaughan",
+                        "player1Score": 120,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GP Thorpe",
+                        "player2Score": 138,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Pakistan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2006",
+                        "partnership": 233,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "AN Cook",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "PD Collingwood",
+                        "player2Score": 186,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Pakistan",
+                        "location": "The Ageas Bowl, Southampton",
+                        "seriesDate": "2020",
+                        "partnership": 359,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "Z Crawley",
+                        "player1Score": 267,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JC Buttler",
+                        "player2Score": 152,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Pakistan",
+                        "location": "Gaddafi Stadium, Lahore",
+                        "seriesDate": "2000/01",
+                        "partnership": 166,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GP Thorpe",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "C White",
+                        "player2Score": 93,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Pakistan",
+                        "location": "Iqbal Stadium, Faisalabad",
+                        "seriesDate": "1983/84",
+                        "partnership": 167,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "DI Gower",
+                        "player1Score": 152,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "VJ Marks",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Pakistan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "2010",
+                        "partnership": 332,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "IJL Trott",
+                        "player1Score": 184,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SCJ Broad",
+                        "player2Score": 169,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Pakistan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1962",
+                        "partnership": 76,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "TW Graveney",
+                        "player1Score": 153,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "FS Trueman",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "England",
+                        "opponents": "Pakistan",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1982",
+                        "partnership": 79,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "RGD Willis",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "RW Taylor",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "England",
+                        "location": "Rawalpindi Cricket Stadium, Rawalpindi",
+                        "seriesDate": "2022/23",
+                        "partnership": 225,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Abdullah Shafiq",
+                        "player1Score": 114,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "Imam-ul-Haq",
+                        "player2Score": 121,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "England",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1971",
+                        "partnership": 291,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Zaheer Abbas",
+                        "player1Score": 274,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Mushtaq Mohammad",
+                        "player2Score": 100,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "England",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "2006",
+                        "partnership": 363,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "Younis Khan",
+                        "player1Score": 173,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Mohammad Yousuf",
+                        "player2Score": 192,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "England",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1992",
+                        "partnership": 322,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "Javed Miandad",
+                        "player1Score": 153,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "Saleem Malik",
+                        "player2Score": 165,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "England",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2015/16",
+                        "partnership": 248,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "Shoaib Malik",
+                        "player1Score": 245,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Asad Shafiq",
+                        "player2Score": 107,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "England",
+                        "location": "Gaddafi Stadium, Lahore",
+                        "seriesDate": "2005/06",
+                        "partnership": 269,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Mohammad Yousuf",
+                        "player1Score": 223,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Kamran Akmal",
+                        "player2Score": 154,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "England",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1996",
+                        "partnership": 112,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Asif Mujtaba",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "Moin Khan",
+                        "player2Score": 105,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "England",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1967",
+                        "partnership": 130,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Hanif Mohammad",
+                        "player1Score": 187,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "Asif Iqbal",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "England",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1967",
+                        "partnership": 190,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "Asif Iqbal",
+                        "player1Score": 146,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "Intikhab Alam",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Pakistan",
+                        "opponents": "England",
+                        "location": "Headingley, Leeds",
+                        "seriesDate": "1974",
+                        "partnership": 62,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "Sarfraz Nawaz",
+                        "player1Score": 53,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "Asif Masood",
+                        "player2Score": 4,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AN Cook",
+                "team": "England",
+                "opponents": "Pakistan",
+                "matches": 20,
+                "runs": 1719,
+                "innings": 36,
+                "notOuts": 1,
+                "average": 49.11,
+                "hs": "263"
+            }
+        ],
+        [
+            {
+                "name": "Inzamam-ul-Haq",
+                "team": "Pakistan",
+                "opponents": "England",
+                "matches": 19,
+                "runs": 1584,
+                "innings": 32,
+                "notOuts": 3,
+                "average": 54.62,
+                "hs": "148"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JM Anderson",
+                "team": "England",
+                "opponents": "Pakistan",
+                "matches": 20,
+                "balls": 4048,
+                "maidens": 195,
+                "runs": 1577,
+                "wickets": 82,
+                "bbruns": 17,
+                "bbwickets": 6,
+                "average": 19.23
+            }
+        ],
+        [
+            {
+                "name": "Abdul Qadir",
+                "team": "Pakistan",
+                "opponents": "England",
+                "matches": 16,
+                "balls": 5593,
+                "maidens": 235,
+                "runs": 2049,
+                "wickets": 82,
+                "bbruns": 56,
+                "bbwickets": 9,
+                "average": 24.98
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "APE Knott",
+                "team": "England",
+                "opponents": "Pakistan",
+                "matches": 14,
+                "dismissals": 39
+            }
+        ],
+        [
+            {
+                "name": "Wasim Bari",
+                "team": "Pakistan",
+                "opponents": "England",
+                "matches": 24,
+                "dismissals": 50
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "APE Knott",
+                "team": "England",
+                "opponents": "Pakistan",
+                "matches": 14,
+                "dismissals": 2
+            },
+            {
+                "name": "MJ Prior",
+                "team": "England",
+                "opponents": "Pakistan",
+                "matches": 7,
+                "dismissals": 2
+            },
+            {
+                "name": "AJ Stewart",
+                "team": "England",
+                "opponents": "Pakistan",
+                "matches": 13,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "Sarfraz Ahmed",
+                "team": "Pakistan",
+                "opponents": "England",
+                "matches": 9,
+                "dismissals": 4
+            },
+            {
+                "name": "Wasim Bari",
+                "team": "Pakistan",
+                "opponents": "England",
+                "matches": 24,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "England",
+                    "opponents": "Pakistan",
+                    "total": 72,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2011/12"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "Pakistan",
+                    "total": 72,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                    "seriesDate": "2011/12"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "England",
+                    "opponents": "Pakistan",
+                    "total": 3,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Trent Bridge, Nottingham",
+                    "seriesDate": "1967"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Pakistan",
+                    "opponents": "England",
+                    "total": 72,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "2010"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Pakistan",
+                    "opponents": "England",
+                    "total": 72,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "2010"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Pakistan",
+                    "opponents": "England",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "National Stadium, Karachi",
+                    "seriesDate": "1968/69"
+                },
+                {
+                    "team": "Pakistan",
+                    "opponents": "England",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1987"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:19:29.610359Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

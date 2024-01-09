@@ -1,0 +1,833 @@
+{
+    "team1": "Cambridgeshire",
+    "team2": "Hertfordshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 139,
+        "startDate": "1898-07-06T00:00",
+        "endDate": "2023-08-13T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "James Wright",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridgeshire",
+                "opponents": "Hertfordshire",
+                "total": 456,
+                "wickets": 10,
+                "declared": false,
+                "location": "Anglo-American Playing Fields, Saffron Walden",
+                "seriesDate": "2019"
+            }
+        ],
+        [
+            {
+                "team": "Hertfordshire",
+                "opponents": "Cambridgeshire",
+                "total": 521,
+                "wickets": 5,
+                "declared": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1908"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "LJ Reid",
+                "team": "Cambridgeshire",
+                "opponents": "Hertfordshire",
+                "score": 221,
+                "notOut": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1909"
+            }
+        ],
+        [
+            {
+                "name": "CH Titchmarsh",
+                "team": "Hertfordshire",
+                "opponents": "Cambridgeshire",
+                "score": 213,
+                "notOut": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "H Coulson",
+                "team": "Cambridgeshire",
+                "opponents": "Hertfordshire",
+                "wickets": 8,
+                "runs": 13,
+                "location": "Cricketfield Lane, Bishop's Stortford",
+                "seriesDate": "1909"
+            }
+        ],
+        [
+            {
+                "name": "FA Burton",
+                "team": "Hertfordshire",
+                "opponents": "Cambridgeshire",
+                "wickets": 8,
+                "runs": 20,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "H Coulson",
+                "team": "Cambridgeshire",
+                "opponents": "Hertfordshire",
+                "wickets": 14,
+                "runs": 112,
+                "location": "Lucas Lane, Hitchin",
+                "seriesDate": "1908"
+            }
+        ],
+        [
+            {
+                "name": "FA Burton",
+                "team": "Hertfordshire",
+                "opponents": "Cambridgeshire",
+                "wickets": 12,
+                "runs": 66,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Balls Park, Hertford",
+                        "seriesDate": "2014",
+                        "partnership": 198,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "BHN Howgego",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AG Burton",
+                        "player2Score": 105,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Anglo-American Playing Fields, Saffron Walden",
+                        "seriesDate": "2019",
+                        "partnership": 243,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "Waqas Hussain",
+                        "player1Score": 161,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JJ Smith",
+                        "player2Score": 130,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Lucas Lane, Hitchin",
+                        "seriesDate": "1977",
+                        "partnership": 153,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MG Stephenson",
+                        "player1Score": 108,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DAG Fletcher",
+                        "player2Score": 70,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Cricketfield Lane, Bishop's Stortford",
+                        "seriesDate": "1963",
+                        "partnership": 161,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "KC Yates",
+                        "player1Score": 92,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "TS Hale",
+                        "player2Score": 95,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Hertfordshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1909",
+                        "partnership": 152,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "LJ Reid",
+                        "player1Score": 221,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CH Pigg",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Christ's College Ground, Cambridge",
+                        "seriesDate": "1958",
+                        "partnership": 194,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "E Davis",
+                        "player1Score": 155,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "MA Crouch",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Hertfordshire",
+                        "location": "The Avenue Sports Club Ground, March",
+                        "seriesDate": "2022",
+                        "partnership": 118,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "BMA Seabrook",
+                        "player1Score": 149,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "BA Clilverd",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Clarence Park, St Albans",
+                        "seriesDate": "1951",
+                        "partnership": 148,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "RA Taylor",
+                        "player1Score": 78,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "RA Gautrey",
+                        "player2Score": 72,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Hertfordshire",
+                        "location": "Clarence Park, St Albans",
+                        "seriesDate": "1911",
+                        "partnership": 81,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "LJ Reid",
+                        "player1Score": 132,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "GA Rose",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Hertfordshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1908",
+                        "partnership": 85,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "KG Reid",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "C Pigg",
+                        "player2Score": 36,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "2007",
+                        "partnership": 182,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GR Brown",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "NJ Lamb",
+                        "player2Score": 97,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "Balls Park, Hertford",
+                        "seriesDate": "2014",
+                        "partnership": 155,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "EC Ballard",
+                        "player1Score": 95,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "Tanveer Sikandar",
+                        "player2Score": 116,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1908",
+                        "partnership": 271,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "AJ Golding",
+                        "player1Score": 195,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "CH Titchmarsh",
+                        "player2Score": 103,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "Clarence Park, St Albans",
+                        "seriesDate": "1959",
+                        "partnership": 158,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RE Howe",
+                        "player1Score": 107,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "CIM Jones",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1925",
+                        "partnership": 189,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "CBG Hunter",
+                        "player1Score": 131,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RJO Meyer",
+                        "player2Score": 129,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1908",
+                        "partnership": 160,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "CH Titchmarsh",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "JN Cowley",
+                        "player2Score": 58,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "Ditchmore Lane, Stevenage",
+                        "seriesDate": "2000",
+                        "partnership": 104,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "MA Everett",
+                        "player1Score": 58,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "MH James",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1907",
+                        "partnership": 127,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "A Butcher",
+                        "player1Score": 200,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "HM Harford",
+                        "player2Score": 63,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "The Avenue Sports Club Ground, March",
+                        "seriesDate": "2022",
+                        "partnership": 77,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "BA Waring",
+                        "player1Score": 67,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "JN Mehta",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Hertfordshire",
+                        "opponents": "Cambridgeshire",
+                        "location": "Marlins, Long Marston",
+                        "seriesDate": "2005",
+                        "partnership": 93,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "PB Barker",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "DP Moore",
+                        "player2Score": 25,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "RA Gautrey",
+                "team": "Cambridgeshire",
+                "opponents": "Hertfordshire",
+                "matches": 30,
+                "runs": 1238,
+                "innings": 50,
+                "notOuts": 9,
+                "average": 30.19,
+                "hs": "100*"
+            }
+        ],
+        [
+            {
+                "name": "CH Titchmarsh",
+                "team": "Hertfordshire",
+                "opponents": "Cambridgeshire",
+                "matches": 30,
+                "runs": 1988,
+                "innings": 40,
+                "notOuts": 5,
+                "average": 56.8,
+                "hs": "213"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "DC Wing",
+                "team": "Cambridgeshire",
+                "opponents": "Hertfordshire",
+                "matches": 26,
+                "balls": 3959,
+                "maidens": 143,
+                "runs": 1842,
+                "wickets": 90,
+                "bbruns": 58,
+                "bbwickets": 6,
+                "average": 20.46
+            }
+        ],
+        [
+            {
+                "name": "FA Burton",
+                "team": "Hertfordshire",
+                "opponents": "Cambridgeshire",
+                "matches": 27,
+                "balls": 5459,
+                "maidens": 240,
+                "runs": 2412,
+                "wickets": 168,
+                "bbruns": 20,
+                "bbwickets": 8,
+                "average": 14.35
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "GH Watts",
+                "team": "Cambridgeshire",
+                "opponents": "Hertfordshire",
+                "matches": 22,
+                "dismissals": 31
+            }
+        ],
+        [
+            {
+                "name": "FE Collyer",
+                "team": "Hertfordshire",
+                "opponents": "Cambridgeshire",
+                "matches": 31,
+                "dismissals": 52
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "AM Ponder",
+                "team": "Cambridgeshire",
+                "opponents": "Hertfordshire",
+                "matches": 31,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "RG Simons",
+                "team": "Hertfordshire",
+                "opponents": "Cambridgeshire",
+                "matches": 20,
+                "dismissals": 21
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Hertfordshire",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Parker's Piece, Cambridge",
+                    "seriesDate": "1927"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Hertfordshire",
+                    "total": 48,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Parker's Piece, Cambridge",
+                    "seriesDate": "1927"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Hertfordshire",
+                    "total": 9,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The Avenue Sports Club Ground, March",
+                    "seriesDate": "1988"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Cambridgeshire",
+                    "total": 37,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Cricketfield Lane, Bishop's Stortford",
+                    "seriesDate": "1909"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Cambridgeshire",
+                    "total": 37,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Cricketfield Lane, Bishop's Stortford",
+                    "seriesDate": "1909"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Hertfordshire",
+                    "opponents": "Cambridgeshire",
+                    "total": 14,
+                    "wickets": 0,
+                    "declared": true,
+                    "location": "Clarence Park, St Albans",
+                    "seriesDate": "1968"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:22.726596Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

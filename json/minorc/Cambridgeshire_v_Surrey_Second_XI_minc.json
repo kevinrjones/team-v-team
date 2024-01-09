@@ -1,0 +1,860 @@
+{
+    "team1": "Cambridgeshire",
+    "team2": "Surrey Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 8,
+        "startDate": "1923-06-23T01:00",
+        "endDate": "1933-08-09T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridgeshire",
+                "opponents": "Surrey Second XI",
+                "total": 378,
+                "wickets": 10,
+                "declared": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1933"
+            }
+        ],
+        [
+            {
+                "team": "Surrey Second XI",
+                "opponents": "Cambridgeshire",
+                "total": 412,
+                "wickets": 10,
+                "declared": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1925"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AS Ling",
+                "team": "Cambridgeshire",
+                "opponents": "Surrey Second XI",
+                "score": 184,
+                "notOut": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1925"
+            }
+        ],
+        [
+            {
+                "name": "BW Bullock",
+                "team": "Surrey Second XI",
+                "opponents": "Cambridgeshire",
+                "score": 153,
+                "notOut": false,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "WT Whewell",
+                "team": "Cambridgeshire",
+                "opponents": "Surrey Second XI",
+                "wickets": 5,
+                "runs": 56,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1933"
+            }
+        ],
+        [
+            {
+                "name": "JG O'Gorman",
+                "team": "Surrey Second XI",
+                "opponents": "Cambridgeshire",
+                "wickets": 6,
+                "runs": 66,
+                "location": "Kennington Oval, Kennington",
+                "seriesDate": "1925"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "WT Whewell",
+                "team": "Cambridgeshire",
+                "opponents": "Surrey Second XI",
+                "wickets": 7,
+                "runs": 124,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1933"
+            }
+        ],
+        [
+            {
+                "name": "ACT Geary",
+                "team": "Surrey Second XI",
+                "opponents": "Cambridgeshire",
+                "wickets": 9,
+                "runs": 143,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1925"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 65,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CE Coote",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "KRJV Saxon",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Surrey Second XI",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1933",
+                        "partnership": 60,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "KRJV Saxon",
+                        "player1Score": 160,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "HJ Rose",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Surrey Second XI",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1933",
+                        "partnership": 163,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "KRJV Saxon",
+                        "player1Score": 160,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "RJ Covill",
+                        "player2Score": 77,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 45,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "HJ Rose",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "FW Wilkinson",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 61,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HJ Rose",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "CJ Smith",
+                        "player2Score": 100,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 79,
+                        "wicket": 6,
+                        "undefeated": true,
+                        "player1Name": "CJ Smith",
+                        "player1Score": 100,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "HWF Taylor",
+                        "player2Score": 11,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Surrey Second XI",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1933",
+                        "partnership": 7,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "KRJV Saxon",
+                        "player1Score": 160,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "FW Wilkinson",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 19,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "CJ Smith",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "HB Hart",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 42,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "CJ Smith",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "WT Whewell",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Surrey Second XI",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 53,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CJ Smith",
+                        "player1Score": 72,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "WH Cockell",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 110,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "GS Mobey",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "EF Wilson",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1933",
+                        "partnership": 116,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TM McMurray",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "EF Wilson",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1933",
+                        "partnership": 55,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "GS Mobey",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WT Cook",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1923",
+                        "partnership": 83,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "HG Baldwin",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RJ Gregory",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1923",
+                        "partnership": 45,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HG Baldwin",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AR Weyer",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1933",
+                        "partnership": 101,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "HR Crouch",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "TSACJ Maxwell",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 82,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "LB Fishlock",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "HR Crouch",
+                        "player2Score": 126,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 74,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "HR Crouch",
+                        "player1Score": 126,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "JG Owen",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Kennington Oval, Kennington",
+                        "seriesDate": "1933",
+                        "partnership": 74,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "HR Crouch",
+                        "player1Score": 126,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "JF Parker",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Surrey Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1933",
+                        "partnership": 17,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "DLE Oliver",
+                        "player1Score": 6,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "FG Pierpoint",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "AS Ling",
+                "team": "Cambridgeshire",
+                "opponents": "Surrey Second XI",
+                "matches": 4,
+                "runs": 605,
+                "innings": 7,
+                "notOuts": 2,
+                "average": 121.0,
+                "hs": "184"
+            }
+        ],
+        [
+            {
+                "name": "HG Baldwin",
+                "team": "Surrey Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 5,
+                "runs": 483,
+                "innings": 6,
+                "notOuts": 1,
+                "average": 96.6,
+                "hs": "120"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "CJ Smith",
+                "team": "Cambridgeshire",
+                "opponents": "Surrey Second XI",
+                "matches": 6,
+                "balls": 846,
+                "maidens": 18,
+                "runs": 503,
+                "wickets": 13,
+                "bbruns": 101,
+                "bbwickets": 4,
+                "average": 38.69
+            }
+        ],
+        [
+            {
+                "name": "ACT Geary",
+                "team": "Surrey Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 5,
+                "balls": 925,
+                "maidens": 49,
+                "runs": 449,
+                "wickets": 26,
+                "bbruns": 22,
+                "bbwickets": 5,
+                "average": 17.26
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "H Christmas",
+                "team": "Cambridgeshire",
+                "opponents": "Surrey Second XI",
+                "matches": 5,
+                "dismissals": 2
+            },
+            {
+                "name": "EH Leek",
+                "team": "Cambridgeshire",
+                "opponents": "Surrey Second XI",
+                "matches": 4,
+                "dismissals": 2
+            },
+            {
+                "name": "AS Ling",
+                "team": "Cambridgeshire",
+                "opponents": "Surrey Second XI",
+                "matches": 4,
+                "dismissals": 2
+            },
+            {
+                "name": "WJM Manning",
+                "team": "Cambridgeshire",
+                "opponents": "Surrey Second XI",
+                "matches": 4,
+                "dismissals": 2
+            },
+            {
+                "name": "HJ Rose",
+                "team": "Cambridgeshire",
+                "opponents": "Surrey Second XI",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "LJ Redgewell",
+                "team": "Surrey Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 3,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "GS Mobey",
+                "team": "Surrey Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "LJ Redgewell",
+                "team": "Surrey Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 3,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Surrey Second XI",
+                    "total": 112,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1924"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Surrey Second XI",
+                    "total": 112,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1924"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Surrey Second XI",
+                    "total": 10,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1923"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Surrey Second XI",
+                    "opponents": "Cambridgeshire",
+                    "total": 252,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1924"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Surrey Second XI",
+                    "opponents": "Cambridgeshire",
+                    "total": 252,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Kennington Oval, Kennington",
+                    "seriesDate": "1924"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Surrey Second XI",
+                    "opponents": "Cambridgeshire",
+                    "total": 12,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1925"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:36.848569Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

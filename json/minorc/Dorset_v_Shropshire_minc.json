@@ -1,0 +1,832 @@
+{
+    "team1": "Dorset",
+    "team2": "Shropshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 42,
+        "startDate": "1974-06-26T01:00",
+        "endDate": "2023-08-06T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Dorset",
+                "opponents": "Shropshire",
+                "total": 435,
+                "wickets": 2,
+                "declared": false,
+                "location": "The Leaze, Wimborne",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "team": "Shropshire",
+                "opponents": "Dorset",
+                "total": 455,
+                "wickets": 9,
+                "declared": true,
+                "location": "Heath Road, Whitchurch",
+                "seriesDate": "2004"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "SJ Young",
+                "team": "Dorset",
+                "opponents": "Shropshire",
+                "score": 217,
+                "notOut": true,
+                "location": "The Leaze, Wimborne",
+                "seriesDate": "2023"
+            }
+        ],
+        [
+            {
+                "name": "GT Hargrave",
+                "team": "Shropshire",
+                "opponents": "Dorset",
+                "score": 201,
+                "notOut": false,
+                "location": "The Leaze, Wimborne",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "DA Kidner",
+                "team": "Dorset",
+                "opponents": "Shropshire",
+                "wickets": 6,
+                "runs": 14,
+                "location": "Heath Road, Whitchurch",
+                "seriesDate": "2001"
+            }
+        ],
+        [
+            {
+                "name": "J Abrahams",
+                "team": "Shropshire",
+                "opponents": "Dorset",
+                "wickets": 8,
+                "runs": 51,
+                "location": "Audley Avenue, Newport",
+                "seriesDate": "1989"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "D Shackleton",
+                "team": "Dorset",
+                "opponents": "Shropshire",
+                "wickets": 9,
+                "runs": 68,
+                "location": "Ellesmere College Ground, Ellesmere",
+                "seriesDate": "1974"
+            }
+        ],
+        [
+            {
+                "name": "WFS Fynn",
+                "team": "Shropshire",
+                "opponents": "Dorset",
+                "wickets": 11,
+                "runs": 118,
+                "location": "Chapel Gate, Bournemouth",
+                "seriesDate": "2018"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Shropshire",
+                        "location": "London Road, Shrewsbury",
+                        "seriesDate": "1993",
+                        "partnership": 137,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "TW Richings",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JA Claughton",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Shropshire",
+                        "location": "The Burway, Ludlow",
+                        "seriesDate": "1978",
+                        "partnership": 135,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "VB Lewis",
+                        "player1Score": 67,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RV Lewis",
+                        "player2Score": 91,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Shropshire",
+                        "location": "The Leaze, Wimborne",
+                        "seriesDate": "2023",
+                        "partnership": 415,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "DNC Scott",
+                        "player1Score": 183,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "SJ Young",
+                        "player2Score": 217,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Shropshire",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "2006",
+                        "partnership": 164,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DJ Cowley",
+                        "player1Score": 108,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "BJ Lawes",
+                        "player2Score": 101,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Shropshire",
+                        "location": "Orleton Park, Wellington",
+                        "seriesDate": "1987",
+                        "partnership": 72,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "C Stone",
+                        "player1Score": 28,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "ICD Stuart",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Shropshire",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "2012",
+                        "partnership": 100,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "CL Park",
+                        "player1Score": 39,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "CR Jones",
+                        "player2Score": 188,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Shropshire",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "2012",
+                        "partnership": 114,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "CR Jones",
+                        "player1Score": 188,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "EG Denham",
+                        "player2Score": 46,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Shropshire",
+                        "location": "Sherborne School, Sherborne",
+                        "seriesDate": "1978",
+                        "partnership": 46,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "DC Brooks",
+                        "player1Score": 27,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "RS Herman",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Shropshire",
+                        "location": "St Georges Recreation Ground, Telford",
+                        "seriesDate": "1985",
+                        "partnership": 86,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "A Kennedy",
+                        "player1Score": 171,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "IEW Sanders",
+                        "player2Score": 11,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Dorset",
+                        "opponents": "Shropshire",
+                        "location": "Heath Road, Whitchurch",
+                        "seriesDate": "2001",
+                        "partnership": 65,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "TCZ Lamb",
+                        "player1Score": 98,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "VJ Pike",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Dorset",
+                        "location": "The Leaze, Wimborne",
+                        "seriesDate": "2023",
+                        "partnership": 131,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "OE Westbury",
+                        "player1Score": 48,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GT Hargrave",
+                        "player2Score": 201,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Dorset",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "2010",
+                        "partnership": 169,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "A Huxley",
+                        "player1Score": 91,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "CP Murtagh",
+                        "player2Score": 102,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Dorset",
+                        "location": "London Road, Shrewsbury",
+                        "seriesDate": "1993",
+                        "partnership": 176,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "K Sharp",
+                        "player1Score": 136,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "AD Breakwell",
+                        "player2Score": 34,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Dorset",
+                        "location": "Sherborne School, Sherborne",
+                        "seriesDate": "1992",
+                        "partnership": 111,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "MR Davies",
+                        "player1Score": 70,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "GJ Toogood",
+                        "player2Score": 40,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Dorset",
+                        "location": "Heath Road, Whitchurch",
+                        "seriesDate": "2004",
+                        "partnership": 183,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DN Catterall",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "JT Ralph",
+                        "player2Score": 138,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Dorset",
+                        "location": "Heath Road, Whitchurch",
+                        "seriesDate": "2001",
+                        "partnership": 107,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GJ Byram",
+                        "player1Score": 74,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "JT Ralph",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Dorset",
+                        "location": "High Town, Bridgnorth",
+                        "seriesDate": "1995",
+                        "partnership": 84,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "K Sharp",
+                        "player1Score": 146,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "AN Mackelworth",
+                        "player2Score": 37,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Dorset",
+                        "location": "St Georges Recreation Ground, Telford",
+                        "seriesDate": "1985",
+                        "partnership": 77,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "JA Smith",
+                        "player1Score": 54,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "DJ Ashley",
+                        "player2Score": 38,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Dorset",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "2003",
+                        "partnership": 74,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JT Ralph",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "DJ Bowett",
+                        "player2Score": 49,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Dorset",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "2015",
+                        "partnership": 65,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "M Higginbottom",
+                        "player1Score": 126,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "DJ Lloyd",
+                        "player2Score": 9,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "RV Lewis",
+                "team": "Dorset",
+                "opponents": "Shropshire",
+                "matches": 9,
+                "runs": 563,
+                "innings": 18,
+                "notOuts": 2,
+                "average": 35.18,
+                "hs": "91"
+            }
+        ],
+        [
+            {
+                "name": "MR Davies",
+                "team": "Shropshire",
+                "opponents": "Dorset",
+                "matches": 16,
+                "runs": 974,
+                "innings": 28,
+                "notOuts": 9,
+                "average": 51.26,
+                "hs": "114*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "CW Allen",
+                "team": "Dorset",
+                "opponents": "Shropshire",
+                "matches": 7,
+                "balls": 1472,
+                "maidens": 89,
+                "runs": 621,
+                "wickets": 31,
+                "bbruns": 38,
+                "bbwickets": 5,
+                "average": 20.03
+            }
+        ],
+        [
+            {
+                "name": "AB Byram",
+                "team": "Shropshire",
+                "opponents": "Dorset",
+                "matches": 11,
+                "balls": 1723,
+                "maidens": 64,
+                "runs": 977,
+                "wickets": 48,
+                "bbruns": 20,
+                "bbwickets": 7,
+                "average": 20.35
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "CL Park",
+                "team": "Dorset",
+                "opponents": "Shropshire",
+                "matches": 7,
+                "dismissals": 19
+            }
+        ],
+        [
+            {
+                "name": "JS Johnson",
+                "team": "Shropshire",
+                "opponents": "Dorset",
+                "matches": 16,
+                "dismissals": 27
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "CL Park",
+                "team": "Dorset",
+                "opponents": "Shropshire",
+                "matches": 7,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "DJ Ashley",
+                "team": "Shropshire",
+                "opponents": "Dorset",
+                "matches": 8,
+                "dismissals": 10
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Shropshire",
+                    "total": 71,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Dean Park, Bournemouth",
+                    "seriesDate": "2009"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Shropshire",
+                    "total": 71,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Dean Park, Bournemouth",
+                    "seriesDate": "2009"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Dorset",
+                    "opponents": "Shropshire",
+                    "total": 67,
+                    "wickets": 3,
+                    "declared": true,
+                    "location": "Ellesmere College Ground, Ellesmere",
+                    "seriesDate": "1974"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Dorset",
+                    "total": 92,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Redlands Sports Ground, Weymouth",
+                    "seriesDate": "1974"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Dorset",
+                    "total": 92,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Redlands Sports Ground, Weymouth",
+                    "seriesDate": "1974"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Dorset",
+                    "total": 9,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Heath Road, Whitchurch",
+                    "seriesDate": "2016"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:52.178771Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

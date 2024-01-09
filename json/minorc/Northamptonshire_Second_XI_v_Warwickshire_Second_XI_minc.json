@@ -1,0 +1,874 @@
+{
+    "team1": "Northamptonshire Second XI",
+    "team2": "Warwickshire Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 18,
+        "startDate": "1950-06-12T01:00",
+        "endDate": "1958-08-18T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Northamptonshire Second XI",
+                "opponents": "Warwickshire Second XI",
+                "total": 297,
+                "wickets": 7,
+                "declared": true,
+                "location": "Mitchell's and Butler's Ground, Birmingham",
+                "seriesDate": "1956"
+            }
+        ],
+        [
+            {
+                "team": "Warwickshire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "total": 348,
+                "wickets": 6,
+                "declared": true,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1955"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "PB Pickering",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Warwickshire Second XI",
+                "score": 116,
+                "notOut": true,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1955"
+            }
+        ],
+        [
+            {
+                "name": "NF Horner",
+                "team": "Warwickshire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "score": 190,
+                "notOut": false,
+                "location": "Edgbaston, Birmingham",
+                "seriesDate": "1953"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "T Freeman",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Warwickshire Second XI",
+                "wickets": 7,
+                "runs": 37,
+                "location": "Westminster Road, Brackley",
+                "seriesDate": "1954"
+            }
+        ],
+        [
+            {
+                "name": "TL Pritchard",
+                "team": "Warwickshire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "wickets": 7,
+                "runs": 19,
+                "location": "Westminster Road, Brackley",
+                "seriesDate": "1954"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "RP Hogan",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Warwickshire Second XI",
+                "wickets": 10,
+                "runs": 94,
+                "location": "The Cricket Ground, Rugby",
+                "seriesDate": "1955"
+            }
+        ],
+        [
+            {
+                "name": "TL Pritchard",
+                "team": "Warwickshire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "wickets": 9,
+                "runs": 59,
+                "location": "Westminster Road, Brackley",
+                "seriesDate": "1954"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1950",
+                        "partnership": 120,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CP Davis",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DG Greasley",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1957",
+                        "partnership": 105,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "BL Reynolds",
+                        "player1Score": 79,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "A Lightfoot",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1950",
+                        "partnership": 56,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DW Barrick",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "V Broderick",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    },
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1954",
+                        "partnership": 56,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "CP Davis",
+                        "player1Score": 70,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MHJ Allen",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1955",
+                        "partnership": 105,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "MHJ Allen",
+                        "player1Score": 70,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "RP Hogan",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1955",
+                        "partnership": 55,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "MHJ Allen",
+                        "player1Score": 70,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "PB Pickering",
+                        "player2Score": 22,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1952",
+                        "partnership": 60,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "PE Murray-Willis",
+                        "player1Score": 38,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "CP Davis",
+                        "player2Score": 65,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    },
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Mitchell's and Butler's Ground, Birmingham",
+                        "seriesDate": "1956",
+                        "partnership": 60,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "S Starkie",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "MJ Tate",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "Mitchell's and Butler's Ground, Birmingham",
+                        "seriesDate": "1956",
+                        "partnership": 90,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "S Starkie",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "JR Dale",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1955",
+                        "partnership": 126,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "PB Pickering",
+                        "player1Score": 116,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "RP Hogan",
+                        "player2Score": 42,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "General Electric Company Ground, Coventry",
+                        "seriesDate": "1957",
+                        "partnership": 39,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "J Wild",
+                        "player1Score": 16,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "JF Edmonds",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Warwickshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1950",
+                        "partnership": 24,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "V Broderick",
+                        "player1Score": 68,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JF Dennis",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1951",
+                        "partnership": 264,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "NF Horner",
+                        "player1Score": 134,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "WE Houghton",
+                        "player2Score": 105,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1953",
+                        "partnership": 148,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "NF Horner",
+                        "player1Score": 190,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PH Bromley",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1955",
+                        "partnership": 91,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "WJP Stewart",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "PH Bromley",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1952",
+                        "partnership": 111,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "WJP Stewart",
+                        "player1Score": 103,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "FC Gardner",
+                        "player2Score": 78,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "Edgbaston, Birmingham",
+                        "seriesDate": "1952",
+                        "partnership": 92,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "DH Robins",
+                        "player1Score": 50,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "WJP Stewart",
+                        "player2Score": 103,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1950",
+                        "partnership": 50,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GS Thompson",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "PH Bromley",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1955",
+                        "partnership": 221,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "RT Weeks",
+                        "player1Score": 77,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "DR Cook",
+                        "player2Score": 149,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1951",
+                        "partnership": 53,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "BA Wilson",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "GS Thompson",
+                        "player2Score": 30,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1950",
+                        "partnership": 23,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "JW Thompson",
+                        "player1Score": 11,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "JD Bannister",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Warwickshire Second XI",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1951",
+                        "partnership": 29,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "BA Wilson",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "RG Carter",
+                        "player2Score": 2,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "E Davis",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Warwickshire Second XI",
+                "matches": 11,
+                "runs": 459,
+                "innings": 15,
+                "notOuts": 2,
+                "average": 35.3,
+                "hs": "86*"
+            }
+        ],
+        [
+            {
+                "name": "WJP Stewart",
+                "team": "Warwickshire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 9,
+                "runs": 520,
+                "innings": 13,
+                "notOuts": 3,
+                "average": 52.0,
+                "hs": "103*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "V Broderick",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Warwickshire Second XI",
+                "matches": 9,
+                "balls": 1153,
+                "maidens": 73,
+                "runs": 380,
+                "wickets": 35,
+                "bbruns": 13,
+                "bbwickets": 6,
+                "average": 10.85
+            }
+        ],
+        [
+            {
+                "name": "RT Weeks",
+                "team": "Warwickshire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 5,
+                "balls": 955,
+                "maidens": 43,
+                "runs": 407,
+                "wickets": 23,
+                "bbruns": 20,
+                "bbwickets": 5,
+                "average": 17.69
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "MEJC Norman",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Warwickshire Second XI",
+                "matches": 13,
+                "dismissals": 13
+            }
+        ],
+        [
+            {
+                "name": "DH Robins",
+                "team": "Warwickshire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 3,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "J Smith",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Warwickshire Second XI",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "TP Barnes",
+                "team": "Warwickshire Second XI",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 4,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Northamptonshire Second XI",
+                    "opponents": "Warwickshire Second XI",
+                    "total": 40,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "General Electric Company Ground, Coventry",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Northamptonshire Second XI",
+                    "opponents": "Warwickshire Second XI",
+                    "total": 40,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "General Electric Company Ground, Coventry",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Northamptonshire Second XI",
+                    "opponents": "Warwickshire Second XI",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1951"
+                },
+                {
+                    "team": "Northamptonshire Second XI",
+                    "opponents": "Warwickshire Second XI",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Desborough Road, Rothwell",
+                    "seriesDate": "1958"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Warwickshire Second XI",
+                    "opponents": "Northamptonshire Second XI",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "General Electric Company Ground, Coventry",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Warwickshire Second XI",
+                    "opponents": "Northamptonshire Second XI",
+                    "total": 57,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "General Electric Company Ground, Coventry",
+                    "seriesDate": "1957"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Warwickshire Second XI",
+                    "opponents": "Northamptonshire Second XI",
+                    "total": 4,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Edgbaston, Birmingham",
+                    "seriesDate": "1952"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:10:48.543635Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

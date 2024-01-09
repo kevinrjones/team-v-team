@@ -1,0 +1,832 @@
+{
+    "team1": "Cambridgeshire",
+    "team2": "Northamptonshire Second XI",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 8,
+        "startDate": "1950-07-20T01:00",
+        "endDate": "1953-07-22T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cambridgeshire",
+                "opponents": "Northamptonshire Second XI",
+                "total": 303,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1952"
+            }
+        ],
+        [
+            {
+                "team": "Northamptonshire Second XI",
+                "opponents": "Cambridgeshire",
+                "total": 410,
+                "wickets": 7,
+                "declared": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1950"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "CJ Harrisson",
+                "team": "Cambridgeshire",
+                "opponents": "Northamptonshire Second XI",
+                "score": 79,
+                "notOut": false,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1952"
+            }
+        ],
+        [
+            {
+                "name": "CP Davis",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Cambridgeshire",
+                "score": 115,
+                "notOut": false,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1950"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "BJ Gambrell",
+                "team": "Cambridgeshire",
+                "opponents": "Northamptonshire Second XI",
+                "wickets": 8,
+                "runs": 63,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "name": "AL Wells",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Cambridgeshire",
+                "wickets": 5,
+                "runs": 28,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1953"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JF Godfrey",
+                "team": "Cambridgeshire",
+                "opponents": "Northamptonshire Second XI",
+                "wickets": 10,
+                "runs": 128,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1951"
+            }
+        ],
+        [
+            {
+                "name": "GHJ Brice",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Cambridgeshire",
+                "wickets": 6,
+                "runs": 98,
+                "location": "The Avenue Sports Club Ground, March",
+                "seriesDate": "1952"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1952",
+                        "partnership": 120,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MA Crouch",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "CJ Harrisson",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 84,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "CJ Harrisson",
+                        "player1Score": 56,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "HWF Taylor",
+                        "player2Score": 33,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1950",
+                        "partnership": 95,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "CJ Harrisson",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "PG Clarke",
+                        "player2Score": 55,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1950",
+                        "partnership": 90,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "RA Gautrey",
+                        "player1Score": 68,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "PG Clarke",
+                        "player2Score": 55,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "The Avenue Sports Club Ground, March",
+                        "seriesDate": "1952",
+                        "partnership": 93,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HEP Medhurst",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "J Hoyles",
+                        "player2Score": 77,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1951",
+                        "partnership": 123,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "RA Gautrey",
+                        "player1Score": 71,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "GD Bonner",
+                        "player2Score": 50,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "The Avenue Sports Club Ground, March",
+                        "seriesDate": "1952",
+                        "partnership": 24,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "J Hoyles",
+                        "player1Score": 77,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "RJA MacGinty",
+                        "player2Score": 19,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1953",
+                        "partnership": 26,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "REG Jeeps",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "GL Thomas",
+                        "player2Score": 48,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1950",
+                        "partnership": 68,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "J Hoyles",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "CMB Sessions",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridgeshire",
+                        "opponents": "Northamptonshire Second XI",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1953",
+                        "partnership": 57,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "GL Thomas",
+                        "player1Score": 48,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "R Nunn",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1951",
+                        "partnership": 94,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PE Murray-Willis",
+                        "player1Score": 48,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BL Reynolds",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1950",
+                        "partnership": 116,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CP Davis",
+                        "player1Score": 115,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "E Davis",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1953",
+                        "partnership": 126,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "F Jakeman",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "E Davis",
+                        "player2Score": 70,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "Harecroft Road, Wisbech",
+                        "seriesDate": "1953",
+                        "partnership": 107,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "F Jakeman",
+                        "player1Score": 107,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "DG Greasley",
+                        "player2Score": 81,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 153,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "F Jakeman",
+                        "player1Score": 90,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DW Barrick",
+                        "player2Score": 110,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 50,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "DW Barrick",
+                        "player1Score": 110,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "BL Reynolds",
+                        "player2Score": 104,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 95,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "BL Reynolds",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "RW Clarke",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 35,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "BL Reynolds",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "HW Wright",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1952",
+                        "partnership": 30,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AP Arnold",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "HW Wright",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire Second XI",
+                        "opponents": "Cambridgeshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1951",
+                        "partnership": 47,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "J Wild",
+                        "player1Score": 46,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "R Smith",
+                        "player2Score": 20,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CJ Harrisson",
+                "team": "Cambridgeshire",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 7,
+                "runs": 347,
+                "innings": 11,
+                "notOuts": 1,
+                "average": 34.7,
+                "hs": "79"
+            }
+        ],
+        [
+            {
+                "name": "F Jakeman",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 3,
+                "runs": 256,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 85.33,
+                "hs": "107"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JF Godfrey",
+                "team": "Cambridgeshire",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 5,
+                "balls": 1235,
+                "maidens": 51,
+                "runs": 452,
+                "wickets": 30,
+                "bbruns": 54,
+                "bbwickets": 6,
+                "average": 15.06
+            }
+        ],
+        [
+            {
+                "name": "AWG Liddell",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 4,
+                "balls": 520,
+                "maidens": 14,
+                "runs": 280,
+                "wickets": 11,
+                "bbruns": 98,
+                "bbwickets": 4,
+                "average": 25.45
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "HEP Medhurst",
+                "team": "Cambridgeshire",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 6,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "BL Reynolds",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 6,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "CMB Sessions",
+                "team": "Cambridgeshire",
+                "opponents": "Northamptonshire Second XI",
+                "matches": 3,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "BL Reynolds",
+                "team": "Northamptonshire Second XI",
+                "opponents": "Cambridgeshire",
+                "matches": 6,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Northamptonshire Second XI",
+                    "total": 161,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1950"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Northamptonshire Second XI",
+                    "total": 161,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1950"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridgeshire",
+                    "opponents": "Northamptonshire Second XI",
+                    "total": 46,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1951"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Northamptonshire Second XI",
+                    "opponents": "Cambridgeshire",
+                    "total": 153,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1950"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Northamptonshire Second XI",
+                    "opponents": "Cambridgeshire",
+                    "total": 153,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1950"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Northamptonshire Second XI",
+                    "opponents": "Cambridgeshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The Recreation Ground, Impington",
+                    "seriesDate": "1951"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:31.616396Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

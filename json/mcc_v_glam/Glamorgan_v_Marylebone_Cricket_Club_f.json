@@ -1,0 +1,840 @@
+{
+    "team1": "Glamorgan",
+    "team2": "Marylebone Cricket Club",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 1,
+        "startDate": "1970-04-29T01:00",
+        "endDate": "1970-04-29T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "total": 212,
+                "wickets": 7,
+                "declared": true,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1970"
+            }
+        ],
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Glamorgan",
+                "total": 191,
+                "wickets": 9,
+                "declared": true,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1970"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RC Davis",
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "score": 53,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1970"
+            }
+        ],
+        [
+            {
+                "name": "KWR Fletcher",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Glamorgan",
+                "score": 74,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1970"
+            },
+            {
+                "name": "DM Green",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Glamorgan",
+                "score": 74,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1970"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "MA Nash",
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 5,
+                "runs": 32,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1970"
+            }
+        ],
+        [
+            {
+                "name": "D Wilson",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Glamorgan",
+                "wickets": 5,
+                "runs": 25,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1970"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "MA Nash",
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 5,
+                "runs": 40,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1970"
+            }
+        ],
+        [
+            {
+                "name": "D Wilson",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Glamorgan",
+                "wickets": 8,
+                "runs": 82,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1970"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 92,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "A Jones",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RC Davis",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 39,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "RC Davis",
+                        "player1Score": 19,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "KJ Lyons",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 37,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "KJ Lyons",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "AR Lewis",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 7,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "AR Lewis",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "BA Davis",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 8,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "BA Davis",
+                        "player1Score": 6,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "PM Walker",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 16,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "PM Walker",
+                        "player1Score": 8,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "EW Jones",
+                        "player2Score": 17,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 4,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "EW Jones",
+                        "player1Score": 17,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "MA Nash",
+                        "player2Score": 2,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 32,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "EW Jones",
+                        "player1Score": 17,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "EA Cordle",
+                        "player2Score": 24,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 23,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "EW Jones",
+                        "player1Score": 23,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "DL Williams",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 9,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "DL Williams",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "DJ Shepherd",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Glamorgan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 65,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "BW Luckhurst",
+                        "player1Score": 18,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DM Green",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Glamorgan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 34,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "H Pilling",
+                        "player1Score": 4,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DM Green",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Glamorgan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 1,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "H Pilling",
+                        "player1Score": 4,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "KWR Fletcher",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Glamorgan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 19,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "KWR Fletcher",
+                        "player1Score": 19,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "RMC Gilliat",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Glamorgan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 121,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "KWR Fletcher",
+                        "player1Score": 74,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AW Greig",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Glamorgan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 25,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "KWR Fletcher",
+                        "player1Score": 74,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "R Illingworth",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Glamorgan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 3,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "R Illingworth",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "RW Taylor",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Glamorgan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 17,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RW Taylor",
+                        "player1Score": 3,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "D Wilson",
+                        "player2Score": 15,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Glamorgan",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1970",
+                        "partnership": 4,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "D Wilson",
+                        "player1Score": 15,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "CM Old",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "RC Davis",
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "runs": 72,
+                "innings": 2,
+                "notOuts": 0,
+                "average": 36.0,
+                "hs": "53"
+            }
+        ],
+        [
+            {
+                "name": "KWR Fletcher",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Glamorgan",
+                "matches": 1,
+                "runs": 93,
+                "innings": 2,
+                "notOuts": 1,
+                "average": 93.0,
+                "hs": "74"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "MA Nash",
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "balls": 108,
+                "maidens": 6,
+                "runs": 40,
+                "wickets": 5,
+                "bbruns": 32,
+                "bbwickets": 5,
+                "average": 8.0
+            }
+        ],
+        [
+            {
+                "name": "D Wilson",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Glamorgan",
+                "matches": 1,
+                "balls": 293,
+                "maidens": 20,
+                "runs": 82,
+                "wickets": 8,
+                "bbruns": 25,
+                "bbwickets": 5,
+                "average": 10.25
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "EA Cordle",
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "EW Jones",
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "AR Lewis",
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "KJ Lyons",
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "MA Nash",
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "PM Walker",
+                "team": "Glamorgan",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "R Illingworth",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Glamorgan",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "CM Old",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Glamorgan",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "RW Taylor",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Glamorgan",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 113,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1970"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 113,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1970"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 113,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1970"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Glamorgan",
+                    "total": 135,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1970"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:43.367430Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

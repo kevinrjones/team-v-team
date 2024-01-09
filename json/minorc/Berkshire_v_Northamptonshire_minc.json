@@ -1,0 +1,839 @@
+{
+    "team1": "Berkshire",
+    "team2": "Northamptonshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 6,
+        "startDate": "1898-08-03T00:00",
+        "endDate": "1900-08-13T00:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Berkshire",
+                "opponents": "Northamptonshire",
+                "total": 339,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1900"
+            }
+        ],
+        [
+            {
+                "team": "Northamptonshire",
+                "opponents": "Berkshire",
+                "total": 387,
+                "wickets": 5,
+                "declared": true,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1900"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "EA Watts",
+                "team": "Berkshire",
+                "opponents": "Northamptonshire",
+                "score": 104,
+                "notOut": true,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1898"
+            }
+        ],
+        [
+            {
+                "name": "WH Kingston",
+                "team": "Northamptonshire",
+                "opponents": "Berkshire",
+                "score": 149,
+                "notOut": false,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1898"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "W Barker",
+                "team": "Berkshire",
+                "opponents": "Northamptonshire",
+                "wickets": 7,
+                "runs": 102,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1898"
+            }
+        ],
+        [
+            {
+                "name": "GJ Thompson",
+                "team": "Northamptonshire",
+                "opponents": "Berkshire",
+                "wickets": 8,
+                "runs": 17,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1900"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "W Barker",
+                "team": "Berkshire",
+                "opponents": "Northamptonshire",
+                "wickets": 7,
+                "runs": 102,
+                "location": "County Ground, Kensington Road, Reading",
+                "seriesDate": "1898"
+            }
+        ],
+        [
+            {
+                "name": "GJ Thompson",
+                "team": "Northamptonshire",
+                "opponents": "Berkshire",
+                "wickets": 12,
+                "runs": 38,
+                "location": "County Ground, Northampton",
+                "seriesDate": "1900"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1899",
+                        "partnership": 52,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "LP Collins",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ACM Croome",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1899",
+                        "partnership": 69,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "LP Collins",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "FM Ingram",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1900",
+                        "partnership": 76,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "HM Worsley",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RA Williams",
+                        "player2Score": 60,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1899",
+                        "partnership": 111,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "HFM Morres",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "ER Morres",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1898",
+                        "partnership": 42,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "LGA Collins",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RA Williams",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1900",
+                        "partnership": 56,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "ACM Croome",
+                        "player1Score": 22,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "A Henderson",
+                        "player2Score": 73,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1898",
+                        "partnership": 58,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "LP Collins",
+                        "player1Score": 61,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "MJ Dauglish",
+                        "player2Score": 18,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1898",
+                        "partnership": 65,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "EA Watts",
+                        "player1Score": 104,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "FE Chapman",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1898",
+                        "partnership": 125,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "FE Chapman",
+                        "player1Score": 86,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "H Barrett",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Berkshire",
+                        "opponents": "Northamptonshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1899",
+                        "partnership": 35,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AB Croom",
+                        "player1Score": 10,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "R Bedding",
+                        "player2Score": 21,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1899",
+                        "partnership": 112,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "T Horton",
+                        "player1Score": 105,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HE Kingston",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1900",
+                        "partnership": 170,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CJT Pool",
+                        "player1Score": 116,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "GJ Thompson",
+                        "player2Score": 112,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1898",
+                        "partnership": 94,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "GJ Thompson",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "WH Kingston",
+                        "player2Score": 149,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1898",
+                        "partnership": 42,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "GJ Thompson",
+                        "player1Score": 125,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "HE Kingston",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1899",
+                        "partnership": 59,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "T Horton",
+                        "player1Score": 81,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "TA Brown",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1898",
+                        "partnership": 100,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "TA Brown",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "GJ Thompson",
+                        "player2Score": 125,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1898",
+                        "partnership": 75,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "WH Kingston",
+                        "player1Score": 149,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "TA Brown",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1898",
+                        "partnership": 35,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "BC Smith",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "W East",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Northampton",
+                        "seriesDate": "1899",
+                        "partnership": 54,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "LT Driffield",
+                        "player1Score": 36,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "FO Warren",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Northamptonshire",
+                        "opponents": "Berkshire",
+                        "location": "County Ground, Kensington Road, Reading",
+                        "seriesDate": "1899",
+                        "partnership": 28,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "GH Colson",
+                        "player1Score": 32,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "BC Smith",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "EA Watts",
+                "team": "Berkshire",
+                "opponents": "Northamptonshire",
+                "matches": 5,
+                "runs": 211,
+                "innings": 9,
+                "notOuts": 1,
+                "average": 26.37,
+                "hs": "104*"
+            }
+        ],
+        [
+            {
+                "name": "GJ Thompson",
+                "team": "Northamptonshire",
+                "opponents": "Berkshire",
+                "matches": 6,
+                "runs": 406,
+                "innings": 8,
+                "notOuts": 0,
+                "average": 50.75,
+                "hs": "125"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "W Barker",
+                "team": "Berkshire",
+                "opponents": "Northamptonshire",
+                "matches": 6,
+                "balls": 1036,
+                "maidens": 66,
+                "runs": 464,
+                "wickets": 15,
+                "bbruns": 102,
+                "bbwickets": 7,
+                "average": 30.93
+            }
+        ],
+        [
+            {
+                "name": "GJ Thompson",
+                "team": "Northamptonshire",
+                "opponents": "Berkshire",
+                "matches": 6,
+                "balls": 1192,
+                "maidens": 61,
+                "runs": 571,
+                "wickets": 36,
+                "bbruns": 17,
+                "bbwickets": 8,
+                "average": 15.86
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "ACM Croome",
+                "team": "Berkshire",
+                "opponents": "Northamptonshire",
+                "matches": 6,
+                "dismissals": 7
+            },
+            {
+                "name": "MJ Dauglish",
+                "team": "Berkshire",
+                "opponents": "Northamptonshire",
+                "matches": 3,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "BC Smith",
+                "team": "Northamptonshire",
+                "opponents": "Berkshire",
+                "matches": 6,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "MJ Dauglish",
+                "team": "Berkshire",
+                "opponents": "Northamptonshire",
+                "matches": 3,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "BC Smith",
+                "team": "Northamptonshire",
+                "opponents": "Berkshire",
+                "matches": 6,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Northamptonshire",
+                    "total": 34,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1900"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Northamptonshire",
+                    "total": 34,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1900"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Berkshire",
+                    "opponents": "Northamptonshire",
+                    "total": 34,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1900"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Northamptonshire",
+                    "opponents": "Berkshire",
+                    "total": 115,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1900"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Northamptonshire",
+                    "opponents": "Berkshire",
+                    "total": 115,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1900"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Northamptonshire",
+                    "opponents": "Berkshire",
+                    "total": 16,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "County Ground, Northampton",
+                    "seriesDate": "1899"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:38.433103Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

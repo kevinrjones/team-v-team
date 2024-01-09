@@ -1,0 +1,840 @@
+{
+    "team1": "Durham",
+    "team2": "Norfolk",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 24,
+        "startDate": "1897-07-19T00:00",
+        "endDate": "1991-08-19T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Stephen Musk",
+        "Kevin Clement"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Durham",
+                "opponents": "Norfolk",
+                "total": 380,
+                "wickets": 10,
+                "declared": false,
+                "location": "Feethams Cricket Ground, Darlington",
+                "seriesDate": "1900"
+            }
+        ],
+        [
+            {
+                "team": "Norfolk",
+                "opponents": "Durham",
+                "total": 479,
+                "wickets": 8,
+                "declared": true,
+                "location": "Blackfyne, Blackhill, Consett",
+                "seriesDate": "1939"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Wasim Raja",
+                "team": "Durham",
+                "opponents": "Norfolk",
+                "score": 166,
+                "notOut": false,
+                "location": "Green Lane, Durham",
+                "seriesDate": "1981"
+            }
+        ],
+        [
+            {
+                "name": "EH Edrich",
+                "team": "Norfolk",
+                "opponents": "Durham",
+                "score": 169,
+                "notOut": false,
+                "location": "Blackfyne, Blackhill, Consett",
+                "seriesDate": "1939"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "A Morris",
+                "team": "Durham",
+                "opponents": "Norfolk",
+                "wickets": 8,
+                "runs": 35,
+                "location": "King Edward VII Grammar School Ground, King's Lynn",
+                "seriesDate": "1910"
+            }
+        ],
+        [
+            {
+                "name": "C Shore",
+                "team": "Norfolk",
+                "opponents": "Durham",
+                "wickets": 10,
+                "runs": 50,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "A Morris",
+                "team": "Durham",
+                "opponents": "Norfolk",
+                "wickets": 14,
+                "runs": 64,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1911"
+            }
+        ],
+        [
+            {
+                "name": "C Shore",
+                "team": "Norfolk",
+                "opponents": "Durham",
+                "wickets": 16,
+                "runs": 72,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Norfolk",
+                        "location": "The Racecourse, Durham",
+                        "seriesDate": "1991",
+                        "partnership": 155,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JD Glendenen",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "S Hutton",
+                        "player2Score": 112,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Norfolk",
+                        "location": "Grangefield Road, Stockton-on-Tees",
+                        "seriesDate": "1989",
+                        "partnership": 135,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "GK Brown",
+                        "player1Score": 106,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "P Burn",
+                        "player2Score": 63,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Norfolk",
+                        "location": "Green Lane, Durham",
+                        "seriesDate": "1981",
+                        "partnership": 119,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "S Greensword",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "Wasim Raja",
+                        "player2Score": 166,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Norfolk",
+                        "location": "Blackfyne, Blackhill, Consett",
+                        "seriesDate": "1911",
+                        "partnership": 171,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "TA Bradford",
+                        "player1Score": 130,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AP Ashley",
+                        "player2Score": 85,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Norfolk",
+                        "location": "Grangefield Road, Stockton-on-Tees",
+                        "seriesDate": "1989",
+                        "partnership": 129,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AS Patel",
+                        "player1Score": 97,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "J Tindale",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1990",
+                        "partnership": 118,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "NA Riddell",
+                        "player1Score": 92,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "PG Newman",
+                        "player2Score": 44,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Norfolk",
+                        "location": "Blackfyne, Blackhill, Consett",
+                        "seriesDate": "1911",
+                        "partnership": 107,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "J Turnbull",
+                        "player1Score": 45,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "FW Burgoyne-Johnson",
+                        "player2Score": 79,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Norfolk",
+                        "location": "Blackfyne, Blackhill, Consett",
+                        "seriesDate": "1939",
+                        "partnership": 88,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "J Carr",
+                        "player1Score": 73,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JE Richardson",
+                        "player2Score": 19,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Norfolk",
+                        "location": "Clarence Road Ground, West Hartlepool",
+                        "seriesDate": "1898",
+                        "partnership": 37,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "J Gregory",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "T Lambert",
+                        "player2Score": 16,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Norfolk",
+                        "location": "Green Lane, Durham",
+                        "seriesDate": "1981",
+                        "partnership": 53,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "J Johnston",
+                        "player1Score": 7,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "RAD Mercer",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Durham",
+                        "location": "Blackfyne, Blackhill, Consett",
+                        "seriesDate": "1939",
+                        "partnership": 100,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HE Theobald",
+                        "player1Score": 37,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "EH Edrich",
+                        "player2Score": 169,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Durham",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1990",
+                        "partnership": 110,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CJ Rogers",
+                        "player1Score": 75,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DM Stamp",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Durham",
+                        "location": "Grangefield Road, Stockton-on-Tees",
+                        "seriesDate": "1989",
+                        "partnership": 104,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RJ Finney",
+                        "player1Score": 69,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SB Dixon",
+                        "player2Score": 65,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Durham",
+                        "location": "Ropery Lane, Chester-le-Street",
+                        "seriesDate": "1983",
+                        "partnership": 149,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "RDP Huggins",
+                        "player1Score": 90,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "ND Cook",
+                        "player2Score": 56,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Durham",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1990",
+                        "partnership": 85,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "J Whitehead",
+                        "player1Score": 23,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "DM Stamp",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Durham",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1939",
+                        "partnership": 66,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "M Falcon",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JC Thistleton-Smith",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Durham",
+                        "location": "Feethams Cricket Ground, Darlington",
+                        "seriesDate": "1900",
+                        "partnership": 103,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "CF Garnett",
+                        "player1Score": 70,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "SD Page",
+                        "player2Score": 41,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Durham",
+                        "location": "Blackfyne, Blackhill, Consett",
+                        "seriesDate": "1911",
+                        "partnership": 79,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "E Gibson",
+                        "player1Score": 20,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "HR Wakefield",
+                        "player2Score": 63,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Durham",
+                        "location": "Green Lane, Durham",
+                        "seriesDate": "1899",
+                        "partnership": 86,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "ET Garnier",
+                        "player1Score": 74,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "S Staples",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Durham",
+                        "location": "Feethams Cricket Ground, Darlington",
+                        "seriesDate": "1900",
+                        "partnership": 65,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "SRB Cowles",
+                        "player1Score": 82,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "C Shore",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "NA Riddell",
+                "team": "Durham",
+                "opponents": "Norfolk",
+                "matches": 8,
+                "runs": 371,
+                "innings": 13,
+                "notOuts": 3,
+                "average": 37.1,
+                "hs": "92"
+            }
+        ],
+        [
+            {
+                "name": "SG Plumb",
+                "team": "Norfolk",
+                "opponents": "Durham",
+                "matches": 9,
+                "runs": 587,
+                "innings": 17,
+                "notOuts": 3,
+                "average": 41.92,
+                "hs": "93*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "A Morris",
+                "team": "Durham",
+                "opponents": "Norfolk",
+                "matches": 4,
+                "balls": 780,
+                "maidens": 29,
+                "runs": 336,
+                "wickets": 44,
+                "bbruns": 35,
+                "bbwickets": 8,
+                "average": 7.63
+            }
+        ],
+        [
+            {
+                "name": "C Shore",
+                "team": "Norfolk",
+                "opponents": "Durham",
+                "matches": 8,
+                "balls": 1191,
+                "maidens": 74,
+                "runs": 528,
+                "wickets": 39,
+                "bbruns": 50,
+                "bbwickets": 10,
+                "average": 13.53
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "J Butler",
+                "team": "Durham",
+                "opponents": "Norfolk",
+                "matches": 6,
+                "dismissals": 7
+            },
+            {
+                "name": "AR Fothergill",
+                "team": "Durham",
+                "opponents": "Norfolk",
+                "matches": 5,
+                "dismissals": 7
+            }
+        ],
+        [
+            {
+                "name": "SG Plumb",
+                "team": "Norfolk",
+                "opponents": "Durham",
+                "matches": 9,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "T Lambert",
+                "team": "Durham",
+                "opponents": "Norfolk",
+                "matches": 4,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "GF Blake",
+                "team": "Norfolk",
+                "opponents": "Durham",
+                "matches": 6,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Durham",
+                    "opponents": "Norfolk",
+                    "total": 52,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Norfolk",
+                    "total": 52,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Norfolk",
+                    "total": 52,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Lakenham",
+                    "seriesDate": "1897"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Durham",
+                    "total": 39,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Recreation Ground, Great Yarmouth",
+                    "seriesDate": "1899"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Durham",
+                    "total": 39,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Old Recreation Ground, Great Yarmouth",
+                    "seriesDate": "1899"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Durham",
+                    "total": 16,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "Green Lane, Durham",
+                    "seriesDate": "1899"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:02.828444Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

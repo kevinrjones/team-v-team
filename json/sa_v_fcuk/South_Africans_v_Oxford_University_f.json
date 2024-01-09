@@ -1,0 +1,895 @@
+{
+    "team1": "South Africans",
+    "team2": "Oxford University",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 10,
+        "startDate": "1904-06-09T00:00",
+        "endDate": "1960-05-11T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "total": 510,
+                "wickets": 6,
+                "declared": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1947"
+            }
+        ],
+        [
+            {
+                "team": "Oxford University",
+                "opponents": "South Africans",
+                "total": 429,
+                "wickets": 10,
+                "declared": false,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1935"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "IJ Siedle",
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "score": 164,
+                "notOut": true,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1935"
+            }
+        ],
+        [
+            {
+                "name": "NS Mitchell-Innes",
+                "team": "Oxford University",
+                "opponents": "South Africans",
+                "score": 168,
+                "notOut": false,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1935"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JH Sinclair",
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "wickets": 8,
+                "runs": 69,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "AJ Evans",
+                "team": "Oxford University",
+                "opponents": "South Africans",
+                "wickets": 5,
+                "runs": 73,
+                "location": "Magdalen Ground, Oxford",
+                "seriesDate": "1912"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JH Sinclair",
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "wickets": 10,
+                "runs": 111,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1904"
+            }
+        ],
+        [
+            {
+                "name": "EM Wellings",
+                "team": "Oxford University",
+                "opponents": "South Africans",
+                "wickets": 6,
+                "runs": 135,
+                "location": "The University Parks, Oxford",
+                "seriesDate": "1929"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1935",
+                        "partnership": 164,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HF Wade",
+                        "player1Score": 89,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "IJ Siedle",
+                        "player2Score": 164,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1935",
+                        "partnership": 205,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "IJ Siedle",
+                        "player1Score": 164,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "EAB Rowan",
+                        "player2Score": 104,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1935",
+                        "partnership": 117,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1951",
+                        "partnership": 238,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1929",
+                        "partnership": 93,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1947",
+                        "partnership": 108,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "KG Viljoen",
+                        "player1Score": 110,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "TA Harris",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Oxford University",
+                        "location": "Christ Church Ground, Oxford",
+                        "seriesDate": "1955",
+                        "partnership": 21,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1904",
+                        "partnership": 86,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Oxford University",
+                        "location": "Christ Church Ground, Oxford",
+                        "seriesDate": "1955",
+                        "partnership": 54,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "ARA Murray",
+                        "player1Score": 36,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "PS Heine",
+                        "player2Score": 18,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "South Africans",
+                        "opponents": "Oxford University",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1935",
+                        "partnership": 89,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "DS Tomlinson",
+                        "player1Score": 70,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "AJ Bell",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "South Africans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1929",
+                        "partnership": 132,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AT Barber",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AM Crawley",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "South Africans",
+                        "location": "Christ Church Ground, Oxford",
+                        "seriesDate": "1955",
+                        "partnership": 41,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "South Africans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1935",
+                        "partnership": 198,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "South Africans",
+                        "location": "Magdalen Ground, Oxford",
+                        "seriesDate": "1912",
+                        "partnership": 128,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "South Africans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1935",
+                        "partnership": 102,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "South Africans",
+                        "location": "Magdalen Ground, Oxford",
+                        "seriesDate": "1912",
+                        "partnership": 62,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "South Africans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1935",
+                        "partnership": 31,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "South Africans",
+                        "location": "The University Parks, Oxford",
+                        "seriesDate": "1947",
+                        "partnership": 42,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "South Africans",
+                        "location": "Magdalen Ground, Oxford",
+                        "seriesDate": "1912",
+                        "partnership": 29,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxford University",
+                        "opponents": "South Africans",
+                        "location": "Magdalen Ground, Oxford",
+                        "seriesDate": "1912",
+                        "partnership": 68,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JLS Vidler",
+                        "player1Score": 33,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "KA Lister-Kaye",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "IJ Siedle",
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "matches": 2,
+                "runs": 338,
+                "innings": 4,
+                "notOuts": 1,
+                "average": 112.66,
+                "hs": "164*"
+            }
+        ],
+        [
+            {
+                "name": "NS Mitchell-Innes",
+                "team": "Oxford University",
+                "opponents": "South Africans",
+                "matches": 1,
+                "runs": 168,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 168.0,
+                "hs": "168"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "RO Schwarz",
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "balls": 187,
+                "maidens": 8,
+                "runs": 73,
+                "wickets": 12,
+                "bbruns": 41,
+                "bbwickets": 7,
+                "average": 6.08
+            }
+        ],
+        [
+            {
+                "name": "AR Legard",
+                "team": "Oxford University",
+                "opponents": "South Africans",
+                "matches": 1,
+                "balls": 366,
+                "maidens": 16,
+                "runs": 167,
+                "wickets": 6,
+                "bbruns": 114,
+                "bbwickets": 5,
+                "average": 27.83
+            },
+            {
+                "name": "EM Wellings",
+                "team": "Oxford University",
+                "opponents": "South Africans",
+                "matches": 1,
+                "balls": 377,
+                "maidens": 17,
+                "runs": 135,
+                "wickets": 6,
+                "bbruns": 81,
+                "bbwickets": 4,
+                "average": 22.5
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "CAR Duckworth",
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "TGL Ballance",
+                "team": "Oxford University",
+                "opponents": "South Africans",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "CAR Duckworth",
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "DM Ovenstone",
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "CD Robinson",
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "EA van der Merwe",
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "TA Ward",
+                "team": "South Africans",
+                "opponents": "Oxford University",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "ET Benson",
+                "team": "Oxford University",
+                "opponents": "South Africans",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "AB Harcourt",
+                "team": "Oxford University",
+                "opponents": "South Africans",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "PJ Whitcombe",
+                "team": "Oxford University",
+                "opponents": "South Africans",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "South Africans",
+                    "opponents": "Oxford University",
+                    "total": 179,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Magdalen Ground, Oxford",
+                    "seriesDate": "1912"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "South Africans",
+                    "opponents": "Oxford University",
+                    "total": 179,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Magdalen Ground, Oxford",
+                    "seriesDate": "1912"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "South Africans",
+                    "opponents": "Oxford University",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1924"
+                },
+                {
+                    "team": "South Africans",
+                    "opponents": "Oxford University",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "The University Parks, Oxford",
+                    "seriesDate": "1960"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "South Africans",
+                    "total": 90,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Christ Church Ground, Oxford",
+                    "seriesDate": "1955"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "South Africans",
+                    "total": 90,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Christ Church Ground, Oxford",
+                    "seriesDate": "1955"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxford University",
+                    "opponents": "South Africans",
+                    "total": 16,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "New College Ground, Oxford",
+                    "seriesDate": "1907"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:01.346684Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

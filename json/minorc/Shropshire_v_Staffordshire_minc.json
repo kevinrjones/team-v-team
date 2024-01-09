@@ -1,0 +1,848 @@
+{
+    "team1": "Shropshire",
+    "team2": "Staffordshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 26,
+        "startDate": "1957-05-15T01:00",
+        "endDate": "1982-06-23T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Shropshire",
+                "opponents": "Staffordshire",
+                "total": 262,
+                "wickets": 4,
+                "declared": true,
+                "location": "Bass Worthington Ground, Burton-on-Trent",
+                "seriesDate": "1981"
+            }
+        ],
+        [
+            {
+                "team": "Staffordshire",
+                "opponents": "Shropshire",
+                "total": 308,
+                "wickets": 10,
+                "declared": false,
+                "location": "Trentham Road, Stoke-on-Trent",
+                "seriesDate": "1958"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "DNF Slade",
+                "team": "Shropshire",
+                "opponents": "Staffordshire",
+                "score": 128,
+                "notOut": true,
+                "location": "Gorway, Walsall",
+                "seriesDate": "1974"
+            }
+        ],
+        [
+            {
+                "name": "PN Gill",
+                "team": "Staffordshire",
+                "opponents": "Shropshire",
+                "score": 122,
+                "notOut": true,
+                "location": "Bass Worthington Ground, Burton-on-Trent",
+                "seriesDate": "1980"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "DS de Silva",
+                "team": "Shropshire",
+                "opponents": "Staffordshire",
+                "wickets": 7,
+                "runs": 62,
+                "location": "Broomfield, Smethwick",
+                "seriesDate": "1982"
+            }
+        ],
+        [
+            {
+                "name": "WE Hollies",
+                "team": "Staffordshire",
+                "opponents": "Shropshire",
+                "wickets": 7,
+                "runs": 35,
+                "location": "London Road, Shrewsbury",
+                "seriesDate": "1958"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "DNF Slade",
+                "team": "Shropshire",
+                "opponents": "Staffordshire",
+                "wickets": 10,
+                "runs": 57,
+                "location": "Gorway, Walsall",
+                "seriesDate": "1976"
+            }
+        ],
+        [
+            {
+                "name": "DH Henson",
+                "team": "Staffordshire",
+                "opponents": "Shropshire",
+                "wickets": 8,
+                "runs": 48,
+                "location": "London Road, Shrewsbury",
+                "seriesDate": "1973"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Staffordshire",
+                        "location": "Bass Worthington Ground, Burton-on-Trent",
+                        "seriesDate": "1981",
+                        "partnership": 153,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "D Williamson",
+                        "player1Score": 62,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JS Johnson",
+                        "player2Score": 108,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Staffordshire",
+                        "location": "London Road, Shrewsbury",
+                        "seriesDate": "1982",
+                        "partnership": 123,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JS Johnson",
+                        "player1Score": 53,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JBR Jones",
+                        "player2Score": 82,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Staffordshire",
+                        "location": "Bass Worthington Ground, Burton-on-Trent",
+                        "seriesDate": "1980",
+                        "partnership": 172,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Staffordshire",
+                        "location": "London Road, Shrewsbury",
+                        "seriesDate": "1973",
+                        "partnership": 79,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Staffordshire",
+                        "location": "Gorway, Walsall",
+                        "seriesDate": "1974",
+                        "partnership": 77,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Staffordshire",
+                        "location": "Trentham Road, Stoke-on-Trent",
+                        "seriesDate": "1958",
+                        "partnership": 63,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Staffordshire",
+                        "location": "Swynnerton Park, Stone",
+                        "seriesDate": "1973",
+                        "partnership": 44,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Staffordshire",
+                        "location": "Trentham Road, Stoke-on-Trent",
+                        "seriesDate": "1958",
+                        "partnership": 84,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Staffordshire",
+                        "location": "Gorway, Walsall",
+                        "seriesDate": "1975",
+                        "partnership": 51,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Shropshire",
+                        "opponents": "Staffordshire",
+                        "location": "Trentham Road, Stoke-on-Trent",
+                        "seriesDate": "1958",
+                        "partnership": 21,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Shropshire",
+                        "location": "Gorway, Walsall",
+                        "seriesDate": "1975",
+                        "partnership": 82,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PN Gill",
+                        "player1Score": 21,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DA Hancock",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Shropshire",
+                        "location": "Grove Ground, Market Drayton",
+                        "seriesDate": "1957",
+                        "partnership": 132,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "FR Bailey",
+                        "player1Score": 63,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "DR Bean",
+                        "player2Score": 70,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    },
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Shropshire",
+                        "location": "Gorway, Walsall",
+                        "seriesDate": "1974",
+                        "partnership": 132,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Shropshire",
+                        "location": "Grove Ground, Market Drayton",
+                        "seriesDate": "1957",
+                        "partnership": 107,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Shropshire",
+                        "location": "Bass Worthington Ground, Burton-on-Trent",
+                        "seriesDate": "1981",
+                        "partnership": 90,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Shropshire",
+                        "location": "Ellesmere College Ground, Ellesmere",
+                        "seriesDate": "1972",
+                        "partnership": 84,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Shropshire",
+                        "location": "Bass Worthington Ground, Burton-on-Trent",
+                        "seriesDate": "1981",
+                        "partnership": 68,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Shropshire",
+                        "location": "Bass Worthington Ground, Burton-on-Trent",
+                        "seriesDate": "1981",
+                        "partnership": 39,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "NJ Archer",
+                        "player1Score": 73,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "DG Nicholls",
+                        "player2Score": 2,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Shropshire",
+                        "location": "Trentham Road, Stoke-on-Trent",
+                        "seriesDate": "1958",
+                        "partnership": 46,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Shropshire",
+                        "location": "Audley Avenue, Newport",
+                        "seriesDate": "1977",
+                        "partnership": 39,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Staffordshire",
+                        "opponents": "Shropshire",
+                        "location": "Orleton Park, Wellington",
+                        "seriesDate": "1981",
+                        "partnership": 45,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "A Griffiths",
+                        "player1Score": 53,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "PR Bagley",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "JS Johnson",
+                "team": "Shropshire",
+                "opponents": "Staffordshire",
+                "matches": 17,
+                "runs": 1137,
+                "innings": 30,
+                "notOuts": 0,
+                "average": 37.9,
+                "hs": "108"
+            }
+        ],
+        [
+            {
+                "name": "PN Gill",
+                "team": "Staffordshire",
+                "opponents": "Shropshire",
+                "matches": 20,
+                "runs": 771,
+                "innings": 35,
+                "notOuts": 1,
+                "average": 22.67,
+                "hs": "122*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JA Smith",
+                "team": "Shropshire",
+                "opponents": "Staffordshire",
+                "matches": 13,
+                "balls": 1722,
+                "maidens": 80,
+                "runs": 766,
+                "wickets": 43,
+                "bbruns": 19,
+                "bbwickets": 4,
+                "average": 17.81
+            }
+        ],
+        [
+            {
+                "name": "MJ Ikin",
+                "team": "Staffordshire",
+                "opponents": "Shropshire",
+                "matches": 16,
+                "balls": 2436,
+                "maidens": 128,
+                "runs": 837,
+                "wickets": 58,
+                "bbruns": 31,
+                "bbwickets": 5,
+                "average": 14.43
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "JS Johnson",
+                "team": "Shropshire",
+                "opponents": "Staffordshire",
+                "matches": 17,
+                "dismissals": 26
+            }
+        ],
+        [
+            {
+                "name": "MR Green",
+                "team": "Staffordshire",
+                "opponents": "Shropshire",
+                "matches": 10,
+                "dismissals": 23
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "GR Cass",
+                "team": "Shropshire",
+                "opponents": "Staffordshire",
+                "matches": 12,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "A Griffiths",
+                "team": "Staffordshire",
+                "opponents": "Shropshire",
+                "matches": 6,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Staffordshire",
+                    "total": 31,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "London Road, Shrewsbury",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Staffordshire",
+                    "total": 31,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "London Road, Shrewsbury",
+                    "seriesDate": "1958"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Shropshire",
+                    "opponents": "Staffordshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Orleton Park, Wellington",
+                    "seriesDate": "1980"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Shropshire",
+                    "total": 65,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "London Road, Shrewsbury",
+                    "seriesDate": "1973"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Shropshire",
+                    "total": 65,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "London Road, Shrewsbury",
+                    "seriesDate": "1973"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Staffordshire",
+                    "opponents": "Shropshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Goodyear Ground, Wolverhampton",
+                    "seriesDate": "1957"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:11:08.989995Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

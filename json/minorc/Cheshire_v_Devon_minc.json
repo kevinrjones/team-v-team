@@ -1,0 +1,881 @@
+{
+    "team1": "Cheshire",
+    "team2": "Devon",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 32,
+        "startDate": "1983-08-23T01:00",
+        "endDate": "2023-08-13T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cheshire",
+                "opponents": "Devon",
+                "total": 366,
+                "wickets": 8,
+                "declared": false,
+                "location": "Booth Park, Toft",
+                "seriesDate": "1989"
+            }
+        ],
+        [
+            {
+                "team": "Devon",
+                "opponents": "Cheshire",
+                "total": 423,
+                "wickets": 9,
+                "declared": false,
+                "location": "Boughton Hall Avenue, Chester",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "AJ Hall",
+                "team": "Cheshire",
+                "opponents": "Devon",
+                "score": 162,
+                "notOut": true,
+                "location": "Boughton Hall Avenue, Chester",
+                "seriesDate": "2007"
+            }
+        ],
+        [
+            {
+                "name": "DF Lye",
+                "team": "Devon",
+                "opponents": "Cheshire",
+                "score": 165,
+                "notOut": false,
+                "location": "Whitehouse Lane, Nantwich",
+                "seriesDate": "2010"
+            },
+            {
+                "name": "JD Horler",
+                "team": "Devon",
+                "opponents": "Cheshire",
+                "score": 165,
+                "notOut": false,
+                "location": "Boughton Hall Avenue, Chester",
+                "seriesDate": "2023"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JA Sutton",
+                "team": "Cheshire",
+                "opponents": "Devon",
+                "wickets": 7,
+                "runs": 47,
+                "location": "South Downs Road, Bowdon",
+                "seriesDate": "1985"
+            }
+        ],
+        [
+            {
+                "name": "C Bradley",
+                "team": "Devon",
+                "opponents": "Cheshire",
+                "wickets": 6,
+                "runs": 31,
+                "location": "The Recreation Ground, Torquay",
+                "seriesDate": "2011"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JFM O'Brien",
+                "team": "Cheshire",
+                "opponents": "Devon",
+                "wickets": 8,
+                "runs": 152,
+                "location": "Walton Lea Road, Warrington",
+                "seriesDate": "1991"
+            }
+        ],
+        [
+            {
+                "name": "PM Roebuck",
+                "team": "Devon",
+                "opponents": "Cheshire",
+                "wickets": 9,
+                "runs": 92,
+                "location": "South Downs Road, Bowdon",
+                "seriesDate": "1999"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Devon",
+                        "location": "South Downs Road, Bowdon",
+                        "seriesDate": "1987",
+                        "partnership": 201,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "IJ Tansley",
+                        "player1Score": 111,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ST Crawley",
+                        "player2Score": 87,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Devon",
+                        "location": "Boughton Hall Avenue, Chester",
+                        "seriesDate": "2007",
+                        "partnership": 287,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "DN Leech",
+                        "player1Score": 119,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "AJ Hall",
+                        "player2Score": 162,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Devon",
+                        "location": "Whitehouse Lane, Nantwich",
+                        "seriesDate": "1983",
+                        "partnership": 171,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Devon",
+                        "location": "The Maer Ground, Exmouth",
+                        "seriesDate": "2008",
+                        "partnership": 120,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DN Leech",
+                        "player1Score": 154,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "JA Duffy",
+                        "player2Score": 87,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Devon",
+                        "location": "The Recreation Ground, Torquay",
+                        "seriesDate": "1984",
+                        "partnership": 123,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "I Cockbain",
+                        "player1Score": 90,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "SC Yates",
+                        "player2Score": 48,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Devon",
+                        "location": "The Fortfield, Sidmouth",
+                        "seriesDate": "2002",
+                        "partnership": 144,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "NA Din",
+                        "player1Score": 96,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "SJ Renshaw",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Devon",
+                        "location": "Boughton Hall Avenue, Chester",
+                        "seriesDate": "2023",
+                        "partnership": 132,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "AM Money",
+                        "player1Score": 102,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "DJ Wainwright",
+                        "player2Score": 67,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Devon",
+                        "location": "Moss Lane, Alderley Edge",
+                        "seriesDate": "2016",
+                        "partnership": 91,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "DJ Lamb",
+                        "player1Score": 66,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JJ Williams",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 98,
+                        "wicket": 8,
+                        "playerDetails": [
+                            {
+                                "team": "Cheshire",
+                                "opponents": "Devon",
+                                "location": "South Downs Road, Bowdon",
+                                "seriesDate": "2013",
+                                "partnership": 26,
+                                "wicket": 8,
+                                "undefeated": true,
+                                "player1Name": "JJ Williams",
+                                "player1Score": 72,
+                                "player1NotOut": true,
+                                "player1Position": 8,
+                                "player2Name": "AJ Syddall",
+                                "player2Score": 2,
+                                "player2NotOut": true,
+                                "player2Position": 9
+                            },
+                            {
+                                "team": "Cheshire",
+                                "opponents": "Devon",
+                                "location": "South Downs Road, Bowdon",
+                                "seriesDate": "2013",
+                                "partnership": 72,
+                                "wicket": 8,
+                                "undefeated": false,
+                                "player1Name": "JJ Williams",
+                                "player1Score": 72,
+                                "player1NotOut": true,
+                                "player1Position": 8,
+                                "player2Name": "DA Woods",
+                                "player2Score": 26,
+                                "player2NotOut": false,
+                                "player2Position": 10
+                            }
+                        ]
+                    }
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Devon",
+                        "location": "Whitehouse Lane, Nantwich",
+                        "seriesDate": "2010",
+                        "partnership": 41,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "DO Berry",
+                        "player1Score": 111,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "JEL Hawley",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cheshire",
+                        "opponents": "Devon",
+                        "location": "The Fortfield, Sidmouth",
+                        "seriesDate": "2017",
+                        "partnership": 57,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WA White",
+                        "player1Score": 88,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "DA Woods",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cheshire",
+                        "location": "The Recreation Ground, Torquay",
+                        "seriesDate": "1996",
+                        "partnership": 135,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HJ Morgan",
+                        "player1Score": 144,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AM Small",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cheshire",
+                        "location": "The Recreation Ground, Bovey Tracey",
+                        "seriesDate": "2000",
+                        "partnership": 243,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cheshire",
+                        "location": "Boughton Hall Avenue, Chester",
+                        "seriesDate": "2007",
+                        "partnership": 124,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cheshire",
+                        "location": "Whitehouse Lane, Nantwich",
+                        "seriesDate": "2010",
+                        "partnership": 260,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DF Lye",
+                        "player1Score": 165,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "ND Hancock",
+                        "player2Score": 161,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cheshire",
+                        "location": "The Recreation Ground, Bovey Tracey",
+                        "seriesDate": "1994",
+                        "partnership": 108,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cheshire",
+                        "location": "Moss Lane, Alderley Edge",
+                        "seriesDate": "2016",
+                        "partnership": 97,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "JFS Dart",
+                        "player1Score": 96,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "ZGG Bess",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cheshire",
+                        "location": "Walton Lea Road, Warrington",
+                        "seriesDate": "1991",
+                        "partnership": 169,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cheshire",
+                        "location": "The Recreation Ground, Bovey Tracey",
+                        "seriesDate": "1994",
+                        "partnership": 54,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "GTJ Townsend",
+                        "player1Score": 31,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "MC Woodman",
+                        "player2Score": 34,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cheshire",
+                        "location": "South Downs Road, Bowdon",
+                        "seriesDate": "1993",
+                        "partnership": 55,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "PM Roebuck",
+                        "player1Score": 44,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "MC Woodman",
+                        "player2Score": 12,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Cheshire",
+                        "location": "The Recreation Ground, Bovey Tracey",
+                        "seriesDate": "2005",
+                        "partnership": 89,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "I Cockbain",
+                "team": "Cheshire",
+                "opponents": "Devon",
+                "matches": 16,
+                "runs": 978,
+                "innings": 28,
+                "notOuts": 2,
+                "average": 37.61,
+                "hs": "119"
+            }
+        ],
+        [
+            {
+                "name": "NA Folland",
+                "team": "Devon",
+                "opponents": "Cheshire",
+                "matches": 15,
+                "runs": 959,
+                "innings": 26,
+                "notOuts": 7,
+                "average": 50.47,
+                "hs": "146"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JFM O'Brien",
+                "team": "Cheshire",
+                "opponents": "Devon",
+                "matches": 8,
+                "balls": 1527,
+                "maidens": 54,
+                "runs": 847,
+                "wickets": 30,
+                "bbruns": 98,
+                "bbwickets": 5,
+                "average": 28.23
+            }
+        ],
+        [
+            {
+                "name": "PM Roebuck",
+                "team": "Devon",
+                "opponents": "Cheshire",
+                "matches": 10,
+                "balls": 1793,
+                "maidens": 104,
+                "runs": 619,
+                "wickets": 35,
+                "bbruns": 47,
+                "bbwickets": 6,
+                "average": 17.68
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "S Bramhall",
+                "team": "Cheshire",
+                "opponents": "Devon",
+                "matches": 10,
+                "dismissals": 14
+            }
+        ],
+        [
+            {
+                "name": "MW Thompson",
+                "team": "Devon",
+                "opponents": "Cheshire",
+                "matches": 6,
+                "dismissals": 15
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "S Bramhall",
+                "team": "Cheshire",
+                "opponents": "Devon",
+                "matches": 10,
+                "dismissals": 11
+            }
+        ],
+        [
+            {
+                "name": "APW Allen",
+                "team": "Devon",
+                "opponents": "Cheshire",
+                "matches": 5,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Devon",
+                    "total": 93,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Fortfield, Sidmouth",
+                    "seriesDate": "2002"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Devon",
+                    "total": 93,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Fortfield, Sidmouth",
+                    "seriesDate": "2002"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cheshire",
+                    "opponents": "Devon",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "South Downs Road, Bowdon",
+                    "seriesDate": "2013"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Devon",
+                    "opponents": "Cheshire",
+                    "total": 60,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Recreation Ground, Torquay",
+                    "seriesDate": "1984"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Cheshire",
+                    "total": 60,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "The Recreation Ground, Torquay",
+                    "seriesDate": "1984"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Cheshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Boughton Hall Avenue, Chester",
+                    "seriesDate": "2023"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:07:39.544506Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

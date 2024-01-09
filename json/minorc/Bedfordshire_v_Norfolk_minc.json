@@ -1,0 +1,880 @@
+{
+    "team1": "Bedfordshire",
+    "team2": "Norfolk",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 55,
+        "startDate": "1907-07-08T00:00",
+        "endDate": "2022-08-14T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bedfordshire",
+                "opponents": "Norfolk",
+                "total": 432,
+                "wickets": 10,
+                "declared": false,
+                "location": "Bedford School Ground, Bedford",
+                "seriesDate": "1908"
+            }
+        ],
+        [
+            {
+                "team": "Norfolk",
+                "opponents": "Bedfordshire",
+                "total": 472,
+                "wickets": 10,
+                "declared": false,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1920"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "LW Thomas",
+                "team": "Bedfordshire",
+                "opponents": "Norfolk",
+                "score": 171,
+                "notOut": false,
+                "location": "Wardown Park, Luton",
+                "seriesDate": "2015"
+            }
+        ],
+        [
+            {
+                "name": "GA Stevens",
+                "team": "Norfolk",
+                "opponents": "Bedfordshire",
+                "score": 222,
+                "notOut": false,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1920"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "GE Wharmby",
+                "team": "Bedfordshire",
+                "opponents": "Norfolk",
+                "wickets": 8,
+                "runs": 67,
+                "location": "County Ground, Lakenham",
+                "seriesDate": "1907"
+            }
+        ],
+        [
+            {
+                "name": "M Falcon",
+                "team": "Norfolk",
+                "opponents": "Bedfordshire",
+                "wickets": 8,
+                "runs": 41,
+                "location": "King Edward VII Grammar School Ground, King's Lynn",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "T Brett",
+                "team": "Bedfordshire",
+                "opponents": "Norfolk",
+                "wickets": 13,
+                "runs": 88,
+                "location": "Manor Park, Horsford",
+                "seriesDate": "2022"
+            }
+        ],
+        [
+            {
+                "name": "C Brown",
+                "team": "Norfolk",
+                "opponents": "Bedfordshire",
+                "wickets": 13,
+                "runs": 118,
+                "location": "Manor Park, Horsford",
+                "seriesDate": "2005"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Norfolk",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2008",
+                        "partnership": 224,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JA Knott",
+                        "player1Score": 112,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RWJ Howitt",
+                        "player2Score": 165,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Norfolk",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "2000",
+                        "partnership": 194,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TW Roberts",
+                        "player1Score": 139,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "A Shankar",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Norfolk",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "2003",
+                        "partnership": 191,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "JA Knott",
+                        "player1Score": 158,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "A Shankar",
+                        "player2Score": 87,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Norfolk",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2017",
+                        "partnership": 161,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JM Kettleborough",
+                        "player1Score": 135,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "AM Reynoldson",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Norfolk",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1908",
+                        "partnership": 138,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GE Wharmby",
+                        "player1Score": 150,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "H Squire",
+                        "player2Score": 67,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Norfolk",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1997",
+                        "partnership": 173,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "AR Roberts",
+                        "player1Score": 142,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "ZA Sher",
+                        "player2Score": 69,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Norfolk",
+                        "location": "King Edward VII Grammar School Ground, King's Lynn",
+                        "seriesDate": "1923",
+                        "partnership": 93,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "ED Dynes",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "H Davidson",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Norfolk",
+                        "location": "Goldington Bury, Bedford",
+                        "seriesDate": "1984",
+                        "partnership": 73,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "KV Jones",
+                        "player1Score": 22,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "K Standring",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Norfolk",
+                        "location": "Goldington Bury, Bedford",
+                        "seriesDate": "1994",
+                        "partnership": 44,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "PD Thomas",
+                        "player1Score": 21,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "K Standring",
+                        "player2Score": 34,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Norfolk",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2008",
+                        "partnership": 81,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JA Knott",
+                        "player1Score": 57,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "WE Sneath",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Bedfordshire",
+                        "location": "Lancot Park, Totternhoe",
+                        "seriesDate": "2006",
+                        "partnership": 282,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "CJ Rogers",
+                        "player1Score": 137,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JM Spelman",
+                        "player2Score": 144,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Bedfordshire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1991",
+                        "partnership": 182,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CJ Rogers",
+                        "player1Score": 107,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "SK Taylor",
+                        "player2Score": 77,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Bedfordshire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1907",
+                        "partnership": 181,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "CE Dunning",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "M Falcon",
+                        "player2Score": 110,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Bedfordshire",
+                        "location": "Bedford School Ground, Bedford",
+                        "seriesDate": "1908",
+                        "partnership": 139,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "L Barratt",
+                        "player1Score": 166,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "B Cozens-Hardy",
+                        "player2Score": 51,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 160,
+                        "wicket": 4,
+                        "playerDetails": [
+                            {
+                                "team": "Norfolk",
+                                "opponents": "Bedfordshire",
+                                "location": "County Ground, Lakenham",
+                                "seriesDate": "1908",
+                                "partnership": 24,
+                                "wicket": 4,
+                                "undefeated": true,
+                                "player1Name": "unknown",
+                                "player1Score": 0,
+                                "player1NotOut": false,
+                                "player1Position": 0,
+                                "player2Name": "unknown",
+                                "player2Score": 0,
+                                "player2NotOut": false,
+                                "player2Position": 0
+                            },
+                            {
+                                "team": "Norfolk",
+                                "opponents": "Bedfordshire",
+                                "location": "County Ground, Lakenham",
+                                "seriesDate": "1908",
+                                "partnership": 136,
+                                "wicket": 4,
+                                "undefeated": false,
+                                "player1Name": "unknown",
+                                "player1Score": 0,
+                                "player1NotOut": false,
+                                "player1Position": 0,
+                                "player2Name": "L Barratt",
+                                "player2Score": 50,
+                                "player2NotOut": false,
+                                "player2Position": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Bedfordshire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1920",
+                        "partnership": 169,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "GA Stevens",
+                        "player1Score": 222,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "GN Scott-Chad",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "2012",
+                        "partnership": 89,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "SS Arthurton",
+                        "player1Score": 158,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "PA Lambert",
+                        "player2Score": 54,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Bedfordshire",
+                        "location": "Bedford County School Ground, Bedford",
+                        "seriesDate": "1912",
+                        "partnership": 136,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "GW Birkbeck",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RW Thurgar",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Bedfordshire",
+                        "location": "Bedford Modern School Ground, Bedford",
+                        "seriesDate": "2009",
+                        "partnership": 115,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "CR Borrett",
+                        "player1Score": 88,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "AM Watson",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Bedfordshire",
+                        "location": "Manor Park, Horsford",
+                        "seriesDate": "2011",
+                        "partnership": 104,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "CJ Rogers",
+                        "player1Score": 172,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "OP Stone",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Norfolk",
+                        "opponents": "Bedfordshire",
+                        "location": "County Ground, Lakenham",
+                        "seriesDate": "1910",
+                        "partnership": 83,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "TC Allsopp",
+                        "player1Score": 69,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "EJ Fulcher",
+                        "player2Score": 49,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "HR Orr",
+                "team": "Bedfordshire",
+                "opponents": "Norfolk",
+                "matches": 14,
+                "runs": 581,
+                "innings": 26,
+                "notOuts": 1,
+                "average": 23.24,
+                "hs": "60"
+            }
+        ],
+        [
+            {
+                "name": "CJ Rogers",
+                "team": "Norfolk",
+                "opponents": "Bedfordshire",
+                "matches": 18,
+                "runs": 1573,
+                "innings": 32,
+                "notOuts": 2,
+                "average": 52.43,
+                "hs": "172"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GE Wharmby",
+                "team": "Bedfordshire",
+                "opponents": "Norfolk",
+                "matches": 12,
+                "balls": 2884,
+                "maidens": 150,
+                "runs": 1098,
+                "wickets": 64,
+                "bbruns": 67,
+                "bbwickets": 8,
+                "average": 17.15
+            }
+        ],
+        [
+            {
+                "name": "M Falcon",
+                "team": "Norfolk",
+                "opponents": "Bedfordshire",
+                "matches": 19,
+                "balls": 2712,
+                "maidens": 112,
+                "runs": 1269,
+                "wickets": 90,
+                "bbruns": 41,
+                "bbwickets": 8,
+                "average": 14.1
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "EE Apthorp",
+                "team": "Bedfordshire",
+                "opponents": "Norfolk",
+                "matches": 15,
+                "dismissals": 32
+            }
+        ],
+        [
+            {
+                "name": "GA Stevens",
+                "team": "Norfolk",
+                "opponents": "Bedfordshire",
+                "matches": 21,
+                "dismissals": 22
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "EE Apthorp",
+                "team": "Bedfordshire",
+                "opponents": "Norfolk",
+                "matches": 15,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "RW Thurgar",
+                "team": "Norfolk",
+                "opponents": "Bedfordshire",
+                "matches": 11,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Norfolk",
+                    "total": 61,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford County School Ground, Bedford",
+                    "seriesDate": "1913"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Norfolk",
+                    "total": 61,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford County School Ground, Bedford",
+                    "seriesDate": "1913"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Norfolk",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lancot Park, Totternhoe",
+                    "seriesDate": "2006"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Bedfordshire",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "WH Allen's Sports Ground, Biddenham",
+                    "seriesDate": "1920"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Bedfordshire",
+                    "total": 80,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "WH Allen's Sports Ground, Biddenham",
+                    "seriesDate": "1920"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Norfolk",
+                    "opponents": "Bedfordshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Bedford School Ground, Bedford",
+                    "seriesDate": "1909"
+                },
+                {
+                    "team": "Norfolk",
+                    "opponents": "Bedfordshire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lancot Park, Totternhoe",
+                    "seriesDate": "2006"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:12.624419Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

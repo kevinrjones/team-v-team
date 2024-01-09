@@ -1,0 +1,878 @@
+{
+    "team1": "Indians",
+    "team2": "Worcestershire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 11,
+        "startDate": "1932-06-18T01:00",
+        "endDate": "2002-07-31T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Indians",
+                "opponents": "Worcestershire",
+                "total": 417,
+                "wickets": 8,
+                "declared": true,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "2002"
+            }
+        ],
+        [
+            {
+                "team": "Worcestershire",
+                "opponents": "Indians",
+                "total": 476,
+                "wickets": 6,
+                "declared": true,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1996"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "SM Gavaskar",
+                "team": "Indians",
+                "opponents": "Worcestershire",
+                "score": 194,
+                "notOut": false,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1971"
+            }
+        ],
+        [
+            {
+                "name": "GA Hick",
+                "team": "Worcestershire",
+                "opponents": "Indians",
+                "score": 215,
+                "notOut": false,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1996"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "L Amar Singh",
+                "team": "Indians",
+                "opponents": "Worcestershire",
+                "wickets": 7,
+                "runs": 78,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1932"
+            }
+        ],
+        [
+            {
+                "name": "RTD Perks",
+                "team": "Worcestershire",
+                "opponents": "Indians",
+                "wickets": 5,
+                "runs": 37,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "L Amar Singh",
+                "team": "Indians",
+                "opponents": "Worcestershire",
+                "wickets": 11,
+                "runs": 137,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1932"
+            }
+        ],
+        [
+            {
+                "name": "RTD Perks",
+                "team": "Worcestershire",
+                "opponents": "Indians",
+                "wickets": 9,
+                "runs": 88,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1936"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1996",
+                        "partnership": 146,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AD Jadeja",
+                        "player1Score": 105,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "V Rathour",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1971",
+                        "partnership": 327,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1996",
+                        "partnership": 124,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1996",
+                        "partnership": 121,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1932",
+                        "partnership": 52,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1986",
+                        "partnership": 87,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 124,
+                        "wicket": 6,
+                        "playerDetails": [
+                            {
+                                "team": "Indians",
+                                "opponents": "Worcestershire",
+                                "location": "County Ground, New Road, Worcester",
+                                "seriesDate": "2002",
+                                "partnership": 78,
+                                "wicket": 6,
+                                "undefeated": true,
+                                "player1Name": "SR Tendulkar",
+                                "player1Score": 169,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "RS Dravid",
+                                "player2Score": 53,
+                                "player2NotOut": true,
+                                "player2Position": 7
+                            },
+                            {
+                                "team": "Indians",
+                                "opponents": "Worcestershire",
+                                "location": "County Ground, New Road, Worcester",
+                                "seriesDate": "2002",
+                                "partnership": 46,
+                                "wicket": 6,
+                                "undefeated": false,
+                                "player1Name": "SR Tendulkar",
+                                "player1Score": 169,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "A Ratra",
+                                "player2Score": 4,
+                                "player2NotOut": false,
+                                "player2Position": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1932",
+                        "partnership": 97,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "2002",
+                        "partnership": 68,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SR Tendulkar",
+                        "player1Score": 169,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "Harbhajan Singh",
+                        "player2Score": 32,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1946",
+                        "partnership": 74,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Worcestershire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1986",
+                        "partnership": 22,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Indians",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1946",
+                        "partnership": 146,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "AP Singleton",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "R Howorth",
+                        "player2Score": 105,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Indians",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1996",
+                        "partnership": 300,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Indians",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1971",
+                        "partnership": 139,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Indians",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1996",
+                        "partnership": 73,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Indians",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1959",
+                        "partnership": 187,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RG Broadbent",
+                        "player1Score": 102,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "G Dews",
+                        "player2Score": 122,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Indians",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1932",
+                        "partnership": 112,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Indians",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1967",
+                        "partnership": 69,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "BL D'Oliveira",
+                        "player1Score": 174,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "R Booth",
+                        "player2Score": 13,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Indians",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1936",
+                        "partnership": 73,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "RHC Human",
+                        "player1Score": 68,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "JS Buller",
+                        "player2Score": 18,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Indians",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1971",
+                        "partnership": 38,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Worcestershire",
+                        "opponents": "Indians",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1946",
+                        "partnership": 12,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "SM Gavaskar",
+                "team": "Indians",
+                "opponents": "Worcestershire",
+                "matches": 3,
+                "runs": 341,
+                "innings": 5,
+                "notOuts": 0,
+                "average": 68.2,
+                "hs": "194"
+            }
+        ],
+        [
+            {
+                "name": "BL D'Oliveira",
+                "team": "Worcestershire",
+                "opponents": "Indians",
+                "matches": 2,
+                "runs": 326,
+                "innings": 3,
+                "notOuts": 2,
+                "average": 326.0,
+                "hs": "174*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "M Nissar",
+                "team": "Indians",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "balls": 508,
+                "maidens": 19,
+                "runs": 228,
+                "wickets": 12,
+                "bbruns": 50,
+                "bbwickets": 5,
+                "average": 19.0
+            }
+        ],
+        [
+            {
+                "name": "RTD Perks",
+                "team": "Worcestershire",
+                "opponents": "Indians",
+                "matches": 2,
+                "balls": 561,
+                "maidens": 24,
+                "runs": 196,
+                "wickets": 16,
+                "bbruns": 37,
+                "bbwickets": 5,
+                "average": 12.25
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "SM Gavaskar",
+                "team": "Indians",
+                "opponents": "Worcestershire",
+                "matches": 3,
+                "dismissals": 5
+            }
+        ],
+        [
+            {
+                "name": "GR Cass",
+                "team": "Worcestershire",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 4
+            },
+            {
+                "name": "DB D'Oliveira",
+                "team": "Worcestershire",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "SMH Kirmani",
+                "team": "Indians",
+                "opponents": "Worcestershire",
+                "matches": 2,
+                "dismissals": 3
+            }
+        ],
+        [
+            {
+                "name": "HG Wilcock",
+                "team": "Worcestershire",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Indians",
+                    "opponents": "Worcestershire",
+                    "total": 150,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1936"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Worcestershire",
+                    "total": 150,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1936"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Worcestershire",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1952"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Indians",
+                    "total": 191,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1946"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Indians",
+                    "total": 191,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1946"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Worcestershire",
+                    "opponents": "Indians",
+                    "total": 56,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1986"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:06:06.911468Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

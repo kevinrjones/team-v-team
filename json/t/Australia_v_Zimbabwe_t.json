@@ -1,0 +1,855 @@
+{
+    "team1": "Australia",
+    "team2": "Zimbabwe",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "t",
+    "matchDto": {
+        "count": 3,
+        "startDate": "1999-10-14T01:00",
+        "endDate": "2003-10-17T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australia",
+                "opponents": "Zimbabwe",
+                "total": 735,
+                "wickets": 6,
+                "declared": true,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2003/04"
+            }
+        ],
+        [
+            {
+                "team": "Zimbabwe",
+                "opponents": "Australia",
+                "total": 321,
+                "wickets": 10,
+                "declared": false,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2003/04"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "ML Hayden",
+                "team": "Australia",
+                "opponents": "Zimbabwe",
+                "score": 380,
+                "notOut": false,
+                "location": "Western Australia Cricket Association Ground, Perth",
+                "seriesDate": "2003/04"
+            }
+        ],
+        [
+            {
+                "name": "SV Carlisle",
+                "team": "Zimbabwe",
+                "opponents": "Australia",
+                "score": 118,
+                "notOut": false,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2003/04"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "SM Katich",
+                "team": "Australia",
+                "opponents": "Zimbabwe",
+                "wickets": 6,
+                "runs": 65,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2003/04"
+            }
+        ],
+        [
+            {
+                "name": "RW Price",
+                "team": "Zimbabwe",
+                "opponents": "Australia",
+                "wickets": 6,
+                "runs": 121,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2003/04"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "SM Katich",
+                "team": "Australia",
+                "opponents": "Zimbabwe",
+                "wickets": 6,
+                "runs": 90,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2003/04"
+            }
+        ],
+        [
+            {
+                "name": "RW Price",
+                "team": "Zimbabwe",
+                "opponents": "Australia",
+                "wickets": 6,
+                "runs": 184,
+                "location": "Sydney Cricket Ground, Sydney",
+                "seriesDate": "2003/04"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Zimbabwe",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2003/04",
+                        "partnership": 43,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JL Langer",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ML Hayden",
+                        "player2Score": 380,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Zimbabwe",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2003/04",
+                        "partnership": 151,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "ML Hayden",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "RT Ponting",
+                        "player2Score": 53,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Zimbabwe",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2003/04",
+                        "partnership": 97,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "ML Hayden",
+                        "player1Score": 380,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DR Martyn",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    },
+                    {
+                        "team": "Australia",
+                        "opponents": "Zimbabwe",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2003/04",
+                        "partnership": 97,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RT Ponting",
+                        "player1Score": 169,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "DR Martyn",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Zimbabwe",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2003/04",
+                        "partnership": 207,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "ML Hayden",
+                        "player1Score": 380,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "SR Waugh",
+                        "player2Score": 78,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Zimbabwe",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2003/04",
+                        "partnership": 96,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DS Lehmann",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "ML Hayden",
+                        "player2Score": 380,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Zimbabwe",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2003/04",
+                        "partnership": 233,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "ML Hayden",
+                        "player1Score": 380,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "AC Gilchrist",
+                        "player2Score": 113,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Zimbabwe",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2003/04",
+                        "partnership": 28,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "SM Katich",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "GB Hogg",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Zimbabwe",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "1999/00",
+                        "partnership": 114,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SR Waugh",
+                        "player1Score": 151,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "DW Fleming",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Zimbabwe",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2003/04",
+                        "partnership": 10,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AJ Bichel",
+                        "player1Score": 5,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "B Lee",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australia",
+                        "opponents": "Zimbabwe",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "1999/00",
+                        "partnership": 24,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "SR Waugh",
+                        "player1Score": 151,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "GD McGrath",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2003/04",
+                        "partnership": 61,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "DD Ebrahim",
+                        "player1Score": 29,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "TR Gripper",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Australia",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "1999/00",
+                        "partnership": 98,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TR Gripper",
+                        "player1Score": 60,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MW Goodwin",
+                        "player2Score": 91,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2003/04",
+                        "partnership": 99,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "MA Vermeulen",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SV Carlisle",
+                        "player2Score": 35,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Australia",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2003/04",
+                        "partnership": 48,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "SV Carlisle",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "CB Wishart",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Australia",
+                        "location": "Harare Sports Club, Harare",
+                        "seriesDate": "1999/00",
+                        "partnership": 70,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "A Flower",
+                        "player1Score": 28,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "NC Johnson",
+                        "player2Score": 75,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Australia",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2003/04",
+                        "partnership": 67,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "SV Carlisle",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "HH Streak",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2003/04",
+                        "partnership": 31,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "T Taibu",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "HH Streak",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2003/04",
+                        "partnership": 83,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SM Ervine",
+                        "player1Score": 53,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "HH Streak",
+                        "player2Score": 71,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Australia",
+                        "location": "Sydney Cricket Ground, Sydney",
+                        "seriesDate": "2003/04",
+                        "partnership": 53,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "AM Blignaut",
+                        "player1Score": 38,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "RW Price",
+                        "player2Score": 20,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Zimbabwe",
+                        "opponents": "Australia",
+                        "location": "Western Australia Cricket Association Ground, Perth",
+                        "seriesDate": "2003/04",
+                        "partnership": 74,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "HH Streak",
+                        "player1Score": 71,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "RW Price",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "ML Hayden",
+                "team": "Australia",
+                "opponents": "Zimbabwe",
+                "matches": 2,
+                "runs": 501,
+                "innings": 3,
+                "notOuts": 1,
+                "average": 250.5,
+                "hs": "380"
+            }
+        ],
+        [
+            {
+                "name": "TR Gripper",
+                "team": "Zimbabwe",
+                "opponents": "Australia",
+                "matches": 3,
+                "runs": 179,
+                "innings": 6,
+                "notOuts": 0,
+                "average": 29.83,
+                "hs": "60"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "AJ Bichel",
+                "team": "Australia",
+                "opponents": "Zimbabwe",
+                "matches": 2,
+                "balls": 556,
+                "maidens": 29,
+                "runs": 255,
+                "wickets": 10,
+                "bbruns": 63,
+                "bbwickets": 4,
+                "average": 25.5
+            }
+        ],
+        [
+            {
+                "name": "HH Streak",
+                "team": "Zimbabwe",
+                "opponents": "Australia",
+                "matches": 3,
+                "balls": 540,
+                "maidens": 18,
+                "runs": 353,
+                "wickets": 7,
+                "bbruns": 93,
+                "bbwickets": 5,
+                "average": 50.42
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "AC Gilchrist",
+                "team": "Australia",
+                "opponents": "Zimbabwe",
+                "matches": 2,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "SV Carlisle",
+                "team": "Zimbabwe",
+                "opponents": "Australia",
+                "matches": 2,
+                "dismissals": 3
+            },
+            {
+                "name": "A Flower",
+                "team": "Zimbabwe",
+                "opponents": "Australia",
+                "matches": 1,
+                "dismissals": 3
+            },
+            {
+                "name": "NC Johnson",
+                "team": "Zimbabwe",
+                "opponents": "Australia",
+                "matches": 1,
+                "dismissals": 3
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "AC Gilchrist",
+                "team": "Australia",
+                "opponents": "Zimbabwe",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australia",
+                    "opponents": "Zimbabwe",
+                    "total": 403,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "2003/04"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "Zimbabwe",
+                    "total": 403,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sydney Cricket Ground, Sydney",
+                    "seriesDate": "2003/04"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australia",
+                    "opponents": "Zimbabwe",
+                    "total": 5,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Harare Sports Club, Harare",
+                    "seriesDate": "1999/00"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "Australia",
+                    "total": 194,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Harare Sports Club, Harare",
+                    "seriesDate": "1999/00"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "Australia",
+                    "total": 194,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Harare Sports Club, Harare",
+                    "seriesDate": "1999/00"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Zimbabwe",
+                    "opponents": "Australia",
+                    "total": 194,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Harare Sports Club, Harare",
+                    "seriesDate": "1999/00"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:18:48.046289Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

@@ -1,0 +1,902 @@
+{
+    "team1": "Herefordshire",
+    "team2": "Oxfordshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 24,
+        "startDate": "1992-08-16T01:00",
+        "endDate": "2023-07-09T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Herefordshire",
+                "opponents": "Oxfordshire",
+                "total": 382,
+                "wickets": 3,
+                "declared": true,
+                "location": "Ledwell Road, Great Tew",
+                "seriesDate": "2016"
+            }
+        ],
+        [
+            {
+                "team": "Oxfordshire",
+                "opponents": "Herefordshire",
+                "total": 395,
+                "wickets": 10,
+                "declared": false,
+                "location": "White Post Road, Bodicote",
+                "seriesDate": "2010"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "MG Pardoe",
+                "team": "Herefordshire",
+                "opponents": "Oxfordshire",
+                "score": 167,
+                "notOut": true,
+                "location": "Ledwell Road, Great Tew",
+                "seriesDate": "2016"
+            }
+        ],
+        [
+            {
+                "name": "RJ Williams",
+                "team": "Oxfordshire",
+                "opponents": "Herefordshire",
+                "score": 197,
+                "notOut": true,
+                "location": "Vicarage Hill, East Challow",
+                "seriesDate": "2007"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "J Khalid",
+                "team": "Herefordshire",
+                "opponents": "Oxfordshire",
+                "wickets": 7,
+                "runs": 32,
+                "location": "Mortimer Park, Kingsland",
+                "seriesDate": "2006"
+            }
+        ],
+        [
+            {
+                "name": "KA Arnold",
+                "team": "Oxfordshire",
+                "opponents": "Herefordshire",
+                "wickets": 9,
+                "runs": 19,
+                "location": "Church Meadow, Thame",
+                "seriesDate": "2000"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "KE Cooper",
+                "team": "Herefordshire",
+                "opponents": "Oxfordshire",
+                "wickets": 10,
+                "runs": 115,
+                "location": "White Post Road, Bodicote",
+                "seriesDate": "2001"
+            }
+        ],
+        [
+            {
+                "name": "KA Arnold",
+                "team": "Oxfordshire",
+                "opponents": "Herefordshire",
+                "wickets": 15,
+                "runs": 76,
+                "location": "Church Meadow, Thame",
+                "seriesDate": "2000"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Ledwell Road, Great Tew",
+                        "seriesDate": "2016",
+                        "partnership": 262,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MG Pardoe",
+                        "player1Score": 167,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "WAR Fraine",
+                        "player2Score": 123,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2010",
+                        "partnership": 124,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CR Wood",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "SJ Adshead",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    },
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Clenchers Mill Lane, Eastnor",
+                        "seriesDate": "2023",
+                        "partnership": 124,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "CI Smith",
+                        "player1Score": 78,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "OG Rogoff",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2013",
+                        "partnership": 134,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "BL Wadlan",
+                        "player1Score": 53,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CAM Walker",
+                        "player2Score": 80,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Akeman Street, Chesterton",
+                        "seriesDate": "2004",
+                        "partnership": 216,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "CW Boroughs",
+                        "player1Score": 142,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "MJ Rawnsley",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 217,
+                        "wicket": 4,
+                        "playerDetails": [
+                            {
+                                "team": "Herefordshire",
+                                "opponents": "Oxfordshire",
+                                "location": "Akeman Street, Chesterton",
+                                "seriesDate": "2004",
+                                "partnership": 216,
+                                "wicket": 4,
+                                "undefeated": false,
+                                "player1Name": "CW Boroughs",
+                                "player1Score": 142,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "MJ Rawnsley",
+                                "player2Score": 81,
+                                "player2NotOut": false,
+                                "player2Position": 6
+                            },
+                            {
+                                "team": "Herefordshire",
+                                "opponents": "Oxfordshire",
+                                "location": "Akeman Street, Chesterton",
+                                "seriesDate": "2004",
+                                "partnership": 1,
+                                "wicket": 4,
+                                "undefeated": true,
+                                "player1Name": "CW Boroughs",
+                                "player1Score": 142,
+                                "player1NotOut": false,
+                                "player1Position": 4,
+                                "player2Name": "DJR Exall",
+                                "player2Score": 35,
+                                "player2NotOut": true,
+                                "player2Position": 5
+                            }
+                        ]
+                    }
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Vicarage Hill, East Challow",
+                        "seriesDate": "2007",
+                        "partnership": 114,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HV Patel",
+                        "player1Score": 90,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DJR Exall",
+                        "player2Score": 94,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2010",
+                        "partnership": 91,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "Atiq Chishti",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "EJ Baylis",
+                        "player2Score": 55,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Stowe Lane, Colwall",
+                        "seriesDate": "2003",
+                        "partnership": 105,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "CW Boroughs",
+                        "player1Score": 134,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "MJ McCague",
+                        "player2Score": 52,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2013",
+                        "partnership": 47,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "Mohammed Pardesi",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "WJM Barrett",
+                        "player2Score": 23,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Stowe Lane, Colwall",
+                        "seriesDate": "2009",
+                        "partnership": 37,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "ID Stevenson",
+                        "player1Score": 25,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "AP Sutton",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Herefordshire",
+                        "opponents": "Oxfordshire",
+                        "location": "Vicarage Hill, East Challow",
+                        "seriesDate": "2007",
+                        "partnership": 52,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JL Tingle",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "AM Nahorniak",
+                        "player2Score": 14,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Herefordshire",
+                        "location": "The Parks, Brockhampton",
+                        "seriesDate": "2015",
+                        "partnership": 137,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HRH Darby",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "HD Ward",
+                        "player2Score": 109,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Herefordshire",
+                        "location": "Mortimer Park, Kingsland",
+                        "seriesDate": "2006",
+                        "partnership": 184,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JP Hewitt",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "CA Smith",
+                        "player2Score": 114,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Herefordshire",
+                        "location": "Stowe Lane, Colwall",
+                        "seriesDate": "2003",
+                        "partnership": 141,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "RM Eason",
+                        "player1Score": 90,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "JM Cook",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Herefordshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2001",
+                        "partnership": 125,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Herefordshire",
+                        "location": "Ledwell Road, Great Tew",
+                        "seriesDate": "2016",
+                        "partnership": 105,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "HRH Darby",
+                        "player1Score": 166,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JA White",
+                        "player2Score": 42,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Herefordshire",
+                        "location": "The Parks, Brockhampton",
+                        "seriesDate": "2012",
+                        "partnership": 143,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "JA Cater",
+                        "player1Score": 106,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "CP Watling",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Herefordshire",
+                        "location": "Church Meadow, Thame",
+                        "seriesDate": "2022",
+                        "partnership": 143,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "LT Maslen",
+                        "player1Score": 108,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "OC Currill",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Herefordshire",
+                        "location": "White Post Road, Bodicote",
+                        "seriesDate": "2001",
+                        "partnership": 59,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "TD Smith",
+                        "player1Score": 41,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "KA Arnold",
+                        "player2Score": 38,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Herefordshire",
+                        "location": "The Parks, Brockhampton",
+                        "seriesDate": "2015",
+                        "partnership": 79,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "LC Ryan",
+                        "player1Score": 58,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "KW Penhale",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Oxfordshire",
+                        "opponents": "Herefordshire",
+                        "location": "The Parks, Brockhampton",
+                        "seriesDate": "2012",
+                        "partnership": 56,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "CB Keegan",
+                        "player1Score": 26,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "AR Blanchard",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "CW Boroughs",
+                "team": "Herefordshire",
+                "opponents": "Oxfordshire",
+                "matches": 11,
+                "runs": 642,
+                "innings": 21,
+                "notOuts": 1,
+                "average": 32.1,
+                "hs": "142"
+            }
+        ],
+        [
+            {
+                "name": "RI Kaufman",
+                "team": "Oxfordshire",
+                "opponents": "Herefordshire",
+                "matches": 5,
+                "runs": 426,
+                "innings": 10,
+                "notOuts": 1,
+                "average": 47.33,
+                "hs": "90"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "KE Cooper",
+                "team": "Herefordshire",
+                "opponents": "Oxfordshire",
+                "matches": 5,
+                "balls": 1022,
+                "maidens": 54,
+                "runs": 345,
+                "wickets": 24,
+                "bbruns": 35,
+                "bbwickets": 5,
+                "average": 14.37
+            }
+        ],
+        [
+            {
+                "name": "KA Arnold",
+                "team": "Oxfordshire",
+                "opponents": "Herefordshire",
+                "matches": 14,
+                "balls": 2507,
+                "maidens": 105,
+                "runs": 1134,
+                "wickets": 61,
+                "bbruns": 19,
+                "bbwickets": 9,
+                "average": 18.59
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "I Dawood",
+                "team": "Herefordshire",
+                "opponents": "Oxfordshire",
+                "matches": 3,
+                "dismissals": 11
+            }
+        ],
+        [
+            {
+                "name": "JA Cater",
+                "team": "Oxfordshire",
+                "opponents": "Herefordshire",
+                "matches": 6,
+                "dismissals": 19
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "SR Bevins",
+                "team": "Herefordshire",
+                "opponents": "Oxfordshire",
+                "matches": 4,
+                "dismissals": 2
+            },
+            {
+                "name": "AG Milton",
+                "team": "Herefordshire",
+                "opponents": "Oxfordshire",
+                "matches": 1,
+                "dismissals": 2
+            },
+            {
+                "name": "CCF Powell",
+                "team": "Herefordshire",
+                "opponents": "Oxfordshire",
+                "matches": 2,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "IA Hawtin",
+                "team": "Oxfordshire",
+                "opponents": "Herefordshire",
+                "matches": 9,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Herefordshire",
+                    "opponents": "Oxfordshire",
+                    "total": 78,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Akeman Street, Chesterton",
+                    "seriesDate": "2004"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Herefordshire",
+                    "opponents": "Oxfordshire",
+                    "total": 78,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Akeman Street, Chesterton",
+                    "seriesDate": "2004"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Herefordshire",
+                    "opponents": "Oxfordshire",
+                    "total": 58,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Clenchers Mill Lane, Eastnor",
+                    "seriesDate": "2023"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Herefordshire",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Rover Cowley Sports and Social Club Ground, Cowley",
+                    "seriesDate": "1996"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Herefordshire",
+                    "total": 76,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Rover Cowley Sports and Social Club Ground, Cowley",
+                    "seriesDate": "1996"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Oxfordshire",
+                    "opponents": "Herefordshire",
+                    "total": 27,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Church Meadow, Thame",
+                    "seriesDate": "2000"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:09:41.157581Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

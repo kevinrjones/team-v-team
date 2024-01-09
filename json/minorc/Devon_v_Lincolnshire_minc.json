@@ -1,0 +1,835 @@
+{
+    "team1": "Devon",
+    "team2": "Lincolnshire",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 2,
+        "startDate": "1995-09-10T01:00",
+        "endDate": "2003-09-07T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Chris Keywood",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "total": 371,
+                "wickets": 3,
+                "declared": false,
+                "location": "Sports Ground, Cleethorpes",
+                "seriesDate": "2003"
+            }
+        ],
+        [
+            {
+                "team": "Lincolnshire",
+                "opponents": "Devon",
+                "total": 270,
+                "wickets": 6,
+                "declared": false,
+                "location": "Sports Ground, Cleethorpes",
+                "seriesDate": "2003"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "NR Gaywood",
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "score": 138,
+                "notOut": true,
+                "location": "County Ground, New Road, Worcester",
+                "seriesDate": "1995"
+            }
+        ],
+        [
+            {
+                "name": "PR Pollard",
+                "team": "Lincolnshire",
+                "opponents": "Devon",
+                "score": 85,
+                "notOut": true,
+                "location": "Sports Ground, Cleethorpes",
+                "seriesDate": "2003"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "IE Bishop",
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "wickets": 4,
+                "runs": 88,
+                "location": "Sports Ground, Cleethorpes",
+                "seriesDate": "2003"
+            }
+        ],
+        [
+            {
+                "name": "EJ Wilson",
+                "team": "Lincolnshire",
+                "opponents": "Devon",
+                "wickets": 4,
+                "runs": 24,
+                "location": "Sports Ground, Cleethorpes",
+                "seriesDate": "2003"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "IE Bishop",
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "wickets": 5,
+                "runs": 137,
+                "location": "Sports Ground, Cleethorpes",
+                "seriesDate": "2003"
+            }
+        ],
+        [
+            {
+                "name": "EJ Wilson",
+                "team": "Lincolnshire",
+                "opponents": "Devon",
+                "wickets": 5,
+                "runs": 65,
+                "location": "Sports Ground, Cleethorpes",
+                "seriesDate": "2003"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Lincolnshire",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 153,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "MP Hunt",
+                        "player1Score": 94,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "RJ Foan",
+                        "player2Score": 84,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Lincolnshire",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 48,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "MP Hunt",
+                        "player1Score": 94,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "RI Dawson",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Lincolnshire",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1995",
+                        "partnership": 86,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "NR Gaywood",
+                        "player1Score": 138,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "GTJ Townsend",
+                        "player2Score": 35,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Lincolnshire",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 106,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "MP Hunt",
+                        "player1Score": 94,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "CM Mole",
+                        "player2Score": 57,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Lincolnshire",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 13,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MP Hunt",
+                        "player1Score": 40,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DF Lye",
+                        "player2Score": 3,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Lincolnshire",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 10,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "MP Hunt",
+                        "player1Score": 40,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DG Court",
+                        "player2Score": 10,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Lincolnshire",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 12,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "MP Hunt",
+                        "player1Score": 40,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RJ Newman",
+                        "player2Score": 4,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Lincolnshire",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 19,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "MP Hunt",
+                        "player1Score": 40,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DJ Burke",
+                        "player2Score": 8,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Lincolnshire",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 3,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "IE Bishop",
+                        "player1Score": 2,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "MP Hunt",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Devon",
+                        "opponents": "Lincolnshire",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 6,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "IE Bishop",
+                        "player1Score": 2,
+                        "player1NotOut": false,
+                        "player1Position": 10,
+                        "player2Name": "A Jones",
+                        "player2Score": 0,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Devon",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 30,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "J Clarke",
+                        "player1Score": 16,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "PR Pollard",
+                        "player2Score": 15,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Devon",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 72,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "PR Pollard",
+                        "player1Score": 85,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "MC Dobson",
+                        "player2Score": 27,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Devon",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 124,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "PR Pollard",
+                        "player1Score": 85,
+                        "player1NotOut": true,
+                        "player1Position": 2,
+                        "player2Name": "MP Dowman",
+                        "player2Score": 70,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Devon",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1995",
+                        "partnership": 70,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RJ Evans",
+                        "player1Score": 42,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "MA Fell",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Devon",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1995",
+                        "partnership": 13,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MA Fell",
+                        "player1Score": 32,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DA Christmas",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Devon",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 107,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "S Webb",
+                        "player1Score": 56,
+                        "player1NotOut": true,
+                        "player1Position": 6,
+                        "player2Name": "OE Burford",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Devon",
+                        "location": "Sports Ground, Cleethorpes",
+                        "seriesDate": "2003",
+                        "partnership": 16,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "DA Christmas",
+                        "player1Score": 8,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "S Webb",
+                        "player2Score": 56,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Devon",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1995",
+                        "partnership": 15,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "AD Towse",
+                        "player1Score": 10,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "SN Warman",
+                        "player2Score": 21,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Lincolnshire",
+                        "opponents": "Devon",
+                        "location": "County Ground, New Road, Worcester",
+                        "seriesDate": "1995",
+                        "partnership": 27,
+                        "wicket": 9,
+                        "undefeated": true,
+                        "player1Name": "SN Warman",
+                        "player1Score": 21,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "SA Bradford",
+                        "player2Score": 10,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "NR Gaywood",
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "matches": 1,
+                "runs": 138,
+                "innings": 1,
+                "notOuts": 1,
+                "average": 0.0,
+                "hs": "138*"
+            }
+        ],
+        [
+            {
+                "name": "MP Dowman",
+                "team": "Lincolnshire",
+                "opponents": "Devon",
+                "matches": 1,
+                "runs": 135,
+                "innings": 2,
+                "notOuts": 1,
+                "average": 135.0,
+                "hs": "70*"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "IE Bishop",
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "matches": 1,
+                "balls": 282,
+                "maidens": 11,
+                "runs": 137,
+                "wickets": 5,
+                "bbruns": 88,
+                "bbwickets": 4,
+                "average": 27.4
+            }
+        ],
+        [
+            {
+                "name": "EJ Wilson",
+                "team": "Lincolnshire",
+                "opponents": "Devon",
+                "matches": 1,
+                "balls": 160,
+                "maidens": 4,
+                "runs": 65,
+                "wickets": 5,
+                "bbruns": 24,
+                "bbwickets": 4,
+                "average": 13.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "DK Boase",
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "DG Court",
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "DF Lye",
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "CM Mole",
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "AJ Pugh",
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "MC Woodman",
+                "team": "Devon",
+                "opponents": "Lincolnshire",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "OE Burford",
+                "team": "Lincolnshire",
+                "opponents": "Devon",
+                "matches": 1,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+        ],
+        [
+            {
+                "name": "OE Burford",
+                "team": "Lincolnshire",
+                "opponents": "Devon",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Devon",
+                    "opponents": "Lincolnshire",
+                    "total": 97,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sports Ground, Cleethorpes",
+                    "seriesDate": "2003"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Lincolnshire",
+                    "total": 97,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sports Ground, Cleethorpes",
+                    "seriesDate": "2003"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Devon",
+                    "opponents": "Lincolnshire",
+                    "total": 97,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Sports Ground, Cleethorpes",
+                    "seriesDate": "2003"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Lincolnshire",
+                    "opponents": "Devon",
+                    "total": 206,
+                    "wickets": 8,
+                    "declared": false,
+                    "location": "County Ground, New Road, Worcester",
+                    "seriesDate": "1995"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Lincolnshire",
+                    "opponents": "Devon",
+                    "total": 202,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Sports Ground, Cleethorpes",
+                    "seriesDate": "2003"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:37.706435Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

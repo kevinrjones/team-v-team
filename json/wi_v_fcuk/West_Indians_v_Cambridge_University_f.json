@@ -1,0 +1,863 @@
+{
+    "team1": "West Indians",
+    "team2": "Cambridge University",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 8,
+        "startDate": "1923-05-19T01:00",
+        "endDate": "1966-05-21T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "West Indians",
+                "opponents": "Cambridge University",
+                "total": 730,
+                "wickets": 3,
+                "declared": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "team": "Cambridge University",
+                "opponents": "West Indians",
+                "total": 594,
+                "wickets": 4,
+                "declared": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1950"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "ED Weekes",
+                "team": "West Indians",
+                "opponents": "Cambridge University",
+                "score": 304,
+                "notOut": true,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1950"
+            }
+        ],
+        [
+            {
+                "name": "DS Sheppard",
+                "team": "Cambridge University",
+                "opponents": "West Indians",
+                "score": 227,
+                "notOut": false,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1950"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "DAJ Holford",
+                "team": "West Indians",
+                "opponents": "Cambridge University",
+                "wickets": 8,
+                "runs": 52,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1966"
+            }
+        ],
+        [
+            {
+                "name": "PA Wright",
+                "team": "Cambridge University",
+                "opponents": "West Indians",
+                "wickets": 6,
+                "runs": 37,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "DAJ Holford",
+                "team": "West Indians",
+                "opponents": "Cambridge University",
+                "wickets": 12,
+                "runs": 115,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1966"
+            }
+        ],
+        [
+            {
+                "name": "PA Wright",
+                "team": "Cambridge University",
+                "opponents": "West Indians",
+                "wickets": 10,
+                "runs": 92,
+                "location": "FP Fenner's Ground, Cambridge",
+                "seriesDate": "1923"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 178,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RJ Christiani",
+                        "player1Score": 111,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JB Stollmeyer",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1957",
+                        "partnership": 205,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 350,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "FMM Worrell",
+                        "player1Score": 160,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "ED Weekes",
+                        "player2Score": 304,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 167,
+                        "wicket": 4,
+                        "undefeated": true,
+                        "player1Name": "ED Weekes",
+                        "player1Score": 304,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "KB Trestrail",
+                        "player2Score": 56,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1966",
+                        "partnership": 122,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1966",
+                        "partnership": 71,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1939",
+                        "partnership": 31,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1963",
+                        "partnership": 74,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1928",
+                        "partnership": 92,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "West Indians",
+                        "opponents": "Cambridge University",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1963",
+                        "partnership": 61,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "LA King",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 11,
+                        "player2Name": "WW Hall",
+                        "player2Score": 102,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "West Indians",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 343,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JG Dewes",
+                        "player1Score": 183,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "DS Sheppard",
+                        "player2Score": 227,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "West Indians",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 144,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "DS Sheppard",
+                        "player1Score": 227,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "GHG Doggart",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "West Indians",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1957",
+                        "partnership": 80,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "West Indians",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1933",
+                        "partnership": 66,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "West Indians",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1950",
+                        "partnership": 84,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "PBH May",
+                        "player1Score": 44,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "MH Stevenson",
+                        "player2Score": 53,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "West Indians",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1966",
+                        "partnership": 92,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "West Indians",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1957",
+                        "partnership": 44,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "West Indians",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1939",
+                        "partnership": 33,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "West Indians",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1933",
+                        "partnership": 25,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cambridge University",
+                        "opponents": "West Indians",
+                        "location": "FP Fenner's Ground, Cambridge",
+                        "seriesDate": "1963",
+                        "partnership": 36,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "ED Weekes",
+                "team": "West Indians",
+                "opponents": "Cambridge University",
+                "matches": 1,
+                "runs": 304,
+                "innings": 1,
+                "notOuts": 1,
+                "average": 0.0,
+                "hs": "304*"
+            }
+        ],
+        [
+            {
+                "name": "DS Sheppard",
+                "team": "Cambridge University",
+                "opponents": "West Indians",
+                "matches": 1,
+                "runs": 227,
+                "innings": 1,
+                "notOuts": 0,
+                "average": 227.0,
+                "hs": "227"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "LN Constantine",
+                "team": "West Indians",
+                "opponents": "Cambridge University",
+                "matches": 3,
+                "balls": 529,
+                "maidens": 15,
+                "runs": 273,
+                "wickets": 21,
+                "bbruns": 35,
+                "bbwickets": 5,
+                "average": 13.0
+            }
+        ],
+        [
+            {
+                "name": "PA Wright",
+                "team": "Cambridge University",
+                "opponents": "West Indians",
+                "matches": 1,
+                "balls": 186,
+                "maidens": 6,
+                "runs": 92,
+                "wickets": 10,
+                "bbruns": 37,
+                "bbwickets": 6,
+                "average": 9.2
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "RS Grant",
+                "team": "West Indians",
+                "opponents": "Cambridge University",
+                "matches": 2,
+                "dismissals": 6
+            }
+        ],
+        [
+            {
+                "name": "CT Bennett",
+                "team": "Cambridge University",
+                "opponents": "West Indians",
+                "matches": 1,
+                "dismissals": 4
+            },
+            {
+                "name": "DL Murray",
+                "team": "Cambridge University",
+                "opponents": "West Indians",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "GAR Dewhurst",
+                "team": "West Indians",
+                "opponents": "Cambridge University",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "T Martin",
+                "team": "Cambridge University",
+                "opponents": "West Indians",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "NB Sherwell",
+                "team": "Cambridge University",
+                "opponents": "West Indians",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Cambridge University",
+                    "total": 117,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1923"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Cambridge University",
+                    "total": 117,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1923"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "West Indians",
+                    "opponents": "Cambridge University",
+                    "total": 7,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1933"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "West Indians",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1933"
+                },
+                {
+                    "team": "Cambridge University",
+                    "opponents": "West Indians",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1963"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "West Indians",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1933"
+                },
+                {
+                    "team": "Cambridge University",
+                    "opponents": "West Indians",
+                    "total": 104,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1963"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cambridge University",
+                    "opponents": "West Indians",
+                    "total": 89,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "FP Fenner's Ground, Cambridge",
+                    "seriesDate": "1923"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:42.464790Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

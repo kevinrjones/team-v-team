@@ -1,0 +1,874 @@
+{
+    "team1": "Bedfordshire",
+    "team2": "Durham",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 15,
+        "startDate": "1904-08-15T00:00",
+        "endDate": "1991-07-14T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Bedfordshire",
+                "opponents": "Durham",
+                "total": 238,
+                "wickets": 6,
+                "declared": true,
+                "location": "Park Drive, Hartlepool",
+                "seriesDate": "1986"
+            }
+        ],
+        [
+            {
+                "team": "Durham",
+                "opponents": "Bedfordshire",
+                "total": 270,
+                "wickets": 6,
+                "declared": true,
+                "location": "Park Drive, Hartlepool",
+                "seriesDate": "1986"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "RDV Knight",
+                "team": "Bedfordshire",
+                "opponents": "Durham",
+                "score": 89,
+                "notOut": false,
+                "location": "Wardown Park, Luton",
+                "seriesDate": "1987"
+            }
+        ],
+        [
+            {
+                "name": "JW Lister",
+                "team": "Durham",
+                "opponents": "Bedfordshire",
+                "score": 132,
+                "notOut": false,
+                "location": "Park Drive, Hartlepool",
+                "seriesDate": "1986"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "GE Wharmby",
+                "team": "Bedfordshire",
+                "opponents": "Durham",
+                "wickets": 8,
+                "runs": 32,
+                "location": "Bedford County School Ground, Bedford",
+                "seriesDate": "1906"
+            }
+        ],
+        [
+            {
+                "name": "G Turnbull",
+                "team": "Durham",
+                "opponents": "Bedfordshire",
+                "wickets": 7,
+                "runs": 44,
+                "location": "Carley Hill Ground, Sunderland",
+                "seriesDate": "1904"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "GE Wharmby",
+                "team": "Bedfordshire",
+                "opponents": "Durham",
+                "wickets": 11,
+                "runs": 76,
+                "location": "Bedford County School Ground, Bedford",
+                "seriesDate": "1906"
+            }
+        ],
+        [
+            {
+                "name": "A Morris",
+                "team": "Durham",
+                "opponents": "Bedfordshire",
+                "wickets": 11,
+                "runs": 84,
+                "location": "Feethams Cricket Ground, Darlington",
+                "seriesDate": "1906"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Durham",
+                        "location": "Bedford County School Ground, Bedford",
+                        "seriesDate": "1905",
+                        "partnership": 81,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "HJJ Hodgkins",
+                        "player1Score": 86,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "G Pollitt",
+                        "player2Score": 53,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    },
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Durham",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1985",
+                        "partnership": 81,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "A Fordham",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "K Gentle",
+                        "player2Score": 72,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Durham",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1989",
+                        "partnership": 96,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "PDB Hoare",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "MR Gouldstone",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Durham",
+                        "location": "Carley Hill Ground, Sunderland",
+                        "seriesDate": "1904",
+                        "partnership": 62,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "HJJ Hodgkins",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "RW Rice",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Durham",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1987",
+                        "partnership": 95,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "RDV Knight",
+                        "player1Score": 89,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "M Morgan",
+                        "player2Score": 39,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Durham",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1983",
+                        "partnership": 94,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "AS Pearson",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "AR Wagner",
+                        "player2Score": 55,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Durham",
+                        "location": "Park Drive, Hartlepool",
+                        "seriesDate": "1986",
+                        "partnership": 55,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "JR Wake",
+                        "player1Score": 4,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "KV Jones",
+                        "player2Score": 65,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Durham",
+                        "location": "Carley Hill Ground, Sunderland",
+                        "seriesDate": "1905",
+                        "partnership": 91,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "RW Rice",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "AF Morcom",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Durham",
+                        "location": "Carley Hill Ground, Sunderland",
+                        "seriesDate": "1905",
+                        "partnership": 57,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "RW Rice",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "RH Moss",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Durham",
+                        "location": "Ropery Lane, Chester-le-Street",
+                        "seriesDate": "1990",
+                        "partnership": 29,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "PDB Hoare",
+                        "player1Score": 82,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "GD Sandford",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Bedfordshire",
+                        "opponents": "Durham",
+                        "location": "Feethams Cricket Ground, Darlington",
+                        "seriesDate": "1906",
+                        "partnership": 53,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "F Taylor",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "FW Potter",
+                        "player2Score": 21,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Bedfordshire",
+                        "location": "Park Drive, Hartlepool",
+                        "seriesDate": "1986",
+                        "partnership": 98,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JW Lister",
+                        "player1Score": 132,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "W Johnson",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Bedfordshire",
+                        "location": "Green Lane, Durham",
+                        "seriesDate": "1984",
+                        "partnership": 173,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "DC Jackson",
+                        "player1Score": 111,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "S Greensword",
+                        "player2Score": 77,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Bedfordshire",
+                        "location": "Ropery Lane, Chester-le-Street",
+                        "seriesDate": "1990",
+                        "partnership": 97,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "P Burn",
+                        "player1Score": 71,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "AS Patel",
+                        "player2Score": 61,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1987",
+                        "partnership": 93,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "JW Lister",
+                        "player1Score": 97,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "AS Patel",
+                        "player2Score": 43,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1983",
+                        "partnership": 81,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "SR Atkinson",
+                        "player1Score": 130,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "S Greensword",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Bedfordshire",
+                        "location": "Bedford County School Ground, Bedford",
+                        "seriesDate": "1906",
+                        "partnership": 75,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "TH Heavisides",
+                        "player1Score": 60,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "RH Mallett",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1989",
+                        "partnership": 22,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "NA Riddell",
+                        "player1Score": 58,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "G Clennell",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Bedfordshire",
+                        "location": "Wardown Park, Luton",
+                        "seriesDate": "1989",
+                        "partnership": 41,
+                        "wicket": 8,
+                        "undefeated": true,
+                        "player1Name": "NA Riddell",
+                        "player1Score": 58,
+                        "player1NotOut": true,
+                        "player1Position": 7,
+                        "player2Name": "AR Fothergill",
+                        "player2Score": 2,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Bedfordshire",
+                        "location": "Carley Hill Ground, Sunderland",
+                        "seriesDate": "1904",
+                        "partnership": 56,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "RP Moorsom",
+                        "player1Score": 34,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "J Butler",
+                        "player2Score": 14,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Durham",
+                        "opponents": "Bedfordshire",
+                        "location": "Feethams Cricket Ground, Darlington",
+                        "seriesDate": "1906",
+                        "partnership": 29,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "AH Stoner",
+                        "player1Score": 50,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "J Thackeray",
+                        "player2Score": 6,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "K Gentle",
+                "team": "Bedfordshire",
+                "opponents": "Durham",
+                "matches": 7,
+                "runs": 296,
+                "innings": 14,
+                "notOuts": 0,
+                "average": 21.14,
+                "hs": "72"
+            },
+            {
+                "name": "M Morgan",
+                "team": "Bedfordshire",
+                "opponents": "Durham",
+                "matches": 5,
+                "runs": 296,
+                "innings": 10,
+                "notOuts": 1,
+                "average": 32.88,
+                "hs": "72"
+            }
+        ],
+        [
+            {
+                "name": "NA Riddell",
+                "team": "Durham",
+                "opponents": "Bedfordshire",
+                "matches": 8,
+                "runs": 464,
+                "innings": 15,
+                "notOuts": 2,
+                "average": 35.69,
+                "hs": "91"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "GE Wharmby",
+                "team": "Bedfordshire",
+                "opponents": "Durham",
+                "matches": 6,
+                "balls": 851,
+                "maidens": 32,
+                "runs": 399,
+                "wickets": 29,
+                "bbruns": 32,
+                "bbwickets": 8,
+                "average": 13.75
+            }
+        ],
+        [
+            {
+                "name": "G Turnbull",
+                "team": "Durham",
+                "opponents": "Bedfordshire",
+                "matches": 4,
+                "balls": 900,
+                "maidens": 41,
+                "runs": 330,
+                "wickets": 30,
+                "bbruns": 44,
+                "bbwickets": 7,
+                "average": 11.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "A Fordham",
+                "team": "Bedfordshire",
+                "opponents": "Durham",
+                "matches": 4,
+                "dismissals": 9
+            },
+            {
+                "name": "NS Randall",
+                "team": "Bedfordshire",
+                "opponents": "Durham",
+                "matches": 5,
+                "dismissals": 9
+            }
+        ],
+        [
+            {
+                "name": "AR Fothergill",
+                "team": "Durham",
+                "opponents": "Bedfordshire",
+                "matches": 5,
+                "dismissals": 11
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "EE Apthorp",
+                "team": "Bedfordshire",
+                "opponents": "Durham",
+                "matches": 3,
+                "dismissals": 2
+            },
+            {
+                "name": "NS Randall",
+                "team": "Bedfordshire",
+                "opponents": "Durham",
+                "matches": 5,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "AR Fothergill",
+                "team": "Durham",
+                "opponents": "Bedfordshire",
+                "matches": 5,
+                "dismissals": 8
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Durham",
+                    "total": 70,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford Modern School Ground, Bedford",
+                    "seriesDate": "1904"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Durham",
+                    "total": 70,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford Modern School Ground, Bedford",
+                    "seriesDate": "1904"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Bedfordshire",
+                    "opponents": "Durham",
+                    "total": 70,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford Modern School Ground, Bedford",
+                    "seriesDate": "1904"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Durham",
+                    "opponents": "Bedfordshire",
+                    "total": 98,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford County School Ground, Bedford",
+                    "seriesDate": "1906"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Bedfordshire",
+                    "total": 98,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Bedford County School Ground, Bedford",
+                    "seriesDate": "1906"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Durham",
+                    "opponents": "Bedfordshire",
+                    "total": 24,
+                    "wickets": 2,
+                    "declared": false,
+                    "location": "Feethams Cricket Ground, Darlington",
+                    "seriesDate": "1906"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:58.056776Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

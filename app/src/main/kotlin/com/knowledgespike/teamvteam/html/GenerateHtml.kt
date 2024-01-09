@@ -2,10 +2,10 @@ package com.knowledgespike.teamvteam.html
 
 
 import com.knowledgespike.extensions.*
-import com.knowledgespike.teamvteam.TeamPairHomePagesData
 import com.knowledgespike.teamvteam.daos.*
-import com.knowledgespike.teamvteam.database.TeamPairDetails
 import com.knowledgespike.teamvteam.helpers.getWicket
+import com.knowledgespike.teamvteam.json.TeamPairDetailsData
+import com.knowledgespike.teamvteam.json.TeamPairHomePagesJson
 import com.knowledgespike.teamvteam.logging.LoggerDelegate
 import kotlinx.datetime.toJavaLocalDateTime
 import kotlinx.html.*
@@ -24,90 +24,122 @@ class GenerateHtml {
     private val log by LoggerDelegate()
 
     fun generateTeamVsTeamRecordsPage(
-        teamPairDetails: TeamPairDetails,
-        matchDesignator: String,
-        matchType: String,
-        outputDirectory: String
+        teamPairDetails: TeamPairDetailsData,
+        file: File
     ) {
 
-        val fileName =
-            "${outputDirectory}/${
-                teamPairDetails.teams[0].replace(
-                    " ",
-                    "_"
-                )
-            }_v_${teamPairDetails.teams[1].replace(" ", "_")}_${matchType}.html"
-
-        val file = File(fileName)
         file.parentFile.mkdirs()
 
         val fileWriter = file.writer()
 
         fileWriter.use {
-            generateTeamVTeamHtml(teamPairDetails, matchDesignator, matchType, fileWriter)
+            generateTeamVTeamHtml(teamPairDetails, fileWriter)
         }
-        log.info("Completed: $fileName")
+        log.info("Completed: ${file.name}")
 
     }
 
     fun createTeamPairHomePages(
-        matchType: String,
-        matchDesignator: String,
-        pairsForPage: Map<String, TeamPairHomePagesData>,
-        country: String,
-        gender: String,
-        outputDirectory: String
-
+        teamPairHomePages: TeamPairHomePagesJson,
+        file: File
     ) {
-        // for each entry in the pairsForPage collection generate the HTML for the page
-        // see: http://archive.acscricket.com/records_and_stats/team_v_team_fc/can_fc.html
-        pairsForPage.filter { it.value.shouldHaveOwnPage }.forEach { (teamName, teamPairHomePagesData) ->
-            try {
-                log.debug("createTeamPairHomePages for: {}", teamName)
-                val fileName =
-                    "${outputDirectory}/${teamName.replace(" ", "_")}_${matchType}.html"
-                val file = File(fileName)
-                log.debug("createTeamPairHomePages fileName: {}", fileName)
-                file.parentFile.mkdirs()
 
-                val fileWriter = file.writer()
+        try {
+            val teamName = teamPairHomePages.mainTeamName
+            log.debug("createTeamPairHomePages for: {}", teamName)
+            log.debug("createTeamPairHomePages fileName: {}", file.name)
+            file.parentFile.mkdirs()
 
-                fileWriter.use {
-                    fileWriter.append(virtualHeader)
-                    fileWriter.append("\r\n")
-                    // create entries for each pair
-                    fileWriter.appendHTML().div {
-                        h3 {
-                            +"${teamName}'s $matchDesignator Records"
-                        }
-                        ul {
-                            teamPairHomePagesData.teamPairDetails.forEach { teamPairDetails ->
-                                li {
-                                    log.debug(
-                                        "createTeamPairHomePages, call  generateAnchorForTeamVsTeam for teamName: {}",
-                                        teamName
-                                    )
-                                    generateAnchorForTeamVsTeam(teamName, teamPairDetails, matchType)
-                                }
+            val fileWriter = file.writer()
+
+            fileWriter.use {
+                fileWriter.append(virtualHeader)
+                fileWriter.append("\r\n")
+                // create entries for each pair
+                fileWriter.appendHTML().div {
+                    h3 {
+                        +"${teamName}'s ${teamPairHomePages.matchDesignator} Records"
+                    }
+                    ul {
+                        teamPairHomePages.teamNames.forEach { name ->
+                            li {
+                                log.debug(
+                                    "createTeamPairHomePages, call  generateAnchorForTeamVsTeam for teamName: {}",
+                                    teamName
+                                )
+                                generateAnchorForTeamVsTeam(teamName, name.first, name.second, teamPairHomePages.matchType)
                             }
                         }
-                        log.debug(
-                            "createTeamPairHomePages, call  generateTeamVsTeamFooter for gender: {}, country: {} and matchType: {}",
-                            gender,
-                            country,
-                            matchType
-                        )
-                        generateTeamVsTeamFooter()
                     }
-                    fileWriter.append(virtualFooter)
-                    fileWriter.append("\r\n")
+                        generateTeamVsTeamFooter()
                 }
-            } catch (e: Exception) {
-                log.error("", e)
-                throw e
+                fileWriter.append(virtualFooter)
+                fileWriter.append("\r\n")
             }
+        } catch (e: Exception) {
+            log.error("", e)
+            throw e
         }
     }
+
+//    fun createTeamPairHomePages(
+//        matchType: String,
+//        matchDesignator: String,
+//        pairsForPage: Map<String, TeamPairHomePagesData>,
+//        country: String,
+//        gender: String,
+//        outputDirectory: String
+//
+//    ) {
+//        // for each entry in the pairsForPage collection generate the HTML for the page
+//        // see: http://archive.acscricket.com/records_and_stats/team_v_team_fc/can_fc.html
+//        pairsForPage.filter { it.value.shouldHaveOwnPage }.forEach { (teamName, teamPairHomePagesData) ->
+//            try {
+//                log.debug("createTeamPairHomePages for: {}", teamName)
+//                val fileName =
+//                    "${outputDirectory}/${teamName.replace(" ", "_")}_${matchType}.html"
+//                val file = File(fileName)
+//                log.debug("createTeamPairHomePages fileName: {}", fileName)
+//                file.parentFile.mkdirs()
+//
+//                val fileWriter = file.writer()
+//
+//                fileWriter.use {
+//                    fileWriter.append(virtualHeader)
+//                    fileWriter.append("\r\n")
+//                    // create entries for each pair
+//                    fileWriter.appendHTML().div {
+//                        h3 {
+//                            +"${teamName}'s $matchDesignator Records"
+//                        }
+//                        ul {
+//                            teamPairHomePagesData.teamPairDetails.forEach { teamPairDetails ->
+//                                li {
+//                                    log.debug(
+//                                        "createTeamPairHomePages, call  generateAnchorForTeamVsTeam for teamName: {}",
+//                                        teamName
+//                                    )
+//                                    generateAnchorForTeamVsTeam(teamName, teamPairDetails.team1, teamPairDetails.team2, matchType)
+//                                }
+//                            }
+//                        }
+//                        log.debug(
+//                            "createTeamPairHomePages, call  generateTeamVsTeamFooter for gender: {}, country: {} and matchType: {}",
+//                            gender,
+//                            country,
+//                            matchType
+//                        )
+//                        generateTeamVsTeamFooter()
+//                    }
+//                    fileWriter.append(virtualFooter)
+//                    fileWriter.append("\r\n")
+//                }
+//            } catch (e: Exception) {
+//                log.error("", e)
+//                throw e
+//            }
+//        }
+//    }
 
     fun generateIndexPageForTeamsAndType(
         teamNames: List<String>,
@@ -177,12 +209,10 @@ class GenerateHtml {
     }
 
     // Appendable is any of
-    // BufferedWriter, CharArrayWriter, CharBuffer, FileWriter, FilterWriter, LogStream, OutputStreamWriter,
-    // PipedWriter, PrintStream, PrintWriter, StringBuffer, StringBuilder, StringWriter, Writer
+// BufferedWriter, CharArrayWriter, CharBuffer, FileWriter, FilterWriter, LogStream, OutputStreamWriter,
+// PipedWriter, PrintStream, PrintWriter, StringBuffer, StringBuilder, StringWriter, Writer
     private fun generateTeamVTeamHtml(
-        teamPairDetails: TeamPairDetails,
-        matchDesignator: String,
-        matchType: String,
+        teamPairDetails: TeamPairDetailsData,
         outputStream: Appendable
     ) {
 
@@ -222,9 +252,9 @@ class GenerateHtml {
 
         outputStream.appendHTML().div {
             h3 {
-                +"${teamPairDetails.teams[0]} v ${teamPairDetails.teams[1]} $matchDesignator Records"
+                +"${teamPairDetails.team1} v ${teamPairDetails.team2} ${teamPairDetails.competitionTitle} Records"
             }
-            generateHtml(teamPairDetails, matchType)
+            generateHtml(teamPairDetails, teamPairDetails.competitionSubType)
         }
 
         outputStream.append(virtualFooter)
@@ -233,19 +263,20 @@ class GenerateHtml {
 
     private fun LI.generateAnchorForTeamVsTeam(
         teamName: String,
-        teamPairDetails: TeamPairDetails,
+        team1: String,
+        team2: String,
         matchType: String
     ) {
 
-        val text = if (teamName == teamPairDetails.teams[0]) {
-            "${teamPairDetails.teams[0]} v ${teamPairDetails.teams[1]} "
+        val text = if (teamName == team1) {
+            "${teamName} v ${team2} "
         } else {
-            "${teamPairDetails.teams[1]} v ${teamPairDetails.teams[0]} "
+            "${teamName} v ${team1} "
         }
 
         a(
-            href = "${teamPairDetails.teams[0].replace(" ", "_")}_v_${
-                teamPairDetails.teams[1].replace(
+            href = "${team1.replace(" ", "_")}_v_${
+                team2.replace(
                     " ",
                     "_"
                 )
@@ -255,7 +286,7 @@ class GenerateHtml {
         }
     }
 
-    private fun DIV.generateHtml(teamPairDetails: TeamPairDetails, matchType: String) {
+    private fun DIV.generateHtml(teamPairDetails: TeamPairDetailsData, matchType: String) {
 
 
         table(classes = "numberOfMatchesTable") {
@@ -268,11 +299,13 @@ class GenerateHtml {
                 }
                 td {
                     +"From: "
-                    +DateTimeFormatter.ofPattern("dd MMMM yyyy").format(teamPairDetails.matchDto.startDate.toJavaLocalDateTime())
+                    +DateTimeFormatter.ofPattern("dd MMMM yyyy")
+                        .format(teamPairDetails.matchDto.startDate.toJavaLocalDateTime())
                 }
                 td {
                     +"to: "
-                    +DateTimeFormatter.ofPattern("dd MMMM yyyy").format(teamPairDetails.matchDto.endDate.toJavaLocalDateTime())
+                    +DateTimeFormatter.ofPattern("dd MMMM yyyy")
+                        .format(teamPairDetails.matchDto.endDate.toJavaLocalDateTime())
                 }
                 td(null, "width", columnFiveWidth) {
 
@@ -282,7 +315,10 @@ class GenerateHtml {
         }
 
         for (index in 0..1) {
-            h4 { +teamPairDetails.teams[index] }
+            if (index == 0)
+                h4 { +teamPairDetails.team1 }
+            else
+                h4 { +teamPairDetails.team2 }
             generateSingleMatchDataTable(teamPairDetails, matchType, index)
             generateFowHtml(teamPairDetails.bestFoW[index]) { wicket, teamA, teamB ->
                 log.warn("MatchType: ${matchType}: FOW: wicket $wicket for $teamA vs $teamB has unknown players")
@@ -290,10 +326,10 @@ class GenerateHtml {
             generateOverallDataTable(teamPairDetails, index)
         }
         p { +teamPairDetails.authors.joinToString(", ") }
-        generateRecordPageFooter(teamPairDetails.teams[0], teamPairDetails.teams[1], matchType)
+        generateRecordPageFooter(teamPairDetails.team1, teamPairDetails.team2, matchType)
     }
 
-    private fun DIV.generateOverallDataTable(teamPairDetails: TeamPairDetails, index: Int) {
+    private fun DIV.generateOverallDataTable(teamPairDetails: TeamPairDetailsData, index: Int) {
         generateOverallMostRuns(teamPairDetails, index)
         generateOverallMostWickets(teamPairDetails, index)
         generateOverallMostCatches(teamPairDetails.mostCatchesVsOpposition[index], "Catches")
@@ -301,7 +337,7 @@ class GenerateHtml {
     }
 
     private fun DIV.generateOverallMostRuns(
-        teamPairDetails: TeamPairDetails,
+        teamPairDetails: TeamPairDetailsData,
         index: Int
     ) {
         table {
@@ -365,7 +401,7 @@ class GenerateHtml {
     }
 
     private fun DIV.generateOverallMostWickets(
-        teamPairDetails: TeamPairDetails,
+        teamPairDetails: TeamPairDetailsData,
         index: Int
     ) {
         table {
@@ -481,7 +517,7 @@ class GenerateHtml {
     }
 
     private fun DIV.generateSingleMatchDataTable(
-        teamPairDetails: TeamPairDetails,
+        teamPairDetails: TeamPairDetailsData,
         matchType: String,
         index: Int
     ) {
@@ -525,13 +561,13 @@ class GenerateHtml {
 
     private fun generateBowlingRows(
         table: TABLE,
-        bestBowlingInnings: MutableList<BestBowlingDto>,
-        bestBowlingSRInnings: MutableList<BowlingRatesDto>,
-        bestBowlingSRWithLimitInnings: MutableList<BowlingRatesDto>,
-        bestBowlingERInnings: MutableList<BowlingRatesDto>,
-        bestBowlingERWithQualificationInnings: MutableList<BowlingRatesDto>,
-        worstBowlingERInnings: MutableList<BowlingRatesDto>,
-        worstBowlingERWithLimitInnings: MutableList<BowlingRatesDto>,
+        bestBowlingInnings: List<BestBowlingDto>,
+        bestBowlingSRInnings: List<BowlingRatesDto>,
+        bestBowlingSRWithLimitInnings: List<BowlingRatesDto>,
+        bestBowlingERInnings: List<BowlingRatesDto>,
+        bestBowlingERWithQualificationInnings: List<BowlingRatesDto>,
+        worstBowlingERInnings: List<BowlingRatesDto>,
+        worstBowlingERWithLimitInnings: List<BowlingRatesDto>,
         bestBowlingOversLimit: Int,
     ) {
         table.generateBestBowlingInInningsRow(bestBowlingInnings)
@@ -560,17 +596,17 @@ class GenerateHtml {
 
     private fun generateBattingRows(
         table: TABLE,
-        highestIndividualScores: MutableList<HighestScoreDto>,
-        highestIndividualStrikeRates: MutableList<StrikeRateDto>,
-        highestIndividualStrikeRatesWithLimit: MutableList<StrikeRateDto>,
-        lowestIndividualStrikeRates: MutableList<StrikeRateDto>,
-        lowestIndividualStrikeRatesWithLimit: MutableList<StrikeRateDto>,
+        highestIndividualScores: List<HighestScoreDto>,
+        highestIndividualStrikeRates: List<StrikeRateDto>,
+        highestIndividualStrikeRatesWithLimit: List<StrikeRateDto>,
+        lowestIndividualStrikeRates: List<StrikeRateDto>,
+        lowestIndividualStrikeRatesWithLimit: List<StrikeRateDto>,
         strikeRateRunsLimit: Int,
         strikeRateLowerBallsLimit: Int,
         strikeRateUpperBallsLimit: Int,
-        highestIndividualBoundaries: MutableList<BoundariesDto>,
-        highestIndividualSixes: MutableList<BoundariesDto>,
-        highestIndividualFours: MutableList<BoundariesDto>
+        highestIndividualBoundaries: List<BoundariesDto>,
+        highestIndividualSixes: List<BoundariesDto>,
+        highestIndividualFours: List<BoundariesDto>
     ) {
         table.generateMostRunsInInningsRow(highestIndividualScores)
         if (highestIndividualStrikeRates.isNotEmpty()) {
@@ -696,7 +732,7 @@ class GenerateHtml {
 
     private fun TABLE.generateBestBowlingSRInInningsRow(
         title: String,
-        bestBowlingSRInnings: MutableList<BowlingRatesDto>
+        bestBowlingSRInnings: List<BowlingRatesDto>
     ) {
         if (bestBowlingSRInnings.size == 0) {
             tr {
@@ -740,7 +776,7 @@ class GenerateHtml {
 
     private fun TABLE.generateBestBowlingEconRateInInningsRow(
         title: String,
-        bestBowlingERInnings: MutableList<BowlingRatesDto>
+        bestBowlingERInnings: List<BowlingRatesDto>
     ) {
         if (bestBowlingERInnings.size == 0) {
             tr {
@@ -822,7 +858,7 @@ class GenerateHtml {
         }
     }
 
-    private fun TABLE.generateHighestStrikeRateRow(strikeRates: MutableList<StrikeRateDto>, title: String) {
+    private fun TABLE.generateHighestStrikeRateRow(strikeRates: List<StrikeRateDto>, title: String) {
         if (strikeRates.size == 0) {
             tr {
                 td {
@@ -864,7 +900,7 @@ class GenerateHtml {
 
     private fun TABLE.generateHighestBoundariesRow(
         title: String,
-        boundaries: MutableList<BoundariesDto>
+        boundaries: List<BoundariesDto>
     ) {
         if (boundaries.isEmpty() || boundaries[0].boundaries == 0) {
             tr {
@@ -1107,7 +1143,7 @@ class GenerateHtml {
     }
 
     private fun getPlayerScores(name: String, score: Int, isNotOut: Boolean): String {
-        if(name.lowercase() == "unknown") return "[unknown]"
+        if (name.lowercase() == "unknown") return "[unknown]"
         return if (isNotOut) "$name (${score}*)" else "$name (${score})"
     }
 

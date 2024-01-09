@@ -1,0 +1,856 @@
+{
+    "team1": "Australia Women",
+    "team2": "New Zealand Women",
+    "competitionTitle": "Test Matches",
+    "competitionSubType": "wt",
+    "matchDto": {
+        "count": 13,
+        "startDate": "1948-03-20T01:00",
+        "endDate": "1996-02-08T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Australia Women",
+                "opponents": "New Zealand Women",
+                "total": 370,
+                "wickets": 10,
+                "declared": false,
+                "location": "Cornwall Park, Auckland",
+                "seriesDate": "1989/90"
+            }
+        ],
+        [
+            {
+                "team": "New Zealand Women",
+                "opponents": "Australia Women",
+                "total": 359,
+                "wickets": 10,
+                "declared": false,
+                "location": "Basin Reserve, Wellington",
+                "seriesDate": "1974/75"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "SJ Griffiths",
+                "team": "Australia Women",
+                "opponents": "New Zealand Women",
+                "score": 133,
+                "notOut": false,
+                "location": "Cornwall Park, Auckland",
+                "seriesDate": "1989/90"
+            }
+        ],
+        [
+            {
+                "name": "EC Drumm",
+                "team": "New Zealand Women",
+                "opponents": "Australia Women",
+                "score": 161,
+                "notOut": true,
+                "location": "Hagley Oval, Christchurch",
+                "seriesDate": "1994/95"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "LJ Johnston",
+                "team": "Australia Women",
+                "opponents": "New Zealand Women",
+                "wickets": 7,
+                "runs": 24,
+                "location": "St Kilda Cricket Ground, Melbourne",
+                "seriesDate": "1971/72"
+            }
+        ],
+        [
+            {
+                "name": "PF Carrick",
+                "team": "New Zealand Women",
+                "opponents": "Australia Women",
+                "wickets": 6,
+                "runs": 29,
+                "location": "St Kilda Cricket Ground, Melbourne",
+                "seriesDate": "1971/72"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "ER Wilson",
+                "team": "Australia Women",
+                "opponents": "New Zealand Women",
+                "wickets": 10,
+                "runs": 65,
+                "location": "Basin Reserve, Wellington",
+                "seriesDate": "1947/48"
+            }
+        ],
+        [
+            {
+                "name": "J Lord",
+                "team": "New Zealand Women",
+                "opponents": "Australia Women",
+                "wickets": 10,
+                "runs": 137,
+                "location": "Albert Ground, Melbourne",
+                "seriesDate": "1978/79"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "New Zealand Women",
+                        "location": "Hagley Oval, Christchurch",
+                        "seriesDate": "1994/95",
+                        "partnership": 96,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "LM Keightley",
+                        "player1Score": 47,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BJ Clark",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "New Zealand Women",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1947/48",
+                        "partnership": 96,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "AN Hudson",
+                        "player1Score": 46,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "MC Dive",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "New Zealand Women",
+                        "location": "King's College Oval, Adelaide",
+                        "seriesDate": "1956/57",
+                        "partnership": 96,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "LR Dow",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "UL Paisley",
+                        "player2Score": 101,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "New Zealand Women",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1947/48",
+                        "partnership": 163,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "UL Paisley",
+                        "player1Score": 108,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "ER Wilson",
+                        "player2Score": 90,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "New Zealand Women",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1989/90",
+                        "partnership": 62,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "DA Annetts",
+                        "player1Score": 64,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "LA Larsen",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "New Zealand Women",
+                        "location": "University Oval, Sydney",
+                        "seriesDate": "1978/79",
+                        "partnership": 81,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "J Stockton",
+                        "player1Score": 117,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "WJ Hills",
+                        "player2Score": 69,
+                        "player2NotOut": true,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "New Zealand Women",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1974/75",
+                        "partnership": 88,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "L Hill",
+                        "player1Score": 118,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "SA Tredrea",
+                        "player2Score": 45,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "New Zealand Women",
+                        "location": "Cornwall Park, Auckland",
+                        "seriesDate": "1989/90",
+                        "partnership": 181,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "SJ Griffiths",
+                        "player1Score": 133,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "DL Wilson",
+                        "player2Score": 91,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "New Zealand Women",
+                        "location": "Hagley Oval, Christchurch",
+                        "seriesDate": "1989/90",
+                        "partnership": 46,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "KM Brown",
+                        "player1Score": 65,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "J Broadbent",
+                        "player2Score": 36,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Australia Women",
+                        "opponents": "New Zealand Women",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1974/75",
+                        "partnership": 26,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "L Hill",
+                        "player1Score": 118,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "P May",
+                        "player2Score": 17,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand Women",
+                        "opponents": "Australia Women",
+                        "location": "St Kilda Cricket Ground, Melbourne",
+                        "seriesDate": "1971/72",
+                        "partnership": 104,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "JD Doull",
+                        "player1Score": 56,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JE Stead",
+                        "player2Score": 95,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand Women",
+                        "opponents": "Australia Women",
+                        "location": "King's College Oval, Adelaide",
+                        "seriesDate": "1956/57",
+                        "partnership": 78,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "VR Coutts",
+                        "player1Score": 41,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "IJ Powell",
+                        "player2Score": 49,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand Women",
+                        "opponents": "Australia Women",
+                        "location": "Cornwall Park, Auckland",
+                        "seriesDate": "1989/90",
+                        "partnership": 85,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DA Hockley",
+                        "player1Score": 126,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "LJ Murdoch",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand Women",
+                        "opponents": "Australia Women",
+                        "location": "Carisbrook, Dunedin",
+                        "seriesDate": "1960/61",
+                        "partnership": 94,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "IJ Powell",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "RU McKenzie",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand Women",
+                        "opponents": "Australia Women",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1974/75",
+                        "partnership": 80,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "PF McKelvey",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "SJ Rattray",
+                        "player2Score": 59,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand Women",
+                        "opponents": "Australia Women",
+                        "location": "Hagley Oval, Christchurch",
+                        "seriesDate": "1989/90",
+                        "partnership": 83,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "DA Hockley",
+                        "player1Score": 77,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "KV Gunn",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand Women",
+                        "opponents": "Australia Women",
+                        "location": "St Kilda Cricket Ground, Melbourne",
+                        "seriesDate": "1971/72",
+                        "partnership": 42,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "PF Carrick",
+                        "player1Score": 17,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "LM Powell",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand Women",
+                        "opponents": "Australia Women",
+                        "location": "Basin Reserve, Wellington",
+                        "seriesDate": "1974/75",
+                        "partnership": 87,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "CE Marett",
+                        "player1Score": 27,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "JM Saulbrey",
+                        "player2Score": 62,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand Women",
+                        "opponents": "Australia Women",
+                        "location": "Hagley Oval, Christchurch",
+                        "seriesDate": "1989/90",
+                        "partnership": 46,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "BJ Legg",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "CA Campbell",
+                        "player2Score": 29,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "New Zealand Women",
+                        "opponents": "Australia Women",
+                        "location": "Hagley Oval, Christchurch",
+                        "seriesDate": "1994/95",
+                        "partnership": 42,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "CA Campbell",
+                        "player1Score": 6,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "EC Drumm",
+                        "player2Score": 161,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "UL Paisley",
+                "team": "Australia Women",
+                "opponents": "New Zealand Women",
+                "matches": 3,
+                "runs": 229,
+                "innings": 4,
+                "notOuts": 0,
+                "average": 57.25,
+                "hs": "108"
+            }
+        ],
+        [
+            {
+                "name": "BL Bevege",
+                "team": "New Zealand Women",
+                "opponents": "Australia Women",
+                "matches": 4,
+                "runs": 277,
+                "innings": 8,
+                "notOuts": 0,
+                "average": 34.62,
+                "hs": "96"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "SA Tredrea",
+                "team": "Australia Women",
+                "opponents": "New Zealand Women",
+                "matches": 4,
+                "balls": 1251,
+                "maidens": 53,
+                "runs": 388,
+                "wickets": 23,
+                "bbruns": 22,
+                "bbwickets": 4,
+                "average": 16.86
+            }
+        ],
+        [
+            {
+                "name": "J Lord",
+                "team": "New Zealand Women",
+                "opponents": "Australia Women",
+                "matches": 5,
+                "balls": 1337,
+                "maidens": 31,
+                "runs": 510,
+                "wickets": 24,
+                "bbruns": 119,
+                "bbwickets": 6,
+                "average": 21.25
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "C Matthews",
+                "team": "Australia Women",
+                "opponents": "New Zealand Women",
+                "matches": 4,
+                "dismissals": 10
+            }
+        ],
+        [
+            {
+                "name": "EA Badham",
+                "team": "New Zealand Women",
+                "opponents": "Australia Women",
+                "matches": 3,
+                "dismissals": 7
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "MJ Jennings",
+                "team": "Australia Women",
+                "opponents": "New Zealand Women",
+                "matches": 2,
+                "dismissals": 2
+            },
+            {
+                "name": "C Matthews",
+                "team": "Australia Women",
+                "opponents": "New Zealand Women",
+                "matches": 4,
+                "dismissals": 2
+            }
+        ],
+        [
+            {
+                "name": "EM Ryan",
+                "team": "New Zealand Women",
+                "opponents": "Australia Women",
+                "matches": 4,
+                "dismissals": 9
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "New Zealand Women",
+                    "total": 129,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Kilda Cricket Ground, Melbourne",
+                    "seriesDate": "1971/72"
+                },
+                {
+                    "team": "Australia Women",
+                    "opponents": "New Zealand Women",
+                    "total": 129,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Albert Ground, Melbourne",
+                    "seriesDate": "1978/79"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "New Zealand Women",
+                    "total": 129,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Kilda Cricket Ground, Melbourne",
+                    "seriesDate": "1971/72"
+                },
+                {
+                    "team": "Australia Women",
+                    "opponents": "New Zealand Women",
+                    "total": 129,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Albert Ground, Melbourne",
+                    "seriesDate": "1978/79"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Australia Women",
+                    "opponents": "New Zealand Women",
+                    "total": 16,
+                    "wickets": 1,
+                    "declared": false,
+                    "location": "North Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1995/96"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "New Zealand Women",
+                    "opponents": "Australia Women",
+                    "total": 78,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Unley Oval, Adelaide",
+                    "seriesDate": "1978/79"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "New Zealand Women",
+                    "opponents": "Australia Women",
+                    "total": 78,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Unley Oval, Adelaide",
+                    "seriesDate": "1978/79"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "New Zealand Women",
+                    "opponents": "Australia Women",
+                    "total": 0,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "North Melbourne Cricket Ground, Melbourne",
+                    "seriesDate": "1995/96"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:44.949334Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

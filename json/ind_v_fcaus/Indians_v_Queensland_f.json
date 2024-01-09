@@ -1,0 +1,838 @@
+{
+    "team1": "Indians",
+    "team2": "Queensland",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 5,
+        "startDate": "1947-11-21T00:00",
+        "endDate": "1999-11-26T00:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Indians",
+                "opponents": "Queensland",
+                "total": 454,
+                "wickets": 9,
+                "declared": true,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1991/92"
+            }
+        ],
+        [
+            {
+                "team": "Queensland",
+                "opponents": "Indians",
+                "total": 401,
+                "wickets": 10,
+                "declared": false,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1999/00"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "L Amarnath",
+                "team": "Indians",
+                "opponents": "Queensland",
+                "score": 172,
+                "notOut": true,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1947/48"
+            }
+        ],
+        [
+            {
+                "name": "A Symonds",
+                "team": "Queensland",
+                "opponents": "Indians",
+                "score": 161,
+                "notOut": false,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1999/00"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "MH Mankad",
+                "team": "Indians",
+                "opponents": "Queensland",
+                "wickets": 6,
+                "runs": 76,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1947/48"
+            }
+        ],
+        [
+            {
+                "name": "LJ Johnson",
+                "team": "Queensland",
+                "opponents": "Indians",
+                "wickets": 6,
+                "runs": 83,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1947/48"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "BS Bedi",
+                "team": "Indians",
+                "opponents": "Queensland",
+                "wickets": 10,
+                "runs": 73,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1977/78"
+            }
+        ],
+        [
+            {
+                "name": "CL McCool",
+                "team": "Queensland",
+                "opponents": "Indians",
+                "wickets": 8,
+                "runs": 211,
+                "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                "seriesDate": "1947/48"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1947/48",
+                        "partnership": 59,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "KM Rangnekar",
+                        "player1Score": 28,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "Amir Elahi",
+                        "player2Score": 44,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1980/81",
+                        "partnership": 129,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1991/92",
+                        "partnership": 172,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "DB Vengsarkar",
+                        "player1Score": 82,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "M Azharuddin",
+                        "player2Score": 90,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1999/00",
+                        "partnership": 136,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "VVS Laxman",
+                        "player1Score": 113,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SR Tendulkar",
+                        "player2Score": 83,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1980/81",
+                        "partnership": 116,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1947/48",
+                        "partnership": 104,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "L Amarnath",
+                        "player1Score": 172,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "HR Adhikari",
+                        "player2Score": 32,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1991/92",
+                        "partnership": 200,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "Kapil Dev",
+                        "player1Score": 80,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "CS Pandit",
+                        "player2Score": 127,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1947/48",
+                        "partnership": 35,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1947/48",
+                        "partnership": 76,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "L Amarnath",
+                        "player1Score": 172,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "CS Nayudu",
+                        "player2Score": 31,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Indians",
+                        "opponents": "Queensland",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1980/81",
+                        "partnership": 34,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Indians",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1999/00",
+                        "partnership": 82,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "JP Maher",
+                        "player1Score": 20,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "SG Law",
+                        "player2Score": 60,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Indians",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1991/92",
+                        "partnership": 125,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "TJ Barsby",
+                        "player1Score": 83,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "GM Ritchie",
+                        "player2Score": 68,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Indians",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1980/81",
+                        "partnership": 116,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Indians",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1999/00",
+                        "partnership": 204,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "ML Love",
+                        "player1Score": 120,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "A Symonds",
+                        "player2Score": 161,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Indians",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1991/92",
+                        "partnership": 106,
+                        "wicket": 5,
+                        "undefeated": true,
+                        "player1Name": "AR Border",
+                        "player1Score": 85,
+                        "player1NotOut": true,
+                        "player1Position": 4,
+                        "player2Name": "SA Prestwidge",
+                        "player2Score": 48,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Indians",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1947/48",
+                        "partnership": 114,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "VN Raymer",
+                        "player1Score": 52,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "CL McCool",
+                        "player2Score": 101,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Indians",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1980/81",
+                        "partnership": 71,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Indians",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1947/48",
+                        "partnership": 87,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Indians",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1999/00",
+                        "partnership": 31,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "SA Muller",
+                        "player1Score": 15,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "AC Dale",
+                        "player2Score": 24,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Queensland",
+                        "opponents": "Indians",
+                        "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                        "seriesDate": "1999/00",
+                        "partnership": 7,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "SA Muller",
+                        "player1Score": 15,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "MA Anderson",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "DB Vengsarkar",
+                "team": "Indians",
+                "opponents": "Queensland",
+                "matches": 3,
+                "runs": 251,
+                "innings": 5,
+                "notOuts": 1,
+                "average": 62.75,
+                "hs": "82*"
+            }
+        ],
+        [
+            {
+                "name": "GM Ritchie",
+                "team": "Queensland",
+                "opponents": "Indians",
+                "matches": 2,
+                "runs": 250,
+                "innings": 3,
+                "notOuts": 0,
+                "average": 83.33,
+                "hs": "107"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "BS Bedi",
+                "team": "Indians",
+                "opponents": "Queensland",
+                "matches": 1,
+                "balls": 222,
+                "maidens": 5,
+                "runs": 73,
+                "wickets": 10,
+                "bbruns": 35,
+                "bbwickets": 5,
+                "average": 7.3
+            }
+        ],
+        [
+            {
+                "name": "JR Thomson",
+                "team": "Queensland",
+                "opponents": "Indians",
+                "matches": 2,
+                "balls": 300,
+                "maidens": 6,
+                "runs": 177,
+                "wickets": 9,
+                "bbruns": 44,
+                "bbwickets": 3,
+                "average": 19.66
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "PK Sen",
+                "team": "Indians",
+                "opponents": "Queensland",
+                "matches": 1,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "WA Seccombe",
+                "team": "Queensland",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "SMH Kirmani",
+                "team": "Indians",
+                "opponents": "Queensland",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "PW Anderson",
+                "team": "Queensland",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 1
+            },
+            {
+                "name": "WA Seccombe",
+                "team": "Queensland",
+                "opponents": "Indians",
+                "matches": 1,
+                "dismissals": 1
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Indians",
+                    "opponents": "Queensland",
+                    "total": 204,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1999/00"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Queensland",
+                    "total": 204,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1999/00"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Indians",
+                    "opponents": "Queensland",
+                    "total": 177,
+                    "wickets": 2,
+                    "declared": true,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1991/92"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Queensland",
+                    "opponents": "Indians",
+                    "total": 111,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1977/78"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Queensland",
+                    "opponents": "Indians",
+                    "total": 111,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1977/78"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Queensland",
+                    "opponents": "Indians",
+                    "total": 82,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+                    "seriesDate": "1999/00"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:16:30.515685Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

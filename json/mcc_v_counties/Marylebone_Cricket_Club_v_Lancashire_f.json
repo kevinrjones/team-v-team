@@ -1,0 +1,863 @@
+{
+    "team1": "Marylebone Cricket Club",
+    "team2": "Lancashire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 32,
+        "startDate": "1867-06-03T00:00",
+        "endDate": "2012-03-27T01:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Keith Walmsley"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Marylebone Cricket Club",
+                "opponents": "Lancashire",
+                "total": 404,
+                "wickets": 10,
+                "declared": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "team": "Lancashire",
+                "opponents": "Marylebone Cricket Club",
+                "total": 365,
+                "wickets": 6,
+                "declared": true,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1957"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "KS Ranjitsinhji",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Lancashire",
+                "score": 157,
+                "notOut": false,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "name": "A Wharton",
+                "team": "Lancashire",
+                "opponents": "Marylebone Cricket Club",
+                "score": 164,
+                "notOut": false,
+                "location": "Old Trafford, Manchester",
+                "seriesDate": "1957"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JT Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Lancashire",
+                "wickets": 9,
+                "runs": 43,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1894"
+            }
+        ],
+        [
+            {
+                "name": "S Webb",
+                "team": "Lancashire",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 8,
+                "runs": 36,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1902"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "A Rylott",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Lancashire",
+                "wickets": 12,
+                "runs": 57,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1880"
+            }
+        ],
+        [
+            {
+                "name": "AG Steel",
+                "team": "Lancashire",
+                "opponents": "Marylebone Cricket Club",
+                "wickets": 12,
+                "runs": 42,
+                "location": "Lord's Cricket Ground, St John's Wood",
+                "seriesDate": "1878"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1964",
+                        "partnership": 139,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "C Washbrook",
+                        "player1Score": 85,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "JT Ikin",
+                        "player2Score": 79,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1964",
+                        "partnership": 114,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "JT Ikin",
+                        "player1Score": 51,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "DB Close",
+                        "player2Score": 81,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1957",
+                        "partnership": 105,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "DV Smith",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "ER Dexter",
+                        "player2Score": 61,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Lancashire",
+                        "location": "Old Trafford, Manchester",
+                        "seriesDate": "1964",
+                        "partnership": 85,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "DCS Compton",
+                        "player1Score": 59,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "FMM Worrell",
+                        "player2Score": 37,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Lancashire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1897",
+                        "partnership": 95,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "KS Ranjitsinhji",
+                        "player1Score": 157,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "CP Foley",
+                        "player2Score": 40,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    },
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Lancashire",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2011/12",
+                        "partnership": 95,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "MM Ali",
+                        "player1Score": 33,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "ID Blackwell",
+                        "player2Score": 102,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Lancashire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1897",
+                        "partnership": 167,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "MR Jardine",
+                        "player1Score": 85,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "KS Ranjitsinhji",
+                        "player2Score": 157,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Lancashire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1895",
+                        "partnership": 81,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "F Marchant",
+                        "player1Score": 54,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "GA Davidson",
+                        "player2Score": 58,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Lancashire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1890",
+                        "partnership": 92,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "W Flowers",
+                        "player1Score": 44,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "WAJ West",
+                        "player2Score": 74,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Lancashire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1952",
+                        "partnership": 95,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "TE Bailey",
+                        "player1Score": 45,
+                        "player1NotOut": true,
+                        "player1Position": 9,
+                        "player2Name": "BA Barnett",
+                        "player2Score": 57,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Marylebone Cricket Club",
+                        "opponents": "Lancashire",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1884",
+                        "partnership": 49,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "GG Hearne",
+                        "player1Score": 43,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "M Sherwin",
+                        "player2Score": 37,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1895",
+                        "partnership": 79,
+                        "wicket": 1,
+                        "undefeated": true,
+                        "player1Name": "AN Hornby",
+                        "player1Score": 45,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "A Ward",
+                        "player2Score": 34,
+                        "player2NotOut": true,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1885",
+                        "partnership": 188,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "RG Barlow",
+                        "player1Score": 117,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "OP Lancashire",
+                        "player2Score": 76,
+                        "player2NotOut": true,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2011/12",
+                        "partnership": 98,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "PJ Horton",
+                        "player1Score": 58,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "LA Procter",
+                        "player2Score": 47,
+                        "player2NotOut": false,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1896",
+                        "partnership": 87,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "AN Hornby",
+                        "player1Score": 66,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "J I'Anson",
+                        "player2Score": 34,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1887",
+                        "partnership": 103,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "RG Barlow",
+                        "player1Score": 76,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "J Eccles",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1952",
+                        "partnership": 102,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GA Edrich",
+                        "player1Score": 101,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "A Wharton",
+                        "player2Score": 63,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1899",
+                        "partnership": 111,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "A Ward",
+                        "player1Score": 118,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "GR Bardswell",
+                        "player2Score": 56,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Sheikh Zayed Stadium, Abu Dhabi",
+                        "seriesDate": "2011/12",
+                        "partnership": 54,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "GD Cross",
+                        "player1Score": 30,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "G Chapple",
+                        "player2Score": 42,
+                        "player2NotOut": true,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1883",
+                        "partnership": 54,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "A Watson",
+                        "player1Score": 45,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "R Pilling",
+                        "player2Score": 22,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Lancashire",
+                        "opponents": "Marylebone Cricket Club",
+                        "location": "Lord's Cricket Ground, St John's Wood",
+                        "seriesDate": "1885",
+                        "partnership": 32,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "R Pilling",
+                        "player1Score": 2,
+                        "player1NotOut": true,
+                        "player1Position": 11,
+                        "player2Name": "EC Hornby",
+                        "player2Score": 64,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "W Chatterton",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Lancashire",
+                "matches": 8,
+                "runs": 326,
+                "innings": 15,
+                "notOuts": 2,
+                "average": 25.07,
+                "hs": "109*"
+            }
+        ],
+        [
+            {
+                "name": "AN Hornby",
+                "team": "Lancashire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 18,
+                "runs": 734,
+                "innings": 34,
+                "notOuts": 4,
+                "average": 24.46,
+                "hs": "69"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JT Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Lancashire",
+                "matches": 7,
+                "balls": 1616,
+                "maidens": 123,
+                "runs": 594,
+                "wickets": 50,
+                "bbruns": 43,
+                "bbwickets": 9,
+                "average": 11.88
+            }
+        ],
+        [
+            {
+                "name": "A Watson",
+                "team": "Lancashire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 17,
+                "balls": 3947,
+                "maidens": 419,
+                "runs": 1170,
+                "wickets": 89,
+                "bbruns": 59,
+                "bbwickets": 7,
+                "average": 13.14
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "W Flowers",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Lancashire",
+                "matches": 7,
+                "dismissals": 8
+            },
+            {
+                "name": "A Hearne",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Lancashire",
+                "matches": 4,
+                "dismissals": 8
+            },
+            {
+                "name": "M Sherwin",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Lancashire",
+                "matches": 5,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "RG Barlow",
+                "team": "Lancashire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 15,
+                "dismissals": 18
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "EFS Tylecote",
+                "team": "Marylebone Cricket Club",
+                "opponents": "Lancashire",
+                "matches": 2,
+                "dismissals": 4
+            }
+        ],
+        [
+            {
+                "name": "R Pilling",
+                "team": "Lancashire",
+                "opponents": "Marylebone Cricket Club",
+                "matches": 11,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Lancashire",
+                    "total": 30,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1886"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Lancashire",
+                    "total": 30,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1886"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Marylebone Cricket Club",
+                    "opponents": "Lancashire",
+                    "total": 12,
+                    "wickets": 0,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1894"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 49,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1880"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 49,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1880"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Lancashire",
+                    "opponents": "Marylebone Cricket Club",
+                    "total": 49,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "Lord's Cricket Ground, St John's Wood",
+                    "seriesDate": "1880"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:17:31.905944Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

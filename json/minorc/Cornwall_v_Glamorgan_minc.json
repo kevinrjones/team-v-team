@@ -1,0 +1,846 @@
+{
+    "team1": "Cornwall",
+    "team2": "Glamorgan",
+    "competitionTitle": "Minor Counties",
+    "competitionSubType": "minc",
+    "matchDto": {
+        "count": 10,
+        "startDate": "1897-07-22T00:00",
+        "endDate": "1909-08-11T00:00"
+    },
+    "authors": [
+        "Kevin Jones",
+        "Roy New"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Cornwall",
+                "opponents": "Glamorgan",
+                "total": 215,
+                "wickets": 10,
+                "declared": false,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1898"
+            }
+        ],
+        [
+            {
+                "team": "Glamorgan",
+                "opponents": "Cornwall",
+                "total": 356,
+                "wickets": 10,
+                "declared": false,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1909"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "H Martyn",
+                "team": "Cornwall",
+                "opponents": "Glamorgan",
+                "score": 105,
+                "notOut": false,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1898"
+            }
+        ],
+        [
+            {
+                "name": "NVH Riches",
+                "team": "Glamorgan",
+                "opponents": "Cornwall",
+                "score": 120,
+                "notOut": false,
+                "location": "St Helen's, Swansea",
+                "seriesDate": "1909"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "JB Hide",
+                "team": "Cornwall",
+                "opponents": "Glamorgan",
+                "wickets": 8,
+                "runs": 58,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1898"
+            }
+        ],
+        [
+            {
+                "name": "BA Lambert",
+                "team": "Glamorgan",
+                "opponents": "Cornwall",
+                "wickets": 7,
+                "runs": 26,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1897"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "JB Hide",
+                "team": "Cornwall",
+                "opponents": "Glamorgan",
+                "wickets": 14,
+                "runs": 149,
+                "location": "St Helen's, Swansea",
+                "seriesDate": "1897"
+            }
+        ],
+        [
+            {
+                "name": "H Creber",
+                "team": "Glamorgan",
+                "opponents": "Cornwall",
+                "wickets": 12,
+                "runs": 106,
+                "location": "St Clare Ground, Penzance",
+                "seriesDate": "1909"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Glamorgan",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1897",
+                        "partnership": 50,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "PP Tyacke",
+                        "player1Score": 21,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WH Coad",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Glamorgan",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1909",
+                        "partnership": 38,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "H Blackwell",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "BB Bennetts",
+                        "player2Score": 26,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Glamorgan",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1898",
+                        "partnership": 46,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "JBL Jenkin",
+                        "player1Score": 43,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "WH Treweeke",
+                        "player2Score": 39,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1908",
+                        "partnership": 68,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "H Tresawna",
+                        "player1Score": 63,
+                        "player1NotOut": false,
+                        "player1Position": 1,
+                        "player2Name": "WS Tresawna",
+                        "player2Score": 55,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Glamorgan",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1909",
+                        "partnership": 61,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "WH Coad",
+                        "player1Score": 26,
+                        "player1NotOut": false,
+                        "player1Position": 5,
+                        "player2Name": "RF Vibart",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 6
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Glamorgan",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1898",
+                        "partnership": 23,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "GW Gordon-Smith",
+                        "player1Score": 15,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "RH Craze",
+                        "player2Score": 9,
+                        "player2NotOut": false,
+                        "player2Position": 7
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Glamorgan",
+                        "location": "Cardiff Arms Park, Cardiff",
+                        "seriesDate": "1908",
+                        "partnership": 29,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "S Hosking",
+                        "player1Score": 16,
+                        "player1NotOut": false,
+                        "player1Position": 6,
+                        "player2Name": "JD Brewer",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Glamorgan",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1898",
+                        "partnership": 42,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "P Colville Smith",
+                        "player1Score": 17,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "C Trevarthen",
+                        "player2Score": 36,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Glamorgan",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1898",
+                        "partnership": 24,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "C Trevarthen",
+                        "player1Score": 36,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "HH Truscott",
+                        "player2Score": 12,
+                        "player2NotOut": false,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Cornwall",
+                        "opponents": "Glamorgan",
+                        "location": "Tremorvah, Truro",
+                        "seriesDate": "1908",
+                        "partnership": 8,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "WS Boase",
+                        "player1Score": 5,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "F Whiting",
+                        "player2Score": 5,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cornwall",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1909",
+                        "partnership": 137,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "ER Sweet-Escott",
+                        "player1Score": 61,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "TAL Whittington",
+                        "player2Score": 92,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cornwall",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1909",
+                        "partnership": 190,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "WJ Bancroft",
+                        "player1Score": 109,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "NVH Riches",
+                        "player2Score": 120,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cornwall",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1907",
+                        "partnership": 70,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "WP Morris",
+                        "player1Score": 35,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "WJ Bancroft",
+                        "player2Score": 66,
+                        "player2NotOut": false,
+                        "player2Position": 3
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cornwall",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1907",
+                        "partnership": 41,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "WP Morris",
+                        "player1Score": 39,
+                        "player1NotOut": false,
+                        "player1Position": 4,
+                        "player2Name": "ER Sweet-Escott",
+                        "player2Score": 13,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cornwall",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1909",
+                        "partnership": 68,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "WJ Bancroft",
+                        "player1Score": 57,
+                        "player1NotOut": false,
+                        "player1Position": 3,
+                        "player2Name": "SH Rees",
+                        "player2Score": 33,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cornwall",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1897",
+                        "partnership": 56,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "WH Brain",
+                        "player1Score": 12,
+                        "player1NotOut": false,
+                        "player1Position": 7,
+                        "player2Name": "WJ Bancroft",
+                        "player2Score": 71,
+                        "player2NotOut": false,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cornwall",
+                        "location": "Tremorvah, Truro",
+                        "seriesDate": "1908",
+                        "partnership": 54,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "NVH Riches",
+                        "player1Score": 114,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "A Nash",
+                        "player2Score": 25,
+                        "player2NotOut": false,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cornwall",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1897",
+                        "partnership": 41,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "R Lowe",
+                        "player1Score": 30,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "WSR Sweet-Escott",
+                        "player2Score": 7,
+                        "player2NotOut": false,
+                        "player2Position": 9
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cornwall",
+                        "location": "St Clare Ground, Penzance",
+                        "seriesDate": "1907",
+                        "partnership": 60,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "H Creber",
+                        "player1Score": 27,
+                        "player1NotOut": false,
+                        "player1Position": 9,
+                        "player2Name": "EA Preedy",
+                        "player2Score": 42,
+                        "player2NotOut": true,
+                        "player2Position": 10
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Glamorgan",
+                        "opponents": "Cornwall",
+                        "location": "St Helen's, Swansea",
+                        "seriesDate": "1898",
+                        "partnership": 49,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "JPA Geoghegan",
+                        "player1Score": 82,
+                        "player1NotOut": false,
+                        "player1Position": 8,
+                        "player2Name": "BA Lambert",
+                        "player2Score": 7,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "H Tresawna",
+                "team": "Cornwall",
+                "opponents": "Glamorgan",
+                "matches": 7,
+                "runs": 296,
+                "innings": 13,
+                "notOuts": 0,
+                "average": 22.76,
+                "hs": "63"
+            }
+        ],
+        [
+            {
+                "name": "WJ Bancroft",
+                "team": "Glamorgan",
+                "opponents": "Cornwall",
+                "matches": 9,
+                "runs": 476,
+                "innings": 14,
+                "notOuts": 2,
+                "average": 39.66,
+                "hs": "109"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "JB Hide",
+                "team": "Cornwall",
+                "opponents": "Glamorgan",
+                "matches": 4,
+                "balls": 815,
+                "maidens": 46,
+                "runs": 427,
+                "wickets": 35,
+                "bbruns": 58,
+                "bbwickets": 8,
+                "average": 12.2
+            }
+        ],
+        [
+            {
+                "name": "H Creber",
+                "team": "Glamorgan",
+                "opponents": "Cornwall",
+                "matches": 7,
+                "balls": 1534,
+                "maidens": 74,
+                "runs": 560,
+                "wickets": 58,
+                "bbruns": 29,
+                "bbwickets": 6,
+                "average": 9.65
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "C Trevarthen",
+                "team": "Cornwall",
+                "opponents": "Glamorgan",
+                "matches": 9,
+                "dismissals": 10
+            }
+        ],
+        [
+            {
+                "name": "WJ Bancroft",
+                "team": "Glamorgan",
+                "opponents": "Cornwall",
+                "matches": 9,
+                "dismissals": 13
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "JC Bickford-Smith",
+                "team": "Cornwall",
+                "opponents": "Glamorgan",
+                "matches": 5,
+                "dismissals": 1
+            },
+            {
+                "name": "RT Michell",
+                "team": "Cornwall",
+                "opponents": "Glamorgan",
+                "matches": 2,
+                "dismissals": 1
+            },
+            {
+                "name": "RF Vibart",
+                "team": "Cornwall",
+                "opponents": "Glamorgan",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "JH Brain",
+                "team": "Glamorgan",
+                "opponents": "Cornwall",
+                "matches": 5,
+                "dismissals": 6
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Glamorgan",
+                    "total": 25,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Helen's, Swansea",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Glamorgan",
+                    "total": 25,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Helen's, Swansea",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Cornwall",
+                    "opponents": "Glamorgan",
+                    "total": 25,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Helen's, Swansea",
+                    "seriesDate": "1897"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Cornwall",
+                    "total": 100,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Clare Ground, Penzance",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Cornwall",
+                    "total": 100,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "St Clare Ground, Penzance",
+                    "seriesDate": "1897"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Glamorgan",
+                    "opponents": "Cornwall",
+                    "total": 35,
+                    "wickets": 6,
+                    "declared": false,
+                    "location": "St Helen's, Swansea",
+                    "seriesDate": "1907"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:08:08.682655Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}

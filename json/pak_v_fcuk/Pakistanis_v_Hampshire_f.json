@@ -1,0 +1,888 @@
+{
+    "team1": "Pakistanis",
+    "team2": "Hampshire",
+    "competitionTitle": "First Class",
+    "competitionSubType": "f",
+    "matchDto": {
+        "count": 7,
+        "startDate": "1954-05-29T01:00",
+        "endDate": "1992-06-27T01:00"
+    },
+    "authors": [
+        "Kevin Jones"
+    ],
+    "highestScores": [
+        [
+            {
+                "team": "Pakistanis",
+                "opponents": "Hampshire",
+                "total": 406,
+                "wickets": 1,
+                "declared": true,
+                "location": "County Ground, Southampton",
+                "seriesDate": "1992"
+            }
+        ],
+        [
+            {
+                "team": "Hampshire",
+                "opponents": "Pakistanis",
+                "total": 368,
+                "wickets": 2,
+                "declared": true,
+                "location": "Dean Park, Bournemouth",
+                "seriesDate": "1962"
+            }
+        ]
+    ],
+    "highestIndividualScore": [
+        [
+            {
+                "name": "Asif Mujtaba",
+                "team": "Pakistanis",
+                "opponents": "Hampshire",
+                "score": 154,
+                "notOut": true,
+                "location": "County Ground, Southampton",
+                "seriesDate": "1992"
+            }
+        ],
+        [
+            {
+                "name": "RE Marshall",
+                "team": "Hampshire",
+                "opponents": "Pakistanis",
+                "score": 228,
+                "notOut": true,
+                "location": "Dean Park, Bournemouth",
+                "seriesDate": "1962"
+            }
+        ]
+    ],
+    "highestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "highestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRates": [
+        [
+        ],
+        [
+        ]
+    ],
+    "lowestIndividualStrikeRatesWithLimit": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostFours": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostSixes": [
+        [
+        ],
+        [
+        ]
+    ],
+    "mostBoundaries": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingInnings": [
+        [
+            {
+                "name": "Mushtaq Ahmed",
+                "team": "Pakistanis",
+                "opponents": "Hampshire",
+                "wickets": 5,
+                "runs": 64,
+                "location": "County Ground, Southampton",
+                "seriesDate": "1992"
+            }
+        ],
+        [
+            {
+                "name": "MNS Taylor",
+                "team": "Hampshire",
+                "opponents": "Pakistanis",
+                "wickets": 5,
+                "runs": 67,
+                "location": "County Ground, Southampton",
+                "seriesDate": "1978"
+            }
+        ]
+    ],
+    "bestBowlingMatch": [
+        [
+            {
+                "name": "Fazal Mahmood",
+                "team": "Pakistanis",
+                "opponents": "Hampshire",
+                "wickets": 7,
+                "runs": 103,
+                "location": "United Services Ground, Portsmouth",
+                "seriesDate": "1954"
+            }
+        ],
+        [
+            {
+                "name": "MNS Taylor",
+                "team": "Hampshire",
+                "opponents": "Pakistanis",
+                "wickets": 5,
+                "runs": 97,
+                "location": "County Ground, Southampton",
+                "seriesDate": "1978"
+            }
+        ]
+    ],
+    "bestBowlingSRInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingSRWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "worstBowlingERWithLimitInnings": [
+        [
+        ],
+        [
+        ]
+    ],
+    "bestFoW": [
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Hampshire",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "1962",
+                        "partnership": 114,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "Shahid Mahmood",
+                        "player1Score": 55,
+                        "player1NotOut": false,
+                        "player1Position": 2,
+                        "player2Name": "Hanif Mohammad",
+                        "player2Score": 76,
+                        "player2NotOut": false,
+                        "player2Position": 1
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1992",
+                        "partnership": 334,
+                        "wicket": 2,
+                        "undefeated": true,
+                        "player1Name": "Asif Mujtaba",
+                        "player1Score": 154,
+                        "player1NotOut": true,
+                        "player1Position": 3,
+                        "player2Name": "Saleem Malik",
+                        "player2Score": 50,
+                        "player2NotOut": true,
+                        "player2Position": 5
+                    }
+                ],
+                "multiPlayerFow": [
+                    {
+                        "total": 557,
+                        "wicket": 2,
+                        "playerDetails": [
+                            {
+                                "team": "Pakistanis",
+                                "opponents": "Hampshire",
+                                "location": "County Ground, Southampton",
+                                "seriesDate": "1992",
+                                "partnership": 334,
+                                "wicket": 2,
+                                "undefeated": true,
+                                "player1Name": "Asif Mujtaba",
+                                "player1Score": 154,
+                                "player1NotOut": true,
+                                "player1Position": 3,
+                                "player2Name": "Saleem Malik",
+                                "player2Score": 50,
+                                "player2NotOut": true,
+                                "player2Position": 5
+                            },
+                            {
+                                "team": "Pakistanis",
+                                "opponents": "Hampshire",
+                                "location": "County Ground, Southampton",
+                                "seriesDate": "1992",
+                                "partnership": 223,
+                                "wicket": 2,
+                                "undefeated": true,
+                                "player1Name": "Asif Mujtaba",
+                                "player1Score": 154,
+                                "player1NotOut": true,
+                                "player1Position": 3,
+                                "player2Name": "Javed Miandad",
+                                "player2Score": 142,
+                                "player2NotOut": true,
+                                "player2Position": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Hampshire",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "1982",
+                        "partnership": 77,
+                        "wicket": 3,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1987",
+                        "partnership": 77,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1987",
+                        "partnership": 59,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Hampshire",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "1982",
+                        "partnership": 69,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    },
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1987",
+                        "partnership": 69,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Hampshire",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "1962",
+                        "partnership": 36,
+                        "wicket": 7,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Hampshire",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1987",
+                        "partnership": 50,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Hampshire",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "1982",
+                        "partnership": 25,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Pakistanis",
+                        "opponents": "Hampshire",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "1982",
+                        "partnership": 13,
+                        "wicket": 10,
+                        "undefeated": true,
+                        "player1Name": "Abdul Qadir",
+                        "player1Score": 21,
+                        "player1NotOut": true,
+                        "player1Position": 10,
+                        "player2Name": "Iqbal Qasim",
+                        "player2Score": 3,
+                        "player2NotOut": true,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        },
+        {
+            "1": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Pakistanis",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "1962",
+                        "partnership": 67,
+                        "wicket": 1,
+                        "undefeated": false,
+                        "player1Name": "RE Marshall",
+                        "player1Score": 228,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "JR Gray",
+                        "player2Score": 28,
+                        "player2NotOut": false,
+                        "player2Position": 2
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "2": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Pakistanis",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1978",
+                        "partnership": 109,
+                        "wicket": 2,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "3": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Pakistanis",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "1962",
+                        "partnership": 267,
+                        "wicket": 3,
+                        "undefeated": true,
+                        "player1Name": "RE Marshall",
+                        "player1Score": 228,
+                        "player1NotOut": true,
+                        "player1Position": 1,
+                        "player2Name": "DA Livingstone",
+                        "player2Score": 101,
+                        "player2NotOut": true,
+                        "player2Position": 4
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "4": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Pakistanis",
+                        "location": "Dean Park, Bournemouth",
+                        "seriesDate": "1982",
+                        "partnership": 83,
+                        "wicket": 4,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "5": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Pakistanis",
+                        "location": "United Services Ground, Portsmouth",
+                        "seriesDate": "1954",
+                        "partnership": 64,
+                        "wicket": 5,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "6": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Pakistanis",
+                        "location": "United Services Ground, Portsmouth",
+                        "seriesDate": "1971",
+                        "partnership": 96,
+                        "wicket": 6,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "7": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Pakistanis",
+                        "location": "United Services Ground, Portsmouth",
+                        "seriesDate": "1954",
+                        "partnership": 91,
+                        "wicket": 7,
+                        "undefeated": true,
+                        "player1Name": "HM Barnard",
+                        "player1Score": 101,
+                        "player1NotOut": true,
+                        "player1Position": 5,
+                        "player2Name": "G Hill",
+                        "player2Score": 31,
+                        "player2NotOut": true,
+                        "player2Position": 8
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "8": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Pakistanis",
+                        "location": "United Services Ground, Portsmouth",
+                        "seriesDate": "1954",
+                        "partnership": 43,
+                        "wicket": 8,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "9": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Pakistanis",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1978",
+                        "partnership": 20,
+                        "wicket": 9,
+                        "undefeated": false,
+                        "player1Name": "unknown",
+                        "player1Score": 0,
+                        "player1NotOut": false,
+                        "player1Position": 0,
+                        "player2Name": "unknown",
+                        "player2Score": 0,
+                        "player2NotOut": false,
+                        "player2Position": 0
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            },
+            "10": {
+                "standardFow": [
+                    {
+                        "team": "Hampshire",
+                        "opponents": "Pakistanis",
+                        "location": "County Ground, Southampton",
+                        "seriesDate": "1992",
+                        "partnership": 30,
+                        "wicket": 10,
+                        "undefeated": false,
+                        "player1Name": "SD Udal",
+                        "player1Score": 31,
+                        "player1NotOut": true,
+                        "player1Position": 8,
+                        "player2Name": "PJ Bakker",
+                        "player2Score": 6,
+                        "player2NotOut": false,
+                        "player2Position": 11
+                    }
+                ],
+                "multiPlayerFow": [
+                ]
+            }
+        }
+    ],
+    "mostRunsVsOpposition": [
+        [
+            {
+                "name": "Mansoor Akhtar",
+                "team": "Pakistanis",
+                "opponents": "Hampshire",
+                "matches": 2,
+                "runs": 274,
+                "innings": 4,
+                "notOuts": 1,
+                "average": 91.33,
+                "hs": "127"
+            }
+        ],
+        [
+            {
+                "name": "TE Jesty",
+                "team": "Hampshire",
+                "opponents": "Pakistanis",
+                "matches": 3,
+                "runs": 378,
+                "innings": 6,
+                "notOuts": 3,
+                "average": 126.0,
+                "hs": "133"
+            }
+        ]
+    ],
+    "mostWicketsVsOpposition": [
+        [
+            {
+                "name": "Intikhab Alam",
+                "team": "Pakistanis",
+                "opponents": "Hampshire",
+                "matches": 2,
+                "balls": 439,
+                "maidens": 9,
+                "runs": 228,
+                "wickets": 8,
+                "bbruns": 88,
+                "bbwickets": 4,
+                "average": 28.5
+            }
+        ],
+        [
+            {
+                "name": "NGC Cowley",
+                "team": "Hampshire",
+                "opponents": "Pakistanis",
+                "matches": 3,
+                "balls": 471,
+                "maidens": 13,
+                "runs": 266,
+                "wickets": 7,
+                "bbruns": 26,
+                "bbwickets": 2,
+                "average": 38.0
+            }
+        ]
+    ],
+    "mostCatchesVsOpposition": [
+        [
+            {
+                "name": "Wasim Bari",
+                "team": "Pakistanis",
+                "opponents": "Hampshire",
+                "matches": 3,
+                "dismissals": 8
+            }
+        ],
+        [
+            {
+                "name": "GR Stephenson",
+                "team": "Hampshire",
+                "opponents": "Pakistanis",
+                "matches": 2,
+                "dismissals": 5
+            }
+        ]
+    ],
+    "mostStumpingsVsOpposition": [
+        [
+            {
+                "name": "Hanif Mohammad",
+                "team": "Pakistanis",
+                "opponents": "Hampshire",
+                "matches": 2,
+                "dismissals": 1
+            }
+        ],
+        [
+            {
+                "name": "RO Prouton",
+                "team": "Hampshire",
+                "opponents": "Pakistanis",
+                "matches": 1,
+                "dismissals": 2
+            }
+        ]
+    ],
+    "teamAllLowestScores": [
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Pakistanis",
+                    "opponents": "Hampshire",
+                    "total": 163,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "United Services Ground, Portsmouth",
+                    "seriesDate": "1954"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Pakistanis",
+                    "opponents": "Hampshire",
+                    "total": 163,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "United Services Ground, Portsmouth",
+                    "seriesDate": "1954"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Pakistanis",
+                    "opponents": "Hampshire",
+                    "total": 86,
+                    "wickets": 4,
+                    "declared": false,
+                    "location": "United Services Ground, Portsmouth",
+                    "seriesDate": "1954"
+                }
+            ]
+        },
+        {
+            "lowestAllOutScore": [
+                {
+                    "team": "Hampshire",
+                    "opponents": "Pakistanis",
+                    "total": 162,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Southampton",
+                    "seriesDate": "1992"
+                }
+            ],
+            "lowestCompleteScores": [
+                {
+                    "team": "Hampshire",
+                    "opponents": "Pakistanis",
+                    "total": 162,
+                    "wickets": 10,
+                    "declared": false,
+                    "location": "County Ground, Southampton",
+                    "seriesDate": "1992"
+                }
+            ],
+            "lowestIncompleteScores": [
+                {
+                    "team": "Hampshire",
+                    "opponents": "Pakistanis",
+                    "total": 85,
+                    "wickets": 4,
+                    "declared": true,
+                    "location": "Dean Park, Bournemouth",
+                    "seriesDate": "1982"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-01-09T12:05:49.647071Z",
+    "strikeRateScoreLimit": 20,
+    "strikeRateLowerBallsLimit": 10,
+    "strikeRateUpperBallsLimit": 20,
+    "economyRateOversLimit": 3
+}
