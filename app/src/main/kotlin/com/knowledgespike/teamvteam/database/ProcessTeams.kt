@@ -5,10 +5,11 @@ import com.knowledgespike.db.tables.references.MATCHSUBTYPE
 import com.knowledgespike.extensions.generateFileName
 import com.knowledgespike.teamvteam.Application.Companion.dialect
 import com.knowledgespike.teamvteam.TeamNameToIds
+import com.knowledgespike.teamvteam.TeamPairHomePagesData
 import com.knowledgespike.teamvteam.daos.MatchDto
 import com.knowledgespike.teamvteam.data.Author
 import com.knowledgespike.teamvteam.data.TeamsAndOpponents
-import com.knowledgespike.teamvteam.getTvTJsonData
+import com.knowledgespike.teamvteam.json.getTvTJsonData
 import com.knowledgespike.teamvteam.logging.LoggerDelegate
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -64,21 +65,64 @@ class ProcessTeams(
         idPairs = buildPairsOfTeamsThatMayCompete()
     }
 
+    private fun addPairToPageEx(
+        competitionTeams: List<String>,
+        team1: String,
+        team2: String,
+        pairsForPage: Map<String, TeamPairHomePagesData>
+    ): Map<String, TeamPairHomePagesData> {
+
+        val mutablePairsForPage: MutableMap<String, TeamPairHomePagesData> = mutableMapOf()
+        mutablePairsForPage.putAll(pairsForPage)
+        var teamName = team1
+        var hasOwnPage = competitionTeams.contains(teamName)
+
+        var pairEx = pairsForPage[teamName]
+
+        if (pairEx == null) {
+            val teamPairList = mutableListOf<Pair<String, String>>()
+            val teamPair = Pair(team1, team2)
+            teamPairList.add(teamPair)
+            mutablePairsForPage[teamName] = TeamPairHomePagesData(hasOwnPage, teamPairList)
+        } else {
+            pairEx.teamPairDetails.add(Pair(team1, team2))
+        }
+
+        teamName = team2
+        hasOwnPage = competitionTeams.contains(teamName)
+
+        pairEx = pairsForPage[teamName]
+
+        if (pairEx == null) {
+            val teamPairList = mutableListOf<Pair<String, String>>()
+            val teamPair = Pair(team1, team2)
+            teamPairList.add(teamPair)
+            mutablePairsForPage[teamName] = TeamPairHomePagesData(hasOwnPage, teamPairList)
+        } else {
+            pairEx.teamPairDetails.add(Pair(team1, team2))
+        }
+
+        return mutablePairsForPage
+    }
+
     suspend fun process(
         connectionString: String,
         userName: String,
         password: String,
         matchSubType: String,
         jsonDirectory: String,
+        competitionTeams: List<String>,
         callback: (teamPairDetails: TeamPairDetails, jsonDirectory: String) -> Unit
-    ) {
+    ): Map<String, TeamPairHomePagesData> {
 
         val matchType: String = matchTypeFromSubType(matchSubType)
+
+        var pairsForPage: Map<String, TeamPairHomePagesData> = mutableMapOf()
 
         val teamRecords = TeamRecords(userName, password, connectionString)
         for (teamsAndOpponents in idPairs) {
             log.debug("Start processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
-            // todo: Is cached?
+
             val matchDto =
                 getCountOfMatchesBetweenTeams(connectionString, userName, password, teamsAndOpponents, matchSubType)
             if (matchDto.count != 0) {
@@ -92,6 +136,13 @@ class ProcessTeams(
                 val fileName = teamPairDetails.generateFileName(matchSubType)
 
                 val lastUpdatedDate = getLastUpdatedDate(jsonDirectory, fileName)
+
+                pairsForPage = addPairToPageEx(
+                    competitionTeams,
+                    teamsAndOpponents.teamName,
+                    teamsAndOpponents.opponentsName,
+                    pairsForPage
+                )
 
 
                 if (lastUpdatedDate == null || checkIfShouldProcess(
@@ -117,21 +168,21 @@ class ProcessTeams(
                                 matchSubType
                             )
 
-                        val maybeAuthors1 = opponentsWithAuthors
-                            .filter { it.key == teamPairDetails.teams[0] }
-                            .get(teamPairDetails.teams[0])?.map { it }
-                            ?.filter { it.opponent == teamPairDetails.teams[1] }
-                            ?.map { it.name }
-                        val maybeAuthors2 = opponentsWithAuthors
-                            .filter { it.key == teamPairDetails.teams[1] }
-                            .get(teamPairDetails.teams[1])?.map { it }
-                            ?.filter { it.opponent == teamPairDetails.teams[0] }
-                            ?.map { it.name }
+                            val maybeAuthors1 = opponentsWithAuthors
+                                .filter { it.key == teamPairDetails.teams[0] }
+                                .get(teamPairDetails.teams[0])?.map { it }
+                                ?.filter { it.opponent == teamPairDetails.teams[1] }
+                                ?.map { it.name }
+                            val maybeAuthors2 = opponentsWithAuthors
+                                .filter { it.key == teamPairDetails.teams[1] }
+                                .get(teamPairDetails.teams[1])?.map { it }
+                                ?.filter { it.opponent == teamPairDetails.teams[0] }
+                                ?.map { it.name }
 
-                        if (maybeAuthors1 != null && maybeAuthors1.isNotEmpty())
-                            teamPairDetails.authors.addAll(maybeAuthors1)
-                        if (maybeAuthors2 != null && maybeAuthors2.isNotEmpty())
-                            teamPairDetails.authors.addAll(maybeAuthors2)
+                            if (maybeAuthors1 != null && maybeAuthors1.isNotEmpty())
+                                teamPairDetails.authors.addAll(maybeAuthors1)
+                            if (maybeAuthors2 != null && maybeAuthors2.isNotEmpty())
+                                teamPairDetails.authors.addAll(maybeAuthors2)
 
                         }
 
@@ -142,6 +193,7 @@ class ProcessTeams(
                 }
             }
         }
+        return pairsForPage
     }
 
     private fun getLastUpdatedDate(jsonDirectory: String, fileName: String): Long? {

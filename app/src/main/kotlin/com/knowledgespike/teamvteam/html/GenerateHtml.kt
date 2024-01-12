@@ -82,76 +82,15 @@ class GenerateHtml {
         }
     }
 
-//    fun createTeamPairHomePages(
-//        matchType: String,
-//        matchDesignator: String,
-//        pairsForPage: Map<String, TeamPairHomePagesData>,
-//        country: String,
-//        gender: String,
-//        outputDirectory: String
-//
-//    ) {
-//        // for each entry in the pairsForPage collection generate the HTML for the page
-//        // see: http://archive.acscricket.com/records_and_stats/team_v_team_fc/can_fc.html
-//        pairsForPage.filter { it.value.shouldHaveOwnPage }.forEach { (teamName, teamPairHomePagesData) ->
-//            try {
-//                log.debug("createTeamPairHomePages for: {}", teamName)
-//                val fileName =
-//                    "${outputDirectory}/${teamName.replace(" ", "_")}_${matchType}.html"
-//                val file = File(fileName)
-//                log.debug("createTeamPairHomePages fileName: {}", fileName)
-//                file.parentFile.mkdirs()
-//
-//                val fileWriter = file.writer()
-//
-//                fileWriter.use {
-//                    fileWriter.append(virtualHeader)
-//                    fileWriter.append("\r\n")
-//                    // create entries for each pair
-//                    fileWriter.appendHTML().div {
-//                        h3 {
-//                            +"${teamName}'s $matchDesignator Records"
-//                        }
-//                        ul {
-//                            teamPairHomePagesData.teamPairDetails.forEach { teamPairDetails ->
-//                                li {
-//                                    log.debug(
-//                                        "createTeamPairHomePages, call  generateAnchorForTeamVsTeam for teamName: {}",
-//                                        teamName
-//                                    )
-//                                    generateAnchorForTeamVsTeam(teamName, teamPairDetails.team1, teamPairDetails.team2, matchType)
-//                                }
-//                            }
-//                        }
-//                        log.debug(
-//                            "createTeamPairHomePages, call  generateTeamVsTeamFooter for gender: {}, country: {} and matchType: {}",
-//                            gender,
-//                            country,
-//                            matchType
-//                        )
-//                        generateTeamVsTeamFooter()
-//                    }
-//                    fileWriter.append(virtualFooter)
-//                    fileWriter.append("\r\n")
-//                }
-//            } catch (e: Exception) {
-//                log.error("", e)
-//                throw e
-//            }
-//        }
-//    }
-
     fun generateIndexPageForTeamsAndType(
         teamNames: List<String>,
         matchType: String,
         country: String,
         gender: String,
         matchDesignator: String,
-        outputDirectory: String,
-        extraMessages: List<String>
+        extraMessages: List<String>,
+        fileName: String
     ) {
-
-        val fileName = "${outputDirectory}/index.html"
 
 
         val file = File(fileName)

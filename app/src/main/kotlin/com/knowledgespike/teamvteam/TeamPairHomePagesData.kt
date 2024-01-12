@@ -8,5 +8,5 @@ import com.knowledgespike.teamvteam.json.TeamPairDetailsData
  */
 data class TeamPairHomePagesData(
     val shouldHaveOwnPage: Boolean,
-    val teamPairDetails: MutableList<TeamPairDetailsData>
+    val teamPairDetails: MutableList<Pair<String, String>>
 )
