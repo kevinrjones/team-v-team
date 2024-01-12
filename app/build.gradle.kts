@@ -1,155 +1,93 @@
-import org.jooq.codegen.GenerationTool
-import org.jooq.meta.jaxb.*
-import org.jooq.meta.jaxb.Target
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 
 plugins {
+
     alias(libs.plugins.kotlinJvm)
     alias(libs.plugins.kotlinSerialization)
-    application
-
     alias(libs.plugins.versionUpdate)
     alias(libs.plugins.catalogUpdate)
-//    alias(libs.plugins.jooq)
 }
 
-buildscript {
+allprojects {
+    group = "com.knowledgespike"
+    version = "0.1.0"
+
+    apply(plugin = "org.jetbrains.kotlin.jvm")
+    apply(plugin = "kotlinx-serialization")
+
     repositories {
         mavenCentral()
+        mavenLocal()
+        maven { url = uri("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven") }
     }
+
     dependencies {
-        classpath(libs.jooqCodeGen)
-        classpath(libs.mariadb)
+
+        testImplementation(kotlin("test"))
+        implementation(kotlin("stdlib-jdk8"))
+
+        implementation(rootProject.libs.logback)
+
+        testImplementation(rootProject.libs.junit)
+        testImplementation(rootProject.libs.jUnitEngine)
+
     }
+
+    tasks.test {
+        useJUnitPlatform()
+        testLogging {
+            events("passed", "skipped", "failed")
+        }
+    }
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    // config JVM target to 1.8 for kotlin compilation tasks
+    tasks.withType<KotlinCompile>().configureEach {
+        kotlinOptions.jvmTarget = "17"
+        kotlinOptions.freeCompilerArgs = listOf("-opt-in=kotlin.RequiresOptIn")
+    }
+
 }
 
+subprojects {
+    version = "1.0"
 
-group = "com.knowledgespike"
-version = "1.0-SNAPSHOT"
-
-repositories {
-    mavenCentral()
-    maven { url = uri("https://maven.pkg.jetbrains.space/public/p/kotlinx-html/maven") }
 }
 
-dependencies {
-    testImplementation(kotlin("test"))
+project(":tvt") {
+    dependencies {
+            testImplementation(kotlin("test"))
 
     implementation(kotlin("stdlib-jdk8"))
-    implementation(libs.kotlinReflect)
+    implementation(rootProject.libs.kotlinReflect)
 
-    implementation(libs.logback)
+    implementation(rootProject.libs.logback)
 
-    implementation(libs.mariadb)
+    implementation(rootProject.libs.mariadb)
 
-    implementation(libs.jooq)
-    implementation(libs.jooqCodeGen)
-    implementation(libs.jooqMeta)
-    implementation(libs.kotlinCoroutines)
-    implementation(libs.kotlinxSerialization)
-    implementation(libs.kotlinxDatetime)
+    implementation(rootProject.libs.jooq)
+    implementation(rootProject.libs.jooqCodeGen)
+    implementation(rootProject.libs.jooqMeta)
+    implementation(rootProject.libs.kotlinCoroutines)
+    implementation(rootProject.libs.kotlinxSerialization)
+    implementation(rootProject.libs.kotlinxDatetime)
 
 
-    implementation(libs.kotlinxHtmlJvm)
-    implementation(libs.kotlinxHtml)
+    implementation(rootProject.libs.kotlinxHtmlJvm)
+    implementation(rootProject.libs.kotlinxHtml)
 
-    implementation(libs.commonsCli)
-
-//    jooqCodegen(libs.mariadb)
-}
-
-application {
-    mainClass.set("com.knowledgespike.teamvteam.Application")
-
-    applicationDefaultJvmArgs = listOf("-Dlogback.configurationFile=./logging/logback.xml")
-}
-
-sourceSets {
-    this.main {
-        val generatedDir: Provider<Directory> = layout.buildDirectory.dir("generated/java")
-        java.srcDir(generatedDir)
+    implementation(rootProject.libs.commonsCli)
     }
 }
 
-//sourceSets.create("generated") {
-//
-////    kotlin.srcDir("generated/java")
-//        java.srcDir("$projectDir/src/generated/java")
-//
-//}
 
 
-tasks.test {
-    useJUnitPlatform()
-}
-
-kotlin {
-    jvmToolchain(17)
-}
-
-//jooq {
-//    configuration {
-//        val output: Provider<Directory> = layout.buildDirectory.dir(".")
-//        basedir = "%{output.get()}"
-//        jdbc {
-//            driver = "org.mariadb.jdbc.Driver"
-//            url = "jdbc:mariadb://localhost:3306/cricketarchive"
-//            user = "cricketarchive"
-//            password = "p4ssw0rd"
-//        }
-//        generator {
-//            name = "org.jooq.codegen.KotlinGenerator"
-//            database {
-//                inputSchema = "cricketarchive"
-//                name = "org.jooq.meta.mariadb.MariaDBDatabase"
-//            }
-//            generator {
-//                target {
-//                    packageName = "com.knowledgespike.db"
-//                    directory = "generated/java"
-//                    isClean = true
-//                }
-//            }
-//        }
-//    }
-//}
-//
-//tasks.compileKotlin {
-//    dependsOn(tasks["jooqCodegen"])
-//}
-
-tasks.create("generateJOOQ") {
-    val output: Provider<Directory> = layout.buildDirectory.dir(".")
-
-    GenerationTool.generate(
-        Configuration()
-            .withBasedir("${output.get()}")
-            .withJdbc(
-                Jdbc()
-                    .withDriver("org.mariadb.jdbc.Driver")
-                    .withUrl("jdbc:mariadb://localhost:3306/cricketarchive")
-                    .withUser("cricketarchive")
-                    .withPassword("p4ssw0rd")
-            )
-
-            .withGenerator(
-                Generator()
-                    .withName("org.jooq.codegen.KotlinGenerator")
-                    .withDatabase(
-                        Database()
-                            .withInputSchema("cricketarchive")
-                            .withName("org.jooq.meta.mariadb.MariaDBDatabase")
-                    )
-                    .withGenerate(Generate())
-                    .withTarget(
-                        Target()
-                            .withPackageName("com.knowledgespike.db")
-                            .withDirectory("generated/java")
-                            .withClean(true)
-                    )
-            )
-    )
-}
 
 fun isNonStable(version: String): Boolean {
     val stableKeyword = listOf("RELEASE", "FINAL", "GA").any { version.uppercase().contains(it) }

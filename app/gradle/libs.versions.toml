@@ -11,24 +11,15 @@ kotlinx_serialization_version = "1.6.2"
 logback_version = "1.4.14"
 mariaDbVersion = "3.3.2"
 updateVersion_version = "0.50.0"
-
-#catalogUpdateVersion_version = "0.8.1"
-#commons_cli_version = "1.5.0"
-#jooq_version = "3.18.7"
-#kotlin_couroutines_version = "1.7.3"
-#kotlin_version = "1.9.10"
-#kotlinx_datetime_version = "0.5.0"
-#kotlinx_html_version = "0.10.1"
-#kotlinx_serialization_version = "1.6.0"
-#logback_version = "1.4.12"
-#mariaDbVersion = "3.3.1"
-#updateVersion_version = "0.49.0"
+junitVersion = "5.10.1"
 
 [libraries]
 commonsCli = { module = "commons-cli:commons-cli", version.ref = "commons_cli_version" }
 jooq = { module = "org.jooq:jooq", version.ref = "jooq_version" }
 jooqCodeGen = { module = "org.jooq:jooq-codegen", version.ref = "jooq_version" }
 jooqMeta = { module = "org.jooq:jooq-meta", version.ref = "jooq_version" }
+junit = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junitVersion" }
+jUnitEngine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junitVersion" }
 kotlinCoroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin_couroutines_version" }
 kotlinReflect = "org.jetbrains.kotlin:kotlin-reflect:1.9.20-Beta2"
 kotlinxDatetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx_datetime_version" }
