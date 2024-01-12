@@ -6,6 +6,7 @@ import com.knowledgespike.extensions.generateFileName
 import com.knowledgespike.teamvteam.data.Competition
 import com.knowledgespike.teamvteam.data.OpponentWithAuthors
 import com.knowledgespike.teamvteam.data.Team
+import com.knowledgespike.teamvteam.data.TeamBase
 import com.knowledgespike.teamvteam.database.ProcessTeams
 import com.knowledgespike.teamvteam.html.GenerateHtml
 import com.knowledgespike.teamvteam.json.*
@@ -137,7 +138,7 @@ class Application {
                         val competitionWithSortedTeams =
                             competition.copy(teams = competition.teams.sortedBy { it.team })
 
-                        val teamsWithDuplicates =
+                        val teamsWithDuplicates: TeamNameToIds =
                             getTeamIds(
                                 connectionString,
                                 userName,
@@ -149,7 +150,7 @@ class Application {
                         val opponentsForTeam = mutableMapOf<String, TeamNameToIds>()
                         competition.teams.forEach {
                             val opponents: TeamNameToIds =
-                                getTeamIdsForTeamNames(connectionString, userName, password, it.opponents, matchSubType)
+                                getTeamIds(connectionString, userName, password, it.opponents, matchSubType)
                             opponentsForTeam.put(it.team, opponents)
                         }
 
@@ -471,7 +472,7 @@ class Application {
             connectionString: String,
             userName: String,
             password: String,
-            teams: List<Team>,
+            teams: List<TeamBase>,
             matchType: String
         ): TeamNameToIds {
 
@@ -499,36 +500,7 @@ class Application {
 
             return teamNameAndIds
         }
-
-        private fun getTeamIdsForTeamNames(
-            connectionString: String,
-            userName: String,
-            password: String,
-            teams: List<String>,
-            matchType: String
-        ): TeamNameToIds {
-
-
-            val teamNameAndIds = mutableMapOf<String, List<Int>>()
-            DriverManager.getConnection(connectionString, userName, password).use { conn ->
-                val context = DSL.using(conn, dialect)
-
-                for (t in teams) {
-                    val ids = mutableListOf<Int>()
-                    val team = t.trim()
-                    if (team.isNotEmpty()) {
-                        val teamIds = getTeamIdsFrom(context, team, matchType)
-
-                        ids.addAll(teamIds)
-                    }
-                    teamNameAndIds[team] = ids
-                }
-
-            }
-
-            return teamNameAndIds
-        }
-
+        
         private fun getTeamIdsFrom(context: DSLContext, team: String, matchType: String): List<Int> {
             val idRecord = context
                 .select(TEAMS.ID)

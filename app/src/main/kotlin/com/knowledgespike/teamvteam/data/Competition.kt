@@ -9,8 +9,22 @@ data class Competition(
     val teams: List<Team>, val subType: String, val extraMessages: List<String>
 )
 
+interface TeamBase {
+    val team: String
+    val duplicates: List<String>
+}
+
 @Serializable
-data class Team(val team: String, val authors: List<Author> = listOf(), val duplicates: List<String>, val opponents: List<String> = listOf())
+data class Opponent(override val team: String, override val duplicates: List<String>) : TeamBase
+
+@Serializable
+data class Team(
+    override val team: String,
+    val authors: List<Author> = listOf(),
+    override val duplicates: List<String>,
+    val opponents: List<Opponent> = listOf()
+) : TeamBase
+
 
 @Serializable
 data class Author(val opponent: String, val name: String)
