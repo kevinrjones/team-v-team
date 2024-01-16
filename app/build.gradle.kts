@@ -60,32 +60,78 @@ subprojects {
 
 }
 
-project(":tvt") {
+project(":app_shared") {
     dependencies {
-            testImplementation(kotlin("test"))
 
-    implementation(kotlin("stdlib-jdk8"))
-    implementation(rootProject.libs.kotlinReflect)
+        implementation(rootProject.libs.kotlinReflect)
 
-    implementation(rootProject.libs.logback)
+        implementation(rootProject.libs.jooq)
+        implementation(rootProject.libs.jooqCodeGen)
+        implementation(rootProject.libs.jooqMeta)
 
-    implementation(rootProject.libs.mariadb)
+        implementation(rootProject.libs.kotlinxSerialization)
+        implementation(rootProject.libs.kotlinxDatetime)
+        implementation(rootProject.libs.mariadb)
 
-    implementation(rootProject.libs.jooq)
-    implementation(rootProject.libs.jooqCodeGen)
-    implementation(rootProject.libs.jooqMeta)
-    implementation(rootProject.libs.kotlinCoroutines)
-    implementation(rootProject.libs.kotlinxSerialization)
-    implementation(rootProject.libs.kotlinxDatetime)
+        implementation(rootProject.libs.kotlinxHtmlJvm)
+        implementation(rootProject.libs.kotlinxHtml)
 
-
-    implementation(rootProject.libs.kotlinxHtmlJvm)
-    implementation(rootProject.libs.kotlinxHtml)
-
-    implementation(rootProject.libs.commonsCli)
     }
 }
 
+project(":app_tvt") {
+
+    dependencies {
+        implementation(project(":app_shared"))
+
+        implementation(kotlin("stdlib-jdk8"))
+
+        implementation(rootProject.libs.logback)
+
+        implementation(rootProject.libs.mariadb)
+
+        implementation(rootProject.libs.jooq)
+        implementation(rootProject.libs.jooqCodeGen)
+        implementation(rootProject.libs.jooqMeta)
+        implementation(rootProject.libs.kotlinCoroutines)
+        implementation(rootProject.libs.kotlinxSerialization)
+        implementation(rootProject.libs.kotlinxDatetime)
+
+
+        implementation(rootProject.libs.kotlinxHtmlJvm)
+        implementation(rootProject.libs.kotlinxHtml)
+
+        implementation(rootProject.libs.commonsCli)
+
+        testImplementation(kotlin("test"))
+    }
+}
+
+project(":app_progressive") {
+    dependencies {
+        implementation(project(":app_shared"))
+        implementation(kotlin("stdlib-jdk8"))
+
+        implementation(rootProject.libs.logback)
+
+        implementation(rootProject.libs.mariadb)
+
+        implementation(rootProject.libs.jooq)
+        implementation(rootProject.libs.jooqCodeGen)
+        implementation(rootProject.libs.jooqMeta)
+        implementation(rootProject.libs.kotlinCoroutines)
+        implementation(rootProject.libs.kotlinxSerialization)
+        implementation(rootProject.libs.kotlinxDatetime)
+
+
+        implementation(rootProject.libs.kotlinxHtmlJvm)
+        implementation(rootProject.libs.kotlinxHtml)
+
+        implementation(rootProject.libs.commonsCli)
+
+        testImplementation(kotlin("test"))
+    }
+}
 
 
 

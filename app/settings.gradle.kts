@@ -1,6 +1,8 @@
 rootProject.name = "Produce Stats"
 
-include("tvt")
+include("app_tvt")
+include("app_progressive")
+include("app_shared")
 
 buildscript {
     repositories {

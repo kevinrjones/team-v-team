@@ -4,8 +4,169 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60f1828f-59b8-4c2f-9fd9-a6e530e3f23e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7c185958-724b-4c4e-a71a-b4b80e2dd10f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$BundleAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$CatalogUpdateVersionVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$CommonsCliVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$CommonsVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$JooqVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinCouroutinesVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinxDatetimeVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinxHtmlVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinxSerializationVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinxVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$LogbackVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$PluginAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$UpdateVersionVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs$VersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$BundleAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$CatalogUpdateVersionVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$CommonsCliVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$CommonsVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$JooqVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinCouroutinesVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinxDatetimeVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinxHtmlVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinxSerializationVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinxVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$LogbackVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$PluginAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$UpdateVersionVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$VersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/sources/org/gradle/accessors/dm/LibrariesForLibs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/1ed48733e89513b371d88642b96d2ca376abdb2b/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$BundleAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$CatalogUpdateVersionVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$CommonsCliVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$CommonsVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$JooqVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinCouroutinesVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinxDatetimeVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinxHtmlVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinxSerializationVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinxVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$LogbackVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$PluginAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$UpdateVersionVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs$VersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$BundleAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$CatalogUpdateVersionVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$CommonsCliVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$CommonsVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$JooqVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinCouroutinesVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinxDatetimeVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinxHtmlVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinxSerializationVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinxVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$LogbackVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$PluginAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$UpdateVersionVersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$VersionAccessors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/sources/org/gradle/accessors/dm/LibrariesForLibs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/d13d9a287c8039b08db868fd85c9f9085056e648/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/StatsApp-0.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/runConfigurations/app [run] .run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/runConfigurations/app [versionCatalogFormat].run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/extensions/Footers.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/extensions/Html.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/extensions/String.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/extensions/TeamPairDetails.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/teamvteam/TeamPairHomePagesData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/teamvteam/daos/Daos.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/teamvteam/data/Competition.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/GatherData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamPairDetails.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/teamvteam/helpers/Helpers.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/teamvteam/json/OutputJson.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/kotlin/com/knowledgespike/teamvteam/logging/Logging.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvt/template/competitions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/bbl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/cpl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/cu_v_ou.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/gent_v_players.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/hun.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/international_one_day.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/international_t20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/ipl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/ireland_v_scotland.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mcc_v_counties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mcc_v_countiesex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/minor_counties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/psl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/southland_v_otago.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/test_matches.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/touring_teams_aus.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/touring_teams_eng.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/touring_teams_sa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/touring_teams_sco.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/touring_teams_wi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/wbbl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/world_cup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/bbl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/cpl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/cu_v_ou.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/gent_v_players.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/hun.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/international_one_day.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/international_t20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/ipl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/ireland_v_scotland.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/mcc_v_counties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/mcc_v_countiesex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/minor_counties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/psl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/southland_v_otago.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/test_matches.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/touring_teams_aus.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/touring_teams_eng.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/touring_teams_sa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/touring_teams_sco.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/touring_teams_wi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/wbbl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_full/world_cup.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +182,12 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app_tvt">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app_progressive">
           <activation />
         </task>
         <projects_view>
@@ -44,8 +211,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Produce Stats" type="f1a62948:ProjectNode" />
+                <item name="app_progressive" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Produce Stats" type="f1a62948:ProjectNode" />
+                <item name="app_progressive" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Produce Stats" type="f1a62948:ProjectNode" />
+                <item name="app_progressive" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -54,45 +233,62 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
-  <component name="ProjectId" id="2ar09X6x60ow8FcsUsedrHzyb3I" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2atNwqjU0PXKAq6p5iQGlsaKTLZ" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.app [run] .executor": "Run",
-    "Gradle.app [run].executor": "Run",
-    "Gradle.newapp [build].executor": "Run",
-    "Gradle.newapp [clean].executor": "Run",
-    "Gradle.newapp [generateJOOQ].executor": "Run",
+    "Gradle.app [build].executor": "Run",
+    "Gradle.app [clean].executor": "Run",
+    "Gradle.app:app_progressive [run].executor": "Run",
+    "Gradle.app:app_tvt [build].executor": "Run",
+    "Gradle.app:app_tvt [run].executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "cache",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kevinjones/Dropbox/projects/cricket/team-by-team-spike/app/app_shared/src/main/kotlin/com/knowledgespike/shared/html",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.26015472",
+    "settings.editor.selected.configurable": "inlay.hints",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.app [run] ">
-    <configuration name="newapp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/html" />
+      <recent name="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive" />
+      <recent name="$PROJECT_DIR$/app_progressive/src/main/resources" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.knowledgespike.shared" />
+      <recent name="com.knowledgespike.progressive" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.app:app_progressive [run]">
+    <configuration name="app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -114,7 +310,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="newapp [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="app [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,18 +332,19 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="newapp [generateJOOQ]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="app:app_progressive [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app_progressive" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="generateJOOQ" />
+            <option value="run" />
+            <option value="--args=&quot;-bd $PROJECT_DIR$/.. -c jdbc:mariadb://localhost:3306/cricketarchive -u cricketarchive -p p4ssw0rd  -ho $PROJECT_DIR$/../../../../team_v_team_progressive_spike -jo progressive/json -d mariadb&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,11 +355,41 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="app:app_tvt [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app_tvt" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.app:app_tvt [run]" />
+      <item itemvalue="Gradle.app:app_progressive [run]" />
+      <item itemvalue="Gradle.app [build]" />
+      <item itemvalue="Gradle.app [clean]" />
+      <item itemvalue="Gradle.app:app_tvt [build]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.newapp [build]" />
-        <item itemvalue="Gradle.newapp [generateJOOQ]" />
-        <item itemvalue="Gradle.newapp [clean]" />
+        <item itemvalue="Gradle.app:app_progressive [run]" />
+        <item itemvalue="Gradle.app [build]" />
+        <item itemvalue="Gradle.app [clean]" />
+        <item itemvalue="Gradle.app:app_tvt [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -170,23 +397,29 @@
     <attachedChunks>
       <set>
         <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-5f3ff201" />
-        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-2f79fb23" />
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-203781b8" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60f1828f-59b8-4c2f-9fd9-a6e530e3f23e" name="Changes" comment="" />
-      <created>1705061240179</created>
+      <changelist id="7c185958-724b-4c4e-a71a-b4b80e2dd10f" name="Changes" comment="" />
+      <created>1680078642175</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1705061240179</updated>
-      <workItem from="1705061241241" duration="1110000" />
+      <updated>1680078642175</updated>
+      <workItem from="1705134157444" duration="4384000" />
+      <workItem from="1705146442797" duration="26857000" />
+      <workItem from="1705321450692" duration="2394000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
