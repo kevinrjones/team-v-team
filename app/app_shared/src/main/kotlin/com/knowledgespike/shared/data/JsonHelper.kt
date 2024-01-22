@@ -1,11 +1,9 @@
-package com.knowledgespike.shared.html
+package com.knowledgespike.shared.data
 
-import com.knowledgespike.shared.TeamPairHomePagesData
-import com.knowledgespike.shared.data.CompetitionIndexPage
-import com.knowledgespike.shared.data.TeamPairHomePagesJson
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.io.File
+import java.util.*
 import kotlin.io.path.Path
 
 fun createTeamPairHomePagesData(
@@ -77,8 +75,51 @@ fun writeJsonTeamPairPageData(fileName: String, data: TeamPairHomePagesJson) {
     file.writeText(formattedData)
 }
 
+
+fun generateIndexPageData(
+    teamNames: List<String>,
+    matchSubType: String,
+    country: String,
+    gender: String,
+    title: String,
+    extraMessages: List<String>,
+    jsonDirectory: String
+) {
+    if (teamNames.isNotEmpty()) {
+        val fileName =
+            "${jsonDirectory}/index.json"
+
+        val file = File(fileName)
+        file.parentFile.mkdirs()
+
+        writeJsonTeamPairPageIndexData(
+            fileName,
+            CompetitionIndexPage(teamNames, matchSubType, country, gender, title, extraMessages)
+        )
+    }
+}
+
+fun writeJsonTeamPairPageIndexData(fileName: String, data: CompetitionIndexPage) {
+
+    val format = Json {
+        prettyPrint = true;
+        encodeDefaults = true
+    }
+    val formattedData: String = format.encodeToString(data)
+
+
+    val file = File(fileName)
+    file.parentFile.mkdirs()
+
+    file.createNewFile()
+
+
+    file.writeText(formattedData)
+}
+
 fun getCapitalizedCountryName(country: String): String {
-    return when (val capitalizedCountry = country.capitalize()) {
+    return when (val capitalizedCountry =
+        country.replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }) {
         "England" -> "in $capitalizedCountry"
         "Australia" -> "in $capitalizedCountry"
         "South Africa" -> "in $capitalizedCountry"

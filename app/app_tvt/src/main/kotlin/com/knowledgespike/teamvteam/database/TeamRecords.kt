@@ -6,7 +6,7 @@ import com.knowledgespike.shared.database.DatabaseConnection
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.teamvteam.Application.Companion.dialect
 import com.knowledgespike.teamvteam.daos.*
-import com.knowledgespike.shared.helpers.getWicket
+import com.knowledgespike.shared.html.getWicket
 import org.jooq.*
 import org.jooq.impl.DSL.*
 import java.sql.DriverManager
@@ -1797,7 +1797,6 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                                 .from(tmpTableName)
                                 .where(field("wicket").eq(wicket))
                                 .and(field("rn").eq(1))
-//                                .and(field("playernames").eq("unknown, unknown").or(field("fullname2").isNotNull))
                         ).with("cte2").`as`(
                             select()
                                 .from("cte")
@@ -1882,7 +1881,13 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
                 )
             val resultMultiples =
-                queryMultiples.select().from("cte2").orderBy(field("matchstartdateasoffset"), field("multiple").desc())
+                queryMultiples.select().from("cte2")
+                    .orderBy(
+                        field("matchstartdateasoffset"),
+                        field("multiple").desc(),
+                        field("position"),
+                        field("position2"),
+                    )
                     .fetch()
 
             if (resultMultiples.size > 1) {
@@ -1984,7 +1989,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         wicket: Int,
         teamParams: TeamParams,
         inningsOrder: Int
-    ): SelectSeekStep2<Record16<Int, String?, String?, Long?, Int?, Int?, Int?, Byte?, String?, Int?, Byte?, Int?, String?, Int?, Byte?, Int?>, Int?, Int?> {
+    ): SelectConditionStep<Record16<Int, String?, String?, Long?, Int?, Int?, Int?, Byte?, String?, Int?, Byte?, Int?, String?, Int?, Byte?, Int?>> {
 
         return select(
             rowNumber().over()
@@ -2095,7 +2100,6 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             .and(PARTNERSHIPS.INNINGSORDER.eq(inningsOrder))
             .and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds))
             .and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds))
-            .orderBy(PARTNERSHIPS.PARTNERSHIP.desc(), PARTNERSHIPS.UNBROKEN.desc())
     }
 }
 

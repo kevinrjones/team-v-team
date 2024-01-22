@@ -2,13 +2,49 @@ package com.knowledgespike.shared.data
 
 import kotlinx.datetime.LocalDateTime
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.encodeToString
-import kotlinx.serialization.json.Json
-import java.io.File
+
+@Serializable
+data class Competition(
+    val title: String, val gender: String, val country: String, val outputDirectory: String,
+    val teams: List<Team>, val subType: String, val extraMessages: List<String>
+)
+
+interface TeamBase {
+    val team: String
+    val duplicates: List<String>
+}
+
+@Serializable
+data class Opponent(override val team: String, override val duplicates: List<String>) : TeamBase
+
+@Serializable
+data class Team(
+    override val team: String,
+    val authors: List<Author> = listOf(),
+    override val duplicates: List<String>,
+    val opponents: List<Opponent> = listOf()
+) : TeamBase
 
 
 @Serializable
-data class MatchDto(val count:  Int, val startDate: LocalDateTime, val endDate: LocalDateTime)
+data class Author(val opponent: String, val name: String)
+
+data class TeamsAndOpponents(
+    val teamName: String,
+    val teamIds: List<Int>,
+    val opponentsName: String,
+    val opponentIds: List<Int>
+)
+
+data class TeamAndIds(
+    val teamName: String,
+    val teamIds: List<Int>
+)
+
+data class TeamWithAuthors(val team: String, val author: List<Author>)
+
+@Serializable
+data class MatchDto(val count: Int, val startDate: LocalDateTime, val endDate: LocalDateTime)
 
 @Serializable
 data class FoWDto(
@@ -77,44 +113,11 @@ data class HighestScoreDto(
 )
 
 
-fun generateIndexPageData(
-    teamNames: List<String>,
-    matchSubType: String,
-    country: String,
-    gender: String,
-    title: String,
-    extraMessages: List<String>,
-    jsonDirectory: String
-) {
-    if (teamNames.isNotEmpty()) {
-        val fileName =
-            "${jsonDirectory}/index.json"
-
-        val file = File(fileName)
-        file.parentFile.mkdirs()
-
-        writeJsonTeamPairPageIndexData(
-            fileName,
-            CompetitionIndexPage(teamNames, matchSubType, country, gender, title, extraMessages)
-        )
-    }
-}
-
-fun writeJsonTeamPairPageIndexData(fileName: String, data: CompetitionIndexPage) {
-
-    val format = Json {
-        prettyPrint = true;
-        encodeDefaults = true
-    }
-    val formattedData: String = format.encodeToString(data)
-
-
-    val file = File(fileName)
-    file.parentFile.mkdirs()
-
-    file.createNewFile()
-
-
-    file.writeText(formattedData)
-}
-
+/**
+ * If teams have 'opponents' in the JSON then those opponents don't have a top level HTML page as it is never linked
+ * to from any other page. Only the A v B teams have top level pages (see ou_v_cu.json for an example)
+ */
+data class TeamPairHomePagesData(
+    val shouldHaveOwnPage: Boolean,
+    val teamPairDetails: MutableList<Pair<String, String>>
+)

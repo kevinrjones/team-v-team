@@ -1,3 +1,5 @@
 package com.knowledgespike.shared.database
 
-data class DatabaseConnection(val userName: String, val password: String, val connectionString: String)
+import org.jooq.SQLDialect
+
+data class DatabaseConnection(val userName: String, val password: String, val connectionString: String, val dialect: SQLDialect)

@@ -5,12 +5,14 @@ import com.knowledgespike.progressive.database.generateFileName
 import com.knowledgespike.progressive.json.ProgressiveData
 import com.knowledgespike.progressive.json.writeJsonMatchData
 import com.knowledgespike.shared.data.*
-import com.knowledgespike.shared.html.createTeamPairHomePagesData
-import com.knowledgespike.shared.html.getHomePageJsonData
-import com.knowledgespike.shared.html.getIndexPageJsonData
+import com.knowledgespike.shared.data.createTeamPairHomePagesData
+import com.knowledgespike.shared.data.getHomePageJsonData
+import com.knowledgespike.shared.data.getIndexPageJsonData
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.progressive.html.GenerateHtml
 import com.knowledgespike.progressive.json.getProgressiveJsonData
+import com.knowledgespike.shared.database.DatabaseConnection
+import com.knowledgespike.shared.database.getTeamIds
 import kotlinx.coroutines.*
 import kotlinx.datetime.Clock
 import org.apache.commons.cli.*
@@ -94,14 +96,13 @@ class Application {
                     }
                 }
 
+                val databaseConnection = DatabaseConnection(userName, password, connectionString, dialect)
                 val jsonOutputDirectory = "$baseDirectory/$relativeJsonOutputDirectory"
                 processAllCompetitions(
                     baseDirectory,
                     fullyQualifiedHtmlOutputDirectory,
                     jsonOutputDirectory,
-                    connectionString,
-                    userName,
-                    password
+                    databaseConnection
                 )
 
             } catch (t: Throwable) {
@@ -114,9 +115,7 @@ class Application {
             baseDirectory: String,
             htmlOutputDirectory: String,
             jsonOutputDirectory: String,
-            connectionString: String,
-            userName: String,
-            password: String
+            databaseConnection: DatabaseConnection
         ) {
 
             val dataDirectory = "$baseDirectory/shared/data"
@@ -135,9 +134,7 @@ class Application {
                     val job = launch {
                         val teamsWithDuplicates: TeamNameToIds =
                             getTeamIds(
-                                connectionString,
-                                userName,
-                                password,
+                                databaseConnection,
                                 competitionWithSortedTeams.teams,
                                 matchSubType,
                                 dialect
@@ -147,9 +144,7 @@ class Application {
                         competition.teams.forEach {
                             val opponents: TeamNameToIds =
                                 getTeamIds(
-                                    connectionString,
-                                    userName,
-                                    password,
+                                    databaseConnection,
                                     it.opponents,
                                     matchSubType,
                                     dialect
@@ -157,19 +152,18 @@ class Application {
                             opponentsForTeam[it.team] = opponents
                         }
 
-                        val opponentsWithAuthors = competition.teams
+                        val teamsWithAuthors = competition.teams
                             .filter { it.authors.isNotEmpty() }
-                            .map { OpponentWithAuthors(it.team, it.authors) }
+                            .map { TeamWithAuthors(it.team, it.authors) }
                             .associateBy({ it.team }, { it.author })
 
 
                         val processTeams =
-                            ProcessTeams(teamsWithDuplicates, opponentsForTeam, opponentsWithAuthors, dialect)
+                            ProcessTeams(teamsWithDuplicates, opponentsForTeam, teamsWithAuthors, dialect)
 
-                        val pairsForPage = processTeams.process(
-                            connectionString,
-                            userName,
-                            password,
+
+                        val pairsForPage = processTeams.processTeamPairs(
+                            databaseConnection,
                             matchSubType,
                             "$jsonOutputDirectory/${competition.outputDirectory}",
                             competition.teams.map { it.team }
@@ -203,6 +197,36 @@ class Application {
                             writeJsonMatchData(jsonDirectory, fileName, progressiveData)
 
                         }
+
+                        processTeams.processTeamVsAllOpponents(
+                            databaseConnection,
+                            matchSubType,
+                            "$jsonOutputDirectory/${competition.outputDirectory}",
+
+                            ) { teamdAndIds, jsonDirectory ->
+
+                            val progressiveData = ProgressiveData(
+                                teamdAndIds.teamName,
+                                "all",
+                                competition.title,
+                                competition.subType,
+                                teamdAndIds.matchDto,
+                                teamdAndIds.authors,
+                                teamdAndIds.highestScores,
+                                teamdAndIds.lowestAllOutScores,
+                                teamdAndIds.highestIndividualScore,
+                                teamdAndIds.bestBowlingInnings,
+                                teamdAndIds.bestBowlingMatch,
+                                teamdAndIds.bestFoW,
+                                Clock.System.now()
+                            )
+
+                            val fileName = teamdAndIds.generateFileName(matchSubType)
+
+                            writeJsonMatchData(jsonDirectory, fileName, progressiveData)
+
+                        }
+
                         val jsonDirectory = "$jsonOutputDirectory/${competition.outputDirectory}"
 
                         val teamNamesForIndexPage = createTeamPairHomePagesData(
@@ -253,50 +277,53 @@ class Application {
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
-            val matchSubtypeDirectories =
-                Files.list(jsonDirectory).filter { it.isDirectory() }.sorted().toList()
+            val streamOfSubdirectories = Files.list(jsonDirectory)
+            streamOfSubdirectories.use {
 
-            matchSubtypeDirectories.forEach {
-                generateHtmlIndexAndTeamPagesForAllCompetitions(
-                    jsonDirectoryBaseName,
-                    it.toString(),
-                    htmlOutputDirectoryName
-                )
-            }
+                val matchSubtypeDirectories =
+                    streamOfSubdirectories.filter { it.isDirectory() }.sorted().toList()
 
-            val recordPage = GenerateHtml()
-
-            val fqn = jsonDirectory.toString()
-            val fqnHtmlName = fqn.replace(jsonDirectoryBaseName, htmlOutputDirectoryName)
-
-            val jsonFiles =
-                Files.list(jsonDirectory)
-                    .filter { it.isRegularFile() }
-                    .filter { it.name == "index.json" }
-                    .sorted()
-                    .toList()
-
-            if (jsonFiles.size > 0) {
-                val jsonFile = jsonFiles.first()
-                val details = getIndexPageJsonData(jsonFile.toString())
-
-                if (details != null) {
-                    val htmlFileName = jsonFile.name.replace(".json", ".html")
-
-                    val htmlFullName = "$fqnHtmlName/$htmlFileName"
-
-                    recordPage.generateIndexPageForProgeressiveTeamsAndType(
-                        details.teamNames.sorted(),
-                        details.matchSubType,
-                        details.country,
-                        details.gender,
-                        details.title,
-                        details.extraMessages,
-                        htmlFullName
+                matchSubtypeDirectories.forEach {
+                    generateHtmlIndexAndTeamPagesForAllCompetitions(
+                        jsonDirectoryBaseName,
+                        it.toString(),
+                        htmlOutputDirectoryName
                     )
                 }
-            }
 
+                val recordPage = GenerateHtml()
+
+                val fqn = jsonDirectory.toString()
+                val fqnHtmlName = fqn.replace(jsonDirectoryBaseName, htmlOutputDirectoryName)
+
+                val jsonFiles =
+                    Files.list(jsonDirectory)
+                        .filter { it.isRegularFile() }
+                        .filter { it.name == "index.json" }
+                        .sorted()
+                        .toList()
+
+                if (jsonFiles.size > 0) {
+                    val jsonFile = jsonFiles.first()
+                    val details = getIndexPageJsonData(jsonFile.toString())
+
+                    if (details != null) {
+                        val htmlFileName = jsonFile.name.replace(".json", ".html")
+
+                        val htmlFullName = "$fqnHtmlName/$htmlFileName"
+
+                        recordPage.generateIndexPageForProgeressiveTeamsAndType(
+                            details.teamNames.sorted(),
+                            details.matchSubType,
+                            details.country,
+                            details.gender,
+                            details.title,
+                            details.extraMessages,
+                            htmlFullName
+                        )
+                    }
+                }
+            }
         }
 
         private fun generateHtmlTeamPairHomePagesForAllCompetitions(
@@ -306,39 +333,43 @@ class Application {
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
-            val matchSubtypeDirectories =
-                Files.list(jsonDirectory).filter { it.isDirectory() }.sorted().toList()
+            val streamOfSubdirectories = Files.list(jsonDirectory)
+            streamOfSubdirectories.use {
 
-            matchSubtypeDirectories.forEach { path ->
-                generateHtmlTeamPairHomePagesForAllCompetitions(
-                    jsonDirectoryBaseName,
-                    path.toString(),
-                    htmlOutputDirectoryName
-                )
-            }
-            val recordPage = GenerateHtml()
+                val matchSubtypeDirectories =
+                    streamOfSubdirectories.filter { it.isDirectory() }.sorted().toList()
 
-            val fqn = jsonDirectory.toString()
-            val fqnHtmlName = fqn.replace(jsonDirectoryBaseName, htmlOutputDirectoryName)
+                matchSubtypeDirectories.forEach { path ->
+                    generateHtmlTeamPairHomePagesForAllCompetitions(
+                        jsonDirectoryBaseName,
+                        path.toString(),
+                        htmlOutputDirectoryName
+                    )
+                }
+                val recordPage = GenerateHtml()
 
-            val jsonFiles =
-                Files.list(jsonDirectory)
-                    .filter { it.isRegularFile() }
-                    .filter { !it.name.contains("_v_") }
-                    .filter { it.name != "index.json" }
-                    .sorted()
-                    .toList()
-            jsonFiles.forEach { jsonFile ->
-                val details = getHomePageJsonData(jsonFile.toString())
+                val fqn = jsonDirectory.toString()
+                val fqnHtmlName = fqn.replace(jsonDirectoryBaseName, htmlOutputDirectoryName)
 
-                if (details != null) {
-                    val htmlFileName = jsonFile.name.replace(".json", ".html")
+                val jsonFiles =
+                    Files.list(jsonDirectory)
+                        .filter { it.isRegularFile() }
+                        .filter { !it.name.contains("_v_") }
+                        .filter { it.name != "index.json" }
+                        .sorted()
+                        .toList()
+                jsonFiles.forEach { jsonFile ->
+                    val details = getHomePageJsonData(jsonFile.toString())
 
-                    val htmlFullName = "$fqnHtmlName/$htmlFileName"
-                    val file = File(htmlFullName)
+                    if (details != null) {
+                        val htmlFileName = jsonFile.name.replace(".json", ".html")
 
-                    recordPage.createProgressiveTeamPairHomePages(details, file)
+                        val htmlFullName = "$fqnHtmlName/$htmlFileName"
+                        val file = File(htmlFullName)
 
+                        recordPage.createProgressiveTeamPairHomePages(details, file)
+
+                    }
                 }
             }
         }
@@ -350,38 +381,41 @@ class Application {
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
-            val matchSubtypeDirectories =
-                Files.list(jsonDirectory).filter { it.isDirectory() }.sorted().toList()
+            val streamOfSubdirectories = Files.list(jsonDirectory)
+            streamOfSubdirectories.use {
 
-            matchSubtypeDirectories.forEach {
-                generateHtmlFromJson(jsonDirectoryBaseName, it.toString(), htmlOutputDirectoryName)
-            }
+                val matchSubtypeDirectories =
+                    streamOfSubdirectories.filter { it.isDirectory() }.sorted().toList()
 
-            val recordPage = GenerateHtml()
-
-
-            val fqn = jsonDirectory.toString()
-            val fqnHtmlName = fqn.replace(jsonDirectoryBaseName, htmlOutputDirectoryName)
-            val jsonFiles =
-                Files.list(jsonDirectory).filter { it.isRegularFile() }.filter { it.name.contains("_v_") }.sorted()
-                    .toList()
-            jsonFiles.forEach { jsonFile ->
-                val details = getProgressiveJsonData(jsonFile.toString())
-
-                if (details != null) {
-                    val htmlFileName = jsonFile.name.replace(".json", ".html")
-
-                    val htmlFullName = "$fqnHtmlName/$htmlFileName"
-                    val file = File(htmlFullName)
-
-                    recordPage.generateProgressiveRecordsPage(
-                        details,
-                        file
-                    )
+                matchSubtypeDirectories.forEach {
+                    generateHtmlFromJson(jsonDirectoryBaseName, it.toString(), htmlOutputDirectoryName)
                 }
 
-            }
+                val recordPage = GenerateHtml()
 
+
+                val fqn = jsonDirectory.toString()
+                val fqnHtmlName = fqn.replace(jsonDirectoryBaseName, htmlOutputDirectoryName)
+                val jsonFiles =
+                    Files.list(jsonDirectory).filter { it.isRegularFile() }.filter { it.name.contains("_v_") }.sorted()
+                        .toList()
+                jsonFiles.forEach { jsonFile ->
+                    val details = getProgressiveJsonData(jsonFile.toString())
+
+                    if (details != null) {
+                        val htmlFileName = jsonFile.name.replace(".json", ".html")
+
+                        val htmlFullName = "$fqnHtmlName/$htmlFileName"
+                        val file = File(htmlFullName)
+
+                        recordPage.generateProgressiveRecordsPage(
+                            details,
+                            file
+                        )
+                    }
+
+                }
+            }
         }
 
         private fun createCommandLineOptions(): Options {

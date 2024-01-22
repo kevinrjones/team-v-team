@@ -4,6 +4,8 @@ import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import java.time.ZoneId
 
+typealias TeamNameToIds = Map<String, List<Int>>
+
 val internationalMatchTypes = listOf("t", "wt", "itt", "witt", "o", "wo")
 
 fun Long.toLocalDateTime(): kotlinx.datetime.LocalDateTime {

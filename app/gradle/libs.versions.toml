@@ -1,8 +1,8 @@
 [versions]
 catalogUpdateVersion_version = "0.8.3"
 commons_cli_version = "1.6.0"
-#jooq_version = "3.19.1"
-jooq_version = "3.18.8"
+jooq_version = "3.19.2"
+junitVersion = "5.10.1"
 kotlin_couroutines_version = "1.7.3"
 kotlin_version = "1.9.22"
 kotlinx_datetime_version = "0.5.0"
@@ -11,15 +11,14 @@ kotlinx_serialization_version = "1.6.2"
 logback_version = "1.4.14"
 mariaDbVersion = "3.3.2"
 updateVersion_version = "0.50.0"
-junitVersion = "5.10.1"
 
 [libraries]
 commonsCli = { module = "commons-cli:commons-cli", version.ref = "commons_cli_version" }
+jUnitEngine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junitVersion" }
 jooq = { module = "org.jooq:jooq", version.ref = "jooq_version" }
 jooqCodeGen = { module = "org.jooq:jooq-codegen", version.ref = "jooq_version" }
 jooqMeta = { module = "org.jooq:jooq-meta", version.ref = "jooq_version" }
 junit = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junitVersion" }
-jUnitEngine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junitVersion" }
 kotlinCoroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin_couroutines_version" }
 kotlinReflect = "org.jetbrains.kotlin:kotlin-reflect:1.9.20-Beta2"
 kotlinxDatetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx_datetime_version" }
@@ -31,8 +30,7 @@ mariadb = { module = "org.mariadb.jdbc:mariadb-java-client", version.ref = "mari
 
 [plugins]
 catalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "catalogUpdateVersion_version" }
-jooq = {id = "org.jooq.jooq-codegen-gradle", version="3.19.1"}
 kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin_version" }
 kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin_version" }
 versionUpdate = { id = "com.github.ben-manes.versions", version.ref = "updateVersion_version" }
-
+jooq = { id = "org.jooq.jooq-codegen-gradle", version.ref = "jooq_version" }

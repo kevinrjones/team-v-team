@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter
 
 
 
-class TeamRecords(private val databaseConnection: DatabaseConnection, private val dialect: SQLDialect) {
+class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
     var inputFormatter: DateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
     var outputFormatter: DateTimeFormatter = DateTimeFormatter.ofPattern("dd MMM yyyy")
@@ -23,7 +23,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection, private va
         val highestTotals = mutableListOf<TotalDto>()
 
         DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
-            val context = using(conn, dialect)
+            val context = using(conn, databaseConnection.dialect)
             val cte = context
                 .with("cte")
                 .`as`(
@@ -112,7 +112,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection, private va
         val highestTotals = mutableListOf<TotalDto>()
 
         DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
-            val context = using(conn, dialect)
+            val context = using(conn, databaseConnection.dialect)
             val cte = context
                 .with("cte")
                 .`as`(
@@ -197,7 +197,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection, private va
         val highestscores = mutableListOf<HighestScoreDto>()
 
         DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
-            val context = using(conn, dialect)
+            val context = using(conn, databaseConnection.dialect)
             val result = context
                 .with("cte").`as`(
                     select(
@@ -290,7 +290,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection, private va
         val bestBowling = mutableListOf<BestBowlingDto>()
 
         DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
-            val context = using(conn, dialect)
+            val context = using(conn, databaseConnection.dialect)
 
             val cte = context
                 .with("cte").`as`(
@@ -394,7 +394,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection, private va
 
         DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
             try {
-                val context = using(conn, dialect)
+                val context = using(conn, databaseConnection.dialect)
 
                 val q = context.with(
                     "cte"
@@ -540,7 +540,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection, private va
             databaseConnection.userName,
             databaseConnection.password
         ).use { conn ->
-            val context = DSL.using(conn, dialect)
+            val context = DSL.using(conn, databaseConnection.dialect)
 
             val tmpTableName = "tmp_partnerships"
             context.createTemporaryTable(tmpTableName).`as`(

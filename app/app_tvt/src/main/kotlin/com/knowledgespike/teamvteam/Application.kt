@@ -2,9 +2,11 @@ package com.knowledgespike.teamvteam
 
 import com.knowledgespike.extensions.generateFileName
 import com.knowledgespike.shared.data.*
-import com.knowledgespike.shared.html.createTeamPairHomePagesData
-import com.knowledgespike.shared.html.getHomePageJsonData
-import com.knowledgespike.shared.html.getIndexPageJsonData
+import com.knowledgespike.shared.data.createTeamPairHomePagesData
+import com.knowledgespike.shared.data.getHomePageJsonData
+import com.knowledgespike.shared.data.getIndexPageJsonData
+import com.knowledgespike.shared.database.DatabaseConnection
+import com.knowledgespike.shared.database.getTeamIds
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.teamvteam.database.ProcessTeams
 import com.knowledgespike.teamvteam.html.GenerateHtml
@@ -75,6 +77,8 @@ class Application {
                 val relativeJsonOutputDirectory = cmd.getOptionValue("jo")
                 val dialectOption = cmd.getOptionValue("d")
 
+                val databaseConnection = DatabaseConnection(userName, password, connectionString, dialect)
+
                 dialect = when (dialectOption) {
                     "mariadb" -> {
                         SQLDialect.MARIADB
@@ -98,9 +102,7 @@ class Application {
                     baseDirectory,
                     fullyQualifiedHtmlOutputDirectory,
                     jsonOutputDirectory,
-                    connectionString,
-                    userName,
-                    password
+                    databaseConnection
                 )
             } catch (t: Throwable) {
                 log.error("Error in main", t)
@@ -111,31 +113,28 @@ class Application {
             baseDirectory: String,
             htmlOutputDirectory: String,
             jsonOutputDirectory: String,
-            connectionString: String,
-            userName: String,
-            password: String
+            databaseConnection: DatabaseConnection
         ) {
 
-            withContext(Dispatchers.IO) {
-                val dataDirectory = "$baseDirectory/shared/data"
-                val allCompetitions = getAllCompetitions(dataDirectory)
+            val dataDirectory = "$baseDirectory/shared/data"
+            val allCompetitions = getAllCompetitions(dataDirectory)
 
+
+            withContext(Dispatchers.IO) {
                 val jobs = mutableListOf<Job>()
 
                 allCompetitions.forEach { competition: Competition ->
                     val job = launch {
-
                         val matchDesignator = competition.title
                         val matchSubType = competition.subType
 
                         val competitionWithSortedTeams =
                             competition.copy(teams = competition.teams.sortedBy { it.team })
 
+
                         val teamsWithDuplicates: TeamNameToIds =
                             getTeamIds(
-                                connectionString,
-                                userName,
-                                password,
+                                databaseConnection,
                                 competitionWithSortedTeams.teams,
                                 matchSubType,
                                 dialect
@@ -145,9 +144,7 @@ class Application {
                         competition.teams.forEach {
                             val opponents: TeamNameToIds =
                                 getTeamIds(
-                                    connectionString,
-                                    userName,
-                                    password,
+                                    databaseConnection,
                                     it.opponents,
                                     matchSubType,
                                     dialect
@@ -157,16 +154,15 @@ class Application {
 
                         val opponentsWithAuthors = competition.teams
                             .filter { it.authors.isNotEmpty() }
-                            .map { OpponentWithAuthors(it.team, it.authors) }
+                            .map { TeamWithAuthors(it.team, it.authors) }
                             .associateBy({ it.team }, { it.author })
 
 
-                        val processTeams = ProcessTeams(teamsWithDuplicates, opponentsForTeam, opponentsWithAuthors)
+                        val processTeams =
+                            ProcessTeams(teamsWithDuplicates, opponentsForTeam, opponentsWithAuthors)
 
                         val pairsForPage = processTeams.process(
-                            connectionString,
-                            userName,
-                            password,
+                            databaseConnection,
                             matchSubType,
                             "$jsonOutputDirectory/${competition.outputDirectory}",
                             competition.teams.map { it.team }
@@ -243,21 +239,22 @@ class Application {
                     jobs.add(job)
                 }
                 jobs.forEach { j -> j.join() }
-                log.info("processAllDirectories finished")
-
-                generateHtmlIndexAndTeamPagesForAllCompetitions(
-                    jsonOutputDirectory,
-                    jsonOutputDirectory,
-                    htmlOutputDirectory
-                )
-                generateHtmlTeamPairHomePagesForAllCompetitions(
-                    jsonOutputDirectory,
-                    jsonOutputDirectory,
-                    htmlOutputDirectory
-                )
-                generateHtmlFromJson(jsonOutputDirectory, jsonOutputDirectory, htmlOutputDirectory)
-
+                log.info("process all JSON finished")
             }
+
+            generateHtmlIndexAndTeamPagesForAllCompetitions(
+                jsonOutputDirectory,
+                jsonOutputDirectory,
+                htmlOutputDirectory
+            )
+            generateHtmlTeamPairHomePagesForAllCompetitions(
+                jsonOutputDirectory,
+                jsonOutputDirectory,
+                htmlOutputDirectory
+            )
+            generateHtmlFromJson(jsonOutputDirectory, jsonOutputDirectory, htmlOutputDirectory)
+            log.info("process all HTML finished")
+
         }
 
 
@@ -293,9 +290,13 @@ class Application {
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
-            val matchSubtypeDirectories =
-                Files.list(jsonDirectory).filter { it.isDirectory() }.sorted().toList()
+            val streamOfSubdirectories = Files.list(jsonDirectory)
 
+
+            val matchSubtypeDirectories =
+                streamOfSubdirectories.filter { it.isDirectory() }.sorted().toList()
+
+            streamOfSubdirectories.close()
             matchSubtypeDirectories.forEach {
                 generateHtmlFromJson(jsonDirectoryBaseName, it.toString(), htmlOutputDirectoryName)
             }
@@ -325,6 +326,7 @@ class Application {
 
             }
 
+
         }
 
         private fun generateHtmlIndexAndTeamPagesForAllCompetitions(
@@ -334,8 +336,12 @@ class Application {
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
+            val streamOfSubdirectories = Files.list(jsonDirectory)
+
             val matchSubtypeDirectories =
-                Files.list(jsonDirectory).filter { it.isDirectory() }.sorted().toList()
+                streamOfSubdirectories.filter { it.isDirectory() }.sorted().toList()
+
+            streamOfSubdirectories.close()
 
             matchSubtypeDirectories.forEach {
                 generateHtmlIndexAndTeamPagesForAllCompetitions(
@@ -376,8 +382,8 @@ class Application {
                         htmlFullName
                     )
                 }
-            }
 
+            }
         }
 
         private fun generateHtmlTeamPairHomePagesForAllCompetitions(
@@ -387,8 +393,13 @@ class Application {
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
+            val streamOfSubdirectories = Files.list(jsonDirectory)
+
+
             val matchSubtypeDirectories =
-                Files.list(jsonDirectory).filter { it.isDirectory() }.sorted().toList()
+                streamOfSubdirectories.filter { it.isDirectory() }.sorted().toList()
+
+            streamOfSubdirectories.close()
 
             matchSubtypeDirectories.forEach { path ->
                 generateHtmlTeamPairHomePagesForAllCompetitions(
@@ -397,6 +408,7 @@ class Application {
                     htmlOutputDirectoryName
                 )
             }
+
             val recordPage = GenerateHtml()
 
             val fqn = jsonDirectory.toString()
@@ -422,6 +434,7 @@ class Application {
 
                 }
             }
+
         }
 
         private fun createCommandLineOptions(): Options {

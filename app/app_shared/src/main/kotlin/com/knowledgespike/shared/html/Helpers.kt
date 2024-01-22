@@ -1,4 +1,4 @@
-package com.knowledgespike.shared.helpers
+package com.knowledgespike.shared.html
 
 fun getWicket(wicket: Int): String = when (wicket) {
     1 -> "1st"

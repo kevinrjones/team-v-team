@@ -1,10 +1,11 @@
 package com.knowledgespike.teamvteam.database
 
 import com.knowledgespike.extensions.generateFileName
-import com.knowledgespike.shared.TeamPairHomePagesData
+import com.knowledgespike.shared.data.TeamPairHomePagesData
 import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.database.DatabaseConnection
 import com.knowledgespike.shared.database.checkIfShouldProcess
+import com.knowledgespike.shared.database.getCountOfMatchesBetweenTeams
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.teamvteam.Application.Companion.dialect
 import com.knowledgespike.teamvteam.json.getTvTJsonData
@@ -16,7 +17,7 @@ import kotlinx.coroutines.withContext
 class ProcessTeams(
     allTeams: TeamNameToIds,
     opponentsForTeam: Map<String, TeamNameToIds>,
-    private val opponentsWithAuthors: Map<String, List<Author>>,
+    private val opponentsWithAuthors: Map<String, List<Author>>
 ) {
     val log by LoggerDelegate()
 
@@ -28,9 +29,7 @@ class ProcessTeams(
 
 
     suspend fun process(
-        connectionString: String,
-        userName: String,
-        password: String,
+        databaseConnection: DatabaseConnection,
         matchSubType: String,
         jsonDirectory: String,
         competitionTeams: List<String>,
@@ -46,9 +45,7 @@ class ProcessTeams(
 
             val matchDto =
                 getCountOfMatchesBetweenTeams(
-                    connectionString,
-                    userName,
-                    password,
+                    databaseConnection,
                     teamsAndOpponents,
                     matchSubType,
                     dialect
@@ -74,9 +71,7 @@ class ProcessTeams(
 
 
                 if (lastUpdatedDate == null || checkIfShouldProcess(
-                        connectionString,
-                        userName,
-                        password,
+                        databaseConnection,
                         teamsAndOpponents.teamIds,
                         teamsAndOpponents.opponentIds,
                         matchType,
@@ -89,27 +84,31 @@ class ProcessTeams(
                     withContext(Dispatchers.IO) {
                         val job = launch {
 
-                            val databaseConnection = DatabaseConnection(userName, password, connectionString)
                             val teamParams = getTeamParams(teamsAndOpponents, matchType, matchSubType)
                             teamPairDetails.addTeamData(databaseConnection, teamParams.first, teamParams.second)
-                            teamPairDetails.addIndividualData(databaseConnection, teamParams.first, teamParams.second, matchType)
+                            teamPairDetails.addIndividualData(
+                                databaseConnection,
+                                teamParams.first,
+                                teamParams.second,
+                                matchType
+                            )
 
-                            val maybeAuthors1 = opponentsWithAuthors
+                            val authors1 = opponentsWithAuthors
                                 .filter { it.key == teamPairDetails.teams[0] }
                                 .get(teamPairDetails.teams[0])?.map { it }
                                 ?.filter { it.opponent == teamPairDetails.teams[1] }
                                 ?.map { it.name }
+                                ?: listOf()
 
-                            val maybeAuthors2 = opponentsWithAuthors
+                            val authors2 = opponentsWithAuthors
                                 .filter { it.key == teamPairDetails.teams[1] }
                                 .get(teamPairDetails.teams[1])?.map { it }
                                 ?.filter { it.opponent == teamPairDetails.teams[0] }
                                 ?.map { it.name }
+                                ?: listOf()
 
-                            if (maybeAuthors1 != null && maybeAuthors1.isNotEmpty())
-                                teamPairDetails.authors.addAll(maybeAuthors1)
-                            if (maybeAuthors2 != null && maybeAuthors2.isNotEmpty())
-                                teamPairDetails.authors.addAll(maybeAuthors2)
+
+                            teamPairDetails.authors.addAll(authors1 + authors2)
 
                         }
 
