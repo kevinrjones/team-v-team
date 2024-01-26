@@ -41,7 +41,6 @@ class ProcessTeams(
         var pairsForPage: Map<String, TeamPairHomePagesData> = mutableMapOf()
 
         for (teamsAndOpponents in idPairs) {
-            log.debug("Start processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
 
             val matchDto =
                 getCountOfMatchesBetweenTeams(
@@ -51,7 +50,6 @@ class ProcessTeams(
                     dialect
                 )
             if (matchDto.count != 0) {
-                log.debug("Processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
                 val teamPairDetails =
                     TeamPairDetails(
                         arrayOf(teamsAndOpponents.teamName, teamsAndOpponents.opponentsName),
@@ -80,42 +78,37 @@ class ProcessTeams(
                     )
                 ) {
 
+                    val teamParams = getTeamParams(teamsAndOpponents, matchType, matchSubType)
+                    log.info("About to process {}", teamParams)
+                    teamPairDetails.addTeamData(databaseConnection, teamParams.first, teamParams.second)
+                    teamPairDetails.addIndividualData(
+                        databaseConnection,
+                        teamParams.first,
+                        teamParams.second,
+                        matchType
+                    )
 
-                    withContext(Dispatchers.IO) {
-                        val job = launch {
+                    val authors1 = opponentsWithAuthors
+                        .filter { it.key == teamPairDetails.teams[0] }
+                        .get(teamPairDetails.teams[0])?.map { it }
+                        ?.filter { it.opponent == teamPairDetails.teams[1] }
+                        ?.map { it.name }
+                        ?: listOf()
 
-                            val teamParams = getTeamParams(teamsAndOpponents, matchType, matchSubType)
-                            teamPairDetails.addTeamData(databaseConnection, teamParams.first, teamParams.second)
-                            teamPairDetails.addIndividualData(
-                                databaseConnection,
-                                teamParams.first,
-                                teamParams.second,
-                                matchType
-                            )
-
-                            val authors1 = opponentsWithAuthors
-                                .filter { it.key == teamPairDetails.teams[0] }
-                                .get(teamPairDetails.teams[0])?.map { it }
-                                ?.filter { it.opponent == teamPairDetails.teams[1] }
-                                ?.map { it.name }
-                                ?: listOf()
-
-                            val authors2 = opponentsWithAuthors
-                                .filter { it.key == teamPairDetails.teams[1] }
-                                .get(teamPairDetails.teams[1])?.map { it }
-                                ?.filter { it.opponent == teamPairDetails.teams[0] }
-                                ?.map { it.name }
-                                ?: listOf()
+                    val authors2 = opponentsWithAuthors
+                        .filter { it.key == teamPairDetails.teams[1] }
+                        .get(teamPairDetails.teams[1])?.map { it }
+                        ?.filter { it.opponent == teamPairDetails.teams[0] }
+                        ?.map { it.name }
+                        ?: listOf()
 
 
-                            teamPairDetails.authors.addAll(authors1 + authors2)
+                    teamPairDetails.authors.addAll(authors1 + authors2)
+                    val tempAuthors = teamPairDetails.authors.distinct()
+                    teamPairDetails.authors.clear()
+                    teamPairDetails.authors.addAll(tempAuthors)
 
-                        }
-
-                        job.join()
-
-                        callback(teamPairDetails, jsonDirectory)
-                    }
+                    callback(teamPairDetails, jsonDirectory)
                 }
             }
         }

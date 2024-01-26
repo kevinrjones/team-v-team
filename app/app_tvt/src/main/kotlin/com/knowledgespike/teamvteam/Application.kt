@@ -77,7 +77,6 @@ class Application {
                 val relativeJsonOutputDirectory = cmd.getOptionValue("jo")
                 val dialectOption = cmd.getOptionValue("d")
 
-                val databaseConnection = DatabaseConnection(userName, password, connectionString, dialect)
 
                 dialect = when (dialectOption) {
                     "mariadb" -> {
@@ -96,6 +95,7 @@ class Application {
                         SQLDialect.DEFAULT
                     }
                 }
+                val databaseConnection = DatabaseConnection(userName, password, connectionString, dialect)
 
                 val jsonOutputDirectory = "$baseDirectory/$relativeJsonOutputDirectory"
                 processAllCompetitions(
@@ -120,11 +120,12 @@ class Application {
             val allCompetitions = getAllCompetitions(dataDirectory)
 
 
-            withContext(Dispatchers.IO) {
-                val jobs = mutableListOf<Job>()
+            val jobs = mutableListOf<Job>()
 
-                allCompetitions.forEach { competition: Competition ->
+            allCompetitions.forEach { competition: Competition ->
+                withContext(Dispatchers.IO) {
                     val job = launch {
+
                         val matchDesignator = competition.title
                         val matchSubType = competition.subType
 
@@ -235,12 +236,14 @@ class Application {
                                 jsonDirectory
                             )
                         }
+                        log.info("Finished {}", competition)
                     }
                     jobs.add(job)
+                    log.info("Started {}", competition)
                 }
-                jobs.forEach { j -> j.join() }
-                log.info("process all JSON finished")
             }
+            jobs.forEach { j -> j.join() }
+            log.info("process all JSON finished")
 
             generateHtmlIndexAndTeamPagesForAllCompetitions(
                 jsonOutputDirectory,

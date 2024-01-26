@@ -3,6 +3,7 @@ package com.knowledgespike.teamvteam.database
 import com.knowledgespike.db.tables.references.*
 import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.database.DatabaseConnection
+import com.knowledgespike.shared.database.getPossibleFallOfWicketMissingPartnerships
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.teamvteam.Application.Companion.dialect
 import com.knowledgespike.teamvteam.daos.*
@@ -21,7 +22,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     ): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val cte = context
                 .with("cte")
@@ -87,7 +92,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val result = context.with("cte").`as`(
                 getLowestTotalSelect(teamParams)
@@ -125,7 +134,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val result = context.with("cte").`as`(
                 getLowestTotalSelect(teamParams)
@@ -164,7 +177,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val result = context.with("cte").`as`(
                 getLowestTotalSelect(teamParams)
@@ -228,7 +245,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getHighestIndividualScores(teamParams: TeamParams): List<HighestScoreDto> {
         val highestscores = mutableListOf<HighestScoreDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val result = context
                 .with("cte1").`as`(
@@ -318,7 +339,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getLowestIndividualStrikeRate(teamParams: TeamParams, ballsLimit: Int): List<StrikeRateDto> {
         val lowestStrikeRates = mutableListOf<StrikeRateDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val cte = context
                 .with("cte").`as`(
@@ -402,7 +427,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getHighestIndividualStrikeRate(teamParams: TeamParams, scoreLimit: Int = 0): List<StrikeRateDto> {
         val highestStrikeRates = mutableListOf<StrikeRateDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val cte = context
                 .with("cte").`as`(
@@ -483,7 +512,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getHighestIndividualSixes(teamParams: TeamParams): List<BoundariesDto> {
         val mostBoundaries = mutableListOf<BoundariesDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val result = context
                 .with("cte").`as`(
@@ -550,7 +583,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getHighestIndividualBoundaries(teamParams: TeamParams): List<BoundariesDto> {
         val mostBoundaries = mutableListOf<BoundariesDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val result = context
                 .with("cte").`as`(
@@ -621,7 +658,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getHighestIndividualFours(teamParams: TeamParams): List<BoundariesDto> {
         val mostBoundaries = mutableListOf<BoundariesDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val result = context
                 .with("cte").`as`(
@@ -689,7 +730,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
         val bestBowling = mutableListOf<BestBowlingDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
 
             val cte = context
@@ -760,7 +805,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 field("seriesdate", String::class.java),
                 field("matchstartdateasoffset", String::class.java),
             ).from("cte2")
-                .join("cte1"). on(field("max_bb").eq(field("syntheticbestbowling")))
+                .join("cte1").on(field("max_bb").eq(field("syntheticbestbowling")))
                 .orderBy(field("matchstartdateasoffset"), field("sortnamepart"), field("fullname"))
                 .fetch()
 
@@ -785,7 +830,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
         val bestBowling = mutableListOf<BowlingRatesDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val cte = context
                 .with("cte").`as`(
@@ -873,7 +922,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
         val bestBowling = mutableListOf<BowlingRatesDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val cte = context
                 .with("cte").`as`(
@@ -965,7 +1018,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
         val bestBowling = mutableListOf<BowlingRatesDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
             val cte = context
                 .with("cte").`as`(
@@ -1072,7 +1129,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val t = TEAMS.`as`("t")
         val o = TEAMS.`as`("o")
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             try {
                 val context = using(conn, dialect)
 
@@ -1189,7 +1250,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getMostRuns(teamParams: TeamParams): MutableList<MostRunsDto> {
         val mostruns = mutableListOf<MostRunsDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
 
             try {
                 val context = using(conn, dialect)
@@ -1285,7 +1350,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getMostWickets(teamParams: TeamParams): MutableList<MostWicketsDto> {
         val mostwickets = mutableListOf<MostWicketsDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
 
             val t1Name = "getbestbowlingtemptable1"
@@ -1334,7 +1403,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     BOWLINGDETAILS.RUNS,
                     BOWLINGDETAILS.WICKETS,
                     BOWLINGDETAILS.SYNTHETICBESTBOWLING,
-                    rowNumber().over().partitionBy(BOWLINGDETAILS.PLAYERID).orderBy(BOWLINGDETAILS.WICKETS.desc(), BOWLINGDETAILS.RUNS).`as`("rn")
+                    rowNumber().over().partitionBy(BOWLINGDETAILS.PLAYERID)
+                        .orderBy(BOWLINGDETAILS.WICKETS.desc(), BOWLINGDETAILS.RUNS).`as`("rn")
                 ).from(BOWLINGDETAILS)
                     .where(
                         BOWLINGDETAILS.MATCHID.`in`(
@@ -1424,7 +1494,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getMostCatches(teamParams: TeamParams): MutableList<MostDismissalsDto> {
         val mostCatches = mutableListOf<MostDismissalsDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
 
             val tmpTableName = "tmp_caught"
@@ -1498,7 +1572,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getMostStumpings(teamParams: TeamParams): MutableList<MostDismissalsDto> {
         val mostStumpings = mutableListOf<MostDismissalsDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
 
             val tmpTableName = "tmp_stumpings"
@@ -1626,7 +1704,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
         val bestFow = mutableMapOf<Int, FowDetails>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, dialect)
 
             val tmpTableName = "tmp_partnerships"
@@ -1814,13 +1896,22 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
                     for (partnershipRecord in result) {
 
+                        val partnership = partnershipRecord.getValue("partnership", Int::class.java)
+
+                        val possileInvalidPartnership = getPossibleFallOfWicketMissingPartnerships(
+                            databaseConnection,
+                            teamParams,
+                            wicket,
+                            partnership
+                        )
+
                         // want only one but there may be multiple scores with the same value
                         val fow = FoWDto(
                             teamParams.team,
                             teamParams.opponents,
                             partnershipRecord.getValue("location", String::class.java),
                             partnershipRecord.getValue("seriesdate", String::class.java),
-                            partnershipRecord.getValue("partnership", Int::class.java),
+                            partnership,
                             partnershipRecord.getValue("wicket", Int::class.java),
                             partnershipRecord.getValue("unbroken", Boolean::class.java),
                             partnershipRecord.getValue("fullname", String::class.java) ?: "unknown",
@@ -1831,6 +1922,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                             partnershipRecord.getValue("score2", Int::class.java),
                             partnershipRecord.getValue("notout2", Boolean::class.java),
                             partnershipRecord.getValue("position2", Int::class.java),
+                            possileInvalidPartnership
                         )
 
                         listMultiPlayerFowDao.addAll(
@@ -1843,6 +1935,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         )
 
                         listFoW.add(fow)
+
+
                     }
                     bestFow[wicket] = FowDetails(listFoW, listMultiPlayerFowDao)
 

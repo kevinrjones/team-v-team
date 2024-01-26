@@ -66,11 +66,16 @@ class GenerateHtml {
                                     "createTeamPairHomePages, call  generateAnchorForTeamVsTeam for teamName: {}",
                                     teamName
                                 )
-                                generateAnchorForTeamVsTeam(teamName, name.first, name.second, teamPairHomePages.matchType)
+                                generateAnchorForTeamVsTeam(
+                                    teamName,
+                                    name.first,
+                                    name.second,
+                                    teamPairHomePages.matchType
+                                )
                             }
                         }
                     }
-                        generateTeamVsTeamFooter()
+                    generateTeamVsTeamFooter()
                 }
                 fileWriter.append(virtualFooter)
                 fileWriter.append("\r\n")
@@ -223,8 +228,18 @@ class GenerateHtml {
             }
             generateOverallDataTable(teamPairDetails, index)
         }
+
+        if (getAnyPossibleInvalid(teamPairDetails))
+            generateMessageRow()
         p { +teamPairDetails.authors.joinToString(", ") }
+
         generateRecordPageFooter(teamPairDetails.team1, teamPairDetails.team2, matchType)
+    }
+
+    private fun getAnyPossibleInvalid(teamPairDetails: TeamPairDetailsData): Boolean {
+        val size =
+            teamPairDetails.bestFoW.flatMap { it.values }.flatMap { it.standardFow }.filter { it.possibleInvalid }.size
+        return size != 0
     }
 
     private fun DIV.generateOverallDataTable(teamPairDetails: TeamPairDetailsData, index: Int) {
@@ -903,7 +918,7 @@ class GenerateHtml {
 
                             td(null) {
                                 if (ndx == 0)
-                                    +"${getWicket(wicket)} Wkt"
+                                    +getWicketDetails(wicket, fow.possibleInvalid)
                             }
                             td(null) {
                                 +getPartnership(fow.partnership, fow.undefeated)
@@ -981,10 +996,17 @@ class GenerateHtml {
                     }
                 }
             }
+
         }
     }
 
+    private fun DIV.generateMessageRow() {
+        p {
+            +"\u2020 The partnership record for the marked wickets may have been exceeded in other matches for which we don't have fall of wickets data."
+        }
+    }
 }
+
 
 fun formatDouble(input: Double, scale: Int) = String.format("%.${scale}f", input)
 

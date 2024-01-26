@@ -63,6 +63,7 @@ data class FoWDto(
     val player2Score: Int,
     val player2NotOut: Boolean,
     val player2Position: Int,
+    val possibleInvalid: Boolean = false
 )
 
 @Serializable
