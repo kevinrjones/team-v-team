@@ -6,10 +6,22 @@
         "teams": [
             {
                 "team": "Ireland",
+                "authors": [
+                    {
+                        "opponent": "Scotland",
+                        "name": "John Boomer"
+                    }
+                ],
                 "duplicates": []
             },
             {
                 "team": "Scotland",
+                "authors": [
+                    {
+                        "opponent": "Ireland",
+                        "name": "John Boomer"
+                    }
+                ],
                 "duplicates": []
             }
         ],
