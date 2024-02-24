@@ -26,8 +26,12 @@ fun getPlayerScores(name: String, score: Int, isNotOut: Boolean): String {
 }
 
 fun getPartnership(partnership: Int, undefeated: Boolean): String =
-    if (!undefeated) partnership.toString()
-    else "${partnership}*"
+    if (partnership == -1) {
+        ""
+    } else {
+        if (!undefeated) partnership.toString()
+        else "${partnership}*"
+    }
 
 fun getNotOutScore(score: Int, notOut: Boolean): String {
     return if (notOut) "$score*" else "$score"

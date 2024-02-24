@@ -1,0 +1,87 @@
+[
+    {
+        "title": "Men's First Class",
+        "country": "",
+        "gender": "Men's",
+        "teams": [
+            {
+                "team": "Barbados",
+                "authors": [
+                    {
+                        "opponent": "Combined Campuses and Colleges",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Combined Leeward and Windward Islands",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Guyana",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Jamaica",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Leeward Islands",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Trinidad and Tobago",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "West Indies Academy",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Windward Islands",
+                        "name": "Keith Walmsley"
+                    }
+                ],
+                "duplicates": []
+            },
+            {
+                "team": "Combined Campuses and Colleges",
+                "duplicates": []
+            },
+            {
+                "team": "Combined Leeward and Windward Islands",
+                "duplicates": []
+            },
+            {
+                "team": "Guyana",
+                "duplicates": [
+                    "British Guiana"
+                ]
+            },
+            {
+                "team": "Jamaica",
+                "duplicates": []
+            },
+            {
+                "team": "Leeward Islands",
+                "duplicates": []
+            },
+            {
+                "team": "Trinidad and Tobago",
+                "duplicates": ["Trinidad"]
+            },
+            {
+                "team": "West Indies Academy",
+                "duplicates": []
+            },
+            {
+                "team": "Windward Islands",
+                "duplicates": []
+            }
+        ],
+        "subType": "f",
+        "outputDirectory": "wi_domestic",
+        "extraMessages": [
+            "Performances involving Guyana include those involving British Guiana prior to 1966/67",
+            "Performances involving Trinidad and Tobago include those involving Trinidad prior to 1962/63"
+        ]
+    }
+]

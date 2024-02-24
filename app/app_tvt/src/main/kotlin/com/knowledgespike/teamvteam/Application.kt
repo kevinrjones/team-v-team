@@ -123,7 +123,7 @@ class Application {
             val jobs = mutableListOf<Job>()
 
             allCompetitions.forEach { competition: Competition ->
-                withContext(Dispatchers.IO) {
+                withContext(Dispatchers.Default) {
                     val job = launch {
 
                         val matchDesignator = competition.title

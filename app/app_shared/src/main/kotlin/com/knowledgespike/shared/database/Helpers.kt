@@ -1,15 +1,12 @@
 package com.knowledgespike.shared.database
 
-import com.knowledgespike.db.tables.references.MATCHES
-import com.knowledgespike.db.tables.references.MATCHSUBTYPE
-import com.knowledgespike.db.tables.references.TEAMS
-import com.knowledgespike.db.tables.references.TEAMSMATCHTYPES
+import com.knowledgespike.db.tables.references.*
 import com.knowledgespike.shared.data.*
 import kotlinx.datetime.LocalDateTime
-import org.jooq.DSLContext
-import org.jooq.SQLDialect
+import org.jooq.*
 import org.jooq.impl.DSL
 import java.sql.DriverManager
+import java.time.LocalDate
 
 fun checkIfShouldProcess(
     databaseConnection: DatabaseConnection,
@@ -58,8 +55,6 @@ fun getCountOfMatchesBetweenTeams(
         databaseConnection.userName,
         databaseConnection.password
     ).use { conn ->
-
-
         val context = DSL.using(conn, dialect)
         val result = context.select(
             DSL.count(),
@@ -145,3 +140,7 @@ fun getTeamIdsFrom(context: DSLContext, team: String, matchType: String): List<I
 
     return idRecord.getValues(TEAMS.ID, Int::class.java)
 }
+
+
+
+

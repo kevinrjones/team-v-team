@@ -1,7 +1,6 @@
 package com.knowledgespike.teamvteam.database
 
 import com.knowledgespike.extensions.generateFileName
-import com.knowledgespike.shared.data.TeamPairHomePagesData
 import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.database.DatabaseConnection
 import com.knowledgespike.shared.database.checkIfShouldProcess
@@ -9,9 +8,6 @@ import com.knowledgespike.shared.database.getCountOfMatchesBetweenTeams
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.teamvteam.Application.Companion.dialect
 import com.knowledgespike.teamvteam.json.getTvTJsonData
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 
 
 class ProcessTeams(
@@ -28,7 +24,7 @@ class ProcessTeams(
     }
 
 
-    suspend fun process(
+    fun process(
         databaseConnection: DatabaseConnection,
         matchSubType: String,
         jsonDirectory: String,

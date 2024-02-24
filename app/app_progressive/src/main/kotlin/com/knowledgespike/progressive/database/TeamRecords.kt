@@ -4,12 +4,12 @@ import com.knowledgespike.db.tables.references.*
 import com.knowledgespike.progressive.data.BestBowlingDto
 import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.database.DatabaseConnection
-import org.jooq.SQLDialect
+import org.jooq.*
 import org.jooq.impl.DSL
 import org.jooq.impl.DSL.*
 import java.sql.DriverManager
+import java.time.LocalDate
 import java.time.format.DateTimeFormatter
-
 
 
 class TeamRecords(private val databaseConnection: DatabaseConnection) {
@@ -22,7 +22,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     ): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, databaseConnection.dialect)
             val cte = context
                 .with("cte")
@@ -111,7 +115,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     ): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, databaseConnection.dialect)
             val cte = context
                 .with("cte")
@@ -196,7 +204,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getHighestIndividualScores(teamParams: TeamParams): List<HighestScoreDto> {
         val highestscores = mutableListOf<HighestScoreDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, databaseConnection.dialect)
             val result = context
                 .with("cte").`as`(
@@ -229,7 +241,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                             )
                         )
                         .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-                        .orderBy(BATTINGDETAILS.matches.MATCHSTARTDATEASOFFSET, BATTINGDETAILS.INNINGSORDER, BATTINGDETAILS.POSITION)
+                        .orderBy(
+                            BATTINGDETAILS.matches.MATCHSTARTDATEASOFFSET,
+                            BATTINGDETAILS.INNINGSORDER,
+                            BATTINGDETAILS.POSITION
+                        )
                 ).with("cte1").`as`(
                     select(
                         field("fullname"),
@@ -289,7 +305,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
         val bestBowling = mutableListOf<BestBowlingDto>()
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             val context = using(conn, databaseConnection.dialect)
 
             val cte = context
@@ -327,23 +347,29 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
                         .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
                         .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
-                ).with("cte1").`as`(select(
-                    field("fullname"),
-                    field("sortnamepart"),
-                    field("ballsperover"),
-                    field("balls"),
-                    field("maidens"),
-                    field("runs"),
-                    field("wickets"),
-                    field("inningsorder"),
-                    field("location"),
-                    field("matchstartdate"),
-                    field("matchstartdateasoffset"),
-                    field("syntheticbestbowling"),
-                    max(field("syntheticbestbowling")).over()
-                        .orderBy(field("matchstartdateasoffset"), field("inningsorder"), field("syntheticbestbowling").desc())
-                        .rowsBetweenUnboundedPreceding().andCurrentRow().`as`("premax")
-                ).from("cte"))
+                ).with("cte1").`as`(
+                    select(
+                        field("fullname"),
+                        field("sortnamepart"),
+                        field("ballsperover"),
+                        field("balls"),
+                        field("maidens"),
+                        field("runs"),
+                        field("wickets"),
+                        field("inningsorder"),
+                        field("location"),
+                        field("matchstartdate"),
+                        field("matchstartdateasoffset"),
+                        field("syntheticbestbowling"),
+                        max(field("syntheticbestbowling")).over()
+                            .orderBy(
+                                field("matchstartdateasoffset"),
+                                field("inningsorder"),
+                                field("syntheticbestbowling").desc()
+                            )
+                            .rowsBetweenUnboundedPreceding().andCurrentRow().`as`("premax")
+                    ).from("cte")
+                )
 
             val results = cte.select(
                 field("wickets", Int::class.java),
@@ -392,7 +418,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val t = TEAMS.`as`("t")
         val o = TEAMS.`as`("o")
 
-        DriverManager.getConnection(databaseConnection.connectionString, databaseConnection.userName, databaseConnection.password).use { conn ->
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
             try {
                 val context = using(conn, databaseConnection.dialect)
 
@@ -483,7 +513,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("runs"),
                         field("SyntheticBestBowling"),
                         max(field("syntheticbestbowling")).over()
-                            .orderBy(field("matchstartdateasoffset"), field("inningsorder"), field("syntheticbestbowling").desc())
+                            .orderBy(
+                                field("matchstartdateasoffset"),
+                                field("inningsorder"),
+                                field("syntheticbestbowling").desc()
+                            )
                             .rowsBetweenUnboundedPreceding().andCurrentRow().`as`("premax")
                     ).from("cte")
                         .where(field("SyntheticBestBowling").isNotNull).and(field("rn").eq(1))

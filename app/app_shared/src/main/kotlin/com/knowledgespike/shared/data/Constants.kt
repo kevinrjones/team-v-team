@@ -19,29 +19,34 @@ fun matchTypeFromSubType(matchType: String): String {
     return when (matchType) {
         "t" -> "f"
         "f" -> "f"
+        "wid" -> "f"
         "o" -> "a"
         "a" -> "a"
+        "wc" -> "a"
+
         "itt" -> "tt"
         "tt" -> "tt"
         "bbl" -> "tt"
         "ipl" -> "tt"
         "hund" -> "tt"
+        "psl" -> "tt"
+        "cpl" -> "tt"
 
         "wt" -> "wf"
         "wf" -> "wf"
+
         "wo" -> "wa"
         "wa" -> "wa"
+        "wwc" -> "wa"
+
         "witt" -> "wtt"
         "wtt" -> "wtt"
         "wbbl" -> "wtt"
         "wipl" -> "wtt"
         "whund" -> "wtt"
-        "cpl" -> "tt"
         "wcpl" -> "wtt"
+
         "minc" -> "minc"
-        "wc" -> "a"
-        "wwc" -> "wa"
-        "psl" -> "tt"
         else -> throw Exception("Unknown match sub type - please add the new subtype to type mapping")
     }
 }

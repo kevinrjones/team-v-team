@@ -5,6 +5,8 @@ import com.knowledgespike.db.tables.references.INNINGS
 import com.knowledgespike.db.tables.references.MATCHES
 import com.knowledgespike.db.tables.references.MATCHSUBTYPE
 import com.knowledgespike.shared.data.TeamParams
+import org.jooq.Record1
+import org.jooq.SelectConditionStep
 import org.jooq.impl.DSL
 import org.jooq.impl.DSL.*
 import java.sql.DriverManager
@@ -64,7 +66,7 @@ fun getPossibleFallOfWicketMissingPartnerships(
                     .and(FALLOFWICKETS.OPPONENTSID.`in`(teamParams.opponentIds))
                     .and(FALLOFWICKETS.CURRENTSCORE.isNull)
             ).with("cte2").`as`(
-                select(INNINGS.MATCHID, max(INNINGS.TOTAL).`as`("total"))
+                select(INNINGS.MATCHID, INNINGS.TOTAL.`as`("total"))
                     .from(INNINGS)
                     .where(INNINGS.MATCHID.`in`(select(field("matchid", Int::class.java)).from("cte1")))
                     .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
@@ -85,3 +87,4 @@ fun getPossibleFallOfWicketMissingPartnerships(
         return numberOfInvalidPartnerships != 0
     }
 }
+
