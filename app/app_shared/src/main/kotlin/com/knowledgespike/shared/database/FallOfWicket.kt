@@ -13,6 +13,7 @@ import java.sql.DriverManager
 
 fun getPossibleFallOfWicketMissingPartnerships(
     databaseConnection: DatabaseConnection,
+    countryIds: List<Int>,
     teamParams: TeamParams,
     wicket: Int,
     partnership: Int
@@ -24,31 +25,35 @@ fun getPossibleFallOfWicketMissingPartnerships(
     ).use { conn ->
         val context = DSL.using(conn, databaseConnection.dialect)
 
+        var whereClause = MATCHES.MATCHTYPE.eq(teamParams.matchType).and(
+            MATCHES.ID.`in`(
+                select(MATCHSUBTYPE.MATCHID).from(
+                    MATCHSUBTYPE.where(
+                        MATCHSUBTYPE.MATCHTYPE.eq(
+                            teamParams.matchSubType
+                        ).and(MATCHES.VICTORYTYPE.ne(11))
+                            .and(
+                                (MATCHES.HOMETEAMID.`in`(teamParams.teamIds)
+                                    .and(MATCHES.AWAYTEAMID.`in`(teamParams.opponentIds)))
+                                    .or(
+                                        (MATCHES.AWAYTEAMID.`in`(teamParams.teamIds)
+                                            .and(MATCHES.HOMETEAMID.`in`(teamParams.opponentIds)))
+                                    )
+                            )
+                    )
+                )
+            )
+        )
+
+        if (countryIds.isNotEmpty())
+            whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
+
         val query = context
             .with("cte").`as`(
                 select(
                     field("id"),
-                ).from(MATCHES).where(
-                    MATCHES.MATCHTYPE.eq(teamParams.matchType).and(
-                        MATCHES.ID.`in`(
-                            select(MATCHSUBTYPE.MATCHID).from(
-                                MATCHSUBTYPE.where(
-                                    MATCHSUBTYPE.MATCHTYPE.eq(
-                                        teamParams.matchSubType
-                                    ).and(MATCHES.VICTORYTYPE.ne(11))
-                                        .and(
-                                            (MATCHES.HOMETEAMID.`in`(teamParams.teamIds)
-                                                .and(MATCHES.AWAYTEAMID.`in`(teamParams.opponentIds)))
-                                                .or(
-                                                    (MATCHES.AWAYTEAMID.`in`(teamParams.teamIds)
-                                                        .and(MATCHES.HOMETEAMID.`in`(teamParams.opponentIds)))
-                                                )
-                                        )
-                                )
-                            )
-                        )
-                    )
-                )
+                ).from(MATCHES)
+                    .where(whereClause)
             ).with("cte1")
             .`as`(
                 select()

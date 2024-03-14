@@ -90,7 +90,6 @@ class GenerateHtml {
     fun generateIndexPageForTeamsAndType(
         teamNames: List<String>,
         matchType: String,
-        country: String,
         gender: String,
         matchDesignator: String,
         extraMessages: List<String>,
@@ -103,13 +102,12 @@ class GenerateHtml {
 
         val fileWriter = file.writer()
 
-        val capitalizedCountry: String = getCapitalizedCountryName(country)
         fileWriter.use {
             fileWriter.append(virtualHeader)
             fileWriter.append("\r\n")
             fileWriter.appendHTML().div {
                 h3 {
-                    +"$matchDesignator Records Between $gender Teams $capitalizedCountry"
+                    +"$matchDesignator Records Between $gender Teams"
                 }
                 ul {
                     teamNames.forEach {
@@ -958,7 +956,7 @@ class GenerateHtml {
                             +"Note:"
                         }
                         td(null, "colspan", "4") {// colspan=4
-                            +"A total of ${multiPlayerFowDao.total} was added for the ${getWicket(multiPlayerFowDao.wicket)} wicket"
+                            +"A total of ${getPartnership(multiPlayerFowDao.total, multiPlayerFowDao.unbroken)} was added for the ${getWicket(multiPlayerFowDao.wicket)} wicket"
                         }
                     }
                     fowList.forEach { fow ->

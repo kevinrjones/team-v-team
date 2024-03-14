@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Competition(
-    val title: String, val gender: String, val country: String, val outputDirectory: String,
+    val title: String, val gender: String, val countries: List<String> = emptyList(), val outputDirectory: String,
     val teams: List<Team>, val subType: String, val extraMessages: List<String>
 )
 
@@ -20,7 +20,7 @@ data class Opponent(override val team: String, override val duplicates: List<Str
 @Serializable
 data class Team(
     override val team: String,
-    val authors: List<Author> = listOf(),
+    val authors: List<Author> = emptyList(),
     override val duplicates: List<String>,
     val opponents: List<Opponent> = listOf()
 ) : TeamBase
@@ -67,7 +67,7 @@ data class FoWDto(
 )
 
 @Serializable
-data class MultiPlayerFowDto(val total: Int, val wicket: Int, val playerDetails: List<FoWDto>)
+data class MultiPlayerFowDto(val total: Int, val unbroken: Boolean, val wicket: Int, val playerDetails: List<FoWDto>)
 
 
 @Serializable
@@ -85,7 +85,6 @@ data class TeamPairHomePagesJson(
 data class CompetitionIndexPage(
     val teamNames: List<String>,
     val matchSubType: String,
-    val country: String,
     val gender: String,
     val title: String,
     val extraMessages: List<String>

@@ -6,6 +6,7 @@ import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.database.DatabaseConnection
 import com.knowledgespike.shared.database.checkIfShouldProcess
 import com.knowledgespike.shared.database.getCountOfMatchesBetweenTeams
+import com.knowledgespike.shared.database.getCountryIdsFromName
 import com.knowledgespike.shared.logging.LoggerDelegate
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -27,6 +28,7 @@ class ProcessTeams(
 
     suspend fun processTeamPairs(
         databaseConnection: DatabaseConnection,
+        countries: List<String>,
         matchSubType: String,
         jsonDirectory: String,
         competitionTeams: List<String>,
@@ -36,6 +38,7 @@ class ProcessTeams(
 
         var pairsForPage: Map<String, TeamPairHomePagesData> = mutableMapOf()
 
+        val countryIds = getCountryIdsFromName(countries, databaseConnection)
 
 
         for (teamsAndOpponents in idPairs) {
@@ -44,6 +47,7 @@ class ProcessTeams(
             val matchDto =
                 getCountOfMatchesBetweenTeams(
                     databaseConnection,
+                    countryIds,
                     teamsAndOpponents,
                     matchSubType,
                     dialect
@@ -111,30 +115,50 @@ class ProcessTeams(
 
     suspend fun processTeamVsAllOpponents(
         connection: DatabaseConnection,
+        country: List<String>,
         matchSubType: String,
         jsonDirectory: String,
-        callback: (teamdAndIds: TeamAndAllOpponentsDetails, jsonDirectory: String) -> Unit
+        callback: (teamdAndOpponents: TeamAndAllOpponentsDetails, jsonDirectory: String) -> Unit
     ) {
         val matchType: String = matchTypeFromSubType(matchSubType)
 
-        for (teamAndIds in teamAndAllOpponents) {
+        val countryId = getCountryIdsFromName(country, connection)
+
+        for ((teamAndIds, opponents) in teamAndAllOpponents) {
             val matchDto =
                 getCountOfMatchesBetweenTeams(
                     connection,
-                    TeamsAndOpponents(teamAndIds.key.teamName, teamAndIds.key.teamIds, "all", teamAndIds.value),
+                    countryId,
+                    TeamsAndOpponents(teamAndIds.teamName, teamAndIds.teamIds, "all", opponents),
                     matchSubType,
                     dialect
                 )
 
-            val teamAndAllOpponentsDetails = TeamAndAllOpponentsDetails(teamAndIds.key.teamName, matchDto)
+            val teamAndAllOpponentsDetails = TeamAndAllOpponentsDetails(teamAndIds.teamName, matchDto)
 
             withContext(Dispatchers.IO) {
                 val job = launch {
 
                     teamAndAllOpponentsDetails.getFallOfWicketRecords(
                         connection,
-                        teamAndIds.key,
-                        teamAndIds.value,
+                        teamAndIds,
+                        opponents,
+                        matchType,
+                        matchSubType
+                    )
+
+                    teamAndAllOpponentsDetails.getTeamRecords(
+                        connection,
+                        teamAndIds,
+                        opponents,
+                        matchType,
+                        matchSubType
+                    )
+
+                    teamAndAllOpponentsDetails.getIndividualRecords(
+                        connection,
+                        teamAndIds,
+                        opponents,
                         matchType,
                         matchSubType
                     )

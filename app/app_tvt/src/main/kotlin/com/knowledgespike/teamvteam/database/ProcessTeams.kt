@@ -5,6 +5,7 @@ import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.database.DatabaseConnection
 import com.knowledgespike.shared.database.checkIfShouldProcess
 import com.knowledgespike.shared.database.getCountOfMatchesBetweenTeams
+import com.knowledgespike.shared.database.getCountryIdsFromName
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.teamvteam.Application.Companion.dialect
 import com.knowledgespike.teamvteam.json.getTvTJsonData
@@ -26,6 +27,7 @@ class ProcessTeams(
 
     fun process(
         databaseConnection: DatabaseConnection,
+        countries: List<String>,
         matchSubType: String,
         jsonDirectory: String,
         competitionTeams: List<String>,
@@ -34,6 +36,8 @@ class ProcessTeams(
 
         val matchType: String = matchTypeFromSubType(matchSubType)
 
+        val countryIds = getCountryIdsFromName(countries, databaseConnection)
+
         var pairsForPage: Map<String, TeamPairHomePagesData> = mutableMapOf()
 
         for (teamsAndOpponents in idPairs) {
@@ -41,6 +45,7 @@ class ProcessTeams(
             val matchDto =
                 getCountOfMatchesBetweenTeams(
                     databaseConnection,
+                    countryIds,
                     teamsAndOpponents,
                     matchSubType,
                     dialect
@@ -76,9 +81,10 @@ class ProcessTeams(
 
                     val teamParams = getTeamParams(teamsAndOpponents, matchType, matchSubType)
                     log.info("About to process {}", teamParams)
-                    teamPairDetails.addTeamData(databaseConnection, teamParams.first, teamParams.second)
+                    teamPairDetails.addTeamData(databaseConnection, countryIds, teamParams.first, teamParams.second)
                     teamPairDetails.addIndividualData(
                         databaseConnection,
+                        countryIds,
                         teamParams.first,
                         teamParams.second,
                         matchType

@@ -164,6 +164,7 @@ class Application {
 
                         val pairsForPage = processTeams.process(
                             databaseConnection,
+                            competition.countries,
                             matchSubType,
                             "$jsonOutputDirectory/${competition.outputDirectory}",
                             competition.teams.map { it.team }
@@ -229,7 +230,6 @@ class Application {
                             generateIndexPageData(
                                 teamNamesForIndexPage,
                                 matchSubType,
-                                competition.country,
                                 competition.gender,
                                 competition.title,
                                 competition.extraMessages,
@@ -264,7 +264,6 @@ class Application {
         private fun generateIndexPageData(
             teamNames: List<String>,
             matchSubType: String,
-            country: String,
             gender: String,
             title: String,
             extraMessages: List<String>,
@@ -280,7 +279,7 @@ class Application {
 
                 writeJsonTeamPairPageIndexData(
                     fileName,
-                    CompetitionIndexPage(teamNames, matchSubType, country, gender, title, extraMessages)
+                    CompetitionIndexPage(teamNames, matchSubType, gender, title, extraMessages)
                 )
             }
         }
@@ -378,7 +377,6 @@ class Application {
                     recordPage.generateIndexPageForTeamsAndType(
                         details.teamNames.sorted(),
                         details.matchSubType,
-                        details.country,
                         details.gender,
                         details.title,
                         details.extraMessages,

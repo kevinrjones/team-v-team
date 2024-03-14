@@ -81,7 +81,26 @@ fun TABLE.generateEmptyTotalRow(title: String, columnTwoWidth: String, columnFiv
     }
 }
 
-fun TABLE.generateTotalsRow(ndx: Int, total: TotalDto, columnTwoWidth: String, columnFiveWidth: String, block: TD.() -> Unit) {
+fun TABLE.generateEmptyTotalRow(title: String) {
+    tr {
+
+        td {
+            +title
+        }
+        td {
+        }
+        td(null) {
+
+        }
+        td {
+
+        }
+        td {
+        }
+    }
+}
+
+fun TABLE.generateTotalsRow(ndx: Int, total: TotalDto, columnTwoWidth: String, columnDateWidth: String, generateDataForAllOpponents: Boolean = false, block: TD.() -> Unit) {
     tr {
         td {
             if (ndx == 0) {
@@ -99,12 +118,45 @@ fun TABLE.generateTotalsRow(ndx: Int, total: TotalDto, columnTwoWidth: String, c
                 +"${total.total} for ${total.wickets}"
         }
         td {
-
+            if(generateDataForAllOpponents) {
+                +"vs ${total.opponents}"
+            }
         }
         td(null) {
             +total.location
         }
-        td(null, "width", columnFiveWidth) {
+        td(null, "width", columnDateWidth) {
+            +total.seriesDate
+        }
+    }
+}
+
+fun TABLE.generateTotalsRow(ndx: Int, total: TotalDto, generateDataForAllOpponents: Boolean = false, block: TD.() -> Unit) {
+    tr {
+        td {
+            if (ndx == 0) {
+                block()
+            } else {
+                +""
+            }
+        }
+        td {
+            if (total.wickets == 10)
+                +"${total.total}"
+            else if (total.declared)
+                +"${total.total} for ${total.wickets} declared"
+            else
+                +"${total.total} for ${total.wickets}"
+        }
+        td {
+            if(generateDataForAllOpponents) {
+                +"vs ${total.opponents}"
+            }
+        }
+        td(null) {
+            +total.location
+        }
+        td {
             +total.seriesDate
         }
     }

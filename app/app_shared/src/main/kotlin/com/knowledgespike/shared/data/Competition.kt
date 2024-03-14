@@ -7,6 +7,7 @@ import kotlin.io.path.isRegularFile
 
 
 fun getAllCompetitions(dataDirectory: String): List<Competition> {
+
     val allCompetitions = mutableListOf<Competition>()
     Files.list(Paths.get(dataDirectory))
         .filter { it.isRegularFile() }

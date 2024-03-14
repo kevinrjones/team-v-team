@@ -43,13 +43,13 @@ allprojects {
     }
 
     java {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
 
     // config JVM target to 1.8 for kotlin compilation tasks
     tasks.withType<KotlinCompile>().configureEach {
-        kotlinOptions.jvmTarget = "17"
+        kotlinOptions.jvmTarget = "21"
         kotlinOptions.freeCompilerArgs = listOf("-opt-in=kotlin.RequiresOptIn")
     }
 

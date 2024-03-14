@@ -1,7 +1,6 @@
 [
     {
         "title": "Caribbean Premier League",
-        "country": "",
         "gender": "Men's",
         "teams": [
             {
@@ -10,7 +9,9 @@
             },
             {
                 "team": "Barbados Royals",
-                "duplicates": ["Barbados Tridents"]
+                "duplicates": [
+                    "Barbados Tridents"
+                ]
             },
             {
                 "team": "Guyana Amazon Warriors",
@@ -26,11 +27,16 @@
             },
             {
                 "team": "St Lucia Kings",
-                "duplicates": ["St Lucia Stars", "St Lucia Zouks"]
+                "duplicates": [
+                    "St Lucia Stars",
+                    "St Lucia Zouks"
+                ]
             },
             {
                 "team": "Trinbago Knight Riders",
-                "duplicates": ["Trinidad and Tobago Red Steel"]
+                "duplicates": [
+                    "Trinidad and Tobago Red Steel"
+                ]
             },
             {
                 "team": "Trinidad and Tobago Red Steel",
@@ -47,11 +53,8 @@
     },
     {
         "title": "Caribbean Premier League",
-        "country": "",
         "gender": "Women's",
-        "teams": [
-            
-        ],
+        "teams": [],
         "subType": "wcpl",
         "outputDirectory": "wcpl",
         "extraMessages": []

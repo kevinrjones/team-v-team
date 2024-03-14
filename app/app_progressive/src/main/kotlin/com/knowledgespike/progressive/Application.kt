@@ -162,13 +162,16 @@ class Application {
                             ProcessTeams(teamsWithDuplicates, opponentsForTeam, teamsWithAuthors, dialect)
 
 
+                        var shouldUpdateAll = false
                         val pairsForPage = processTeams.processTeamPairs(
                             databaseConnection,
+                            competition.countries,
                             matchSubType,
                             "$jsonOutputDirectory/${competition.outputDirectory}",
                             competition.teams.map { it.team }
                         ) { teamPairDetails, jsonDirectory ->
 
+                            shouldUpdateAll = true
                             log.debug(
                                 "Updating data for {} and {} for {}",
                                 teamPairDetails.teams[0],
@@ -198,33 +201,39 @@ class Application {
 
                         }
 
-                        processTeams.processTeamVsAllOpponents(
-                            databaseConnection,
-                            matchSubType,
-                            "$jsonOutputDirectory/${competition.outputDirectory}",
+                        if(shouldUpdateAll) {
 
-                            ) { teamdAndIds, jsonDirectory ->
+                            shouldUpdateAll = false
 
-                            val progressiveData = ProgressiveData(
-                                teamdAndIds.teamName,
-                                "all",
-                                competition.title,
-                                competition.subType,
-                                teamdAndIds.matchDto,
-                                teamdAndIds.authors,
-                                teamdAndIds.highestScores,
-                                teamdAndIds.lowestAllOutScores,
-                                teamdAndIds.highestIndividualScore,
-                                teamdAndIds.bestBowlingInnings,
-                                teamdAndIds.bestBowlingMatch,
-                                teamdAndIds.bestFoW,
-                                Clock.System.now()
-                            )
+                            processTeams.processTeamVsAllOpponents(
+                                databaseConnection,
+                                competition.countries,
+                                matchSubType,
+                                "$jsonOutputDirectory/${competition.outputDirectory}",
 
-                            val fileName = teamdAndIds.generateFileName(matchSubType)
+                                ) { teamdAndIds, jsonDirectory ->
 
-                            writeJsonMatchData(jsonDirectory, fileName, progressiveData)
+                                val progressiveData = ProgressiveData(
+                                    teamdAndIds.teamName,
+                                    "All",
+                                    competition.title,
+                                    competition.subType,
+                                    teamdAndIds.matchDto,
+                                    teamdAndIds.authors,
+                                    teamdAndIds.highestScores,
+                                    teamdAndIds.lowestAllOutScores,
+                                    teamdAndIds.highestIndividualScore,
+                                    teamdAndIds.bestBowlingInnings,
+                                    teamdAndIds.bestBowlingMatch,
+                                    teamdAndIds.bestFoW,
+                                    Clock.System.now()
+                                )
 
+                                val fileName = teamdAndIds.generateFileName(matchSubType)
+
+                                writeJsonMatchData(jsonDirectory, fileName, progressiveData)
+
+                            }
                         }
 
                         val jsonDirectory = "$jsonOutputDirectory/${competition.outputDirectory}"
@@ -240,7 +249,6 @@ class Application {
                             generateIndexPageData(
                                 teamNamesForIndexPage,
                                 matchSubType,
-                                competition.country,
                                 competition.gender,
                                 competition.title,
                                 competition.extraMessages,
@@ -315,7 +323,6 @@ class Application {
                         recordPage.generateIndexPageForProgeressiveTeamsAndType(
                             details.teamNames.sorted(),
                             details.matchSubType,
-                            details.country,
                             details.gender,
                             details.title,
                             details.extraMessages,
@@ -387,12 +394,14 @@ class Application {
                 val matchSubtypeDirectories =
                     streamOfSubdirectories.filter { it.isDirectory() }.sorted().toList()
 
+                // recurse for each subdirectory
                 matchSubtypeDirectories.forEach {
                     generateHtmlFromJson(jsonDirectoryBaseName, it.toString(), htmlOutputDirectoryName)
                 }
 
-                val recordPage = GenerateHtml()
 
+                // at the leaf directory process the file
+                val recordPage = GenerateHtml()
 
                 val fqn = jsonDirectory.toString()
                 val fqnHtmlName = fqn.replace(jsonDirectoryBaseName, htmlOutputDirectoryName)
@@ -408,9 +417,12 @@ class Application {
                         val htmlFullName = "$fqnHtmlName/$htmlFileName"
                         val file = File(htmlFullName)
 
+                        val generateRecordsForAllOpponents = htmlFileName.contains("_v_all")
+
                         recordPage.generateProgressiveRecordsPage(
                             details,
-                            file
+                            file,
+                            generateRecordsForAllOpponents
                         )
                     }
 

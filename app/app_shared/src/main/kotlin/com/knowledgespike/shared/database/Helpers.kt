@@ -6,7 +6,6 @@ import kotlinx.datetime.LocalDateTime
 import org.jooq.*
 import org.jooq.impl.DSL
 import java.sql.DriverManager
-import java.time.LocalDate
 
 fun checkIfShouldProcess(
     databaseConnection: DatabaseConnection,
@@ -37,8 +36,35 @@ fun checkIfShouldProcess(
     }
 }
 
+fun getCountryIdsFromName(countries: List<String>, databaseConnection: DatabaseConnection): MutableList<Int> {
+    val ids = mutableListOf<Int>()
+    if (countries.isEmpty())
+        return ids
+    else {
+        DriverManager.getConnection(
+            databaseConnection.connectionString,
+            databaseConnection.userName,
+            databaseConnection.password
+        ).use { conn ->
+            val context = DSL.using(conn, databaseConnection.dialect)
+
+            val result = context.select(COUNTRIES.COUNTRYID)
+                .from(COUNTRIES)
+                .where(COUNTRIES.COUNTRYNAME.`in`(countries))
+                .fetch()
+
+            for (r in result) {
+                ids.add(r.get(0, Int::class.java))
+            }
+
+            return ids
+        }
+    }
+}
+
 fun getCountOfMatchesBetweenTeams(
     databaseConnection: DatabaseConnection,
+    countryIds: List<Int>,
     teamsAndOpponents: TeamsAndOpponents,
     matchSubType: String,
     dialect: SQLDialect
@@ -50,6 +76,30 @@ fun getCountOfMatchesBetweenTeams(
     if (matchSubType == "minc")
         matchTypesToExclude.add("sec")
 
+    var whereClause = (MATCHES.HOMETEAMID.`in`(teamsAndOpponents.teamIds)
+        .or(MATCHES.HOMETEAMID.`in`(teamsAndOpponents.opponentIds)))
+        .and(
+            MATCHES.AWAYTEAMID.`in`(teamsAndOpponents.opponentIds)
+                .or(MATCHES.AWAYTEAMID.`in`(teamsAndOpponents.teamIds))
+        )
+        .and(
+            MATCHES.ID.`in`(
+                DSL.select(MATCHSUBTYPE.MATCHID).from(
+                    MATCHSUBTYPE.where(
+                        MATCHSUBTYPE.MATCHTYPE.eq(
+                            matchSubType
+                        )
+                    )
+                )
+            )
+        )
+        .and(MATCHES.VICTORYTYPE.notEqual(6))
+        .and(MATCHES.VICTORYTYPE.notEqual(11))
+        .and(MATCHES.MATCHTYPE.notIn(matchTypesToExclude))
+
+    if (countryIds.isNotEmpty())
+        whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
+
     DriverManager.getConnection(
         databaseConnection.connectionString,
         databaseConnection.userName,
@@ -60,28 +110,9 @@ fun getCountOfMatchesBetweenTeams(
             DSL.count(),
             DSL.min(MATCHES.MATCHSTARTDATEASOFFSET).`as`("startDate"),
             DSL.max(MATCHES.MATCHSTARTDATEASOFFSET).`as`("endDate"),
-        ).from(MATCHES).where(
-            (MATCHES.HOMETEAMID.`in`(teamsAndOpponents.teamIds)
-                .or(MATCHES.HOMETEAMID.`in`(teamsAndOpponents.opponentIds)))
-                .and(
-                    MATCHES.AWAYTEAMID.`in`(teamsAndOpponents.opponentIds)
-                        .or(MATCHES.AWAYTEAMID.`in`(teamsAndOpponents.teamIds))
-                )
-                .and(
-                    MATCHES.ID.`in`(
-                        DSL.select(MATCHSUBTYPE.MATCHID).from(
-                            MATCHSUBTYPE.where(
-                                MATCHSUBTYPE.MATCHTYPE.eq(
-                                    matchSubType
-                                )
-                            )
-                        )
-                    )
-                )
-                .and(MATCHES.VICTORYTYPE.notEqual(6))
-                .and(MATCHES.VICTORYTYPE.notEqual(11))
-                .and(MATCHES.MATCHTYPE.notIn(matchTypesToExclude))
-        ).fetch().first()
+        ).from(MATCHES).where(whereClause)
+            .fetch()
+            .first()
 
         val startDate: LocalDateTime = (result.getValue("startDate", Long::class.java) * 1000).toLocalDateTime()
         val endDate = (result.getValue("endDate", Long::class.java) * 1000).toLocalDateTime()

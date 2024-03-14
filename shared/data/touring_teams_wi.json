@@ -1,7 +1,7 @@
 [
     {
         "title": "First Class",
-        "country": "",
+        "countries": [],
         "gender": "Men's",
         "teams": [
             {
@@ -9,6 +9,26 @@
                 "authors": [
                     {
                         "opponent": "Barbados",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Guyana",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Jamaica",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Leeward Islands",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Trinidad and Tobago",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Windward Islands",
                         "name": "Denis Moore"
                     }
                 ],
@@ -38,7 +58,7 @@
                     },
                     {
                         "team": "Trinidad and Tobago",
-                        "duplicates": []
+                        "duplicates": ["Trinidad"]
                     }
                 ]
             }
@@ -52,7 +72,7 @@
     },
     {
         "title": "First Class",
-        "country": "",
+        "countries": [],
         "gender": "Men's",
         "teams": [
             {
@@ -83,7 +103,7 @@
                     },
                     {
                         "team": "Trinidad and Tobago",
-                        "duplicates": []
+                        "duplicates": ["Trinidad"]
                     }
                 ]
             }
@@ -94,7 +114,7 @@
     },
     {
         "title": "First Class",
-        "country": "",
+        "countries": [],
         "gender": "Men's",
         "teams": [
             {
@@ -102,6 +122,26 @@
                 "authors": [
                     {
                         "opponent": "Barbados",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Guyana",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Jamaica",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Leeward Islands",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Trinidad and Tobago",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Windward Islands",
                         "name": "Denis Moore"
                     }
                 ],
@@ -131,7 +171,7 @@
                     },
                     {
                         "team": "Trinidad and Tobago",
-                        "duplicates": []
+                        "duplicates": ["Trinidad"]
                     }
                 ]
             }
@@ -144,7 +184,7 @@
     },
     {
         "title": "First Class",
-        "country": "",
+        "countries": [],
         "gender": "Men's",
         "teams": [
             {
@@ -154,11 +194,35 @@
                     {
                         "opponent": "Barbados",
                         "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Guyana",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Jamaica",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Leeward Islands",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Trinidad and Tobago",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Windward Islands",
+                        "name": "Denis Moore"
                     }
                 ],
                 "opponents": [
                     {
                         "team": "Barbados",
+                        "duplicates": []
+                    },
+                    {
+                        "team": "Combined Leeward and Windward Islands",
                         "duplicates": []
                     },
                     {
@@ -181,11 +245,7 @@
                     },
                     {
                         "team": "Trinidad and Tobago",
-                        "duplicates": []
-                    },
-                    {
-                        "team": "Combined Leeward and Windward Islands",
-                        "duplicates": []
+                        "duplicates": ["Trinidad"]
                     }
                 ]
             }
@@ -198,7 +258,7 @@
     },
     {
         "title": "First Class",
-        "country": "",
+        "countries": [],
         "gender": "Men's",
         "teams": [
             {
@@ -207,6 +267,22 @@
                 "authors": [
                     {
                         "opponent": "Barbados",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Jamaica",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Leeward Islands",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Trinidad and Tobago",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Windward Islands",
                         "name": "Denis Moore"
                     }
                 ],
@@ -235,7 +311,7 @@
                     },
                     {
                         "team": "Trinidad and Tobago",
-                        "duplicates": []
+                        "duplicates": ["Trinidad"]
                     }
                 ]
             }
@@ -246,7 +322,7 @@
     },
     {
         "title": "First Class",
-        "country": "",
+        "countries": [],
         "gender": "Men's",
         "teams": [
             {
@@ -255,6 +331,18 @@
                 "authors": [
                     {
                         "opponent": "Barbados",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Jamaica",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Leeward Islands",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Windward Islands",
                         "name": "Denis Moore"
                     }
                 ],
@@ -283,7 +371,7 @@
                     },
                     {
                         "team": "Trinidad and Tobago",
-                        "duplicates": []
+                        "duplicates": ["Trinidad"]
                     }
                 ]
             }
@@ -294,12 +382,18 @@
     },
     {
         "title": "First Class",
-        "country": "",
+        "countries": [],
         "gender": "Men's",
         "teams": [
             {
                 "team": "Sri Lankans",
                 "duplicates": [],
+                "authors": [
+                    {
+                        "opponent": "Leeward Islands",
+                        "name": "Denis Moore"
+                    }
+                ],
                 "opponents": [
                     {
                         "team": "Barbados",
@@ -325,7 +419,7 @@
                     },
                     {
                         "team": "Trinidad and Tobago",
-                        "duplicates": []
+                        "duplicates": ["Trinidad"]
                     }
                 ]
             }
@@ -336,7 +430,7 @@
     },
     {
         "title": "First Class",
-        "country": "",
+        "countries": [],
         "gender": "Men's",
         "teams": [
             {
@@ -367,7 +461,7 @@
                     },
                     {
                         "team": "Trinidad and Tobago",
-                        "duplicates": []
+                        "duplicates": ["Trinidad"]
                     }
                 ]
             }
@@ -378,7 +472,7 @@
     },
     {
         "title": "First Class",
-        "country": "",
+        "countries": [],
         "gender": "Men's",
         "teams": [
             {
@@ -409,7 +503,7 @@
                     },
                     {
                         "team": "Trinidad and Tobago",
-                        "duplicates": []
+                        "duplicates": ["Trinidad"]
                     }
                 ]
             }
@@ -420,7 +514,7 @@
     },
     {
         "title": "First Class",
-        "country": "",
+        "countries": [],
         "gender": "Men's",
         "teams": [
             {
@@ -451,7 +545,7 @@
                     },
                     {
                         "team": "Trinidad and Tobago",
-                        "duplicates": []
+                        "duplicates": ["Trinidad"]
                     }
                 ]
             }

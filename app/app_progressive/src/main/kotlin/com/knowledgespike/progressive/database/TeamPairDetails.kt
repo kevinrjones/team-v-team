@@ -3,7 +3,6 @@ package com.knowledgespike.progressive.database
 import com.knowledgespike.progressive.data.BestBowlingDto
 import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.database.DatabaseConnection
-import org.jooq.SQLDialect
 
 class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
     val authors: MutableList<String> = mutableListOf("Kevin Jones")
@@ -23,16 +22,122 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
     ) {
         val teamRecords = TeamRecords(databaseConnection)
 
-        val teamParams = TeamParams(
+        val teamParamA = TeamParams(
             teamAndIds.teamIds,
             opponents,
             teamAndIds.teamName,
-            "all",
+            "All",
+            matchType,
+            matchSubType
+        )
+
+        val teamParamB = TeamParams(
+            opponents,
+            teamAndIds.teamIds,
+            "All",
+            teamAndIds.teamName,
             matchType,
             matchSubType
         )
         bestFoW[0].putAll(
-            teamRecords.getProgressivePartnershipRecords(teamParams)
+            teamRecords.getProgressivePartnershipRecordsForAll(teamParamA)
+        )
+        bestFoW[1].putAll(
+            teamRecords.getProgressivePartnershipRecordsVsAll(teamParamB)
+        )
+
+    }
+
+    fun getTeamRecords(connection: DatabaseConnection, teamAndIds: TeamAndIds, opponents: List<Int>, matchType: String, matchSubType: String) {
+        val teamParamA = TeamParams(
+            teamAndIds.teamIds,
+            opponents,
+            teamAndIds.teamName,
+            "All",
+            matchType,
+            matchSubType
+        )
+
+        val teamParamB = TeamParams(
+            opponents,
+            teamAndIds.teamIds,
+            "All",
+            teamAndIds.teamName,
+            matchType,
+            matchSubType
+        )
+
+        val teamRecords = TeamRecords(connection)
+        highestScores[0].addAll(
+            teamRecords.getHighestTotalsForAll(
+                teamParamA
+            )
+        )
+
+        highestScores[1].addAll(
+            teamRecords.getHighestTotalsVsAll(
+                teamParamB
+            )
+        )
+
+        lowestAllOutScores[0].addAll(
+            teamRecords.getLowestAllOutTotalsForAll(
+                teamParamA
+            )
+        )
+
+        lowestAllOutScores[1].addAll(
+            teamRecords.getLowestAllOutTotalsVsAll(
+                teamParamB
+            )
+        )
+
+    }
+
+    fun getIndividualRecords(connection: DatabaseConnection, teamAndIds: TeamAndIds, opponents: List<Int>, matchType: String, matchSubType: String) {
+
+        val teamParamA = TeamParams(
+            teamAndIds.teamIds,
+            opponents,
+            teamAndIds.teamName,
+            "All",
+            matchType,
+            matchSubType
+        )
+
+        val teamParamB = TeamParams(
+            opponents,
+            teamAndIds.teamIds,
+            "All",
+            teamAndIds.teamName,
+            matchType,
+            matchSubType
+        )
+
+        val teamRecords = TeamRecords(connection)
+
+        highestIndividualScore[0].addAll(
+            teamRecords.getHighestIndividualScoresForAll(teamParamA)
+        )
+
+        highestIndividualScore[1].addAll(
+            teamRecords.getHighestIndividualScoresVsAll(teamParamB)
+        )
+
+        bestBowlingInnings[0].addAll(
+            teamRecords.getBestBowlingInningsForAll(teamParamA)
+        )
+
+        bestBowlingInnings[1].addAll(
+            teamRecords.getBestBowlingInningsVsAll(teamParamB)
+        )
+
+        bestBowlingMatch[0].addAll(
+            teamRecords.getBestBowlingMatchForAll(teamParamA)
+        )
+
+        bestBowlingMatch[1].addAll(
+            teamRecords.getBestBowlingMatchVsAll(teamParamB)
         )
 
     }

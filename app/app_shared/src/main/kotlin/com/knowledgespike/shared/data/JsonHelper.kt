@@ -79,7 +79,6 @@ fun writeJsonTeamPairPageData(fileName: String, data: TeamPairHomePagesJson) {
 fun generateIndexPageData(
     teamNames: List<String>,
     matchSubType: String,
-    country: String,
     gender: String,
     title: String,
     extraMessages: List<String>,
@@ -94,7 +93,7 @@ fun generateIndexPageData(
 
         writeJsonTeamPairPageIndexData(
             fileName,
-            CompetitionIndexPage(teamNames, matchSubType, country, gender, title, extraMessages)
+            CompetitionIndexPage(teamNames, matchSubType, gender, title, extraMessages)
         )
     }
 }
