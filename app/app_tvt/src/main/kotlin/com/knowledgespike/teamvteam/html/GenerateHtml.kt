@@ -211,8 +211,67 @@ class GenerateHtml {
                 td(null, "width", columnFiveWidth) {
 
                 }
-
             }
+//            tr {
+//                td {
+//                    +"${teamPairDetails.team1} won"
+//                }
+//                td(null, "width", columnTwoWidth) {
+//                    +"${teamPairDetails.matchDto.firstTeamWins}"
+//                }
+//                td {
+//                }
+//                td {
+//                }
+//                td(null, "width", columnFiveWidth) {
+//
+//                }
+//            }
+//            tr {
+//                td {
+//                    +"${teamPairDetails.team2} won "
+//                }
+//                td(null, "width", columnTwoWidth) {
+//                    +"${teamPairDetails.matchDto.firstTeamLosses}"
+//                }
+//                td {
+//                }
+//                td {
+//                }
+//                td(null, "width", columnFiveWidth) {
+//
+//                }
+//            }
+//            tr {
+//                td {
+//                    +"Draws"
+//                }
+//                td(null, "width", columnTwoWidth) {
+//                    +"${teamPairDetails.matchDto.draws}"
+//                }
+//                td {
+//                }
+//                td {
+//                }
+//                td(null, "width", columnFiveWidth) {
+//
+//                }
+//            }
+//            tr {
+//                td {
+//                    +"Ties"
+//                }
+//                td(null, "width", columnTwoWidth) {
+//                    +"${teamPairDetails.matchDto.ties}"
+//                }
+//                td {
+//                }
+//                td {
+//                }
+//                td(null, "width", columnFiveWidth) {
+//
+//                }
+//            }
         }
 
         for (index in 0..1) {

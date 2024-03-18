@@ -14,6 +14,3 @@ application {
     applicationDefaultJvmArgs = listOf("-Dlogback.configurationFile=./logging/logback.xml")
 }
 
-kotlin {
-    jvmToolchain(17)
-}

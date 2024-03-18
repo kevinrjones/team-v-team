@@ -17,6 +17,10 @@ allprojects {
     apply(plugin = "org.jetbrains.kotlin.jvm")
     apply(plugin = "kotlinx-serialization")
 
+    kotlin {
+        jvmToolchain(17)
+    }
+
     repositories {
         mavenCentral()
         mavenLocal()
@@ -43,16 +47,15 @@ allprojects {
     }
 
     java {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
-    // config JVM target to 1.8 for kotlin compilation tasks
-    tasks.withType<KotlinCompile>().configureEach {
-        kotlinOptions.jvmTarget = "21"
-        kotlinOptions.freeCompilerArgs = listOf("-opt-in=kotlin.RequiresOptIn")
-    }
-
+//    tasks.withType<KotlinCompile>().configureEach {
+//        kotlinOptions.jvmTarget = "17"
+//        kotlinOptions.freeCompilerArgs = listOf("-opt-in=kotlin.RequiresOptIn")
+//    }
+//
 }
 
 subprojects {

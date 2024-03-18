@@ -44,7 +44,15 @@ data class TeamAndIds(
 data class TeamWithAuthors(val team: String, val author: List<Author>)
 
 @Serializable
-data class MatchDto(val count: Int, val startDate: LocalDateTime, val endDate: LocalDateTime)
+data class MatchDto(
+    val count: Int,
+    val startDate: LocalDateTime,
+    val endDate: LocalDateTime,
+    val firstTeamWins: Int = 0,
+    val firstTeamLosses: Int = 0,
+    val draws: Int = 0,
+    val ties: Int = 0,
+)
 
 @Serializable
 data class FoWDto(

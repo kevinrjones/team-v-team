@@ -76,12 +76,8 @@ fun getCountOfMatchesBetweenTeams(
     if (matchSubType == "minc")
         matchTypesToExclude.add("sec")
 
-    var whereClause = (MATCHES.HOMETEAMID.`in`(teamsAndOpponents.teamIds)
-        .or(MATCHES.HOMETEAMID.`in`(teamsAndOpponents.opponentIds)))
-        .and(
-            MATCHES.AWAYTEAMID.`in`(teamsAndOpponents.opponentIds)
-                .or(MATCHES.AWAYTEAMID.`in`(teamsAndOpponents.teamIds))
-        )
+    var whereClause = (EXTRAMATCHDETAILS.TEAMID.`in`(teamsAndOpponents.teamIds)
+        .and(EXTRAMATCHDETAILS.OPPONENTSID.`in`(teamsAndOpponents.opponentIds)))
         .and(
             MATCHES.ID.`in`(
                 DSL.select(MATCHSUBTYPE.MATCHID).from(
@@ -106,21 +102,65 @@ fun getCountOfMatchesBetweenTeams(
         databaseConnection.password
     ).use { conn ->
         val context = DSL.using(conn, dialect)
-        val result = context.select(
-            DSL.count(),
-            DSL.min(MATCHES.MATCHSTARTDATEASOFFSET).`as`("startDate"),
-            DSL.max(MATCHES.MATCHSTARTDATEASOFFSET).`as`("endDate"),
-        ).from(MATCHES).where(whereClause)
+        val r = context.select(
+            EXTRAMATCHDETAILS.TEAMID,
+            EXTRAMATCHDETAILS.OPPONENTSID,
+            EXTRAMATCHDETAILS.RESULT,
+            DSL.count(EXTRAMATCHDETAILS.RESULT).over().partitionBy(EXTRAMATCHDETAILS.RESULT)
+                .orderBy(EXTRAMATCHDETAILS.RESULT).`as`("count"),
+            DSL.count(EXTRAMATCHDETAILS.RESULT).over().partitionBy().orderBy().`as`("matches"),
+            DSL.min(MATCHES.MATCHSTARTDATEASOFFSET).over().`as`("startDate"),
+            DSL.max(MATCHES.MATCHSTARTDATEASOFFSET).over().`as`("endDate"),
+        ).from(EXTRAMATCHDETAILS)
+            .join(MATCHES).on(MATCHES.ID.eq(EXTRAMATCHDETAILS.MATCHID))
+            .where(whereClause)
             .fetch()
-            .first()
 
-        val startDate: LocalDateTime = (result.getValue("startDate", Long::class.java) * 1000).toLocalDateTime()
-        val endDate = (result.getValue("endDate", Long::class.java) * 1000).toLocalDateTime()
-        return MatchDto(
-            result.getValue(0, Int::class.java),
-            startDate,
-            endDate,
-        )
+        try {
+            if(r.size == 0) {
+                return MatchDto(
+                    0,
+                    0L.toLocalDateTime(),
+                    0L.toLocalDateTime(),
+                )
+            }
+            var wins = 0
+            var losses = 0
+            var draws = 0
+            var ties = 0
+            var matches = 0
+            var startDate = 0L.toLocalDateTime()
+            var endDate = 0L.toLocalDateTime()
+
+            r.forEach { result ->
+
+                matches = result.getValue("matches", Int::class.java)
+                val resultType = result.getValue("Result", Int::class.java)
+                val count = result.getValue("count", Int::class.java)
+
+
+                when (resultType) {
+                    1 -> wins = count
+                    2 -> losses = count
+                    4 -> draws = count
+                    8 -> ties = count
+                }
+
+                startDate = (result.getValue("startDate", Long::class.java) * 1000).toLocalDateTime()
+                endDate = (result.getValue("endDate", Long::class.java) * 1000).toLocalDateTime()
+            }
+            return MatchDto(
+                matches,
+                startDate,
+                endDate,
+                firstTeamWins = wins,
+                firstTeamLosses = losses,
+                draws,
+                ties
+            )
+        } catch (e: Exception) {
+            throw e
+        }
     }
 }
 

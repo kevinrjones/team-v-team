@@ -58,12 +58,15 @@ class GenerateHtml {
                         +"${teamName}'s ${teamPairHomePages.matchDesignator} Records"
                     }
                     ul {
+                        li {
+                            a(
+                                href = "${teamName.replace(" ", "_")}_v_all_${teamPairHomePages.matchType}.html"
+                            ) {
+                                +"${teamName.replace(" ", "_")}v All Teams"
+                            }
+                        }
                         teamPairHomePages.teamNames.forEach { name ->
                             li {
-                                log.debug(
-                                    "createTeamPairHomePages, call  generateAnchorForTeamVsTeam for teamName: {}",
-                                    teamName
-                                )
                                 generateAnchorForTeamVsTeam(
                                     teamName,
                                     name.first,
@@ -175,7 +178,7 @@ class GenerateHtml {
                             width: 100px;
                         }
                         table.teamTotalsTable > tbody > tr > td:nth-child(2) {
-                            width: 50px;
+                            width: 150px;
                         }
                         table.teamTotalsTable > tbody > tr > td:nth-child(3) {
                             width: 150px;
@@ -294,12 +297,16 @@ class GenerateHtml {
             if (index == 0)
                 h4 { +teamPairDetails.team1 }
             else
-                h4 { +teamPairDetails.team2 }
+                h4 {
+                    if (teamPairDetails.team2.lowercase() == "all")
+                        +"Opponents"
+                    else
+                        +teamPairDetails.team2
+                }
             generateSingleMatchDataTables(matchType, teamPairDetails, index, generateRecordsForAllOpponents)
             generateFowHtml(teamPairDetails.bestFoW[index], generateRecordsForAllOpponents) { wicket, teamA, teamB ->
                 log.warn("MatchType: ${matchType}: FOW: wicket $wicket for $teamA vs $teamB has unknown players")
             }
-//            generateOverallDataTable(teamPairDetails, index)
         }
         p { +teamPairDetails.authors.joinToString(", ") }
         generateRecordPageFooter(teamPairDetails.team1, teamPairDetails.team2, matchType)
@@ -459,7 +466,7 @@ class GenerateHtml {
         table(classes = "bestBowlingRowsTable") {
             generateBestBowlingRows(
                 teamPairDetails.bestBowlingInnings[index],
-                "Best Bowling in innings",
+                "Best Bowling in innings (min:3 wickets)",
                 generateRecordsForAllOpponents
             )
         }
@@ -499,7 +506,7 @@ class GenerateHtml {
         if (highestScore.isEmpty()) {
             tr {
                 td {
-                    +"Most Runs in innings"
+                    +"Most Runs in innings (min 25)"
                 }
                 td {
                 }
@@ -530,7 +537,7 @@ class GenerateHtml {
                             +"vs ${score.opponents}"
                         }
                     }
-                    td{
+                    td {
                         +score.location
                     }
                     td(null) {
