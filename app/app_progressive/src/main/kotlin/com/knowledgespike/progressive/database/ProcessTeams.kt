@@ -52,7 +52,7 @@ class ProcessTeams(
                     matchSubType,
                     dialect
                 )
-            if (matchDto.count != 0) {
+            if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
                 log.debug("Processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
                 val teamPairDetails =
                     TeamPairDetails(

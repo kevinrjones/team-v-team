@@ -50,7 +50,7 @@ class ProcessTeams(
                     matchSubType,
                     dialect
                 )
-            if (matchDto.count != 0) {
+            if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
                 val teamPairDetails =
                     TeamPairDetails(
                         arrayOf(teamsAndOpponents.teamName, teamsAndOpponents.opponentsName),

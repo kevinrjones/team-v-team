@@ -289,7 +289,69 @@ class GenerateHtml {
                     +DateTimeFormatter.ofPattern("dd MMMM yyyy")
                         .format(teamPairDetails.matchDto.endDate.toJavaLocalDateTime())
                 }
+            }
+            tr {
+                td {
+                    +"${teamPairDetails.team1} won"
+                }
+                td {
+                    +"${teamPairDetails.matchDto.firstTeamWins}"
+                }
+                td {
+                }
+                td {
+                }
+                td {
 
+                }
+            }
+            tr {
+                td {
+                    +"${teamPairDetails.team2} won "
+                }
+                td {
+                    +"${teamPairDetails.matchDto.firstTeamLosses}"
+                }
+                td {
+                }
+                td {
+                }
+                td {
+
+                }
+            }
+            tr {
+                td {
+                    +getLabelForDrawnMatches(teamPairDetails.competitionSubType)
+                }
+                td(null, "colspan", "4") {
+                    +getTextValueForDrawnMatches(teamPairDetails.matchDto.draws, teamPairDetails.matchDto.abandoned)
+                }
+            }
+            tr {
+                td {
+                    +"Ties"
+                }
+                td {
+                    +"${teamPairDetails.matchDto.ties}"
+                }
+                td {
+                }
+                td {
+                }
+                td {
+
+                }
+            }
+            if(teamPairDetails.matchDto.cancelled != 0) {
+                tr {
+                    td(null, "colspan", "5") {
+                        if(teamPairDetails.matchDto.cancelled == 1)
+                            +"1 match between these teams was cancelled"
+                        else
+                            +"${teamPairDetails.matchDto.cancelled} matches between these teams were cancelled"
+                    }
+                }
             }
         }
 
@@ -618,6 +680,7 @@ class GenerateHtml {
 
 
 fun formatDouble(input: Double, scale: Int) = String.format("%.${scale}f", input)
+
 
 
 

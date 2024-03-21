@@ -89,8 +89,6 @@ fun getCountOfMatchesBetweenTeams(
                 )
             )
         )
-        .and(MATCHES.VICTORYTYPE.notEqual(6))
-        .and(MATCHES.VICTORYTYPE.notEqual(11))
         .and(MATCHES.MATCHTYPE.notIn(matchTypesToExclude))
 
     if (countryIds.isNotEmpty())
@@ -102,13 +100,12 @@ fun getCountOfMatchesBetweenTeams(
         databaseConnection.password
     ).use { conn ->
         val context = DSL.using(conn, dialect)
-        val r = context.select(
+        val r = context.selectDistinct(
             EXTRAMATCHDETAILS.TEAMID,
             EXTRAMATCHDETAILS.OPPONENTSID,
             EXTRAMATCHDETAILS.RESULT,
             DSL.count(EXTRAMATCHDETAILS.RESULT).over().partitionBy(EXTRAMATCHDETAILS.RESULT)
                 .orderBy(EXTRAMATCHDETAILS.RESULT).`as`("count"),
-            DSL.count(EXTRAMATCHDETAILS.RESULT).over().partitionBy().orderBy().`as`("matches"),
             DSL.min(MATCHES.MATCHSTARTDATEASOFFSET).over().`as`("startDate"),
             DSL.max(MATCHES.MATCHSTARTDATEASOFFSET).over().`as`("endDate"),
         ).from(EXTRAMATCHDETAILS)
@@ -124,17 +121,21 @@ fun getCountOfMatchesBetweenTeams(
                     0L.toLocalDateTime(),
                 )
             }
+            if(teamsAndOpponents.teamIds.size == 1 && teamsAndOpponents.teamIds[0] == 710 && matchSubType == "wwc") {
+                println("")
+            }
             var wins = 0
             var losses = 0
             var draws = 0
             var ties = 0
-            var matches = 0
+            var abandoned = 0
+            var cancelled = 0
             var startDate = 0L.toLocalDateTime()
             var endDate = 0L.toLocalDateTime()
 
             r.forEach { result ->
 
-                matches = result.getValue("matches", Int::class.java)
+
                 val resultType = result.getValue("Result", Int::class.java)
                 val count = result.getValue("count", Int::class.java)
 
@@ -144,11 +145,14 @@ fun getCountOfMatchesBetweenTeams(
                     2 -> losses = count
                     4 -> draws = count
                     8 -> ties = count
+                    16 -> abandoned = count
+                    32 -> cancelled = count
                 }
 
                 startDate = (result.getValue("startDate", Long::class.java) * 1000).toLocalDateTime()
                 endDate = (result.getValue("endDate", Long::class.java) * 1000).toLocalDateTime()
             }
+            val matches = wins + losses + draws + ties
             return MatchDto(
                 matches,
                 startDate,
@@ -156,7 +160,9 @@ fun getCountOfMatchesBetweenTeams(
                 firstTeamWins = wins,
                 firstTeamLosses = losses,
                 draws,
-                ties
+                ties,
+                abandoned,
+                cancelled
             )
         } catch (e: Exception) {
             throw e

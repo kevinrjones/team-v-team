@@ -1,5 +1,7 @@
 package com.knowledgespike.shared.html
 
+import com.knowledgespike.shared.data.matchTypeFromSubType
+
 fun getWicket(wicket: Int): String = when (wicket) {
     1 -> "1st"
     2 -> "2nd"
@@ -43,3 +45,22 @@ fun isMatchTypeMultiInnings(matchType: String): Boolean {
             || matchType == "wf"
             || matchType == "wt")
 }
+
+fun getLabelForDrawnMatches(competitionSubType: String): String {
+    val matchType = matchTypeFromSubType(competitionSubType)
+    if(isMatchTypeMultiInnings(matchType))
+        return "Draws"
+    else
+        return "No Result"
+}
+
+fun getTextValueForDrawnMatches(draws : Int, abandoned: Int) : String {
+    return when {
+        abandoned == 0 -> "${draws}"
+        abandoned == 1 -> "${draws} (There has also been 1 abandoned match between these teams)"
+        else -> "${draws} (There has also been $abandoned abandoned matches between these teams)"
+    }
+}
+
+
+

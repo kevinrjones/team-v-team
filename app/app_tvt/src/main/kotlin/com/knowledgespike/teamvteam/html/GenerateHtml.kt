@@ -212,66 +212,69 @@ class GenerateHtml {
 
                 }
             }
-//            tr {
-//                td {
-//                    +"${teamPairDetails.team1} won"
-//                }
-//                td(null, "width", columnTwoWidth) {
-//                    +"${teamPairDetails.matchDto.firstTeamWins}"
-//                }
-//                td {
-//                }
-//                td {
-//                }
-//                td(null, "width", columnFiveWidth) {
-//
-//                }
-//            }
-//            tr {
-//                td {
-//                    +"${teamPairDetails.team2} won "
-//                }
-//                td(null, "width", columnTwoWidth) {
-//                    +"${teamPairDetails.matchDto.firstTeamLosses}"
-//                }
-//                td {
-//                }
-//                td {
-//                }
-//                td(null, "width", columnFiveWidth) {
-//
-//                }
-//            }
-//            tr {
-//                td {
-//                    +"Draws"
-//                }
-//                td(null, "width", columnTwoWidth) {
-//                    +"${teamPairDetails.matchDto.draws}"
-//                }
-//                td {
-//                }
-//                td {
-//                }
-//                td(null, "width", columnFiveWidth) {
-//
-//                }
-//            }
-//            tr {
-//                td {
-//                    +"Ties"
-//                }
-//                td(null, "width", columnTwoWidth) {
-//                    +"${teamPairDetails.matchDto.ties}"
-//                }
-//                td {
-//                }
-//                td {
-//                }
-//                td(null, "width", columnFiveWidth) {
-//
-//                }
-//            }
+            tr {
+                td {
+                    +"${teamPairDetails.team1} won"
+                }
+                td(null, "width", columnTwoWidth) {
+                    +"${teamPairDetails.matchDto.firstTeamWins}"
+                }
+                td {
+                }
+                td {
+                }
+                td(null, "width", columnFiveWidth) {
+
+                }
+            }
+            tr {
+                td {
+                    +"${teamPairDetails.team2} won "
+                }
+                td(null, "width", columnTwoWidth) {
+                    +"${teamPairDetails.matchDto.firstTeamLosses}"
+                }
+                td {
+                }
+                td {
+                }
+                td(null, "width", columnFiveWidth) {
+
+                }
+            }
+            tr {
+                td {
+                    +getLabelForDrawnMatches(teamPairDetails.competitionSubType)
+                }
+                td(null, "colspan", "4") {
+                    +getTextValueForDrawnMatches(teamPairDetails.matchDto.draws, teamPairDetails.matchDto.abandoned)
+                }
+            }
+            tr {
+                td {
+                    +"Ties"
+                }
+                td(null, "width", columnTwoWidth) {
+                    +"${teamPairDetails.matchDto.ties}"
+                }
+                td {
+                }
+                td {
+                }
+                td(null, "width", columnFiveWidth) {
+
+                }
+            }
+            if(teamPairDetails.matchDto.cancelled != 0) {
+                tr {
+                    td(null, "colspan", "5") {
+                        if(teamPairDetails.matchDto.cancelled == 1)
+                            +"1 match between these teams was cancelled"
+                        else
+                            +"${teamPairDetails.matchDto.cancelled} matches between these teams were cancelled"
+                    }
+                }
+            }
         }
 
         for (index in 0..1) {

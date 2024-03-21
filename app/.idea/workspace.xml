@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/ProcessTeams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/ProcessTeams.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/GenerateHtml.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/GenerateHtml.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Matches.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Matches.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Daos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Daos.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_tvt/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/html/Helpers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/html/Helpers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,47 +45,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Produce Stats" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Produce Stats" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Produce Stats" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Produce Stats" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="jooq" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Produce Stats" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="version catalog update" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Produce Stats" type="f1a62948:ProjectNode" />
-                <item name="app_shared" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Produce Stats" type="f1a62948:ProjectNode" />
-                <item name="app_shared" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Produce Stats" type="f1a62948:ProjectNode" />
-                <item name="app_shared" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="jooq" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -330,11 +289,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.app [clean]" />
         <item itemvalue="Gradle.app:app_shared [jooqCodegen]" />
-        <item itemvalue="Gradle.app [build]" />
-        <item itemvalue="Gradle.app [jooqCodegen]" />
         <item itemvalue="Gradle.app [versionCatalogUpdate]" />
+        <item itemvalue="Gradle.app [jooqCodegen]" />
+        <item itemvalue="Gradle.app [clean]" />
+        <item itemvalue="Gradle.app [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -549,7 +508,13 @@
       <workItem from="1710494975463" duration="111000" />
       <workItem from="1710495094764" duration="118000" />
       <workItem from="1710495219386" duration="226000" />
-      <workItem from="1710495451202" duration="749000" />
+      <workItem from="1710495451202" duration="1350000" />
+      <workItem from="1710779384436" duration="4074000" />
+      <workItem from="1710847225306" duration="8247000" />
+      <workItem from="1710952155486" duration="1511000" />
+      <workItem from="1710970865662" duration="1199000" />
+      <workItem from="1711008932322" duration="598000" />
+      <workItem from="1711013325134" duration="4265000" />
     </task>
     <servers />
   </component>
@@ -570,11 +535,6 @@
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/GenerateHtml.kt</url>
-          <line>393</line>
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt</url>
           <line>1762</line>
           <option name="timeStamp" value="87" />
@@ -583,6 +543,11 @@
           <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt</url>
           <line>296</line>
           <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt</url>
+          <line>124</line>
+          <option name="timeStamp" value="92" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

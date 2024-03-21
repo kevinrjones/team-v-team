@@ -52,6 +52,8 @@ data class MatchDto(
     val firstTeamLosses: Int = 0,
     val draws: Int = 0,
     val ties: Int = 0,
+    val abandoned: Int = 0,
+    val cancelled: Int = 0,
 )
 
 @Serializable
