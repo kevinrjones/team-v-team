@@ -325,7 +325,7 @@ class GenerateHtml {
                     +getLabelForDrawnMatches(teamPairDetails.competitionSubType)
                 }
                 td(null, "colspan", "4") {
-                    +getTextValueForDrawnMatches(teamPairDetails.matchDto.draws, teamPairDetails.matchDto.abandoned)
+                    +"${teamPairDetails.matchDto.draws}"
                 }
             }
             tr {
@@ -343,10 +343,20 @@ class GenerateHtml {
 
                 }
             }
-            if(teamPairDetails.matchDto.cancelled != 0) {
+            if (teamPairDetails.matchDto.abandoned != 0) {
                 tr {
                     td(null, "colspan", "5") {
-                        if(teamPairDetails.matchDto.cancelled == 1)
+                        if (teamPairDetails.matchDto.abandoned == 1)
+                            +"1 match between these teams was abandoned"
+                        else
+                            +"${teamPairDetails.matchDto.abandoned} matches between these teams were abandoned"
+                    }
+                }
+            }
+            if (teamPairDetails.matchDto.cancelled != 0) {
+                tr {
+                    td(null, "colspan", "5") {
+                        if (teamPairDetails.matchDto.cancelled == 1)
                             +"1 match between these teams was cancelled"
                         else
                             +"${teamPairDetails.matchDto.cancelled} matches between these teams were cancelled"
@@ -355,19 +365,24 @@ class GenerateHtml {
             }
         }
 
-        for (index in 0..1) {
-            if (index == 0)
-                h4 { +teamPairDetails.team1 }
-            else
-                h4 {
-                    if (teamPairDetails.team2.lowercase() == "all")
-                        +"Opponents"
-                    else
-                        +teamPairDetails.team2
+        if (teamPairDetails.matchDto.count > 0) {
+            for (index in 0..1) {
+                if (index == 0)
+                    h4 { +teamPairDetails.team1 }
+                else
+                    h4 {
+                        if (teamPairDetails.team2.lowercase() == "all")
+                            +"Opponents"
+                        else
+                            +teamPairDetails.team2
+                    }
+                generateSingleMatchDataTables(matchType, teamPairDetails, index, generateRecordsForAllOpponents)
+                generateFowHtml(
+                    teamPairDetails.bestFoW[index],
+                    generateRecordsForAllOpponents
+                ) { wicket, teamA, teamB ->
+                    log.warn("MatchType: ${matchType}: FOW: wicket $wicket for $teamA vs $teamB has unknown players")
                 }
-            generateSingleMatchDataTables(matchType, teamPairDetails, index, generateRecordsForAllOpponents)
-            generateFowHtml(teamPairDetails.bestFoW[index], generateRecordsForAllOpponents) { wicket, teamA, teamB ->
-                log.warn("MatchType: ${matchType}: FOW: wicket $wicket for $teamA vs $teamB has unknown players")
             }
         }
         p { +teamPairDetails.authors.joinToString(", ") }

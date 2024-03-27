@@ -42,6 +42,8 @@ fun getNotOutScore(score: Int, notOut: Boolean): String {
 fun isMatchTypeMultiInnings(matchType: String): Boolean {
     return (matchType == "f"
             || matchType == "t"
+            || matchType == "minc"
+            || matchType == "sec"
             || matchType == "wf"
             || matchType == "wt")
 }
@@ -54,13 +56,6 @@ fun getLabelForDrawnMatches(competitionSubType: String): String {
         return "No Result"
 }
 
-fun getTextValueForDrawnMatches(draws : Int, abandoned: Int) : String {
-    return when {
-        abandoned == 0 -> "${draws}"
-        abandoned == 1 -> "${draws} (There has also been 1 abandoned match between these teams)"
-        else -> "${draws} (There has also been $abandoned abandoned matches between these teams)"
-    }
-}
 
 
 

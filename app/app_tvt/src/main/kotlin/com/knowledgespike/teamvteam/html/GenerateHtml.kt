@@ -247,7 +247,7 @@ class GenerateHtml {
                     +getLabelForDrawnMatches(teamPairDetails.competitionSubType)
                 }
                 td(null, "colspan", "4") {
-                    +getTextValueForDrawnMatches(teamPairDetails.matchDto.draws, teamPairDetails.matchDto.abandoned)
+                    +"${teamPairDetails.matchDto.draws}"
                 }
             }
             tr {
@@ -265,10 +265,20 @@ class GenerateHtml {
 
                 }
             }
-            if(teamPairDetails.matchDto.cancelled != 0) {
+            if (teamPairDetails.matchDto.abandoned != 0) {
                 tr {
                     td(null, "colspan", "5") {
-                        if(teamPairDetails.matchDto.cancelled == 1)
+                        if (teamPairDetails.matchDto.abandoned == 1)
+                            +"1 match between these teams was abandoned"
+                        else
+                            +"${teamPairDetails.matchDto.abandoned} matches between these teams were abandoned"
+                    }
+                }
+            }
+            if (teamPairDetails.matchDto.cancelled != 0) {
+                tr {
+                    td(null, "colspan", "5") {
+                        if (teamPairDetails.matchDto.cancelled == 1)
                             +"1 match between these teams was cancelled"
                         else
                             +"${teamPairDetails.matchDto.cancelled} matches between these teams were cancelled"
@@ -277,20 +287,22 @@ class GenerateHtml {
             }
         }
 
-        for (index in 0..1) {
-            if (index == 0)
-                h4 { +teamPairDetails.team1 }
-            else
-                h4 { +teamPairDetails.team2 }
-            generateSingleMatchDataTable(teamPairDetails, matchType, index)
-            generateFowHtml(teamPairDetails.bestFoW[index]) { wicket, teamA, teamB ->
-                log.warn("MatchType: ${matchType}: FOW: wicket $wicket for $teamA vs $teamB has unknown players")
+        if (teamPairDetails.matchDto.count > 0) {
+            for (index in 0..1) {
+                if (index == 0)
+                    h4 { +teamPairDetails.team1 }
+                else
+                    h4 { +teamPairDetails.team2 }
+                generateSingleMatchDataTable(teamPairDetails, matchType, index)
+                generateFowHtml(teamPairDetails.bestFoW[index]) { wicket, teamA, teamB ->
+                    log.warn("MatchType: ${matchType}: FOW: wicket $wicket for $teamA vs $teamB has unknown players")
+                }
+                generateOverallDataTable(teamPairDetails, index)
             }
-            generateOverallDataTable(teamPairDetails, index)
-        }
 
-        if (getAnyPossibleInvalid(teamPairDetails))
-            generateMessageRow()
+            if (getAnyPossibleInvalid(teamPairDetails))
+                generateMessageRow()
+        }
         p { +teamPairDetails.authors.joinToString(", ") }
 
         generateRecordPageFooter(teamPairDetails.team1, teamPairDetails.team2, matchType)
@@ -1018,7 +1030,12 @@ class GenerateHtml {
                             +"Note:"
                         }
                         td(null, "colspan", "4") {// colspan=4
-                            +"A total of ${getPartnership(multiPlayerFowDao.total, multiPlayerFowDao.unbroken)} was added for the ${getWicket(multiPlayerFowDao.wicket)} wicket"
+                            +"A total of ${
+                                getPartnership(
+                                    multiPlayerFowDao.total,
+                                    multiPlayerFowDao.unbroken
+                                )
+                            } was added for the ${getWicket(multiPlayerFowDao.wicket)} wicket"
                         }
                     }
                     fowList.forEach { fow ->
