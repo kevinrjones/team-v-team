@@ -75,10 +75,7 @@ project(":app_shared") {
         implementation(rootProject.libs.kotlinxSerialization)
         implementation(rootProject.libs.kotlinxDatetime)
         implementation(rootProject.libs.mariadb)
-
-        implementation(rootProject.libs.kotlinxHtmlJvm)
         implementation(rootProject.libs.kotlinxHtml)
-
     }
 }
 
@@ -99,9 +96,6 @@ project(":app_tvt") {
         implementation(rootProject.libs.kotlinCoroutines)
         implementation(rootProject.libs.kotlinxSerialization)
         implementation(rootProject.libs.kotlinxDatetime)
-
-
-        implementation(rootProject.libs.kotlinxHtmlJvm)
         implementation(rootProject.libs.kotlinxHtml)
 
         implementation(rootProject.libs.commonsCli)
@@ -125,9 +119,6 @@ project(":app_progressive") {
         implementation(rootProject.libs.kotlinCoroutines)
         implementation(rootProject.libs.kotlinxSerialization)
         implementation(rootProject.libs.kotlinxDatetime)
-
-
-        implementation(rootProject.libs.kotlinxHtmlJvm)
         implementation(rootProject.libs.kotlinxHtml)
 
         implementation(rootProject.libs.commonsCli)

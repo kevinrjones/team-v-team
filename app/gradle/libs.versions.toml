@@ -23,7 +23,6 @@ kotlinCoroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", v
 kotlinReflect = "org.jetbrains.kotlin:kotlin-reflect:1.9.20-Beta2"
 kotlinxDatetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx_datetime_version" }
 kotlinxHtml = { module = "org.jetbrains.kotlinx:kotlinx-html", version.ref = "kotlinx_html_version" }
-kotlinxHtmlJvm = { module = "org.jetbrains.kotlinx:kotlinx-html-jvm", version.ref = "kotlinx_html_version" }
 kotlinxSerialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx_serialization_version" }
 logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback_version" }
 mariadb = { module = "org.mariadb.jdbc:mariadb-java-client", version.ref = "mariaDbVersion" }
