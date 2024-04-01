@@ -343,6 +343,21 @@ class GenerateHtml {
 
                 }
             }
+            if (teamPairDetails.matchDto.abandonedAsDraw != 0) {
+                val (drawText, pluralDrawText) = if (isMatchTypeMultiInnings(matchType)) {
+                    Pair("draw", "draws")
+                } else {
+                    Pair("no result", "no results")
+                }
+                tr {
+                    td(null, "colspan", "5") {
+                        if (teamPairDetails.matchDto.abandonedAsDraw == 1)
+                            +"1 match between these teams was abandoned as a $drawText"
+                        else
+                            +"${teamPairDetails.matchDto.abandonedAsDraw} matches between these teams were abandoned as $pluralDrawText"
+                    }
+                }
+            }
             if (teamPairDetails.matchDto.abandoned != 0) {
                 tr {
                     td(null, "colspan", "5") {

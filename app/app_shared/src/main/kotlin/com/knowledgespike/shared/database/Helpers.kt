@@ -130,6 +130,7 @@ fun getCountOfMatchesBetweenTeams(
             var ties = 0
             var abandoned = 0
             var cancelled = 0
+            var abandonedAsDraw = 0
             var startDate = 0L.toLocalDateTime()
             var endDate = 0L.toLocalDateTime()
 
@@ -147,12 +148,13 @@ fun getCountOfMatchesBetweenTeams(
                     8 -> ties = count
                     16 -> abandoned = count
                     32 -> cancelled = count
+                    64 -> abandonedAsDraw = count
                 }
 
                 startDate = (result.getValue("startDate", Long::class.java) * 1000).toLocalDateTime()
                 endDate = (result.getValue("endDate", Long::class.java) * 1000).toLocalDateTime()
             }
-            val matches = wins + losses + draws + ties
+            val matches = wins + losses + draws + ties + abandonedAsDraw
             return MatchDto(
                 matches,
                 startDate,
@@ -162,6 +164,7 @@ fun getCountOfMatchesBetweenTeams(
                 draws,
                 ties,
                 abandoned,
+                abandonedAsDraw,
                 cancelled
             )
         } catch (e: Exception) {

@@ -53,6 +53,7 @@ data class MatchDto(
     val draws: Int = 0,
     val ties: Int = 0,
     val abandoned: Int = 0,
+    val abandonedAsDraw: Int = 0,
     val cancelled: Int = 0,
 )
 
