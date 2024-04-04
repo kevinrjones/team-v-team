@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/hun.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/hun.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/hun.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/hun.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -512,7 +513,9 @@
       <workItem from="1711520099175" duration="1289000" />
       <workItem from="1711535559962" duration="598000" />
       <workItem from="1711625417529" duration="598000" />
-      <workItem from="1711662292631" duration="2069000" />
+      <workItem from="1711662292631" duration="10536000" />
+      <workItem from="1712039970981" duration="6817000" />
+      <workItem from="1712221735131" duration="1369000" />
     </task>
     <servers />
   </component>
@@ -541,6 +544,16 @@
           <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt</url>
           <line>296</line>
           <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/GenerateHtml.kt</url>
+          <line>347</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/GenerateHtml.kt</url>
+          <line>349</line>
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
