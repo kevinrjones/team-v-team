@@ -66,8 +66,7 @@ fun getCountOfMatchesBetweenTeams(
     databaseConnection: DatabaseConnection,
     countryIds: List<Int>,
     teamsAndOpponents: TeamsAndOpponents,
-    matchSubType: String,
-    dialect: SQLDialect
+    matchSubType: String
 ): MatchDto {
 
     val matchTypesToExclude = mutableListOf("t", "wt", "itt", "witt", "o", "wo")
@@ -99,7 +98,7 @@ fun getCountOfMatchesBetweenTeams(
         databaseConnection.userName,
         databaseConnection.password
     ).use { conn ->
-        val context = DSL.using(conn, dialect)
+        val context = DSL.using(conn, databaseConnection.dialect)
         val r = context.selectDistinct(
             EXTRAMATCHDETAILS.TEAMID,
             EXTRAMATCHDETAILS.OPPONENTSID,

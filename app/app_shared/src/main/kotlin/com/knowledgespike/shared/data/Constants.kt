@@ -47,6 +47,7 @@ fun matchTypeFromSubType(matchType: String): String {
         "wcpl" -> "wtt"
 
         "minc" -> "minc"
+        "mintt" -> "mintt"
         else -> throw Exception("Unknown match sub type - please add the new subtype to type mapping")
     }
 }

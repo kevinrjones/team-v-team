@@ -49,8 +49,7 @@ class ProcessTeams(
                     databaseConnection,
                     countryIds,
                     teamsAndOpponents,
-                    matchSubType,
-                    dialect
+                    matchSubType
                 )
             if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
                 log.debug("Processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
@@ -130,8 +129,7 @@ class ProcessTeams(
                     connection,
                     countryId,
                     TeamsAndOpponents(teamAndIds.teamName, teamAndIds.teamIds, "all", opponents),
-                    matchSubType,
-                    dialect
+                    matchSubType
                 )
 
             val teamAndAllOpponentsDetails = TeamAndAllOpponentsDetails(teamAndIds.teamName, matchDto)

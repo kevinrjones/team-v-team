@@ -51,11 +51,6 @@ allprojects {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-//    tasks.withType<KotlinCompile>().configureEach {
-//        kotlinOptions.jvmTarget = "17"
-//        kotlinOptions.freeCompilerArgs = listOf("-opt-in=kotlin.RequiresOptIn")
-//    }
-//
 }
 
 subprojects {
@@ -90,7 +85,7 @@ project(":app_tvt") {
 
         implementation(rootProject.libs.mariadb)
 
-        implementation(rootProject.libs.jooq)
+            implementation(rootProject.libs.jooq)
         implementation(rootProject.libs.jooqCodeGen)
         implementation(rootProject.libs.jooqMeta)
         implementation(rootProject.libs.kotlinCoroutines)

@@ -12,14 +12,12 @@ buildscript {
     }
 }
 
-//sourceSets {
-//    this.main {
-//        val generatedDir: Provider<Directory> = layout.buildDirectory.dir("generated/java")
-//        java.srcDir(generatedDir)
-//    }
-//}
-
-
+sourceSets {
+    this.main {
+        val generatedDir= layout.projectDirectory.dir("generated/java")
+        java.srcDir(generatedDir)
+    }
+}
 
 jooq {
 //    val output: Provider<Directory> = layout.buildDirectory.dir(".")

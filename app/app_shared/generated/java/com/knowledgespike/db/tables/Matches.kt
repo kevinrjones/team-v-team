@@ -224,6 +224,11 @@ open class Matches(
     val TOSSTEAMID: TableField<MatchesRecord, Int?> = createField(DSL.name("TossTeamId"), SQLDataType.INTEGER.nullable(false), this, "")
 
     /**
+     * The column <code>cricketarchive.Matches.BattedFirstTeamId</code>.
+     */
+    val BATTEDFIRSTTEAMID: TableField<MatchesRecord, Int?> = createField(DSL.name("BattedFirstTeamId"), SQLDataType.INTEGER.nullable(false), this, "")
+
+    /**
      * The column <code>cricketarchive.Matches.MatchDate</code>.
      */
     val MATCHDATE: TableField<MatchesRecord, String?> = createField(DSL.name("MatchDate"), SQLDataType.VARCHAR(200).nullable(false), this, "")
@@ -257,6 +262,11 @@ open class Matches(
      * The column <code>cricketarchive.Matches.HomeCountryId</code>.
      */
     val HOMECOUNTRYID: TableField<MatchesRecord, Int?> = createField(DSL.name("HomeCountryId"), SQLDataType.INTEGER.nullable(false).defaultValue(DSL.field(DSL.raw("0"), SQLDataType.INTEGER)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Matches.Target</code>.
+     */
+    val TARGET: TableField<MatchesRecord, Int?> = createField(DSL.name("Target"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
 
     /**
      * The column <code>cricketarchive.Matches.WhoWonId</code>.

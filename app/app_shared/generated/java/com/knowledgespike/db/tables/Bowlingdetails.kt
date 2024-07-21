@@ -240,6 +240,24 @@ open class Bowlingdetails(
      */
     val SYNTHETICBESTBOWLING: TableField<BowlingdetailsRecord, BigDecimal?> = createField(DSL.name("SyntheticBestBowling"), SQLDataType.DECIMAL(14, 12).defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.DECIMAL)), this, "")
 
+    /**
+     * The column
+     * <code>cricketarchive.BowlingDetails.BestBowlingRunsMatch</code>.
+     */
+    val BESTBOWLINGRUNSMATCH: TableField<BowlingdetailsRecord, Int?> = createField(DSL.name("BestBowlingRunsMatch"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
+
+    /**
+     * The column
+     * <code>cricketarchive.BowlingDetails.BestBowlingWicketsMatch</code>.
+     */
+    val BESTBOWLINGWICKETSMATCH: TableField<BowlingdetailsRecord, Int?> = createField(DSL.name("BestBowlingWicketsMatch"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
+
+    /**
+     * The column
+     * <code>cricketarchive.BowlingDetails.SyntheticBestBowlingMatch</code>.
+     */
+    val SYNTHETICBESTBOWLINGMATCH: TableField<BowlingdetailsRecord, BigDecimal?> = createField(DSL.name("SyntheticBestBowlingMatch"), SQLDataType.DECIMAL(14, 12).defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.DECIMAL)), this, "")
+
     private constructor(alias: Name, aliased: Table<BowlingdetailsRecord>?): this(alias, null, null, null, aliased, null, null)
     private constructor(alias: Name, aliased: Table<BowlingdetailsRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
     private constructor(alias: Name, aliased: Table<BowlingdetailsRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)

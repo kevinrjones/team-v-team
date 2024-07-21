@@ -7,6 +7,7 @@ package com.knowledgespike.db.indexes
 import com.knowledgespike.db.tables.Battingdetails
 import com.knowledgespike.db.tables.Bowlingdetails
 import com.knowledgespike.db.tables.Closeofplay
+import com.knowledgespike.db.tables.Competitions
 import com.knowledgespike.db.tables.Countries
 import com.knowledgespike.db.tables.Extramatchdetails
 import com.knowledgespike.db.tables.Fallofwickets
@@ -93,6 +94,7 @@ val EXTRAMATCHDETAILS_MATCHID_2: Index = Internal.createIndex(DSL.name("MatchId_
 val EXTRAMATCHDETAILS_MATCHID_3: Index = Internal.createIndex(DSL.name("MatchId_3"), Extramatchdetails.EXTRAMATCHDETAILS, arrayOf(Extramatchdetails.EXTRAMATCHDETAILS.MATCHID, Extramatchdetails.EXTRAMATCHDETAILS.TEAMID, Extramatchdetails.EXTRAMATCHDETAILS.OPPONENTSID), false)
 val BATTINGDETAILS_MATCHTYPE: Index = Internal.createIndex(DSL.name("MatchType"), Battingdetails.BATTINGDETAILS, arrayOf(Battingdetails.BATTINGDETAILS.MATCHTYPE), false)
 val BOWLINGDETAILS_MATCHTYPE: Index = Internal.createIndex(DSL.name("MatchType"), Bowlingdetails.BOWLINGDETAILS, arrayOf(Bowlingdetails.BOWLINGDETAILS.MATCHTYPE), false)
+val COMPETITIONS_MATCHTYPE: Index = Internal.createIndex(DSL.name("MatchType"), Competitions.COMPETITIONS, arrayOf(Competitions.COMPETITIONS.MATCHTYPE), false)
 val EXTRAMATCHDETAILS_MATCHTYPE: Index = Internal.createIndex(DSL.name("MatchType"), Extramatchdetails.EXTRAMATCHDETAILS, arrayOf(Extramatchdetails.EXTRAMATCHDETAILS.MATCHTYPE), false)
 val FIELDING_MATCHTYPE: Index = Internal.createIndex(DSL.name("MatchType"), Fielding.FIELDING, arrayOf(Fielding.FIELDING.MATCHTYPE), false)
 val GROUNDSMATCHTYPES_MATCHTYPE: Index = Internal.createIndex(DSL.name("MatchType"), Groundsmatchtypes.GROUNDSMATCHTYPES, arrayOf(Groundsmatchtypes.GROUNDSMATCHTYPES.MATCHTYPE), false)

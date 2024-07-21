@@ -130,6 +130,18 @@ open class BowlingdetailsRecord() : UpdatableRecordImpl<BowlingdetailsRecord>(Bo
         set(value): Unit = set(27, value)
         get(): BigDecimal? = get(27) as BigDecimal?
 
+    open var bestbowlingrunsmatch: Int?
+        set(value): Unit = set(28, value)
+        get(): Int? = get(28) as Int?
+
+    open var bestbowlingwicketsmatch: Int?
+        set(value): Unit = set(29, value)
+        get(): Int? = get(29) as Int?
+
+    open var syntheticbestbowlingmatch: BigDecimal?
+        set(value): Unit = set(30, value)
+        get(): BigDecimal? = get(30) as BigDecimal?
+
     // -------------------------------------------------------------------------
     // Primary key information
     // -------------------------------------------------------------------------
@@ -139,7 +151,7 @@ open class BowlingdetailsRecord() : UpdatableRecordImpl<BowlingdetailsRecord>(Bo
     /**
      * Create a detached, initialised BowlingdetailsRecord
      */
-    constructor(id: Int? = null, matchid: Int? = null, groundid: Int? = null, seriesdate: String? = null, matchtype: String? = null, playerid: Int? = null, name: String? = null, didbowl: Byte? = null, position: Int? = null, teamid: Int? = null, opponentsid: Int? = null, isneutral: Byte? = null, inningsnumber: Int? = null, inningsorder: Int? = null, overs: String? = null, balls: Int? = null, maidens: Int? = null, runs: Int? = null, wickets: Int? = null, wides: Int? = null, noballs: Int? = null, dots: Int? = null, fours: Int? = null, sixes: Int? = null, tenfor: Byte? = null, captain: Byte? = null, teamcaptain: Int? = null, syntheticbestbowling: BigDecimal? = null): this() {
+    constructor(id: Int? = null, matchid: Int? = null, groundid: Int? = null, seriesdate: String? = null, matchtype: String? = null, playerid: Int? = null, name: String? = null, didbowl: Byte? = null, position: Int? = null, teamid: Int? = null, opponentsid: Int? = null, isneutral: Byte? = null, inningsnumber: Int? = null, inningsorder: Int? = null, overs: String? = null, balls: Int? = null, maidens: Int? = null, runs: Int? = null, wickets: Int? = null, wides: Int? = null, noballs: Int? = null, dots: Int? = null, fours: Int? = null, sixes: Int? = null, tenfor: Byte? = null, captain: Byte? = null, teamcaptain: Int? = null, syntheticbestbowling: BigDecimal? = null, bestbowlingrunsmatch: Int? = null, bestbowlingwicketsmatch: Int? = null, syntheticbestbowlingmatch: BigDecimal? = null): this() {
         this.id = id
         this.matchid = matchid
         this.groundid = groundid
@@ -168,6 +180,9 @@ open class BowlingdetailsRecord() : UpdatableRecordImpl<BowlingdetailsRecord>(Bo
         this.captain = captain
         this.teamcaptain = teamcaptain
         this.syntheticbestbowling = syntheticbestbowling
+        this.bestbowlingrunsmatch = bestbowlingrunsmatch
+        this.bestbowlingwicketsmatch = bestbowlingwicketsmatch
+        this.syntheticbestbowlingmatch = syntheticbestbowlingmatch
         resetChangedOnNotNull()
     }
 }

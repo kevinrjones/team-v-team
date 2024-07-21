@@ -7,6 +7,7 @@ package com.knowledgespike.db.keys
 import com.knowledgespike.db.tables.Battingdetails
 import com.knowledgespike.db.tables.Bowlingdetails
 import com.knowledgespike.db.tables.Closeofplay
+import com.knowledgespike.db.tables.Competitions
 import com.knowledgespike.db.tables.Countries
 import com.knowledgespike.db.tables.Countrycodes
 import com.knowledgespike.db.tables.Extramatchdetails
@@ -20,6 +21,7 @@ import com.knowledgespike.db.tables.Matches
 import com.knowledgespike.db.tables.Matchreferees
 import com.knowledgespike.db.tables.Matchrefereesmatches
 import com.knowledgespike.db.tables.Matchsubtype
+import com.knowledgespike.db.tables.Matchtypes
 import com.knowledgespike.db.tables.Notes
 import com.knowledgespike.db.tables.Partnerships
 import com.knowledgespike.db.tables.Partnershipsplayers
@@ -40,6 +42,7 @@ import com.knowledgespike.db.tables.Umpiresmatches
 import com.knowledgespike.db.tables.records.BattingdetailsRecord
 import com.knowledgespike.db.tables.records.BowlingdetailsRecord
 import com.knowledgespike.db.tables.records.CloseofplayRecord
+import com.knowledgespike.db.tables.records.CompetitionsRecord
 import com.knowledgespike.db.tables.records.CountriesRecord
 import com.knowledgespike.db.tables.records.CountrycodesRecord
 import com.knowledgespike.db.tables.records.ExtramatchdetailsRecord
@@ -53,6 +56,7 @@ import com.knowledgespike.db.tables.records.MatchesRecord
 import com.knowledgespike.db.tables.records.MatchrefereesRecord
 import com.knowledgespike.db.tables.records.MatchrefereesmatchesRecord
 import com.knowledgespike.db.tables.records.MatchsubtypeRecord
+import com.knowledgespike.db.tables.records.MatchtypesRecord
 import com.knowledgespike.db.tables.records.NotesRecord
 import com.knowledgespike.db.tables.records.PartnershipsRecord
 import com.knowledgespike.db.tables.records.PartnershipsplayersRecord
@@ -85,6 +89,7 @@ import org.jooq.impl.Internal
 val KEY_BATTINGDETAILS_PRIMARY: UniqueKey<BattingdetailsRecord> = Internal.createUniqueKey(Battingdetails.BATTINGDETAILS, DSL.name("KEY_BattingDetails_PRIMARY"), arrayOf(Battingdetails.BATTINGDETAILS.ID), true)
 val KEY_BOWLINGDETAILS_PRIMARY: UniqueKey<BowlingdetailsRecord> = Internal.createUniqueKey(Bowlingdetails.BOWLINGDETAILS, DSL.name("KEY_BowlingDetails_PRIMARY"), arrayOf(Bowlingdetails.BOWLINGDETAILS.ID), true)
 val KEY_CLOSEOFPLAY_PRIMARY: UniqueKey<CloseofplayRecord> = Internal.createUniqueKey(Closeofplay.CLOSEOFPLAY, DSL.name("KEY_CloseOfPlay_PRIMARY"), arrayOf(Closeofplay.CLOSEOFPLAY.ID), true)
+val KEY_COMPETITIONS_PRIMARY: UniqueKey<CompetitionsRecord> = Internal.createUniqueKey(Competitions.COMPETITIONS, DSL.name("KEY_Competitions_PRIMARY"), arrayOf(Competitions.COMPETITIONS.ID), true)
 val KEY_COUNTRIES_PRIMARY: UniqueKey<CountriesRecord> = Internal.createUniqueKey(Countries.COUNTRIES, DSL.name("KEY_Countries_PRIMARY"), arrayOf(Countries.COUNTRIES.ID), true)
 val KEY_COUNTRYCODES_PRIMARY: UniqueKey<CountrycodesRecord> = Internal.createUniqueKey(Countrycodes.COUNTRYCODES, DSL.name("KEY_CountryCodes_PRIMARY"), arrayOf(Countrycodes.COUNTRYCODES.ID), true)
 val KEY_FALLOFWICKETS_PRIMARY: UniqueKey<FallofwicketsRecord> = Internal.createUniqueKey(Fallofwickets.FALLOFWICKETS, DSL.name("KEY_FallOfWickets_PRIMARY"), arrayOf(Fallofwickets.FALLOFWICKETS.ID), true)
@@ -97,6 +102,8 @@ val KEY_MATCHES_CAID: UniqueKey<MatchesRecord> = Internal.createUniqueKey(Matche
 val KEY_MATCHES_PRIMARY: UniqueKey<MatchesRecord> = Internal.createUniqueKey(Matches.MATCHES, DSL.name("KEY_Matches_PRIMARY"), arrayOf(Matches.MATCHES.ID), true)
 val KEY_MATCHREFEREES_PRIMARY: UniqueKey<MatchrefereesRecord> = Internal.createUniqueKey(Matchreferees.MATCHREFEREES, DSL.name("KEY_MatchReferees_PRIMARY"), arrayOf(Matchreferees.MATCHREFEREES.ID), true)
 val KEY_MATCHSUBTYPE_PRIMARY: UniqueKey<MatchsubtypeRecord> = Internal.createUniqueKey(Matchsubtype.MATCHSUBTYPE, DSL.name("KEY_MatchSubType_PRIMARY"), arrayOf(Matchsubtype.MATCHSUBTYPE.ID), true)
+val KEY_MATCHTYPES_MATCHTYPE: UniqueKey<MatchtypesRecord> = Internal.createUniqueKey(Matchtypes.MATCHTYPES, DSL.name("KEY_MatchTypes_MatchType"), arrayOf(Matchtypes.MATCHTYPES.MATCHTYPE), true)
+val KEY_MATCHTYPES_PRIMARY: UniqueKey<MatchtypesRecord> = Internal.createUniqueKey(Matchtypes.MATCHTYPES, DSL.name("KEY_MatchTypes_PRIMARY"), arrayOf(Matchtypes.MATCHTYPES.ID), true)
 val KEY_NOTES_PRIMARY: UniqueKey<NotesRecord> = Internal.createUniqueKey(Notes.NOTES, DSL.name("KEY_Notes_PRIMARY"), arrayOf(Notes.NOTES.ID), true)
 val KEY_PARTNERSHIPS_PRIMARY: UniqueKey<PartnershipsRecord> = Internal.createUniqueKey(Partnerships.PARTNERSHIPS, DSL.name("KEY_Partnerships_PRIMARY"), arrayOf(Partnerships.PARTNERSHIPS.ID), true)
 val KEY_PARTNERSHIPSPLAYERS_PRIMARY: UniqueKey<PartnershipsplayersRecord> = Internal.createUniqueKey(Partnershipsplayers.PARTNERSHIPSPLAYERS, DSL.name("KEY_PartnershipsPlayers_PRIMARY"), arrayOf(Partnershipsplayers.PARTNERSHIPSPLAYERS.ID), true)
@@ -124,6 +131,7 @@ val BOWLINGDETAILS_IBFK_3: ForeignKey<BowlingdetailsRecord, TeamsRecord> = Inter
 val BOWLINGDETAILS_IBFK_4: ForeignKey<BowlingdetailsRecord, TeamsRecord> = Internal.createForeignKey(Bowlingdetails.BOWLINGDETAILS, DSL.name("bowlingdetails_ibfk_4"), arrayOf(Bowlingdetails.BOWLINGDETAILS.OPPONENTSID), com.knowledgespike.db.keys.KEY_TEAMS_PRIMARY, arrayOf(Teams.TEAMS.ID), true)
 val BOWLINGDETAILS_IBFK_5: ForeignKey<BowlingdetailsRecord, GroundsRecord> = Internal.createForeignKey(Bowlingdetails.BOWLINGDETAILS, DSL.name("bowlingdetails_ibfk_5"), arrayOf(Bowlingdetails.BOWLINGDETAILS.GROUNDID), com.knowledgespike.db.keys.KEY_GROUNDS_PRIMARY, arrayOf(Grounds.GROUNDS.ID), true)
 val CLOSEOFPLAY_IBFK_1: ForeignKey<CloseofplayRecord, MatchesRecord> = Internal.createForeignKey(Closeofplay.CLOSEOFPLAY, DSL.name("closeofplay_ibfk_1"), arrayOf(Closeofplay.CLOSEOFPLAY.MATCHID), com.knowledgespike.db.keys.KEY_MATCHES_PRIMARY, arrayOf(Matches.MATCHES.ID), true)
+val COMPETITIONS_IBFK_1: ForeignKey<CompetitionsRecord, MatchtypesRecord> = Internal.createForeignKey(Competitions.COMPETITIONS, DSL.name("competitions_ibfk_1"), arrayOf(Competitions.COMPETITIONS.MATCHTYPE), com.knowledgespike.db.keys.KEY_MATCHTYPES_MATCHTYPE, arrayOf(Matchtypes.MATCHTYPES.MATCHTYPE), true)
 val EXTRAMATCHDETAILS_IBFK_1: ForeignKey<ExtramatchdetailsRecord, TeamsRecord> = Internal.createForeignKey(Extramatchdetails.EXTRAMATCHDETAILS, DSL.name("extramatchdetails_ibfk_1"), arrayOf(Extramatchdetails.EXTRAMATCHDETAILS.TEAMID), com.knowledgespike.db.keys.KEY_TEAMS_PRIMARY, arrayOf(Teams.TEAMS.ID), true)
 val EXTRAMATCHDETAILS_IBFK_2: ForeignKey<ExtramatchdetailsRecord, TeamsRecord> = Internal.createForeignKey(Extramatchdetails.EXTRAMATCHDETAILS, DSL.name("extramatchdetails_ibfk_2"), arrayOf(Extramatchdetails.EXTRAMATCHDETAILS.OPPONENTSID), com.knowledgespike.db.keys.KEY_TEAMS_PRIMARY, arrayOf(Teams.TEAMS.ID), true)
 val EXTRAMATCHDETAILS_IBFK_3: ForeignKey<ExtramatchdetailsRecord, MatchesRecord> = Internal.createForeignKey(Extramatchdetails.EXTRAMATCHDETAILS, DSL.name("extramatchdetails_ibfk_3"), arrayOf(Extramatchdetails.EXTRAMATCHDETAILS.MATCHID), com.knowledgespike.db.keys.KEY_MATCHES_PRIMARY, arrayOf(Matches.MATCHES.ID), true)

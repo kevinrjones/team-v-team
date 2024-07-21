@@ -47,8 +47,7 @@ class ProcessTeams(
                     databaseConnection,
                     countryIds,
                     teamsAndOpponents,
-                    matchSubType,
-                    dialect
+                    matchSubType
                 )
             if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
                 val teamPairDetails =

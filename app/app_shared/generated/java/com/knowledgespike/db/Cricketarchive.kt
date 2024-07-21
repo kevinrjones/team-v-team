@@ -7,6 +7,7 @@ package com.knowledgespike.db
 import com.knowledgespike.db.tables.Battingdetails
 import com.knowledgespike.db.tables.Bowlingdetails
 import com.knowledgespike.db.tables.Closeofplay
+import com.knowledgespike.db.tables.Competitions
 import com.knowledgespike.db.tables.Countries
 import com.knowledgespike.db.tables.Countrycodes
 import com.knowledgespike.db.tables.Extramatchdetails
@@ -20,6 +21,7 @@ import com.knowledgespike.db.tables.Matches
 import com.knowledgespike.db.tables.Matchreferees
 import com.knowledgespike.db.tables.Matchrefereesmatches
 import com.knowledgespike.db.tables.Matchsubtype
+import com.knowledgespike.db.tables.Matchtypes
 import com.knowledgespike.db.tables.Notes
 import com.knowledgespike.db.tables.Partnerships
 import com.knowledgespike.db.tables.Partnershipsplayers
@@ -72,6 +74,11 @@ open class Cricketarchive : SchemaImpl("cricketarchive", DefaultCatalog.DEFAULT_
      * The table <code>cricketarchive.CloseOfPlay</code>.
      */
     val CLOSEOFPLAY: Closeofplay get() = Closeofplay.CLOSEOFPLAY
+
+    /**
+     * The table <code>cricketarchive.Competitions</code>.
+     */
+    val COMPETITIONS: Competitions get() = Competitions.COMPETITIONS
 
     /**
      * The table <code>cricketarchive.Countries</code>.
@@ -137,6 +144,11 @@ open class Cricketarchive : SchemaImpl("cricketarchive", DefaultCatalog.DEFAULT_
      * The table <code>cricketarchive.MatchSubType</code>.
      */
     val MATCHSUBTYPE: Matchsubtype get() = Matchsubtype.MATCHSUBTYPE
+
+    /**
+     * The table <code>cricketarchive.MatchTypes</code>.
+     */
+    val MATCHTYPES: Matchtypes get() = Matchtypes.MATCHTYPES
 
     /**
      * The table <code>cricketarchive.Notes</code>.
@@ -229,6 +241,7 @@ open class Cricketarchive : SchemaImpl("cricketarchive", DefaultCatalog.DEFAULT_
         Battingdetails.BATTINGDETAILS,
         Bowlingdetails.BOWLINGDETAILS,
         Closeofplay.CLOSEOFPLAY,
+        Competitions.COMPETITIONS,
         Countries.COUNTRIES,
         Countrycodes.COUNTRYCODES,
         Extramatchdetails.EXTRAMATCHDETAILS,
@@ -242,6 +255,7 @@ open class Cricketarchive : SchemaImpl("cricketarchive", DefaultCatalog.DEFAULT_
         Matchreferees.MATCHREFEREES,
         Matchrefereesmatches.MATCHREFEREESMATCHES,
         Matchsubtype.MATCHSUBTYPE,
+        Matchtypes.MATCHTYPES,
         Notes.NOTES,
         Partnerships.PARTNERSHIPS,
         Partnershipsplayers.PARTNERSHIPSPLAYERS,
