@@ -16,14 +16,3 @@ buildscript {
 }
 
 apply(plugin = "org.gradle.toolchains.foojay-resolver-convention")
-
-//toolchainManagement {
-//    jvm {
-//        javaRepositories {
-//            repository("foojay") {
-//                resolverClass.set(org.gradle.toolchains.foojay.FoojayToolchainResolver::class.java)
-//            }
-//        }
-//    }
-//}
-

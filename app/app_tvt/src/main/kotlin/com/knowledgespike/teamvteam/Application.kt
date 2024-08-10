@@ -1,6 +1,6 @@
 package com.knowledgespike.teamvteam
 
-import com.knowledgespike.extensions.generateFileName
+import com.knowledgespike.extensions.generateTvTFileName
 import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.data.createTeamPairHomePagesData
 import com.knowledgespike.shared.data.getHomePageJsonData
@@ -42,7 +42,7 @@ class Application {
                     formatter.printHelp(
                         200,
                         "java com.knowledgespike.teamvteam.ApplicationKt",
-                        "Run the team vs team code",
+                        "Run the team v team code",
                         options,
                         "",
                         true
@@ -60,7 +60,7 @@ class Application {
                     formatter.printHelp(
                         200,
                         "java com.knowledgespike.teamvteam.ApplicationKt",
-                        "Run the team vs team code",
+                        "Run the team v team code",
                         options,
                         "",
                         true
@@ -113,7 +113,7 @@ class Application {
             baseDirectory: String,
             htmlOutputDirectory: String,
             jsonOutputDirectory: String,
-            databaseConnection: DatabaseConnection
+            databaseConnection: DatabaseConnection,
         ) {
 
             val dataDirectory = "$baseDirectory/shared/data"
@@ -183,6 +183,7 @@ class Application {
                                 competition.title,
                                 competition.subType,
                                 teamPairDetails.matchDto,
+                                competition.gender,
                                 teamPairDetails.authors,
                                 teamPairDetails.highestScores,
                                 teamPairDetails.highestIndividualScore,
@@ -211,9 +212,9 @@ class Application {
                             )
 
 
-                            val fileName = teamPairDetails.generateFileName(matchSubType)
+                            val fileName = teamPairDetails.generateTvTFileName(matchSubType)
 
-                            writeJsonMatchData(jsonDirectory, fileName, teamPairDetailsData)
+                            writeTvTJsonMatchData(jsonDirectory, fileName, teamPairDetailsData)
                         }
 
 
@@ -222,6 +223,7 @@ class Application {
                         val teamNamesForIndexPage = createTeamPairHomePagesData(
                             matchSubType,
                             competition.title,
+                            competition.gender,
                             pairsForPage,
                             jsonDirectory
                         )
@@ -231,6 +233,7 @@ class Application {
                                 teamNamesForIndexPage,
                                 matchSubType,
                                 competition.gender,
+                                competition.country,
                                 competition.title,
                                 competition.extraMessages,
                                 jsonDirectory
@@ -265,9 +268,10 @@ class Application {
             teamNames: List<String>,
             matchSubType: String,
             gender: String,
+            country: String?,
             title: String,
             extraMessages: List<String>,
-            jsonDirectory: String
+            jsonDirectory: String,
         ) {
             if (teamNames.isNotEmpty()) {
                 val fileName =
@@ -279,7 +283,7 @@ class Application {
 
                 writeJsonTeamPairPageIndexData(
                     fileName,
-                    CompetitionIndexPage(teamNames, matchSubType, gender, title, extraMessages)
+                    CompetitionIndexPage(teamNames, matchSubType, gender, country, title, extraMessages)
                 )
             }
         }
@@ -288,7 +292,7 @@ class Application {
         private fun generateHtmlFromJson(
             jsonDirectoryBaseName: String,
             jsonDirectoryName: String,
-            htmlOutputDirectoryName: String
+            htmlOutputDirectoryName: String,
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
@@ -390,7 +394,7 @@ class Application {
         private fun generateHtmlTeamPairHomePagesForAllCompetitions(
             jsonDirectoryBaseName: String,
             jsonDirectoryName: String,
-            htmlOutputDirectoryName: String
+            htmlOutputDirectoryName: String,
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 

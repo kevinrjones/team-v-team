@@ -16,6 +16,7 @@ data class ProgressiveData(
     val competitionTitle: String,
     val competitionSubType: String,
     val matchDto: MatchDto,
+    val gender: String,
     val authors: List<String>,
 
     val highestScores: List<List<TotalDto>>,

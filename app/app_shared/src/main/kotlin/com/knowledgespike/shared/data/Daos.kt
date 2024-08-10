@@ -5,8 +5,14 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Competition(
-    val title: String, val gender: String, val countries: List<String> = emptyList(), val outputDirectory: String,
-    val teams: List<Team>, val subType: String, val extraMessages: List<String>
+    val title: String,
+    val gender: String,
+    val country: String? = null,
+    val countries: List<String> = emptyList(),
+    val outputDirectory: String,
+    val teams: List<Team>,
+    val subType: String,
+    val extraMessages: List<String>
 )
 
 interface TeamBase {
@@ -89,7 +95,8 @@ data class TeamPairHomePagesJson(
     val mainTeamName: String,
     val teamNames: List<Pair<String, String>>,
     val matchDesignator: String,
-    val matchType: String
+    val matchType: String,
+    val gender: String,
 )
 
 @Serializable
@@ -97,6 +104,7 @@ data class CompetitionIndexPage(
     val teamNames: List<String>,
     val matchSubType: String,
     val gender: String,
+    val country: String? = null,
     val title: String,
     val extraMessages: List<String>
 )

@@ -2048,7 +2048,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
                 if (possibleBestpartnership >= partnership) {
                     log.info(
-                        "Have a possible match for multiple wicket record ${teamParams.team} vs ${teamParams.opponents} for the ${
+                        "Have a possible match for multiple wicket record ${teamParams.team} v ${teamParams.opponents} for the ${
                             getWicket(
                                 wicket
                             )

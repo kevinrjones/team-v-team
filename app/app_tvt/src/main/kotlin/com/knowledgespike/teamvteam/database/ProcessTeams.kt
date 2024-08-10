@@ -1,6 +1,6 @@
 package com.knowledgespike.teamvteam.database
 
-import com.knowledgespike.extensions.generateFileName
+import com.knowledgespike.extensions.generateTvTFileName
 import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.database.DatabaseConnection
 import com.knowledgespike.shared.database.checkIfShouldProcess
@@ -56,7 +56,7 @@ class ProcessTeams(
                         matchDto
                     )
 
-                val fileName = teamPairDetails.generateFileName(matchSubType)
+                val fileName = teamPairDetails.generateTvTFileName(matchSubType)
 
                 val lastUpdatedDate = getLastUpdatedDate(jsonDirectory, fileName)
 

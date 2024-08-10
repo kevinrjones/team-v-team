@@ -5,26 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/Footers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/Html.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/Footers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/Html.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/ProcessTeams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/ProcessTeams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/Cricketarchive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/Cricketarchive.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/indexes/Indexes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/indexes/Indexes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/keys/Keys.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/keys/Keys.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Bowlingdetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Bowlingdetails.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Matches.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Matches.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/BowlingdetailsRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/BowlingdetailsRecord.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/MatchesRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/MatchesRecord.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/references/Tables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/references/Tables.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/GenerateHtml.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/GenerateHtml.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/json/OutputJson.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/json/OutputJson.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Daos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Daos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/JsonHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/JsonHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/html/Footers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/html/Footers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/html/Html.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/html/Html.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/extensions/TeamPairDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/extensions/TeamPairDetails.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamRecords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamRecords.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/json/OutputJson.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/json/OutputJson.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/aus_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/aus_domestic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/cu_v_ou.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/cu_v_ou.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/gent_v_players.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/gent_v_players.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/hun.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/hun.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/international_one_day.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/international_one_day.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../shared/data/international_t20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/international_t20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data/minor_counties.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/minor_counties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/ireland_v_scotland.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/ireland_v_scotland.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/mcc_v_counties.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/mcc_v_counties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/mcc_v_countiesex.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/mcc_v_countiesex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/southland_v_otago.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/southland_v_otago.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../shared/data/touring_teams_aus.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/touring_teams_aus.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/touring_teams_eng.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/touring_teams_eng.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/touring_teams_sa.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/touring_teams_sa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/touring_teams_sco.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/touring_teams_sco.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/touring_teams_wi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/touring_teams_wi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/wbbl.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/wbbl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/wi_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/wi_domestic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/aus_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/aus_domestic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/cu_v_ou.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/cu_v_ou.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/gent_v_players.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/gent_v_players.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/international_t20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/international_t20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/ipl.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/ipl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/ireland_v_scotland.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/ireland_v_scotland.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/mcc_v_counties.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/mcc_v_counties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/mcc_v_countiesex.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/mcc_v_countiesex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/minor_counties.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/minor_counties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/southland_v_otago.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/southland_v_otago.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/touring_teams_aus.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/touring_teams_aus.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/touring_teams_eng.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/touring_teams_eng.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/touring_teams_sa.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/touring_teams_sa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/touring_teams_sco.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/touring_teams_sco.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/touring_teams_wi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/touring_teams_wi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_full/wi_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/wi_domestic.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +90,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Produce Stats" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Produce Stats" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Produce Stats" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -112,9 +159,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kevinjones/Dropbox/projects/cricket/team-by-team/app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kevinjones/Dropbox/projects/cricket/team-by-team/app/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -134,6 +182,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/knowledgespike/logging" />
     </key>
@@ -153,7 +202,7 @@
       <command value="gradle app_shared:buildEnvironment" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.app:app_tvt [run]">
+  <component name="RunManager" selected="Gradle.app:app_progressive [run]">
     <configuration name="app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -323,8 +372,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18968.26" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18968.26" />
       </set>
     </attachedChunks>
   </component>
@@ -621,7 +670,20 @@
       <workItem from="1719474730776" duration="9253000" />
       <workItem from="1719996663764" duration="5597000" />
       <workItem from="1720071605166" duration="5575000" />
-      <workItem from="1721290655167" duration="12015000" />
+      <workItem from="1721290655167" duration="13807000" />
+      <workItem from="1721552376196" duration="57000" />
+      <workItem from="1721552447686" duration="597000" />
+      <workItem from="1721628575124" duration="100000" />
+      <workItem from="1721628678125" duration="71000" />
+      <workItem from="1721628756084" duration="1343000" />
+      <workItem from="1722517336852" duration="4743000" />
+      <workItem from="1722665823835" duration="1861000" />
+      <workItem from="1722727099874" duration="3312000" />
+      <workItem from="1722756569793" duration="4327000" />
+      <workItem from="1722764764492" duration="612000" />
+      <workItem from="1722768136917" duration="43000" />
+      <workItem from="1722768270756" duration="13001000" />
+      <workItem from="1723017436115" duration="25672000" />
     </task>
     <servers />
   </component>
@@ -642,14 +704,29 @@
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt</url>
-          <line>1762</line>
-          <option name="timeStamp" value="87" />
+          <url>file://$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt</url>
+          <line>133</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamPairDetails.kt</url>
+          <line>54</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamPairDetails.kt</url>
+          <line>173</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt</url>
-          <line>296</line>
-          <option name="timeStamp" value="88" />
+          <line>23</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt</url>
+          <line>115</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

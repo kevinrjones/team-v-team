@@ -43,7 +43,7 @@ class Application {
                     formatter.printHelp(
                         200,
                         "java com.knowledgespike.teamvteam.ApplicationKt",
-                        "Run the team vs team code",
+                        "Run the team v team code",
                         options,
                         "",
                         true
@@ -61,7 +61,7 @@ class Application {
                     formatter.printHelp(
                         200,
                         "java com.knowledgespike.teamvteam.ApplicationKt",
-                        "Run the team vs team code",
+                        "Run the team v team code",
                         options,
                         "",
                         true
@@ -115,7 +115,7 @@ class Application {
             baseDirectory: String,
             htmlOutputDirectory: String,
             jsonOutputDirectory: String,
-            databaseConnection: DatabaseConnection
+            databaseConnection: DatabaseConnection,
         ) {
 
             val dataDirectory = "$baseDirectory/shared/data"
@@ -185,6 +185,7 @@ class Application {
                                 competition.title,
                                 competition.subType,
                                 teamPairDetails.matchDto,
+                                competition.gender,
                                 teamPairDetails.authors,
                                 teamPairDetails.highestScores,
                                 teamPairDetails.lowestAllOutScores,
@@ -201,7 +202,7 @@ class Application {
 
                         }
 
-                        if(shouldUpdateAll) {
+                        if (shouldUpdateAll) {
 
                             shouldUpdateAll = false
 
@@ -219,6 +220,7 @@ class Application {
                                     competition.title,
                                     competition.subType,
                                     teamdAndIds.matchDto,
+                                    competition.gender,
                                     teamdAndIds.authors,
                                     teamdAndIds.highestScores,
                                     teamdAndIds.lowestAllOutScores,
@@ -241,6 +243,7 @@ class Application {
                         val teamNamesForIndexPage = createTeamPairHomePagesData(
                             matchSubType,
                             competition.title,
+                            competition.gender,
                             pairsForPage,
                             jsonDirectory
                         )
@@ -250,6 +253,7 @@ class Application {
                                 teamNamesForIndexPage,
                                 matchSubType,
                                 competition.gender,
+                                competition.country,
                                 competition.title,
                                 competition.extraMessages,
                                 jsonDirectory
@@ -324,7 +328,8 @@ class Application {
                             details.teamNames.sorted(),
                             details.matchSubType,
                             details.gender,
-                            details.title,
+                            country = details.country,
+                            matchDesignator = details.title,
                             details.extraMessages,
                             htmlFullName
                         )
@@ -336,7 +341,7 @@ class Application {
         private fun generateHtmlTeamPairHomePagesForAllCompetitions(
             jsonDirectoryBaseName: String,
             jsonDirectoryName: String,
-            htmlOutputDirectoryName: String
+            htmlOutputDirectoryName: String,
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
@@ -384,7 +389,7 @@ class Application {
         private fun generateHtmlFromJson(
             jsonDirectoryBaseName: String,
             jsonDirectoryName: String,
-            htmlOutputDirectoryName: String
+            htmlOutputDirectoryName: String,
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 

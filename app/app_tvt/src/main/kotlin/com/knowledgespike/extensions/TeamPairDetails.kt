@@ -2,7 +2,7 @@ package com.knowledgespike.extensions
 
 import com.knowledgespike.teamvteam.database.TeamPairDetails
 
-fun TeamPairDetails.generateFileName(
+fun TeamPairDetails.generateTvTFileName(
     matchSubType: String
 ): String {
     val fileName = "${this.teams[0].replace(" ", "_")}_v_${

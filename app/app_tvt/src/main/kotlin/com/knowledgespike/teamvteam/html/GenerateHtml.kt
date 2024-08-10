@@ -24,7 +24,7 @@ class GenerateHtml {
 
     fun generateTeamVsTeamRecordsPage(
         teamPairDetails: TeamPairDetailsData,
-        file: File
+        file: File,
     ) {
 
         file.parentFile.mkdirs()
@@ -40,7 +40,7 @@ class GenerateHtml {
 
     fun createTeamPairHomePages(
         teamPairHomePages: TeamPairHomePagesJson,
-        file: File
+        file: File,
     ) {
 
         try {
@@ -57,7 +57,9 @@ class GenerateHtml {
                 // create entries for each pair
                 fileWriter.appendHTML().div {
                     h3 {
-                        +"${teamName}'s ${teamPairHomePages.matchDesignator} Records"
+                        val headerPart =
+                            generateHeaderPart(teamName, teamPairHomePages.gender, teamPairHomePages.matchDesignator)
+                        +"${headerPart} Records"
                     }
                     ul {
                         teamPairHomePages.teamNames.forEach { name ->
@@ -87,13 +89,35 @@ class GenerateHtml {
         }
     }
 
+    fun DIV.generateTeamVsTeamFooter() {
+        /*
+        <p align="center">Up to <a href="auk_fc.html">Auckland index page</a> or <a href="can_fc.html">Canterbury index page</a><br>
+        or
+        <a href="nz_fc.html">New Zealand index page</a>
+        or <a href="index.html">Country index page</a>
+        or <a href="../index.html">Records and Statistics</a></p><!--#include virtual="/includes/footer.html" -->
+
+         */
+        p("", "align", "center") {
+            +"Up to "
+            a(href = "index.html") {
+                +"Team index page"
+            }
+            +" or "
+            a(href = "../index.html") {
+                +"Records and Statistics"
+            }
+
+        }
+    }
+
     fun generateIndexPageForTeamsAndType(
         teamNames: List<String>,
         matchType: String,
         gender: String,
         matchDesignator: String,
         extraMessages: List<String>,
-        fileName: String
+        fileName: String,
     ) {
 
 
@@ -139,7 +163,7 @@ class GenerateHtml {
 // PipedWriter, PrintStream, PrintWriter, StringBuffer, StringBuilder, StringWriter, Writer
     private fun generateTeamVTeamHtml(
         teamPairDetails: TeamPairDetailsData,
-        outputStream: Appendable
+        outputStream: Appendable,
     ) {
 
         outputStream.append(virtualHeader)
@@ -178,13 +202,26 @@ class GenerateHtml {
 
         outputStream.appendHTML().div {
             h3 {
-                +"${teamPairDetails.team1} v ${teamPairDetails.team2} ${teamPairDetails.competitionTitle} Records"
+                +buildTeamvTeamTitle(
+                    teamPairDetails.team1,
+                    teamPairDetails.team2,
+                    teamPairDetails.gender,
+                    teamPairDetails.competitionTitle
+                )
+
             }
             generateHtml(teamPairDetails, teamPairDetails.competitionSubType)
         }
 
         outputStream.append(virtualFooter)
         outputStream.append("\r\n")
+    }
+
+    private fun buildTeamvTeamTitle(team1: String, team2: String, gender: String, competitionTitle: String): String {
+        if (gender.isNotEmpty())
+            return "${team1} v ${team2} ${gender} ${competitionTitle} Records"
+        else
+            return "${team1} v ${team2} ${competitionTitle} Records"
     }
 
     private fun DIV.generateHtml(teamPairDetails: TeamPairDetailsData, matchType: String) {
@@ -204,7 +241,7 @@ class GenerateHtml {
                         .format(teamPairDetails.matchDto.startDate.toJavaLocalDateTime())
                 }
                 td {
-                    +"to: "
+                    +"To: "
                     +DateTimeFormatter.ofPattern("dd MMMM yyyy")
                         .format(teamPairDetails.matchDto.endDate.toJavaLocalDateTime())
                 }
@@ -310,7 +347,7 @@ class GenerateHtml {
                     h4 { +teamPairDetails.team2 }
                 generateSingleMatchDataTable(teamPairDetails, matchType, index)
                 generateFowHtml(teamPairDetails.bestFoW[index]) { wicket, teamA, teamB ->
-                    log.warn("MatchType: ${matchType}: FOW: wicket $wicket for $teamA vs $teamB has unknown players")
+                    log.warn("MatchType: ${matchType}: FOW: wicket $wicket for $teamA v $teamB has unknown players")
                 }
                 generateOverallDataTable(teamPairDetails, index)
             }
@@ -338,7 +375,7 @@ class GenerateHtml {
 
     private fun DIV.generateOverallMostRuns(
         teamPairDetails: TeamPairDetailsData,
-        index: Int
+        index: Int,
     ) {
         table {
             thead {
@@ -402,7 +439,7 @@ class GenerateHtml {
 
     private fun DIV.generateOverallMostWickets(
         teamPairDetails: TeamPairDetailsData,
-        index: Int
+        index: Int,
     ) {
         table {
             thead {
@@ -469,7 +506,7 @@ class GenerateHtml {
 
     private fun DIV.generateOverallMostCatches(
         mostDismissals: List<MostDismissalsDto>,
-        title: String
+        title: String,
     ) {
         table {
             thead {
@@ -519,7 +556,7 @@ class GenerateHtml {
     private fun DIV.generateSingleMatchDataTable(
         teamPairDetails: TeamPairDetailsData,
         matchType: String,
-        index: Int
+        index: Int,
     ) {
         table {
             generateHighestScoreRow(teamPairDetails.highestScores[index])
@@ -606,7 +643,7 @@ class GenerateHtml {
         strikeRateUpperBallsLimit: Int,
         highestIndividualBoundaries: List<BoundariesDto>,
         highestIndividualSixes: List<BoundariesDto>,
-        highestIndividualFours: List<BoundariesDto>
+        highestIndividualFours: List<BoundariesDto>,
     ) {
         table.generateMostRunsInInningsRow(highestIndividualScores)
         if (highestIndividualStrikeRates.isNotEmpty()) {
@@ -724,7 +761,7 @@ class GenerateHtml {
 
     private fun TABLE.generateBestBowlingSRInInningsRow(
         title: String,
-        bestBowlingSRInnings: List<BowlingRatesDto>
+        bestBowlingSRInnings: List<BowlingRatesDto>,
     ) {
         if (bestBowlingSRInnings.size == 0) {
             tr {
@@ -768,7 +805,7 @@ class GenerateHtml {
 
     private fun TABLE.generateBestBowlingEconRateInInningsRow(
         title: String,
-        bestBowlingERInnings: List<BowlingRatesDto>
+        bestBowlingERInnings: List<BowlingRatesDto>,
     ) {
         if (bestBowlingERInnings.size == 0) {
             tr {
@@ -892,7 +929,7 @@ class GenerateHtml {
 
     private fun TABLE.generateHighestBoundariesRow(
         title: String,
-        boundaries: List<BoundariesDto>
+        boundaries: List<BoundariesDto>,
     ) {
         if (boundaries.isEmpty() || boundaries[0].boundaries == 0) {
             tr {

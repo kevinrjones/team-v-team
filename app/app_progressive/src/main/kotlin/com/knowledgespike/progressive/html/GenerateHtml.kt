@@ -22,7 +22,7 @@ class GenerateHtml {
     fun generateProgressiveRecordsPage(
         teamPairDetails: ProgressiveData,
         file: File,
-        generateRecordsForAllOpponents: Boolean = false
+        generateRecordsForAllOpponents: Boolean = false,
     ) {
 
         file.parentFile.mkdirs()
@@ -38,7 +38,7 @@ class GenerateHtml {
 
     fun createProgressiveTeamPairHomePages(
         teamPairHomePages: TeamPairHomePagesJson,
-        file: File
+        file: File,
     ) {
 
         try {
@@ -55,14 +55,15 @@ class GenerateHtml {
                 // create entries for each pair
                 fileWriter.appendHTML().div {
                     h3 {
-                        +"${teamName}'s ${teamPairHomePages.matchDesignator} Records"
+                        val headerPart = generateHeaderPart(teamName, teamPairHomePages.gender, teamPairHomePages.matchDesignator)
+                        +"${headerPart} Progressive Records"
                     }
                     ul {
                         li {
                             a(
                                 href = "${teamName.replace(" ", "_")}_v_all_${teamPairHomePages.matchType}.html"
                             ) {
-                                +"${teamName.replace(" ", "_")}v All Teams"
+                                +"${teamName} v All Teams"
                             }
                         }
                         teamPairHomePages.teamNames.forEach { name ->
@@ -92,9 +93,10 @@ class GenerateHtml {
         teamNames: List<String>,
         matchType: String,
         gender: String,
+        country: String?,
         matchDesignator: String,
         extraMessages: List<String>,
-        fileName: String
+        fileName: String,
     ) {
 
 
@@ -108,7 +110,7 @@ class GenerateHtml {
             fileWriter.append("\r\n")
             fileWriter.appendHTML().div {
                 h3 {
-                    +"$matchDesignator Records Between $gender Teams"
+                    +buildHeader(matchDesignator, gender, country)
                 }
                 ul {
                     teamNames.forEach {
@@ -134,10 +136,52 @@ class GenerateHtml {
         }
     }
 
+    private fun DIV.generateBetweenTeamsFooter() {
+        p("", "align", "center") {
+            +"Up to "
+            a(href = "../index.html") { +"Countries" }
+            +" or "
+            a(href = "../../index.html") {
+                +"Records and Statistics"
+            }
+
+        }
+    }
+
+    fun DIV.generateTeamVsTeamFooter() {
+        /*
+        <p align="center">Up to <a href="auk_fc.html">Auckland index page</a> or <a href="can_fc.html">Canterbury index page</a><br>
+        or
+        <a href="nz_fc.html">New Zealand index page</a>
+        or <a href="index.html">Country index page</a>
+        or <a href="../index.html">Records and Statistics</a></p><!--#include virtual="/includes/footer.html" -->
+
+         */
+        p("", "align", "center") {
+            +"Up to "
+            a(href = "index.html") {
+                +"Team index page"
+            }
+            +" or "
+            a(href = "../../index.html") {
+                +"Records and Statistics"
+            }
+
+        }
+    }
+
+    private fun buildHeader(matchDesignator: String, gender: String, country: String?): String {
+        return if (country != null) {
+            "$matchDesignator Progressive Records Between $country $gender Teams"
+        } else {
+            "$matchDesignator Progressive Records Between $gender Teams"
+        }
+    }
+
     private fun generateTeamVTeamHtml(
         teamPairDetails: ProgressiveData,
         outputStream: Appendable,
-        generateRecordsForAllOpponents: Boolean = false
+        generateRecordsForAllOpponents: Boolean = false,
     ) {
 
         outputStream.append(virtualHeader)
@@ -257,17 +301,32 @@ class GenerateHtml {
 
         outputStream.appendHTML().div {
             h3 {
-                +"${teamPairDetails.team1} v ${teamPairDetails.team2} ${teamPairDetails.competitionTitle} Progressive Records"
+                val name = if (generateRecordsForAllOpponents) {
+                    "${teamPairDetails.team2} Teams"
+                } else {
+                    teamPairDetails.team2
+                }
+                +buildTeamvTeamTitle(teamPairDetails.team1, name, teamPairDetails.gender, teamPairDetails.competitionTitle)
             }
             generateHtml(teamPairDetails.competitionSubType, teamPairDetails, generateRecordsForAllOpponents)
         }
 
+        outputStream.append(virtualFooter)
+        outputStream.append("\r\n")
+
+    }
+
+    private fun buildTeamvTeamTitle(team1: String, team2: String, gender: String, competitionTitle: String): String {
+        if (gender.isNotEmpty())
+            return "${team1} v ${team2} ${gender} ${competitionTitle} Progressive Records"
+        else
+            return "${team1} v ${team2} ${competitionTitle} Progressive Records"
     }
 
     private fun DIV.generateHtml(
         matchType: String,
         teamPairDetails: ProgressiveData,
-        generateRecordsForAllOpponents: Boolean = false
+        generateRecordsForAllOpponents: Boolean = false,
     ) {
 
 
@@ -285,7 +344,7 @@ class GenerateHtml {
                         .format(teamPairDetails.matchDto.startDate.toJavaLocalDateTime())
                 }
                 td {
-                    +"to: "
+                    +"To: "
                     +DateTimeFormatter.ofPattern("dd MMMM yyyy")
                         .format(teamPairDetails.matchDto.endDate.toJavaLocalDateTime())
                 }
@@ -307,7 +366,8 @@ class GenerateHtml {
             }
             tr {
                 td {
-                    +"${teamPairDetails.team2} won "
+                    val name = if (teamPairDetails.team2.lowercase() == "all") "Opponents" else teamPairDetails.team2
+                    +"${name} won "
                 }
                 td {
                     +"${teamPairDetails.matchDto.firstTeamLosses}"
@@ -382,21 +442,23 @@ class GenerateHtml {
 
         if (teamPairDetails.matchDto.count > 0) {
             for (index in 0..1) {
-                if (index == 0)
+                if (index == 0) {
                     h4 { +teamPairDetails.team1 }
-                else
+                } else {
                     h4 {
                         if (teamPairDetails.team2.lowercase() == "all")
                             +"Opponents"
                         else
                             +teamPairDetails.team2
                     }
+                }
                 generateSingleMatchDataTables(matchType, teamPairDetails, index, generateRecordsForAllOpponents)
                 generateFowHtml(
                     teamPairDetails.bestFoW[index],
+                    index == 0,
                     generateRecordsForAllOpponents
                 ) { wicket, teamA, teamB ->
-                    log.warn("MatchType: ${matchType}: FOW: wicket $wicket for $teamA vs $teamB has unknown players")
+                    log.warn("MatchType: ${matchType}: FOW: wicket $wicket for $teamA v $teamB has unknown players")
                 }
             }
         }
@@ -406,8 +468,9 @@ class GenerateHtml {
 
     private fun DIV.generateFowHtml(
         fows: Map<Int, FowDetails>,
-        generateRecordsForAllOpponents: Boolean = false,
-        report: (Int, String, String) -> Unit
+        isFirstTeam: Boolean = false,
+        generateRecordsForAllOpponents: Boolean,
+        report: (Int, String, String) -> Unit,
     ) {
         table(classes = "fowtable") {
 
@@ -461,7 +524,11 @@ class GenerateHtml {
                             }
                             td {
                                 if (generateRecordsForAllOpponents) {
-                                    +"vs ${fow.opponents}"
+                                    if (isFirstTeam) {
+                                        +"v ${fow.opponents}"
+                                    } else {
+                                        +fow.opponents
+                                    }
                                 }
                             }
                             td(null) {
@@ -533,12 +600,13 @@ class GenerateHtml {
         matchType: String,
         teamPairDetails: ProgressiveData,
         index: Int,
-        generateRecordsForAllOpponents: Boolean = false
+        generateRecordsForAllOpponents: Boolean,
     ) {
         table(classes = "teamTotalsTable") {
             generateTeamScoreRows(
                 teamPairDetails.highestScores[index],
                 "Highest Team Total",
+                isFirstTeam = index == 0,
                 generateRecordsForAllOpponents
             )
         }
@@ -546,12 +614,14 @@ class GenerateHtml {
             generateTeamScoreRows(
                 teamPairDetails.lowestAllOutScores[index],
                 "Lowest All-out Team Total",
+                isFirstTeam = index == 0,
                 generateRecordsForAllOpponents
             )
         }
         table(classes = "mostRunsInningsTable") {
             generateMostRunsInInningsRows(
                 teamPairDetails.highestIndividualScores[index],
+                isFirstTeam = index == 0,
                 generateRecordsForAllOpponents
             )
         }
@@ -559,6 +629,7 @@ class GenerateHtml {
             generateBestBowlingRows(
                 teamPairDetails.bestBowlingInnings[index],
                 "Best Bowling in innings (min:3 wickets)",
+                isFirstTeam = index == 0,
                 generateRecordsForAllOpponents
             )
         }
@@ -568,6 +639,7 @@ class GenerateHtml {
                 generateBestBowlingRows(
                     teamPairDetails.bestBowlingMatch[index],
                     "Best Bowling in match",
+                    isFirstTeam = index == 0,
                     generateRecordsForAllOpponents
                 )
             }
@@ -578,13 +650,19 @@ class GenerateHtml {
     private fun TABLE.generateTeamScoreRows(
         totals: List<TotalDto>,
         title: String,
-        generateRecordsForAllOpponents: Boolean = false
+        isFirstTeam: Boolean = true,
+        generateRecordsForAllOpponents: Boolean = false,
     ) {
         if (totals.isEmpty()) {
             generateEmptyTotalRow(title)
         } else {
             totals.forEachIndexed { ndx, total ->
-                generateTotalsRow(ndx, total, generateRecordsForAllOpponents) {
+                generateTotalsRow(
+                    ndx,
+                    total,
+                    isFirstTeam = isFirstTeam,
+                    generateRecordsForAllOpponents = generateRecordsForAllOpponents
+                ) {
                     +title
                 }
             }
@@ -593,7 +671,8 @@ class GenerateHtml {
 
     private fun TABLE.generateMostRunsInInningsRows(
         highestScore: List<HighestScoreDto>,
-        generateRecordsForAllOpponents: Boolean = false
+        isFirstTeam: Boolean,
+        generateRecordsForAllOpponents: Boolean = false,
     ) {
         if (highestScore.isEmpty()) {
             tr {
@@ -626,7 +705,11 @@ class GenerateHtml {
                     }
                     td {
                         if (generateRecordsForAllOpponents) {
-                            +"vs ${score.opponents}"
+                            if (isFirstTeam) {
+                                +"v ${score.opponents}"
+                            } else {
+                                +score.opponents
+                            }
                         }
                     }
                     td {
@@ -643,7 +726,8 @@ class GenerateHtml {
     private fun TABLE.generateBestBowlingRows(
         bestBowlingInnings: List<BestBowlingDto>,
         title: String,
-        generateRecordsForAllOpponents: Boolean = false
+        isFirstTeam: Boolean = false,
+        generateRecordsForAllOpponents: Boolean = false,
     ) {
         if (bestBowlingInnings.isEmpty()) {
             tr {
@@ -679,7 +763,12 @@ class GenerateHtml {
                     }
                     td {
                         if (generateRecordsForAllOpponents) {
-                            +"vs ${bb.opponents}"
+                            if (isFirstTeam) {
+                                +"v ${bb.opponents}"
+                            } else {
+                                +bb.opponents
+
+                            }
                         }
                     }
                     td(null) {

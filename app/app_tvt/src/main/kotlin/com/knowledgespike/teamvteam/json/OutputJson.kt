@@ -9,7 +9,7 @@ import kotlinx.serialization.json.Json
 import java.io.File
 import kotlin.io.path.Path
 
-fun writeJsonMatchData(baseDirectory: String, fileName: String, data: TeamPairDetailsData) {
+fun writeTvTJsonMatchData(baseDirectory: String, fileName: String, data: TeamPairDetailsData) {
     val fqnName = "$baseDirectory/$fileName"
 
     val format = Json {
@@ -54,6 +54,7 @@ data class TeamPairDetailsData(
     val competitionTitle: String,
     val competitionSubType: String,
     val matchDto: MatchDto,
+    val gender: String,
     val authors: List<String>,
 
     val highestScores: List<List<TotalDto>>,

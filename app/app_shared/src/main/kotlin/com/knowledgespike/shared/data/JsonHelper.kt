@@ -9,8 +9,9 @@ import kotlin.io.path.Path
 fun createTeamPairHomePagesData(
     matchSubType: String,
     title: String,
+    gender: String,
     newPairsForPage: Map<String, TeamPairHomePagesData>,
-    jsonDirectory: String
+    jsonDirectory: String,
 ): MutableList<String> {
     val teamNames = mutableListOf<String>()
     newPairsForPage.filter { it.value.shouldHaveOwnPage }.forEach { (teamName, teamPairHomePagesData) ->
@@ -21,7 +22,7 @@ fun createTeamPairHomePagesData(
         file.parentFile.mkdirs()
 
         val names = teamPairHomePagesData.teamPairDetails.map { it }
-        val teamPairHomePagesDataJson = TeamPairHomePagesJson(teamName, names, title, matchSubType)
+        val teamPairHomePagesDataJson = TeamPairHomePagesJson(teamName, names, title, matchSubType, gender)
 
         writeJsonTeamPairPageData(fileName, teamPairHomePagesDataJson)
         teamNames.add(teamName)
@@ -80,9 +81,10 @@ fun generateIndexPageData(
     teamNames: List<String>,
     matchSubType: String,
     gender: String,
+    country: String?,
     title: String,
     extraMessages: List<String>,
-    jsonDirectory: String
+    jsonDirectory: String,
 ) {
     if (teamNames.isNotEmpty()) {
         val fileName =
@@ -93,7 +95,7 @@ fun generateIndexPageData(
 
         writeJsonTeamPairPageIndexData(
             fileName,
-            CompetitionIndexPage(teamNames, matchSubType, gender, title, extraMessages)
+            CompetitionIndexPage(teamNames, matchSubType, gender, country,  title, extraMessages)
         )
     }
 }

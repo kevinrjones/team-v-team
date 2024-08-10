@@ -41,7 +41,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         INNINGS.matches.LOCATION,
                         INNINGS.matches.MATCHSTARTDATE,
                         INNINGS.matches.MATCHSTARTDATEASOFFSET,
-                        INNINGS.TEAMID
+                        INNINGS.OPPONENTSID
                     )
                         .from(INNINGS)
                         .join(MATCHES).on(INNINGS.MATCHID.eq(MATCHES.ID))
@@ -66,7 +66,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("wickets"),
                         field("declared"),
                         field("inningsorder"),
-                        field("TeamId"),
+                        field("OpponentsId"),
                         field("location"),
                         field("matchstartdate"),
                         field("matchstartdateasoffset"),
@@ -86,7 +86,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 field("matchstartdate", String::class.java),
                 field("matchstartdateasoffset", String::class.java),
             ).from("cte2")
-                .join(TEAMS).on(TEAMS.ID.eq(field("cte2.teamid", Int::class.java)))
+                .join(TEAMS).on(TEAMS.ID.eq(field("cte2.opponentsId", Int::class.java)))
                 .where(field("synth").ge(field("premax")))
                 .orderBy(
                     field("synth"),
