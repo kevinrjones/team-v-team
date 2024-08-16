@@ -31,6 +31,7 @@ class ProcessTeams(
         matchSubType: String,
         jsonDirectory: String,
         competitionTeams: List<String>,
+        overall: Boolean,
         callback: (teamPairDetails: TeamPairDetails, jsonDirectory: String) -> Unit
     ): Map<String, TeamPairHomePagesData> {
 
@@ -47,7 +48,8 @@ class ProcessTeams(
                     databaseConnection,
                     countryIds,
                     teamsAndOpponents,
-                    matchSubType
+                    matchSubType,
+                    overall
                 )
             if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
                 val teamPairDetails =

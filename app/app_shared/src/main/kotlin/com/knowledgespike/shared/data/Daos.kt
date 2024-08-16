@@ -7,12 +7,14 @@ import kotlinx.serialization.Serializable
 data class Competition(
     val title: String,
     val gender: String,
+    val countryForTitle: String? = null,
     val country: String? = null,
+    val overall: Boolean = false,
     val countries: List<String> = emptyList(),
     val outputDirectory: String,
     val teams: List<Team>,
     val subType: String,
-    val extraMessages: List<String>
+    val extraMessages: List<String>,
 )
 
 interface TeamBase {
@@ -21,14 +23,17 @@ interface TeamBase {
 }
 
 @Serializable
-data class Opponent(override val team: String, override val duplicates: List<String>) : TeamBase
+data class Opponent(
+    override val team: String,
+    override val duplicates: List<String> = emptyList(),
+) : TeamBase
 
 @Serializable
 data class Team(
     override val team: String,
     val authors: List<Author> = emptyList(),
     override val duplicates: List<String>,
-    val opponents: List<Opponent> = listOf()
+    val opponents: List<Opponent> = emptyList(),
 ) : TeamBase
 
 
@@ -44,7 +49,7 @@ data class TeamsAndOpponents(
 
 data class TeamAndIds(
     val teamName: String,
-    val teamIds: List<Int>
+    val teamIds: List<Int>,
 )
 
 data class TeamWithAuthors(val team: String, val author: List<Author>)
@@ -80,7 +85,7 @@ data class FoWDto(
     val player2Score: Int,
     val player2NotOut: Boolean,
     val player2Position: Int,
-    val possibleInvalid: Boolean = false
+    val possibleInvalid: Boolean = false,
 )
 
 @Serializable
@@ -104,9 +109,9 @@ data class CompetitionIndexPage(
     val teamNames: List<String>,
     val matchSubType: String,
     val gender: String,
-    val country: String? = null,
+    val countryForTitle: String? = null,
     val title: String,
-    val extraMessages: List<String>
+    val extraMessages: List<String>,
 )
 
 @Serializable
@@ -117,7 +122,7 @@ data class TotalDto(
     val wickets: Int,
     val declared: Boolean,
     val location: String,
-    val seriesDate: String
+    val seriesDate: String,
 )
 
 @Serializable
@@ -138,5 +143,5 @@ data class HighestScoreDto(
  */
 data class TeamPairHomePagesData(
     val shouldHaveOwnPage: Boolean,
-    val teamPairDetails: MutableList<Pair<String, String>>
+    val teamPairDetails: MutableList<Pair<String, String>>,
 )

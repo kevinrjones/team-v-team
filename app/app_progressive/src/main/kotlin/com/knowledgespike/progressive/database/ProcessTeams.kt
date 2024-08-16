@@ -32,6 +32,7 @@ class ProcessTeams(
         matchSubType: String,
         jsonDirectory: String,
         competitionTeams: List<String>,
+        overall: Boolean,
         callback: (teamPairDetails: TeamPairDetails, jsonDirectory: String) -> Unit
     ): Map<String, TeamPairHomePagesData> {
         val matchType: String = matchTypeFromSubType(matchSubType)
@@ -49,7 +50,8 @@ class ProcessTeams(
                     databaseConnection,
                     countryIds,
                     teamsAndOpponents,
-                    matchSubType
+                    matchSubType,
+                    overall
                 )
             if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
                 log.debug("Processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
@@ -85,7 +87,8 @@ class ProcessTeams(
                             teamPairDetails.getFallOfWicketRecords(
                                 databaseConnection,
                                 teamParams.first,
-                                teamParams.second
+                                teamParams.second,
+                                overall
                             )
                             teamPairDetails.getTeamRecords(databaseConnection, teamParams.first, teamParams.second)
                             teamPairDetails.getIndividualRecords(
@@ -117,6 +120,7 @@ class ProcessTeams(
         country: List<String>,
         matchSubType: String,
         jsonDirectory: String,
+        overall: Boolean,
         callback: (teamdAndOpponents: TeamAndAllOpponentsDetails, jsonDirectory: String) -> Unit
     ) {
         val matchType: String = matchTypeFromSubType(matchSubType)
@@ -129,7 +133,8 @@ class ProcessTeams(
                     connection,
                     countryId,
                     TeamsAndOpponents(teamAndIds.teamName, teamAndIds.teamIds, "all", opponents),
-                    matchSubType
+                    matchSubType,
+                    overall
                 )
 
             val teamAndAllOpponentsDetails = TeamAndAllOpponentsDetails(teamAndIds.teamName, matchDto)
@@ -142,7 +147,8 @@ class ProcessTeams(
                         teamAndIds,
                         opponents,
                         matchType,
-                        matchSubType
+                        matchSubType,
+                        overall
                     )
 
                     teamAndAllOpponentsDetails.getTeamRecords(
@@ -150,7 +156,8 @@ class ProcessTeams(
                         teamAndIds,
                         opponents,
                         matchType,
-                        matchSubType
+                        matchSubType,
+                        overall
                     )
 
                     teamAndAllOpponentsDetails.getIndividualRecords(
@@ -158,7 +165,8 @@ class ProcessTeams(
                         teamAndIds,
                         opponents,
                         matchType,
-                        matchSubType
+                        matchSubType,
+                        overall
                     )
                 }
                 job.join()

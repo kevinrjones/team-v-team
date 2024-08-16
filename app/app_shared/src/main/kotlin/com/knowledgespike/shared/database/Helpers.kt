@@ -2,7 +2,6 @@ package com.knowledgespike.shared.database
 
 import com.knowledgespike.db.tables.references.*
 import com.knowledgespike.shared.data.*
-import kotlinx.datetime.LocalDateTime
 import org.jooq.*
 import org.jooq.impl.DSL
 import java.sql.DriverManager
@@ -66,7 +65,8 @@ fun getCountOfMatchesBetweenTeams(
     databaseConnection: DatabaseConnection,
     countryIds: List<Int>,
     teamsAndOpponents: TeamsAndOpponents,
-    matchSubType: String
+    matchSubType: String,
+    overall: Boolean
 ): MatchDto {
 
     val matchTypesToExclude = mutableListOf("t", "wt", "itt", "witt", "o", "wo")
@@ -75,8 +75,7 @@ fun getCountOfMatchesBetweenTeams(
     if (matchSubType == "minc")
         matchTypesToExclude.add("sec")
 
-    var whereClause = (EXTRAMATCHDETAILS.TEAMID.`in`(teamsAndOpponents.teamIds)
-        .and(EXTRAMATCHDETAILS.OPPONENTSID.`in`(teamsAndOpponents.opponentIds)))
+    var whereClause = EXTRAMATCHDETAILS.TEAMID.`in`(teamsAndOpponents.teamIds)
         .and(
             MATCHES.ID.`in`(
                 DSL.select(MATCHSUBTYPE.MATCHID).from(
@@ -90,8 +89,16 @@ fun getCountOfMatchesBetweenTeams(
         )
         .and(MATCHES.MATCHTYPE.notIn(matchTypesToExclude))
 
+    // When calculating the records va 'all' teams we can do two things. Calculate against 'all' the teams
+    // in this set of teams (all IPL teams say) or calculate their overall record against all other teams
+    // The 'overall' flag lets us determine this
+    if(!(overall && teamsAndOpponents.opponentsName.lowercase() == "all"))
+        whereClause = whereClause.and(EXTRAMATCHDETAILS.OPPONENTSID.`in`(teamsAndOpponents.opponentIds))
+
     if (countryIds.isNotEmpty())
         whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
+
+
 
     DriverManager.getConnection(
         databaseConnection.connectionString,
@@ -113,14 +120,14 @@ fun getCountOfMatchesBetweenTeams(
             .fetch()
 
         try {
-            if(r.size == 0) {
+            if (r.size == 0) {
                 return MatchDto(
                     0,
                     0L.toLocalDateTime(),
                     0L.toLocalDateTime(),
                 )
             }
-            if(teamsAndOpponents.teamIds.size == 1 && teamsAndOpponents.teamIds[0] == 710 && matchSubType == "wwc") {
+            if (teamsAndOpponents.teamIds.size == 1 && teamsAndOpponents.teamIds[0] == 710 && matchSubType == "wwc") {
                 println("")
             }
             var wins = 0
@@ -175,6 +182,7 @@ fun getCountOfMatchesBetweenTeams(
 fun getTeamIds(
     databaseConnection: DatabaseConnection,
     teams: List<TeamBase>,
+    country: String?,
     matchType: String,
     dialect: SQLDialect
 ): TeamNameToIds {
@@ -192,11 +200,11 @@ fun getTeamIds(
             val ids = mutableListOf<Int>()
             val team = t.team.trim()
             if (team.isNotEmpty()) {
-                val teamIds = getTeamIdsFrom(context, team, matchType)
+                val teamIds = getTeamIdsFrom(context, team, matchType, country)
 
                 ids.addAll(teamIds)
                 t.duplicates.forEach { duplicate ->
-                    val duplicateTeamIds = getTeamIdsFrom(context, duplicate, matchType)
+                    val duplicateTeamIds = getTeamIdsFrom(context, duplicate, matchType, country)
                     ids.addAll(duplicateTeamIds)
                 }
             }
@@ -208,13 +216,37 @@ fun getTeamIds(
     return teamNameAndIds
 }
 
-fun getTeamIdsFrom(context: DSLContext, team: String, matchType: String): List<Int> {
+fun getTeamIdsFrom(context: DSLContext, team: String, matchType: String, country: String?): List<Int> {
+
+    /*
+    * If the incoming selection data (eg bdesh_domestic.json) has a country then we have to filter the teams names by country
+    * This is to prevent teams with names that are common across countries being included in the query, e.g. there are
+    * 'Central Zone' teams in Bangladesh, India and Pakistan
+    *
+    * To prevent that I build this query that has
+    * MatchType = 'f' and (Teams.CountryId = countryId  or teams.CountryId is null);
+     */
+    val countryCondition = if (country != null) {
+        val countryIdResult = context
+            .select(COUNTRIES.ID)
+            .from(COUNTRIES)
+            .where(COUNTRIES.COUNTRYNAME.eq(country))
+            .fetch()
+
+        val countryId = countryIdResult.getValues(COUNTRIES.ID, Int::class.java).first()
+
+        TEAMSMATCHTYPES.MATCHTYPE.eq(matchType).and(TEAMS.COUNTRYID.eq(countryId).or(TEAMS.COUNTRYID.isNull))
+
+    } else {
+        TEAMSMATCHTYPES.MATCHTYPE.eq(matchType)
+    }
+
     val idRecord = context
         .select(TEAMS.ID)
         .from(TEAMS)
         .join(TEAMSMATCHTYPES).on(TEAMSMATCHTYPES.TEAMID.eq(TEAMS.ID))
         .where(TEAMS.NAME.eq(team))
-        .and(TEAMSMATCHTYPES.MATCHTYPE.eq(matchType))
+        .and(countryCondition)
         .fetch()
 
     return idRecord.getValues(TEAMS.ID, Int::class.java)

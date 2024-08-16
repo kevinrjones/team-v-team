@@ -73,6 +73,7 @@ class Application {
                 val userName = cmd.getOptionValue("u")
                 val password = cmd.getOptionValue("p")
                 val baseDirectory = cmd.getOptionValue("bd")
+                val dataDirectory = cmd.getOptionValue("dd")
                 val fullyQualifiedHtmlOutputDirectory = cmd.getOptionValue("ho")
                 val relativeJsonOutputDirectory = cmd.getOptionValue("jo")
                 val dialectOption = cmd.getOptionValue("d")
@@ -96,10 +97,11 @@ class Application {
                     }
                 }
                 val databaseConnection = DatabaseConnection(userName, password, connectionString, dialect)
-
                 val jsonOutputDirectory = "$baseDirectory/$relativeJsonOutputDirectory"
+                val fqDataDirectory = "$baseDirectory/$dataDirectory"
+
                 processAllCompetitions(
-                    baseDirectory,
+                    fqDataDirectory,
                     fullyQualifiedHtmlOutputDirectory,
                     jsonOutputDirectory,
                     databaseConnection
@@ -110,13 +112,12 @@ class Application {
         }
 
         private suspend fun processAllCompetitions(
-            baseDirectory: String,
+            dataDirectory: String,
             htmlOutputDirectory: String,
             jsonOutputDirectory: String,
             databaseConnection: DatabaseConnection,
         ) {
 
-            val dataDirectory = "$baseDirectory/shared/data"
             val allCompetitions = getAllCompetitions(dataDirectory)
 
 
@@ -137,6 +138,7 @@ class Application {
                             getTeamIds(
                                 databaseConnection,
                                 competitionWithSortedTeams.teams,
+                                competitionWithSortedTeams.country,
                                 matchSubType,
                                 dialect
                             )
@@ -147,6 +149,7 @@ class Application {
                                 getTeamIds(
                                     databaseConnection,
                                     it.opponents,
+                                    competitionWithSortedTeams.country,
                                     matchSubType,
                                     dialect
                                 )
@@ -167,7 +170,8 @@ class Application {
                             competition.countries,
                             matchSubType,
                             "$jsonOutputDirectory/${competition.outputDirectory}",
-                            competition.teams.map { it.team }
+                            competition.teams.map { it.team },
+                            competition.overall,
                         ) { teamPairDetails, jsonDirectory ->
 
                             log.debug(
@@ -233,7 +237,7 @@ class Application {
                                 teamNamesForIndexPage,
                                 matchSubType,
                                 competition.gender,
-                                competition.country,
+                                competition.countryForTitle,
                                 competition.title,
                                 competition.extraMessages,
                                 jsonDirectory
@@ -501,6 +505,14 @@ class Application {
                 .required()
                 .build()
 
+            val dataDirectoryOption = Option
+                .builder("dd")
+                .hasArg()
+                .desc("the relative data input directory")
+                .argName("data directory name")
+                .longOpt("dataDirectory")
+                .required()
+                .build()
 
             val sqlDialectOption = Option
                 .builder("d")
@@ -518,6 +530,7 @@ class Application {
             options.addOption(baseDirectoryOption)
             options.addOption(htmlOutputLocationOption)
             options.addOption(jsonOutputLocationOption)
+            options.addOption(dataDirectoryOption)
             options.addOption(sqlDialectOption)
 
             return options

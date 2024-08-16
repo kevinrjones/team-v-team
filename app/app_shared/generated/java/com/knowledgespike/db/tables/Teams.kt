@@ -119,6 +119,11 @@ open class Teams(
      */
     val TEAMID: TableField<TeamsRecord, Int?> = createField(DSL.name("TeamId"), SQLDataType.INTEGER.nullable(false), this, "")
 
+    /**
+     * The column <code>cricketarchive.Teams.CountryId</code>.
+     */
+    val COUNTRYID: TableField<TeamsRecord, Int?> = createField(DSL.name("CountryId"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
+
     private constructor(alias: Name, aliased: Table<TeamsRecord>?): this(alias, null, null, null, aliased, null, null)
     private constructor(alias: Name, aliased: Table<TeamsRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
     private constructor(alias: Name, aliased: Table<TeamsRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)

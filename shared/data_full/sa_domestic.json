@@ -1,8 +1,10 @@
 [
     {
         "title": "First-Class",
-        "country": "South African",
+        "countryForTitle": "South African",
+        "country": "South Africa",
         "gender": "Men's",
+        "overall": true,
         "teams": [
             {
                 "team": "Boland",
@@ -13,16 +15,34 @@
                 "duplicates": []
             },
             {
-                "team": "Dolphins",
+                "team": "Eastern Province",
                 "duplicates": []
             },
             {
                 "team": "Easterns",
-                "duplicates": []
+                "duplicates": [
+                    "Eastern Transvaal"
+                ]
             },
             {
-                "team": "Knights",
-                "duplicates": []
+                "team": "Free State",
+                "duplicates": [
+                    "Orange Free State"
+                ]
+            },
+            {
+                "team": "Gauteng",
+                "duplicates": [
+                    "Transvaal"
+                ]
+            },
+            {
+                "team": "KwaZulu-Natal Coastal",
+                "duplicates": [
+                    "Dolphins",
+                    "KwaZulu-Natal",
+                    "Natal"
+                ]
             },
             {
                 "team": "KwaZulu-Natal Inland",
@@ -33,31 +53,31 @@
                 "duplicates": []
             },
             {
-                "team": "Lions",
-                "duplicates": []
-            },
-            {
                 "team": "Mpumalanga",
                 "duplicates": []
             },
             {
+                "team": "Northerns",
+                "duplicates": [
+                    "Northern Transvaal",
+                    "North Eastern Transvaal"
+                ]
+            },
+            {
                 "team": "Northern Cape",
-                "duplicates": []
+                "duplicates": [
+                    "Griqualand West",
+                    "Kimberley"
+                ]
             },
             {
                 "team": "North West",
-                "duplicates": []
+                "duplicates": [
+                    "Western Transvaal"
+                ]
             },
             {
                 "team": "South Western Districts",
-                "duplicates": []
-            },
-            {
-                "team": "Titans",
-                "duplicates": []
-            },
-            {
-                "team": "Warriors",
                 "duplicates": []
             },
             {
@@ -67,6 +87,15 @@
         ],
         "subType": "f",
         "outputDirectory": "sa_domestic",
-        "extraMessages": []
+        "extraMessages": [
+            "Performances involving KwaZulu-Natal Coastal include those involving Natal between 1889/90 and 1997/98",
+            "Performances involving KwaZulu-Natal Coastal include those involving KwaZulu-Natal between 1998/99 and 2018/19",
+            "Performances involving KwaZulu-Natal Coastal include those involving Dolphins between 2005/05 and 2021/21",
+            "Performances involving Northerns include those involving North Eastern Transvaal between 1937-38 and 1970-71",
+            "Performances involving Northerns include those involving Northern Transvaal between 1971/72 and 1996/97",
+            "Performances involving Northern Cape include those involving Kimberley between 1889/90 and 1890/91",
+            "Performances involving Northern Cape include those involving Griqualand West between 1890/91 and 2014/15",
+            "Performances involving North West include those involving Western Transvaal between 1991/92 and 1995/96"
+        ]
     }
 ]

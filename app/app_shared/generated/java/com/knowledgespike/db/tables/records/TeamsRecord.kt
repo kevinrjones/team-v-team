@@ -28,6 +28,10 @@ open class TeamsRecord() : UpdatableRecordImpl<TeamsRecord>(Teams.TEAMS) {
         set(value): Unit = set(2, value)
         get(): Int? = get(2) as Int?
 
+    open var countryid: Int?
+        set(value): Unit = set(3, value)
+        get(): Int? = get(3) as Int?
+
     // -------------------------------------------------------------------------
     // Primary key information
     // -------------------------------------------------------------------------
@@ -37,10 +41,11 @@ open class TeamsRecord() : UpdatableRecordImpl<TeamsRecord>(Teams.TEAMS) {
     /**
      * Create a detached, initialised TeamsRecord
      */
-    constructor(id: Int? = null, name: String? = null, teamid: Int? = null): this() {
+    constructor(id: Int? = null, name: String? = null, teamid: Int? = null, countryid: Int? = null): this() {
         this.id = id
         this.name = name
         this.teamid = teamid
+        this.countryid = countryid
         resetChangedOnNotNull()
     }
 }

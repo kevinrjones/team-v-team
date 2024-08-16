@@ -1,8 +1,10 @@
 [
     {
         "title": "First-Class",
-        "country": "Indian",
+        "countryForTitle": "Indian",
+        "country": "India",
         "gender": "Men's",
+        "overall": true,
         "teams": [
             {
                 "team": "Andhra",
@@ -62,11 +64,11 @@
             },
             {
                 "team": "Karnataka",
-                "duplicates": []
+                "duplicates": ["Mysore"]
             },
             {
                 "team": "Kerala",
-                "duplicates": []
+                "duplicates": ["Travancore-Cochin"]
             },
             {
                 "team": "Madhya Pradesh",
@@ -82,10 +84,10 @@
             },
             {
                 "team": "Mumbai",
-                "duplicates": []
+                "duplicates": ["Bombay"]
             },
             {
-                "team": "Odisha",
+                "team": "Orissa",
                 "duplicates": []
             },
             {
@@ -102,7 +104,7 @@
             },
             {
                 "team": "Rajasthan",
-                "duplicates": []
+                "duplicates": ["Rajputana"]
             },
             {
                 "team": "Services",
@@ -114,7 +116,7 @@
             },
             {
                 "team": "Tamil Nadu",
-                "duplicates": []
+                "duplicates": ["Madras"]
             },
             {
                 "team": "Tripura",
@@ -126,7 +128,7 @@
             },
             {
                 "team": "Uttar Pradesh",
-                "duplicates": []
+                "duplicates": ["United Provinces"]
             },
             {
                 "team": "Vidarbha",
@@ -155,10 +157,41 @@
             {
                 "team": "Sikkim",
                 "duplicates": []
+            },
+            {
+                "team": "Central Zone",
+                "duplicates": []
+            },
+            {
+                "team": "East Zone",
+                "duplicates": []
+            },
+            {
+                "team": "North Zone",
+                "duplicates": []
+            },
+            {
+                "team": "North East Zone",
+                "duplicates": []
+            },
+            {
+                "team": "South Zone",
+                "duplicates": []
+            },
+            {
+                "team": "West Zone",
+                "duplicates": []
             }
         ],
         "subType": "f",
         "outputDirectory": "ind_domestic",
-        "extraMessages": []
+        "extraMessages": [
+            "Performances involving Karnataka include those involving Mysore before 1973/74",
+            "Performances involving Kerala include those involving Travancore-Cochin before 1957/58",
+            "Performances involving Mumbai include those involving Bombay before 1996/97",
+            "Performances involving Rajasthan include those involving Rajputana before 1956/57",
+            "Performances involving Tamil Nadu include those involving Madras before 1970/71",
+            "Performances involving Uttar Pradesh include those involving United Provinces before 1949/50"
+        ]
     }
 ]

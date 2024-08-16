@@ -6,20 +6,20 @@ import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.database.DatabaseConnection
 import org.jooq.DSLContext
 import org.jooq.WithStep
-import org.jooq.impl.DSL
 import org.jooq.impl.DSL.*
-import org.jooq.impl.QOM.In
 import java.sql.DriverManager
 import java.time.format.DateTimeFormatter
 
 
 class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
-    var inputFormatter: DateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
-    var outputFormatter: DateTimeFormatter = DateTimeFormatter.ofPattern("dd MMM yyyy")
+    private var inputFormatter: DateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
+    private var outputFormatter: DateTimeFormatter = DateTimeFormatter.ofPattern("dd MMM yyyy")
+    private val VS_ALL_SCORE_LIMIT = 75
+    private val VS_ALL_WICKET_LIMIT = 4
 
     fun getHighestTotals(
-        teamParams: TeamParams
+        teamParams: TeamParams,
     ): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
 
@@ -118,7 +118,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
 
     fun getLowestAllOutTotals(
-        teamParams: TeamParams
+        teamParams: TeamParams,
     ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
 
@@ -428,9 +428,28 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestBowling
     }
 
-    fun getBestBowlingInningsForAll(teamParams: TeamParams): List<BestBowlingDto> {
+    fun getBestBowlingInningsForAll(teamParams: TeamParams, overall: Boolean): List<BestBowlingDto> {
 
         val bestBowling = mutableListOf<BestBowlingDto>()
+
+        var whereClause = (BOWLINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
+            .and(
+                BOWLINGDETAILS.MATCHID.`in`(
+                    select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                teamParams.matchSubType
+                            )
+                        )
+                    )
+                )
+            )
+            .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+            .and(BOWLINGDETAILS.WICKETS.ge(VS_ALL_WICKET_LIMIT))
+
+        if (!overall)
+            whereClause = whereClause.and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -461,22 +480,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                             PLAYERSMATCHES.PLAYERID.eq(BOWLINGDETAILS.PLAYERID)
                                 .and(PLAYERSMATCHES.MATCHID.eq(BOWLINGDETAILS.MATCHID))
                         )
-                        .where(BOWLINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
-                        .and(
-                            BOWLINGDETAILS.MATCHID.`in`(
-                                select(MATCHSUBTYPE.MATCHID).from(
-                                    MATCHSUBTYPE.where(
-                                        MATCHSUBTYPE.MATCHTYPE.eq(
-                                            teamParams.matchSubType
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                        .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-                        .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
-                        .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
-                        .and(BOWLINGDETAILS.WICKETS.ge(3))
+                        .where(whereClause)
                 ).with("cte1").`as`(
                     select(
                         field("opponentsid"),
@@ -543,9 +547,29 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         }
         return bestBowling
     }
-    fun getBestBowlingInningsVsAll(teamParams: TeamParams): List<BestBowlingDto> {
+
+    fun getBestBowlingInningsVsAll(teamParams: TeamParams, overall: Boolean): List<BestBowlingDto> {
 
         val bestBowling = mutableListOf<BestBowlingDto>()
+
+        var whereClause = (BOWLINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
+            .and(
+                BOWLINGDETAILS.MATCHID.`in`(
+                    select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                teamParams.matchSubType
+                            )
+                        )
+                    )
+                )
+            )
+            .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+            .and(BOWLINGDETAILS.WICKETS.ge(VS_ALL_WICKET_LIMIT))
+
+        if (!overall)
+            whereClause = whereClause.and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -576,22 +600,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                             PLAYERSMATCHES.PLAYERID.eq(BOWLINGDETAILS.PLAYERID)
                                 .and(PLAYERSMATCHES.MATCHID.eq(BOWLINGDETAILS.MATCHID))
                         )
-                        .where(BOWLINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
-                        .and(
-                            BOWLINGDETAILS.MATCHID.`in`(
-                                select(MATCHSUBTYPE.MATCHID).from(
-                                    MATCHSUBTYPE.where(
-                                        MATCHSUBTYPE.MATCHTYPE.eq(
-                                            teamParams.matchSubType
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                        .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-                        .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
-                        .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
-                        .and(BOWLINGDETAILS.WICKETS.ge(3))
+                        .where(whereClause)
                 ).with("cte1").`as`(
                     select(
                         field("teamid"),
@@ -811,7 +820,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestBowling
     }
 
-    fun getProgressivePartnershipRecords(teamParams: TeamParams): Map<Int, FowDetails> {
+    fun getProgressivePartnershipRecords(teamParams: TeamParams, overall: Boolean): Map<Int, FowDetails> {
 
         val partnershipLimit = 0
         val matchStartDateAsOffset = -9999999999L
@@ -823,17 +832,18 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             databaseConnection.userName,
             databaseConnection.password
         ).use { conn ->
-            val context = DSL.using(conn, databaseConnection.dialect)
+            val context = using(conn, databaseConnection.dialect)
 
             val tmpTableName = "tmp_partnerships"
-            createTemporaryFoWTable(context, tmpTableName, teamParams)
+            createTemporaryFoWTable(context, tmpTableName, teamParams, overall)
 
             try {
                 for (wicket in 1..10) {
                     val listFoW = mutableListOf<FoWDto>()
                     val listMultiPlayerFowDao = mutableListOf<MultiPlayerFowDto>()
 
-                    val query = createPartialFoWResult(context, tmpTableName, wicket, partnershipLimit, matchStartDateAsOffset)
+                    val query =
+                        createPartialFoWResult(context, tmpTableName, wicket, partnershipLimit, matchStartDateAsOffset)
 
                     val result = query.select(
                         field("teamid"),
@@ -903,7 +913,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestFow
     }
 
-    fun getProgressivePartnershipRecordsForAll(teamParams: TeamParams): Map<Int, FowDetails> {
+    fun getProgressivePartnershipRecordsForAll(teamParams: TeamParams, overall: Boolean): Map<Int, FowDetails> {
 
         val partnershipLimit = 0
         val matchStartDateAsOffset = -9999999999L
@@ -915,17 +925,18 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             databaseConnection.userName,
             databaseConnection.password
         ).use { conn ->
-            val context = DSL.using(conn, databaseConnection.dialect)
+            val context = using(conn, databaseConnection.dialect)
 
             val tmpTableName = "tmp_partnerships"
-            createTemporaryFoWTable(context, tmpTableName, teamParams)
+            createTemporaryFoWTable(context, tmpTableName, teamParams, overall)
 
             try {
                 for (wicket in 1..10) {
                     val listFoW = mutableListOf<FoWDto>()
                     val listMultiPlayerFowDao = mutableListOf<MultiPlayerFowDto>()
 
-                    val query = createPartialFoWResult(context, tmpTableName, wicket, partnershipLimit, matchStartDateAsOffset)
+                    val query =
+                        createPartialFoWResult(context, tmpTableName, wicket, partnershipLimit, matchStartDateAsOffset)
 
                     val result = query.select(
                         field("cte2.teamid"),
@@ -996,7 +1007,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestFow
     }
 
-    fun getProgressivePartnershipRecordsVsAll(teamParams: TeamParams): Map<Int, FowDetails> {
+    fun getProgressivePartnershipRecordsVsAll(teamParams: TeamParams, overall: Boolean): Map<Int, FowDetails> {
 
         val partnershipLimit = 0
         val matchStartDateAsOffset = -9999999999L
@@ -1008,17 +1019,18 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             databaseConnection.userName,
             databaseConnection.password
         ).use { conn ->
-            val context = DSL.using(conn, databaseConnection.dialect)
+            val context = using(conn, databaseConnection.dialect)
 
             val tmpTableName = "tmp_partnerships"
-            createTemporaryFoWTable(context, tmpTableName, teamParams)
+            createTemporaryFoWTable(context, tmpTableName, teamParams, overall)
 
             try {
                 for (wicket in 1..10) {
                     val listFoW = mutableListOf<FoWDto>()
                     val listMultiPlayerFowDao = mutableListOf<MultiPlayerFowDto>()
 
-                    val query = createPartialFoWResult(context, tmpTableName, wicket, partnershipLimit, matchStartDateAsOffset)
+                    val query =
+                        createPartialFoWResult(context, tmpTableName, wicket, partnershipLimit, matchStartDateAsOffset)
 
                     val result = query.select(
                         field("cte2.teamid"),
@@ -1094,7 +1106,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         tmpTableName: String,
         wicket: Int,
         partnershipLimit: Int,
-        matchStartDateAsOffset: Long
+        matchStartDateAsOffset: Long,
     ): WithStep {
         val query = context
             .with("cte").`as`(
@@ -1157,8 +1169,29 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     private fun createTemporaryFoWTable(
         context: DSLContext,
         tmpTableName: String,
-        teamParams: TeamParams
+        teamParams: TeamParams,
+        overall: Boolean,
     ) {
+
+        var whereClause = (PARTNERSHIPS.matches.MATCHTYPE.eq(teamParams.matchType))
+            .and(
+                PARTNERSHIPS.matches.ID.`in`(
+                    select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                teamParams.matchSubType
+                            )
+                        )
+                    )
+                )
+            )
+            .and(PARTNERSHIPS.MATCHTYPE.notIn(internationalMatchTypes))
+            .and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds))
+            .and(PARTNERSHIPS.MULTIPLE.eq(0))
+
+        if (!(overall && teamParams.opponents.lowercase() == "all"))
+            whereClause = whereClause.and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds))
+
         context.createTemporaryTable(tmpTableName).`as`(
             select(
                 PARTNERSHIPS.matches.ID.`as`("matchid"),
@@ -1268,22 +1301,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         ).and(BATTINGDETAILS.INNINGSORDER.eq(PARTNERSHIPS.INNINGSORDER))
                     )
                 )
-                .where(PARTNERSHIPS.matches.MATCHTYPE.eq(teamParams.matchType))
-                .and(
-                    PARTNERSHIPS.matches.ID.`in`(
-                        select(MATCHSUBTYPE.MATCHID).from(
-                            MATCHSUBTYPE.where(
-                                MATCHSUBTYPE.MATCHTYPE.eq(
-                                    teamParams.matchSubType
-                                )
-                            )
-                        )
-                    )
-                )
-                .and(PARTNERSHIPS.MATCHTYPE.notIn(internationalMatchTypes))
-                .and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds))
-                .and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds))
-                .and(PARTNERSHIPS.MULTIPLE.eq(0))
+                .where(whereClause)
                 .orderBy(
                     PARTNERSHIPS.WICKET,
                     PARTNERSHIPS.PARTNERSHIP.desc(),
@@ -1295,7 +1313,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         ).withData().execute()
     }
 
-    fun getHighestTotalsForAll(teamParams: TeamParams): List<TotalDto> {
+    fun getHighestTotalsForAll(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
 
         DriverManager.getConnection(
@@ -1304,6 +1322,24 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             databaseConnection.password
         ).use { conn ->
             val context = using(conn, databaseConnection.dialect)
+
+            var whereClause = (
+                    INNINGS.MATCHID.`in`(
+                        select(MATCHSUBTYPE.MATCHID).from(
+                            MATCHSUBTYPE.where(
+                                MATCHSUBTYPE.MATCHTYPE.eq(
+                                    teamParams.matchSubType
+                                )
+                            )
+                        )
+                    )
+                    )
+                .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
+                .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
+
+            if (!overall)
+                whereClause = whereClause.and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+
             val cte = context
                 .with("cte")
                 .`as`(
@@ -1320,20 +1356,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                         .from(INNINGS)
                         .join(MATCHES).on(INNINGS.MATCHID.eq(MATCHES.ID))
-                        .where(
-                            INNINGS.MATCHID.`in`(
-                                select(MATCHSUBTYPE.MATCHID).from(
-                                    MATCHSUBTYPE.where(
-                                        MATCHSUBTYPE.MATCHTYPE.eq(
-                                            teamParams.matchSubType
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                        .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-                        .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
-                        .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+                        .where(whereClause)
                 ).with("cte2").`as`(
                     select(
                         field("total"),
@@ -1391,8 +1414,25 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return highestTotals
     }
 
-    fun getHighestTotalsVsAll(teamParams: TeamParams): List<TotalDto> {
+    fun getHighestTotalsVsAll(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
+
+        var whereClause = (
+                INNINGS.MATCHID.`in`(
+                    select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                teamParams.matchSubType
+                            )
+                        )
+                    )
+                )
+                )
+            .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
+            .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
+
+        if (!overall)
+            whereClause = whereClause.and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -1416,20 +1456,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                         .from(INNINGS)
                         .join(MATCHES).on(INNINGS.MATCHID.eq(MATCHES.ID))
-                        .where(
-                            INNINGS.MATCHID.`in`(
-                                select(MATCHSUBTYPE.MATCHID).from(
-                                    MATCHSUBTYPE.where(
-                                        MATCHSUBTYPE.MATCHTYPE.eq(
-                                            teamParams.matchSubType
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                        .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-                        .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
-                        .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+                        .where(whereClause)
                 ).with("cte2").`as`(
                     select(
                         field("total"),
@@ -1487,8 +1514,26 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return highestTotals
     }
 
-    fun getLowestAllOutTotalsForAll(teamParams: TeamParams): List<TotalDto> {
+    fun getLowestAllOutTotalsForAll(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
+
+        var whereClause = (INNINGS.COMPLETE.eq(1))
+            .and(
+                INNINGS.MATCHID.`in`(
+                    select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                teamParams.matchSubType
+                            )
+                        )
+                    )
+                )
+            )
+            .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
+            .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
+
+        if (!overall)
+            whereClause = whereClause.and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -1511,21 +1556,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                         .from(INNINGS)
                         .join(MATCHES).on(INNINGS.MATCHID.eq(MATCHES.ID))
-                        .where(INNINGS.COMPLETE.eq(1))
-                        .and(
-                            INNINGS.MATCHID.`in`(
-                                select(MATCHSUBTYPE.MATCHID).from(
-                                    MATCHSUBTYPE.where(
-                                        MATCHSUBTYPE.MATCHTYPE.eq(
-                                            teamParams.matchSubType
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                        .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-                        .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
-                        .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+                        .where(whereClause)
                 ).with("cte2").`as`(
                     select(
                         field("total"),
@@ -1582,8 +1613,26 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return lowestTotals
     }
 
-    fun getLowestAllOutTotalsVsAll(teamParams: TeamParams): List<TotalDto> {
+    fun getLowestAllOutTotalsVsAll(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
+
+        var whereClause = (INNINGS.COMPLETE.eq(1))
+            .and(
+                INNINGS.MATCHID.`in`(
+                    select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                teamParams.matchSubType
+                            )
+                        )
+                    )
+                )
+            )
+            .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
+            .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
+
+        if (!overall)
+            whereClause = whereClause.and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -1606,21 +1655,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                         .from(INNINGS)
                         .join(MATCHES).on(INNINGS.MATCHID.eq(MATCHES.ID))
-                        .where(INNINGS.COMPLETE.eq(1))
-                        .and(
-                            INNINGS.MATCHID.`in`(
-                                select(MATCHSUBTYPE.MATCHID).from(
-                                    MATCHSUBTYPE.where(
-                                        MATCHSUBTYPE.MATCHTYPE.eq(
-                                            teamParams.matchSubType
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                        .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-                        .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
-                        .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+                        .where(whereClause)
                 ).with("cte2").`as`(
                     select(
                         field("total"),
@@ -1677,8 +1712,28 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return lowestTotals
     }
 
-    fun getHighestIndividualScoresForAll(teamParams: TeamParams): Collection<HighestScoreDto> {
+    fun getHighestIndividualScoresForAll(teamParams: TeamParams, overall: Boolean): Collection<HighestScoreDto> {
         val highestscores = mutableListOf<HighestScoreDto>()
+
+        var whereClause = (BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+            .and(BATTINGDETAILS.SCORE.isNotNull)
+            .and(BATTINGDETAILS.SCORE.ge(VS_ALL_SCORE_LIMIT))
+            .and(BATTINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
+            .and(
+                BATTINGDETAILS.MATCHID.`in`(
+                    select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                teamParams.matchSubType
+                            )
+                        )
+                    )
+                )
+            )
+            .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+
+        if (!overall)
+            whereClause = whereClause.and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -1703,23 +1758,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                         .from(BATTINGDETAILS)
                         .join(MATCHES).on(BATTINGDETAILS.MATCHID.eq(MATCHES.ID))
-                        .where(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
-                        .and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
-                        .and(BATTINGDETAILS.SCORE.isNotNull)
-                        .and(BATTINGDETAILS.SCORE.ge(25))
-                        .and(BATTINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
-                        .and(
-                            BATTINGDETAILS.MATCHID.`in`(
-                                select(MATCHSUBTYPE.MATCHID).from(
-                                    MATCHSUBTYPE.where(
-                                        MATCHSUBTYPE.MATCHTYPE.eq(
-                                            teamParams.matchSubType
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                        .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+                        .where(whereClause)
                         .orderBy(
                             BATTINGDETAILS.matches.MATCHSTARTDATEASOFFSET,
                             BATTINGDETAILS.INNINGSORDER,
@@ -1782,8 +1821,28 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     }
 
 
-    fun getHighestIndividualScoresVsAll(teamParams: TeamParams): Collection<HighestScoreDto> {
+    fun getHighestIndividualScoresVsAll(teamParams: TeamParams, overall: Boolean): Collection<HighestScoreDto> {
         val highestscores = mutableListOf<HighestScoreDto>()
+
+        var whereClause = (BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+            .and(BATTINGDETAILS.SCORE.isNotNull)
+            .and(BATTINGDETAILS.SCORE.ge(VS_ALL_SCORE_LIMIT))
+            .and(BATTINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
+            .and(
+                BATTINGDETAILS.MATCHID.`in`(
+                    select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                teamParams.matchSubType
+                            )
+                        )
+                    )
+                )
+            )
+            .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+
+        if (!overall)
+            whereClause = whereClause.and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -1808,23 +1867,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                         .from(BATTINGDETAILS)
                         .join(MATCHES).on(BATTINGDETAILS.MATCHID.eq(MATCHES.ID))
-                        .where(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
-                        .and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
-                        .and(BATTINGDETAILS.SCORE.isNotNull)
-                        .and(BATTINGDETAILS.SCORE.ge(25))
-                        .and(BATTINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
-                        .and(
-                            BATTINGDETAILS.MATCHID.`in`(
-                                select(MATCHSUBTYPE.MATCHID).from(
-                                    MATCHSUBTYPE.where(
-                                        MATCHSUBTYPE.MATCHTYPE.eq(
-                                            teamParams.matchSubType
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                        .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+                        .where(whereClause)
                         .orderBy(
                             BATTINGDETAILS.matches.MATCHSTARTDATEASOFFSET,
                             BATTINGDETAILS.INNINGSORDER,
@@ -1886,11 +1929,29 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return highestscores
     }
 
-    fun getBestBowlingMatchForAll(teamParams: TeamParams): Collection<BestBowlingDto> {
+    fun getBestBowlingMatchForAll(teamParams: TeamParams, overall: Boolean): Collection<BestBowlingDto> {
         val bestBowling = mutableListOf<BestBowlingDto>()
 
         val t = TEAMS.`as`("t")
         val o = TEAMS.`as`("o")
+
+        var whereClause = (BOWLINGDETAILS.MATCHTYPE.eq(teamParams.matchType))
+            .and(
+                BOWLINGDETAILS.MATCHID.`in`(
+                    select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                teamParams.matchSubType
+                            )
+                        )
+                    )
+                )
+            )
+            .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+
+        if (!overall)
+            whereClause = whereClause.and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -1960,21 +2021,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         )
                         .join(t).on(t.ID.eq(BOWLINGDETAILS.TEAMID))
                         .join(o).on(o.ID.eq(BOWLINGDETAILS.OPPONENTSID))
-                        .where(BOWLINGDETAILS.MATCHTYPE.eq(teamParams.matchType))
-                        .and(
-                            BOWLINGDETAILS.MATCHID.`in`(
-                                select(MATCHSUBTYPE.MATCHID).from(
-                                    MATCHSUBTYPE.where(
-                                        MATCHSUBTYPE.MATCHTYPE.eq(
-                                            teamParams.matchSubType
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                        .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-                        .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
-                        .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+                        .where(whereClause)
                 ).with("cte2").`as`(
                     select(
                         field("opponentsid"),
@@ -1997,7 +2044,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                             )
                             .rowsBetweenUnboundedPreceding().andCurrentRow().`as`("premax")
                     ).from("cte")
-                        .where(field("SyntheticBestBowling").isNotNull).and(field("rn").eq(1))
+                        .where(field("SyntheticBestBowling").isNotNull)
+                        .and(field("rn").eq(1))
+                        .and(field("cte.wickets").gt(5))
                 )
 
                 val query = q.select(
@@ -2054,8 +2103,26 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestBowling
     }
 
-    fun getBestBowlingMatchVsAll(teamParams: TeamParams): Collection<BestBowlingDto> {
+    fun getBestBowlingMatchVsAll(teamParams: TeamParams, overall: Boolean): Collection<BestBowlingDto> {
         val bestBowling = mutableListOf<BestBowlingDto>()
+
+        var whereClause = (BOWLINGDETAILS.MATCHTYPE.eq(teamParams.matchType))
+            .and(
+                BOWLINGDETAILS.MATCHID.`in`(
+                    select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                teamParams.matchSubType
+                            )
+                        )
+                    )
+                )
+            )
+            .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+
+        if (!overall)
+            whereClause = whereClause.and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         val t = TEAMS.`as`("t")
         val o = TEAMS.`as`("o")
@@ -2128,21 +2195,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         )
                         .join(t).on(t.ID.eq(BOWLINGDETAILS.TEAMID))
                         .join(o).on(o.ID.eq(BOWLINGDETAILS.OPPONENTSID))
-                        .where(BOWLINGDETAILS.MATCHTYPE.eq(teamParams.matchType))
-                        .and(
-                            BOWLINGDETAILS.MATCHID.`in`(
-                                select(MATCHSUBTYPE.MATCHID).from(
-                                    MATCHSUBTYPE.where(
-                                        MATCHSUBTYPE.MATCHTYPE.eq(
-                                            teamParams.matchSubType
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                        .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-                        .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
-                        .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+                        .where(whereClause)
                 ).with("cte2").`as`(
                     select(
                         field("teamid"),
@@ -2165,7 +2218,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                             )
                             .rowsBetweenUnboundedPreceding().andCurrentRow().`as`("premax")
                     ).from("cte")
-                        .where(field("SyntheticBestBowling").isNotNull).and(field("rn").eq(1))
+                        .where(field("SyntheticBestBowling").isNotNull)
+                        .and(field("rn").eq(1))
+                        .and(field("cte.wickets").gt(5))
+
                 )
 
                 val query = q.select(
