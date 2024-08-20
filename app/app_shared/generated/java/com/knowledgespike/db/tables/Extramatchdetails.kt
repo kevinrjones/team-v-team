@@ -147,23 +147,7 @@ open class Extramatchdetails(
     }
     override fun getSchema(): Schema? = if (aliased()) null else Cricketarchive.CRICKETARCHIVE
     override fun getIndexes(): List<Index> = listOf(EXTRAMATCHDETAILS_MATCHID, EXTRAMATCHDETAILS_MATCHID_2, EXTRAMATCHDETAILS_MATCHID_3, EXTRAMATCHDETAILS_MATCHTYPE, EXTRAMATCHDETAILS_OPPONENTSID, EXTRAMATCHDETAILS_TEAMID)
-    override fun getReferences(): List<ForeignKey<ExtramatchdetailsRecord, *>> = listOf(EXTRAMATCHDETAILS_IBFK_3, EXTRAMATCHDETAILS_IBFK_1, EXTRAMATCHDETAILS_IBFK_2)
-
-    private lateinit var _matches: MatchesPath
-
-    /**
-     * Get the implicit join path to the <code>cricketarchive.Matches</code>
-     * table.
-     */
-    fun matches(): MatchesPath {
-        if (!this::_matches.isInitialized)
-            _matches = MatchesPath(this, EXTRAMATCHDETAILS_IBFK_3, null)
-
-        return _matches;
-    }
-
-    val matches: MatchesPath
-        get(): MatchesPath = matches()
+    override fun getReferences(): List<ForeignKey<ExtramatchdetailsRecord, *>> = listOf(EXTRAMATCHDETAILS_IBFK_1, EXTRAMATCHDETAILS_IBFK_2, EXTRAMATCHDETAILS_IBFK_3)
 
     private lateinit var _extramatchdetailsIbfk_1: TeamsPath
 
@@ -196,6 +180,22 @@ open class Extramatchdetails(
 
     val extramatchdetailsIbfk_2: TeamsPath
         get(): TeamsPath = extramatchdetailsIbfk_2()
+
+    private lateinit var _matches: MatchesPath
+
+    /**
+     * Get the implicit join path to the <code>cricketarchive.Matches</code>
+     * table.
+     */
+    fun matches(): MatchesPath {
+        if (!this::_matches.isInitialized)
+            _matches = MatchesPath(this, EXTRAMATCHDETAILS_IBFK_3, null)
+
+        return _matches;
+    }
+
+    val matches: MatchesPath
+        get(): MatchesPath = matches()
     override fun `as`(alias: String): Extramatchdetails = Extramatchdetails(DSL.name(alias), this)
     override fun `as`(alias: Name): Extramatchdetails = Extramatchdetails(alias, this)
     override fun `as`(alias: Table<*>): Extramatchdetails = Extramatchdetails(alias.qualifiedName, this)

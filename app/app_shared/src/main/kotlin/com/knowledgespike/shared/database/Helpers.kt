@@ -12,7 +12,7 @@ fun checkIfShouldProcess(
     opponentIds: List<Int>,
     matchType: String,
     dateOffset: Long,
-    dialect: SQLDialect
+    dialect: SQLDialect,
 ): Boolean {
     DriverManager.getConnection(
         databaseConnection.connectionString,
@@ -66,7 +66,7 @@ fun getCountOfMatchesBetweenTeams(
     countryIds: List<Int>,
     teamsAndOpponents: TeamsAndOpponents,
     matchSubType: String,
-    overall: Boolean
+    overall: Boolean,
 ): MatchDto {
 
     val matchTypesToExclude = mutableListOf("t", "wt", "itt", "witt", "o", "wo")
@@ -92,7 +92,7 @@ fun getCountOfMatchesBetweenTeams(
     // When calculating the records va 'all' teams we can do two things. Calculate against 'all' the teams
     // in this set of teams (all IPL teams say) or calculate their overall record against all other teams
     // The 'overall' flag lets us determine this
-    if(!(overall && teamsAndOpponents.opponentsName.lowercase() == "all"))
+    if (!(overall && teamsAndOpponents.opponentsName.lowercase() == "all"))
         whereClause = whereClause.and(EXTRAMATCHDETAILS.OPPONENTSID.`in`(teamsAndOpponents.opponentIds))
 
     if (countryIds.isNotEmpty())
@@ -184,8 +184,8 @@ fun getTeamIds(
     teams: List<TeamBase>,
     country: String?,
     matchType: String,
-    dialect: SQLDialect
-): TeamNameToIds {
+
+    ): TeamNameToIds {
 
 
     val teamNameAndIds = mutableMapOf<String, List<Int>>()
@@ -194,7 +194,7 @@ fun getTeamIds(
         databaseConnection.userName,
         databaseConnection.password
     ).use { conn ->
-        val context = DSL.using(conn, dialect)
+        val context = DSL.using(conn, databaseConnection.dialect)
 
         for (t in teams) {
             val ids = mutableListOf<Int>()
@@ -210,10 +210,33 @@ fun getTeamIds(
             }
             teamNameAndIds[team] = ids
         }
-
     }
 
+    val caTeamIds = teams.flatMap { it.excludeTeamIds }
+
+    val teamsIds: List<Int> = convertCaTeamIdsToTeamIds(caTeamIds, databaseConnection)
+
+    teamNameAndIds.forEach { (team, ids) ->
+        val updatedIds = ids.filter { !teamsIds.contains(it) }
+        teamNameAndIds[team] = updatedIds
+    }
     return teamNameAndIds
+}
+
+fun convertCaTeamIdsToTeamIds(caTeamIds: List<Int>, databaseConnection: DatabaseConnection): List<Int> {
+    DriverManager.getConnection(
+        databaseConnection.connectionString,
+        databaseConnection.userName,
+        databaseConnection.password
+    ).use { conn ->
+        val context = DSL.using(conn, databaseConnection.dialect)
+
+        return context.select(TEAMS.ID)
+            .from(TEAMS)
+            .where(TEAMS.TEAMID.`in`(caTeamIds))
+            .fetch()
+            .getValues(TEAMS.ID, Int::class.java)
+    }
 }
 
 fun getTeamIdsFrom(context: DSLContext, team: String, matchType: String, country: String?): List<Int> {

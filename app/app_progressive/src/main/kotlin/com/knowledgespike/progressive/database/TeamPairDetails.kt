@@ -41,10 +41,10 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
             matchSubType
         )
         bestFoW[0].putAll(
-            teamRecords.getProgressivePartnershipRecordsForAll(teamParamA, overall)
+            teamRecords.getProgressivePartnershipRecordsForSelectedTeamVsAllTeams(teamParamA, overall)
         )
         bestFoW[1].putAll(
-            teamRecords.getProgressivePartnershipRecordsVsAll(teamParamB, overall)
+            teamRecords.getProgressivePartnershipRecordsForAllTeamsVsSelectedTeam(teamParamB, overall)
         )
 
     }
@@ -77,28 +77,28 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
 
         val teamRecords = TeamRecords(connection)
         highestScores[0].addAll(
-            teamRecords.getHighestTotalsForAll(
+            teamRecords.getHighestTotalsForSelectedTeamVsAllTeams(
                 teamParamA,
                 overall
             )
         )
 
         highestScores[1].addAll(
-            teamRecords.getHighestTotalsVsAll(
+            teamRecords.getHighestTotalsForAllTeamsVsSelectedTeam(
                 teamParamB,
                 overall
             )
         )
 
         lowestAllOutScores[0].addAll(
-            teamRecords.getLowestAllOutTotalsForAll(
+            teamRecords.getLowestAllOutTotalsForSelectedTeamVsAllTeams(
                 teamParamA,
                 overall
             )
         )
 
         lowestAllOutScores[1].addAll(
-            teamRecords.getLowestAllOutTotalsVsAll(
+            teamRecords.getLowestAllOutTotalsForAllTeamsVsSelectedTeam(
                 teamParamB,
                 overall
             )
@@ -136,27 +136,27 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         val teamRecords = TeamRecords(connection)
 
         highestIndividualScore[0].addAll(
-            teamRecords.getHighestIndividualScoresForAll(teamParamA,overall)
+            teamRecords.getHighestIndividualScoresForSelectedTeamVsAllTeams(teamParamA,overall)
         )
 
         highestIndividualScore[1].addAll(
-            teamRecords.getHighestIndividualScoresVsAll(teamParamB,overall)
+            teamRecords.getHighestIndividualScoresForAllTeamsVsSelectedTeam(teamParamB,overall)
         )
 
         bestBowlingInnings[0].addAll(
-            teamRecords.getBestBowlingInningsForAll(teamParamA,overall)
+            teamRecords.getBestBowlingInningsForSelectedTeamVsAllTeams(teamParamA,overall)
         )
 
         bestBowlingInnings[1].addAll(
-            teamRecords.getBestBowlingInningsVsAll(teamParamB,overall)
+            teamRecords.getBestBowlingInningsForAllTeamsVsSelectedTeam(teamParamB,overall)
         )
 
         bestBowlingMatch[0].addAll(
-            teamRecords.getBestBowlingMatchForAll(teamParamA,overall)
+            teamRecords.getBestBowlingMatchForSelectedTeamVsAllTeams(teamParamA,overall)
         )
 
         bestBowlingMatch[1].addAll(
-            teamRecords.getBestBowlingMatchVsAll(teamParamB,overall)
+            teamRecords.getBestBowlingMatchForAllTeamsVsSelectedTeam(teamParamB,overall)
         )
 
     }

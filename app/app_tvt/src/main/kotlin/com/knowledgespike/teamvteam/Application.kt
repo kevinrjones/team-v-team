@@ -139,8 +139,7 @@ class Application {
                                 databaseConnection,
                                 competitionWithSortedTeams.teams,
                                 competitionWithSortedTeams.country,
-                                matchSubType,
-                                dialect
+                                matchSubType
                             )
 
                         val opponentsForTeam = mutableMapOf<String, TeamNameToIds>()
@@ -150,8 +149,7 @@ class Application {
                                     databaseConnection,
                                     it.opponents,
                                     competitionWithSortedTeams.country,
-                                    matchSubType,
-                                    dialect
+                                    matchSubType
                                 )
                             opponentsForTeam[it.team] = opponents
                         }

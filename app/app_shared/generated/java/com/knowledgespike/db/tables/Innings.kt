@@ -132,6 +132,11 @@ open class Innings(
     val COMPLETE: TableField<InningsRecord, Byte?> = createField(DSL.name("Complete"), SQLDataType.TINYINT.nullable(false), this, "")
 
     /**
+     * The column <code>cricketarchive.Innings.SyntheticTotal</code>.
+     */
+    val SYNTHETICTOTAL: TableField<InningsRecord, Double?> = createField(DSL.name("SyntheticTotal"), SQLDataType.DOUBLE.nullable(false), this, "")
+
+    /**
      * The column <code>cricketarchive.Innings.Minutes</code>.
      */
     val MINUTES: TableField<InningsRecord, Int?> = createField(DSL.name("Minutes"), SQLDataType.INTEGER.nullable(false), this, "")

@@ -359,7 +359,7 @@ open class Matches(
     override fun getIdentity(): Identity<MatchesRecord, Int?> = super.getIdentity() as Identity<MatchesRecord, Int?>
     override fun getPrimaryKey(): UniqueKey<MatchesRecord> = KEY_MATCHES_PRIMARY
     override fun getUniqueKeys(): List<UniqueKey<MatchesRecord>> = listOf(KEY_MATCHES_CAID)
-    override fun getReferences(): List<ForeignKey<MatchesRecord, *>> = listOf(MATCHES_IBFK_1, MATCHES_IBFK_2, MATCHES_IBFK_6, MATCHES_IBFK_3, MATCHES_IBFK_4, MATCHES_IBFK_5)
+    override fun getReferences(): List<ForeignKey<MatchesRecord, *>> = listOf(MATCHES_IBFK_1, MATCHES_IBFK_2, MATCHES_IBFK_3, MATCHES_IBFK_4, MATCHES_IBFK_5, MATCHES_IBFK_6)
 
     private lateinit var _matchesIbfk_1: TeamsPath
 
@@ -392,22 +392,6 @@ open class Matches(
 
     val matchesIbfk_2: TeamsPath
         get(): TeamsPath = matchesIbfk_2()
-
-    private lateinit var _grounds: GroundsPath
-
-    /**
-     * Get the implicit join path to the <code>cricketarchive.Grounds</code>
-     * table.
-     */
-    fun grounds(): GroundsPath {
-        if (!this::_grounds.isInitialized)
-            _grounds = GroundsPath(this, MATCHES_IBFK_6, null)
-
-        return _grounds;
-    }
-
-    val grounds: GroundsPath
-        get(): GroundsPath = grounds()
 
     private lateinit var _matchesIbfk_3: TeamsPath
 
@@ -456,6 +440,22 @@ open class Matches(
 
     val matchesIbfk_5: TeamsPath
         get(): TeamsPath = matchesIbfk_5()
+
+    private lateinit var _grounds: GroundsPath
+
+    /**
+     * Get the implicit join path to the <code>cricketarchive.Grounds</code>
+     * table.
+     */
+    fun grounds(): GroundsPath {
+        if (!this::_grounds.isInitialized)
+            _grounds = GroundsPath(this, MATCHES_IBFK_6, null)
+
+        return _grounds;
+    }
+
+    val grounds: GroundsPath
+        get(): GroundsPath = grounds()
 
     private lateinit var _battingdetails: BattingdetailsPath
 

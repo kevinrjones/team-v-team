@@ -1,6 +1,6 @@
 [
     {
-        "title": "First-Class",
+        "title": "First/Class",
         "countryForTitle": "South African",
         "country": "South Africa",
         "gender": "Men's",
@@ -16,6 +16,9 @@
             },
             {
                 "team": "Eastern Province",
+                "excludeTeamIds": [
+                    3400
+                ],
                 "duplicates": []
             },
             {
@@ -32,20 +35,25 @@
             },
             {
                 "team": "Gauteng",
+                "excludeTeamIds": [
+                    3402
+                ],
                 "duplicates": [
                     "Transvaal"
                 ]
             },
             {
-                "team": "KwaZulu-Natal Coastal",
+                "team": "KwaZulu/Natal Coastal",
+                "excludeTeamIds": [
+                    3401
+                ],
                 "duplicates": [
-                    "Dolphins",
-                    "KwaZulu-Natal",
+                    "KwaZulu/Natal",
                     "Natal"
                 ]
             },
             {
-                "team": "KwaZulu-Natal Inland",
+                "team": "KwaZulu/Natal Inland",
                 "duplicates": []
             },
             {
@@ -82,16 +90,21 @@
             },
             {
                 "team": "Western Province",
+                "excludeTeamIds": [
+                    3403
+                ],
                 "duplicates": []
             }
         ],
         "subType": "f",
         "outputDirectory": "sa_domestic",
         "extraMessages": [
-            "Performances involving KwaZulu-Natal Coastal include those involving Natal between 1889/90 and 1997/98",
-            "Performances involving KwaZulu-Natal Coastal include those involving KwaZulu-Natal between 1998/99 and 2018/19",
-            "Performances involving KwaZulu-Natal Coastal include those involving Dolphins between 2005/05 and 2021/21",
-            "Performances involving Northerns include those involving North Eastern Transvaal between 1937-38 and 1970-71",
+            "Performances involving Easterns include those involving Eastern Transvaal between 1991/92 and 1994/95",
+            "Performances involving Free State include those involving Orange Free State between 1903/04 and 1994/95",
+            "Performances involving Gauteng include those involving Transvaal between 1889/90 and 1997/98",
+            "Performances involving KwaZulu/Natal Coastal include those involving Natal between 1889/90 and 1997/98",
+            "Performances involving KwaZulu/Natal Coastal include those involving KwaZulu/Natal between 1998/99 and 2018/19",
+            "Performances involving Northerns include those involving North Eastern Transvaal between 1937/38 and 1970/71",
             "Performances involving Northerns include those involving Northern Transvaal between 1971/72 and 1996/97",
             "Performances involving Northern Cape include those involving Kimberley between 1889/90 and 1890/91",
             "Performances involving Northern Cape include those involving Griqualand West between 1890/91 and 2014/15",

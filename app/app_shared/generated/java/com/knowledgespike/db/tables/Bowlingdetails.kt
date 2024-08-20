@@ -295,7 +295,7 @@ open class Bowlingdetails(
     override fun getIndexes(): List<Index> = listOf(BOWLINGDETAILS_BALLS, BOWLINGDETAILS_DOTS, BOWLINGDETAILS_FOURS, BOWLINGDETAILS_GROUNDID, BOWLINGDETAILS_MAIDENS, BOWLINGDETAILS_MATCHID, BOWLINGDETAILS_MATCHTYPE, BOWLINGDETAILS_NOBALLS, BOWLINGDETAILS_OPPONENTSID, BOWLINGDETAILS_PLAYERID, BOWLINGDETAILS_RUNS, BOWLINGDETAILS_SIXES, BOWLINGDETAILS_TEAMID, BOWLINGDETAILS_WICKETS, BOWLINGDETAILS_WIDES)
     override fun getIdentity(): Identity<BowlingdetailsRecord, Int?> = super.getIdentity() as Identity<BowlingdetailsRecord, Int?>
     override fun getPrimaryKey(): UniqueKey<BowlingdetailsRecord> = KEY_BOWLINGDETAILS_PRIMARY
-    override fun getReferences(): List<ForeignKey<BowlingdetailsRecord, *>> = listOf(BOWLINGDETAILS_IBFK_1, BOWLINGDETAILS_IBFK_5, BOWLINGDETAILS_IBFK_2, BOWLINGDETAILS_IBFK_3, BOWLINGDETAILS_IBFK_4)
+    override fun getReferences(): List<ForeignKey<BowlingdetailsRecord, *>> = listOf(BOWLINGDETAILS_IBFK_1, BOWLINGDETAILS_IBFK_2, BOWLINGDETAILS_IBFK_3, BOWLINGDETAILS_IBFK_4, BOWLINGDETAILS_IBFK_5)
 
     private lateinit var _matches: MatchesPath
 
@@ -312,22 +312,6 @@ open class Bowlingdetails(
 
     val matches: MatchesPath
         get(): MatchesPath = matches()
-
-    private lateinit var _grounds: GroundsPath
-
-    /**
-     * Get the implicit join path to the <code>cricketarchive.Grounds</code>
-     * table.
-     */
-    fun grounds(): GroundsPath {
-        if (!this::_grounds.isInitialized)
-            _grounds = GroundsPath(this, BOWLINGDETAILS_IBFK_5, null)
-
-        return _grounds;
-    }
-
-    val grounds: GroundsPath
-        get(): GroundsPath = grounds()
 
     private lateinit var _players: PlayersPath
 
@@ -376,6 +360,22 @@ open class Bowlingdetails(
 
     val bowlingdetailsIbfk_4: TeamsPath
         get(): TeamsPath = bowlingdetailsIbfk_4()
+
+    private lateinit var _grounds: GroundsPath
+
+    /**
+     * Get the implicit join path to the <code>cricketarchive.Grounds</code>
+     * table.
+     */
+    fun grounds(): GroundsPath {
+        if (!this::_grounds.isInitialized)
+            _grounds = GroundsPath(this, BOWLINGDETAILS_IBFK_5, null)
+
+        return _grounds;
+    }
+
+    val grounds: GroundsPath
+        get(): GroundsPath = grounds()
     override fun `as`(alias: String): Bowlingdetails = Bowlingdetails(DSL.name(alias), this)
     override fun `as`(alias: Name): Bowlingdetails = Bowlingdetails(alias, this)
     override fun `as`(alias: Table<*>): Bowlingdetails = Bowlingdetails(alias.qualifiedName, this)

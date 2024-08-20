@@ -34,7 +34,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 .`as`(
                     select(
                         INNINGS.TOTAL,
-                        INNINGS.TOTAL.add((INNINGS.WICKETS.cast(Float::class.java).div(10))).`as`("synth"),
+                        INNINGS.SYNTHETICTOTAL.`as`("synth"),
+//                        INNINGS.TOTAL.add((INNINGS.WICKETS.cast(Float::class.java).div(10))).`as`("synth"),
                         INNINGS.WICKETS,
                         INNINGS.DECLARED,
                         INNINGS.INNINGSORDER,
@@ -71,7 +72,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         max(field("total")).over()
-                            .orderBy(field("matchstartdateasoffset", field("inningsorder")))
+                            .orderBy(
+                                field("matchstartdateasoffset"),
+                                field("inningsorder")
+                            )
                             .rowsBetweenUnboundedPreceding().andCurrentRow()
                             .`as`("premax")
                     ).from("cte")
@@ -169,7 +173,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         min(field("total")).over()
-                            .orderBy(field("matchstartdateasoffset", field("inningsorder")))
+                            .orderBy(
+                                field("matchstartdateasoffset"),
+                                field("inningsorder")
+                            )
                             .rowsBetweenUnboundedPreceding().andCurrentRow()
                             .`as`("premax")
                     ).from("cte")
@@ -274,7 +281,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         max(field("notoutadjustedscore")).over()
-                            .orderBy(field("matchstartdateasoffset"), field("inningsorder"), field("position"))
+                            .orderBy(
+                                field("matchstartdateasoffset"),
+                                field("inningsorder"),
+                                field("position")
+                            )
                             .rowsBetweenUnboundedPreceding().andCurrentRow()
                             .`as`("premax")
                     ).from("cte")
@@ -428,7 +439,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestBowling
     }
 
-    fun getBestBowlingInningsForAll(teamParams: TeamParams, overall: Boolean): List<BestBowlingDto> {
+    fun getBestBowlingInningsForSelectedTeamVsAllTeams(teamParams: TeamParams, overall: Boolean): List<BestBowlingDto> {
 
         val bestBowling = mutableListOf<BestBowlingDto>()
 
@@ -445,11 +456,12 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 )
             )
             .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
             .and(BOWLINGDETAILS.WICKETS.ge(VS_ALL_WICKET_LIMIT))
+            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
 
         if (!overall)
             whereClause = whereClause.and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -548,7 +560,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestBowling
     }
 
-    fun getBestBowlingInningsVsAll(teamParams: TeamParams, overall: Boolean): List<BestBowlingDto> {
+    fun getBestBowlingInningsForAllTeamsVsSelectedTeam(teamParams: TeamParams, overall: Boolean): List<BestBowlingDto> {
 
         val bestBowling = mutableListOf<BestBowlingDto>()
 
@@ -565,11 +577,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 )
             )
             .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
             .and(BOWLINGDETAILS.WICKETS.ge(VS_ALL_WICKET_LIMIT))
+            .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         if (!overall)
-            whereClause = whereClause.and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -694,6 +706,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         BOWLINGDETAILS.matches.BALLSPEROVER,
                         BOWLINGDETAILS.matches.LOCATION,
                         BOWLINGDETAILS.matches.SERIESDATE,
+                        BOWLINGDETAILS.matches.MATCHSTARTDATE,
                         BOWLINGDETAILS.matches.MATCHSTARTDATEASOFFSET,
                         rowNumber().over().partitionBy(BOWLINGDETAILS.MATCHID, BOWLINGDETAILS.PLAYERID).orderBy(
                             BOWLINGDETAILS.PLAYERID
@@ -762,6 +775,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("fullname"),
                         field("sortnamepart"),
                         field("seriesdate"),
+                        field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         field("location"),
                         field("ballsperover"),
@@ -773,7 +787,6 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         max(field("syntheticbestbowling")).over()
                             .orderBy(
                                 field("matchstartdateasoffset"),
-                                field("inningsorder"),
                                 field("syntheticbestbowling").desc()
                             )
                             .rowsBetweenUnboundedPreceding().andCurrentRow().`as`("premax")
@@ -789,22 +802,27 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 val result = query.fetch()
 
                 var previous = 0.0
-                for (r in result) {
+                for (row in result) {
 
-                    val current = r.getValue("SyntheticBestBowling", Double::class.java)
+                    val current = row.getValue("SyntheticBestBowling", Double::class.java)
                     // want only one but there may be multiple scores with the same value
                     if (previous <= current) {
+                        val date = row.getValue("matchstartdate", String::class.java)
+                        val dateTime = java.time.LocalDate.parse(date, inputFormatter)
+                        val matchDate = dateTime.format(outputFormatter)
+
+
                         val bb = BestBowlingDto(
-                            r.getValue("fullname", String::class.java),
+                            row.getValue("fullname", String::class.java),
                             teamParams.team,
                             teamParams.opponents,
-                            r.getValue("ballsperover", Int::class.java),
-                            r.getValue("balls", Int::class.java),
-                            r.getValue("maidens", Int::class.java),
-                            r.getValue("wickets", Int::class.java),
-                            r.getValue("runs", Int::class.java),
-                            r.getValue("location").toString(),
-                            r.getValue("seriesdate").toString()
+                            row.getValue("ballsperover", Int::class.java),
+                            row.getValue("balls", Int::class.java),
+                            row.getValue("maidens", Int::class.java),
+                            row.getValue("wickets", Int::class.java),
+                            row.getValue("runs", Int::class.java),
+                            row.getValue("location").toString(),
+                            matchDate
                         )
                         bestBowling.add(bb)
                     } else {
@@ -913,7 +931,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestFow
     }
 
-    fun getProgressivePartnershipRecordsForAll(teamParams: TeamParams, overall: Boolean): Map<Int, FowDetails> {
+    fun getProgressivePartnershipRecordsForSelectedTeamVsAllTeams(
+        teamParams: TeamParams,
+        overall: Boolean,
+    ): Map<Int, FowDetails> {
 
         val partnershipLimit = 0
         val matchStartDateAsOffset = -9999999999L
@@ -928,7 +949,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             val context = using(conn, databaseConnection.dialect)
 
             val tmpTableName = "tmp_partnerships"
-            createTemporaryFoWTable(context, tmpTableName, teamParams, overall)
+            createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, true)
 
             try {
                 for (wicket in 1..10) {
@@ -1007,7 +1028,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestFow
     }
 
-    fun getProgressivePartnershipRecordsVsAll(teamParams: TeamParams, overall: Boolean): Map<Int, FowDetails> {
+    fun getProgressivePartnershipRecordsForAllTeamsVsSelectedTeam(
+        teamParams: TeamParams,
+        overall: Boolean,
+    ): Map<Int, FowDetails> {
 
         val partnershipLimit = 0
         val matchStartDateAsOffset = -9999999999L
@@ -1022,7 +1046,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             val context = using(conn, databaseConnection.dialect)
 
             val tmpTableName = "tmp_partnerships"
-            createTemporaryFoWTable(context, tmpTableName, teamParams, overall)
+            createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, false)
 
             try {
                 for (wicket in 1..10) {
@@ -1157,13 +1181,170 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     field("notout2"),
                     field("position2"),
                     max(field("partnership")).over()
-                        .orderBy(field("matchstartdateasoffset"), field("inningsorder"))
+                        .orderBy(
+                            field("matchstartdateasoffset"),
+                            field("inningsorder")
+                        )
                         .rowsBetweenUnboundedPreceding().andCurrentRow()
                         .`as`("premax")
                 )
                     .from("cte")
             )
         return query
+    }
+
+    private fun createTemporaryFoWTableAllTeams(
+        context: DSLContext,
+        tmpTableName: String,
+        teamParams: TeamParams,
+        overall: Boolean,
+        vsAll: Boolean,
+    ) {
+
+        var whereClause = (PARTNERSHIPS.matches.MATCHTYPE.eq(teamParams.matchType))
+            .and(
+                PARTNERSHIPS.matches.ID.`in`(
+                    select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                teamParams.matchSubType
+                            )
+                        )
+                    )
+                )
+            )
+            .and(PARTNERSHIPS.MATCHTYPE.notIn(internationalMatchTypes))
+            .and(PARTNERSHIPS.MULTIPLE.eq(0))
+
+        if (vsAll) {
+            whereClause = whereClause.and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds))
+            if (!overall)
+                whereClause = whereClause.and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds))
+        } else {
+            whereClause = whereClause.and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds))
+            if (!overall)
+                whereClause = whereClause.and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds))
+        }
+
+        context.createTemporaryTable(tmpTableName).`as`(
+            select(
+                PARTNERSHIPS.matches.ID.`as`("matchid"),
+                PARTNERSHIPS.PLAYERIDS,
+                PARTNERSHIPS.TEAMID,
+                PARTNERSHIPS.OPPONENTSID,
+                PARTNERSHIPS.WICKET,
+                PARTNERSHIPS.INNINGSORDER,
+                PARTNERSHIPS.PARTNERSHIP,
+                PARTNERSHIPS.UNBROKEN,
+                PARTNERSHIPS.PLAYERNAMES,
+                PARTNERSHIPS.matches.LOCATION,
+                PARTNERSHIPS.matches.MATCHSTARTDATE,
+                PARTNERSHIPS.matches.MATCHSTARTDATEASOFFSET,
+                PLAYERSMATCHES.FULLNAME,
+                BATTINGDETAILS.SCORE,
+                BATTINGDETAILS.NOTOUT,
+                BATTINGDETAILS.POSITION,
+                lead(PLAYERSMATCHES.FULLNAME).over()
+                    .partitionBy(
+                        PARTNERSHIPS.matches.ID,
+                        PARTNERSHIPS.TEAMID,
+                        PARTNERSHIPS.INNINGSORDER,
+                        PARTNERSHIPS.WICKET,
+                        PARTNERSHIPS.PLAYERIDS
+                    ).orderBy(
+                        PARTNERSHIPS.matches.ID,
+                        PARTNERSHIPS.TEAMID,
+                        PARTNERSHIPS.INNINGSORDER,
+                        PARTNERSHIPS.WICKET,
+                        PARTNERSHIPS.PLAYERIDS
+                    )
+                    .`as`("fullname2"),
+                lead(BATTINGDETAILS.SCORE).over()
+                    .partitionBy(
+                        PARTNERSHIPS.matches.ID,
+                        PARTNERSHIPS.TEAMID,
+                        PARTNERSHIPS.INNINGSORDER,
+                        PARTNERSHIPS.WICKET,
+                        PARTNERSHIPS.PLAYERIDS
+                    ).orderBy(
+                        PARTNERSHIPS.matches.ID,
+                        PARTNERSHIPS.TEAMID,
+                        PARTNERSHIPS.INNINGSORDER,
+                        PARTNERSHIPS.WICKET,
+                        PARTNERSHIPS.PLAYERIDS
+                    )
+                    .`as`("score2"),
+                lead(BATTINGDETAILS.NOTOUT).over()
+                    .partitionBy(
+                        PARTNERSHIPS.matches.ID,
+                        PARTNERSHIPS.TEAMID,
+                        PARTNERSHIPS.INNINGSORDER,
+                        PARTNERSHIPS.WICKET,
+                        PARTNERSHIPS.PLAYERIDS
+                    ).orderBy(
+                        PARTNERSHIPS.matches.ID,
+                        PARTNERSHIPS.TEAMID,
+                        PARTNERSHIPS.INNINGSORDER,
+                        PARTNERSHIPS.WICKET,
+                        PARTNERSHIPS.PLAYERIDS
+                    )
+                    .`as`("notout2"),
+                lead(BATTINGDETAILS.POSITION).over()
+                    .partitionBy(
+                        PARTNERSHIPS.matches.ID,
+                        PARTNERSHIPS.TEAMID,
+                        PARTNERSHIPS.INNINGSORDER,
+                        PARTNERSHIPS.WICKET,
+                        PARTNERSHIPS.PLAYERIDS
+                    ).orderBy(
+                        PARTNERSHIPS.matches.ID,
+                        PARTNERSHIPS.TEAMID,
+                        PARTNERSHIPS.INNINGSORDER,
+                        PARTNERSHIPS.WICKET,
+                        PARTNERSHIPS.PLAYERIDS
+                    )
+                    .`as`("position2"),
+                rowNumber().over()
+                    .partitionBy(
+                        PARTNERSHIPS.matches.ID,
+                        PARTNERSHIPS.TEAMID,
+                        PARTNERSHIPS.INNINGSORDER,
+                        PARTNERSHIPS.WICKET,
+                        PARTNERSHIPS.PLAYERIDS
+                    ).orderBy(
+                        PARTNERSHIPS.matches.ID,
+                        PARTNERSHIPS.TEAMID,
+                        PARTNERSHIPS.INNINGSORDER,
+                        PARTNERSHIPS.WICKET,
+                        PARTNERSHIPS.PLAYERIDS
+                    )
+                    .`as`("rn"),
+            )
+                .from(PARTNERSHIPS)
+                .join(MATCHES).on(PARTNERSHIPS.MATCHID.eq(MATCHES.ID))
+                .leftOuterJoin(PARTNERSHIPSPLAYERS).on(PARTNERSHIPSPLAYERS.PARTNERSHIPID.eq(PARTNERSHIPS.ID))
+                .leftOuterJoin(PLAYERSMATCHES).on(
+                    PLAYERSMATCHES.PLAYERID.eq(PARTNERSHIPSPLAYERS.PLAYERID).and(
+                        PLAYERSMATCHES.MATCHID.eq(PARTNERSHIPS.matches.ID).and(PLAYERSMATCHES.PLAYERID.ne(1))
+                    )
+                )
+                .leftOuterJoin(BATTINGDETAILS).on(
+                    BATTINGDETAILS.MATCHID.eq(PARTNERSHIPS.matches.ID).and(
+                        BATTINGDETAILS.PLAYERID.eq(
+                            PARTNERSHIPSPLAYERS.PLAYERID
+                        ).and(BATTINGDETAILS.INNINGSORDER.eq(PARTNERSHIPS.INNINGSORDER))
+                    )
+                )
+                .where(whereClause)
+                .orderBy(
+                    PARTNERSHIPS.WICKET,
+                    PARTNERSHIPS.PARTNERSHIP.desc(),
+                    PARTNERSHIPS.UNBROKEN.desc(),
+                    PARTNERSHIPS.matches.ID,
+                    field("fullname2").desc(),
+                    PLAYERSMATCHES.FULLNAME.desc(),
+                )
+        ).withData().execute()
     }
 
     private fun createTemporaryFoWTable(
@@ -1186,8 +1367,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 )
             )
             .and(PARTNERSHIPS.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds))
             .and(PARTNERSHIPS.MULTIPLE.eq(0))
+            .and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds))
 
         if (!(overall && teamParams.opponents.lowercase() == "all"))
             whereClause = whereClause.and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds))
@@ -1313,7 +1494,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         ).withData().execute()
     }
 
-    fun getHighestTotalsForAll(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
+    fun getHighestTotalsForSelectedTeamVsAllTeams(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
 
         DriverManager.getConnection(
@@ -1345,14 +1526,16 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 .`as`(
                     select(
                         INNINGS.TOTAL,
-                        INNINGS.TOTAL.add((INNINGS.WICKETS.cast(Float::class.java).div(10))).`as`("synth"),
+                        INNINGS.SYNTHETICTOTAL.`as`("synth"),
+//                        INNINGS.TOTAL.add((INNINGS.WICKETS.cast(Float::class.java).div(10))).`as`("synth"),
                         INNINGS.WICKETS,
                         INNINGS.DECLARED,
                         INNINGS.INNINGSORDER,
                         INNINGS.matches.LOCATION,
                         INNINGS.matches.MATCHSTARTDATE,
                         INNINGS.matches.MATCHSTARTDATEASOFFSET,
-                        INNINGS.OPPONENTSID
+                        INNINGS.OPPONENTSID,
+                        INNINGS.TEAMID,
                     )
                         .from(INNINGS)
                         .join(MATCHES).on(INNINGS.MATCHID.eq(MATCHES.ID))
@@ -1364,12 +1547,16 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("wickets"),
                         field("declared"),
                         field("inningsorder"),
+                        field("TeamId"),
                         field("OpponentsId"),
                         field("location"),
                         field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         max(field("total")).over()
-                            .orderBy(field("matchstartdateasoffset", field("inningsorder")))
+                            .orderBy(
+                                field("matchstartdateasoffset"),
+                                field("inningsorder")
+                            )
                             .rowsBetweenUnboundedPreceding().andCurrentRow()
                             .`as`("premax")
                     ).from("cte")
@@ -1414,7 +1601,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return highestTotals
     }
 
-    fun getHighestTotalsVsAll(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
+    fun getHighestTotalsForAllTeamsVsSelectedTeam(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
 
         var whereClause = (
@@ -1429,10 +1616,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 )
                 )
             .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
+            .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         if (!overall)
-            whereClause = whereClause.and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(INNINGS.TEAMID.`in`(teamParams.teamIds))
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -1445,14 +1632,16 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 .`as`(
                     select(
                         INNINGS.TOTAL,
-                        INNINGS.TOTAL.add((INNINGS.WICKETS.cast(Float::class.java).div(10))).`as`("synth"),
+                        INNINGS.SYNTHETICTOTAL.`as`("synth"),
+//                        INNINGS.TOTAL.add((INNINGS.WICKETS.cast(Float::class.java).div(10))).`as`("synth"),
                         INNINGS.WICKETS,
                         INNINGS.DECLARED,
                         INNINGS.INNINGSORDER,
                         INNINGS.matches.LOCATION,
                         INNINGS.matches.MATCHSTARTDATE,
                         INNINGS.matches.MATCHSTARTDATEASOFFSET,
-                        INNINGS.TEAMID
+                        INNINGS.TEAMID,
+                        INNINGS.OPPONENTSID,
                     )
                         .from(INNINGS)
                         .join(MATCHES).on(INNINGS.MATCHID.eq(MATCHES.ID))
@@ -1465,11 +1654,15 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("declared"),
                         field("inningsorder"),
                         field("TeamId"),
+                        field("OpponentsId"),
                         field("location"),
                         field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         max(field("total")).over()
-                            .orderBy(field("matchstartdateasoffset", field("inningsorder")))
+                            .orderBy(
+                                field("matchstartdateasoffset"),
+                                field("inningsorder")
+                            )
                             .rowsBetweenUnboundedPreceding().andCurrentRow()
                             .`as`("premax")
                     ).from("cte")
@@ -1514,7 +1707,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return highestTotals
     }
 
-    fun getLowestAllOutTotalsForAll(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
+    fun getLowestAllOutTotalsForSelectedTeamVsAllTeams(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
 
         var whereClause = (INNINGS.COMPLETE.eq(1))
@@ -1568,7 +1761,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         min(field("total")).over()
-                            .orderBy(field("matchstartdateasoffset", field("inningsorder")))
+                            .orderBy(
+                                field("matchstartdateasoffset"),
+                                field("inningsorder")
+                            )
                             .rowsBetweenUnboundedPreceding().andCurrentRow()
                             .`as`("premax")
                     ).from("cte")
@@ -1613,7 +1809,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return lowestTotals
     }
 
-    fun getLowestAllOutTotalsVsAll(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
+    fun getLowestAllOutTotalsForAllTeamsVsSelectedTeam(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
 
         var whereClause = (INNINGS.COMPLETE.eq(1))
@@ -1629,10 +1825,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 )
             )
             .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
+            .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         if (!overall)
-            whereClause = whereClause.and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(INNINGS.TEAMID.`in`(teamParams.teamIds))
+
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -1667,7 +1864,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         min(field("total")).over()
-                            .orderBy(field("matchstartdateasoffset", field("inningsorder")))
+                            .orderBy(
+                                field("matchstartdateasoffset"),
+                                field("inningsorder")
+                            )
                             .rowsBetweenUnboundedPreceding().andCurrentRow()
                             .`as`("premax")
                     ).from("cte")
@@ -1712,11 +1912,13 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return lowestTotals
     }
 
-    fun getHighestIndividualScoresForAll(teamParams: TeamParams, overall: Boolean): Collection<HighestScoreDto> {
+    fun getHighestIndividualScoresForSelectedTeamVsAllTeams(
+        teamParams: TeamParams,
+        overall: Boolean,
+    ): Collection<HighestScoreDto> {
         val highestscores = mutableListOf<HighestScoreDto>()
 
-        var whereClause = (BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
-            .and(BATTINGDETAILS.SCORE.isNotNull)
+        var whereClause = BATTINGDETAILS.SCORE.isNotNull
             .and(BATTINGDETAILS.SCORE.ge(VS_ALL_SCORE_LIMIT))
             .and(BATTINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
             .and(
@@ -1731,6 +1933,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 )
             )
             .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+            .and(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
 
         if (!overall)
             whereClause = whereClause.and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
@@ -1778,7 +1981,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         max(field("notoutadjustedscore")).over()
-                            .orderBy(field("matchstartdateasoffset"), field("inningsorder"), field("position"))
+                            .orderBy(
+                                field("matchstartdateasoffset"),
+                                field("inningsorder"),
+                                field("position")
+                            )
                             .rowsBetweenUnboundedPreceding().andCurrentRow()
                             .`as`("premax")
                     ).from("cte")
@@ -1821,11 +2028,13 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     }
 
 
-    fun getHighestIndividualScoresVsAll(teamParams: TeamParams, overall: Boolean): Collection<HighestScoreDto> {
+    fun getHighestIndividualScoresForAllTeamsVsSelectedTeam(
+        teamParams: TeamParams,
+        overall: Boolean,
+    ): Collection<HighestScoreDto> {
         val highestscores = mutableListOf<HighestScoreDto>()
 
-        var whereClause = (BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
-            .and(BATTINGDETAILS.SCORE.isNotNull)
+        var whereClause = BATTINGDETAILS.SCORE.isNotNull
             .and(BATTINGDETAILS.SCORE.ge(VS_ALL_SCORE_LIMIT))
             .and(BATTINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
             .and(
@@ -1840,9 +2049,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 )
             )
             .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
+            .and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         if (!overall)
-            whereClause = whereClause.and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
 
         DriverManager.getConnection(
             databaseConnection.connectionString,
@@ -1887,7 +2097,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         max(field("notoutadjustedscore")).over()
-                            .orderBy(field("matchstartdateasoffset"), field("inningsorder"), field("position"))
+                            .orderBy(
+                                field("matchstartdateasoffset"),
+                                field("inningsorder"),
+                                field("position")
+                            )
                             .rowsBetweenUnboundedPreceding().andCurrentRow()
                             .`as`("premax")
                     ).from("cte")
@@ -1929,7 +2143,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return highestscores
     }
 
-    fun getBestBowlingMatchForAll(teamParams: TeamParams, overall: Boolean): Collection<BestBowlingDto> {
+    fun getBestBowlingMatchForSelectedTeamVsAllTeams(
+        teamParams: TeamParams,
+        overall: Boolean,
+    ): Collection<BestBowlingDto> {
         val bestBowling = mutableListOf<BestBowlingDto>()
 
         val t = TEAMS.`as`("t")
@@ -1972,6 +2189,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         BOWLINGDETAILS.matches.BALLSPEROVER,
                         BOWLINGDETAILS.matches.LOCATION,
                         BOWLINGDETAILS.matches.SERIESDATE,
+                        BOWLINGDETAILS.matches.MATCHSTARTDATE,
                         BOWLINGDETAILS.matches.MATCHSTARTDATEASOFFSET,
                         BOWLINGDETAILS.OPPONENTSID,
                         rowNumber().over().partitionBy(BOWLINGDETAILS.MATCHID, BOWLINGDETAILS.PLAYERID).orderBy(
@@ -2028,6 +2246,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("fullname"),
                         field("sortnamepart"),
                         field("seriesdate"),
+                        field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         field("location"),
                         field("ballsperover"),
@@ -2039,7 +2258,6 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         max(field("syntheticbestbowling")).over()
                             .orderBy(
                                 field("matchstartdateasoffset"),
-                                field("inningsorder"),
                                 field("syntheticbestbowling").desc()
                             )
                             .rowsBetweenUnboundedPreceding().andCurrentRow().`as`("premax")
@@ -2053,6 +2271,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     field("fullname"),
                     field("sortnamepart"),
                     field("seriesdate"),
+                    field("matchstartdate"),
                     field("matchstartdateasoffset"),
                     field("location"),
                     field("ballsperover"),
@@ -2061,7 +2280,6 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     field("wickets"),
                     field("runs"),
                     field("SyntheticBestBowling"),
-                    field("syntheticbestbowling"),
                     field("name")
                 )
                     .from("cte2")
@@ -2072,22 +2290,26 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 val result = query.fetch()
 
                 var previous = 0.0
-                for (r in result) {
+                for (row in result) {
 
-                    val current = r.getValue("SyntheticBestBowling", Double::class.java)
+                    val current = row.getValue("SyntheticBestBowling", Double::class.java)
                     // want only one but there may be multiple scores with the same value
                     if (previous <= current) {
+                        val date = row.getValue("matchstartdate", String::class.java)
+                        val dateTime = java.time.LocalDate.parse(date, inputFormatter)
+                        val matchDate = dateTime.format(outputFormatter)
+
                         val bb = BestBowlingDto(
-                            r.getValue("fullname", String::class.java),
+                            row.getValue("fullname", String::class.java),
                             teamParams.team,
-                            r.getValue("name", String::class.java),
-                            r.getValue("ballsperover", Int::class.java),
-                            r.getValue("balls", Int::class.java),
-                            r.getValue("maidens", Int::class.java),
-                            r.getValue("wickets", Int::class.java),
-                            r.getValue("runs", Int::class.java),
-                            r.getValue("location").toString(),
-                            r.getValue("seriesdate").toString()
+                            row.getValue("name", String::class.java),
+                            row.getValue("ballsperover", Int::class.java),
+                            row.getValue("balls", Int::class.java),
+                            row.getValue("maidens", Int::class.java),
+                            row.getValue("wickets", Int::class.java),
+                            row.getValue("runs", Int::class.java),
+                            row.getValue("location").toString(),
+                            matchDate
                         )
                         bestBowling.add(bb)
                     } else {
@@ -2103,7 +2325,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestBowling
     }
 
-    fun getBestBowlingMatchVsAll(teamParams: TeamParams, overall: Boolean): Collection<BestBowlingDto> {
+    fun getBestBowlingMatchForAllTeamsVsSelectedTeam(
+        teamParams: TeamParams,
+        overall: Boolean,
+    ): Collection<BestBowlingDto> {
         val bestBowling = mutableListOf<BestBowlingDto>()
 
         var whereClause = (BOWLINGDETAILS.MATCHTYPE.eq(teamParams.matchType))
@@ -2119,10 +2344,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 )
             )
             .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+            .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
 
         if (!overall)
-            whereClause = whereClause.and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+
 
         val t = TEAMS.`as`("t")
         val o = TEAMS.`as`("o")
@@ -2146,6 +2372,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         BOWLINGDETAILS.matches.BALLSPEROVER,
                         BOWLINGDETAILS.matches.LOCATION,
                         BOWLINGDETAILS.matches.SERIESDATE,
+                        BOWLINGDETAILS.matches.MATCHSTARTDATE,
                         BOWLINGDETAILS.matches.MATCHSTARTDATEASOFFSET,
                         BOWLINGDETAILS.TEAMID,
                         rowNumber().over().partitionBy(BOWLINGDETAILS.MATCHID, BOWLINGDETAILS.PLAYERID).orderBy(
@@ -2202,6 +2429,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("fullname"),
                         field("sortnamepart"),
                         field("seriesdate"),
+                        field("matchstartdate"),
                         field("matchstartdateasoffset"),
                         field("location"),
                         field("ballsperover"),
@@ -2213,7 +2441,6 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         max(field("syntheticbestbowling")).over()
                             .orderBy(
                                 field("matchstartdateasoffset"),
-                                field("inningsorder"),
                                 field("syntheticbestbowling").desc()
                             )
                             .rowsBetweenUnboundedPreceding().andCurrentRow().`as`("premax")
@@ -2228,6 +2455,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     field("fullname"),
                     field("sortnamepart"),
                     field("seriesdate"),
+                    field("matchstartdate"),
                     field("matchstartdateasoffset"),
                     field("location"),
                     field("ballsperover"),
@@ -2236,7 +2464,6 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     field("wickets"),
                     field("runs"),
                     field("SyntheticBestBowling"),
-                    field("syntheticbestbowling"),
                     field("name")
                 )
                     .from("cte2")
@@ -2247,22 +2474,26 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 val result = query.fetch()
 
                 var previous = 0.0
-                for (r in result) {
+                for (row in result) {
 
-                    val current = r.getValue("SyntheticBestBowling", Double::class.java)
+                    val current = row.getValue("SyntheticBestBowling", Double::class.java)
                     // want only one but there may be multiple scores with the same value
                     if (previous <= current) {
+                        val date = row.getValue("matchstartdate", String::class.java)
+                        val dateTime = java.time.LocalDate.parse(date, inputFormatter)
+                        val matchDate = dateTime.format(outputFormatter)
+
                         val bb = BestBowlingDto(
-                            r.getValue("fullname", String::class.java),
+                            row.getValue("fullname", String::class.java),
                             teamParams.team,
-                            r.getValue("name", String::class.java),
-                            r.getValue("ballsperover", Int::class.java),
-                            r.getValue("balls", Int::class.java),
-                            r.getValue("maidens", Int::class.java),
-                            r.getValue("wickets", Int::class.java),
-                            r.getValue("runs", Int::class.java),
-                            r.getValue("location").toString(),
-                            r.getValue("seriesdate").toString()
+                            row.getValue("name", String::class.java),
+                            row.getValue("ballsperover", Int::class.java),
+                            row.getValue("balls", Int::class.java),
+                            row.getValue("maidens", Int::class.java),
+                            row.getValue("wickets", Int::class.java),
+                            row.getValue("runs", Int::class.java),
+                            row.getValue("location").toString(),
+                            matchDate
                         )
                         bestBowling.add(bb)
                     } else {

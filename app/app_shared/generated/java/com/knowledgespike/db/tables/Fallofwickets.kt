@@ -166,7 +166,7 @@ open class Fallofwickets(
     override fun getIndexes(): List<Index> = listOf(FALLOFWICKETS_MATCHID, FALLOFWICKETS_OPPONENTSID, FALLOFWICKETS_PLAYERID, FALLOFWICKETS_TEAMID)
     override fun getIdentity(): Identity<FallofwicketsRecord, Int?> = super.getIdentity() as Identity<FallofwicketsRecord, Int?>
     override fun getPrimaryKey(): UniqueKey<FallofwicketsRecord> = KEY_FALLOFWICKETS_PRIMARY
-    override fun getReferences(): List<ForeignKey<FallofwicketsRecord, *>> = listOf(FALLOFWICKETS_IBFK_1, FALLOFWICKETS_IBFK_3, FALLOFWICKETS_IBFK_4, FALLOFWICKETS_IBFK_2)
+    override fun getReferences(): List<ForeignKey<FallofwicketsRecord, *>> = listOf(FALLOFWICKETS_IBFK_1, FALLOFWICKETS_IBFK_2, FALLOFWICKETS_IBFK_3, FALLOFWICKETS_IBFK_4)
 
     private lateinit var _matches: MatchesPath
 
@@ -183,6 +183,22 @@ open class Fallofwickets(
 
     val matches: MatchesPath
         get(): MatchesPath = matches()
+
+    private lateinit var _players: PlayersPath
+
+    /**
+     * Get the implicit join path to the <code>cricketarchive.Players</code>
+     * table.
+     */
+    fun players(): PlayersPath {
+        if (!this::_players.isInitialized)
+            _players = PlayersPath(this, FALLOFWICKETS_IBFK_2, null)
+
+        return _players;
+    }
+
+    val players: PlayersPath
+        get(): PlayersPath = players()
 
     private lateinit var _fallofwicketsIbfk_3: TeamsPath
 
@@ -215,22 +231,6 @@ open class Fallofwickets(
 
     val fallofwicketsIbfk_4: TeamsPath
         get(): TeamsPath = fallofwicketsIbfk_4()
-
-    private lateinit var _players: PlayersPath
-
-    /**
-     * Get the implicit join path to the <code>cricketarchive.Players</code>
-     * table.
-     */
-    fun players(): PlayersPath {
-        if (!this::_players.isInitialized)
-            _players = PlayersPath(this, FALLOFWICKETS_IBFK_2, null)
-
-        return _players;
-    }
-
-    val players: PlayersPath
-        get(): PlayersPath = players()
     override fun `as`(alias: String): Fallofwickets = Fallofwickets(DSL.name(alias), this)
     override fun `as`(alias: Name): Fallofwickets = Fallofwickets(alias, this)
     override fun `as`(alias: Table<*>): Fallofwickets = Fallofwickets(alias.qualifiedName, this)
