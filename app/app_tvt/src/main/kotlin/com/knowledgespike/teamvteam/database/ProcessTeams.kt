@@ -12,8 +12,8 @@ import com.knowledgespike.teamvteam.json.getTvTJsonData
 
 
 class ProcessTeams(
-    allTeams: TeamNameToIds,
-    opponentsForTeam: Map<String, TeamNameToIds>,
+    allTeams: TeamNameToValidTeam,
+    opponentsForTeam: Map<String, TeamNameToValidTeam>,
     private val opponentsWithAuthors: Map<String, List<Author>>
 ) {
     val log by LoggerDelegate()
@@ -49,7 +49,8 @@ class ProcessTeams(
                     countryIds,
                     teamsAndOpponents,
                     matchSubType,
-                    overall
+                    overall,
+                    teamsAndOpponents.startFrom
                 )
             if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
                 val teamPairDetails =
@@ -82,13 +83,14 @@ class ProcessTeams(
 
                     val teamParams = getTeamParams(teamsAndOpponents, matchType, matchSubType)
                     log.info("About to process {}", teamParams)
-                    teamPairDetails.addTeamData(databaseConnection, countryIds, teamParams.first, teamParams.second)
+                    teamPairDetails.addTeamData(databaseConnection, countryIds, teamParams.first, teamParams.second, teamsAndOpponents.startFrom)
                     teamPairDetails.addIndividualData(
                         databaseConnection,
                         countryIds,
                         teamParams.first,
                         teamParams.second,
-                        matchType
+                        matchType,
+                        teamsAndOpponents.startFrom
                     )
 
                     val authors1 = opponentsWithAuthors

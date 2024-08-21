@@ -439,7 +439,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestBowling
     }
 
-    fun getBestBowlingInningsForSelectedTeamVsAllTeams(teamParams: TeamParams, overall: Boolean): List<BestBowlingDto> {
+    fun getBestBowlingInningsForSelectedTeamVsAllTeams(
+        teamParams: TeamParams,
+        overall: Boolean,
+        startFrom: Long,
+    ): List<BestBowlingDto> {
 
         val bestBowling = mutableListOf<BestBowlingDto>()
 
@@ -455,6 +459,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(BOWLINGDETAILS.WICKETS.ge(VS_ALL_WICKET_LIMIT))
             .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
@@ -560,7 +565,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestBowling
     }
 
-    fun getBestBowlingInningsForAllTeamsVsSelectedTeam(teamParams: TeamParams, overall: Boolean): List<BestBowlingDto> {
+    fun getBestBowlingInningsForAllTeamsVsSelectedTeam(
+        teamParams: TeamParams,
+        overall: Boolean,
+        startFrom: Long,
+    ): List<BestBowlingDto> {
 
         val bestBowling = mutableListOf<BestBowlingDto>()
 
@@ -576,6 +585,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(BOWLINGDETAILS.WICKETS.ge(VS_ALL_WICKET_LIMIT))
             .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
@@ -838,7 +848,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestBowling
     }
 
-    fun getProgressivePartnershipRecords(teamParams: TeamParams, overall: Boolean): Map<Int, FowDetails> {
+    fun getProgressivePartnershipRecords(
+        teamParams: TeamParams,
+        overall: Boolean,
+        startFrom: Long,
+    ): Map<Int, FowDetails> {
 
         val partnershipLimit = 0
         val matchStartDateAsOffset = -9999999999L
@@ -853,7 +867,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             val context = using(conn, databaseConnection.dialect)
 
             val tmpTableName = "tmp_partnerships"
-            createTemporaryFoWTable(context, tmpTableName, teamParams, overall)
+            createTemporaryFoWTable(context, tmpTableName, teamParams, overall, startFrom)
 
             try {
                 for (wicket in 1..10) {
@@ -882,14 +896,15 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("score2"),
                         field("notout2"),
                         field("position2"),
-//                        field("Name"),
+                        field("previousScore"),
                     )
                         .from("cte2")
                         .where(field("partnership").ge(field("premax")))
                         .orderBy(
                             field("partnership"),
                             field("matchstartdateasoffset"),
-                            field("inningsorder")
+                            field("inningsorder"),
+                            field("previousScore"),
                         )
                         .fetch()
 
@@ -934,6 +949,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getProgressivePartnershipRecordsForSelectedTeamVsAllTeams(
         teamParams: TeamParams,
         overall: Boolean,
+        startFrom: Long,
     ): Map<Int, FowDetails> {
 
         val partnershipLimit = 0
@@ -949,7 +965,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             val context = using(conn, databaseConnection.dialect)
 
             val tmpTableName = "tmp_partnerships"
-            createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, true)
+            createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, true, startFrom)
 
             try {
                 for (wicket in 1..10) {
@@ -978,6 +994,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("score2"),
                         field("notout2"),
                         field("position2"),
+                        field("previousScore"),
                         field("name"),
                     )
                         .from("cte2")
@@ -986,7 +1003,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         .orderBy(
                             field("partnership"),
                             field("matchstartdateasoffset"),
-                            field("inningsorder")
+                            field("inningsorder"),
+                            field("previousScore"),
                         )
                         .fetch()
 
@@ -1031,6 +1049,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getProgressivePartnershipRecordsForAllTeamsVsSelectedTeam(
         teamParams: TeamParams,
         overall: Boolean,
+        startFrom: Long,
     ): Map<Int, FowDetails> {
 
         val partnershipLimit = 0
@@ -1046,7 +1065,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             val context = using(conn, databaseConnection.dialect)
 
             val tmpTableName = "tmp_partnerships"
-            createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, false)
+            createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, false, startFrom)
 
             try {
                 for (wicket in 1..10) {
@@ -1076,6 +1095,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         field("notout2"),
                         field("position2"),
                         field("name"),
+                        field("previousScore"),
                     )
                         .from("cte2")
                         .join(TEAMS).on(TEAMS.ID.eq(field("cte2.TeamId", Int::class.java)))
@@ -1083,7 +1103,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         .orderBy(
                             field("partnership"),
                             field("matchstartdateasoffset"),
-                            field("inningsorder")
+                            field("inningsorder"),
+                            field("previousScore"),
                         )
                         .fetch()
 
@@ -1152,7 +1173,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     field("fullname2"),
                     field("score2"),
                     field("notout2"),
-                    field("position2")
+                    field("position2"),
+                    field("previousScore"),
                 )
                     .from(tmpTableName)
                     .where(field("wicket").eq(wicket))
@@ -1180,10 +1202,12 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     field("score2"),
                     field("notout2"),
                     field("position2"),
+                    field("previousScore"),
                     max(field("partnership")).over()
                         .orderBy(
                             field("matchstartdateasoffset"),
-                            field("inningsorder")
+                            field("inningsorder"),
+                            field("previousScore"),
                         )
                         .rowsBetweenUnboundedPreceding().andCurrentRow()
                         .`as`("premax")
@@ -1199,6 +1223,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         teamParams: TeamParams,
         overall: Boolean,
         vsAll: Boolean,
+        startFrom: Long,
     ) {
 
         var whereClause = (PARTNERSHIPS.matches.MATCHTYPE.eq(teamParams.matchType))
@@ -1213,6 +1238,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(PARTNERSHIPS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(PARTNERSHIPS.MULTIPLE.eq(0))
 
@@ -1240,6 +1266,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 PARTNERSHIPS.matches.LOCATION,
                 PARTNERSHIPS.matches.MATCHSTARTDATE,
                 PARTNERSHIPS.matches.MATCHSTARTDATEASOFFSET,
+                PARTNERSHIPS.PREVIOUSSCORE,
                 PLAYERSMATCHES.FULLNAME,
                 BATTINGDETAILS.SCORE,
                 BATTINGDETAILS.NOTOUT,
@@ -1352,6 +1379,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         tmpTableName: String,
         teamParams: TeamParams,
         overall: Boolean,
+        startFrom: Long,
     ) {
 
         var whereClause = (PARTNERSHIPS.matches.MATCHTYPE.eq(teamParams.matchType))
@@ -1366,6 +1394,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(PARTNERSHIPS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(PARTNERSHIPS.MULTIPLE.eq(0))
             .and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds))
@@ -1387,6 +1416,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 PARTNERSHIPS.matches.LOCATION,
                 PARTNERSHIPS.matches.MATCHSTARTDATE,
                 PARTNERSHIPS.matches.MATCHSTARTDATEASOFFSET,
+                PARTNERSHIPS.PREVIOUSSCORE,
                 PLAYERSMATCHES.FULLNAME,
                 BATTINGDETAILS.SCORE,
                 BATTINGDETAILS.NOTOUT,
@@ -1494,7 +1524,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         ).withData().execute()
     }
 
-    fun getHighestTotalsForSelectedTeamVsAllTeams(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
+    fun getHighestTotalsForSelectedTeamVsAllTeams(
+        teamParams: TeamParams,
+        overall: Boolean,
+        startFrom: Long,
+    ): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
 
         DriverManager.getConnection(
@@ -1504,17 +1538,16 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         ).use { conn ->
             val context = using(conn, databaseConnection.dialect)
 
-            var whereClause = (
-                    INNINGS.MATCHID.`in`(
-                        select(MATCHSUBTYPE.MATCHID).from(
-                            MATCHSUBTYPE.where(
-                                MATCHSUBTYPE.MATCHTYPE.eq(
-                                    teamParams.matchSubType
-                                )
-                            )
+            var whereClause = (INNINGS.MATCHID.`in`(
+                select(MATCHSUBTYPE.MATCHID).from(
+                    MATCHSUBTYPE.where(
+                        MATCHSUBTYPE.MATCHTYPE.eq(
+                            teamParams.matchSubType
                         )
                     )
-                    )
+                )
+            ))
+                .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
                 .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
                 .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
 
@@ -1601,7 +1634,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return highestTotals
     }
 
-    fun getHighestTotalsForAllTeamsVsSelectedTeam(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
+    fun getHighestTotalsForAllTeamsVsSelectedTeam(
+        teamParams: TeamParams,
+        overall: Boolean,
+        startFrom: Long,
+    ): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
 
         var whereClause = (
@@ -1615,6 +1652,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
                 )
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
             .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
 
@@ -1707,7 +1745,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return highestTotals
     }
 
-    fun getLowestAllOutTotalsForSelectedTeamVsAllTeams(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
+    fun getLowestAllOutTotalsForSelectedTeamVsAllTeams(
+        teamParams: TeamParams,
+        overall: Boolean,
+        startFrom: Long,
+    ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
 
         var whereClause = (INNINGS.COMPLETE.eq(1))
@@ -1722,6 +1764,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
             .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
 
@@ -1809,7 +1852,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return lowestTotals
     }
 
-    fun getLowestAllOutTotalsForAllTeamsVsSelectedTeam(teamParams: TeamParams, overall: Boolean): List<TotalDto> {
+    fun getLowestAllOutTotalsForAllTeamsVsSelectedTeam(
+        teamParams: TeamParams,
+        overall: Boolean,
+        startFrom: Long,
+    ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
 
         var whereClause = (INNINGS.COMPLETE.eq(1))
@@ -1824,6 +1871,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
             .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
 
@@ -1915,6 +1963,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getHighestIndividualScoresForSelectedTeamVsAllTeams(
         teamParams: TeamParams,
         overall: Boolean,
+        startFrom: Long,
     ): Collection<HighestScoreDto> {
         val highestscores = mutableListOf<HighestScoreDto>()
 
@@ -1932,6 +1981,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
 
@@ -2031,6 +2081,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getHighestIndividualScoresForAllTeamsVsSelectedTeam(
         teamParams: TeamParams,
         overall: Boolean,
+        startFrom: Long,
     ): Collection<HighestScoreDto> {
         val highestscores = mutableListOf<HighestScoreDto>()
 
@@ -2048,6 +2099,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
 
@@ -2146,6 +2198,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getBestBowlingMatchForSelectedTeamVsAllTeams(
         teamParams: TeamParams,
         overall: Boolean,
+        startFrom: Long,
     ): Collection<BestBowlingDto> {
         val bestBowling = mutableListOf<BestBowlingDto>()
 
@@ -2164,6 +2217,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
 
@@ -2328,6 +2382,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getBestBowlingMatchForAllTeamsVsSelectedTeam(
         teamParams: TeamParams,
         overall: Boolean,
+        startFrom: Long,
     ): Collection<BestBowlingDto> {
         val bestBowling = mutableListOf<BestBowlingDto>()
 
@@ -2343,6 +2398,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
 

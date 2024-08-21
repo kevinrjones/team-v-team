@@ -19,7 +19,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
     fun getHighestTotals(
         countryIds: List<Int>,
-        teamParams: TeamParams
+        teamParams: TeamParams,
+        startFrom: Long,
     ): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
 
@@ -38,7 +39,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         )
                     )
                 )
-            )
+            ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
+                .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
             if (countryIds.isNotEmpty())
                 whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -95,7 +97,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
     fun getLowestAllOutTotals(
         countryIds: List<Int>,
-        teamParams: TeamParams
+        teamParams: TeamParams,
+        startFrom: Long,
     ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
 
@@ -106,7 +109,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         ).use { conn ->
             val context = using(conn, dialect)
             val result = context.with("cte").`as`(
-                getLowestTotalSelect(countryIds, teamParams)
+                getLowestTotalSelect(countryIds, teamParams, startFrom)
                     .and(INNINGS.WICKETS.eq(10))
             ).select(
                 field("total", Int::class.java),
@@ -138,7 +141,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
     fun getLowestCompleteTotals(
         countryIds: List<Int>,
-        teamParams: TeamParams
+        teamParams: TeamParams,
+        startFrom: Long,
     ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
 
@@ -149,7 +153,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         ).use { conn ->
             val context = using(conn, dialect)
             val result = context.with("cte").`as`(
-                getLowestTotalSelect(countryIds, teamParams)
+                getLowestTotalSelect(countryIds, teamParams, startFrom)
                     .and(INNINGS.COMPLETE.eq(1))
             ).select(
                 field("total", Int::class.java),
@@ -182,7 +186,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
     fun getLowestIncompleteTotals(
         countryIds: List<Int>,
-        teamParams: TeamParams
+        teamParams: TeamParams,
+        startFrom: Long,
     ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
 
@@ -193,7 +198,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         ).use { conn ->
             val context = using(conn, dialect)
             val result = context.with("cte").`as`(
-                getLowestTotalSelect(countryIds, teamParams)
+                getLowestTotalSelect(countryIds, teamParams, startFrom)
             ).select(
                 field("total", Int::class.java),
                 field("wickets", Int::class.java),
@@ -224,7 +229,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
 
     private fun getLowestTotalSelect(
         countryIds: List<Int>,
-        teamParams: TeamParams
+        teamParams: TeamParams,
+        startFrom: Long,
     ): SelectConditionStep<Record7<Int?, Int?, Int?, Byte?, String?, String?, Long?>> {
 
         var whereClause = INNINGS.MATCHID.`in`(
@@ -235,7 +241,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
-        )
+        ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -257,7 +264,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
     }
 
-    fun getHighestIndividualScores(countryIds: List<Int>, teamParams: TeamParams): List<HighestScoreDto> {
+    fun getHighestIndividualScores(
+        countryIds: List<Int>,
+        teamParams: TeamParams,
+        startFrom: Long
+    ): List<HighestScoreDto> {
         val highestscores = mutableListOf<HighestScoreDto>()
 
         DriverManager.getConnection(
@@ -275,7 +286,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         )
                     )
                 )
-            )
+            ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
             if (countryIds.isNotEmpty())
                 whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -360,7 +371,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getLowestIndividualStrikeRate(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        ballsLimit: Int
+        ballsLimit: Int,
+        startFrom: Long
     ): List<StrikeRateDto> {
         val lowestStrikeRates = mutableListOf<StrikeRateDto>()
 
@@ -372,7 +384,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
-        )
+        ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -456,7 +468,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getHighestIndividualStrikeRate(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        scoreLimit: Int = 0
+        startFrom: Long,
+        scoreLimit: Int = 0,
     ): List<StrikeRateDto> {
         val highestStrikeRates = mutableListOf<StrikeRateDto>()
 
@@ -474,7 +487,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         )
                     )
                 )
-            )
+            ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
             if (countryIds.isNotEmpty())
                 whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -546,7 +559,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return highestStrikeRates
     }
 
-    fun getHighestIndividualSixes(countryIds: List<Int>, teamParams: TeamParams): List<BoundariesDto> {
+    fun getHighestIndividualSixes(
+        countryIds: List<Int>,
+        teamParams: TeamParams,
+        startFrom: Long
+    ): List<BoundariesDto> {
         val mostBoundaries = mutableListOf<BoundariesDto>()
 
         DriverManager.getConnection(
@@ -564,7 +581,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         )
                     )
                 )
-            )
+            ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
             if (countryIds.isNotEmpty())
                 whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -622,7 +639,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return mostBoundaries
     }
 
-    fun getHighestIndividualBoundaries(countryIds: List<Int>, teamParams: TeamParams): List<BoundariesDto> {
+    fun getHighestIndividualBoundaries(
+        countryIds: List<Int>,
+        teamParams: TeamParams,
+        startFrom: Long
+    ): List<BoundariesDto> {
         val mostBoundaries = mutableListOf<BoundariesDto>()
 
         DriverManager.getConnection(
@@ -639,7 +660,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         )
                     )
                 )
-            )
+            ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
             if (countryIds.isNotEmpty())
                 whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -701,7 +722,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return mostBoundaries
     }
 
-    fun getHighestIndividualFours(countryIds: List<Int>, teamParams: TeamParams): List<BoundariesDto> {
+    fun getHighestIndividualFours(
+        countryIds: List<Int>,
+        teamParams: TeamParams,
+        startFrom: Long
+    ): List<BoundariesDto> {
         val mostBoundaries = mutableListOf<BoundariesDto>()
 
         DriverManager.getConnection(
@@ -719,7 +744,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         )
                     )
                 )
-            )
+            ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
             if (countryIds.isNotEmpty())
                 whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -777,7 +802,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return mostBoundaries
     }
 
-    fun getBestBowlingInnings(countryIds: List<Int>, teamParams: TeamParams): List<BestBowlingDto> {
+    fun getBestBowlingInnings(
+        countryIds: List<Int>,
+        teamParams: TeamParams,
+        startFrom: Long
+    ): List<BestBowlingDto> {
 
         val bestBowling = mutableListOf<BestBowlingDto>()
 
@@ -789,7 +818,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
-        )
+        ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -885,7 +914,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getBestBowlingStrikeRate(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        oversLimit: Int = 0
+        startFrom: Long,
+        oversLimit: Int = 0,
     ): List<BowlingRatesDto> {
 
         val bestBowling = mutableListOf<BowlingRatesDto>()
@@ -898,7 +928,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
-        )
+        ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -984,7 +1014,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getBestBowlingEconRate(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        oversLimit: Int = 0
+        startFrom: Long,
+        oversLimit: Int = 0,
     ): List<BowlingRatesDto> {
 
         val bestBowling = mutableListOf<BowlingRatesDto>()
@@ -997,7 +1028,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
-        )
+        ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -1087,7 +1118,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     fun getWorstBowlingEconRate(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        oversLimit: Int = 0
+        startFrom: Long,
+        oversLimit: Int = 0,
     ): List<BowlingRatesDto> {
 
         val bestBowling = mutableListOf<BowlingRatesDto>()
@@ -1100,7 +1132,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
-        )
+        ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -1198,7 +1230,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestBowling
     }
 
-    fun getBestBowlingMatch(countryIds: List<Int>, teamParams: TeamParams): List<BestBowlingDto> {
+    fun getBestBowlingMatch(
+        countryIds: List<Int>,
+        teamParams: TeamParams,
+        startFrom: Long
+    ): List<BestBowlingDto> {
 
 
         val bestBowling = mutableListOf<BestBowlingDto>()
@@ -1214,7 +1250,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
-        )
+        ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -1328,7 +1364,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return bestBowling
     }
 
-    fun getMostRuns(countryIds: List<Int>, teamParams: TeamParams): MutableList<MostRunsDto> {
+    fun getMostRuns(
+        countryIds: List<Int>,
+        teamParams: TeamParams,
+        startFrom: Long
+    ): MutableList<MostRunsDto> {
         val mostruns = mutableListOf<MostRunsDto>()
 
         var whereClause = MATCHES.ID.`in`(
@@ -1339,7 +1379,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
-        )
+        ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -1431,7 +1471,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return mostruns
     }
 
-    fun getMostWickets(countryIds: List<Int>, teamParams: TeamParams): MutableList<MostWicketsDto> {
+    fun getMostWickets(
+        countryIds: List<Int>,
+        teamParams: TeamParams,
+        startFrom: Long
+    ): MutableList<MostWicketsDto> {
         val mostwickets = mutableListOf<MostWicketsDto>()
 
         var whereClause = MATCHES.ID.`in`(
@@ -1442,7 +1486,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
-        )
+        ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -1579,7 +1623,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return mostwickets
     }
 
-    fun getMostCatches(countryIds: List<Int>, teamParams: TeamParams): MutableList<MostDismissalsDto> {
+    fun getMostCatches(
+        countryIds: List<Int>,
+        teamParams: TeamParams,
+        startFrom: Long
+    ): MutableList<MostDismissalsDto> {
         val mostCatches = mutableListOf<MostDismissalsDto>()
 
         var whereClause = MATCHES.ID.`in`(
@@ -1590,7 +1638,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
-        )
+        ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -1660,7 +1708,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         return mostCatches
     }
 
-    fun getMostStumpings(countryIds: List<Int>, teamParams: TeamParams): MutableList<MostDismissalsDto> {
+    fun getMostStumpings(
+        countryIds: List<Int>,
+        teamParams: TeamParams,
+        startFrom: Long
+    ): MutableList<MostDismissalsDto> {
         val mostStumpings = mutableListOf<MostDismissalsDto>()
 
         var whereClause = MATCHES.ID.`in`(
@@ -1671,7 +1723,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     )
                 )
             )
-        )
+        ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -1746,7 +1798,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
     }
 
 
-    fun getHighestFoW(countryIds: List<Int>, teamParams: TeamParams): MutableMap<Int, FowDetails> {
+    fun getHighestFoW(countryIds: List<Int>, teamParams: TeamParams, startFrom: Long): MutableMap<Int, FowDetails> {
 
         val bestFow = mutableMapOf<Int, FowDetails>()
 
@@ -1765,7 +1817,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         )
                     )
                 )
-            )
+            ).and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
             if (countryIds.isNotEmpty())
                 whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -1953,7 +2005,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                             countryIds,
                             teamParams,
                             wicket,
-                            partnership
+                            partnership,
+                            startFrom
                         )
 
                         // want only one but there may be multiple scores with the same value
@@ -1980,7 +2033,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         // this stops the issue where I have identical partnerships for the FoW
                         // e.g. 2 partnerships of 154 for the first wicket
                         // as in that case I'd check the multi-player FoW twice
-                        if(listMultiPlayerFowDao.filter { it.wicket == fow.wicket }.size == 0) {
+                        if (listMultiPlayerFowDao.filter { it.wicket == fow.wicket }.size == 0) {
                             listMultiPlayerFowDao.addAll(
                                 getMultiplePlayerFow(
                                     fow.wicket,
@@ -2009,7 +2062,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         wicket: Int,
         partnership: Int,
         teamParams: TeamParams,
-        context: DSLContext
+        context: DSLContext,
     ): MutableList<MultiPlayerFowDto> {
 
         val listMultiPlayerFowDao = mutableListOf<MultiPlayerFowDto>()
@@ -2099,7 +2152,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         partnership: Int,
         wicket: Int,
         teamParams: TeamParams,
-        context: DSLContext
+        context: DSLContext,
     ): List<PossibleMultiPlayerPartnerships> {
 
         val possibleMatches = mutableListOf<PossibleMultiPlayerPartnerships>()
@@ -2142,7 +2195,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         matchId: Int,
         wicket: Int,
         teamParams: TeamParams,
-        inningsOrder: Int
+        inningsOrder: Int,
     ): SelectConditionStep<Record16<Int, String?, String?, Long?, Int?, Int?, Int?, Byte?, String?, Int?, Byte?, Int?, String?, Int?, Byte?, Int?>> {
 
         return select(

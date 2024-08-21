@@ -21,6 +21,7 @@ interface TeamBase {
     val team: String
     val duplicates: List<String>
     val excludeTeamIds: List<Int>
+    val validFrom: Long
 }
 
 @Serializable
@@ -28,6 +29,7 @@ data class Opponent(
     override val team: String,
     override val duplicates: List<String> = emptyList(),
     override val excludeTeamIds: List<Int> = emptyList(),
+    override val validFrom: Long = -9999999999,
 ) : TeamBase
 
 @Serializable
@@ -37,6 +39,7 @@ data class Team(
     override val duplicates: List<String>,
     val opponents: List<Opponent> = emptyList(),
     override val excludeTeamIds: List<Int> = emptyList(),
+    override val validFrom: Long = -9999999999,
 ) : TeamBase
 
 
@@ -48,11 +51,13 @@ data class TeamsAndOpponents(
     val teamIds: List<Int>,
     val opponentsName: String,
     val opponentIds: List<Int>,
+    val startFrom: Long
 )
 
 data class TeamAndIds(
     val teamName: String,
     val teamIds: List<Int>,
+    val startFrom: Long
 )
 
 data class TeamWithAuthors(val team: String, val author: List<Author>)

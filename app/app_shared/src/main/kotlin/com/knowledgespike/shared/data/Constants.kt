@@ -1,10 +1,12 @@
 package com.knowledgespike.shared.data
 
+import com.knowledgespike.shared.types.TeamIdsAndValidDate
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import java.time.ZoneId
 
 typealias TeamNameToIds = Map<String, List<Int>>
+typealias TeamNameToValidTeam = Map<String, TeamIdsAndValidDate>
 
 val internationalMatchTypes = listOf("t", "wt", "itt", "witt", "o", "wo")
 

@@ -16,7 +16,8 @@ fun getPossibleFallOfWicketMissingPartnerships(
     countryIds: List<Int>,
     teamParams: TeamParams,
     wicket: Int,
-    partnership: Int
+    partnership: Int,
+    startFrom: Long
 ): Boolean {
     DriverManager.getConnection(
         databaseConnection.connectionString,
@@ -40,6 +41,7 @@ fun getPossibleFallOfWicketMissingPartnerships(
                                             .and(MATCHES.HOMETEAMID.`in`(teamParams.opponentIds)))
                                     )
                             )
+                            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
                     )
                 )
             )
