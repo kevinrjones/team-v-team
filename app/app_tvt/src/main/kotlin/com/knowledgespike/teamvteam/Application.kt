@@ -134,7 +134,7 @@ class Application {
                             competition.copy(teams = competition.teams.sortedBy { it.team })
 
 
-                        val teamsWithDuplicates: TeamNameToIds =
+                        val teamsWithDuplicates =
                             getTeamIds(
                                 databaseConnection,
                                 competitionWithSortedTeams.teams,
@@ -142,9 +142,9 @@ class Application {
                                 matchSubType
                             )
 
-                        val opponentsForTeam = mutableMapOf<String, TeamNameToIds>()
+                        val opponentsForTeam = mutableMapOf<String, TeamNameToValidTeam>()
                         competition.teams.forEach {
-                            val opponents: TeamNameToIds =
+                            val opponents =
                                 getTeamIds(
                                     databaseConnection,
                                     it.opponents,

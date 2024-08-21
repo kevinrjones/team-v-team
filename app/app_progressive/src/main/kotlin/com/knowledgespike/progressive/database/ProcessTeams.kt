@@ -14,17 +14,17 @@ import kotlinx.coroutines.withContext
 import org.jooq.SQLDialect
 
 class ProcessTeams(
-    allTeams: TeamNameToIds,
-    opponentsForTeam: Map<String, TeamNameToIds>,
+    allTeams: TeamNameToValidTeam,
+    opponentsForTeam: Map<String, TeamNameToValidTeam>,
     private val opponentsWithAuthors: Map<String, List<Author>>,
     private val dialect: SQLDialect
 ) {
 
     private val log by LoggerDelegate()
 
-    private val idPairs = buildPairsOfTeamsThatMayCompete(allTeams, opponentsForTeam)
+    private val idPairs: List<TeamsAndOpponents> = buildPairsOfTeamsThatMayCompete(allTeams, opponentsForTeam)
 
-    private val teamAndAllOpponents: Map<TeamAndIds, List<Int>> = buildPairsOfTeamsOpponents(allTeams, opponentsForTeam)
+    private val teamAndAllOpponents = buildPairsOfTeamsOpponents(allTeams, opponentsForTeam)
 
     suspend fun processTeamPairs(
         databaseConnection: DatabaseConnection,
@@ -51,14 +51,16 @@ class ProcessTeams(
                     countryIds,
                     teamsAndOpponents,
                     matchSubType,
-                    overall
+                    overall,
+                    teamsAndOpponents.startFrom
                 )
             if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
                 log.debug("Processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
                 val teamPairDetails =
                     TeamPairDetails(
                         arrayOf(teamsAndOpponents.teamName, teamsAndOpponents.opponentsName),
-                        matchDto
+                        matchDto,
+                        teamsAndOpponents.startFrom
                     )
 
                 val fileName = teamPairDetails.generateFileName(matchSubType)
@@ -132,9 +134,10 @@ class ProcessTeams(
                 getCountOfMatchesBetweenTeams(
                     connection,
                     countryId,
-                    TeamsAndOpponents(teamAndIds.teamName, teamAndIds.teamIds, "all", opponents),
+                    TeamsAndOpponents(teamAndIds.teamName, teamAndIds.teamIds, "all", opponents, teamAndIds.startFrom),
                     matchSubType,
-                    overall
+                    overall,
+                    teamAndIds.startFrom,
                 )
 
             val teamAndAllOpponentsDetails = TeamAndAllOpponentsDetails(teamAndIds.teamName, matchDto)
@@ -148,7 +151,8 @@ class ProcessTeams(
                         opponents,
                         matchType,
                         matchSubType,
-                        overall
+                        overall,
+                        teamAndIds.startFrom,
                     )
 
                     teamAndAllOpponentsDetails.getTeamRecords(
@@ -157,7 +161,8 @@ class ProcessTeams(
                         opponents,
                         matchType,
                         matchSubType,
-                        overall
+                        overall,
+                        teamAndIds.startFrom,
                     )
 
                     teamAndAllOpponentsDetails.getIndividualRecords(
@@ -166,7 +171,8 @@ class ProcessTeams(
                         opponents,
                         matchType,
                         matchSubType,
-                        overall
+                        overall,
+                        teamAndIds.startFrom,
                     )
                 }
                 job.join()

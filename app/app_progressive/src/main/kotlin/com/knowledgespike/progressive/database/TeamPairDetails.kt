@@ -19,7 +19,8 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         opponents: List<Int>,
         matchType: String,
         matchSubType: String,
-        overall: Boolean
+        overall: Boolean,
+        startFrom: Long
     ) {
         val teamRecords = TeamRecords(databaseConnection)
 
@@ -41,10 +42,10 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
             matchSubType
         )
         bestFoW[0].putAll(
-            teamRecords.getProgressivePartnershipRecordsForSelectedTeamVsAllTeams(teamParamA, overall)
+            teamRecords.getProgressivePartnershipRecordsForSelectedTeamVsAllTeams(teamParamA, overall, startFrom)
         )
         bestFoW[1].putAll(
-            teamRecords.getProgressivePartnershipRecordsForAllTeamsVsSelectedTeam(teamParamB, overall)
+            teamRecords.getProgressivePartnershipRecordsForAllTeamsVsSelectedTeam(teamParamB, overall, startFrom)
         )
 
     }
@@ -55,7 +56,8 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         opponents: List<Int>,
         matchType: String,
         matchSubType: String,
-        overall: Boolean
+        overall: Boolean,
+        startFrom: Long
     ) {
         val teamParamA = TeamParams(
             teamAndIds.teamIds,
@@ -79,28 +81,32 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         highestScores[0].addAll(
             teamRecords.getHighestTotalsForSelectedTeamVsAllTeams(
                 teamParamA,
-                overall
+                overall,
+                startFrom
             )
         )
 
         highestScores[1].addAll(
             teamRecords.getHighestTotalsForAllTeamsVsSelectedTeam(
                 teamParamB,
-                overall
+                overall,
+                startFrom
             )
         )
 
         lowestAllOutScores[0].addAll(
             teamRecords.getLowestAllOutTotalsForSelectedTeamVsAllTeams(
                 teamParamA,
-                overall
+                overall,
+                startFrom
             )
         )
 
         lowestAllOutScores[1].addAll(
             teamRecords.getLowestAllOutTotalsForAllTeamsVsSelectedTeam(
                 teamParamB,
-                overall
+                overall,
+                startFrom
             )
         )
 
@@ -112,7 +118,8 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         opponents: List<Int>,
         matchType: String,
         matchSubType: String,
-        overall: Boolean
+        overall: Boolean,
+        startFrom: Long
     ) {
 
         val teamParamA = TeamParams(
@@ -136,34 +143,34 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         val teamRecords = TeamRecords(connection)
 
         highestIndividualScore[0].addAll(
-            teamRecords.getHighestIndividualScoresForSelectedTeamVsAllTeams(teamParamA,overall)
+            teamRecords.getHighestIndividualScoresForSelectedTeamVsAllTeams(teamParamA,overall, startFrom)
         )
 
         highestIndividualScore[1].addAll(
-            teamRecords.getHighestIndividualScoresForAllTeamsVsSelectedTeam(teamParamB,overall)
+            teamRecords.getHighestIndividualScoresForAllTeamsVsSelectedTeam(teamParamB,overall, startFrom)
         )
 
         bestBowlingInnings[0].addAll(
-            teamRecords.getBestBowlingInningsForSelectedTeamVsAllTeams(teamParamA,overall)
+            teamRecords.getBestBowlingInningsForSelectedTeamVsAllTeams(teamParamA,overall, startFrom)
         )
 
         bestBowlingInnings[1].addAll(
-            teamRecords.getBestBowlingInningsForAllTeamsVsSelectedTeam(teamParamB,overall)
+            teamRecords.getBestBowlingInningsForAllTeamsVsSelectedTeam(teamParamB,overall, startFrom)
         )
 
         bestBowlingMatch[0].addAll(
-            teamRecords.getBestBowlingMatchForSelectedTeamVsAllTeams(teamParamA,overall)
+            teamRecords.getBestBowlingMatchForSelectedTeamVsAllTeams(teamParamA,overall, startFrom)
         )
 
         bestBowlingMatch[1].addAll(
-            teamRecords.getBestBowlingMatchForAllTeamsVsSelectedTeam(teamParamB,overall)
+            teamRecords.getBestBowlingMatchForAllTeamsVsSelectedTeam(teamParamB,overall, startFrom)
         )
 
     }
 
 }
 
-class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
+class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto, val startFrom: Long) {
     val authors: MutableList<String> = mutableListOf("Kevin Jones")
     val highestScores = mutableListOf<MutableList<TotalDto>>(mutableListOf(), mutableListOf())
     val lowestAllOutScores = mutableListOf<MutableList<TotalDto>>(mutableListOf(), mutableListOf())
@@ -181,11 +188,11 @@ class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
         val teamRecords = TeamRecords(databaseConnection)
 
         bestFoW[0].putAll(
-            teamRecords.getProgressivePartnershipRecords(teamParams1, overall)
+            teamRecords.getProgressivePartnershipRecords(teamParams1, overall, startFrom )
         )
 
         bestFoW[1].putAll(
-            teamRecords.getProgressivePartnershipRecords(teamParams2, overall)
+            teamRecords.getProgressivePartnershipRecords(teamParams2, overall, startFrom )
         )
     }
 

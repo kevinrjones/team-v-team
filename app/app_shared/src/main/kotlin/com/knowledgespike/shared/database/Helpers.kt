@@ -2,6 +2,7 @@ package com.knowledgespike.shared.database
 
 import com.knowledgespike.db.tables.references.*
 import com.knowledgespike.shared.data.*
+import com.knowledgespike.shared.types.TeamIdsAndValidDate
 import org.jooq.*
 import org.jooq.impl.DSL
 import java.sql.DriverManager
@@ -67,6 +68,7 @@ fun getCountOfMatchesBetweenTeams(
     teamsAndOpponents: TeamsAndOpponents,
     matchSubType: String,
     overall: Boolean,
+    startFrom: Long
 ): MatchDto {
 
     val matchTypesToExclude = mutableListOf("t", "wt", "itt", "witt", "o", "wo")
@@ -88,6 +90,7 @@ fun getCountOfMatchesBetweenTeams(
             )
         )
         .and(MATCHES.MATCHTYPE.notIn(matchTypesToExclude))
+        .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
     // When calculating the records va 'all' teams we can do two things. Calculate against 'all' the teams
     // in this set of teams (all IPL teams say) or calculate their overall record against all other teams
@@ -184,11 +187,10 @@ fun getTeamIds(
     teams: List<TeamBase>,
     country: String?,
     matchType: String,
+    ): Map<String, TeamIdsAndValidDate> {
 
-    ): TeamNameToIds {
 
-
-    val teamNameAndIds = mutableMapOf<String, List<Int>>()
+    val teamNameAndIds = mutableMapOf<String, TeamIdsAndValidDate>()
     DriverManager.getConnection(
         databaseConnection.connectionString,
         databaseConnection.userName,
@@ -208,7 +210,7 @@ fun getTeamIds(
                     ids.addAll(duplicateTeamIds)
                 }
             }
-            teamNameAndIds[team] = ids
+            teamNameAndIds[team] = TeamIdsAndValidDate(ids, t.validFrom)
         }
     }
 
@@ -217,8 +219,8 @@ fun getTeamIds(
     val teamsIds: List<Int> = convertCaTeamIdsToTeamIds(caTeamIds, databaseConnection)
 
     teamNameAndIds.forEach { (team, ids) ->
-        val updatedIds = ids.filter { !teamsIds.contains(it) }
-        teamNameAndIds[team] = updatedIds
+        val updatedIds = ids.teamIds.filter { !teamsIds.contains(it) }
+        teamNameAndIds[team] = ids.copy(teamIds = updatedIds)
     }
     return teamNameAndIds
 }
