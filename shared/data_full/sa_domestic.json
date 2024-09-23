@@ -1,6 +1,6 @@
 [
     {
-        "title": "First/Class",
+        "title": "First-Class",
         "countryForTitle": "South African",
         "country": "South Africa",
         "gender": "Men's",
@@ -8,29 +8,215 @@
         "teams": [
             {
                 "team": "Boland",
-                "duplicates": []
+                "duplicates": [],
+                "authors": [
+                    {
+                        "opponent": "Border",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Western Province",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Gauteng",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Free State",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Free State",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Border",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Eastern Province",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Easterns",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Gauteng",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "KwaZulu-Natal Coastal",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northern Cape",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "North West",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Western Province",
+                        "name": "Denis Moore"
+                    }
+                ]
             },
             {
                 "team": "Border",
-                "duplicates": []
+                "duplicates": [],
+                "authors": [
+                    {
+                        "opponent": "Free State",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Northerns",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Eastern Province",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Easterns",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Free State",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Gauteng",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "KwaZulu-Natal Coastal",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northerns",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "North West",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northern Cape",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Western Province",
+                        "name": "Denis Moore"
+                    }
+                ]
             },
             {
                 "team": "Eastern Province",
                 "excludeTeamIds": [
                     3400
                 ],
-                "duplicates": []
+                "duplicates": [],
+                "authors": [
+                    {
+                        "opponent": "Gauteng",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Rhodesia",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Western Province",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Free State",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Gauteng",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "KwaZulu-Natal Coastal",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northern Cape",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northerns",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Western Province",
+                        "name": "Denis Moore"
+                    }
+                ]
             },
             {
                 "team": "Easterns",
                 "duplicates": [
                     "Eastern Transvaal"
+                ],
+                "authors": [
+                    {
+                        "opponent": "North West",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northern Cape",
+                        "name": "Denis Moore"
+                    }
                 ]
             },
             {
                 "team": "Free State",
                 "duplicates": [
                     "Orange Free State"
+                ],
+                "authors": [
+                    {
+                        "opponent": "Western Province",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Eastern Province",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "KwaZulu-Natal Coastal",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Gauteng",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Gauteng",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "KwaZulu-Natal Coastal",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northern Cape",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northerns",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Western Province",
+                        "name": "Denis Moore"
+                    }
                 ]
             },
             {
@@ -40,20 +226,68 @@
                 ],
                 "duplicates": [
                     "Transvaal"
+                ],
+                "authors": [
+                    {
+                        "opponent": "International Cavaliers",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Western Province",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "KwaZulu-Natal Coastal",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northern Cape",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northerns",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Western Province",
+                        "name": "Denis Moore"
+                    }
                 ]
             },
             {
-                "team": "KwaZulu/Natal Coastal",
+                "team": "KwaZulu-Natal Coastal",
                 "excludeTeamIds": [
                     3401
                 ],
                 "duplicates": [
-                    "KwaZulu/Natal",
+                    "KwaZulu-Natal",
                     "Natal"
+                ],
+                "authors": [
+                    {
+                        "opponent": "Free State",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Western Province",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Northern Cape",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northerns",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Western Province",
+                        "name": "Denis Moore"
+                    }
                 ]
             },
             {
-                "team": "KwaZulu/Natal Inland",
+                "team": "KwaZulu-Natal Inland",
                 "duplicates": []
             },
             {
@@ -69,6 +303,20 @@
                 "duplicates": [
                     "Northern Transvaal",
                     "North Eastern Transvaal"
+                ],
+                "authors": [
+                    {
+                        "opponent": "Western Province",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Gauteng",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Northern Cape",
+                        "name": "Denis Moore"
+                    }
                 ]
             },
             {
@@ -76,12 +324,32 @@
                 "duplicates": [
                     "Griqualand West",
                     "Kimberley"
+                ],
+                "authors": [
+                    {
+                        "opponent": "Gauteng",
+                        "name": "Keith Walmsley"
+                    },
+                    {
+                        "opponent": "Western Province",
+                        "name": "Denis Moore"
+                    },
+                    {
+                        "opponent": "Northerns",
+                        "name": "Denis Moore"
+                    }
                 ]
             },
             {
                 "team": "North West",
                 "duplicates": [
                     "Western Transvaal"
+                ],
+                "authors": [
+                    {
+                        "opponent": "Northern Cape",
+                        "name": "Denis Moore"
+                    }
                 ]
             },
             {
@@ -102,8 +370,8 @@
             "Performances involving Easterns include those involving Eastern Transvaal between 1991/92 and 1994/95",
             "Performances involving Free State include those involving Orange Free State between 1903/04 and 1994/95",
             "Performances involving Gauteng include those involving Transvaal between 1889/90 and 1997/98",
-            "Performances involving KwaZulu/Natal Coastal include those involving Natal between 1889/90 and 1997/98",
-            "Performances involving KwaZulu/Natal Coastal include those involving KwaZulu/Natal between 1998/99 and 2018/19",
+            "Performances involving KwaZulu-Natal Coastal include those involving Natal between 1889/90 and 1997/98",
+            "Performances involving KwaZulu-Natal Coastal include those involving KwaZulu-Natal between 1998/99 and 2018/19",
             "Performances involving Northerns include those involving North Eastern Transvaal between 1937/38 and 1970/71",
             "Performances involving Northerns include those involving Northern Transvaal between 1971/72 and 1996/97",
             "Performances involving Northern Cape include those involving Kimberley between 1889/90 and 1890/91",

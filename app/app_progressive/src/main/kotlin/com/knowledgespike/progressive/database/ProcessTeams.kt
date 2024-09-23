@@ -105,6 +105,10 @@ class ProcessTeams(
                                         getAuthors(teamPairDetails, teamPairDetails.teams[1], teamPairDetails.teams[0])
 
                             teamPairDetails.authors.addAll(maybeAuthors)
+                            val tempAuthors = teamPairDetails.authors.distinct()
+                            teamPairDetails.authors.clear()
+                            teamPairDetails.authors.addAll(tempAuthors)
+
                         }
 
                         job.join()
@@ -174,6 +178,11 @@ class ProcessTeams(
                         overall,
                         teamAndIds.startFrom,
                     )
+
+                    val maybeAuthors =
+                        opponentsWithAuthors.flatMap { it.value }.map { it.name }.toSet().toList()
+                    teamAndAllOpponentsDetails.authors.addAll(maybeAuthors)
+
                 }
                 job.join()
 

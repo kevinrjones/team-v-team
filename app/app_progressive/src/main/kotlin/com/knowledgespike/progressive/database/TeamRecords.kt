@@ -302,7 +302,12 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 ).from("cte1")
 
                 .where(field("notoutadjustedscore").ge(field("premax")))
-                .orderBy(field("score"))
+                .orderBy(
+                    field("score"),
+                    field("matchstartdateasoffset"),
+                    field("inningsorder"),
+                    field("position")
+                )
                 .fetch()
 
             for (r in result) {
@@ -414,6 +419,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 field("matchstartdateasoffset", String::class.java),
             ).from("cte1")
                 .where(field("syntheticbestbowling").ge(field("premax")))
+                .orderBy(
+                    field("syntheticbestbowling"),
+                    field("matchstartdateasoffset"),
+                    field("inningsorder"),
+                )
                 .fetch()
 
             for (row in results) {
@@ -539,7 +549,11 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             ).from("cte1")
                 .join(TEAMS).on(TEAMS.ID.eq(field("opponentsid", Int::class.java)))
                 .where(field("syntheticbestbowling").ge(field("premax")))
-                .orderBy(field("SyntheticBestBowling"), field("matchstartdateasoffset"))
+                .orderBy(
+                    field("SyntheticBestBowling"),
+                    field("matchstartdateasoffset"),
+                    field("inningsorder"),
+                )
                 .fetch()
 
             for (row in results) {
@@ -802,6 +816,10 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                             .rowsBetweenUnboundedPreceding().andCurrentRow().`as`("premax")
                     ).from("cte")
                         .where(field("SyntheticBestBowling").isNotNull).and(field("rn").eq(1))
+                        .orderBy(
+                            field("syntheticbestbowling"),
+                            field("matchstartdateasoffset"),
+                        )
                 )
 
                 val query = q.select()
@@ -2053,7 +2071,12 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 ).from("cte1")
                 .join(TEAMS).on(TEAMS.ID.eq(field("opponentsid", Int::class.java)))
                 .where(field("notoutadjustedscore").ge(field("premax")))
-                .orderBy(field("score"))
+                .orderBy(
+                    field("score"),
+                    field("matchstartdateasoffset"),
+                    field("inningsorder"),
+                    field("position"),
+                )
                 .fetch()
 
             for (r in result) {
@@ -2171,7 +2194,12 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 ).from("cte1")
                 .join(TEAMS).on(TEAMS.ID.eq(field("cte1.teamid", Int::class.java)))
                 .where(field("notoutadjustedscore").ge(field("premax")))
-                .orderBy(field("score"))
+                .orderBy(
+                    field("score"),
+                    field("matchstartdateasoffset"),
+                    field("inningsorder"),
+                    field("position"),
+                )
                 .fetch()
 
             for (r in result) {
