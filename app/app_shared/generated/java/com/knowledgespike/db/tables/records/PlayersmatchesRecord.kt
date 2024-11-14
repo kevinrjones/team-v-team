@@ -28,17 +28,21 @@ open class PlayersmatchesRecord() : UpdatableRecordImpl<PlayersmatchesRecord>(Pl
         set(value): Unit = set(2, value)
         get(): Int? = get(2) as Int?
 
-    open var fullname: String?
+    open var teamid: Int?
         set(value): Unit = set(3, value)
-        get(): String? = get(3) as String?
+        get(): Int? = get(3) as Int?
 
-    open var sortnamepart: String?
+    open var fullname: String?
         set(value): Unit = set(4, value)
         get(): String? = get(4) as String?
 
-    open var othernamepart: String?
+    open var sortnamepart: String?
         set(value): Unit = set(5, value)
         get(): String? = get(5) as String?
+
+    open var othernamepart: String?
+        set(value): Unit = set(6, value)
+        get(): String? = get(6) as String?
 
     // -------------------------------------------------------------------------
     // Primary key information
@@ -49,10 +53,11 @@ open class PlayersmatchesRecord() : UpdatableRecordImpl<PlayersmatchesRecord>(Pl
     /**
      * Create a detached, initialised PlayersmatchesRecord
      */
-    constructor(id: Int? = null, playerid: Int? = null, matchid: Int? = null, fullname: String? = null, sortnamepart: String? = null, othernamepart: String? = null): this() {
+    constructor(id: Int? = null, playerid: Int? = null, matchid: Int? = null, teamid: Int? = null, fullname: String? = null, sortnamepart: String? = null, othernamepart: String? = null): this() {
         this.id = id
         this.playerid = playerid
         this.matchid = matchid
+        this.teamid = teamid
         this.fullname = fullname
         this.sortnamepart = sortnamepart
         this.othernamepart = othernamepart

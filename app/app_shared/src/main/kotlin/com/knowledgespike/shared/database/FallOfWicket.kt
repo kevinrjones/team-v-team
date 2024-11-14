@@ -5,14 +5,12 @@ import com.knowledgespike.db.tables.references.INNINGS
 import com.knowledgespike.db.tables.references.MATCHES
 import com.knowledgespike.db.tables.references.MATCHSUBTYPE
 import com.knowledgespike.shared.data.TeamParams
-import org.jooq.Record1
-import org.jooq.SelectConditionStep
 import org.jooq.impl.DSL
 import org.jooq.impl.DSL.*
 import java.sql.DriverManager
 
 fun getPossibleFallOfWicketMissingPartnerships(
-    databaseConnection: DatabaseConnection,
+    databaseConnectionDetails: DatabaseConnectionDetails,
     countryIds: List<Int>,
     teamParams: TeamParams,
     wicket: Int,
@@ -20,11 +18,11 @@ fun getPossibleFallOfWicketMissingPartnerships(
     startFrom: Long
 ): Boolean {
     DriverManager.getConnection(
-        databaseConnection.connectionString,
-        databaseConnection.userName,
-        databaseConnection.password
+        databaseConnectionDetails.connectionString,
+        databaseConnectionDetails.userName,
+        databaseConnectionDetails.password
     ).use { conn ->
-        val context = DSL.using(conn, databaseConnection.dialect)
+        val context = DSL.using(conn, databaseConnectionDetails.dialect)
 
         var whereClause = MATCHES.MATCHTYPE.eq(teamParams.matchType).and(
             MATCHES.ID.`in`(

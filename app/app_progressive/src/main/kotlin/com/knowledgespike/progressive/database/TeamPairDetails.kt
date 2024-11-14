@@ -2,7 +2,7 @@ package com.knowledgespike.progressive.database
 
 import com.knowledgespike.progressive.data.BestBowlingDto
 import com.knowledgespike.shared.data.*
-import com.knowledgespike.shared.database.DatabaseConnection
+import com.knowledgespike.shared.database.DatabaseConnectionDetails
 
 class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
     val authors: MutableList<String> = mutableListOf("Kevin Jones")
@@ -14,7 +14,7 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
     val bestBowlingMatch = arrayListOf<MutableList<BestBowlingDto>>(mutableListOf(), mutableListOf())
 
     fun getFallOfWicketRecords(
-        databaseConnection: DatabaseConnection,
+        databaseConnectionDetails: DatabaseConnectionDetails,
         teamAndIds: TeamAndIds,
         opponents: List<Int>,
         matchType: String,
@@ -22,7 +22,7 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         overall: Boolean,
         startFrom: Long
     ) {
-        val teamRecords = TeamRecords(databaseConnection)
+        val teamRecords = TeamRecords(databaseConnectionDetails)
 
         val teamParamA = TeamParams(
             teamAndIds.teamIds,
@@ -51,7 +51,7 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
     }
 
     fun getTeamRecords(
-        connection: DatabaseConnection,
+        connection: DatabaseConnectionDetails,
         teamAndIds: TeamAndIds,
         opponents: List<Int>,
         matchType: String,
@@ -113,7 +113,7 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
     }
 
     fun getIndividualRecords(
-        connection: DatabaseConnection,
+        connection: DatabaseConnectionDetails,
         teamAndIds: TeamAndIds,
         opponents: List<Int>,
         matchType: String,
@@ -180,12 +180,12 @@ class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto, val star
     val bestBowlingMatch = arrayListOf<MutableList<BestBowlingDto>>(mutableListOf(), mutableListOf())
 
     fun getFallOfWicketRecords(
-        databaseConnection: DatabaseConnection,
+        databaseConnectionDetails: DatabaseConnectionDetails,
         teamParams1: TeamParams,
         teamParams2: TeamParams,
         overall: Boolean
     ) {
-        val teamRecords = TeamRecords(databaseConnection)
+        val teamRecords = TeamRecords(databaseConnectionDetails)
 
         bestFoW[0].putAll(
             teamRecords.getProgressivePartnershipRecords(teamParams1, overall, startFrom )
@@ -197,11 +197,11 @@ class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto, val star
     }
 
     fun getTeamRecords(
-        databaseConnection: DatabaseConnection,
+        databaseConnectionDetails: DatabaseConnectionDetails,
         teamParamA: TeamParams,
         teamParamB: TeamParams,
     ) {
-        val teamRecords = TeamRecords(databaseConnection)
+        val teamRecords = TeamRecords(databaseConnectionDetails)
         highestScores[0].addAll(
             teamRecords.getHighestTotals(
                 teamParamA
@@ -228,8 +228,8 @@ class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto, val star
 
     }
 
-    fun getIndividualRecords(databaseConnection: DatabaseConnection, teamParamA: TeamParams, teamParamB: TeamParams) {
-        val teamRecords = TeamRecords(databaseConnection)
+    fun getIndividualRecords(databaseConnectionDetails: DatabaseConnectionDetails, teamParamA: TeamParams, teamParamB: TeamParams) {
+        val teamRecords = TeamRecords(databaseConnectionDetails)
         highestIndividualScore[0].addAll(
             teamRecords.getHighestIndividualScores(teamParamA)
         )

@@ -132,6 +132,11 @@ open class Innings(
     val COMPLETE: TableField<InningsRecord, Byte?> = createField(DSL.name("Complete"), SQLDataType.TINYINT.nullable(false), this, "")
 
     /**
+     * The column <code>cricketarchive.Innings.AllOut</code>.
+     */
+    val ALLOUT: TableField<InningsRecord, Byte?> = createField(DSL.name("AllOut"), SQLDataType.TINYINT.nullable(false), this, "")
+
+    /**
      * The column <code>cricketarchive.Innings.SyntheticTotal</code>.
      */
     val SYNTHETICTOTAL: TableField<InningsRecord, Double?> = createField(DSL.name("SyntheticTotal"), SQLDataType.DOUBLE.nullable(false), this, "")
@@ -165,6 +170,11 @@ open class Innings(
      * The column <code>cricketarchive.Innings.Penalty</code>.
      */
     val PENALTY: TableField<InningsRecord, Int?> = createField(DSL.name("Penalty"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Innings.PenaltyRuns</code>.
+     */
+    val PENALTYRUNS: TableField<InningsRecord, Int?> = createField(DSL.name("PenaltyRuns"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
 
     /**
      * The column <code>cricketarchive.Innings.Extras</code>.

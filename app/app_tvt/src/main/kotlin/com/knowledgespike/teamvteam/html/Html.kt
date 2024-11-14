@@ -23,7 +23,7 @@ fun TABLE.generateTotalsRow(
             }
         }
         td(null, "width", columnTwoWidth) {
-            if (total.wickets == 10)
+            if (total.allOut)
                 +"${total.total}"
             else if (total.declared)
                 +"${total.total} for ${total.wickets} declared"

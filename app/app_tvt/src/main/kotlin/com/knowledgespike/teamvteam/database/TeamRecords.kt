@@ -2,7 +2,7 @@ package com.knowledgespike.teamvteam.database
 
 import com.knowledgespike.db.tables.references.*
 import com.knowledgespike.shared.data.*
-import com.knowledgespike.shared.database.DatabaseConnection
+import com.knowledgespike.shared.database.DatabaseConnectionDetails
 import com.knowledgespike.shared.database.getPossibleFallOfWicketMissingPartnerships
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.teamvteam.Application.Companion.dialect
@@ -13,7 +13,7 @@ import org.jooq.impl.DSL.*
 import java.sql.DriverManager
 
 
-class TeamRecords(private val databaseConnection: DatabaseConnection) {
+class TeamRecords(private val databaseConnectionDetails: DatabaseConnectionDetails) {
 
     private val log by LoggerDelegate()
 
@@ -25,9 +25,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val highestTotals = mutableListOf<TotalDto>()
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
 
@@ -55,6 +55,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         INNINGS.TOTAL.add((INNINGS.WICKETS.cast(Float::class.java).div(10))).`as`("synth"),
                         INNINGS.WICKETS,
                         INNINGS.DECLARED,
+                        INNINGS.COMPLETE,
+                        INNINGS.ALLOUT,
                         INNINGS.matches.LOCATION,
                         INNINGS.matches.SERIESDATE,
                         INNINGS.matches.MATCHSTARTDATEASOFFSET,
@@ -71,6 +73,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 field("total", Int::class.java),
                 field("wickets", Int::class.java),
                 field("declared", Boolean::class.java),
+                field("allout", Boolean::class.java),
+                field("complete", Boolean::class.java),
                 field("location", String::class.java),
                 field("seriesdate", String::class.java),
                 field("matchstartdateasoffset", String::class.java),
@@ -85,6 +89,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     r.getValue("total", Int::class.java),
                     r.getValue("wickets", Int::class.java),
                     r.getValue("declared", Boolean::class.java),
+                    r.getValue("complete", Boolean::class.java),
+                    r.getValue("allout", Boolean::class.java),
                     r.getValue("location").toString(),
                     r.getValue("seriesdate").toString()
                 )
@@ -103,18 +109,20 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val lowestTotals = mutableListOf<TotalDto>()
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
             val result = context.with("cte").`as`(
                 getLowestTotalSelect(countryIds, teamParams, startFrom)
-                    .and(INNINGS.WICKETS.eq(10))
+                    .and(INNINGS.ALLOUT.eq(1))
             ).select(
                 field("total", Int::class.java),
                 field("wickets", Int::class.java),
                 field("declared", Boolean::class.java),
+                field("complete", Boolean::class.java),
+                field("allout", Boolean::class.java),
                 field("location", String::class.java),
                 field("seriesdate", String::class.java),
                 field("matchstartdateasoffset", String::class.java),
@@ -129,6 +137,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     r.getValue("total", Int::class.java),
                     r.getValue("wickets", Int::class.java),
                     r.getValue("declared", Boolean::class.java),
+                    r.getValue("complete", Boolean::class.java),
+                    r.getValue("allout", Boolean::class.java),
                     r.getValue("location").toString(),
                     r.getValue("seriesdate").toString()
                 )
@@ -147,9 +157,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val lowestTotals = mutableListOf<TotalDto>()
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
             val result = context.with("cte").`as`(
@@ -159,6 +169,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 field("total", Int::class.java),
                 field("wickets", Int::class.java),
                 field("declared", Boolean::class.java),
+                field("allout", Boolean::class.java),
+                field("complete", Boolean::class.java),
                 field("location", String::class.java),
                 field("seriesdate", String::class.java),
                 field("matchstartdateasoffset", String::class.java),
@@ -173,6 +185,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     r.getValue("total", Int::class.java),
                     r.getValue("wickets", Int::class.java),
                     r.getValue("declared", Boolean::class.java),
+                    r.getValue("complete", Boolean::class.java),
+                    r.getValue("allout", Boolean::class.java),
                     r.getValue("location").toString(),
                     r.getValue("seriesdate").toString()
                 )
@@ -192,9 +206,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val lowestTotals = mutableListOf<TotalDto>()
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
             val result = context.with("cte").`as`(
@@ -203,6 +217,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                 field("total", Int::class.java),
                 field("wickets", Int::class.java),
                 field("declared", Boolean::class.java),
+                field("complete", Boolean::class.java),
+                field("allout", Boolean::class.java),
                 field("location", String::class.java),
                 field("seriesdate", String::class.java),
                 field("matchstartdateasoffset", String::class.java),
@@ -217,6 +233,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     r.getValue("total", Int::class.java),
                     r.getValue("wickets", Int::class.java),
                     r.getValue("declared", Boolean::class.java),
+                    r.getValue("complete", Boolean::class.java),
+                    r.getValue("allout", Boolean::class.java),
                     r.getValue("location").toString(),
                     r.getValue("seriesdate").toString()
                 )
@@ -231,7 +249,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         countryIds: List<Int>,
         teamParams: TeamParams,
         startFrom: Long,
-    ): SelectConditionStep<Record7<Int?, Int?, Int?, Byte?, String?, String?, Long?>> {
+    ): SelectConditionStep<Record9<Int?, Int?, Int?, Byte?, Byte?, Byte?, String?, String?, Long?>> {
 
         var whereClause = INNINGS.MATCHID.`in`(
             select(MATCHSUBTYPE.MATCHID).from(
@@ -252,6 +270,8 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             min(INNINGS.TOTAL).over().`as`("min_total"),
             INNINGS.WICKETS,
             INNINGS.DECLARED,
+            INNINGS.COMPLETE,
+            INNINGS.ALLOUT,
             INNINGS.matches.LOCATION,
             INNINGS.matches.SERIESDATE,
             INNINGS.matches.MATCHSTARTDATEASOFFSET
@@ -272,9 +292,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val highestscores = mutableListOf<HighestScoreDto>()
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
 
@@ -390,9 +410,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
             val cte = context
@@ -474,9 +494,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val highestStrikeRates = mutableListOf<StrikeRateDto>()
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
             var whereClause = BATTINGDETAILS.MATCHID.`in`(
@@ -567,9 +587,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val mostBoundaries = mutableListOf<BoundariesDto>()
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
 
@@ -647,9 +667,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val mostBoundaries = mutableListOf<BoundariesDto>()
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
             var whereClause = BATTINGDETAILS.MATCHID.`in`(
@@ -730,9 +750,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val mostBoundaries = mutableListOf<BoundariesDto>()
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
 
@@ -824,9 +844,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
 
@@ -934,9 +954,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
             val cte = context
@@ -1034,9 +1054,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
             val cte = context
@@ -1138,9 +1158,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
             val cte = context
@@ -1256,9 +1276,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             try {
                 val context = using(conn, dialect)
@@ -1357,7 +1377,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     previous = current
                 }
             } catch (e: Exception) {
-                println("")
+                println(e.message)
                 throw e
             }
         }
@@ -1385,9 +1405,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
 
             try {
@@ -1464,7 +1484,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                     mostruns.add(mr)
                 }
             } catch (e: Exception) {
-                println()
+                println(e.message)
             }
         }
 
@@ -1492,9 +1512,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
 
@@ -1644,9 +1664,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
 
@@ -1729,9 +1749,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
 
@@ -1803,9 +1823,9 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
         val bestFow = mutableMapOf<Int, FowDetails>()
 
         DriverManager.getConnection(
-            databaseConnection.connectionString,
-            databaseConnection.userName,
-            databaseConnection.password
+            databaseConnectionDetails.connectionString,
+            databaseConnectionDetails.userName,
+            databaseConnectionDetails.password
         ).use { conn ->
             val context = using(conn, dialect)
 
@@ -2001,7 +2021,7 @@ class TeamRecords(private val databaseConnection: DatabaseConnection) {
                         val partnership = partnershipRecord.getValue("partnership", Int::class.java)
 
                         val possileInvalidPartnership = getPossibleFallOfWicketMissingPartnerships(
-                            databaseConnection,
+                            databaseConnectionDetails,
                             countryIds,
                             teamParams,
                             wicket,

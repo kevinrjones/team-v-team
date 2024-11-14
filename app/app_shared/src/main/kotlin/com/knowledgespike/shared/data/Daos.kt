@@ -129,6 +129,8 @@ data class TotalDto(
     val total: Int,
     val wickets: Int,
     val declared: Boolean,
+    val complete: Boolean,
+    val allOut: Boolean,
     val location: String,
     val seriesDate: String,
 )

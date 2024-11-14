@@ -12,7 +12,7 @@ import com.knowledgespike.shared.data.getIndexPageJsonData
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.progressive.html.GenerateHtml
 import com.knowledgespike.progressive.json.getProgressiveJsonData
-import com.knowledgespike.shared.database.DatabaseConnection
+import com.knowledgespike.shared.database.DatabaseConnectionDetails
 import com.knowledgespike.shared.database.getTeamIds
 import com.knowledgespike.shared.types.TeamIdsAndValidDate
 import kotlinx.coroutines.*
@@ -99,14 +99,14 @@ class Application {
                     }
                 }
 
-                val databaseConnection = DatabaseConnection(userName, password, connectionString, dialect)
+                val databaseConnectionDetails = DatabaseConnectionDetails(userName, password, connectionString, dialect)
                 val jsonOutputDirectory = "$baseDirectory/$relativeJsonOutputDirectory"
                 val fqDataDirectory = "$baseDirectory/$dataDirectory"
                 processAllCompetitions(
                     fqDataDirectory,
                     fullyQualifiedHtmlOutputDirectory,
                     jsonOutputDirectory,
-                    databaseConnection
+                    databaseConnectionDetails
                 )
 
             } catch (t: Throwable) {
@@ -119,7 +119,7 @@ class Application {
             dataDirectory: String,
             htmlOutputDirectory: String,
             jsonOutputDirectory: String,
-            databaseConnection: DatabaseConnection,
+            databaseConnectionDetails: DatabaseConnectionDetails,
         ) {
 
             val allCompetitions = getAllCompetitions(dataDirectory)
@@ -137,7 +137,7 @@ class Application {
                     val job = launch {
                         val teamsWithDuplicates: Map<String, TeamIdsAndValidDate> =
                             getTeamIds(
-                                databaseConnection,
+                                databaseConnectionDetails,
                                 competitionWithSortedTeams.teams,
                                 competitionWithSortedTeams.country,
                                 matchSubType
@@ -147,7 +147,7 @@ class Application {
                         competition.teams.forEach {
                             val opponents =
                                 getTeamIds(
-                                    databaseConnection,
+                                    databaseConnectionDetails,
                                     it.opponents,
                                     competitionWithSortedTeams.country,
                                     matchSubType
@@ -166,7 +166,7 @@ class Application {
 
                         var shouldUpdateAll = false
                         val pairsForPage = processTeams.processTeamPairs(
-                            databaseConnection,
+                            databaseConnectionDetails,
                             competition.countries,
                             matchSubType,
                             "$jsonOutputDirectory/${competition.outputDirectory}",
@@ -210,13 +210,19 @@ class Application {
                             shouldUpdateAll = false
 
                             processTeams.processTeamVsAllOpponents(
-                                databaseConnection,
+                                databaseConnectionDetails,
                                 competition.countries,
                                 matchSubType,
                                 "$jsonOutputDirectory/${competition.outputDirectory}",
                                 competition.overall,
 // startFrom
                                 callback = { teamdAndIds, jsonDirectory ->
+
+                                    log.debug(
+                                        "Updating data for {} vs all for {}",
+                                        teamdAndIds.teamName,
+                                        matchDesignator
+                                    )
 
                                     val progressiveData = ProgressiveData(
                                         teamdAndIds.teamName,

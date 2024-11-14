@@ -33,6 +33,7 @@ fun matchTypeFromSubType(matchType: String): String {
         "hund" -> "tt"
         "psl" -> "tt"
         "cpl" -> "tt"
+        "wctt" -> "tt"
 
         "wt" -> "wf"
         "wf" -> "wf"
@@ -47,6 +48,7 @@ fun matchTypeFromSubType(matchType: String): String {
         "wipl" -> "wtt"
         "whund" -> "wtt"
         "wcpl" -> "wtt"
+        "wwctt" -> "wtt"
 
         "minc" -> "minc"
         "mintt" -> "mintt"

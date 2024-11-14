@@ -5,7 +5,7 @@ import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.data.createTeamPairHomePagesData
 import com.knowledgespike.shared.data.getHomePageJsonData
 import com.knowledgespike.shared.data.getIndexPageJsonData
-import com.knowledgespike.shared.database.DatabaseConnection
+import com.knowledgespike.shared.database.DatabaseConnectionDetails
 import com.knowledgespike.shared.database.getTeamIds
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.teamvteam.database.ProcessTeams
@@ -96,7 +96,7 @@ class Application {
                         SQLDialect.DEFAULT
                     }
                 }
-                val databaseConnection = DatabaseConnection(userName, password, connectionString, dialect)
+                val databaseConnectionDetails = DatabaseConnectionDetails(userName, password, connectionString, dialect)
                 val jsonOutputDirectory = "$baseDirectory/$relativeJsonOutputDirectory"
                 val fqDataDirectory = "$baseDirectory/$dataDirectory"
 
@@ -104,18 +104,21 @@ class Application {
                     fqDataDirectory,
                     fullyQualifiedHtmlOutputDirectory,
                     jsonOutputDirectory,
-                    databaseConnection
+                    databaseConnectionDetails
                 )
             } catch (t: Throwable) {
+                t.printStackTrace()
+                println(t)
                 log.error("Error in main", t)
             }
         }
 
+        @OptIn(ExperimentalCoroutinesApi::class)
         private suspend fun processAllCompetitions(
             dataDirectory: String,
             htmlOutputDirectory: String,
             jsonOutputDirectory: String,
-            databaseConnection: DatabaseConnection,
+            databaseConnectionDetails: DatabaseConnectionDetails,
         ) {
 
             val allCompetitions = getAllCompetitions(dataDirectory)
@@ -124,7 +127,7 @@ class Application {
             val jobs = mutableListOf<Job>()
 
             allCompetitions.forEach { competition: Competition ->
-                withContext(Dispatchers.Default) {
+                withContext(Dispatchers.Default.limitedParallelism(5)) {
                     val job = launch {
 
                         val matchDesignator = competition.title
@@ -136,7 +139,7 @@ class Application {
 
                         val teamsWithDuplicates =
                             getTeamIds(
-                                databaseConnection,
+                                databaseConnectionDetails,
                                 competitionWithSortedTeams.teams,
                                 competitionWithSortedTeams.country,
                                 matchSubType
@@ -146,7 +149,7 @@ class Application {
                         competition.teams.forEach {
                             val opponents =
                                 getTeamIds(
-                                    databaseConnection,
+                                    databaseConnectionDetails,
                                     it.opponents,
                                     competitionWithSortedTeams.country,
                                     matchSubType
@@ -163,62 +166,70 @@ class Application {
                         val processTeams =
                             ProcessTeams(teamsWithDuplicates, opponentsForTeam, opponentsWithAuthors)
 
-                        val pairsForPage = processTeams.process(
-                            databaseConnection,
-                            competition.countries,
-                            matchSubType,
-                            "$jsonOutputDirectory/${competition.outputDirectory}",
-                            competition.teams.map { it.team },
-                            competition.overall,
-                        ) { teamPairDetails, jsonDirectory ->
 
-                            log.debug(
-                                "Updating data for {} and {} for {}",
-                                teamPairDetails.teams[0],
-                                teamPairDetails.teams[1],
-                                matchDesignator
-                            )
+                        var pairsForPage: Map<String, TeamPairHomePagesData>? = null
 
-                            val teamPairDetailsData = TeamPairDetailsData(
-                                teamPairDetails.teams[0],
-                                teamPairDetails.teams[1],
-                                competition.title,
-                                competition.subType,
-                                teamPairDetails.matchDto,
-                                competition.gender,
-                                teamPairDetails.authors,
-                                teamPairDetails.highestScores,
-                                teamPairDetails.highestIndividualScore,
-                                teamPairDetails.highestIndividualStrikeRates,
-                                teamPairDetails.highestIndividualStrikeRatesWithLimit,
-                                teamPairDetails.lowestIndividualStrikeRates,
-                                teamPairDetails.lowestIndividualStrikeRatesWithLimit,
-                                teamPairDetails.mostFours,
-                                teamPairDetails.mostSixes,
-                                teamPairDetails.mostBoundaries,
-                                teamPairDetails.bestBowlingInnings,
-                                teamPairDetails.bestBowlingMatch,
-                                teamPairDetails.bestBowlingSRInnings,
-                                teamPairDetails.bestBowlingSRWithLimitInnings,
-                                teamPairDetails.bestBowlingERInnings,
-                                teamPairDetails.bestBowlingERWithLimitInnings,
-                                teamPairDetails.worstBowlingERInnings,
-                                teamPairDetails.worstBowlingERWithLimitInnings,
-                                teamPairDetails.bestFoW,
-                                teamPairDetails.mostRunsVsOpposition,
-                                teamPairDetails.mostWicketsVsOpposition,
-                                teamPairDetails.mostCatchesVsOpposition,
-                                teamPairDetails.mostStumpingsVsOpposition,
-                                teamPairDetails.teamAllLowestScores,
-                                Clock.System.now()
-                            )
+                        try {
+                            pairsForPage = processTeams.process(
+                                databaseConnectionDetails,
+                                competition.countries,
+                                matchSubType,
+                                "$jsonOutputDirectory/${competition.outputDirectory}",
+                                competition.teams.map { it.team },
+                                competition.overall,
+                            ) { teamPairDetails, jsonDirectory ->
+
+                                log.debug(
+                                    "Updating data for {} and {} for {}",
+                                    teamPairDetails.teams[0],
+                                    teamPairDetails.teams[1],
+                                    matchDesignator
+                                )
+
+                                val teamPairDetailsData = TeamPairDetailsData(
+                                    teamPairDetails.teams[0],
+                                    teamPairDetails.teams[1],
+                                    competition.title,
+                                    competition.subType,
+                                    teamPairDetails.matchDto,
+                                    competition.gender,
+                                    teamPairDetails.authors,
+                                    teamPairDetails.highestScores,
+                                    teamPairDetails.highestIndividualScore,
+                                    teamPairDetails.highestIndividualStrikeRates,
+                                    teamPairDetails.highestIndividualStrikeRatesWithLimit,
+                                    teamPairDetails.lowestIndividualStrikeRates,
+                                    teamPairDetails.lowestIndividualStrikeRatesWithLimit,
+                                    teamPairDetails.mostFours,
+                                    teamPairDetails.mostSixes,
+                                    teamPairDetails.mostBoundaries,
+                                    teamPairDetails.bestBowlingInnings,
+                                    teamPairDetails.bestBowlingMatch,
+                                    teamPairDetails.bestBowlingSRInnings,
+                                    teamPairDetails.bestBowlingSRWithLimitInnings,
+                                    teamPairDetails.bestBowlingERInnings,
+                                    teamPairDetails.bestBowlingERWithLimitInnings,
+                                    teamPairDetails.worstBowlingERInnings,
+                                    teamPairDetails.worstBowlingERWithLimitInnings,
+                                    teamPairDetails.bestFoW,
+                                    teamPairDetails.mostRunsVsOpposition,
+                                    teamPairDetails.mostWicketsVsOpposition,
+                                    teamPairDetails.mostCatchesVsOpposition,
+                                    teamPairDetails.mostStumpingsVsOpposition,
+                                    teamPairDetails.teamAllLowestScores,
+                                    Clock.System.now()
+                                )
 
 
-                            val fileName = teamPairDetails.generateTvTFileName(matchSubType)
+                                val fileName = teamPairDetails.generateTvTFileName(matchSubType)
 
-                            writeTvTJsonMatchData(jsonDirectory, fileName, teamPairDetailsData)
+                                writeTvTJsonMatchData(jsonDirectory, fileName, teamPairDetailsData)
+
+                            }
+                        } catch (e: Exception) {
+                            log.error(e.message)
+                            throw e
                         }
-
 
                         val jsonDirectory = "$jsonOutputDirectory/${competition.outputDirectory}"
 
@@ -226,7 +237,7 @@ class Application {
                             matchSubType,
                             competition.title,
                             competition.gender,
-                            pairsForPage,
+                            pairsForPage!!,
                             jsonDirectory
                         )
 
