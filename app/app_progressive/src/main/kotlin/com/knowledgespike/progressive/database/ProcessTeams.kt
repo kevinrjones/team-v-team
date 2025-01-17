@@ -1,9 +1,9 @@
 package com.knowledgespike.progressive.database
 
+import com.knowledgespike.progressive.Application
 import com.knowledgespike.progressive.json.getProgressiveJsonData
 import com.knowledgespike.shared.data.TeamPairHomePagesData
 import com.knowledgespike.shared.data.*
-import com.knowledgespike.shared.database.DatabaseConnectionDetails
 import com.knowledgespike.shared.database.checkIfShouldProcess
 import com.knowledgespike.shared.database.getCountOfMatchesBetweenTeams
 import com.knowledgespike.shared.database.getCountryIdsFromName
@@ -12,7 +12,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.jooq.SQLDialect
-import java.sql.DriverManager
+import java.sql.Connection
 
 class ProcessTeams(
     allTeams: TeamNameToValidTeam,
@@ -28,11 +28,13 @@ class ProcessTeams(
     private val teamAndAllOpponents = buildPairsOfTeamsOpponents(allTeams, opponentsForTeam)
 
     suspend fun processTeamPairs(
-        databaseConnectionDetails: DatabaseConnectionDetails,
+        connection: Connection,
+        dialect: SQLDialect,
         countries: List<String>,
         matchSubType: String,
         jsonDirectory: String,
         competitionTeams: List<String>,
+        competitionTitle: String,
         overall: Boolean,
         callback: (teamPairDetails: TeamPairDetails, jsonDirectory: String) -> Unit,
     ): Map<String, TeamPairHomePagesData> {
@@ -40,21 +42,22 @@ class ProcessTeams(
 
         var pairsForPage: Map<String, TeamPairHomePagesData> = mutableMapOf()
 
-        val countryIds = getCountryIdsFromName(countries, databaseConnectionDetails)
+        val countryIds = getCountryIdsFromName(countries, connection, dialect)
 
 
         for (teamsAndOpponents in idPairs) {
-            log.debug("Start processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
-            DriverManager.getConnection(
-                databaseConnectionDetails.connectionString,
-                databaseConnectionDetails.userName,
-                databaseConnectionDetails.password
-            ).use { connection ->
+            log.debug(
+                "Start processing: {} and {} for {}",
+                teamsAndOpponents.teamName,
+                teamsAndOpponents.opponentsName,
+                competitionTitle
+            )
+            try {
 
                 val matchDto =
                     getCountOfMatchesBetweenTeams(
                         connection,
-                        databaseConnectionDetails,
+                        dialect,
                         countryIds,
                         teamsAndOpponents,
                         matchSubType,
@@ -82,37 +85,44 @@ class ProcessTeams(
                     )
 
                     if (lastUpdatedDate == null || checkIfShouldProcess(
-                            databaseConnectionDetails,
+                            connection,
+                            dialect,
                             teamsAndOpponents.teamIds,
                             teamsAndOpponents.opponentIds,
                             matchType,
-                            lastUpdatedDate,
-                            dialect
+                            lastUpdatedDate
                         )
                     ) {
                         withContext(Dispatchers.IO) {
                             val job = launch {
                                 val teamParams = getTeamParams(teamsAndOpponents, matchType, matchSubType)
                                 teamPairDetails.getFallOfWicketRecords(
-                                    databaseConnectionDetails,
+                                    connection,
+                                    dialect,
                                     teamParams.first,
                                     teamParams.second,
                                     overall
                                 )
                                 teamPairDetails.getTeamRecords(
-                                    databaseConnectionDetails,
+                                    connection,
+                                    dialect,
                                     teamParams.first,
                                     teamParams.second
                                 )
                                 teamPairDetails.getIndividualRecords(
-                                    databaseConnectionDetails,
+                                    connection,
+                                    dialect,
                                     teamParams.first,
                                     teamParams.second
                                 )
 
 
                                 val maybeAuthors =
-                                    getAuthors(teamPairDetails, teamPairDetails.teams[0], teamPairDetails.teams[1]) +
+                                    getAuthors(
+                                        teamPairDetails,
+                                        teamPairDetails.teams[0],
+                                        teamPairDetails.teams[1]
+                                    ) +
                                             getAuthors(
                                                 teamPairDetails,
                                                 teamPairDetails.teams[1],
@@ -132,13 +142,17 @@ class ProcessTeams(
                         }
                     }
                 }
+
+            } catch (e: Exception) {
+                throw e
             }
         }
         return pairsForPage
     }
 
     suspend fun processTeamVsAllOpponents(
-        connectionDetails: DatabaseConnectionDetails,
+        connection: Connection,
+        dialect: SQLDialect,
         country: List<String>,
         matchSubType: String,
         jsonDirectory: String,
@@ -147,79 +161,78 @@ class ProcessTeams(
     ) {
         val matchType: String = matchTypeFromSubType(matchSubType)
 
-        val countryId = getCountryIdsFromName(country, connectionDetails)
+        val countryId = getCountryIdsFromName(country, connection, dialect)
 
         for ((teamAndIds, opponents) in teamAndAllOpponents) {
-            DriverManager.getConnection(
-                connectionDetails.connectionString,
-                connectionDetails.userName,
-                connectionDetails.password
-            ).use { connection ->
-                val matchDto =
-                    getCountOfMatchesBetweenTeams(
+            
+            
+
+            val matchDto =
+                getCountOfMatchesBetweenTeams(
+                    connection,
+                    dialect,
+                    countryId,
+                    TeamsAndOpponents(
+                        teamAndIds.teamName,
+                        teamAndIds.teamIds,
+                        "all",
+                        opponents,
+                        teamAndIds.startFrom
+                    ),
+                    matchSubType,
+                    overall,
+                    teamAndIds.startFrom,
+                )
+
+            val teamAndAllOpponentsDetails = TeamAndAllOpponentsDetails(teamAndIds.teamName, matchDto)
+
+            withContext(Dispatchers.IO) {
+                val job = launch {
+
+                    teamAndAllOpponentsDetails.getFallOfWicketRecords(
                         connection,
-                        connectionDetails,
-                        countryId,
-                        TeamsAndOpponents(
-                            teamAndIds.teamName,
-                            teamAndIds.teamIds,
-                            "all",
-                            opponents,
-                            teamAndIds.startFrom
-                        ),
+                        dialect,
+                        teamAndIds,
+                        opponents,
+                        matchType,
                         matchSubType,
                         overall,
                         teamAndIds.startFrom,
                     )
 
-                val teamAndAllOpponentsDetails = TeamAndAllOpponentsDetails(teamAndIds.teamName, matchDto)
+                    teamAndAllOpponentsDetails.getTeamRecords(
+                        connection,
+                        dialect,
+                        teamAndIds,
+                        opponents,
+                        matchType,
+                        matchSubType,
+                        overall,
+                        teamAndIds.startFrom,
+                    )
 
-                withContext(Dispatchers.IO) {
-                    val job = launch {
+                    teamAndAllOpponentsDetails.getIndividualRecords(
+                        connection,
+                        dialect,
+                        teamAndIds,
+                        opponents,
+                        matchType,
+                        matchSubType,
+                        overall,
+                        teamAndIds.startFrom,
+                    )
 
-                        teamAndAllOpponentsDetails.getFallOfWicketRecords(
-                            connectionDetails,
-                            teamAndIds,
-                            opponents,
-                            matchType,
-                            matchSubType,
-                            overall,
-                            teamAndIds.startFrom,
-                        )
+                    val maybeAuthors =
+                        opponentsWithAuthors.flatMap { it.value }.map { it.name }.toSet().toList()
+                    teamAndAllOpponentsDetails.authors.addAll(maybeAuthors)
 
-                        teamAndAllOpponentsDetails.getTeamRecords(
-                            connectionDetails,
-                            teamAndIds,
-                            opponents,
-                            matchType,
-                            matchSubType,
-                            overall,
-                            teamAndIds.startFrom,
-                        )
-
-                        teamAndAllOpponentsDetails.getIndividualRecords(
-                            connectionDetails,
-                            teamAndIds,
-                            opponents,
-                            matchType,
-                            matchSubType,
-                            overall,
-                            teamAndIds.startFrom,
-                        )
-
-                        val maybeAuthors =
-                            opponentsWithAuthors.flatMap { it.value }.map { it.name }.toSet().toList()
-                        teamAndAllOpponentsDetails.authors.addAll(maybeAuthors)
-
-                    }
-                    job.join()
-
-                    callback(teamAndAllOpponentsDetails, jsonDirectory)
                 }
+                job.join()
+
+                callback(teamAndAllOpponentsDetails, jsonDirectory)
             }
         }
     }
-
 
     private fun getAuthors(teamPairDetails: TeamPairDetails, author1: String, author2: String): List<String> {
         val maybeAuthors = opponentsWithAuthors

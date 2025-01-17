@@ -5,19 +5,114 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/app_app_tvt__run_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/app_app_tvt__run_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/helpers/Random.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SuppliedUpdatesToPartnerships/~$current RWPs.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/Application.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/ProcessTeams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/ProcessTeams.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamPairDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamPairDetails.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/Html.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/Html.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Innings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Innings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingCareerRecords.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingEraIndex.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByGround.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByHost.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByInnings.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByMatch.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByOpp.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsBySeason.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsBySeries.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByYear.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingCareerRecords.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingEraIndex.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByGround.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByHost.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByInnings.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByMatch.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByOpp.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsBySeason.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsBySeries.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByYear.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecords.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecordsByGround.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecordsByHost.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecordsByOpp.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecordsBySeason.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecordsBySeries.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecordsByYear.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingIndividualCareerRecordsByInnings.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingIndividualCareerRecordsByMatch.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowCareerRecords.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByGround.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByHost.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByInnings.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByInningsForWicket.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByMatch.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByOpposition.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListBySeason.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListBySeries.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByYear.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByGroundAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByGroundForTeam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByGroundForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByGroundOverall.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByGroundOverallEx.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByHostAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByHostForTeam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByHostForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByHostOverall.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsBySeasonAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsBySeasonForTeam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsBySeasonForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsBySeasonOverall.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsBySeries.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByStartyearAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByStartyearForTeam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByStartyearForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByStartyearOverall.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamMatchResultsForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByGroundAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByGroundForTeam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByGroundForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByGroundOverall.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByGroundOverallEx.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByHostAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByHostForTeam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByHostForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByHostOverall.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByOpp.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsBySeasonAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsBySeasonForTeam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsBySeasonForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsBySeasonOverall.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsBySeries.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByStartyearAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByStartyearForTeam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByStartyearForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByStartyearOverall.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsHighestInningsForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsHighestTotalChased.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsInningsExtras.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsLowestTotalDefended.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsLowestUnreducedTotalDefended.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsMatchTotalsAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsMatchTotalsForTeam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsMatchTotalsForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsMatchTotalsOverall.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsResults.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsTotalExtrasAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsTotalExtrasForTeam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsTotalExtrasForTeamAgainstOpponents.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsTotalExtrasOverall.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/references/Routines.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Players.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Players.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Playersmatches.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Playersmatches.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/InningsRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/InningsRecord.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Playersteams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Playersteams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/PlayersRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/PlayersRecord.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/PlayersmatchesRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/PlayersmatchesRecord.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Daos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Daos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/PlayersteamsRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/PlayersteamsRecord.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/FallOfWicket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/FallOfWicket.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Types.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Types.kt" afterDir="false" />
@@ -25,13 +120,7 @@
       <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamPairDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamPairDetails.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamRecords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamRecords.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/Html.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/Html.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data/ind_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/ind_domestic.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../shared/data/international_t20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/international_t20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data/world_cup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/world_cup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data_full/ind_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/ind_domestic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data_full/international_t20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/international_t20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data_full/world_cup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/world_cup.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +153,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Produce Stats" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Produce Stats" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Produce Stats" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -100,44 +200,45 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Gradle.Build app.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [app_progressive:buildEnvironment].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [app_shared:buildEnvironment].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [generateJOOQ].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [jooqCodegen].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [run] .executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [run].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [versionCatalogApplyUpdates].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [versionCatalogFormat].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [versionCatalogUpdate].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:app_progressive [run-test].executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.app:app_progressive [run].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:app_shared [jooqCodegen].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:app_tvt [run].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.team-by-team [run].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kevinjones/Dropbox/projects/cricket/team-by-team/app/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.37338045&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Gradle.Build app.executor": "Run",
+    "Gradle.app [app_progressive:buildEnvironment].executor": "Run",
+    "Gradle.app [app_shared:buildEnvironment].executor": "Run",
+    "Gradle.app [build].executor": "Run",
+    "Gradle.app [clean].executor": "Run",
+    "Gradle.app [generateJOOQ].executor": "Run",
+    "Gradle.app [jooqCodegen].executor": "Run",
+    "Gradle.app [run] .executor": "Run",
+    "Gradle.app [run].executor": "Run",
+    "Gradle.app [versionCatalogApplyUpdates].executor": "Run",
+    "Gradle.app [versionCatalogFormat].executor": "Run",
+    "Gradle.app [versionCatalogUpdate].executor": "Run",
+    "Gradle.app:app_progressive [run-test].executor": "Run",
+    "Gradle.app:app_progressive [run].executor": "Run",
+    "Gradle.app:app_shared [jooqCodegen].executor": "Run",
+    "Gradle.app:app_tvt [run].executor": "Run",
+    "Gradle.team-by-team [run].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kevinjones/Dropbox/projects/cricket/team-by-team/app/app_progressive",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.37338045",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html" />
@@ -179,6 +280,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="app" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="app" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="app" />
       <option name="filePath" />
@@ -288,6 +415,94 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="app [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -454,6 +669,94 @@
         <option name="taskNames">
           <list>
             <option value="versionCatalogApplyUpdates" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [versionCatalogApplyUpdates]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="versionCatalogApplyUpdates" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [versionCatalogApplyUpdates]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="versionCatalogApplyUpdates" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [versionCatalogUpdate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="versionCatalogUpdate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [versionCatalogUpdate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="versionCatalogUpdate" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -644,6 +947,96 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="app:app_progressive [run-test]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app_progressive" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+            <option value="--args=&quot;-bd /Users/kevinjones/Dropbox/projects/cricket/team-by-team -c jdbc:mariadb://localhost:3306/cricketarchive -u cricketarchive -p p4ssw0rd  -ho /Users/kevinjones/Dropbox/team_v_team_progressive_test -jo progressive/json_test -d mariadb -dd shared/data_test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app:app_progressive [run-test]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app_progressive" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+            <option value="--args=&quot;-bd /Users/kevinjones/Dropbox/projects/cricket/team-by-team -c jdbc:mariadb://localhost:3306/cricketarchive -u cricketarchive -p p4ssw0rd  -ho /Users/kevinjones/Dropbox/team_v_team_progressive_test -jo progressive/json_test -d mariadb -dd shared/data_test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app:app_shared [jooqCodegen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app_shared" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jooqCodegen" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app:app_shared [jooqCodegen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app_shared" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jooqCodegen" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="app:app_shared [jooqCodegen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -722,6 +1115,52 @@
         <option name="taskNames">
           <list>
             <option value="jooqCodegen" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="team-by-team [help]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+            <option value="--args=&quot;-h&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="team-by-team [help]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+            <option value="--args=&quot;-h&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -850,19 +1289,19 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.app [build]" />
         <item itemvalue="Gradle.app:app_shared [jooqCodegen]" />
         <item itemvalue="Gradle.app [versionCatalogUpdate]" />
         <item itemvalue="Gradle.app [versionCatalogApplyUpdates]" />
         <item itemvalue="Gradle.app [clean]" />
-        <item itemvalue="Gradle.app [build]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
       </set>
     </attachedChunks>
   </component>
@@ -1242,6 +1681,29 @@
       <workItem from="1730279029598" duration="789000" />
       <workItem from="1730285202087" duration="3549000" />
       <workItem from="1730914622092" duration="13266000" />
+      <workItem from="1731686533221" duration="70000" />
+      <workItem from="1731686738721" duration="596000" />
+      <workItem from="1731688459889" duration="1966000" />
+      <workItem from="1731845571584" duration="598000" />
+      <workItem from="1732118527954" duration="16322000" />
+      <workItem from="1732898964379" duration="298000" />
+      <workItem from="1733221612042" duration="1893000" />
+      <workItem from="1733303921952" duration="10174000" />
+      <workItem from="1733915967110" duration="589000" />
+      <workItem from="1733992797179" duration="4152000" />
+      <workItem from="1734162490481" duration="640000" />
+      <workItem from="1734163585054" duration="2948000" />
+      <workItem from="1734348387352" duration="5276000" />
+      <workItem from="1734697398523" duration="598000" />
+      <workItem from="1734763965692" duration="3673000" />
+      <workItem from="1735374425201" duration="8776000" />
+      <workItem from="1736243114174" duration="1232000" />
+      <workItem from="1736344049177" duration="6016000" />
+      <workItem from="1736497372084" duration="8255000" />
+      <workItem from="1736774112778" duration="1522000" />
+      <workItem from="1736925917624" duration="1638000" />
+      <workItem from="1737048282771" duration="199000" />
+      <workItem from="1737048548120" duration="11361000" />
     </task>
     <servers />
   </component>
@@ -1263,18 +1725,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamRecords.kt</url>
-          <line>1357</line>
+          <line>1277</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt</url>
-          <line>1665</line>
+          <line>1659</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/ProcessTeams.kt</url>
+          <line>153</line>
           <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt</url>
+          <line>904</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt</url>
+          <line>980</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt</url>
+          <line>977</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

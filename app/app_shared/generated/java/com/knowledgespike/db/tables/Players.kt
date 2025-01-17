@@ -26,6 +26,8 @@ import com.knowledgespike.db.tables.Playersofthematchmatches.Playersofthematchma
 import com.knowledgespike.db.tables.Playersteams.PlayersteamsPath
 import com.knowledgespike.db.tables.records.PlayersRecord
 
+import java.time.LocalDate
+
 import kotlin.collections.Collection
 import kotlin.collections.List
 
@@ -117,19 +119,104 @@ open class Players(
     val OTHERNAMEPART: TableField<PlayersRecord, String?> = createField(DSL.name("OtherNamePart"), SQLDataType.VARCHAR(200).nullable(false), this, "")
 
     /**
+     * The column <code>cricketarchive.Players.Birthdate</code>.
+     */
+    val BIRTHDATE: TableField<PlayersRecord, LocalDate?> = createField(DSL.name("Birthdate"), SQLDataType.LOCALDATE.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.LOCALDATE)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.BirthdateAsOffset</code>.
+     */
+    val BIRTHDATEASOFFSET: TableField<PlayersRecord, Long?> = createField(DSL.name("BirthdateAsOffset"), SQLDataType.BIGINT.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.BIGINT)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.BirthdateAsText</code>.
+     */
+    val BIRTHDATEASTEXT: TableField<PlayersRecord, String?> = createField(DSL.name("BirthdateAsText"), SQLDataType.VARCHAR(100).defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.VARCHAR)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.PlaceOfBirth</code>.
+     */
+    val PLACEOFBIRTH: TableField<PlayersRecord, String?> = createField(DSL.name("PlaceOfBirth"), SQLDataType.VARCHAR(300).defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.VARCHAR)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.DateDied</code>.
+     */
+    val DATEDIED: TableField<PlayersRecord, LocalDate?> = createField(DSL.name("DateDied"), SQLDataType.LOCALDATE.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.LOCALDATE)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.DateDiedAsOffset</code>.
+     */
+    val DATEDIEDASOFFSET: TableField<PlayersRecord, Long?> = createField(DSL.name("DateDiedAsOffset"), SQLDataType.BIGINT.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.BIGINT)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.DateDiedAsText</code>.
+     */
+    val DATEDIEDASTEXT: TableField<PlayersRecord, String?> = createField(DSL.name("DateDiedAsText"), SQLDataType.VARCHAR(100).defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.VARCHAR)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.PlaceOfDeath</code>.
+     */
+    val PLACEOFDEATH: TableField<PlayersRecord, String?> = createField(DSL.name("PlaceOfDeath"), SQLDataType.VARCHAR(300).defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.VARCHAR)), this, "")
+
+    /**
      * The column <code>cricketarchive.Players.NameChanged</code>.
      */
-    val NAMECHANGED: TableField<PlayersRecord, Long?> = createField(DSL.name("NameChanged"), SQLDataType.BIGINT.nullable(false), this, "")
+    val NAMECHANGED: TableField<PlayersRecord, LocalDate?> = createField(DSL.name("NameChanged"), SQLDataType.LOCALDATE.nullable(false), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.NameChangedAsOffset</code>.
+     */
+    val NAMECHANGEDASOFFSET: TableField<PlayersRecord, Long?> = createField(DSL.name("NameChangedAsOffset"), SQLDataType.BIGINT.nullable(false), this, "")
 
     /**
      * The column <code>cricketarchive.Players.Debut</code>.
      */
-    val DEBUT: TableField<PlayersRecord, Long?> = createField(DSL.name("Debut"), SQLDataType.BIGINT.nullable(false), this, "")
+    val DEBUT: TableField<PlayersRecord, LocalDate?> = createField(DSL.name("Debut"), SQLDataType.LOCALDATE.nullable(false), this, "")
 
     /**
      * The column <code>cricketarchive.Players.ActiveUntil</code>.
      */
-    val ACTIVEUNTIL: TableField<PlayersRecord, Long?> = createField(DSL.name("ActiveUntil"), SQLDataType.BIGINT.nullable(false), this, "")
+    val ACTIVEUNTIL: TableField<PlayersRecord, LocalDate?> = createField(DSL.name("ActiveUntil"), SQLDataType.LOCALDATE.nullable(false), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.DebutAsOffset</code>.
+     */
+    val DEBUTASOFFSET: TableField<PlayersRecord, Long?> = createField(DSL.name("DebutAsOffset"), SQLDataType.BIGINT.nullable(false), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.ActiveUntilAsOffset</code>.
+     */
+    val ACTIVEUNTILASOFFSET: TableField<PlayersRecord, Long?> = createField(DSL.name("ActiveUntilAsOffset"), SQLDataType.BIGINT.nullable(false), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.BattingHand</code>.
+     */
+    val BATTINGHAND: TableField<PlayersRecord, Int?> = createField(DSL.name("BattingHand"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.BowlingHand</code>.
+     */
+    val BOWLINGHAND: TableField<PlayersRecord, Int?> = createField(DSL.name("BowlingHand"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.BowlingStyle</code>.
+     */
+    val BOWLINGSTYLE: TableField<PlayersRecord, Int?> = createField(DSL.name("BowlingStyle"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.BowlingMode</code>.
+     */
+    val BOWLINGMODE: TableField<PlayersRecord, Int?> = createField(DSL.name("BowlingMode"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.ShortBowlingStyles</code>.
+     */
+    val SHORTBOWLINGSTYLES: TableField<PlayersRecord, String?> = createField(DSL.name("ShortBowlingStyles"), SQLDataType.VARCHAR(100).defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.VARCHAR)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.WicketKeeper</code>.
+     */
+    val WICKETKEEPER: TableField<PlayersRecord, Byte?> = createField(DSL.name("WicketKeeper"), SQLDataType.TINYINT.nullable(false), this, "")
 
     private constructor(alias: Name, aliased: Table<PlayersRecord>?): this(alias, null, null, null, aliased, null, null)
     private constructor(alias: Name, aliased: Table<PlayersRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)

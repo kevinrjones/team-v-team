@@ -17,6 +17,8 @@ import com.knowledgespike.db.tables.Players.PlayersPath
 import com.knowledgespike.db.tables.Teams.TeamsPath
 import com.knowledgespike.db.tables.records.PlayersteamsRecord
 
+import java.time.LocalDate
+
 import kotlin.collections.Collection
 import kotlin.collections.List
 
@@ -103,12 +105,22 @@ open class Playersteams(
     /**
      * The column <code>cricketarchive.PlayersTeams.Debut</code>.
      */
-    val DEBUT: TableField<PlayersteamsRecord, Long?> = createField(DSL.name("Debut"), SQLDataType.BIGINT.nullable(false), this, "")
+    val DEBUT: TableField<PlayersteamsRecord, LocalDate?> = createField(DSL.name("Debut"), SQLDataType.LOCALDATE.nullable(false), this, "")
 
     /**
      * The column <code>cricketarchive.PlayersTeams.ActiveUntil</code>.
      */
-    val ACTIVEUNTIL: TableField<PlayersteamsRecord, Long?> = createField(DSL.name("ActiveUntil"), SQLDataType.BIGINT.nullable(false), this, "")
+    val ACTIVEUNTIL: TableField<PlayersteamsRecord, LocalDate?> = createField(DSL.name("ActiveUntil"), SQLDataType.LOCALDATE.nullable(false), this, "")
+
+    /**
+     * The column <code>cricketarchive.PlayersTeams.DebutAsOffset</code>.
+     */
+    val DEBUTASOFFSET: TableField<PlayersteamsRecord, Long?> = createField(DSL.name("DebutAsOffset"), SQLDataType.BIGINT.nullable(false), this, "")
+
+    /**
+     * The column <code>cricketarchive.PlayersTeams.ActiveUntilAsOffset</code>.
+     */
+    val ACTIVEUNTILASOFFSET: TableField<PlayersteamsRecord, Long?> = createField(DSL.name("ActiveUntilAsOffset"), SQLDataType.BIGINT.nullable(false), this, "")
 
     private constructor(alias: Name, aliased: Table<PlayersteamsRecord>?): this(alias, null, null, null, aliased, null, null)
     private constructor(alias: Name, aliased: Table<PlayersteamsRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)

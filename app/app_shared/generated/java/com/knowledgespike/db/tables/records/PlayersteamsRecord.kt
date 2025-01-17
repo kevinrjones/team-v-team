@@ -6,6 +6,8 @@ package com.knowledgespike.db.tables.records
 
 import com.knowledgespike.db.tables.Playersteams
 
+import java.time.LocalDate
+
 import org.jooq.impl.TableRecordImpl
 
 
@@ -31,24 +33,34 @@ open class PlayersteamsRecord() : TableRecordImpl<PlayersteamsRecord>(Playerstea
         set(value): Unit = set(3, value)
         get(): Int? = get(3) as Int?
 
-    open var debut: Long?
+    open var debut: LocalDate?
         set(value): Unit = set(4, value)
-        get(): Long? = get(4) as Long?
+        get(): LocalDate? = get(4) as LocalDate?
 
-    open var activeuntil: Long?
+    open var activeuntil: LocalDate?
         set(value): Unit = set(5, value)
-        get(): Long? = get(5) as Long?
+        get(): LocalDate? = get(5) as LocalDate?
+
+    open var debutasoffset: Long?
+        set(value): Unit = set(6, value)
+        get(): Long? = get(6) as Long?
+
+    open var activeuntilasoffset: Long?
+        set(value): Unit = set(7, value)
+        get(): Long? = get(7) as Long?
 
     /**
      * Create a detached, initialised PlayersteamsRecord
      */
-    constructor(playerid: Int? = null, teamid: Int? = null, matchtype: String? = null, debutid: Int? = null, debut: Long? = null, activeuntil: Long? = null): this() {
+    constructor(playerid: Int? = null, teamid: Int? = null, matchtype: String? = null, debutid: Int? = null, debut: LocalDate? = null, activeuntil: LocalDate? = null, debutasoffset: Long? = null, activeuntilasoffset: Long? = null): this() {
         this.playerid = playerid
         this.teamid = teamid
         this.matchtype = matchtype
         this.debutid = debutid
         this.debut = debut
         this.activeuntil = activeuntil
+        this.debutasoffset = debutasoffset
+        this.activeuntilasoffset = activeuntilasoffset
         resetChangedOnNotNull()
     }
 }

@@ -114,6 +114,11 @@ open class Playersmatches(
      */
     val OTHERNAMEPART: TableField<PlayersmatchesRecord, String?> = createField(DSL.name("OtherNamePart"), SQLDataType.VARCHAR(200).nullable(false), this, "")
 
+    /**
+     * The column <code>cricketarchive.PlayersMatches.WasSubstitute</code>.
+     */
+    val WASSUBSTITUTE: TableField<PlayersmatchesRecord, Byte?> = createField(DSL.name("WasSubstitute"), SQLDataType.TINYINT.nullable(false), this, "")
+
     private constructor(alias: Name, aliased: Table<PlayersmatchesRecord>?): this(alias, null, null, null, aliased, null, null)
     private constructor(alias: Name, aliased: Table<PlayersmatchesRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
     private constructor(alias: Name, aliased: Table<PlayersmatchesRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)

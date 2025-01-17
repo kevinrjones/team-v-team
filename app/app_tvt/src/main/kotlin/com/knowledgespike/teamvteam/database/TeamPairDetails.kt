@@ -1,8 +1,9 @@
 package com.knowledgespike.teamvteam.database
 
 import com.knowledgespike.shared.data.*
-import com.knowledgespike.shared.database.DatabaseConnectionDetails
 import com.knowledgespike.teamvteam.daos.*
+import org.jooq.SQLDialect
+import java.sql.Connection
 
 data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
 
@@ -46,13 +47,14 @@ data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
     val nonFcMatchTypes = listOf("o", "a", "wo", "wa", "tt", "itt", "wtt", "witt")
 
     fun addTeamData(
-        databaseConnectionDetails: DatabaseConnectionDetails,
+        connection: java.sql.Connection,
+        dialect: SQLDialect,
         countryIds: List<Int>,
         teamParamA: TeamParams,
         teamParamB: TeamParams,
         startFrom: Long
     ) {
-        val teamRecords = TeamRecords(databaseConnectionDetails)
+        val teamRecords = TeamRecords(connection, dialect)
         highestScores[0].addAll(
             teamRecords.getHighestTotals(
                 countryIds,
@@ -81,7 +83,8 @@ data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
     }
 
     fun addIndividualData(
-        databaseConnectionDetails: DatabaseConnectionDetails,
+        connection: Connection,
+        dialect: SQLDialect,
         countryIds: List<Int>,
         teamParamA: TeamParams,
         teamParamB: TeamParams,
@@ -89,7 +92,7 @@ data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
         startFrom: Long
     ) {
 
-        val teamRecords = TeamRecords(databaseConnectionDetails)
+        val teamRecords = TeamRecords(connection, dialect)
         highestIndividualScore[0].addAll(
             teamRecords.getHighestIndividualScores(countryIds, teamParamA, startFrom)
         )

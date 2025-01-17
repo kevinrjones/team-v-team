@@ -2,14 +2,12 @@ package com.knowledgespike.teamvteam.database
 
 import com.knowledgespike.extensions.generateTvTFileName
 import com.knowledgespike.shared.data.*
-import com.knowledgespike.shared.database.DatabaseConnectionDetails
 import com.knowledgespike.shared.database.checkIfShouldProcess
 import com.knowledgespike.shared.database.getCountOfMatchesBetweenTeams
 import com.knowledgespike.shared.database.getCountryIdsFromName
 import com.knowledgespike.shared.logging.LoggerDelegate
-import com.knowledgespike.teamvteam.Application.Companion.dialect
 import com.knowledgespike.teamvteam.json.getTvTJsonData
-import java.sql.DriverManager
+import org.jooq.SQLDialect
 
 
 class ProcessTeams(
@@ -27,7 +25,8 @@ class ProcessTeams(
 
 
     fun process(
-        databaseConnectionDetails: DatabaseConnectionDetails,
+        connection: java.sql.Connection,
+        dialect: SQLDialect,
         countries: List<String>,
         matchSubType: String,
         jsonDirectory: String,
@@ -38,100 +37,98 @@ class ProcessTeams(
 
         val matchType: String = matchTypeFromSubType(matchSubType)
 
-        val countryIds = getCountryIdsFromName(countries, databaseConnectionDetails)
+        val countryIds = getCountryIdsFromName(countries, connection, dialect)
 
         var pairsForPage: Map<String, TeamPairHomePagesData> = mutableMapOf()
 
-        DriverManager.getConnection(
-            databaseConnectionDetails.connectionString,
-            databaseConnectionDetails.userName,
-            databaseConnectionDetails.password
-        ).use { connection ->
 
-            for (teamsAndOpponents in idPairs) {
-                val matchDto =
-                    getCountOfMatchesBetweenTeams(
+
+        for (teamsAndOpponents in idPairs) {
+            val matchDto =
+                getCountOfMatchesBetweenTeams(
+                    connection,
+                    dialect,
+                    countryIds,
+                    teamsAndOpponents,
+                    matchSubType,
+                    overall,
+                    teamsAndOpponents.startFrom
+                )
+            if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
+                val teamPairDetails =
+                    TeamPairDetails(
+                        arrayOf(teamsAndOpponents.teamName, teamsAndOpponents.opponentsName),
+                        matchDto
+                    )
+
+                val fileName = teamPairDetails.generateTvTFileName(matchSubType)
+
+                val lastUpdatedDate = getLastUpdatedDate(jsonDirectory, fileName)
+
+                pairsForPage = addPairToPage(
+                    competitionTeams,
+                    teamsAndOpponents.teamName,
+                    teamsAndOpponents.opponentsName,
+                    pairsForPage
+                )
+
+
+                if (lastUpdatedDate == null || checkIfShouldProcess(
                         connection,
-                        databaseConnectionDetails,
+                        dialect,
+                        teamsAndOpponents.teamIds,
+                        teamsAndOpponents.opponentIds,
+                        matchType,
+                        lastUpdatedDate
+                    )
+                ) {
+
+                    val teamParams = getTeamParams(teamsAndOpponents, matchType, matchSubType)
+                    log.info("About to process {}", teamParams)
+                    teamPairDetails.addTeamData(
+                        connection,
+                        dialect,
                         countryIds,
-                        teamsAndOpponents,
-                        matchSubType,
-                        overall,
+                        teamParams.first,
+                        teamParams.second,
                         teamsAndOpponents.startFrom
                     )
-                if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
-                    val teamPairDetails =
-                        TeamPairDetails(
-                            arrayOf(teamsAndOpponents.teamName, teamsAndOpponents.opponentsName),
-                            matchDto
-                        )
-
-                    val fileName = teamPairDetails.generateTvTFileName(matchSubType)
-
-                    val lastUpdatedDate = getLastUpdatedDate(jsonDirectory, fileName)
-
-                    pairsForPage = addPairToPage(
-                        competitionTeams,
-                        teamsAndOpponents.teamName,
-                        teamsAndOpponents.opponentsName,
-                        pairsForPage
+                    teamPairDetails.addIndividualData(
+                        connection,
+                        dialect,
+                        countryIds,
+                        teamParams.first,
+                        teamParams.second,
+                        matchType,
+                        teamsAndOpponents.startFrom
                     )
 
+                    val authors1 = opponentsWithAuthors
+                        .filter { it.key == teamPairDetails.teams[0] }
+                        .get(teamPairDetails.teams[0])?.map { it }
+                        ?.filter { it.opponent == teamPairDetails.teams[1] }
+                        ?.map { it.name }
+                        ?: listOf()
 
-                    if (lastUpdatedDate == null || checkIfShouldProcess(
-                            databaseConnectionDetails,
-                            teamsAndOpponents.teamIds,
-                            teamsAndOpponents.opponentIds,
-                            matchType,
-                            lastUpdatedDate,
-                            dialect
-                        )
-                    ) {
-
-                        val teamParams = getTeamParams(teamsAndOpponents, matchType, matchSubType)
-                        log.info("About to process {}", teamParams)
-                        teamPairDetails.addTeamData(
-                            databaseConnectionDetails,
-                            countryIds,
-                            teamParams.first,
-                            teamParams.second,
-                            teamsAndOpponents.startFrom
-                        )
-                        teamPairDetails.addIndividualData(
-                            databaseConnectionDetails,
-                            countryIds,
-                            teamParams.first,
-                            teamParams.second,
-                            matchType,
-                            teamsAndOpponents.startFrom
-                        )
-
-                        val authors1 = opponentsWithAuthors
-                            .filter { it.key == teamPairDetails.teams[0] }
-                            .get(teamPairDetails.teams[0])?.map { it }
-                            ?.filter { it.opponent == teamPairDetails.teams[1] }
-                            ?.map { it.name }
-                            ?: listOf()
-
-                        val authors2 = opponentsWithAuthors
-                            .filter { it.key == teamPairDetails.teams[1] }
-                            .get(teamPairDetails.teams[1])?.map { it }
-                            ?.filter { it.opponent == teamPairDetails.teams[0] }
-                            ?.map { it.name }
-                            ?: listOf()
+                    val authors2 = opponentsWithAuthors
+                        .filter { it.key == teamPairDetails.teams[1] }
+                        .get(teamPairDetails.teams[1])?.map { it }
+                        ?.filter { it.opponent == teamPairDetails.teams[0] }
+                        ?.map { it.name }
+                        ?: listOf()
 
 
-                        teamPairDetails.authors.addAll(authors1 + authors2)
-                        val tempAuthors = teamPairDetails.authors.distinct()
-                        teamPairDetails.authors.clear()
-                        teamPairDetails.authors.addAll(tempAuthors)
+                    teamPairDetails.authors.addAll(authors1 + authors2)
+                    val tempAuthors = teamPairDetails.authors.distinct()
+                    teamPairDetails.authors.clear()
+                    teamPairDetails.authors.addAll(tempAuthors)
 
-                        callback(teamPairDetails, jsonDirectory)
-                    }
+                    callback(teamPairDetails, jsonDirectory)
                 }
-
             }
+
         }
+
         return pairsForPage
     }
 
