@@ -1,12 +1,15 @@
 package com.knowledgespike.shared.database
 
 import com.knowledgespike.db.tables.references.*
-import com.knowledgespike.shared.data.*
+import com.knowledgespike.shared.data.MatchDto
+import com.knowledgespike.shared.data.TeamBase
+import com.knowledgespike.shared.data.TeamsAndOpponents
+import com.knowledgespike.shared.data.toLocalDateTime
 import com.knowledgespike.shared.types.TeamIdsAndValidDate
-import org.jooq.*
+import org.jooq.DSLContext
+import org.jooq.SQLDialect
 import org.jooq.impl.DSL
 import java.sql.Connection
-import java.sql.DriverManager
 
 fun checkIfShouldProcess(
     connection: Connection,
@@ -44,7 +47,7 @@ fun getCountryIdsFromName(
     else {
         val context = DSL.using(databaseConnection, dialect)
 
-        val result = context.select(COUNTRIES.COUNTRYID)
+        val result = context.select(COUNTRIES.ID)
             .from(COUNTRIES)
             .where(COUNTRIES.COUNTRYNAME.`in`(countries))
             .fetch()

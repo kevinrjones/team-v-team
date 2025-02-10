@@ -44,9 +44,13 @@ open class PlayersmatchesRecord() : UpdatableRecordImpl<PlayersmatchesRecord>(Pl
         set(value): Unit = set(6, value)
         get(): String? = get(6) as String?
 
-    open var wassubstitute: Byte?
+    open var isfullsubstitute: Byte?
         set(value): Unit = set(7, value)
         get(): Byte? = get(7) as Byte?
+
+    open var issubstitutefielder: Byte?
+        set(value): Unit = set(8, value)
+        get(): Byte? = get(8) as Byte?
 
     // -------------------------------------------------------------------------
     // Primary key information
@@ -57,7 +61,7 @@ open class PlayersmatchesRecord() : UpdatableRecordImpl<PlayersmatchesRecord>(Pl
     /**
      * Create a detached, initialised PlayersmatchesRecord
      */
-    constructor(id: Int? = null, playerid: Int? = null, matchid: Int? = null, teamid: Int? = null, fullname: String? = null, sortnamepart: String? = null, othernamepart: String? = null, wassubstitute: Byte? = null): this() {
+    constructor(id: Int? = null, playerid: Int? = null, matchid: Int? = null, teamid: Int? = null, fullname: String? = null, sortnamepart: String? = null, othernamepart: String? = null, isfullsubstitute: Byte? = null, issubstitutefielder: Byte? = null): this() {
         this.id = id
         this.playerid = playerid
         this.matchid = matchid
@@ -65,7 +69,8 @@ open class PlayersmatchesRecord() : UpdatableRecordImpl<PlayersmatchesRecord>(Pl
         this.fullname = fullname
         this.sortnamepart = sortnamepart
         this.othernamepart = othernamepart
-        this.wassubstitute = wassubstitute
+        this.isfullsubstitute = isfullsubstitute
+        this.issubstitutefielder = issubstitutefielder
         resetChangedOnNotNull()
     }
 }

@@ -23,6 +23,8 @@ import com.knowledgespike.db.tables.Partnershipsplayers.PartnershipsplayersPath
 import com.knowledgespike.db.tables.Teams.TeamsPath
 import com.knowledgespike.db.tables.records.PartnershipsRecord
 
+import java.math.BigDecimal
+
 import kotlin.collections.Collection
 import kotlin.collections.List
 
@@ -182,6 +184,11 @@ open class Partnerships(
      * The column <code>cricketarchive.Partnerships.Partial</code>.
      */
     val PARTIAL: TableField<PartnershipsRecord, Byte?> = createField(DSL.name("Partial"), SQLDataType.TINYINT.nullable(false), this, "")
+
+    /**
+     * The column <code>cricketarchive.Partnerships.SyntheticPartnership</code>.
+     */
+    val SYNTHETICPARTNERSHIP: TableField<PartnershipsRecord, BigDecimal?> = createField(DSL.name("SyntheticPartnership"), SQLDataType.DECIMAL(4, 1).defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.DECIMAL)), this, "")
 
     private constructor(alias: Name, aliased: Table<PartnershipsRecord>?): this(alias, null, null, null, aliased, null, null)
     private constructor(alias: Name, aliased: Table<PartnershipsRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)

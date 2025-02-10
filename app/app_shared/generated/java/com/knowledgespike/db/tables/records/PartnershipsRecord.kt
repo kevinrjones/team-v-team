@@ -6,6 +6,8 @@ package com.knowledgespike.db.tables.records
 
 import com.knowledgespike.db.tables.Partnerships
 
+import java.math.BigDecimal
+
 import org.jooq.Record1
 import org.jooq.impl.UpdatableRecordImpl
 
@@ -92,6 +94,10 @@ open class PartnershipsRecord() : UpdatableRecordImpl<PartnershipsRecord>(Partne
         set(value): Unit = set(18, value)
         get(): Byte? = get(18) as Byte?
 
+    open var syntheticpartnership: BigDecimal?
+        set(value): Unit = set(19, value)
+        get(): BigDecimal? = get(19) as BigDecimal?
+
     // -------------------------------------------------------------------------
     // Primary key information
     // -------------------------------------------------------------------------
@@ -101,7 +107,7 @@ open class PartnershipsRecord() : UpdatableRecordImpl<PartnershipsRecord>(Partne
     /**
      * Create a detached, initialised PartnershipsRecord
      */
-    constructor(id: Int? = null, matchid: Int? = null, matchtype: String? = null, teamid: Int? = null, opponentsid: Int? = null, innings: Int? = null, inningsorder: Int? = null, wicket: Int? = null, partnership: Int? = null, previouswicket: Int? = null, previousscore: Int? = null, playerids: String? = null, playernames: String? = null, currentscore: Int? = null, fifty: Byte? = null, hundred: Byte? = null, unbroken: Int? = null, multiple: Byte? = null, partial: Byte? = null): this() {
+    constructor(id: Int? = null, matchid: Int? = null, matchtype: String? = null, teamid: Int? = null, opponentsid: Int? = null, innings: Int? = null, inningsorder: Int? = null, wicket: Int? = null, partnership: Int? = null, previouswicket: Int? = null, previousscore: Int? = null, playerids: String? = null, playernames: String? = null, currentscore: Int? = null, fifty: Byte? = null, hundred: Byte? = null, unbroken: Int? = null, multiple: Byte? = null, partial: Byte? = null, syntheticpartnership: BigDecimal? = null): this() {
         this.id = id
         this.matchid = matchid
         this.matchtype = matchtype
@@ -121,6 +127,7 @@ open class PartnershipsRecord() : UpdatableRecordImpl<PartnershipsRecord>(Partne
         this.unbroken = unbroken
         this.multiple = multiple
         this.partial = partial
+        this.syntheticpartnership = syntheticpartnership
         resetChangedOnNotNull()
     }
 }

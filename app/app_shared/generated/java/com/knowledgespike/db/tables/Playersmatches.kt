@@ -115,9 +115,15 @@ open class Playersmatches(
     val OTHERNAMEPART: TableField<PlayersmatchesRecord, String?> = createField(DSL.name("OtherNamePart"), SQLDataType.VARCHAR(200).nullable(false), this, "")
 
     /**
-     * The column <code>cricketarchive.PlayersMatches.WasSubstitute</code>.
+     * The column <code>cricketarchive.PlayersMatches.IsFullSubstitute</code>.
      */
-    val WASSUBSTITUTE: TableField<PlayersmatchesRecord, Byte?> = createField(DSL.name("WasSubstitute"), SQLDataType.TINYINT.nullable(false), this, "")
+    val ISFULLSUBSTITUTE: TableField<PlayersmatchesRecord, Byte?> = createField(DSL.name("IsFullSubstitute"), SQLDataType.TINYINT.nullable(false), this, "")
+
+    /**
+     * The column
+     * <code>cricketarchive.PlayersMatches.IsSubstituteFielder</code>.
+     */
+    val ISSUBSTITUTEFIELDER: TableField<PlayersmatchesRecord, Byte?> = createField(DSL.name("IsSubstituteFielder"), SQLDataType.TINYINT.nullable(false), this, "")
 
     private constructor(alias: Name, aliased: Table<PlayersmatchesRecord>?): this(alias, null, null, null, aliased, null, null)
     private constructor(alias: Name, aliased: Table<PlayersmatchesRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)

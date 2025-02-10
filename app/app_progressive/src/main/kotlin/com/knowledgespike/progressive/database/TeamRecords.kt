@@ -1,9 +1,7 @@
 package com.knowledgespike.progressive.database
 
 import com.knowledgespike.db.tables.references.*
-import com.knowledgespike.progressive.Application
 import com.knowledgespike.progressive.data.BestBowlingDto
-import com.knowledgespike.progressive.helpers.randomString
 import com.knowledgespike.shared.data.*
 import org.jooq.DSLContext
 import org.jooq.SQLDialect
@@ -871,7 +869,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
 
         val context = using(connection, dialect)
 
-        val tmpTableName = "tmp_partnerships_" + randomString()
+        val tmpTableName = "tmp_partnerships"
         try {
             createTemporaryFoWTable(context, tmpTableName, teamParams, overall, startFrom)
 

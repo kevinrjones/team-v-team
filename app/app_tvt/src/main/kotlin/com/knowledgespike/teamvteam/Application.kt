@@ -99,7 +99,7 @@ class Application {
                     }
                 }
                 val databaseConnectionDetails =
-                    com.knowledgespike.shared.database.Connection(userName, password, connectionString, dialect)
+                    Connection(userName, password, connectionString, dialect)
                 val jsonOutputDirectory = "$baseDirectory/$relativeJsonOutputDirectory"
                 val fqDataDirectory = "$baseDirectory/$dataDirectory"
 
@@ -178,7 +178,7 @@ class Application {
                                 ProcessTeams(teamsWithDuplicates, opponentsForTeam, opponentsWithAuthors)
 
 
-                            var pairsForPage: Map<String, TeamPairHomePagesData>? = null
+                            var pairsForPage: Map<String, TeamPairHomePagesData>?
 
                             try {
                                 pairsForPage = processTeams.process(
@@ -249,7 +249,7 @@ class Application {
                                 matchSubType,
                                 competition.title,
                                 competition.gender,
-                                pairsForPage!!,
+                                pairsForPage,
                                 jsonDirectory
                             )
 
@@ -321,13 +321,10 @@ class Application {
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
-            val streamOfSubdirectories = Files.list(jsonDirectory)
+            val matchSubtypeDirectories = Files.list(jsonDirectory).use {
+                it.filter { it.isDirectory() }.sorted().toList()
+            }
 
-
-            val matchSubtypeDirectories =
-                streamOfSubdirectories.filter { it.isDirectory() }.sorted().toList()
-
-            streamOfSubdirectories.close()
             matchSubtypeDirectories.forEach {
                 generateHtmlFromJson(jsonDirectoryBaseName, it.toString(), htmlOutputDirectoryName)
             }
@@ -337,9 +334,11 @@ class Application {
 
             val fqn = jsonDirectory.toString()
             val fqnHtmlName = fqn.replace(jsonDirectoryBaseName, htmlOutputDirectoryName)
-            val jsonFiles =
-                Files.list(jsonDirectory).filter { it.isRegularFile() }.filter { it.name.contains("_v_") }.sorted()
+            val jsonFiles = Files.list(jsonDirectory).use {
+                it.filter { it.isRegularFile() }.filter { it.name.contains("_v_") }.sorted()
                     .toList()
+            }
+
             jsonFiles.forEach { jsonFile ->
                 val details = getTvTJsonData(jsonFile.toString())
 
@@ -367,12 +366,10 @@ class Application {
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
-            val streamOfSubdirectories = Files.list(jsonDirectory)
-
-            val matchSubtypeDirectories =
+            val matchSubtypeDirectories = Files.list(jsonDirectory).use { streamOfSubdirectories ->
                 streamOfSubdirectories.filter { it.isDirectory() }.sorted().toList()
+            }
 
-            streamOfSubdirectories.close()
 
             matchSubtypeDirectories.forEach {
                 generateHtmlIndexAndTeamPagesForAllCompetitions(
@@ -387,12 +384,12 @@ class Application {
             val fqn = jsonDirectory.toString()
             val fqnHtmlName = fqn.replace(jsonDirectoryBaseName, htmlOutputDirectoryName)
 
-            val jsonFiles =
-                Files.list(jsonDirectory)
-                    .filter { it.isRegularFile() }
+            val jsonFiles = Files.list(jsonDirectory).use {
+                it.filter { it.isRegularFile() }
                     .filter { it.name == "index.json" }
                     .sorted()
                     .toList()
+            }
 
             if (jsonFiles.size > 0) {
                 val jsonFile = jsonFiles.first()
@@ -423,13 +420,11 @@ class Application {
         ) {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
-            val streamOfSubdirectories = Files.list(jsonDirectory)
-
-
             val matchSubtypeDirectories =
-                streamOfSubdirectories.filter { it.isDirectory() }.sorted().toList()
+            Files.list(jsonDirectory).use {
+                it.filter { it.isDirectory() }.sorted().toList()
+            }
 
-            streamOfSubdirectories.close()
 
             matchSubtypeDirectories.forEach { path ->
                 generateHtmlTeamPairHomePagesForAllCompetitions(
@@ -445,12 +440,13 @@ class Application {
             val fqnHtmlName = fqn.replace(jsonDirectoryBaseName, htmlOutputDirectoryName)
 
             val jsonFiles =
-                Files.list(jsonDirectory)
-                    .filter { it.isRegularFile() }
-                    .filter { !it.name.contains("_v_") }
-                    .filter { it.name != "index.json" }
-                    .sorted()
-                    .toList()
+                Files.list(jsonDirectory).use {
+                    it.filter { it.isRegularFile() }
+                        .filter { !it.name.contains("_v_") }
+                        .filter { it.name != "index.json" }
+                        .sorted()
+                        .toList()
+                }
             jsonFiles.forEach { jsonFile ->
                 val details = getHomePageJsonData(jsonFile.toString())
 

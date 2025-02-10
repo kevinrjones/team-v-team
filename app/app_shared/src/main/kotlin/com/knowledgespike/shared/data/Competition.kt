@@ -9,19 +9,21 @@ import kotlin.io.path.isRegularFile
 fun getAllCompetitions(dataDirectory: String): List<Competition> {
 
     val allCompetitions = mutableListOf<Competition>()
-    Files.list(Paths.get(dataDirectory))
-        .filter { it.isRegularFile() }
-        .filter {
-            val fileName = it.fileName.toString()
-            val ret = fileName.endsWith("json")
+    Files.list(Paths.get(dataDirectory)).use {
+        it.filter { it.isRegularFile() }
+            .filter {
+                val fileName = it.fileName.toString()
+                val ret = fileName.endsWith("json")
 
-            ret
-        }.forEach {
-            val file = it.toFile()
-            val data: String = file.readText()
+                ret
+            }
+            .forEach {
+                val file = it.toFile()
+                val data: String = file.readText()
 
-            allCompetitions.addAll(Json.decodeFromString<List<Competition>>(data))
-        }
+                allCompetitions.addAll(Json.decodeFromString<List<Competition>>(data))
+            }
+    }
     return allCompetitions
 }
 
