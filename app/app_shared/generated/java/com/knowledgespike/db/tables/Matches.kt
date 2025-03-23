@@ -254,6 +254,16 @@ open class Matches(
     val MATCHSTARTDATEASOFFSET: TableField<MatchesRecord, Long?> = createField(DSL.name("MatchStartDateAsOffset"), SQLDataType.BIGINT.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.BIGINT)), this, "")
 
     /**
+     * The column <code>cricketarchive.Matches.MatchEndDate</code>.
+     */
+    val MATCHENDDATE: TableField<MatchesRecord, LocalDate?> = createField(DSL.name("MatchEndDate"), SQLDataType.LOCALDATE.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.LOCALDATE)), this, "")
+
+    /**
+     * The column <code>cricketarchive.Matches.MatchEndDateAsOffset</code>.
+     */
+    val MATCHENDDATEASOFFSET: TableField<MatchesRecord, Long?> = createField(DSL.name("MatchEndDateAsOffset"), SQLDataType.BIGINT.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.BIGINT)), this, "")
+
+    /**
      * The column <code>cricketarchive.Matches.ResultString</code>.
      */
     val RESULTSTRING: TableField<MatchesRecord, String?> = createField(DSL.name("ResultString"), SQLDataType.VARCHAR(200).nullable(false), this, "")

@@ -13,6 +13,7 @@ import com.knowledgespike.db.keys.FALLOFWICKETS_IBFK_2
 import com.knowledgespike.db.keys.FIELDING_IBFK_2
 import com.knowledgespike.db.keys.KEY_PLAYERS_PRIMARY
 import com.knowledgespike.db.keys.PARTNERSHIPSPLAYERS_IBFK_1
+import com.knowledgespike.db.keys.PLAYERSDATES_IBFK_1
 import com.knowledgespike.db.keys.PLAYERSMATCHES_IBFK_1
 import com.knowledgespike.db.keys.PLAYERSOFTHEMATCHMATCHES_IBFK_1
 import com.knowledgespike.db.keys.PLAYERSTEAMS_IBFK_1
@@ -21,6 +22,7 @@ import com.knowledgespike.db.tables.Bowlingdetails.BowlingdetailsPath
 import com.knowledgespike.db.tables.Fallofwickets.FallofwicketsPath
 import com.knowledgespike.db.tables.Fielding.FieldingPath
 import com.knowledgespike.db.tables.Partnershipsplayers.PartnershipsplayersPath
+import com.knowledgespike.db.tables.Playersdates.PlayersdatesPath
 import com.knowledgespike.db.tables.Playersmatches.PlayersmatchesPath
 import com.knowledgespike.db.tables.Playersofthematchmatches.PlayersofthematchmatchesPath
 import com.knowledgespike.db.tables.Playersteams.PlayersteamsPath
@@ -112,6 +114,11 @@ open class Players(
      * The column <code>cricketarchive.Players.SortNamePart</code>.
      */
     val SORTNAMEPART: TableField<PlayersRecord, String?> = createField(DSL.name("SortNamePart"), SQLDataType.VARCHAR(200).nullable(false), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.NamePart</code>.
+     */
+    val NAMEPART: TableField<PlayersRecord, String?> = createField(DSL.name("NamePart"), SQLDataType.VARCHAR(200).nullable(false), this, "")
 
     /**
      * The column <code>cricketarchive.Players.OtherNamePart</code>.
@@ -351,6 +358,22 @@ open class Players(
 
     val partnershipsplayers: PartnershipsplayersPath
         get(): PartnershipsplayersPath = partnershipsplayers()
+
+    private lateinit var _playersdates: PlayersdatesPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>cricketarchive.PlayersDates</code> table
+     */
+    fun playersdates(): PlayersdatesPath {
+        if (!this::_playersdates.isInitialized)
+            _playersdates = PlayersdatesPath(this, null, PLAYERSDATES_IBFK_1.inverseKey)
+
+        return _playersdates;
+    }
+
+    val playersdates: PlayersdatesPath
+        get(): PlayersdatesPath = playersdates()
 
     private lateinit var _playersmatches: PlayersmatchesPath
 

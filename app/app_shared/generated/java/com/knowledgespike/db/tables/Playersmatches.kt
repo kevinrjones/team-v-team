@@ -95,9 +95,14 @@ open class Playersmatches(
     val MATCHID: TableField<PlayersmatchesRecord, Int?> = createField(DSL.name("MatchId"), SQLDataType.INTEGER.nullable(false), this, "")
 
     /**
-     * The column <code>cricketarchive.PlayersMatches.Teamid</code>.
+     * The column <code>cricketarchive.PlayersMatches.TeamId</code>.
      */
-    val TEAMID: TableField<PlayersmatchesRecord, Int?> = createField(DSL.name("Teamid"), SQLDataType.INTEGER.nullable(false), this, "")
+    val TEAMID: TableField<PlayersmatchesRecord, Int?> = createField(DSL.name("TeamId"), SQLDataType.INTEGER.nullable(false), this, "")
+
+    /**
+     * The column <code>cricketarchive.PlayersMatches.MatchType</code>.
+     */
+    val MATCHTYPE: TableField<PlayersmatchesRecord, String?> = createField(DSL.name("MatchType"), SQLDataType.VARCHAR(20).nullable(false), this, "")
 
     /**
      * The column <code>cricketarchive.PlayersMatches.FullName</code>.

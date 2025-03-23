@@ -119,61 +119,69 @@ open class MatchesRecord() : UpdatableRecordImpl<MatchesRecord>(Matches.MATCHES)
         set(value): Unit = set(24, value)
         get(): Long? = get(24) as Long?
 
-    open var resultstring: String?
+    open var matchenddate: LocalDate?
         set(value): Unit = set(25, value)
-        get(): String? = get(25) as String?
+        get(): LocalDate? = get(25) as LocalDate?
+
+    open var matchenddateasoffset: Long?
+        set(value): Unit = set(26, value)
+        get(): Long? = get(26) as Long?
+
+    open var resultstring: String?
+        set(value): Unit = set(27, value)
+        get(): String? = get(27) as String?
 
     open var homecountryid: Int?
-        set(value): Unit = set(26, value)
-        get(): Int? = get(26) as Int?
-
-    open var target: Int?
-        set(value): Unit = set(27, value)
-        get(): Int? = get(27) as Int?
-
-    open var whowonid: Int?
         set(value): Unit = set(28, value)
         get(): Int? = get(28) as Int?
 
-    open var wholostid: Int?
+    open var target: Int?
         set(value): Unit = set(29, value)
         get(): Int? = get(29) as Int?
 
-    open var howmuch: Int?
+    open var whowonid: Int?
         set(value): Unit = set(30, value)
         get(): Int? = get(30) as Int?
 
-    open var marginforsort: Int?
+    open var wholostid: Int?
         set(value): Unit = set(31, value)
         get(): Int? = get(31) as Int?
 
-    open var victorytype: Int?
+    open var howmuch: Int?
         set(value): Unit = set(32, value)
         get(): Int? = get(32) as Int?
 
-    open var duration: Int?
+    open var marginforsort: Int?
         set(value): Unit = set(33, value)
         get(): Int? = get(33) as Int?
 
-    open var ballsperover: Int?
+    open var victorytype: Int?
         set(value): Unit = set(34, value)
         get(): Int? = get(34) as Int?
 
-    open var daynight: Byte?
+    open var duration: Int?
         set(value): Unit = set(35, value)
-        get(): Byte? = get(35) as Byte?
+        get(): Int? = get(35) as Int?
+
+    open var ballsperover: Int?
+        set(value): Unit = set(36, value)
+        get(): Int? = get(36) as Int?
+
+    open var daynight: Byte?
+        set(value): Unit = set(37, value)
+        get(): Byte? = get(37) as Byte?
 
     open var oversreduced: Byte?
-        set(value): Unit = set(36, value)
-        get(): Byte? = get(36) as Byte?
+        set(value): Unit = set(38, value)
+        get(): Byte? = get(38) as Byte?
 
     open var addeddate: LocalDateTime?
-        set(value): Unit = set(37, value)
-        get(): LocalDateTime? = get(37) as LocalDateTime?
+        set(value): Unit = set(39, value)
+        get(): LocalDateTime? = get(39) as LocalDateTime?
 
     open var addeddateasoffset: Long?
-        set(value): Unit = set(38, value)
-        get(): Long? = get(38) as Long?
+        set(value): Unit = set(40, value)
+        get(): Long? = get(40) as Long?
 
     // -------------------------------------------------------------------------
     // Primary key information
@@ -184,7 +192,7 @@ open class MatchesRecord() : UpdatableRecordImpl<MatchesRecord>(Matches.MATCHES)
     /**
      * Create a detached, initialised MatchesRecord
      */
-    constructor(id: Int? = null, caid: String? = null, caurl: String? = null, filename: String? = null, matchinseries: Int? = null, seriesnumber: Int? = null, matchtype: String? = null, hometeamid: Int? = null, hometeamname: String? = null, awayteamid: Int? = null, awayteamname: String? = null, isneutral: Byte? = null, matchdesignator: String? = null, matchtitle: String? = null, tournament: String? = null, location: String? = null, locationid: Int? = null, groundnameid: Int? = null, tossteamid: Int? = null, battedfirstteamid: Int? = null, matchdate: String? = null, seriesdate: String? = null, matchstartyear: String? = null, matchstartdate: LocalDate? = null, matchstartdateasoffset: Long? = null, resultstring: String? = null, homecountryid: Int? = null, target: Int? = null, whowonid: Int? = null, wholostid: Int? = null, howmuch: Int? = null, marginforsort: Int? = null, victorytype: Int? = null, duration: Int? = null, ballsperover: Int? = null, daynight: Byte? = null, oversreduced: Byte? = null, addeddate: LocalDateTime? = null, addeddateasoffset: Long? = null): this() {
+    constructor(id: Int? = null, caid: String? = null, caurl: String? = null, filename: String? = null, matchinseries: Int? = null, seriesnumber: Int? = null, matchtype: String? = null, hometeamid: Int? = null, hometeamname: String? = null, awayteamid: Int? = null, awayteamname: String? = null, isneutral: Byte? = null, matchdesignator: String? = null, matchtitle: String? = null, tournament: String? = null, location: String? = null, locationid: Int? = null, groundnameid: Int? = null, tossteamid: Int? = null, battedfirstteamid: Int? = null, matchdate: String? = null, seriesdate: String? = null, matchstartyear: String? = null, matchstartdate: LocalDate? = null, matchstartdateasoffset: Long? = null, matchenddate: LocalDate? = null, matchenddateasoffset: Long? = null, resultstring: String? = null, homecountryid: Int? = null, target: Int? = null, whowonid: Int? = null, wholostid: Int? = null, howmuch: Int? = null, marginforsort: Int? = null, victorytype: Int? = null, duration: Int? = null, ballsperover: Int? = null, daynight: Byte? = null, oversreduced: Byte? = null, addeddate: LocalDateTime? = null, addeddateasoffset: Long? = null): this() {
         this.id = id
         this.caid = caid
         this.caurl = caurl
@@ -210,6 +218,8 @@ open class MatchesRecord() : UpdatableRecordImpl<MatchesRecord>(Matches.MATCHES)
         this.matchstartyear = matchstartyear
         this.matchstartdate = matchstartdate
         this.matchstartdateasoffset = matchstartdateasoffset
+        this.matchenddate = matchenddate
+        this.matchenddateasoffset = matchenddateasoffset
         this.resultstring = resultstring
         this.homecountryid = homecountryid
         this.target = target

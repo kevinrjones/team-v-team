@@ -32,13 +32,17 @@ open class MatchrefereesRecord() : UpdatableRecordImpl<MatchrefereesRecord>(Matc
         set(value): Unit = set(3, value)
         get(): String? = get(3) as String?
 
-    open var othernamepart: String?
+    open var namepart: String?
         set(value): Unit = set(4, value)
         get(): String? = get(4) as String?
 
-    open var debutmatchid: String?
+    open var othernamepart: String?
         set(value): Unit = set(5, value)
         get(): String? = get(5) as String?
+
+    open var debutmatchid: String?
+        set(value): Unit = set(6, value)
+        get(): String? = get(6) as String?
 
     // -------------------------------------------------------------------------
     // Primary key information
@@ -49,11 +53,12 @@ open class MatchrefereesRecord() : UpdatableRecordImpl<MatchrefereesRecord>(Matc
     /**
      * Create a detached, initialised MatchrefereesRecord
      */
-    constructor(id: Int? = null, refereesid: Int? = null, fullname: String? = null, sortnamepart: String? = null, othernamepart: String? = null, debutmatchid: String? = null): this() {
+    constructor(id: Int? = null, refereesid: Int? = null, fullname: String? = null, sortnamepart: String? = null, namepart: String? = null, othernamepart: String? = null, debutmatchid: String? = null): this() {
         this.id = id
         this.refereesid = refereesid
         this.fullname = fullname
         this.sortnamepart = sortnamepart
+        this.namepart = namepart
         this.othernamepart = othernamepart
         this.debutmatchid = debutmatchid
         resetChangedOnNotNull()

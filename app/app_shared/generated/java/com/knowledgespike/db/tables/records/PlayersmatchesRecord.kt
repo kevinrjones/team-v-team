@@ -32,25 +32,29 @@ open class PlayersmatchesRecord() : UpdatableRecordImpl<PlayersmatchesRecord>(Pl
         set(value): Unit = set(3, value)
         get(): Int? = get(3) as Int?
 
-    open var fullname: String?
+    open var matchtype: String?
         set(value): Unit = set(4, value)
         get(): String? = get(4) as String?
 
-    open var sortnamepart: String?
+    open var fullname: String?
         set(value): Unit = set(5, value)
         get(): String? = get(5) as String?
 
-    open var othernamepart: String?
+    open var sortnamepart: String?
         set(value): Unit = set(6, value)
         get(): String? = get(6) as String?
 
-    open var isfullsubstitute: Byte?
+    open var othernamepart: String?
         set(value): Unit = set(7, value)
-        get(): Byte? = get(7) as Byte?
+        get(): String? = get(7) as String?
 
-    open var issubstitutefielder: Byte?
+    open var isfullsubstitute: Byte?
         set(value): Unit = set(8, value)
         get(): Byte? = get(8) as Byte?
+
+    open var issubstitutefielder: Byte?
+        set(value): Unit = set(9, value)
+        get(): Byte? = get(9) as Byte?
 
     // -------------------------------------------------------------------------
     // Primary key information
@@ -61,11 +65,12 @@ open class PlayersmatchesRecord() : UpdatableRecordImpl<PlayersmatchesRecord>(Pl
     /**
      * Create a detached, initialised PlayersmatchesRecord
      */
-    constructor(id: Int? = null, playerid: Int? = null, matchid: Int? = null, teamid: Int? = null, fullname: String? = null, sortnamepart: String? = null, othernamepart: String? = null, isfullsubstitute: Byte? = null, issubstitutefielder: Byte? = null): this() {
+    constructor(id: Int? = null, playerid: Int? = null, matchid: Int? = null, teamid: Int? = null, matchtype: String? = null, fullname: String? = null, sortnamepart: String? = null, othernamepart: String? = null, isfullsubstitute: Byte? = null, issubstitutefielder: Byte? = null): this() {
         this.id = id
         this.playerid = playerid
         this.matchid = matchid
         this.teamid = teamid
+        this.matchtype = matchtype
         this.fullname = fullname
         this.sortnamepart = sortnamepart
         this.othernamepart = othernamepart

@@ -26,6 +26,7 @@ import com.knowledgespike.db.tables.Notes
 import com.knowledgespike.db.tables.Partnerships
 import com.knowledgespike.db.tables.Partnershipsplayers
 import com.knowledgespike.db.tables.Players
+import com.knowledgespike.db.tables.Playersdates
 import com.knowledgespike.db.tables.Playersmatches
 import com.knowledgespike.db.tables.Playersofthematchmatches
 import com.knowledgespike.db.tables.Playersteams
@@ -151,6 +152,11 @@ val PARTNERSHIPSPLAYERS: Partnershipsplayers = Partnershipsplayers.PARTNERSHIPSP
  * The table <code>cricketarchive.Players</code>.
  */
 val PLAYERS: Players = Players.PLAYERS
+
+/**
+ * The table <code>cricketarchive.PlayersDates</code>.
+ */
+val PLAYERSDATES: Playersdates = Playersdates.PLAYERSDATES
 
 /**
  * The table <code>cricketarchive.PlayersMatches</code>.

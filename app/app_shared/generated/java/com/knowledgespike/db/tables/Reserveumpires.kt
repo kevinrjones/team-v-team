@@ -98,6 +98,11 @@ open class Reserveumpires(
     val SORTNAMEPART: TableField<ReserveumpiresRecord, String?> = createField(DSL.name("SortNamePart"), SQLDataType.VARCHAR(200).nullable(false), this, "")
 
     /**
+     * The column <code>cricketarchive.ReserveUmpires.NamePart</code>.
+     */
+    val NAMEPART: TableField<ReserveumpiresRecord, String?> = createField(DSL.name("NamePart"), SQLDataType.VARCHAR(200).nullable(false), this, "")
+
+    /**
      * The column <code>cricketarchive.ReserveUmpires.OtherNamePart</code>.
      */
     val OTHERNAMEPART: TableField<ReserveumpiresRecord, String?> = createField(DSL.name("OtherNamePart"), SQLDataType.VARCHAR(200).nullable(false), this, "")
