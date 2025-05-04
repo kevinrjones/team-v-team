@@ -46,8 +46,19 @@ data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
 
     val nonFcMatchTypes = listOf("o", "a", "wo", "wa", "tt", "itt", "wtt", "witt")
 
+    /**
+     * Adds team data including highest scores, lowest scores, and other aggregated statistics
+     * for the specified teams and parameters.
+     *
+     * @param connection Database connection to execute queries.
+     * @param dialect SQL dialect to adapt queries to the specific SQL database implementation.
+     * @param countryIds List of country IDs associated with the teams.
+     * @param teamParamA Parameters for the first team including IDs, opponents, and match types.
+     * @param teamParamB Parameters for the second team including IDs, opponents, and match types.
+     * @param startFrom The starting point (timestamp or ID) for filtering relevant data.
+     */
     fun addTeamData(
-        connection: java.sql.Connection,
+        connection: Connection,
         dialect: SQLDialect,
         countryIds: List<Int>,
         teamParamA: TeamParams,

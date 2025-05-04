@@ -113,6 +113,18 @@ data class TeamParams(
     val matchSubType: String,
 )
 
+/**
+ * Constructs two `TeamParams` objects, one representing the team and its opponents,
+ * and the other representing the opponents and the team, with respective information
+ * about team names, IDs, and match details.
+ *
+ * @param teamsAndOpponents an object containing the names and IDs of the team and its opponents
+ *                          along with other match-related details.
+ * @param matchType a string representing the type of the match.
+ * @param matchSubType a string representing the subtype of the match.
+ * @return a pair of `TeamParams` objects, where the first represents the team's perspective
+ *         and the second the opponents' perspective.
+ */
 fun getTeamParams(
     teamsAndOpponents: TeamsAndOpponents,
     matchType: String,

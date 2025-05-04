@@ -61,6 +61,22 @@ fun getCountryIdsFromName(
     }
 }
 
+/**
+ * Retrieves the count of matches between specified teams and associated match details,
+ * based on the provided criteria such as match subtype, country, and other filters.
+ *
+ * This is used to decide whether or not to further process the teams, ie if the count of
+ * non 'abandoned' mathces is not zero then we can further process these teams
+ *
+ * @param connection Database connection to use for executing the query.
+ * @param dialect SQL dialect to be used for database interaction.
+ * @param countryIds List of country identifiers to filter the matches based on location.
+ * @param teamsAndOpponents Data class containing information about the teams and their opponents, including IDs and names.
+ * @param matchSubType Subtype of the match to filter results (e.g., "minc").
+ * @param overall Flag indicating whether to calculate overall records or filtered records against specific teams.
+ * @param startFrom Epoch time representing the lower boundary for filtering matches based on starting date.
+ * @return A MatchDto object containing calculated match statistics, such as the total match count, wins, losses, draws, and dates of the first and last match.
+ */
 fun getCountOfMatchesBetweenTeams(
     connection: Connection,
     dialect: SQLDialect,
@@ -77,6 +93,7 @@ fun getCountOfMatchesBetweenTeams(
     if (matchSubType == "minc")
         matchTypesToExclude.add("sec")
 
+    // no need to process each team id individually here
     var whereClause = EXTRAMATCHDETAILS.TEAMID.`in`(teamsAndOpponents.teamIds)
         .and(
             MATCHES.ID.`in`(
@@ -93,7 +110,8 @@ fun getCountOfMatchesBetweenTeams(
         .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
     // When calculating the records vs 'all' teams we can do two things. Calculate against 'all' the teams
-    // in this set of teams (all IPL teams say) or calculate their overall record against all other teams
+    // in this set of teams (all IPL teams say) or calculate their overall record against all other teams for this
+    // matchtype, all T20 teams say
     // The 'overall' flag lets us determine this
     if (!(overall && teamsAndOpponents.opponentsName.lowercase() == "all"))
         whereClause = whereClause.and(EXTRAMATCHDETAILS.OPPONENTSID.`in`(teamsAndOpponents.opponentIds))

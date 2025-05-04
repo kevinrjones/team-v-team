@@ -5,105 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/Cricketarchive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/Cricketarchive.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/indexes/Indexes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/indexes/Indexes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/keys/Keys.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/keys/Keys.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingCareerRecords.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingEraIndex.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByGround.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByHost.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByInnings.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByMatch.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByOpp.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsBySeason.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsBySeries.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BattingIndividualCareerRecordsByYear.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingCareerRecords.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingEraIndex.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByGround.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByHost.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByInnings.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByMatch.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByOpp.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsBySeason.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsBySeries.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/BowlingIndividualCareerRecordsByYear.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecords.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecordsByGround.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecordsByHost.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecordsByOpp.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecordsBySeason.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingCareerRecordsByYear.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingIndividualCareerRecordsByInnings.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FieldingIndividualCareerRecordsByMatch.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowCareerRecords.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByGround.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByHost.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByInnings.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByInningsForWicket.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByMatch.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByOpposition.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListBySeason.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListBySeries.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/FowPartnershipListByYear.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByGroundAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByGroundForTeam.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByGroundForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByGroundOverall.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByHostAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByHostForTeam.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByHostForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByHostOverall.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsBySeasonAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsBySeasonForTeam.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsBySeasonForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsBySeasonOverall.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByStartyearAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByStartyearForTeam.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByStartyearForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamBowlingRecordsByStartyearOverall.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamMatchResultsForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByGroundAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByGroundForTeam.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByGroundForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByGroundOverall.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByHostAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByHostForTeam.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByHostForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByHostOverall.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByOpp.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsBySeasonAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsBySeasonForTeam.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsBySeasonForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsBySeasonOverall.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsBySeries.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByStartyearAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByStartyearForTeam.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByStartyearForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsByStartyearOverall.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsHighestInningsForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsHighestTotalChased.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsInningsExtras.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsLowestTotalDefended.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsLowestUnreducedTotalDefended.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsMatchTotalsAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsMatchTotalsForTeam.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsMatchTotalsForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsMatchTotalsOverall.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsResults.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsTotalExtrasAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsTotalExtrasForTeam.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsTotalExtrasForTeamAgainstOpponents.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/TeamRecordsTotalExtrasOverall.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/routines/references/Routines.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Matches.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Matches.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Players.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Players.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/MatchesRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/MatchesRecord.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/PlayersRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/PlayersRecord.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/references/Tables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/references/Tables.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Teams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Teams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamPairDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamPairDetails.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data_test/zim_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_test/zim_domestic.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,48 +83,48 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Gradle.Build app.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.app [app_progressive:buildEnvironment].executor": "Run",
-    "Gradle.app [app_shared:buildEnvironment].executor": "Run",
-    "Gradle.app [build].executor": "Run",
-    "Gradle.app [clean].executor": "Run",
-    "Gradle.app [generateJOOQ].executor": "Run",
-    "Gradle.app [jooqCodegen].executor": "Run",
-    "Gradle.app [run] .executor": "Run",
-    "Gradle.app [run].executor": "Run",
-    "Gradle.app [versionCatalogApplyUpdates].executor": "Run",
-    "Gradle.app [versionCatalogFormat].executor": "Run",
-    "Gradle.app [versionCatalogUpdate].executor": "Run",
-    "Gradle.app:app_progressive [run-test].executor": "Run",
-    "Gradle.app:app_progressive [run].executor": "Run",
-    "Gradle.app:app_shared [jooqCodegen].executor": "Run",
-    "Gradle.app:app_tvt [run-test].executor": "Debug",
-    "Gradle.app:app_tvt [run].executor": "Run",
-    "Gradle.team-by-team [run].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kevinjones/Dropbox/projects/cricket/team-by-team/app/app_progressive",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.37338045",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Gradle.Build app.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [app_progressive:buildEnvironment].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [app_shared:buildEnvironment].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [generateJOOQ].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [jooqCodegen].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [run] .executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [run].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [versionCatalogApplyUpdates].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [versionCatalogFormat].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [versionCatalogUpdate].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app:app_progressive [run-test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app:app_progressive [run].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app:app_shared [jooqCodegen].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app:app_tvt [run-test].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.app:app_tvt [run].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.team-by-team [run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kevinjones/Dropbox/projects/cricket/team-by-team/app/app_progressive&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37338045&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html" />
@@ -241,7 +147,7 @@
       <command value="gradle app_shared:buildEnvironment" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.app:app_tvt [run]">
+  <component name="RunManager" selected="Gradle.app:app_tvt [run-test]">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="app" />
       <method v="2">
@@ -1933,6 +1839,7 @@
       <workItem from="1745573298463" duration="11372000" />
       <workItem from="1745836699096" duration="6730000" />
       <workItem from="1746009491103" duration="15711000" />
+      <workItem from="1746341128767" duration="3836000" />
     </task>
     <task id="LOCAL-00001" summary="Remove autogenerated jOOQ files for obsolete routines&#10;&#10;Deleted unused autogenerated jOOQ classes related to cricket batting records due to redundancy or lack of use. This cleanup reduces clutter and ensures the repository doesn't contain unnecessary files.">
       <option name="closed" value="true" />
@@ -1966,7 +1873,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742765508832</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Delete jOOQ-generated routine files.&#10;&#10;Removed autogenerated files related to batting career records, era index, and individual statistics routines. These files are likely no longer needed or replaced by updated implementations.">
+      <option name="closed" value="true" />
+      <created>1746341170596</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746341170596</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1978,7 +1893,8 @@
     <MESSAGE value="Remove autogenerated jOOQ files for obsolete routines&#10;&#10;Deleted unused autogenerated jOOQ classes related to cricket batting records due to redundancy or lack of use. This cleanup reduces clutter and ensures the repository doesn't contain unnecessary files." />
     <MESSAGE value="Refactor file handling and remove unused utility.&#10;&#10;Streamlined file handling across methods with proper resource management using `.use`. Removed the unused `Random.kt` helper to clean up unused code. Modified the `PlayersmatchesRecord` class for additional attributes related to substitutes." />
     <MESSAGE value="Changes to generated database code" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Delete jOOQ-generated routine files.&#10;&#10;Removed autogenerated files related to batting career records, era index, and individual statistics routines. These files are likely no longer needed or replaced by updated implementations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete jOOQ-generated routine files.&#10;&#10;Removed autogenerated files related to batting career records, era index, and individual statistics routines. These files are likely no longer needed or replaced by updated implementations." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2045,13 +1961,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt</url>
-          <line>184</line>
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt</url>
-          <line>183</line>
-          <option name="timeStamp" value="134" />
+          <line>136</line>
+          <option name="timeStamp" value="139" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
