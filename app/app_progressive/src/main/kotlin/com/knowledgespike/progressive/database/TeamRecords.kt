@@ -22,7 +22,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
         teamParams: TeamParams,
     ): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
-        
+
         val context = using(connection, dialect)
         val cte = context
             .with("cte")
@@ -128,7 +128,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
         teamParams: TeamParams,
     ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
-        
+
         val context = using(connection, dialect)
         val cte = context
             .with("cte")
@@ -749,7 +749,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                             )
                     ).`as`("runs"),
                     coalesce(
-                        sum(BOWLINGDETAILS.SYNTHETICBESTBOWLING).over()
+                        max(BOWLINGDETAILS.SYNTHETICBESTBOWLINGMATCH).over()
                             .partitionBy(BOWLINGDETAILS.MATCHID, BOWLINGDETAILS.PLAYERID).orderBy(
                                 BOWLINGDETAILS.PLAYERID
                             )
@@ -802,7 +802,9 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                         )
                         .rowsBetweenUnboundedPreceding().andCurrentRow().`as`("premax")
                 ).from("cte")
-                    .where(field("SyntheticBestBowling").isNotNull).and(field("rn").eq(1))
+                    .where(field("SyntheticBestBowling").isNotNull)
+                    .and(field("rn").eq(1))
+                    .and(field("cte.wickets").ge(3))
                     .orderBy(
                         field("syntheticbestbowling"),
                         field("matchstartdateasoffset"),
@@ -849,8 +851,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             println(e.message)
             throw e
         }
-        
-        
+
+
 
         return bestBowling
     }
@@ -945,12 +947,11 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
 
         } catch (e: Exception) {
             throw e
-        }
-        finally {
+        } finally {
             context.dropTable(tmpTableName).execute()
         }
-        
-        
+
+
 
         return bestFow
     }
@@ -1047,8 +1048,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
         } finally {
             context.dropTable(tmpTableName).execute()
         }
-        
-        
+
+
 
         return bestFow
     }
@@ -1145,8 +1146,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
         } finally {
             context.dropTable(tmpTableName).execute()
         }
-        
-        
+
+
 
         return bestFow
     }
@@ -1638,8 +1639,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             )
             highestTotals.add(hs)
         }
-        
-        
+
+
 
 
         return highestTotals
@@ -1755,8 +1756,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             )
             highestTotals.add(hs)
         }
-        
-        
+
+
 
 
         return highestTotals
@@ -1868,8 +1869,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             )
             lowestTotals.add(hs)
         }
-        
-        
+
+
 
 
         return lowestTotals
@@ -1981,8 +1982,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             )
             lowestTotals.add(hs)
         }
-        
-        
+
+
 
 
         return lowestTotals
@@ -2102,8 +2103,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             )
             highestscores.add(hs)
         }
-        
-        
+
+
 
         return highestscores
     }
@@ -2223,8 +2224,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             )
             highestscores.add(hs)
         }
-        
-        
+
+
 
         return highestscores
     }
@@ -2307,7 +2308,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                             )
                     ).`as`("runs"),
                     coalesce(
-                        sum(BOWLINGDETAILS.SYNTHETICBESTBOWLING).over()
+                        max(BOWLINGDETAILS.SYNTHETICBESTBOWLINGMATCH).over()
                             .partitionBy(BOWLINGDETAILS.MATCHID, BOWLINGDETAILS.PLAYERID).orderBy(
                                 BOWLINGDETAILS.PLAYERID
                             )
@@ -2348,7 +2349,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                 ).from("cte")
                     .where(field("SyntheticBestBowling").isNotNull)
                     .and(field("rn").eq(1))
-                    .and(field("cte.wickets").gt(5))
+                    .and(field("cte.wickets").ge(5))
             )
 
             val query = q.select(
@@ -2405,8 +2406,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             println(e.message)
             throw e
         }
-        
-        
+
+
 
         return bestBowling
     }
@@ -2490,7 +2491,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                             )
                     ).`as`("runs"),
                     coalesce(
-                        sum(BOWLINGDETAILS.SYNTHETICBESTBOWLING).over()
+                        max(BOWLINGDETAILS.SYNTHETICBESTBOWLINGMATCH).over()
                             .partitionBy(BOWLINGDETAILS.MATCHID, BOWLINGDETAILS.PLAYERID).orderBy(
                                 BOWLINGDETAILS.PLAYERID
                             )
@@ -2531,7 +2532,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                 ).from("cte")
                     .where(field("SyntheticBestBowling").isNotNull)
                     .and(field("rn").eq(1))
-                    .and(field("cte.wickets").gt(5))
+                    .and(field("cte.wickets").ge(5))
 
             )
 
@@ -2589,8 +2590,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             println(e.message)
             throw e
         }
-        
-        
+
+
 
         return bestBowling
     }

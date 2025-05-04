@@ -309,6 +309,11 @@ open class Matches(
     val DURATION: TableField<MatchesRecord, Int?> = createField(DSL.name("Duration"), SQLDataType.INTEGER.nullable(false), this, "")
 
     /**
+     * The column <code>cricketarchive.Matches.DurationType</code>.
+     */
+    val DURATIONTYPE: TableField<MatchesRecord, String?> = createField(DSL.name("DurationType"), SQLDataType.VARCHAR(20).nullable(false), this, "")
+
+    /**
      * The column <code>cricketarchive.Matches.BallsPerOver</code>.
      */
     val BALLSPEROVER: TableField<MatchesRecord, Int?> = createField(DSL.name("BallsPerOver"), SQLDataType.INTEGER.nullable(false), this, "")

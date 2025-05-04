@@ -13,6 +13,7 @@ import com.knowledgespike.db.keys.FALLOFWICKETS_IBFK_2
 import com.knowledgespike.db.keys.FIELDING_IBFK_2
 import com.knowledgespike.db.keys.KEY_PLAYERS_PRIMARY
 import com.knowledgespike.db.keys.PARTNERSHIPSPLAYERS_IBFK_1
+import com.knowledgespike.db.keys.PLAYERRELATIONS_IBFK_1
 import com.knowledgespike.db.keys.PLAYERSDATES_IBFK_1
 import com.knowledgespike.db.keys.PLAYERSMATCHES_IBFK_1
 import com.knowledgespike.db.keys.PLAYERSOFTHEMATCHMATCHES_IBFK_1
@@ -22,6 +23,7 @@ import com.knowledgespike.db.tables.Bowlingdetails.BowlingdetailsPath
 import com.knowledgespike.db.tables.Fallofwickets.FallofwicketsPath
 import com.knowledgespike.db.tables.Fielding.FieldingPath
 import com.knowledgespike.db.tables.Partnershipsplayers.PartnershipsplayersPath
+import com.knowledgespike.db.tables.Playerrelations.PlayerrelationsPath
 import com.knowledgespike.db.tables.Playersdates.PlayersdatesPath
 import com.knowledgespike.db.tables.Playersmatches.PlayersmatchesPath
 import com.knowledgespike.db.tables.Playersofthematchmatches.PlayersofthematchmatchesPath
@@ -104,6 +106,11 @@ open class Players(
      * The column <code>cricketarchive.Players.PlayerId</code>.
      */
     val PLAYERID: TableField<PlayersRecord, Int?> = createField(DSL.name("PlayerId"), SQLDataType.INTEGER.nullable(false), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.ExpandedFullName</code>.
+     */
+    val EXPANDEDFULLNAME: TableField<PlayersRecord, String?> = createField(DSL.name("ExpandedFullName"), SQLDataType.VARCHAR(200).defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.VARCHAR)), this, "")
 
     /**
      * The column <code>cricketarchive.Players.FullName</code>.
@@ -224,6 +231,11 @@ open class Players(
      * The column <code>cricketarchive.Players.WicketKeeper</code>.
      */
     val WICKETKEEPER: TableField<PlayersRecord, Byte?> = createField(DSL.name("WicketKeeper"), SQLDataType.TINYINT.nullable(false), this, "")
+
+    /**
+     * The column <code>cricketarchive.Players.Biography</code>.
+     */
+    val BIOGRAPHY: TableField<PlayersRecord, String?> = createField(DSL.name("Biography"), SQLDataType.VARCHAR(5000).defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.VARCHAR)), this, "")
 
     private constructor(alias: Name, aliased: Table<PlayersRecord>?): this(alias, null, null, null, aliased, null, null)
     private constructor(alias: Name, aliased: Table<PlayersRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
@@ -358,6 +370,22 @@ open class Players(
 
     val partnershipsplayers: PartnershipsplayersPath
         get(): PartnershipsplayersPath = partnershipsplayers()
+
+    private lateinit var _playerrelations: PlayerrelationsPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>cricketarchive.PlayerRelations</code> table
+     */
+    fun playerrelations(): PlayerrelationsPath {
+        if (!this::_playerrelations.isInitialized)
+            _playerrelations = PlayerrelationsPath(this, null, PLAYERRELATIONS_IBFK_1.inverseKey)
+
+        return _playerrelations;
+    }
+
+    val playerrelations: PlayerrelationsPath
+        get(): PlayerrelationsPath = playerrelations()
 
     private lateinit var _playersdates: PlayersdatesPath
 

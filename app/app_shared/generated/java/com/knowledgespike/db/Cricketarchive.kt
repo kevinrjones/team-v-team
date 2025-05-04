@@ -25,6 +25,7 @@ import com.knowledgespike.db.tables.Matchtypes
 import com.knowledgespike.db.tables.Notes
 import com.knowledgespike.db.tables.Partnerships
 import com.knowledgespike.db.tables.Partnershipsplayers
+import com.knowledgespike.db.tables.Playerrelations
 import com.knowledgespike.db.tables.Players
 import com.knowledgespike.db.tables.Playersdates
 import com.knowledgespike.db.tables.Playersmatches
@@ -167,6 +168,11 @@ open class Cricketarchive : SchemaImpl("cricketarchive", DefaultCatalog.DEFAULT_
     val PARTNERSHIPSPLAYERS: Partnershipsplayers get() = Partnershipsplayers.PARTNERSHIPSPLAYERS
 
     /**
+     * The table <code>cricketarchive.PlayerRelations</code>.
+     */
+    val PLAYERRELATIONS: Playerrelations get() = Playerrelations.PLAYERRELATIONS
+
+    /**
      * The table <code>cricketarchive.Players</code>.
      */
     val PLAYERS: Players get() = Players.PLAYERS
@@ -265,6 +271,7 @@ open class Cricketarchive : SchemaImpl("cricketarchive", DefaultCatalog.DEFAULT_
         Notes.NOTES,
         Partnerships.PARTNERSHIPS,
         Partnershipsplayers.PARTNERSHIPSPLAYERS,
+        Playerrelations.PLAYERRELATIONS,
         Players.PLAYERS,
         Playersdates.PLAYERSDATES,
         Playersmatches.PLAYERSMATCHES,

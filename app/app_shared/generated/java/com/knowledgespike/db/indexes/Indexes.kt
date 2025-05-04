@@ -23,6 +23,7 @@ import com.knowledgespike.db.tables.Matchsubtype
 import com.knowledgespike.db.tables.Notes
 import com.knowledgespike.db.tables.Partnerships
 import com.knowledgespike.db.tables.Partnershipsplayers
+import com.knowledgespike.db.tables.Playerrelations
 import com.knowledgespike.db.tables.Players
 import com.knowledgespike.db.tables.Playersdates
 import com.knowledgespike.db.tables.Playersmatches
@@ -124,6 +125,7 @@ val BOWLINGDETAILS_PLAYERID: Index = Internal.createIndex(DSL.name("PlayerId"), 
 val FALLOFWICKETS_PLAYERID: Index = Internal.createIndex(DSL.name("PlayerId"), Fallofwickets.FALLOFWICKETS, arrayOf(Fallofwickets.FALLOFWICKETS.PLAYERID), false)
 val FIELDING_PLAYERID: Index = Internal.createIndex(DSL.name("PlayerId"), Fielding.FIELDING, arrayOf(Fielding.FIELDING.PLAYERID, Fielding.FIELDING.MATCHID), false)
 val PARTNERSHIPSPLAYERS_PLAYERID: Index = Internal.createIndex(DSL.name("PlayerId"), Partnershipsplayers.PARTNERSHIPSPLAYERS, arrayOf(Partnershipsplayers.PARTNERSHIPSPLAYERS.PLAYERID), false)
+val PLAYERRELATIONS_PLAYERID: Index = Internal.createIndex(DSL.name("PlayerId"), Playerrelations.PLAYERRELATIONS, arrayOf(Playerrelations.PLAYERRELATIONS.PLAYERID), false)
 val PLAYERS_PLAYERID: Index = Internal.createIndex(DSL.name("PlayerId"), Players.PLAYERS, arrayOf(Players.PLAYERS.PLAYERID), false)
 val PLAYERSDATES_PLAYERID: Index = Internal.createIndex(DSL.name("PlayerId"), Playersdates.PLAYERSDATES, arrayOf(Playersdates.PLAYERSDATES.PLAYERID), false)
 val PLAYERSMATCHES_PLAYERID: Index = Internal.createIndex(DSL.name("PlayerId"), Playersmatches.PLAYERSMATCHES, arrayOf(Playersmatches.PLAYERSMATCHES.PLAYERID, Playersmatches.PLAYERSMATCHES.MATCHID), false)

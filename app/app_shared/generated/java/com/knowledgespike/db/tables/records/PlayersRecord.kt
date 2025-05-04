@@ -26,101 +26,109 @@ open class PlayersRecord() : UpdatableRecordImpl<PlayersRecord>(Players.PLAYERS)
         set(value): Unit = set(1, value)
         get(): Int? = get(1) as Int?
 
-    open var fullname: String?
+    open var expandedfullname: String?
         set(value): Unit = set(2, value)
         get(): String? = get(2) as String?
 
-    open var sortnamepart: String?
+    open var fullname: String?
         set(value): Unit = set(3, value)
         get(): String? = get(3) as String?
 
-    open var namepart: String?
+    open var sortnamepart: String?
         set(value): Unit = set(4, value)
         get(): String? = get(4) as String?
 
-    open var othernamepart: String?
+    open var namepart: String?
         set(value): Unit = set(5, value)
         get(): String? = get(5) as String?
 
-    open var birthdate: LocalDate?
+    open var othernamepart: String?
         set(value): Unit = set(6, value)
-        get(): LocalDate? = get(6) as LocalDate?
+        get(): String? = get(6) as String?
+
+    open var birthdate: LocalDate?
+        set(value): Unit = set(7, value)
+        get(): LocalDate? = get(7) as LocalDate?
 
     open var birthdateasoffset: Long?
-        set(value): Unit = set(7, value)
-        get(): Long? = get(7) as Long?
+        set(value): Unit = set(8, value)
+        get(): Long? = get(8) as Long?
 
     open var birthdateastext: String?
-        set(value): Unit = set(8, value)
-        get(): String? = get(8) as String?
-
-    open var placeofbirth: String?
         set(value): Unit = set(9, value)
         get(): String? = get(9) as String?
 
-    open var datedied: LocalDate?
+    open var placeofbirth: String?
         set(value): Unit = set(10, value)
-        get(): LocalDate? = get(10) as LocalDate?
+        get(): String? = get(10) as String?
+
+    open var datedied: LocalDate?
+        set(value): Unit = set(11, value)
+        get(): LocalDate? = get(11) as LocalDate?
 
     open var datediedasoffset: Long?
-        set(value): Unit = set(11, value)
-        get(): Long? = get(11) as Long?
+        set(value): Unit = set(12, value)
+        get(): Long? = get(12) as Long?
 
     open var datediedastext: String?
-        set(value): Unit = set(12, value)
-        get(): String? = get(12) as String?
-
-    open var placeofdeath: String?
         set(value): Unit = set(13, value)
         get(): String? = get(13) as String?
 
-    open var namechanged: LocalDate?
+    open var placeofdeath: String?
         set(value): Unit = set(14, value)
-        get(): LocalDate? = get(14) as LocalDate?
+        get(): String? = get(14) as String?
+
+    open var namechanged: LocalDate?
+        set(value): Unit = set(15, value)
+        get(): LocalDate? = get(15) as LocalDate?
 
     open var namechangedasoffset: Long?
-        set(value): Unit = set(15, value)
-        get(): Long? = get(15) as Long?
+        set(value): Unit = set(16, value)
+        get(): Long? = get(16) as Long?
 
     open var debut: LocalDate?
-        set(value): Unit = set(16, value)
-        get(): LocalDate? = get(16) as LocalDate?
-
-    open var activeuntil: LocalDate?
         set(value): Unit = set(17, value)
         get(): LocalDate? = get(17) as LocalDate?
 
-    open var debutasoffset: Long?
+    open var activeuntil: LocalDate?
         set(value): Unit = set(18, value)
-        get(): Long? = get(18) as Long?
+        get(): LocalDate? = get(18) as LocalDate?
 
-    open var activeuntilasoffset: Long?
+    open var debutasoffset: Long?
         set(value): Unit = set(19, value)
         get(): Long? = get(19) as Long?
 
-    open var battinghand: Int?
+    open var activeuntilasoffset: Long?
         set(value): Unit = set(20, value)
-        get(): Int? = get(20) as Int?
+        get(): Long? = get(20) as Long?
 
-    open var bowlinghand: Int?
+    open var battinghand: Int?
         set(value): Unit = set(21, value)
         get(): Int? = get(21) as Int?
 
-    open var bowlingstyle: Int?
+    open var bowlinghand: Int?
         set(value): Unit = set(22, value)
         get(): Int? = get(22) as Int?
 
-    open var bowlingmode: Int?
+    open var bowlingstyle: Int?
         set(value): Unit = set(23, value)
         get(): Int? = get(23) as Int?
 
-    open var shortbowlingstyles: String?
+    open var bowlingmode: Int?
         set(value): Unit = set(24, value)
-        get(): String? = get(24) as String?
+        get(): Int? = get(24) as Int?
+
+    open var shortbowlingstyles: String?
+        set(value): Unit = set(25, value)
+        get(): String? = get(25) as String?
 
     open var wicketkeeper: Byte?
-        set(value): Unit = set(25, value)
-        get(): Byte? = get(25) as Byte?
+        set(value): Unit = set(26, value)
+        get(): Byte? = get(26) as Byte?
+
+    open var biography: String?
+        set(value): Unit = set(27, value)
+        get(): String? = get(27) as String?
 
     // -------------------------------------------------------------------------
     // Primary key information
@@ -131,9 +139,10 @@ open class PlayersRecord() : UpdatableRecordImpl<PlayersRecord>(Players.PLAYERS)
     /**
      * Create a detached, initialised PlayersRecord
      */
-    constructor(id: Int? = null, playerid: Int? = null, fullname: String? = null, sortnamepart: String? = null, namepart: String? = null, othernamepart: String? = null, birthdate: LocalDate? = null, birthdateasoffset: Long? = null, birthdateastext: String? = null, placeofbirth: String? = null, datedied: LocalDate? = null, datediedasoffset: Long? = null, datediedastext: String? = null, placeofdeath: String? = null, namechanged: LocalDate? = null, namechangedasoffset: Long? = null, debut: LocalDate? = null, activeuntil: LocalDate? = null, debutasoffset: Long? = null, activeuntilasoffset: Long? = null, battinghand: Int? = null, bowlinghand: Int? = null, bowlingstyle: Int? = null, bowlingmode: Int? = null, shortbowlingstyles: String? = null, wicketkeeper: Byte? = null): this() {
+    constructor(id: Int? = null, playerid: Int? = null, expandedfullname: String? = null, fullname: String? = null, sortnamepart: String? = null, namepart: String? = null, othernamepart: String? = null, birthdate: LocalDate? = null, birthdateasoffset: Long? = null, birthdateastext: String? = null, placeofbirth: String? = null, datedied: LocalDate? = null, datediedasoffset: Long? = null, datediedastext: String? = null, placeofdeath: String? = null, namechanged: LocalDate? = null, namechangedasoffset: Long? = null, debut: LocalDate? = null, activeuntil: LocalDate? = null, debutasoffset: Long? = null, activeuntilasoffset: Long? = null, battinghand: Int? = null, bowlinghand: Int? = null, bowlingstyle: Int? = null, bowlingmode: Int? = null, shortbowlingstyles: String? = null, wicketkeeper: Byte? = null, biography: String? = null): this() {
         this.id = id
         this.playerid = playerid
+        this.expandedfullname = expandedfullname
         this.fullname = fullname
         this.sortnamepart = sortnamepart
         this.namepart = namepart
@@ -158,6 +167,7 @@ open class PlayersRecord() : UpdatableRecordImpl<PlayersRecord>(Players.PLAYERS)
         this.bowlingmode = bowlingmode
         this.shortbowlingstyles = shortbowlingstyles
         this.wicketkeeper = wicketkeeper
+        this.biography = biography
         resetChangedOnNotNull()
     }
 }

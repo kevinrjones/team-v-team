@@ -163,25 +163,29 @@ open class MatchesRecord() : UpdatableRecordImpl<MatchesRecord>(Matches.MATCHES)
         set(value): Unit = set(35, value)
         get(): Int? = get(35) as Int?
 
-    open var ballsperover: Int?
+    open var durationtype: String?
         set(value): Unit = set(36, value)
-        get(): Int? = get(36) as Int?
+        get(): String? = get(36) as String?
+
+    open var ballsperover: Int?
+        set(value): Unit = set(37, value)
+        get(): Int? = get(37) as Int?
 
     open var daynight: Byte?
-        set(value): Unit = set(37, value)
-        get(): Byte? = get(37) as Byte?
-
-    open var oversreduced: Byte?
         set(value): Unit = set(38, value)
         get(): Byte? = get(38) as Byte?
 
-    open var addeddate: LocalDateTime?
+    open var oversreduced: Byte?
         set(value): Unit = set(39, value)
-        get(): LocalDateTime? = get(39) as LocalDateTime?
+        get(): Byte? = get(39) as Byte?
+
+    open var addeddate: LocalDateTime?
+        set(value): Unit = set(40, value)
+        get(): LocalDateTime? = get(40) as LocalDateTime?
 
     open var addeddateasoffset: Long?
-        set(value): Unit = set(40, value)
-        get(): Long? = get(40) as Long?
+        set(value): Unit = set(41, value)
+        get(): Long? = get(41) as Long?
 
     // -------------------------------------------------------------------------
     // Primary key information
@@ -192,7 +196,7 @@ open class MatchesRecord() : UpdatableRecordImpl<MatchesRecord>(Matches.MATCHES)
     /**
      * Create a detached, initialised MatchesRecord
      */
-    constructor(id: Int? = null, caid: String? = null, caurl: String? = null, filename: String? = null, matchinseries: Int? = null, seriesnumber: Int? = null, matchtype: String? = null, hometeamid: Int? = null, hometeamname: String? = null, awayteamid: Int? = null, awayteamname: String? = null, isneutral: Byte? = null, matchdesignator: String? = null, matchtitle: String? = null, tournament: String? = null, location: String? = null, locationid: Int? = null, groundnameid: Int? = null, tossteamid: Int? = null, battedfirstteamid: Int? = null, matchdate: String? = null, seriesdate: String? = null, matchstartyear: String? = null, matchstartdate: LocalDate? = null, matchstartdateasoffset: Long? = null, matchenddate: LocalDate? = null, matchenddateasoffset: Long? = null, resultstring: String? = null, homecountryid: Int? = null, target: Int? = null, whowonid: Int? = null, wholostid: Int? = null, howmuch: Int? = null, marginforsort: Int? = null, victorytype: Int? = null, duration: Int? = null, ballsperover: Int? = null, daynight: Byte? = null, oversreduced: Byte? = null, addeddate: LocalDateTime? = null, addeddateasoffset: Long? = null): this() {
+    constructor(id: Int? = null, caid: String? = null, caurl: String? = null, filename: String? = null, matchinseries: Int? = null, seriesnumber: Int? = null, matchtype: String? = null, hometeamid: Int? = null, hometeamname: String? = null, awayteamid: Int? = null, awayteamname: String? = null, isneutral: Byte? = null, matchdesignator: String? = null, matchtitle: String? = null, tournament: String? = null, location: String? = null, locationid: Int? = null, groundnameid: Int? = null, tossteamid: Int? = null, battedfirstteamid: Int? = null, matchdate: String? = null, seriesdate: String? = null, matchstartyear: String? = null, matchstartdate: LocalDate? = null, matchstartdateasoffset: Long? = null, matchenddate: LocalDate? = null, matchenddateasoffset: Long? = null, resultstring: String? = null, homecountryid: Int? = null, target: Int? = null, whowonid: Int? = null, wholostid: Int? = null, howmuch: Int? = null, marginforsort: Int? = null, victorytype: Int? = null, duration: Int? = null, durationtype: String? = null, ballsperover: Int? = null, daynight: Byte? = null, oversreduced: Byte? = null, addeddate: LocalDateTime? = null, addeddateasoffset: Long? = null): this() {
         this.id = id
         this.caid = caid
         this.caurl = caurl
@@ -229,6 +233,7 @@ open class MatchesRecord() : UpdatableRecordImpl<MatchesRecord>(Matches.MATCHES)
         this.marginforsort = marginforsort
         this.victorytype = victorytype
         this.duration = duration
+        this.durationtype = durationtype
         this.ballsperover = ballsperover
         this.daynight = daynight
         this.oversreduced = oversreduced

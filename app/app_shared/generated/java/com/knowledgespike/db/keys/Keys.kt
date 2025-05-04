@@ -25,6 +25,7 @@ import com.knowledgespike.db.tables.Matchtypes
 import com.knowledgespike.db.tables.Notes
 import com.knowledgespike.db.tables.Partnerships
 import com.knowledgespike.db.tables.Partnershipsplayers
+import com.knowledgespike.db.tables.Playerrelations
 import com.knowledgespike.db.tables.Players
 import com.knowledgespike.db.tables.Playersdates
 import com.knowledgespike.db.tables.Playersmatches
@@ -61,6 +62,7 @@ import com.knowledgespike.db.tables.records.MatchtypesRecord
 import com.knowledgespike.db.tables.records.NotesRecord
 import com.knowledgespike.db.tables.records.PartnershipsRecord
 import com.knowledgespike.db.tables.records.PartnershipsplayersRecord
+import com.knowledgespike.db.tables.records.PlayerrelationsRecord
 import com.knowledgespike.db.tables.records.PlayersRecord
 import com.knowledgespike.db.tables.records.PlayersdatesRecord
 import com.knowledgespike.db.tables.records.PlayersmatchesRecord
@@ -109,6 +111,7 @@ val KEY_MATCHTYPES_PRIMARY: UniqueKey<MatchtypesRecord> = Internal.createUniqueK
 val KEY_NOTES_PRIMARY: UniqueKey<NotesRecord> = Internal.createUniqueKey(Notes.NOTES, DSL.name("KEY_Notes_PRIMARY"), arrayOf(Notes.NOTES.ID), true)
 val KEY_PARTNERSHIPS_PRIMARY: UniqueKey<PartnershipsRecord> = Internal.createUniqueKey(Partnerships.PARTNERSHIPS, DSL.name("KEY_Partnerships_PRIMARY"), arrayOf(Partnerships.PARTNERSHIPS.ID), true)
 val KEY_PARTNERSHIPSPLAYERS_PRIMARY: UniqueKey<PartnershipsplayersRecord> = Internal.createUniqueKey(Partnershipsplayers.PARTNERSHIPSPLAYERS, DSL.name("KEY_PartnershipsPlayers_PRIMARY"), arrayOf(Partnershipsplayers.PARTNERSHIPSPLAYERS.ID), true)
+val KEY_PLAYERRELATIONS_PRIMARY: UniqueKey<PlayerrelationsRecord> = Internal.createUniqueKey(Playerrelations.PLAYERRELATIONS, DSL.name("KEY_PlayerRelations_PRIMARY"), arrayOf(Playerrelations.PLAYERRELATIONS.ID), true)
 val KEY_PLAYERS_PRIMARY: UniqueKey<PlayersRecord> = Internal.createUniqueKey(Players.PLAYERS, DSL.name("KEY_Players_PRIMARY"), arrayOf(Players.PLAYERS.ID), true)
 val KEY_PLAYERSDATES_PRIMARY: UniqueKey<PlayersdatesRecord> = Internal.createUniqueKey(Playersdates.PLAYERSDATES, DSL.name("KEY_PlayersDates_PRIMARY"), arrayOf(Playersdates.PLAYERSDATES.ID), true)
 val KEY_PLAYERSMATCHES_PRIMARY: UniqueKey<PlayersmatchesRecord> = Internal.createUniqueKey(Playersmatches.PLAYERSMATCHES, DSL.name("KEY_PlayersMatches_PRIMARY"), arrayOf(Playersmatches.PLAYERSMATCHES.ID), true)
@@ -166,6 +169,7 @@ val PARTNERSHIPS_IBFK_2: ForeignKey<PartnershipsRecord, TeamsRecord> = Internal.
 val PARTNERSHIPS_IBFK_3: ForeignKey<PartnershipsRecord, TeamsRecord> = Internal.createForeignKey(Partnerships.PARTNERSHIPS, DSL.name("partnerships_ibfk_3"), arrayOf(Partnerships.PARTNERSHIPS.OPPONENTSID), com.knowledgespike.db.keys.KEY_TEAMS_PRIMARY, arrayOf(Teams.TEAMS.ID), true)
 val PARTNERSHIPSPLAYERS_IBFK_1: ForeignKey<PartnershipsplayersRecord, PlayersRecord> = Internal.createForeignKey(Partnershipsplayers.PARTNERSHIPSPLAYERS, DSL.name("partnershipsplayers_ibfk_1"), arrayOf(Partnershipsplayers.PARTNERSHIPSPLAYERS.PLAYERID), com.knowledgespike.db.keys.KEY_PLAYERS_PRIMARY, arrayOf(Players.PLAYERS.ID), true)
 val PARTNERSHIPSPLAYERS_IBFK_2: ForeignKey<PartnershipsplayersRecord, PartnershipsRecord> = Internal.createForeignKey(Partnershipsplayers.PARTNERSHIPSPLAYERS, DSL.name("partnershipsplayers_ibfk_2"), arrayOf(Partnershipsplayers.PARTNERSHIPSPLAYERS.PARTNERSHIPID), com.knowledgespike.db.keys.KEY_PARTNERSHIPS_PRIMARY, arrayOf(Partnerships.PARTNERSHIPS.ID), true)
+val PLAYERRELATIONS_IBFK_1: ForeignKey<PlayerrelationsRecord, PlayersRecord> = Internal.createForeignKey(Playerrelations.PLAYERRELATIONS, DSL.name("playerrelations_ibfk_1"), arrayOf(Playerrelations.PLAYERRELATIONS.PLAYERID), com.knowledgespike.db.keys.KEY_PLAYERS_PRIMARY, arrayOf(Players.PLAYERS.ID), true)
 val PLAYERSDATES_IBFK_1: ForeignKey<PlayersdatesRecord, PlayersRecord> = Internal.createForeignKey(Playersdates.PLAYERSDATES, DSL.name("playersdates_ibfk_1"), arrayOf(Playersdates.PLAYERSDATES.PLAYERID), com.knowledgespike.db.keys.KEY_PLAYERS_PRIMARY, arrayOf(Players.PLAYERS.ID), true)
 val PLAYERSMATCHES_IBFK_1: ForeignKey<PlayersmatchesRecord, PlayersRecord> = Internal.createForeignKey(Playersmatches.PLAYERSMATCHES, DSL.name("playersmatches_ibfk_1"), arrayOf(Playersmatches.PLAYERSMATCHES.PLAYERID), com.knowledgespike.db.keys.KEY_PLAYERS_PRIMARY, arrayOf(Players.PLAYERS.ID), true)
 val PLAYERSMATCHES_IBFK_2: ForeignKey<PlayersmatchesRecord, MatchesRecord> = Internal.createForeignKey(Playersmatches.PLAYERSMATCHES, DSL.name("playersmatches_ibfk_2"), arrayOf(Playersmatches.PLAYERSMATCHES.MATCHID), com.knowledgespike.db.keys.KEY_MATCHES_PRIMARY, arrayOf(Matches.MATCHES.ID), true)
