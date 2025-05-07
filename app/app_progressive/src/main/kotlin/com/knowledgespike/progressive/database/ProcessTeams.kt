@@ -101,19 +101,22 @@ class ProcessTeams(
                                     dialect,
                                     teamParams.first,
                                     teamParams.second,
-                                    overall
+                                    overall,
+                                    matchDto.matchIds
                                 )
                                 teamPairDetails.getTeamRecords(
                                     connection,
                                     dialect,
                                     teamParams.first,
-                                    teamParams.second
+                                    teamParams.second,
+                                    matchDto.matchIds
                                 )
                                 teamPairDetails.getIndividualRecords(
                                     connection,
                                     dialect,
                                     teamParams.first,
-                                    teamParams.second
+                                    teamParams.second,
+                                    matchDto.matchIds
                                 )
 
 
@@ -164,8 +167,7 @@ class ProcessTeams(
         val countryId = getCountryIdsFromName(country, connection, dialect)
 
         for ((teamAndIds, opponents) in teamAndAllOpponents) {
-            
-            
+
 
             val matchDto =
                 getCountOfMatchesBetweenTeams(

@@ -63,14 +63,16 @@ data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
         countryIds: List<Int>,
         teamParamA: TeamParams,
         teamParamB: TeamParams,
-        startFrom: Long
+        startFrom: Long,
+        matchIds: List<Int>
     ) {
         val teamRecords = TeamRecords(connection, dialect)
         highestScores[0].addAll(
             teamRecords.getHighestTotals(
                 countryIds,
                 teamParamA,
-                startFrom
+                startFrom,
+                matchDto.matchIds
             )
         )
 
@@ -78,18 +80,19 @@ data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
             teamRecords.getHighestTotals(
                 countryIds,
                 teamParamB,
-                startFrom
+                startFrom,
+                matchDto.matchIds
             )
         )
 
-        var lowestAllOutTotals = teamRecords.getLowestAllOutTotals(countryIds, teamParamA,startFrom)
-        var lowestCompleteTotals = teamRecords.getLowestCompleteTotals(countryIds, teamParamA, startFrom)
-        var lowestIncompleteTotals = teamRecords.getLowestIncompleteTotals(countryIds, teamParamA, startFrom)
+        var lowestAllOutTotals = teamRecords.getLowestAllOutTotals(countryIds, teamParamA,startFrom, matchDto.matchIds)
+        var lowestCompleteTotals = teamRecords.getLowestCompleteTotals(countryIds, teamParamA, startFrom, matchDto.matchIds)
+        var lowestIncompleteTotals = teamRecords.getLowestIncompleteTotals(countryIds, teamParamA, startFrom, matchDto.matchIds)
         teamAllLowestScores.add(LowestScoreDto(lowestAllOutTotals, lowestCompleteTotals, lowestIncompleteTotals))
 
-        lowestAllOutTotals = teamRecords.getLowestAllOutTotals(countryIds, teamParamB, startFrom)
-        lowestCompleteTotals = teamRecords.getLowestCompleteTotals(countryIds, teamParamB, startFrom)
-        lowestIncompleteTotals = teamRecords.getLowestIncompleteTotals(countryIds, teamParamB, startFrom)
+        lowestAllOutTotals = teamRecords.getLowestAllOutTotals(countryIds, teamParamB, startFrom, matchDto.matchIds)
+        lowestCompleteTotals = teamRecords.getLowestCompleteTotals(countryIds, teamParamB, startFrom, matchDto.matchIds)
+        lowestIncompleteTotals = teamRecords.getLowestIncompleteTotals(countryIds, teamParamB, startFrom, matchDto.matchIds)
         teamAllLowestScores.add(LowestScoreDto(lowestAllOutTotals, lowestCompleteTotals, lowestIncompleteTotals))
     }
 
@@ -100,170 +103,247 @@ data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
         teamParamA: TeamParams,
         teamParamB: TeamParams,
         matchType: String,
-        startFrom: Long
+        startFrom: Long,
+        matchIds: List<Int>
     ) {
 
         val teamRecords = TeamRecords(connection, dialect)
         highestIndividualScore[0].addAll(
-            teamRecords.getHighestIndividualScores(countryIds, teamParamA, startFrom)
+            teamRecords.getHighestIndividualScores(countryIds, teamParamA, startFrom, matchIds)
         )
 
         highestIndividualScore[1].addAll(
-            teamRecords.getHighestIndividualScores(countryIds, teamParamB, startFrom)
+            teamRecords.getHighestIndividualScores(countryIds, teamParamB, startFrom, matchIds)
         )
 
 
         if (nonFcMatchTypes.contains(matchType)) {
             highestIndividualStrikeRates[0].addAll(
-                teamRecords.getHighestIndividualStrikeRate(countryIds, teamParamA, startFrom)
+                teamRecords.getHighestIndividualStrikeRate(countryIds, teamParamA, startFrom, matchIds =matchIds)
             )
             highestIndividualStrikeRates[1].addAll(
-                teamRecords.getHighestIndividualStrikeRate(countryIds, teamParamB, startFrom)
+                teamRecords.getHighestIndividualStrikeRate(countryIds, teamParamB, startFrom, matchIds =matchIds)
             )
 
             highestIndividualStrikeRatesWithLimit[0].addAll(
-                teamRecords.getHighestIndividualStrikeRate(countryIds, teamParamA, startFrom, strikeRateScoreLimit)
+                teamRecords.getHighestIndividualStrikeRate(countryIds, teamParamA, startFrom, strikeRateScoreLimit, matchIds)
             )
             highestIndividualStrikeRatesWithLimit[1].addAll(
-                teamRecords.getHighestIndividualStrikeRate(countryIds, teamParamB, startFrom, strikeRateScoreLimit)
+                teamRecords.getHighestIndividualStrikeRate(countryIds, teamParamB, startFrom, strikeRateScoreLimit, matchIds)
             )
 
             lowestIndividualStrikeRates[0].addAll(
-                teamRecords.getLowestIndividualStrikeRate(countryIds, teamParamA, strikeRateLowerBallsLimit, startFrom)
+                teamRecords.getLowestIndividualStrikeRate(countryIds, teamParamA, strikeRateLowerBallsLimit, startFrom, matchIds)
             )
             lowestIndividualStrikeRates[1].addAll(
-                teamRecords.getLowestIndividualStrikeRate(countryIds, teamParamB, strikeRateLowerBallsLimit, startFrom)
+                teamRecords.getLowestIndividualStrikeRate(countryIds, teamParamB, strikeRateLowerBallsLimit, startFrom, matchIds)
             )
 
             lowestIndividualStrikeRatesWithLimit[0].addAll(
-                teamRecords.getLowestIndividualStrikeRate(countryIds, teamParamA, strikeRateUpperBallsLimit, startFrom)
+                teamRecords.getLowestIndividualStrikeRate(countryIds, teamParamA, strikeRateUpperBallsLimit, startFrom, matchIds)
             )
             lowestIndividualStrikeRatesWithLimit[1].addAll(
-                teamRecords.getLowestIndividualStrikeRate(countryIds, teamParamB, strikeRateUpperBallsLimit, startFrom)
+                teamRecords.getLowestIndividualStrikeRate(countryIds, teamParamB, strikeRateUpperBallsLimit, startFrom, matchIds)
             )
 
 
             mostSixes[0].addAll(
-                teamRecords.getHighestIndividualSixes(countryIds, teamParamA, startFrom)
+                teamRecords.getHighestIndividualSixes(countryIds, teamParamA, startFrom, matchIds)
             )
             mostSixes[1].addAll(
-                teamRecords.getHighestIndividualSixes(countryIds, teamParamB, startFrom)
+                teamRecords.getHighestIndividualSixes(countryIds, teamParamB, startFrom, matchIds)
             )
 
             mostFours[0].addAll(
-                teamRecords.getHighestIndividualFours(countryIds, teamParamA, startFrom)
+                teamRecords.getHighestIndividualFours(countryIds, teamParamA, startFrom, matchIds)
             )
             mostFours[1].addAll(
-                teamRecords.getHighestIndividualFours(countryIds, teamParamB, startFrom)
+                teamRecords.getHighestIndividualFours(countryIds, teamParamB, startFrom, matchIds)
             )
 
             mostBoundaries[0].addAll(
-                teamRecords.getHighestIndividualBoundaries(countryIds, teamParamA, startFrom)
+                teamRecords.getHighestIndividualBoundaries(countryIds, teamParamA, startFrom, matchIds)
             )
             mostBoundaries[1].addAll(
-                teamRecords.getHighestIndividualBoundaries(countryIds, teamParamB, startFrom)
+                teamRecords.getHighestIndividualBoundaries(countryIds, teamParamB, startFrom, matchIds)
             )
         }
 
         bestBowlingInnings[0].addAll(
-            teamRecords.getBestBowlingInnings(countryIds, teamParamA, startFrom)
+            teamRecords.getBestBowlingInnings(countryIds, teamParamA, startFrom, matchIds)
         )
 
         bestBowlingInnings[1].addAll(
-            teamRecords.getBestBowlingInnings(countryIds, teamParamB, startFrom)
+            teamRecords.getBestBowlingInnings(countryIds, teamParamB, startFrom, matchIds)
         )
 
         bestBowlingMatch[0].addAll(
-            teamRecords.getBestBowlingMatch(countryIds, teamParamA, startFrom)
+            teamRecords.getBestBowlingMatch(countryIds, teamParamA, startFrom, matchIds)
         )
 
         bestBowlingMatch[1].addAll(
-            teamRecords.getBestBowlingMatch(countryIds, teamParamB, startFrom)
+            teamRecords.getBestBowlingMatch(countryIds, teamParamB, startFrom, matchIds)
         )
 
 
         bestFoW[0].putAll(
-            teamRecords.getHighestFoW(countryIds, teamParamA, startFrom)
+            teamRecords.getHighestFoW(countryIds, teamParamA, startFrom, matchIds)
         )
 
         bestFoW[1].putAll(
-            teamRecords.getHighestFoW(countryIds, teamParamB, startFrom)
+            teamRecords.getHighestFoW(countryIds, teamParamB, startFrom, matchIds)
         )
 
         if (nonFcMatchTypes.contains(matchType)) {
             bestBowlingSRInnings[0].addAll(
-                teamRecords.getBestBowlingStrikeRate(countryIds, teamParamA, startFrom)
+                teamRecords.getBestBowlingStrikeRate(countryIds, teamParamA, startFrom, matchIds)
             )
             bestBowlingSRInnings[1].addAll(
-                teamRecords.getBestBowlingStrikeRate(countryIds, teamParamB, startFrom)
+                teamRecords.getBestBowlingStrikeRate(countryIds, teamParamB, startFrom, matchIds)
             )
 
             bestBowlingSRWithLimitInnings[0].addAll(
-                teamRecords.getBestBowlingStrikeRate(countryIds, teamParamA, startFrom, economyRateOversLimit)
+                teamRecords.getBestBowlingStrikeRate(countryIds, teamParamA, startFrom, matchIds, economyRateOversLimit)
             )
             bestBowlingSRWithLimitInnings[1].addAll(
-                teamRecords.getBestBowlingStrikeRate(countryIds, teamParamB, startFrom, economyRateOversLimit)
+                teamRecords.getBestBowlingStrikeRate(countryIds, teamParamB, startFrom, matchIds, economyRateOversLimit)
             )
 
             bestBowlingERInnings[0].addAll(
-                teamRecords.getBestBowlingEconRate(countryIds, teamParamA, startFrom)
+                teamRecords.getBestBowlingEconRate(countryIds, teamParamA, startFrom, matchIds)
             )
             bestBowlingERInnings[1].addAll(
-                teamRecords.getBestBowlingEconRate(countryIds, teamParamB, startFrom)
+                teamRecords.getBestBowlingEconRate(countryIds, teamParamB, startFrom, matchIds)
             )
 
             bestBowlingERWithLimitInnings[0].addAll(
-                teamRecords.getBestBowlingEconRate(countryIds, teamParamA, startFrom, economyRateOversLimit)
+                teamRecords.getBestBowlingEconRate(countryIds, teamParamA, startFrom, matchIds, economyRateOversLimit)
             )
             bestBowlingERWithLimitInnings[1].addAll(
-                teamRecords.getBestBowlingEconRate(countryIds, teamParamB, startFrom, economyRateOversLimit)
+                teamRecords.getBestBowlingEconRate(countryIds, teamParamB, startFrom, matchIds, economyRateOversLimit)
             )
 
             worstBowlingERInnings[0].addAll(
-                teamRecords.getWorstBowlingEconRate(countryIds, teamParamA, startFrom)
+                teamRecords.getWorstBowlingEconRate(countryIds, teamParamA, startFrom, matchIds)
             )
             worstBowlingERInnings[1].addAll(
-                teamRecords.getWorstBowlingEconRate(countryIds, teamParamB, startFrom)
+                teamRecords.getWorstBowlingEconRate(countryIds, teamParamB, startFrom, matchIds)
             )
 
             worstBowlingERWithLimitInnings[0].addAll(
-                teamRecords.getWorstBowlingEconRate(countryIds, teamParamA, startFrom, economyRateOversLimit)
+                teamRecords.getWorstBowlingEconRate(countryIds, teamParamA, startFrom, matchIds, economyRateOversLimit)
             )
             worstBowlingERWithLimitInnings[1].addAll(
-                teamRecords.getWorstBowlingEconRate(countryIds, teamParamB, startFrom, economyRateOversLimit)
+                teamRecords.getWorstBowlingEconRate(countryIds, teamParamB, startFrom, matchIds, economyRateOversLimit)
             )
         }
 
         mostRunsVsOpposition[0].addAll(
-            teamRecords.getMostRuns(countryIds, teamParamA, startFrom)
+            teamRecords.getMostRuns(countryIds, teamParamA, startFrom, matchIds)
         )
 
 
         mostRunsVsOpposition[1].addAll(
-            teamRecords.getMostRuns(countryIds, teamParamB, startFrom)
+            teamRecords.getMostRuns(countryIds, teamParamB, startFrom, matchIds)
         )
 
         mostWicketsVsOpposition[0].addAll(
-            teamRecords.getMostWickets(countryIds, teamParamA, startFrom)
+            teamRecords.getMostWickets(countryIds, teamParamA, startFrom, matchIds)
         )
         mostWicketsVsOpposition[1].addAll(
-            teamRecords.getMostWickets(countryIds, teamParamB, startFrom)
+            teamRecords.getMostWickets(countryIds, teamParamB, startFrom, matchIds)
         )
 
         mostCatchesVsOpposition[0].addAll(
-            teamRecords.getMostCatches(countryIds, teamParamA, startFrom)
+            teamRecords.getMostCatches(countryIds, teamParamA, startFrom, matchIds)
         )
         mostCatchesVsOpposition[1].addAll(
-            teamRecords.getMostCatches(countryIds, teamParamB, startFrom)
+            teamRecords.getMostCatches(countryIds, teamParamB, startFrom, matchIds)
         )
 
         mostStumpingsVsOpposition[0].addAll(
-            teamRecords.getMostStumpings(countryIds, teamParamA, startFrom)
+            teamRecords.getMostStumpings(countryIds, teamParamA, startFrom, matchIds)
         )
         mostStumpingsVsOpposition[1].addAll(
-            teamRecords.getMostStumpings(countryIds, teamParamB, startFrom)
+            teamRecords.getMostStumpings(countryIds, teamParamB, startFrom, matchIds)
         )
 
+    }
+
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (javaClass != other?.javaClass) return false
+
+        other as TeamPairDetails
+
+        if (strikeRateScoreLimit != other.strikeRateScoreLimit) return false
+        if (strikeRateLowerBallsLimit != other.strikeRateLowerBallsLimit) return false
+        if (strikeRateUpperBallsLimit != other.strikeRateUpperBallsLimit) return false
+        if (economyRateOversLimit != other.economyRateOversLimit) return false
+        if (!teams.contentEquals(other.teams)) return false
+        if (matchDto != other.matchDto) return false
+        if (authors != other.authors) return false
+        if (highestScores != other.highestScores) return false
+        if (highestIndividualScore != other.highestIndividualScore) return false
+        if (highestIndividualStrikeRates != other.highestIndividualStrikeRates) return false
+        if (highestIndividualStrikeRatesWithLimit != other.highestIndividualStrikeRatesWithLimit) return false
+        if (lowestIndividualStrikeRates != other.lowestIndividualStrikeRates) return false
+        if (lowestIndividualStrikeRatesWithLimit != other.lowestIndividualStrikeRatesWithLimit) return false
+        if (mostFours != other.mostFours) return false
+        if (mostSixes != other.mostSixes) return false
+        if (mostBoundaries != other.mostBoundaries) return false
+        if (bestBowlingInnings != other.bestBowlingInnings) return false
+        if (bestBowlingMatch != other.bestBowlingMatch) return false
+        if (bestBowlingSRInnings != other.bestBowlingSRInnings) return false
+        if (bestBowlingSRWithLimitInnings != other.bestBowlingSRWithLimitInnings) return false
+        if (bestBowlingERInnings != other.bestBowlingERInnings) return false
+        if (bestBowlingERWithLimitInnings != other.bestBowlingERWithLimitInnings) return false
+        if (worstBowlingERInnings != other.worstBowlingERInnings) return false
+        if (worstBowlingERWithLimitInnings != other.worstBowlingERWithLimitInnings) return false
+        if (bestFoW != other.bestFoW) return false
+        if (mostRunsVsOpposition != other.mostRunsVsOpposition) return false
+        if (mostWicketsVsOpposition != other.mostWicketsVsOpposition) return false
+        if (mostCatchesVsOpposition != other.mostCatchesVsOpposition) return false
+        if (mostStumpingsVsOpposition != other.mostStumpingsVsOpposition) return false
+        if (teamAllLowestScores != other.teamAllLowestScores) return false
+        if (nonFcMatchTypes != other.nonFcMatchTypes) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        var result = strikeRateScoreLimit
+        result = 31 * result + strikeRateLowerBallsLimit
+        result = 31 * result + strikeRateUpperBallsLimit
+        result = 31 * result + economyRateOversLimit
+        result = 31 * result + teams.contentHashCode()
+        result = 31 * result + matchDto.hashCode()
+        result = 31 * result + authors.hashCode()
+        result = 31 * result + highestScores.hashCode()
+        result = 31 * result + highestIndividualScore.hashCode()
+        result = 31 * result + highestIndividualStrikeRates.hashCode()
+        result = 31 * result + highestIndividualStrikeRatesWithLimit.hashCode()
+        result = 31 * result + lowestIndividualStrikeRates.hashCode()
+        result = 31 * result + lowestIndividualStrikeRatesWithLimit.hashCode()
+        result = 31 * result + mostFours.hashCode()
+        result = 31 * result + mostSixes.hashCode()
+        result = 31 * result + mostBoundaries.hashCode()
+        result = 31 * result + bestBowlingInnings.hashCode()
+        result = 31 * result + bestBowlingMatch.hashCode()
+        result = 31 * result + bestBowlingSRInnings.hashCode()
+        result = 31 * result + bestBowlingSRWithLimitInnings.hashCode()
+        result = 31 * result + bestBowlingERInnings.hashCode()
+        result = 31 * result + bestBowlingERWithLimitInnings.hashCode()
+        result = 31 * result + worstBowlingERInnings.hashCode()
+        result = 31 * result + worstBowlingERWithLimitInnings.hashCode()
+        result = 31 * result + bestFoW.hashCode()
+        result = 31 * result + mostRunsVsOpposition.hashCode()
+        result = 31 * result + mostWicketsVsOpposition.hashCode()
+        result = 31 * result + mostCatchesVsOpposition.hashCode()
+        result = 31 * result + mostStumpingsVsOpposition.hashCode()
+        result = 31 * result + teamAllLowestScores.hashCode()
+        result = 31 * result + nonFcMatchTypes.hashCode()
+        return result
     }
 
 }

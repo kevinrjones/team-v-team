@@ -1,5 +1,6 @@
 package com.knowledgespike.shared.database
 
+import com.knowledgespike.db.tables.Teams
 import com.knowledgespike.db.tables.references.*
 import com.knowledgespike.shared.data.MatchDto
 import com.knowledgespike.shared.data.TeamBase
@@ -9,6 +10,7 @@ import com.knowledgespike.shared.types.TeamIdsAndValidDate
 import org.jooq.DSLContext
 import org.jooq.SQLDialect
 import org.jooq.impl.DSL
+import org.jooq.impl.DSL.aggregateDistinct
 import java.sql.Connection
 
 fun checkIfShouldProcess(
@@ -125,21 +127,23 @@ fun getCountOfMatchesBetweenTeams(
         EXTRAMATCHDETAILS.TEAMID,
         EXTRAMATCHDETAILS.OPPONENTSID,
         EXTRAMATCHDETAILS.RESULT,
-        DSL.count(EXTRAMATCHDETAILS.RESULT).over().partitionBy(EXTRAMATCHDETAILS.RESULT)
-            .orderBy(EXTRAMATCHDETAILS.RESULT).`as`("count"),
-        DSL.min(MATCHES.MATCHSTARTDATEASOFFSET).over().`as`("startDate"),
-        DSL.max(MATCHES.MATCHSTARTDATEASOFFSET).over().`as`("endDate"),
+        DSL.count(EXTRAMATCHDETAILS.RESULT).`as`("count"),
+        DSL.min(MATCHES.MATCHSTARTDATEASOFFSET).`as`("startDate"),
+        DSL.max(MATCHES.MATCHSTARTDATEASOFFSET).`as`("endDate"),
+        aggregateDistinct("group_concat", String::class.java, EXTRAMATCHDETAILS.MATCHID).`as`("ids")
     ).from(EXTRAMATCHDETAILS)
         .join(MATCHES).on(MATCHES.ID.eq(EXTRAMATCHDETAILS.MATCHID))
         .where(whereClause)
+        .groupBy(EXTRAMATCHDETAILS.TEAMID, EXTRAMATCHDETAILS.OPPONENTSID, EXTRAMATCHDETAILS.RESULT)
         .fetch()
 
     try {
         if (r.size == 0) {
             return MatchDto(
-                0,
-                0L.toLocalDateTime(),
-                0L.toLocalDateTime(),
+                count = 0,
+                startDate = 0L.toLocalDateTime(),
+                endDate = 0L.toLocalDateTime(),
+                matchIds = emptyList()
             )
         }
         var wins = 0
@@ -149,41 +153,60 @@ fun getCountOfMatchesBetweenTeams(
         var abandoned = 0
         var cancelled = 0
         var abandonedAsDraw = 0
-        var startDate = 0L.toLocalDateTime()
-        var endDate = 0L.toLocalDateTime()
+        var startDate = 0L
+        var endDate = 0L
+        val matchIds = mutableListOf<Int>()
 
         r.forEach { result ->
 
 
             val resultType = result.getValue("Result", Int::class.java)
             val count = result.getValue("count", Int::class.java)
+            val ids = result.getValue("ids", String::class.java)
 
 
             when (resultType) {
-                1 -> wins = count
-                2 -> losses = count
-                4 -> draws = count
-                8 -> ties = count
-                16 -> abandoned = count
-                32 -> cancelled = count
-                64 -> abandonedAsDraw = count
+                1 -> wins = wins + count
+                2 -> losses = losses + count
+                4 -> draws = draws + count
+                8 -> ties = ties + count
+                16 -> abandoned = abandoned + count
+                32 -> cancelled = cancelled + count
+                64 -> abandonedAsDraw = abandonedAsDraw + count
             }
 
-            startDate = (result.getValue("startDate", Long::class.java) * 1000).toLocalDateTime()
-            endDate = (result.getValue("endDate", Long::class.java) * 1000).toLocalDateTime()
+            val rowStartDate = result.get("startDate") as Long?
+            val rowEndDate = result.getValue("endDate") as Long?
+            for (id in ids.split(",")) {
+                matchIds.add(id.toInt())
+            }
+
+            rowStartDate?.let {
+                val tmpStartDate = rowStartDate * 1000
+                if (startDate == 0L) startDate = tmpStartDate else
+                    if (tmpStartDate < startDate) startDate = tmpStartDate
+            }
+
+            rowEndDate?.let {
+                val tmpEndDate = rowEndDate * 1000
+                if (endDate == 0L) endDate = tmpEndDate else
+                    if (tmpEndDate > endDate) endDate = tmpEndDate
+
+            }
         }
         val matches = wins + losses + draws + ties + abandonedAsDraw
         return MatchDto(
             matches,
-            startDate,
-            endDate,
+            startDate.toLocalDateTime(),
+            endDate.toLocalDateTime(),
             firstTeamWins = wins,
             firstTeamLosses = losses,
             draws,
             ties,
             abandoned,
             abandonedAsDraw,
-            cancelled
+            cancelled,
+            matchIds = matchIds,
         )
     } catch (e: Exception) {
         throw e
@@ -237,13 +260,13 @@ fun convertCaTeamIdsToTeamIds(
     dialect: SQLDialect,
 ): List<Int> {
 
-        val context = DSL.using(connection, dialect)
+    val context = DSL.using(connection, dialect)
 
-        return context.select(TEAMS.ID)
-            .from(TEAMS)
-            .where(TEAMS.TEAMID.`in`(caTeamIds))
-            .fetch()
-            .getValues(TEAMS.ID, Int::class.java)
+    return context.select(TEAMS.ID)
+        .from(TEAMS)
+        .where(TEAMS.TEAMID.`in`(caTeamIds))
+        .fetch()
+        .getValues(TEAMS.ID, Int::class.java)
 
 }
 
