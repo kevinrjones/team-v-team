@@ -74,6 +74,7 @@ data class MatchDto(
     val abandoned: Int = 0,
     val abandonedAsDraw: Int = 0,
     val cancelled: Int = 0,
+    val matchIds: List<Int>
 )
 
 @Serializable

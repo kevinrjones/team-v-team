@@ -91,7 +91,8 @@ class ProcessTeams(
                         countryIds,
                         teamParams.first,
                         teamParams.second,
-                        teamsAndOpponents.startFrom
+                        teamsAndOpponents.startFrom,
+                        matchDto.matchIds
                     )
                     teamPairDetails.addIndividualData(
                         connection,
@@ -100,7 +101,8 @@ class ProcessTeams(
                         teamParams.first,
                         teamParams.second,
                         matchType,
-                        teamsAndOpponents.startFrom
+                        teamsAndOpponents.startFrom,
+                        matchDto.matchIds
                     )
 
                     val authors1 = opponentsWithAuthors
