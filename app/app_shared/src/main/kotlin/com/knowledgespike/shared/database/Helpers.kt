@@ -11,6 +11,7 @@ import org.jooq.DSLContext
 import org.jooq.SQLDialect
 import org.jooq.impl.DSL
 import org.jooq.impl.DSL.aggregateDistinct
+import org.jooq.impl.DSL.trueCondition
 import java.sql.Connection
 
 fun checkIfShouldProcess(
@@ -95,123 +96,158 @@ fun getCountOfMatchesBetweenTeams(
     if (matchSubType == "minc")
         matchTypesToExclude.add("sec")
 
-    // no need to process each team id individually here
-    var whereClause = EXTRAMATCHDETAILS.TEAMID.`in`(teamsAndOpponents.teamIds)
-        .and(
-            MATCHES.ID.`in`(
-                DSL.select(MATCHSUBTYPE.MATCHID).from(
-                    MATCHSUBTYPE.where(
-                        MATCHSUBTYPE.MATCHTYPE.eq(
-                            matchSubType
+    if (teamsAndOpponents.teamIds.isNotEmpty()) {
+
+        val firstId = teamsAndOpponents.teamIds.first()
+        val otherIds = teamsAndOpponents.teamIds.drop(1)
+
+        // no need to process each team id individually here
+        var idClause = EXTRAMATCHDETAILS.TEAMID.eq(firstId)
+            .and(
+                MATCHES.ID.`in`(
+                    DSL.select(MATCHSUBTYPE.MATCHID).from(
+                        MATCHSUBTYPE.where(
+                            MATCHSUBTYPE.MATCHTYPE.eq(
+                                matchSubType
+                            )
                         )
                     )
                 )
             )
-        )
-        .and(MATCHES.MATCHTYPE.notIn(matchTypesToExclude))
-        .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
 
-    // When calculating the records vs 'all' teams we can do two things. Calculate against 'all' the teams
-    // in this set of teams (all IPL teams say) or calculate their overall record against all other teams for this
-    // matchtype, all T20 teams say
-    // The 'overall' flag lets us determine this
-    if (!(overall && teamsAndOpponents.opponentsName.lowercase() == "all"))
-        whereClause = whereClause.and(EXTRAMATCHDETAILS.OPPONENTSID.`in`(teamsAndOpponents.opponentIds))
-
-    if (countryIds.isNotEmpty())
-        whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
-
-
-    val context = DSL.using(connection, dialect)
-    val r = context.selectDistinct(
-        EXTRAMATCHDETAILS.TEAMID,
-        EXTRAMATCHDETAILS.OPPONENTSID,
-        EXTRAMATCHDETAILS.RESULT,
-        DSL.count(EXTRAMATCHDETAILS.RESULT).`as`("count"),
-        DSL.min(MATCHES.MATCHSTARTDATEASOFFSET).`as`("startDate"),
-        DSL.max(MATCHES.MATCHSTARTDATEASOFFSET).`as`("endDate"),
-        aggregateDistinct("group_concat", String::class.java, EXTRAMATCHDETAILS.MATCHID).`as`("ids")
-    ).from(EXTRAMATCHDETAILS)
-        .join(MATCHES).on(MATCHES.ID.eq(EXTRAMATCHDETAILS.MATCHID))
-        .where(whereClause)
-        .groupBy(EXTRAMATCHDETAILS.TEAMID, EXTRAMATCHDETAILS.OPPONENTSID, EXTRAMATCHDETAILS.RESULT)
-        .fetch()
-
-    try {
-        if (r.size == 0) {
-            return MatchDto(
-                count = 0,
-                startDate = 0L.toLocalDateTime(),
-                endDate = 0L.toLocalDateTime(),
-                matchIds = emptyList()
+        for (id in otherIds) {
+            idClause = idClause.or(
+                EXTRAMATCHDETAILS.TEAMID.eq(id)
+                    .and(
+                        MATCHES.ID.`in`(
+                            DSL.select(MATCHSUBTYPE.MATCHID).from(
+                                MATCHSUBTYPE.where(
+                                    MATCHSUBTYPE.MATCHTYPE.eq(
+                                        matchSubType
+                                    )
+                                )
+                            )
+                        )
+                    )
             )
         }
-        var wins = 0
-        var losses = 0
-        var draws = 0
-        var ties = 0
-        var abandoned = 0
-        var cancelled = 0
-        var abandonedAsDraw = 0
-        var startDate = 0L
-        var endDate = 0L
-        val matchIds = mutableListOf<Int>()
 
-        r.forEach { result ->
+        /**
+        * Using `.and(trueCondition().and(idClause))` as the `idClause` contains an `or` condition
+        * and I want that to be or'd together in one condition
+         */
+        var whereClause = MATCHES.MATCHTYPE.notIn(matchTypesToExclude)
+            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
+            .and(trueCondition().and(idClause))
+
+        // When calculating the records vs 'all' teams we can do two things. Calculate against 'all' the teams
+        // in this set of teams (all IPL teams say) or calculate their overall record against all other teams for this
+        // matchtype, all T20 teams say
+        // The 'overall' flag lets us determine this
+        if (!(overall && teamsAndOpponents.opponentsName.lowercase() == "all"))
+            whereClause = whereClause.and(EXTRAMATCHDETAILS.OPPONENTSID.`in`(teamsAndOpponents.opponentIds))
+
+        if (countryIds.isNotEmpty())
+            whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
 
 
-            val resultType = result.getValue("Result", Int::class.java)
-            val count = result.getValue("count", Int::class.java)
-            val ids = result.getValue("ids", String::class.java)
+        val context = DSL.using(connection, dialect)
+        val r = context.selectDistinct(
+            EXTRAMATCHDETAILS.TEAMID,
+            EXTRAMATCHDETAILS.OPPONENTSID,
+            EXTRAMATCHDETAILS.RESULT,
+            DSL.count(EXTRAMATCHDETAILS.RESULT).`as`("count"),
+            DSL.min(MATCHES.MATCHSTARTDATEASOFFSET).`as`("startDate"),
+            DSL.max(MATCHES.MATCHSTARTDATEASOFFSET).`as`("endDate"),
+            aggregateDistinct("group_concat", String::class.java, EXTRAMATCHDETAILS.MATCHID).`as`("ids")
+        ).from(EXTRAMATCHDETAILS)
+            .join(MATCHES).on(MATCHES.ID.eq(EXTRAMATCHDETAILS.MATCHID))
+            .where(whereClause)
+            .groupBy(EXTRAMATCHDETAILS.TEAMID, EXTRAMATCHDETAILS.OPPONENTSID, EXTRAMATCHDETAILS.RESULT)
+            .fetch()
 
-
-            when (resultType) {
-                1 -> wins = wins + count
-                2 -> losses = losses + count
-                4 -> draws = draws + count
-                8 -> ties = ties + count
-                16 -> abandoned = abandoned + count
-                32 -> cancelled = cancelled + count
-                64 -> abandonedAsDraw = abandonedAsDraw + count
+        try {
+            if (r.size == 0) {
+                return MatchDto(
+                    count = 0,
+                    startDate = 0L.toLocalDateTime(),
+                    endDate = 0L.toLocalDateTime(),
+                    matchIds = emptyList()
+                )
             }
+            var wins = 0
+            var losses = 0
+            var draws = 0
+            var ties = 0
+            var abandoned = 0
+            var cancelled = 0
+            var abandonedAsDraw = 0
+            var startDate = 0L
+            var endDate = 0L
+            val matchIds = mutableListOf<Int>()
 
-            val rowStartDate = result.get("startDate") as Long?
-            val rowEndDate = result.getValue("endDate") as Long?
-            for (id in ids.split(",")) {
-                matchIds.add(id.toInt())
+            r.forEach { result ->
+
+
+                val resultType = result.getValue("Result", Int::class.java)
+                val count = result.getValue("count", Int::class.java)
+                val ids = result.getValue("ids", String::class.java)
+
+
+                when (resultType) {
+                    1 -> wins = wins + count
+                    2 -> losses = losses + count
+                    4 -> draws = draws + count
+                    8 -> ties = ties + count
+                    16 -> abandoned = abandoned + count
+                    32 -> cancelled = cancelled + count
+                    64 -> abandonedAsDraw = abandonedAsDraw + count
+                }
+
+                val rowStartDate = result.get("startDate") as Long?
+                val rowEndDate = result.getValue("endDate") as Long?
+                for (id in ids.split(",")) {
+                    matchIds.add(id.toInt())
+                }
+
+                rowStartDate?.let {
+                    val tmpStartDate = rowStartDate * 1000
+                    if (startDate == 0L) startDate = tmpStartDate else
+                        if (tmpStartDate < startDate) startDate = tmpStartDate
+                }
+
+                rowEndDate?.let {
+                    val tmpEndDate = rowEndDate * 1000
+                    if (endDate == 0L) endDate = tmpEndDate else
+                        if (tmpEndDate > endDate) endDate = tmpEndDate
+
+                }
             }
-
-            rowStartDate?.let {
-                val tmpStartDate = rowStartDate * 1000
-                if (startDate == 0L) startDate = tmpStartDate else
-                    if (tmpStartDate < startDate) startDate = tmpStartDate
-            }
-
-            rowEndDate?.let {
-                val tmpEndDate = rowEndDate * 1000
-                if (endDate == 0L) endDate = tmpEndDate else
-                    if (tmpEndDate > endDate) endDate = tmpEndDate
-
-            }
+            val matches = wins + losses + draws + ties + abandonedAsDraw
+            return MatchDto(
+                matches,
+                startDate.toLocalDateTime(),
+                endDate.toLocalDateTime(),
+                firstTeamWins = wins,
+                firstTeamLosses = losses,
+                draws,
+                ties,
+                abandoned,
+                abandonedAsDraw,
+                cancelled,
+                matchIds = matchIds,
+            )
+        } catch (e: Exception) {
+            throw e
         }
-        val matches = wins + losses + draws + ties + abandonedAsDraw
+    } else {
         return MatchDto(
-            matches,
-            startDate.toLocalDateTime(),
-            endDate.toLocalDateTime(),
-            firstTeamWins = wins,
-            firstTeamLosses = losses,
-            draws,
-            ties,
-            abandoned,
-            abandonedAsDraw,
-            cancelled,
-            matchIds = matchIds,
+            count = 0,
+            startDate = 0L.toLocalDateTime(),
+            endDate = 0L.toLocalDateTime(),
+            matchIds = emptyList()
         )
-    } catch (e: Exception) {
-        throw e
     }
-
 }
 
 fun getTeamIds(
@@ -236,6 +272,10 @@ fun getTeamIds(
             ids.addAll(teamIds)
             t.duplicates.forEach { duplicate ->
                 val duplicateTeamIds = getTeamIdsFrom(context, duplicate, matchType, country)
+                ids.addAll(duplicateTeamIds)
+            }
+            t.duplicateTeams.forEach { duplicateTeam ->
+                val duplicateTeamIds = getTeamIdsFrom(context, duplicateTeam.name, matchType, country)
                 ids.addAll(duplicateTeamIds)
             }
         }

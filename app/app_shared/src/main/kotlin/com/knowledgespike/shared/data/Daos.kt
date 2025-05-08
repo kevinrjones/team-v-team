@@ -17,11 +17,18 @@ data class Competition(
     val extraMessages: List<String>,
 )
 
+@Serializable
+data class DuplicateTeam (
+    val name: String,
+    val validBefore: Long,
+)
+
 interface TeamBase {
     val team: String
     val duplicates: List<String>
     val excludeTeamIds: List<Int>
     val validFrom: Long
+    val duplicateTeams: List<DuplicateTeam>
 }
 
 @Serializable
@@ -30,6 +37,7 @@ data class Opponent(
     override val duplicates: List<String> = emptyList(),
     override val excludeTeamIds: List<Int> = emptyList(),
     override val validFrom: Long = -9999999999,
+    override val duplicateTeams: List<DuplicateTeam> = emptyList(),
 ) : TeamBase
 
 @Serializable
@@ -40,6 +48,7 @@ data class Team(
     val opponents: List<Opponent> = emptyList(),
     override val excludeTeamIds: List<Int> = emptyList(),
     override val validFrom: Long = -9999999999,
+    override val duplicateTeams: List<DuplicateTeam> = emptyList(),
 ) : TeamBase
 
 
