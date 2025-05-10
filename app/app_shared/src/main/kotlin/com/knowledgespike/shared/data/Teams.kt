@@ -1,5 +1,7 @@
 package com.knowledgespike.shared.data
 
+import com.knowledgespike.shared.types.TeamIdAndValidDate
+
 fun buildPairsOfTeamsThatMayCompete(
     allTeams: TeamNameToValidTeam,
     opponentsForTeam: Map<String, TeamNameToValidTeam>
@@ -13,17 +15,31 @@ fun buildPairsOfTeamsThatMayCompete(
         val teamIdsAndValidDate = allTeams[teamNames[i]]!!
         for (j in i + 1 until totalNumberOfTeams) {
             val opponentIds = allTeams[teamNames[j]]!!
-            pairs.add(TeamsAndOpponents(teamNames[i], teamIdsAndValidDate.teamIds, teamNames[j], opponentIds.teamIds, teamIdsAndValidDate.startFrom))
+            pairs.add(
+                TeamsAndOpponents(
+                    teamName = teamNames[i],
+                    teamIds = teamIdsAndValidDate,
+                    opponentsName = teamNames[j],
+                    opponentIds = opponentIds
+                )
+            )
         }
     }
 
     for (teamName in opponentsForTeam.keys) {
         val opponents = opponentsForTeam[teamName] ?: mapOf()
-        val teamId = allTeams[teamName]?.teamIds ?: listOf()
+        val teamIds = allTeams[teamName] ?: listOf()
 
         opponents.keys.sorted().forEach { name ->
-            val opponentIds = opponents[name]?.teamIds ?: listOf()
-            pairs.add(TeamsAndOpponents(teamName, teamId, name, opponentIds, opponents[name]?.startFrom ?: -9999999999))
+            val opponentIds = opponents[name] ?: listOf()
+            pairs.add(
+                TeamsAndOpponents(
+                    teamName = teamName,
+                    teamIds = teamIds,
+                    opponentsName = name,
+                    opponentIds = opponentIds
+                )
+            )
         }
     }
     return pairs
@@ -32,17 +48,17 @@ fun buildPairsOfTeamsThatMayCompete(
 fun buildPairsOfTeamsOpponents(
     allTeams: TeamNameToValidTeam,
     opponentsForTeam: Map<String, TeamNameToValidTeam>
-): Map<TeamAndIds, List<Int>> {
+): Map<TeamAndIds, List<TeamIdAndValidDate>> {
 
     val teamNames = allTeams.keys.toTypedArray()
 
-    val teamsToAllOpponents = mutableMapOf<TeamAndIds, MutableList<Int>>()
+    val teamsToAllOpponents = mutableMapOf<TeamAndIds, MutableList<TeamIdAndValidDate>>()
 
     val totalNumberOfTeams = teamNames.size
     for (i in 0 until totalNumberOfTeams) {
         val teamName = teamNames[i]
         val teamIdsAndValidDate = allTeams[teamNames[i]]!!
-        val teamAndIds = TeamAndIds(teamNames[i], teamIdsAndValidDate.teamIds, teamIdsAndValidDate.startFrom)
+        val teamAndIds = TeamAndIds(teamNames[i], teamIdsAndValidDate)
 
         val listOfIds = teamsToAllOpponents.getOrDefault(teamAndIds, mutableListOf())
 
@@ -50,13 +66,13 @@ fun buildPairsOfTeamsOpponents(
             val opponentName = teamNames[j]
             if (opponentName != teamName) {
                 val opponentIdsAndValidDate = allTeams[teamNames[j]]!!
-                listOfIds.addAll(opponentIdsAndValidDate.teamIds)
+                listOfIds.addAll(opponentIdsAndValidDate)
             }
         }
         teamsToAllOpponents.putIfAbsent(teamAndIds, listOfIds)
         val opponents = opponentsForTeam
             .getOrDefault(teamName, mapOf())
-            .flatMap { it.value.teamIds }
+            .flatMap { it.value }
 
         teamsToAllOpponents[teamAndIds]?.addAll(opponents)
     }
@@ -105,8 +121,8 @@ fun addPairToPage(
 }
 
 data class TeamParams(
-    val teamIds: List<Int>,
-    val opponentIds: List<Int>,
+    val teamIds: List<TeamIdAndValidDate>,
+    val opponentIds: List<TeamIdAndValidDate>,
     val team: String,
     val opponents: String,
     val matchType: String,

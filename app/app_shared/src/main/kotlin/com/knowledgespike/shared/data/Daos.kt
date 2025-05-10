@@ -1,5 +1,6 @@
 package com.knowledgespike.shared.data
 
+import com.knowledgespike.shared.types.TeamIdAndValidDate
 import kotlinx.datetime.LocalDateTime
 import kotlinx.serialization.Serializable
 
@@ -17,11 +18,20 @@ data class Competition(
     val extraMessages: List<String>,
 )
 
+@Serializable
+data class DuplicateTeam (
+    val name: String,
+    val validBefore: Long,
+)
+
 interface TeamBase {
     val team: String
     val duplicates: List<String>
     val excludeTeamIds: List<Int>
     val validFrom: Long
+    // this is a replacement for `duplicates` above but I keep both as I don't want to go through
+    // the existing JSON files replacing `duplicates` with `duplicateTeams`
+    val duplicateTeams: List<DuplicateTeam>
 }
 
 @Serializable
@@ -30,6 +40,7 @@ data class Opponent(
     override val duplicates: List<String> = emptyList(),
     override val excludeTeamIds: List<Int> = emptyList(),
     override val validFrom: Long = -9999999999,
+    override val duplicateTeams: List<DuplicateTeam> = emptyList(),
 ) : TeamBase
 
 @Serializable
@@ -40,6 +51,7 @@ data class Team(
     val opponents: List<Opponent> = emptyList(),
     override val excludeTeamIds: List<Int> = emptyList(),
     override val validFrom: Long = -9999999999,
+    override val duplicateTeams: List<DuplicateTeam> = emptyList(),
 ) : TeamBase
 
 
@@ -48,16 +60,14 @@ data class Author(val opponent: String, val name: String)
 
 data class TeamsAndOpponents(
     val teamName: String,
-    val teamIds: List<Int>,
+    val teamIds: List<TeamIdAndValidDate>,
     val opponentsName: String,
-    val opponentIds: List<Int>,
-    val startFrom: Long
+    val opponentIds: List<TeamIdAndValidDate>
 )
 
 data class TeamAndIds(
     val teamName: String,
-    val teamIds: List<Int>,
-    val startFrom: Long
+    val teamIds: List<TeamIdAndValidDate>
 )
 
 data class TeamWithAuthors(val team: String, val author: List<Author>)

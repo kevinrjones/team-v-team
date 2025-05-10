@@ -14,6 +14,7 @@ import com.knowledgespike.progressive.html.GenerateHtml
 import com.knowledgespike.progressive.json.getProgressiveJsonData
 import com.knowledgespike.shared.database.Connection
 import com.knowledgespike.shared.database.getTeamIds
+import com.knowledgespike.shared.types.TeamIdAndValidDate
 import com.knowledgespike.shared.types.TeamIdsAndValidDate
 import kotlinx.coroutines.*
 import kotlinx.datetime.Clock
@@ -143,7 +144,7 @@ class Application {
                             databaseConnectionDetails.password
                         ).use { connection ->
 
-                            val teamsWithDuplicates: Map<String, TeamIdsAndValidDate> =
+                            val teamsWithDuplicates =
                                 getTeamIds(
                                     connection,
                                     databaseConnectionDetails.dialect,
@@ -172,7 +173,7 @@ class Application {
 
 
                             val processTeams =
-                                ProcessTeams(teamsWithDuplicates, opponentsForTeam, teamsWithAuthors, dialect)
+                                ProcessTeams(teamsWithDuplicates, opponentsForTeam, teamsWithAuthors)
 
                             var shouldUpdateAll = false
 

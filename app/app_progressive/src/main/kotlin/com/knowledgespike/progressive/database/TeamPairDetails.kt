@@ -2,6 +2,7 @@ package com.knowledgespike.progressive.database
 
 import com.knowledgespike.progressive.data.BestBowlingDto
 import com.knowledgespike.shared.data.*
+import com.knowledgespike.shared.types.TeamIdAndValidDate
 import org.jooq.SQLDialect
 import java.sql.Connection
 
@@ -18,11 +19,10 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         databaseConnectionDetails: Connection,
         dialect: SQLDialect,
         teamAndIds: TeamAndIds,
-        opponents: List<Int>,
+        opponents: List<TeamIdAndValidDate>,
         matchType: String,
         matchSubType: String,
-        overall: Boolean,
-        startFrom: Long
+        overall: Boolean
     ) {
         val teamRecords = TeamRecords(databaseConnectionDetails, dialect)
 
@@ -47,7 +47,6 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
             teamRecords.getProgressivePartnershipRecordsForSelectedTeamVsAllTeams(
                 teamParamA,
                 overall,
-                startFrom,
                 matchDto.matchIds
             )
         )
@@ -55,7 +54,6 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
             teamRecords.getProgressivePartnershipRecordsForAllTeamsVsSelectedTeam(
                 teamParamB,
                 overall,
-                startFrom,
                 matchDto.matchIds
             )
         )
@@ -66,11 +64,11 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         connection: Connection,
         dialect: SQLDialect,
         teamAndIds: TeamAndIds,
-        opponents: List<Int>,
+        opponents: List<TeamIdAndValidDate>,
         matchType: String,
         matchSubType: String,
         overall: Boolean,
-        startFrom: Long
+//        startFrom: Long
     ) {
         val teamParamA = TeamParams(
             teamAndIds.teamIds,
@@ -95,7 +93,6 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
             teamRecords.getHighestTotalsForSelectedTeamVsAllTeams(
                 teamParamA,
                 overall,
-                startFrom,
                 matchDto.matchIds
             )
         )
@@ -104,7 +101,6 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
             teamRecords.getHighestTotalsForAllTeamsVsSelectedTeam(
                 teamParamB,
                 overall,
-                startFrom,
                 matchDto.matchIds
             )
         )
@@ -113,7 +109,6 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
             teamRecords.getLowestAllOutTotalsForSelectedTeamVsAllTeams(
                 teamParamA,
                 overall,
-                startFrom,
                 matchDto.matchIds
             )
         )
@@ -122,7 +117,6 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
             teamRecords.getLowestAllOutTotalsForAllTeamsVsSelectedTeam(
                 teamParamB,
                 overall,
-                startFrom,
                 matchDto.matchIds
             )
         )
@@ -133,11 +127,10 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         connection: Connection,
         dialect: SQLDialect,
         teamAndIds: TeamAndIds,
-        opponents: List<Int>,
+        opponents: List<TeamIdAndValidDate>,
         matchType: String,
         matchSubType: String,
         overall: Boolean,
-        startFrom: Long
     ) {
 
         val teamParamA = TeamParams(
@@ -161,32 +154,32 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         val teamRecords = TeamRecords(connection, dialect)
 
         highestIndividualScore[0].addAll(
-            teamRecords.getHighestIndividualScoresForSelectedTeamVsAllTeams(teamParamA, overall, startFrom,
+            teamRecords.getHighestIndividualScoresForSelectedTeamVsAllTeams(teamParamA, overall, 
                 matchDto.matchIds)
         )
 
         highestIndividualScore[1].addAll(
-            teamRecords.getHighestIndividualScoresForAllTeamsVsSelectedTeam(teamParamB, overall, startFrom,
+            teamRecords.getHighestIndividualScoresForAllTeamsVsSelectedTeam(teamParamB, overall, 
                 matchDto.matchIds)
         )
 
         bestBowlingInnings[0].addAll(
-            teamRecords.getBestBowlingInningsForSelectedTeamVsAllTeams(teamParamA, overall, startFrom,
+            teamRecords.getBestBowlingInningsForSelectedTeamVsAllTeams(teamParamA, overall, 
                 matchDto.matchIds)
         )
 
         bestBowlingInnings[1].addAll(
-            teamRecords.getBestBowlingInningsForAllTeamsVsSelectedTeam(teamParamB, overall, startFrom,
+            teamRecords.getBestBowlingInningsForAllTeamsVsSelectedTeam(teamParamB, overall, 
                 matchDto.matchIds)
         )
 
         bestBowlingMatch[0].addAll(
-            teamRecords.getBestBowlingMatchForSelectedTeamVsAllTeams(teamParamA, overall, startFrom,
+            teamRecords.getBestBowlingMatchForSelectedTeamVsAllTeams(teamParamA, overall, 
                 matchDto.matchIds)
         )
 
         bestBowlingMatch[1].addAll(
-            teamRecords.getBestBowlingMatchForAllTeamsVsSelectedTeam(teamParamB, overall, startFrom,
+            teamRecords.getBestBowlingMatchForAllTeamsVsSelectedTeam(teamParamB, overall, 
                 matchDto.matchIds)
         )
 
@@ -194,7 +187,7 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
 
 }
 
-class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto, val startFrom: Long) {
+class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
     val authors: MutableList<String> = mutableListOf("Kevin Jones")
     val highestScores = mutableListOf<MutableList<TotalDto>>(mutableListOf(), mutableListOf())
     val lowestAllOutScores = mutableListOf<MutableList<TotalDto>>(mutableListOf(), mutableListOf())
@@ -214,11 +207,11 @@ class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto, val star
         val teamRecords = TeamRecords(databaseConnection, dialect)
 
         bestFoW[0].putAll(
-            teamRecords.getProgressivePartnershipRecords(teamParams1, overall, startFrom, matchIds)
+            teamRecords.getProgressivePartnershipRecords(teamParams1, overall,matchIds)
         )
 
         bestFoW[1].putAll(
-            teamRecords.getProgressivePartnershipRecords(teamParams2, overall, startFrom, matchIds)
+            teamRecords.getProgressivePartnershipRecords(teamParams2, overall,  matchIds)
         )
     }
 

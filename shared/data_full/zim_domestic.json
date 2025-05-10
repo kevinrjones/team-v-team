@@ -9,7 +9,10 @@
             {
                 "team": "Eagles",
                 "duplicates": [
-                    "Mashonaland Eagles", "Harare Metropolitan Eagles", "Northerns", "Mashonaland"
+                    "Mashonaland Eagles",
+                    "Harare Metropolitan Eagles",
+                    "Northerns",
+                    "Mashonaland"
                 ],
                 "authors": [
                     {
@@ -24,7 +27,11 @@
             },
             {
                 "team": "Mountaineers",
-                "duplicates": ["Manicaland Mountaineers", "Easterns", "Manicaland"],
+                "duplicates": [
+                    "Manicaland Mountaineers",
+                    "Easterns",
+                    "Manicaland"
+                ],
                 "authors": [
                     {
                         "opponent": "Rhinos",
@@ -43,17 +50,31 @@
             {
                 "team": "Rhinos",
                 "duplicates": [
-                    "Mid West Rhinos", "Midlands Rhinos", "Centrals", "Midlands"
+                    "Mid West Rhinos",
+                    "Midlands Rhinos",
+                    "Centrals",
+                    "Midlands"
                 ]
             },
             {
                 "team": "Southern Rocks",
-                "duplicates": ["Masvingo", "Southerns"]
+                "duplicates": [
+                    "Masvingo"
+                ],
+                "duplicateTeams": [
+                    {
+                        "name": "Southerns",
+                        "validBefore": "1645833600"
+                    }
+                ]
             },
             {
                 "team": "Tuskers",
                 "duplicates": [
-                    "Matabeleland Tuskers", "Bulawayo Metropolitan Tuskers", "Westerns", "Matabeleland"
+                    "Matabeleland Tuskers",
+                    "Bulawayo Metropolitan Tuskers",
+                    "Westerns",
+                    "Matabeleland"
                 ]
             }
         ],
