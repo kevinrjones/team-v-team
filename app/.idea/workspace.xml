@@ -77,48 +77,48 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Gradle.Build app.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [app_progressive:buildEnvironment].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [app_shared:buildEnvironment].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [generateJOOQ].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [jooqCodegen].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [run] .executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [run].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [versionCatalogApplyUpdates].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [versionCatalogFormat].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [versionCatalogUpdate].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:app_progressive [run-test].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:app_progressive [run].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:app_shared [jooqCodegen].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:app_tvt [run-test].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:app_tvt [run].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.team-by-team [run].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kevinjones/Dropbox/projects/cricket/team-by-team/app/app_progressive&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.37338045&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Gradle.Build app.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.app [app_progressive:buildEnvironment].executor": "Run",
+    "Gradle.app [app_shared:buildEnvironment].executor": "Run",
+    "Gradle.app [build].executor": "Run",
+    "Gradle.app [clean].executor": "Run",
+    "Gradle.app [generateJOOQ].executor": "Run",
+    "Gradle.app [jooqCodegen].executor": "Run",
+    "Gradle.app [run] .executor": "Run",
+    "Gradle.app [run].executor": "Run",
+    "Gradle.app [versionCatalogApplyUpdates].executor": "Run",
+    "Gradle.app [versionCatalogFormat].executor": "Run",
+    "Gradle.app [versionCatalogUpdate].executor": "Run",
+    "Gradle.app:app_progressive [run-test].executor": "Run",
+    "Gradle.app:app_progressive [run].executor": "Run",
+    "Gradle.app:app_shared [jooqCodegen].executor": "Run",
+    "Gradle.app:app_tvt [run-test].executor": "Run",
+    "Gradle.app:app_tvt [run].executor": "Run",
+    "Gradle.team-by-team [run].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kevinjones/Dropbox/projects/cricket/team-by-team/app/app_progressive",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.37338045",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html" />
@@ -1912,7 +1912,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746880940783</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;app/.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1746881618825</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746881618825</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
