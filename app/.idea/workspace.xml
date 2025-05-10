@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/Application.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/ProcessTeams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/ProcessTeams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamPairDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamPairDetails.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/database/TeamRecords.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Daos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Daos.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Teams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Teams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/FallOfWicket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/FallOfWicket.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/types/Types.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/types/Types.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/ProcessTeams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamPairDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamPairDetails.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamRecords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/database/TeamRecords.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data/touring_teams_sa.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/touring_teams_sa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data/zim_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/zim_domestic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data_full/touring_teams_sa.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/touring_teams_sa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data_full/zim_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/zim_domestic.json" afterDir="false" />
-    </list>
+    <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1858,7 +1838,7 @@
       <workItem from="1746719684924" duration="5852000" />
       <workItem from="1746798266495" duration="45000" />
       <workItem from="1746798367237" duration="18168000" />
-      <workItem from="1746880909292" duration="30000" />
+      <workItem from="1746880909292" duration="392000" />
     </task>
     <task id="LOCAL-00001" summary="Remove autogenerated jOOQ files for obsolete routines&#10;&#10;Deleted unused autogenerated jOOQ classes related to cricket batting records due to redundancy or lack of use. This cleanup reduces clutter and ensures the repository doesn't contain unnecessary files.">
       <option name="closed" value="true" />
@@ -1924,7 +1904,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746699750621</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Refactor team data structures and remove redundant `startFrom`.&#10;&#10;Updated team-related data structures to improve consistency and maintainability. Refactored methods to use `TeamIdAndValidDate`, removed `startFrom` where unused, and simplified where clauses for improved query clarity.">
+      <option name="closed" value="true" />
+      <created>1746880940783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746880940783</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1940,7 +1928,8 @@
     <MESSAGE value="Add new entries for Denis Moore across multiple datasets&#10;&#10;Updated various domestic cricket datasets to include instances of Denis Moore, specifying his opponents. Changes ensure data consistency for teams such as Rhinos, Tuskers, and others across regions like Zimbabwe, Bangladesh, South Africa, and Sri Lanka." />
     <MESSAGE value="Refactor database queries to use match IDs directly&#10;&#10;Replaced nested subqueries for match subtype filtering with direct match ID usage. This simplifies the query logic, improves readability, and enhances performance by avoiding redundant match subtype lookups. Updated function signatures and calls across the codebase to pass match ID lists as a parameter." />
     <MESSAGE value="Refactor data structures and optimize team processing logic&#10;&#10;Reformatted JSON data for better readability and added support for tracking duplicate teams with metadata. Updated DAO interfaces to include new `duplicateTeams` field and adjusted helper methods accordingly. Improved SQL queries for conditional filtering on team IDs, ensuring better performance and clarity." />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Refactor team data structures and remove redundant `startFrom`.&#10;&#10;Updated team-related data structures to improve consistency and maintainability. Refactored methods to use `TeamIdAndValidDate`, removed `startFrom` where unused, and simplified where clauses for improved query clarity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor team data structures and remove redundant `startFrom`.&#10;&#10;Updated team-related data structures to improve consistency and maintainability. Refactored methods to use `TeamIdAndValidDate`, removed `startFrom` where unused, and simplified where clauses for improved query clarity." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
