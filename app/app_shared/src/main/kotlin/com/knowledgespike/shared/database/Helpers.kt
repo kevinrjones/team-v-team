@@ -1,12 +1,13 @@
 package com.knowledgespike.shared.database
 
-import com.knowledgespike.db.tables.Teams
 import com.knowledgespike.db.tables.references.*
 import com.knowledgespike.shared.data.MatchDto
 import com.knowledgespike.shared.data.TeamBase
 import com.knowledgespike.shared.data.TeamsAndOpponents
 import com.knowledgespike.shared.data.toLocalDateTime
+import com.knowledgespike.shared.types.TeamIdAndValidDate
 import com.knowledgespike.shared.types.TeamIdsAndValidDate
+import org.jooq.Condition
 import org.jooq.DSLContext
 import org.jooq.SQLDialect
 import org.jooq.impl.DSL
@@ -86,8 +87,7 @@ fun getCountOfMatchesBetweenTeams(
     countryIds: List<Int>,
     teamsAndOpponents: TeamsAndOpponents,
     matchSubType: String,
-    overall: Boolean,
-    startFrom: Long,
+    overall: Boolean
 ): MatchDto {
 
     val matchTypesToExclude = mutableListOf("t", "wt", "itt", "witt", "o", "wo")
@@ -96,13 +96,50 @@ fun getCountOfMatchesBetweenTeams(
     if (matchSubType == "minc")
         matchTypesToExclude.add("sec")
 
-    if (teamsAndOpponents.teamIds.isNotEmpty()) {
+    if (teamsAndOpponents.teamIds.isNotEmpty() && teamsAndOpponents.opponentIds.isNotEmpty()) {
 
         val firstId = teamsAndOpponents.teamIds.first()
         val otherIds = teamsAndOpponents.teamIds.drop(1)
 
         // no need to process each team id individually here
-        var idClause = EXTRAMATCHDETAILS.TEAMID.eq(firstId)
+        var idClause: Condition = trueCondition()
+        idClause = idClause.and(
+            EXTRAMATCHDETAILS.TEAMID.eq(firstId.teamId)
+                .and(
+                    MATCHES.MATCHSTARTDATEASOFFSET.lt(firstId.startFrom)
+                        .or(MATCHES.MATCHSTARTDATE.isNull)
+                )
+        )
+
+        val otherIdClause = if (!(overall && teamsAndOpponents.opponentsName.lowercase() == "all")) {
+            buildOpponentsIdClause(teamsAndOpponents.opponentIds)
+        } else trueCondition()
+
+        idClause = idClause.and(
+            otherIdClause
+        )
+
+        for (id in otherIds) {
+            idClause = idClause.or(
+                EXTRAMATCHDETAILS.TEAMID.eq(id.teamId)
+                    .and(
+                        MATCHES.MATCHSTARTDATEASOFFSET.lt(firstId.startFrom)
+                            .or(MATCHES.MATCHSTARTDATE.isNull)
+                    )
+            )
+
+
+            idClause = idClause.and(
+                otherIdClause
+            )
+
+        }
+
+        /**
+         * Using `.and(trueCondition().and(idClause))` as the `idClause` contains an `or` condition
+         * and I want that to be or'd together in one condition
+         */
+        var whereClause = MATCHES.MATCHTYPE.notIn(matchTypesToExclude)
             .and(
                 MATCHES.ID.`in`(
                     DSL.select(MATCHSUBTYPE.MATCHID).from(
@@ -114,38 +151,15 @@ fun getCountOfMatchesBetweenTeams(
                     )
                 )
             )
-
-        for (id in otherIds) {
-            idClause = idClause.or(
-                EXTRAMATCHDETAILS.TEAMID.eq(id)
-                    .and(
-                        MATCHES.ID.`in`(
-                            DSL.select(MATCHSUBTYPE.MATCHID).from(
-                                MATCHSUBTYPE.where(
-                                    MATCHSUBTYPE.MATCHTYPE.eq(
-                                        matchSubType
-                                    )
-                                )
-                            )
-                        )
-                    )
-            )
-        }
-
-        /**
-        * Using `.and(trueCondition().and(idClause))` as the `idClause` contains an `or` condition
-        * and I want that to be or'd together in one condition
-         */
-        var whereClause = MATCHES.MATCHTYPE.notIn(matchTypesToExclude)
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
-            .and(trueCondition().and(idClause))
+            .and(idClause)
 
         // When calculating the records vs 'all' teams we can do two things. Calculate against 'all' the teams
         // in this set of teams (all IPL teams say) or calculate their overall record against all other teams for this
         // matchtype, all T20 teams say
         // The 'overall' flag lets us determine this
-        if (!(overall && teamsAndOpponents.opponentsName.lowercase() == "all"))
-            whereClause = whereClause.and(EXTRAMATCHDETAILS.OPPONENTSID.`in`(teamsAndOpponents.opponentIds))
+//        if (!(overall && teamsAndOpponents.opponentsName.lowercase() == "all"))
+//            whereClause =
+//                whereClause.and(EXTRAMATCHDETAILS.OPPONENTSID.`in`(teamsAndOpponents.opponentIds.map { it.teamId }))
 
         if (countryIds.isNotEmpty())
             whereClause = whereClause.and(MATCHES.HOMECOUNTRYID.`in`(countryIds))
@@ -250,46 +264,82 @@ fun getCountOfMatchesBetweenTeams(
     }
 }
 
+private fun buildOpponentsIdClause(opponentIds: List<TeamIdAndValidDate>): Condition {
+    if (opponentIds.isNotEmpty()) {
+
+        val firstId = opponentIds.first()
+        val otherIds = opponentIds.drop(1)
+
+
+        var idClause = trueCondition().and(
+            EXTRAMATCHDETAILS.OPPONENTSID.eq(firstId.teamId)
+                .and(
+                    MATCHES.MATCHSTARTDATEASOFFSET.lt(firstId.startFrom)
+                        .or(MATCHES.MATCHSTARTDATE.isNull)
+                )
+        )
+
+
+        for (id in otherIds) {
+            idClause = idClause.or(
+                EXTRAMATCHDETAILS.OPPONENTSID.eq(id.teamId)
+                    .and(
+                        MATCHES.MATCHSTARTDATEASOFFSET.lt(id.startFrom)
+                            .or(MATCHES.MATCHSTARTDATE.isNull)
+                    )
+
+            )
+        }
+        return idClause
+    } else return trueCondition()
+}
+
 fun getTeamIds(
     connection: Connection,
     dialect: SQLDialect,
     teams: List<TeamBase>,
     country: String?,
     matchType: String,
-): Map<String, TeamIdsAndValidDate> {
+): MutableMap<String, List<TeamIdAndValidDate>> {
 
+    val maxStartDate = 9999999999L
 
-    val teamNameAndIds = mutableMapOf<String, TeamIdsAndValidDate>()
+    val teamNameAndIds = mutableMapOf<String, List<TeamIdAndValidDate>>()
 
     val context = DSL.using(connection, dialect)
 
     for (t in teams) {
-        val ids = mutableListOf<Int>()
+        val allTeamIdsAndValidDates = mutableListOf<TeamIdAndValidDate>()
+
         val team = t.team.trim()
         if (team.isNotEmpty()) {
             val teamIds = getTeamIdsFrom(context, team, matchType, country)
 
-            ids.addAll(teamIds)
+            allTeamIdsAndValidDates.addAll(teamIds.map { TeamIdAndValidDate(it, maxStartDate) })
             t.duplicates.forEach { duplicate ->
                 val duplicateTeamIds = getTeamIdsFrom(context, duplicate, matchType, country)
-                ids.addAll(duplicateTeamIds)
+                allTeamIdsAndValidDates.addAll(duplicateTeamIds.map {
+                    TeamIdAndValidDate(it, maxStartDate)
+                })
             }
             t.duplicateTeams.forEach { duplicateTeam ->
                 val duplicateTeamIds = getTeamIdsFrom(context, duplicateTeam.name, matchType, country)
-                ids.addAll(duplicateTeamIds)
+                allTeamIdsAndValidDates.addAll(duplicateTeamIds.map {
+                    TeamIdAndValidDate(it, duplicateTeam.validBefore)
+                })
             }
         }
-        teamNameAndIds[team] = TeamIdsAndValidDate(ids, t.validFrom)
+        teamNameAndIds[team] = allTeamIdsAndValidDates
     }
 
 
     val caTeamIds = teams.flatMap { it.excludeTeamIds }
 
-    val teamsIds: List<Int> = convertCaTeamIdsToTeamIds(caTeamIds, connection, dialect)
+    val excludeTeamsIds: List<Int> = convertCaTeamIdsToTeamIds(caTeamIds, connection, dialect)
 
-    teamNameAndIds.forEach { (team, ids) ->
-        val updatedIds = ids.teamIds.filter { !teamsIds.contains(it) }
-        teamNameAndIds[team] = ids.copy(teamIds = updatedIds)
+    teamNameAndIds.forEach { (team, teamIdsAndValidDates) ->
+        val updatedIds = teamIdsAndValidDates.filter { !excludeTeamsIds.contains(it.teamId) }
+        teamNameAndIds[team] = updatedIds
     }
     return teamNameAndIds
 }

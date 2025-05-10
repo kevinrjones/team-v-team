@@ -1,5 +1,6 @@
 package com.knowledgespike.shared.data
 
+import com.knowledgespike.shared.types.TeamIdAndValidDate
 import kotlinx.datetime.LocalDateTime
 import kotlinx.serialization.Serializable
 
@@ -28,6 +29,8 @@ interface TeamBase {
     val duplicates: List<String>
     val excludeTeamIds: List<Int>
     val validFrom: Long
+    // this is a replacement for `duplicates` above but I keep both as I don't want to go through
+    // the existing JSON files replacing `duplicates` with `duplicateTeams`
     val duplicateTeams: List<DuplicateTeam>
 }
 
@@ -57,16 +60,14 @@ data class Author(val opponent: String, val name: String)
 
 data class TeamsAndOpponents(
     val teamName: String,
-    val teamIds: List<Int>,
+    val teamIds: List<TeamIdAndValidDate>,
     val opponentsName: String,
-    val opponentIds: List<Int>,
-    val startFrom: Long
+    val opponentIds: List<TeamIdAndValidDate>
 )
 
 data class TeamAndIds(
     val teamName: String,
-    val teamIds: List<Int>,
-    val startFrom: Long
+    val teamIds: List<TeamIdAndValidDate>
 )
 
 data class TeamWithAuthors(val team: String, val author: List<Author>)

@@ -47,8 +47,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                         INNINGS.MATCHID.`in`(matchIds)
                     )
                     .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-                    .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
-                    .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+                    .and(INNINGS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
+                    .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
             ).with("cte2").`as`(
                 select(
                     field("total"),
@@ -145,8 +145,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                         INNINGS.MATCHID.`in`(matchIds)
                     )
                     .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-                    .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
-                    .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+                    .and(INNINGS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
+                    .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
             ).with("cte2").`as`(
                 select(
                     field("total"),
@@ -231,8 +231,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                 )
                     .from(BATTINGDETAILS)
                     .join(MATCHES).on(BATTINGDETAILS.MATCHID.eq(MATCHES.ID))
-                    .where(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
-                    .and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+                    .where(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
+                    .and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
                     .and(BATTINGDETAILS.SCORE.isNotNull)
                     .and(BATTINGDETAILS.SCORE.ge(25))
                     .and(BATTINGDETAILS.matches.MATCHTYPE.eq(teamParams.matchType))
@@ -345,8 +345,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                         BOWLINGDETAILS.MATCHID.`in`(matchIds)
                     )
                     .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-                    .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
-                    .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+                    .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
+                    .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
                     .and(BOWLINGDETAILS.WICKETS.ge(3))
             ).with("cte1").`as`(
                 select(
@@ -420,7 +420,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getBestBowlingInningsForSelectedTeamVsAllTeams(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): List<BestBowlingDto> {
 
@@ -430,13 +429,12 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             .and(
                 BOWLINGDETAILS.MATCHID.`in`(matchIds)
             )
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(BOWLINGDETAILS.WICKETS.ge(VS_ALL_WICKET_LIMIT))
-            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
 
         if (!overall)
-            whereClause = whereClause.and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
 
         val context = using(connection, dialect)
 
@@ -539,7 +537,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getBestBowlingInningsForAllTeamsVsSelectedTeam(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): List<BestBowlingDto> {
 
@@ -549,13 +546,12 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             .and(
                 BOWLINGDETAILS.MATCHID.`in`(matchIds)
             )
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(BOWLINGDETAILS.WICKETS.ge(VS_ALL_WICKET_LIMIT))
-            .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+            .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
 
         if (!overall)
-            whereClause = whereClause.and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+            whereClause = whereClause.and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
 
 
         val context = using(connection, dialect)
@@ -730,8 +726,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                         BOWLINGDETAILS.MATCHID.`in`(matchIds)
                     )
                     .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-                    .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
-                    .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+                    .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
+                    .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
             ).with("cte2").`as`(
                 select(
                     field("fullname"),
@@ -812,7 +808,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getProgressivePartnershipRecords(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): Map<Int, FowDetails> {
 
@@ -826,7 +821,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
 
         val tmpTableName = "tmp_partnerships"
         try {
-            createTemporaryFoWTable(context, tmpTableName, teamParams, overall, startFrom, matchIds)
+            createTemporaryFoWTable(context, tmpTableName, teamParams, overall, matchIds)
 
             for (wicket in 1..10) {
                 val listFoW = mutableListOf<FoWDto>()
@@ -918,7 +913,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getProgressivePartnershipRecordsForSelectedTeamVsAllTeams(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): Map<Int, FowDetails> {
 
@@ -931,7 +925,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
         val context = using(connection, dialect)
 
         val tmpTableName = "tmp_partnerships_all"
-        createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, true, startFrom, matchIds)
+        createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, true,  matchIds)
 
         try {
             for (wicket in 1..10) {
@@ -1023,7 +1017,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getProgressivePartnershipRecordsForAllTeamsVsSelectedTeam(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): Map<Int, FowDetails> {
 
@@ -1036,7 +1029,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
         val context = using(connection, dialect)
 
         val tmpTableName = "tmp_partnerships_all_selected"
-        createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, false, startFrom, matchIds)
+        createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, false, matchIds)
 
         try {
             for (wicket in 1..10) {
@@ -1202,7 +1195,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
         teamParams: TeamParams,
         overall: Boolean,
         vsAll: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ) {
 
@@ -1210,18 +1202,17 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             .and(
                 PARTNERSHIPS.matches.ID.`in`(matchIds)
             )
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(PARTNERSHIPS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(PARTNERSHIPS.MULTIPLE.eq(0))
 
         if (vsAll) {
-            whereClause = whereClause.and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds))
+            whereClause = whereClause.and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
             if (!overall)
-                whereClause = whereClause.and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds))
+                whereClause = whereClause.and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
         } else {
-            whereClause = whereClause.and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
             if (!overall)
-                whereClause = whereClause.and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds))
+                whereClause = whereClause.and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
         }
 
         context.createTemporaryTable(tmpTableName).`as`(
@@ -1351,7 +1342,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
         tmpTableName: String,
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ) {
 
@@ -1359,13 +1349,12 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             .and(
                 PARTNERSHIPS.matches.ID.`in`(matchIds)
             )
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(PARTNERSHIPS.MATCHTYPE.notIn(internationalMatchTypes))
             .and(PARTNERSHIPS.MULTIPLE.eq(0))
-            .and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds))
+            .and(PARTNERSHIPS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
 
         if (!(overall && teamParams.opponents.lowercase() == "all"))
-            whereClause = whereClause.and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(PARTNERSHIPS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
 
         context.createTemporaryTable(tmpTableName).`as`(
             select(
@@ -1492,7 +1481,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getHighestTotalsForSelectedTeamVsAllTeams(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
@@ -1501,12 +1489,11 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
         val context = using(connection, dialect)
 
         var whereClause = (INNINGS.MATCHID.`in`(matchIds))
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
+            .and(INNINGS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
 
         if (!overall)
-            whereClause = whereClause.and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
 
         val cte = context
             .with("cte")
@@ -1601,7 +1588,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getHighestTotalsForAllTeamsVsSelectedTeam(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): List<TotalDto> {
         val highestTotals = mutableListOf<TotalDto>()
@@ -1609,12 +1595,11 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
         var whereClause = (
                 INNINGS.MATCHID.`in`(matchIds)
                 )
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+            .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
 
         if (!overall)
-            whereClause = whereClause.and(INNINGS.TEAMID.`in`(teamParams.teamIds))
+            whereClause = whereClause.and(INNINGS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
 
 
         val context = using(connection, dialect)
@@ -1711,7 +1696,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getLowestAllOutTotalsForSelectedTeamVsAllTeams(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
@@ -1720,12 +1704,12 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             .and(
                 INNINGS.MATCHID.`in`(matchIds)
             )
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
+
             .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
+            .and(INNINGS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
 
         if (!overall)
-            whereClause = whereClause.and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
 
 
         val context = using(connection, dialect)
@@ -1813,7 +1797,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getLowestAllOutTotalsForAllTeamsVsSelectedTeam(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): List<TotalDto> {
         val lowestTotals = mutableListOf<TotalDto>()
@@ -1822,12 +1805,11 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             .and(
                 INNINGS.MATCHID.`in`(matchIds)
             )
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(INNINGS.matches.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+            .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
 
         if (!overall)
-            whereClause = whereClause.and(INNINGS.TEAMID.`in`(teamParams.teamIds))
+            whereClause = whereClause.and(INNINGS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
 
 
         val context = using(connection, dialect)
@@ -1915,7 +1897,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getHighestIndividualScoresForSelectedTeamVsAllTeams(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): Collection<HighestScoreDto> {
         val highestscores = mutableListOf<HighestScoreDto>()
@@ -1926,12 +1907,11 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             .and(
                 BATTINGDETAILS.MATCHID.`in`(matchIds)
             )
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+            .and(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
 
         if (!overall)
-            whereClause = whereClause.and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
 
 
         val context = using(connection, dialect)
@@ -2026,7 +2006,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getHighestIndividualScoresForAllTeamsVsSelectedTeam(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): Collection<HighestScoreDto> {
         val highestscores = mutableListOf<HighestScoreDto>()
@@ -2037,12 +2016,11 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             .and(
                 BATTINGDETAILS.MATCHID.`in`(matchIds)
             )
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BATTINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+            .and(BATTINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
 
         if (!overall)
-            whereClause = whereClause.and(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+            whereClause = whereClause.and(BATTINGDETAILS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
 
 
         val context = using(connection, dialect)
@@ -2136,7 +2114,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getBestBowlingMatchForSelectedTeamVsAllTeams(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): Collection<BestBowlingDto> {
         val bestBowling = mutableListOf<BestBowlingDto>()
@@ -2148,12 +2125,11 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             .and(
                 BOWLINGDETAILS.MATCHID.`in`(matchIds)
             )
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+            .and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
 
         if (!overall)
-            whereClause = whereClause.and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+            whereClause = whereClause.and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
 
 
         try {
@@ -2308,7 +2284,6 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
     fun getBestBowlingMatchForAllTeamsVsSelectedTeam(
         teamParams: TeamParams,
         overall: Boolean,
-        startFrom: Long,
         matchIds: List<Int>
     ): Collection<BestBowlingDto> {
         val bestBowling = mutableListOf<BestBowlingDto>()
@@ -2317,12 +2292,11 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
             .and(
                 BOWLINGDETAILS.MATCHID.`in`(matchIds)
             )
-            .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
             .and(BOWLINGDETAILS.MATCHTYPE.notIn(internationalMatchTypes))
-            .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds))
+            .and(BOWLINGDETAILS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
 
         if (!overall)
-            whereClause = whereClause.and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds))
+            whereClause = whereClause.and(BOWLINGDETAILS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
 
 
         val t = TEAMS.`as`("t")

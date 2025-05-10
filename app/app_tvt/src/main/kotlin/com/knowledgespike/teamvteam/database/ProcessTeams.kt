@@ -51,8 +51,7 @@ class ProcessTeams(
                     countryIds,
                     teamsAndOpponents,
                     matchSubType,
-                    overall,
-                    teamsAndOpponents.startFrom
+                    overall
                 )
             if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
                 val teamPairDetails =
@@ -76,8 +75,8 @@ class ProcessTeams(
                 if (lastUpdatedDate == null || checkIfShouldProcess(
                         connection,
                         dialect,
-                        teamsAndOpponents.teamIds,
-                        teamsAndOpponents.opponentIds,
+                        teamsAndOpponents.teamIds.map { it.teamId },
+                        teamsAndOpponents.opponentIds.map { it.teamId },
                         matchType,
                         lastUpdatedDate
                     )
@@ -90,9 +89,7 @@ class ProcessTeams(
                         dialect,
                         countryIds,
                         teamParams.first,
-                        teamParams.second,
-                        teamsAndOpponents.startFrom,
-                        matchDto.matchIds
+                        teamParams.second
                     )
                     teamPairDetails.addIndividualData(
                         connection,
@@ -101,7 +98,6 @@ class ProcessTeams(
                         teamParams.first,
                         teamParams.second,
                         matchType,
-                        teamsAndOpponents.startFrom,
                         matchDto.matchIds
                     )
 

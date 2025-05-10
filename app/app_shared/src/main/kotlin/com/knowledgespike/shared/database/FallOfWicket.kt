@@ -16,8 +16,7 @@ fun getPossibleFallOfWicketMissingPartnerships(
     countryIds: List<Int>,
     teamParams: TeamParams,
     wicket: Int,
-    partnership: Int,
-    startFrom: Long
+    partnership: Int
 ): Boolean {
 
     val context = DSL.using(connection, dialect)
@@ -30,14 +29,13 @@ fun getPossibleFallOfWicketMissingPartnerships(
                         teamParams.matchSubType
                     ).and(MATCHES.VICTORYTYPE.ne(11))
                         .and(
-                            (MATCHES.HOMETEAMID.`in`(teamParams.teamIds)
-                                .and(MATCHES.AWAYTEAMID.`in`(teamParams.opponentIds)))
+                            (MATCHES.HOMETEAMID.`in`(teamParams.teamIds.map { it.teamId })
+                                .and(MATCHES.AWAYTEAMID.`in`(teamParams.opponentIds.map { it.teamId })))
                                 .or(
-                                    (MATCHES.AWAYTEAMID.`in`(teamParams.teamIds)
-                                        .and(MATCHES.HOMETEAMID.`in`(teamParams.opponentIds)))
+                                    (MATCHES.AWAYTEAMID.`in`(teamParams.teamIds.map { it.teamId })
+                                        .and(MATCHES.HOMETEAMID.`in`(teamParams.opponentIds.map { it.teamId })))
                                 )
                         )
-                        .and(MATCHES.MATCHSTARTDATEASOFFSET.gt(startFrom).or(MATCHES.MATCHSTARTDATE.isNull))
                 )
             )
         )
@@ -65,22 +63,22 @@ fun getPossibleFallOfWicketMissingPartnerships(
                 ).and(
                     FALLOFWICKETS.WICKET.eq(wicket)
                 )
-                .and(FALLOFWICKETS.TEAMID.`in`(teamParams.teamIds))
-                .and(FALLOFWICKETS.OPPONENTSID.`in`(teamParams.opponentIds))
+                .and(FALLOFWICKETS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
+                .and(FALLOFWICKETS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
                 .and(FALLOFWICKETS.CURRENTSCORE.isNull)
         ).with("cte2").`as`(
             select(INNINGS.MATCHID, INNINGS.TOTAL.`as`("total"))
                 .from(INNINGS)
                 .where(INNINGS.MATCHID.`in`(select(field("matchid", Int::class.java)).from("cte1")))
-                .and(INNINGS.TEAMID.`in`(teamParams.teamIds))
-                .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds))
+                .and(INNINGS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
+                .and(INNINGS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
         )
         .select(count().`as`("count")).from(FALLOFWICKETS)
         .join("cte2")
         .on(FALLOFWICKETS.MATCHID.eq(field("cte2.matchid", Int::class.java)))
         .where(FALLOFWICKETS.MATCHID.`in`(select(field("matchid", Int::class.java)).from("cte2")))
-        .and(FALLOFWICKETS.TEAMID.`in`(teamParams.teamIds))
-        .and(FALLOFWICKETS.OPPONENTSID.`in`(teamParams.opponentIds))
+        .and(FALLOFWICKETS.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
+        .and(FALLOFWICKETS.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
         .and(FALLOFWICKETS.WICKET.ge(wicket))
         .and((FALLOFWICKETS.CURRENTSCORE.ge(partnership)).or(field("total").ge(partnership)))
 

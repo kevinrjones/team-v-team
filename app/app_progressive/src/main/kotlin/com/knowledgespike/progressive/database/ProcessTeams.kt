@@ -18,7 +18,6 @@ class ProcessTeams(
     allTeams: TeamNameToValidTeam,
     opponentsForTeam: Map<String, TeamNameToValidTeam>,
     private val opponentsWithAuthors: Map<String, List<Author>>,
-    private val dialect: SQLDialect,
 ) {
 
     private val log by LoggerDelegate()
@@ -61,16 +60,14 @@ class ProcessTeams(
                         countryIds,
                         teamsAndOpponents,
                         matchSubType,
-                        overall,
-                        teamsAndOpponents.startFrom
+                        overall
                     )
                 if (matchDto.count + matchDto.abandoned + matchDto.cancelled != 0) {
                     log.debug("Processing: {} and {}", teamsAndOpponents.teamName, teamsAndOpponents.opponentsName)
                     val teamPairDetails =
                         TeamPairDetails(
                             arrayOf(teamsAndOpponents.teamName, teamsAndOpponents.opponentsName),
-                            matchDto,
-                            teamsAndOpponents.startFrom
+                            matchDto
                         )
 
                     val fileName = teamPairDetails.generateFileName(matchSubType)
@@ -87,8 +84,8 @@ class ProcessTeams(
                     if (lastUpdatedDate == null || checkIfShouldProcess(
                             connection,
                             dialect,
-                            teamsAndOpponents.teamIds,
-                            teamsAndOpponents.opponentIds,
+                            teamsAndOpponents.teamIds.map { it.teamId },
+                            teamsAndOpponents.opponentIds.map { it.teamId },
                             matchType,
                             lastUpdatedDate
                         )
@@ -178,12 +175,10 @@ class ProcessTeams(
                         teamAndIds.teamName,
                         teamAndIds.teamIds,
                         "all",
-                        opponents,
-                        teamAndIds.startFrom
+                        opponents
                     ),
                     matchSubType,
-                    overall,
-                    teamAndIds.startFrom,
+                    overall
                 )
 
             val teamAndAllOpponentsDetails = TeamAndAllOpponentsDetails(teamAndIds.teamName, matchDto)
@@ -198,8 +193,7 @@ class ProcessTeams(
                         opponents,
                         matchType,
                         matchSubType,
-                        overall,
-                        teamAndIds.startFrom,
+                        overall
                     )
 
                     teamAndAllOpponentsDetails.getTeamRecords(
@@ -210,7 +204,6 @@ class ProcessTeams(
                         matchType,
                         matchSubType,
                         overall,
-                        teamAndIds.startFrom,
                     )
 
                     teamAndAllOpponentsDetails.getIndividualRecords(
@@ -220,8 +213,7 @@ class ProcessTeams(
                         opponents,
                         matchType,
                         matchSubType,
-                        overall,
-                        teamAndIds.startFrom,
+                        overall
                     )
 
                     val maybeAuthors =
