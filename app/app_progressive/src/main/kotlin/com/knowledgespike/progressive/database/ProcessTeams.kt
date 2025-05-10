@@ -1,8 +1,6 @@
 package com.knowledgespike.progressive.database
 
-import com.knowledgespike.progressive.Application
 import com.knowledgespike.progressive.json.getProgressiveJsonData
-import com.knowledgespike.shared.data.TeamPairHomePagesData
 import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.database.checkIfShouldProcess
 import com.knowledgespike.shared.database.getCountOfMatchesBetweenTeams
