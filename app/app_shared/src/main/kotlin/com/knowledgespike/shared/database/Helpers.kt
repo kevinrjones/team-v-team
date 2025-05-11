@@ -12,7 +12,7 @@ import org.jooq.DSLContext
 import org.jooq.SQLDialect
 import org.jooq.impl.DSL
 import org.jooq.impl.DSL.aggregateDistinct
-import org.jooq.impl.DSL.trueCondition
+import org.jooq.impl.DSL.noCondition
 import java.sql.Connection
 
 fun checkIfShouldProcess(
@@ -102,7 +102,7 @@ fun getCountOfMatchesBetweenTeams(
         val otherIds = teamsAndOpponents.teamIds.drop(1)
 
         // no need to process each team id individually here
-        var idClause: Condition = trueCondition()
+        var idClause: Condition = noCondition()
         idClause = idClause.and(
             EXTRAMATCHDETAILS.TEAMID.eq(firstId.teamId)
                 .and(
@@ -113,7 +113,7 @@ fun getCountOfMatchesBetweenTeams(
 
         val otherIdClause = if (!(overall && teamsAndOpponents.opponentsName.lowercase() == "all")) {
             buildOpponentsIdClause(teamsAndOpponents.opponentIds)
-        } else trueCondition()
+        } else noCondition()
 
         idClause = idClause.and(
             otherIdClause
@@ -271,7 +271,7 @@ private fun buildOpponentsIdClause(opponentIds: List<TeamIdAndValidDate>): Condi
         val otherIds = opponentIds.drop(1)
 
 
-        var idClause = trueCondition().and(
+        var idClause = noCondition().and(
             EXTRAMATCHDETAILS.OPPONENTSID.eq(firstId.teamId)
                 .and(
                     MATCHES.MATCHSTARTDATEASOFFSET.lt(firstId.startFrom)
@@ -291,7 +291,7 @@ private fun buildOpponentsIdClause(opponentIds: List<TeamIdAndValidDate>): Condi
             )
         }
         return idClause
-    } else return trueCondition()
+    } else return noCondition()
 }
 
 fun getTeamIds(
