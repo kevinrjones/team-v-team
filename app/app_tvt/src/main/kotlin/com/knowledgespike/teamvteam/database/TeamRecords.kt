@@ -6,13 +6,14 @@ import com.knowledgespike.shared.database.getPossibleFallOfWicketMissingPartners
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.teamvteam.daos.*
 import com.knowledgespike.shared.html.getWicket
+import com.knowledgespike.shared.output.updateSomeNameToFullName
 import org.jooq.*
 import org.jooq.impl.DSL.*
 import java.sql.Connection
 import java.sql.DriverManager
 
 
-class TeamRecords(private val connection: Connection, private val dialect: SQLDialect) {
+class TeamRecords(private val connection: Connection, private val dialect: SQLDialect, private val nameUpdates: List<NameUpdate>) {
 
     private val log by LoggerDelegate()
 
@@ -1791,7 +1792,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
                     )
 
                     // want only one but there may be multiple scores with the same value
-                    val fow = FoWDto(
+                    var fow = FoWDto(
                         teamParams.team,
                         teamParams.opponents,
                         partnershipRecord.getValue("location", String::class.java),
@@ -1809,6 +1810,9 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
                         partnershipRecord.getValue("position2", Int::class.java),
                         possileInvalidPartnership
                     )
+
+                    fow = updateSomeNameToFullName(fow, nameUpdates)
+
 
                     // only look for a multi-player fall-of-wicket if we haven't already added one for this wicket
                     // this stops the issue where I have identical partnerships for the FoW

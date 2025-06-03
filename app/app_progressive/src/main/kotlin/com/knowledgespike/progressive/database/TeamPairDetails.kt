@@ -6,7 +6,7 @@ import com.knowledgespike.shared.types.TeamIdAndValidDate
 import org.jooq.SQLDialect
 import java.sql.Connection
 
-class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
+class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto, private val nameUpdates: List<NameUpdate>) {
     val authors: MutableList<String> = mutableListOf("Kevin Jones")
     val highestScores = mutableListOf<MutableList<TotalDto>>(mutableListOf(), mutableListOf())
     val lowestAllOutScores = mutableListOf<MutableList<TotalDto>>(mutableListOf(), mutableListOf())
@@ -24,7 +24,7 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
         matchSubType: String,
         overall: Boolean
     ) {
-        val teamRecords = TeamRecords(databaseConnectionDetails, dialect)
+        val teamRecords = TeamRecords(databaseConnectionDetails, dialect, nameUpdates)
 
         val teamParamA = TeamParams(
             teamAndIds.teamIds,
@@ -88,7 +88,7 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
             matchSubType
         )
 
-        val teamRecords = TeamRecords(connection, dialect)
+        val teamRecords = TeamRecords(connection, dialect, nameUpdates)
         highestScores[0].addAll(
             teamRecords.getHighestTotalsForSelectedTeamVsAllTeams(
                 teamParamA,
@@ -151,7 +151,7 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
             matchSubType
         )
 
-        val teamRecords = TeamRecords(connection, dialect)
+        val teamRecords = TeamRecords(connection, dialect, nameUpdates)
 
         highestIndividualScore[0].addAll(
             teamRecords.getHighestIndividualScoresForSelectedTeamVsAllTeams(teamParamA, overall, 
@@ -187,7 +187,7 @@ class TeamAndAllOpponentsDetails(val teamName: String, val matchDto: MatchDto) {
 
 }
 
-class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
+class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto, private val nameUpdates: List<NameUpdate>) {
     val authors: MutableList<String> = mutableListOf("Kevin Jones")
     val highestScores = mutableListOf<MutableList<TotalDto>>(mutableListOf(), mutableListOf())
     val lowestAllOutScores = mutableListOf<MutableList<TotalDto>>(mutableListOf(), mutableListOf())
@@ -204,7 +204,7 @@ class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
         overall: Boolean,
         matchIds: List<Int>
     ) {
-        val teamRecords = TeamRecords(databaseConnection, dialect)
+        val teamRecords = TeamRecords(databaseConnection, dialect, nameUpdates)
 
         bestFoW[0].putAll(
             teamRecords.getProgressivePartnershipRecords(teamParams1, overall,matchIds)
@@ -222,7 +222,7 @@ class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
         teamParamB: TeamParams,
         matchIds: List<Int>
     ) {
-        val teamRecords = TeamRecords(databaseConnection, dialect)
+        val teamRecords = TeamRecords(databaseConnection, dialect, nameUpdates)
         highestScores[0].addAll(
             teamRecords.getHighestTotals(
                 teamParamA, matchIds
@@ -256,7 +256,7 @@ class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
         teamParamB: TeamParams,
         matchIds: List<Int>
     ) {
-        val teamRecords = TeamRecords(databaseConnection, dialect)
+        val teamRecords = TeamRecords(databaseConnection, dialect, nameUpdates)
         highestIndividualScore[0].addAll(
             teamRecords.getHighestIndividualScores(teamParamA, matchIds)
         )

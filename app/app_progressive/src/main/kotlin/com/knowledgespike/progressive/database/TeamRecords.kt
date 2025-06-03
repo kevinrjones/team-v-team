@@ -3,6 +3,7 @@ package com.knowledgespike.progressive.database
 import com.knowledgespike.db.tables.references.*
 import com.knowledgespike.progressive.data.BestBowlingDto
 import com.knowledgespike.shared.data.*
+import com.knowledgespike.shared.output.updateSomeNameToFullName
 import org.jooq.DSLContext
 import org.jooq.SQLDialect
 import org.jooq.WithStep
@@ -11,7 +12,7 @@ import java.sql.Connection
 import java.time.format.DateTimeFormatter
 
 
-class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
+class TeamRecords(private val connection: Connection, val dialect: SQLDialect, private val nameUpdates: List<NameUpdate>) {
 
     private var inputFormatter: DateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
     private var outputFormatter: DateTimeFormatter = DateTimeFormatter.ofPattern("dd MMM yyyy")
@@ -874,7 +875,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                     val matchDate = dateTime.format(outputFormatter)
 
                     // want only one but there may be multiple scores with the same value
-                    val fow = FoWDto(
+                    var fow = FoWDto(
                         teamParams.team,
                         teamParams.opponents,
                         partnershipRecord.getValue("location", String::class.java),
@@ -891,6 +892,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                         partnershipRecord.getValue("notout2", Boolean::class.java),
                         partnershipRecord.getValue("position2", Int::class.java),
                     )
+
+                    fow = updateSomeNameToFullName(fow, nameUpdates)
 
 
                     listFoW.add(fow)
@@ -925,7 +928,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
         val context = using(connection, dialect)
 
         val tmpTableName = "tmp_partnerships_all"
-        createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, true,  matchIds)
+        createTemporaryFoWTableAllTeams(context, tmpTableName, teamParams, overall, true, matchIds)
 
         try {
             for (wicket in 1..10) {
@@ -981,7 +984,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                     val matchDate = dateTime.format(outputFormatter)
 
                     // want only one but there may be multiple scores with the same value
-                    val fow = FoWDto(
+                    var fow = FoWDto(
                         teamParams.team,
                         partnershipRecord.getValue("name", String::class.java),
                         partnershipRecord.getValue("location", String::class.java),
@@ -999,6 +1002,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect) {
                         partnershipRecord.getValue("position2", Int::class.java),
                     )
 
+                    fow = updateSomeNameToFullName(fow, nameUpdates)
 
                     listFoW.add(fow)
                 }

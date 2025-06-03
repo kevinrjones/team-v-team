@@ -45,6 +45,19 @@ fun getHomePageJsonData(fileName: String): TeamPairHomePagesJson? {
     return details
 }
 
+fun getNameUpdatesJsonData(fileName: String): List<NameUpdate>? {
+    val file: File = Path(fileName).toFile()
+
+    if (!file.exists())
+        return null
+
+    val data: String
+    data = file.readText()
+
+    val updates: List<NameUpdate> = Json.decodeFromString(data)
+    return updates
+}
+
 fun getIndexPageJsonData(fileName: String): CompetitionIndexPage? {
     val file: File = Path(fileName).toFile()
 

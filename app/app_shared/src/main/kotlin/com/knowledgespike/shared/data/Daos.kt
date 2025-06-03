@@ -157,6 +157,16 @@ data class HighestScoreDto(
     val seriesDate: String,
 )
 
+@Serializable
+data class NameUpdate(
+    val team: String,
+    val opponents: String,
+    val location: String,
+    val matchDate: String,
+    val seriesDate: String,
+    val originalName: String,
+    val replacementName: String
+    )
 
 /**
  * If teams have 'opponents' in the JSON then those opponents don't have a top level HTML page as it is never linked

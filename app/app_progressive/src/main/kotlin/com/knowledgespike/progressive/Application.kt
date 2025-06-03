@@ -14,8 +14,6 @@ import com.knowledgespike.progressive.html.GenerateHtml
 import com.knowledgespike.progressive.json.getProgressiveJsonData
 import com.knowledgespike.shared.database.Connection
 import com.knowledgespike.shared.database.getTeamIds
-import com.knowledgespike.shared.types.TeamIdAndValidDate
-import com.knowledgespike.shared.types.TeamIdsAndValidDate
 import kotlinx.coroutines.*
 import kotlinx.datetime.Clock
 import org.apache.commons.cli.*
@@ -83,6 +81,8 @@ class Application {
                 val fullyQualifiedHtmlOutputDirectory = cmd.getOptionValue("ho")
                 val relativeJsonOutputDirectory = cmd.getOptionValue("jo")
                 val dialectOption = cmd.getOptionValue("d")
+                val nameUpdatesFile = cmd.getOptionValue("n")
+
 
                 dialect = when (dialectOption) {
                     "mariadb" -> {
@@ -105,11 +105,15 @@ class Application {
                 val databaseConnectionDetails = Connection(userName, password, connectionString, dialect)
                 val jsonOutputDirectory = "$baseDirectory/$relativeJsonOutputDirectory"
                 val fqDataDirectory = "$baseDirectory/$dataDirectory"
+                val fqNamesUpdatesFile = "$baseDirectory/$nameUpdatesFile"
+
+                val nameUpdateDetails = getNameUpdatesJsonData(fqNamesUpdatesFile) ?: listOf()
                 processAllCompetitions(
                     fqDataDirectory,
                     fullyQualifiedHtmlOutputDirectory,
                     jsonOutputDirectory,
-                    databaseConnectionDetails
+                    databaseConnectionDetails,
+                    nameUpdateDetails
                 )
 
             } catch (t: Throwable) {
@@ -123,6 +127,7 @@ class Application {
             htmlOutputDirectory: String,
             jsonOutputDirectory: String,
             databaseConnectionDetails: Connection,
+            nameUpdates: List<NameUpdate>,
         ) {
 
             val allCompetitions = getAllCompetitions(dataDirectory)
@@ -173,7 +178,7 @@ class Application {
 
 
                             val processTeams =
-                                ProcessTeams(teamsWithDuplicates, opponentsForTeam, teamsWithAuthors)
+                                ProcessTeams(teamsWithDuplicates, opponentsForTeam, teamsWithAuthors, nameUpdates)
 
                             var shouldUpdateAll = false
 
@@ -541,6 +546,14 @@ class Application {
                 .required()
                 .build()
 
+            val nameUpdatesOption = Option
+                .builder("n")
+                .hasArg()
+                .desc("the JSON file containing changes to the display name of players")
+                .argName("Name Updates")
+                .longOpt("nameUpdates")
+                .build()
+
 
             options.addOption(connectionStringOption)
             options.addOption(userStringOption)
@@ -550,6 +563,7 @@ class Application {
             options.addOption(jsonOutputLocationOption)
             options.addOption(dataDirectoryOption)
             options.addOption(sqlDialectOption)
+            options.addOption(nameUpdatesOption)
 
             return options
         }

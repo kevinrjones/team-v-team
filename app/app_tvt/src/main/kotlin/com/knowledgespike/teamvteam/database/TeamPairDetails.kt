@@ -5,7 +5,7 @@ import com.knowledgespike.teamvteam.daos.*
 import org.jooq.SQLDialect
 import java.sql.Connection
 
-data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
+data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto, private val nameUpdates:  List<NameUpdate>) {
 
     val strikeRateScoreLimit: Int = 20
     val strikeRateLowerBallsLimit = 10
@@ -64,7 +64,7 @@ data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
         teamParamA: TeamParams,
         teamParamB: TeamParams
     ) {
-        val teamRecords = TeamRecords(connection, dialect)
+        val teamRecords = TeamRecords(connection, dialect, nameUpdates)
         highestScores[0].addAll(
             teamRecords.getHighestTotals(
                 countryIds,
@@ -102,7 +102,7 @@ data class TeamPairDetails(val teams: Array<String>, val matchDto: MatchDto) {
         matchIds: List<Int>
     ) {
 
-        val teamRecords = TeamRecords(connection, dialect)
+        val teamRecords = TeamRecords(connection, dialect, nameUpdates)
         highestIndividualScore[0].addAll(
             teamRecords.getHighestIndividualScores(countryIds, teamParamA,  matchIds)
         )

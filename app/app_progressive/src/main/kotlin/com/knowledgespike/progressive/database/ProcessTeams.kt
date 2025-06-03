@@ -16,6 +16,7 @@ class ProcessTeams(
     allTeams: TeamNameToValidTeam,
     opponentsForTeam: Map<String, TeamNameToValidTeam>,
     private val opponentsWithAuthors: Map<String, List<Author>>,
+    private val nameUpdates: List<NameUpdate>
 ) {
 
     private val log by LoggerDelegate()
@@ -65,7 +66,8 @@ class ProcessTeams(
                     val teamPairDetails =
                         TeamPairDetails(
                             arrayOf(teamsAndOpponents.teamName, teamsAndOpponents.opponentsName),
-                            matchDto
+                            matchDto,
+                            nameUpdates
                         )
 
                     val fileName = teamPairDetails.generateFileName(matchSubType)
@@ -179,7 +181,7 @@ class ProcessTeams(
                     overall
                 )
 
-            val teamAndAllOpponentsDetails = TeamAndAllOpponentsDetails(teamAndIds.teamName, matchDto)
+            val teamAndAllOpponentsDetails = TeamAndAllOpponentsDetails(teamAndIds.teamName, matchDto, nameUpdates)
 
             withContext(Dispatchers.IO) {
                 val job = launch {

@@ -136,7 +136,7 @@ fun getCountOfMatchesBetweenTeams(
         }
 
         /**
-         * Using `.and(trueCondition().and(idClause))` as the `idClause` contains an `or` condition
+         * Using `.and(noCondition().and(idClause))` as the `idClause` contains an `or` condition
          * and I want that to be or'd together in one condition
          */
         var whereClause = MATCHES.MATCHTYPE.notIn(matchTypesToExclude)
