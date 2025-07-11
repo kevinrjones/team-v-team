@@ -112,6 +112,10 @@ open class InningsRecord() : UpdatableRecordImpl<InningsRecord>(Innings.INNINGS)
         set(value): Unit = set(23, value)
         get(): Byte? = get(23) as Byte?
 
+    open var maxballsavailable: Int?
+        set(value): Unit = set(24, value)
+        get(): Int? = get(24) as Int?
+
     // -------------------------------------------------------------------------
     // Primary key information
     // -------------------------------------------------------------------------
@@ -121,7 +125,7 @@ open class InningsRecord() : UpdatableRecordImpl<InningsRecord>(Innings.INNINGS)
     /**
      * Create a detached, initialised InningsRecord
      */
-    constructor(id: Int? = null, matchid: Int? = null, inningsnumber: Int? = null, inningsorder: Int? = null, teamid: Int? = null, opponentsid: Int? = null, didbat: Byte? = null, total: Int? = null, wickets: Int? = null, complete: Byte? = null, allout: Byte? = null, synthetictotal: Double? = null, minutes: Int? = null, byes: Int? = null, legbyes: Int? = null, wides: Int? = null, noballs: Int? = null, penalty: Int? = null, penaltyruns: Int? = null, extras: Int? = null, overs: String? = null, ballsbowled: Int? = null, ballsperover: Int? = null, declared: Byte? = null): this() {
+    constructor(id: Int? = null, matchid: Int? = null, inningsnumber: Int? = null, inningsorder: Int? = null, teamid: Int? = null, opponentsid: Int? = null, didbat: Byte? = null, total: Int? = null, wickets: Int? = null, complete: Byte? = null, allout: Byte? = null, synthetictotal: Double? = null, minutes: Int? = null, byes: Int? = null, legbyes: Int? = null, wides: Int? = null, noballs: Int? = null, penalty: Int? = null, penaltyruns: Int? = null, extras: Int? = null, overs: String? = null, ballsbowled: Int? = null, ballsperover: Int? = null, declared: Byte? = null, maxballsavailable: Int? = null): this() {
         this.id = id
         this.matchid = matchid
         this.inningsnumber = inningsnumber
@@ -146,6 +150,7 @@ open class InningsRecord() : UpdatableRecordImpl<InningsRecord>(Innings.INNINGS)
         this.ballsbowled = ballsbowled
         this.ballsperover = ballsperover
         this.declared = declared
+        this.maxballsavailable = maxballsavailable
         resetChangedOnNotNull()
     }
 }

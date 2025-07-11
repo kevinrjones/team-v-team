@@ -29,6 +29,7 @@ fun matchTypeFromSubType(matchType: String): String {
 
         "itt" -> "tt"
         "tt" -> "tt"
+        "engtt" -> "tt"
         "bbl" -> "tt"
         "ipl" -> "tt"
         "hund" -> "tt"

@@ -1,6 +1,5 @@
 package com.knowledgespike.progressive.database
 
-import com.knowledgespike.progressive.data.BestBowlingDto
 import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.types.TeamIdAndValidDate
 import org.jooq.SQLDialect

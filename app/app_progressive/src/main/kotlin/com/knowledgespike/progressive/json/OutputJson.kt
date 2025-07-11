@@ -1,6 +1,5 @@
 package com.knowledgespike.progressive.json
 
-import com.knowledgespike.progressive.data.BestBowlingDto
 import com.knowledgespike.shared.data.*
 import kotlinx.datetime.Instant
 import kotlinx.serialization.Serializable

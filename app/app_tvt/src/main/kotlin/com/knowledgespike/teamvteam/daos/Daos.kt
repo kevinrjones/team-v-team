@@ -72,17 +72,6 @@ data class BoundariesDto(
 )
 
 @Serializable
-data class BestBowlingDto(
-    val name: String,
-    val team: String,
-    val opponents: String,
-    val wickets: Int,
-    val runs: Int,
-    val location: String,
-    val seriesDate: String,
-)
-
-@Serializable
 data class BowlingRatesDto(
     val name: String,
     val team: String,

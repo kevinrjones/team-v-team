@@ -6,14 +6,19 @@ import com.knowledgespike.shared.database.getPossibleFallOfWicketMissingPartners
 import com.knowledgespike.shared.logging.LoggerDelegate
 import com.knowledgespike.teamvteam.daos.*
 import com.knowledgespike.shared.html.getWicket
-import com.knowledgespike.shared.output.updateSomeNameToFullName
+import com.knowledgespike.shared.output.updateSomeNamesToFullNameInBestBowling
+import com.knowledgespike.shared.output.updateSomeNamesToFullNameInFow
+import com.knowledgespike.shared.output.updateSomeNamesToFullNameInMostRuns
 import org.jooq.*
 import org.jooq.impl.DSL.*
 import java.sql.Connection
-import java.sql.DriverManager
 
 
-class TeamRecords(private val connection: Connection, private val dialect: SQLDialect, private val nameUpdates: List<NameUpdate>) {
+class TeamRecords(
+    private val connection: Connection,
+    private val dialect: SQLDialect,
+    private val nameUpdates: List<NameUpdate>
+) {
 
     private val log by LoggerDelegate()
 
@@ -140,8 +145,11 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
 
         val context = using(connection, dialect)
         val result = context.with("cte").`as`(
-            getLowestTotalSelect(countryIds, teamParams,  matchIds)
-                .and(INNINGS.COMPLETE.eq(1))
+            getLowestTotalSelect(countryIds, teamParams, matchIds)
+                .and(
+                    INNINGS.ALLOUT.eq(1)
+                        .or(INNINGS.COMPLETE.eq(1).and(INNINGS.BALLSBOWLED.eq(INNINGS.MAXBALLSAVAILABLE)))
+                )
         ).select(
             field("total", Int::class.java),
             field("wickets", Int::class.java),
@@ -331,7 +339,8 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
                 r.getValue("location").toString(),
                 r.getValue("seriesdate").toString()
             )
-            highestscores.add(hs)
+            val newHs = updateSomeNamesToFullNameInMostRuns(hs, nameUpdates)
+            highestscores.add(newHs)
         }
         return highestscores
     }
@@ -340,7 +349,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
         countryIds: List<Int>,
         teamParams: TeamParams,
         ballsLimit: Int,
-        
+
         matchIds: List<Int>
     ): List<StrikeRateDto> {
         val lowestStrikeRates = mutableListOf<StrikeRateDto>()
@@ -423,7 +432,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getHighestIndividualStrikeRate(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
+
         scoreLimit: Int = 0,
         matchIds: List<Int>
     ): List<StrikeRateDto> {
@@ -505,7 +514,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getHighestIndividualSixes(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
+
         matchIds: List<Int>
     ): List<BoundariesDto> {
         val mostBoundaries = mutableListOf<BoundariesDto>()
@@ -571,7 +580,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getHighestIndividualBoundaries(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
+
         matchIds: List<Int>
     ): List<BoundariesDto> {
         val mostBoundaries = mutableListOf<BoundariesDto>()
@@ -641,7 +650,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getHighestIndividualFours(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
+
         matchIds: List<Int>
     ): List<BoundariesDto> {
         val mostBoundaries = mutableListOf<BoundariesDto>()
@@ -707,7 +716,6 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getBestBowlingInnings(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
         matchIds: List<Int>
     ): List<BestBowlingDto> {
 
@@ -790,12 +798,13 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
                 row.getValue("fullname", String::class.java),
                 teamParams.team,
                 teamParams.opponents,
-                row.getValue("wickets", Int::class.java),
-                row.getValue("runs", Int::class.java),
-                row.getValue("location").toString(),
-                row.getValue("seriesdate").toString()
+                wickets = row.getValue("wickets", Int::class.java),
+                runs = row.getValue("runs", Int::class.java),
+                location = row.getValue("location").toString(),
+                seriesDate = row.getValue("seriesdate").toString()
             )
-            bestBowling.add(bb)
+            val newBB = updateSomeNamesToFullNameInBestBowling(bb, nameUpdates)
+            bestBowling.add(newBB)
         }
 
         return bestBowling
@@ -804,7 +813,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getBestBowlingStrikeRate(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
+
         matchIds: List<Int>,
         oversLimit: Int = 0,
     ): List<BowlingRatesDto> {
@@ -892,7 +901,6 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getBestBowlingEconRate(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
         matchIds: List<Int>,
         oversLimit: Int = 0,
     ): List<BowlingRatesDto> {
@@ -975,6 +983,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
                 row.getValue("location").toString(),
                 row.getValue("seriesdate").toString()
             )
+
             bestBowling.add(bb)
         }
 
@@ -984,7 +993,6 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getWorstBowlingEconRate(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
         matchIds: List<Int>,
         oversLimit: Int = 0,
     ): List<BowlingRatesDto> {
@@ -1087,7 +1095,6 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getBestBowlingMatch(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
         matchIds: List<Int>
     ): List<BestBowlingDto> {
 
@@ -1187,12 +1194,13 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
                         r.getValue("fullname", String::class.java),
                         teamParams.team,
                         teamParams.opponents,
-                        r.getValue("wickets", Int::class.java),
-                        r.getValue("runs", Int::class.java),
-                        r.getValue("location").toString(),
-                        r.getValue("seriesdate").toString()
+                        wickets =r.getValue("wickets", Int::class.java),
+                        runs = r.getValue("runs", Int::class.java),
+                        location = r.getValue("location").toString(),
+                        seriesDate =  r.getValue("seriesdate").toString()
                     )
-                    bestBowling.add(bb)
+                    val newBB = updateSomeNamesToFullNameInBestBowling(bb, nameUpdates)
+                    bestBowling.add(newBB)
                 } else {
                     break
                 }
@@ -1209,7 +1217,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getMostRuns(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
+
         matchIds: List<Int>
     ): MutableList<MostRunsDto> {
         val mostruns = mutableListOf<MostRunsDto>()
@@ -1302,7 +1310,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getMostWickets(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
+
         matchIds: List<Int>
     ): MutableList<MostWicketsDto> {
         val mostwickets = mutableListOf<MostWicketsDto>()
@@ -1441,7 +1449,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getMostCatches(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
+
         matchIds: List<Int>
     ): MutableList<MostDismissalsDto> {
         val mostCatches = mutableListOf<MostDismissalsDto>()
@@ -1468,10 +1476,14 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
                 .join(PLAYERS).on(
                     PLAYERS.ID.eq(FIELDING.PLAYERID)
                 )
+                .join(PLAYERSMATCHES).on(PLAYERSMATCHES.MATCHID.eq(FIELDING.MATCHID))
+                .and(PLAYERSMATCHES.PLAYERID.eq(FIELDING.PLAYERID))
                 .where(whereClause)
+                .and(PLAYERSMATCHES.PLAYERID.ne(1))
                 .and(MATCHES.MATCHTYPE.notIn(internationalMatchTypes))
                 .and(FIELDING.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
                 .and(FIELDING.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
+                .and(PLAYERSMATCHES.ISSUBSTITUTEFIELDER.isFalse())
         ).withData().execute()
 
         val query = context.with("cte").`as`(
@@ -1513,7 +1525,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getMostStumpings(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
+
         matchIds: List<Int>
     ): MutableList<MostDismissalsDto> {
         val mostStumpings = mutableListOf<MostDismissalsDto>()
@@ -1538,10 +1550,14 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
                 .join(PLAYERS).on(
                     PLAYERS.ID.eq(FIELDING.PLAYERID)
                 )
+                .join(PLAYERSMATCHES).on(PLAYERSMATCHES.MATCHID.eq(FIELDING.MATCHID))
+                .and(PLAYERSMATCHES.PLAYERID.eq(FIELDING.PLAYERID))
                 .where(whereClause)
+                .and(PLAYERSMATCHES.PLAYERID.ne(1))
                 .and(MATCHES.MATCHTYPE.notIn(internationalMatchTypes))
                 .and(FIELDING.TEAMID.`in`(teamParams.teamIds.map { it.teamId }))
                 .and(FIELDING.OPPONENTSID.`in`(teamParams.opponentIds.map { it.teamId }))
+                .and(PLAYERSMATCHES.ISSUBSTITUTEFIELDER.isFalse())
         ).withData().execute()
 
         val query = context.with("cte").`as`(
@@ -1590,7 +1606,6 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
     fun getHighestFoW(
         countryIds: List<Int>,
         teamParams: TeamParams,
-        
         matchIds: List<Int>
     ): MutableMap<Int, FowDetails> {
 
@@ -1811,7 +1826,7 @@ class TeamRecords(private val connection: Connection, private val dialect: SQLDi
                         possileInvalidPartnership
                     )
 
-                    fow = updateSomeNameToFullName(fow, nameUpdates)
+                    fow = updateSomeNamesToFullNameInFow(fow, nameUpdates)
 
 
                     // only look for a multi-player fall-of-wicket if we haven't already added one for this wicket

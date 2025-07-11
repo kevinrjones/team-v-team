@@ -201,6 +201,11 @@ open class Innings(
      */
     val DECLARED: TableField<InningsRecord, Byte?> = createField(DSL.name("Declared"), SQLDataType.TINYINT.nullable(false), this, "")
 
+    /**
+     * The column <code>cricketarchive.Innings.MaxBallsAvailable</code>.
+     */
+    val MAXBALLSAVAILABLE: TableField<InningsRecord, Int?> = createField(DSL.name("MaxBallsAvailable"), SQLDataType.INTEGER.nullable(false), this, "")
+
     private constructor(alias: Name, aliased: Table<InningsRecord>?): this(alias, null, null, null, aliased, null, null)
     private constructor(alias: Name, aliased: Table<InningsRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
     private constructor(alias: Name, aliased: Table<InningsRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)

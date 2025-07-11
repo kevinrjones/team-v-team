@@ -1,9 +1,11 @@
 package com.knowledgespike.progressive.database
 
 import com.knowledgespike.db.tables.references.*
-import com.knowledgespike.progressive.data.BestBowlingDto
 import com.knowledgespike.shared.data.*
-import com.knowledgespike.shared.output.updateSomeNameToFullName
+import com.knowledgespike.shared.data.NameUpdate
+import com.knowledgespike.shared.output.updateSomeNamesToFullNameInBestBowling
+import com.knowledgespike.shared.output.updateSomeNamesToFullNameInFow
+import com.knowledgespike.shared.output.updateSomeNamesToFullNameInMostRuns
 import org.jooq.DSLContext
 import org.jooq.SQLDialect
 import org.jooq.WithStep
@@ -12,7 +14,11 @@ import java.sql.Connection
 import java.time.format.DateTimeFormatter
 
 
-class TeamRecords(private val connection: Connection, val dialect: SQLDialect, private val nameUpdates: List<NameUpdate>) {
+class TeamRecords(
+    private val connection: Connection,
+    val dialect: SQLDialect,
+    private val nameUpdates: List<NameUpdate>
+) {
 
     private var inputFormatter: DateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
     private var outputFormatter: DateTimeFormatter = DateTimeFormatter.ofPattern("dd MMM yyyy")
@@ -141,7 +147,9 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                 )
                     .from(INNINGS)
                     .join(MATCHES).on(INNINGS.MATCHID.eq(MATCHES.ID))
-                    .where(INNINGS.ALLOUT.eq(1).or(INNINGS.COMPLETE.eq(1)))
+                    .where(
+                        INNINGS.ALLOUT.eq(1).or(INNINGS.COMPLETE.eq(1).and(INNINGS.BALLSBOWLED.eq(INNINGS.MAXBALLSAVAILABLE)))
+                    )
                     .and(
                         INNINGS.MATCHID.`in`(matchIds)
                     )
@@ -304,7 +312,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                 r.getValue("location").toString(),
                 matchDate
             )
-            highestscores.add(hs)
+            val newHs = updateSomeNamesToFullNameInMostRuns(hs, nameUpdates)
+            highestscores.add(newHs)
         }
 
         return highestscores
@@ -412,7 +421,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                 row.getValue("location").toString(),
                 matchDate
             )
-            bestBowling.add(bb)
+            val newBB = updateSomeNamesToFullNameInBestBowling(bb, nameUpdates)
+            bestBowling.add(newBB)
         }
 
         return bestBowling
@@ -529,7 +539,8 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                 row.getValue("location").toString(),
                 matchDate
             )
-            bestBowling.add(bb)
+            val newBB = updateSomeNamesToFullNameInBestBowling(bb, nameUpdates)
+            bestBowling.add(newBB)
         }
 
         return bestBowling
@@ -643,7 +654,9 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                 row.getValue("location").toString(),
                 matchDate
             )
-            bestBowling.add(bb)
+            val newBB = updateSomeNamesToFullNameInBestBowling(bb, nameUpdates)
+
+            bestBowling.add(newBB)
         }
         return bestBowling
     }
@@ -790,7 +803,9 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                         row.getValue("location").toString(),
                         matchDate
                     )
-                    bestBowling.add(bb)
+                    val newBB = updateSomeNamesToFullNameInBestBowling(bb, nameUpdates)
+
+                    bestBowling.add(newBB)
                 } else {
                     break
                 }
@@ -893,7 +908,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                         partnershipRecord.getValue("position2", Int::class.java),
                     )
 
-                    fow = updateSomeNameToFullName(fow, nameUpdates)
+                    fow = updateSomeNamesToFullNameInFow(fow, nameUpdates)
 
 
                     listFoW.add(fow)
@@ -1002,7 +1017,7 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                         partnershipRecord.getValue("position2", Int::class.java),
                     )
 
-                    fow = updateSomeNameToFullName(fow, nameUpdates)
+                    fow = updateSomeNamesToFullNameInFow(fow, nameUpdates)
 
                     listFoW.add(fow)
                 }
@@ -2001,7 +2016,9 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                 r.getValue("location").toString(),
                 matchDate
             )
-            highestscores.add(hs)
+            val newHs = updateSomeNamesToFullNameInMostRuns(hs, nameUpdates)
+
+            highestscores.add(newHs)
         }
         return highestscores
     }
@@ -2110,7 +2127,9 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                 r.getValue("location").toString(),
                 matchDate
             )
-            highestscores.add(hs)
+            val newHs = updateSomeNamesToFullNameInMostRuns(hs, nameUpdates)
+
+            highestscores.add(newHs)
         }
         return highestscores
     }
@@ -2272,7 +2291,9 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                         row.getValue("location").toString(),
                         matchDate
                     )
-                    bestBowling.add(bb)
+                    val newBB = updateSomeNamesToFullNameInBestBowling(bb, nameUpdates)
+
+                    bestBowling.add(newBB)
                 } else {
                     break
                 }
@@ -2444,7 +2465,9 @@ class TeamRecords(private val connection: Connection, val dialect: SQLDialect, p
                         row.getValue("location").toString(),
                         matchDate
                     )
-                    bestBowling.add(bb)
+                    val newBB = updateSomeNamesToFullNameInBestBowling(bb, nameUpdates)
+
+                    bestBowling.add(newBB)
                 } else {
                     break
                 }

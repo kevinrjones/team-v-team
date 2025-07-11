@@ -88,6 +88,21 @@ data class MatchDto(
 )
 
 @Serializable
+data class BestBowlingDto(
+    val name: String,
+    val team: String,
+    val opponents: String,
+    val ballsPerOver: Int = 0,
+    val balls: Int = 0,
+    val maidens: Int = 0,
+    val wickets: Int,
+    val runs: Int,
+    val location: String,
+    val seriesDate: String,
+)
+
+
+@Serializable
 data class FoWDto(
     val team: String,
     val opponents: String,
