@@ -5,7 +5,7 @@ import kotlinx.html.DIV
 import kotlinx.html.a
 import kotlinx.html.br
 
-fun DIV.generateRecordPageFooter(teamA: String, teamB: String, indexPageSuffix: String) {
+fun DIV.generateRecordPageFooter(teamA: String, teamB: String, indexPageSuffix: String, matchType: String) {
     /*
     <p align="center">Up to <a href="auk_fc.html">Auckland index page</a> or <a href="can_fc.html">Canterbury index page</a><br>
     or
@@ -31,8 +31,14 @@ fun DIV.generateRecordPageFooter(teamA: String, teamB: String, indexPageSuffix: 
             +"Team index page"
         }
         +" or "
-        a(href = "../../index.html") {
-            +"Records and Statistics"
+        if(matchType == "t" || matchType == "wt") {
+            a(href = "../index.html") {
+                +"Records and Statistics"
+            }
+        } else {
+            a(href = "../../index.html") {
+                +"Records and Statistics"
+            }
         }
 
     }

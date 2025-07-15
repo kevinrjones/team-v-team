@@ -1,7 +1,6 @@
 package com.knowledgespike.progressive.html
 
 
-import com.knowledgespike.progressive.data.BestBowlingDto
 import com.knowledgespike.progressive.json.ProgressiveData
 import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.html.*
@@ -55,7 +54,8 @@ class GenerateHtml {
                 // create entries for each pair
                 fileWriter.appendHTML().div {
                     h3 {
-                        val headerPart = generateHeaderPart(teamName, teamPairHomePages.gender, teamPairHomePages.matchDesignator)
+                        val headerPart =
+                            generateHeaderPart(teamName, teamPairHomePages.gender, teamPairHomePages.matchDesignator)
                         +"${headerPart} Progressive Records"
                     }
                     ul {
@@ -77,7 +77,7 @@ class GenerateHtml {
                             }
                         }
                     }
-                    generateTeamVsTeamFooter()
+                    generateTeamVsTeamFooter(teamPairHomePages.matchType)
                 }
                 fileWriter.append(virtualFooter)
                 fileWriter.append("\r\n")
@@ -128,7 +128,7 @@ class GenerateHtml {
                         }
                     }
                 }
-                generateBetweenTeamsFooter()
+                generateBetweenTeamsFooter(matchType)
             }
             fileWriter.append(virtualFooter)
             fileWriter.append("\r\n")
@@ -136,19 +136,27 @@ class GenerateHtml {
         }
     }
 
-    private fun DIV.generateBetweenTeamsFooter() {
+
+
+    private fun DIV.generateBetweenTeamsFooter(matchType: String) {
         p("", "align", "center") {
             +"Up to "
-            a(href = "../index.html") { +"Countries" }
-            +" or "
-            a(href = "../../index.html") {
-                +"Records and Statistics"
+//            a(href = "../index.html") { +"Countries" }
+//            +" or "
+            if(matchType == "t" || matchType == "wt") {
+                a(href = "../index.html") {
+                    +"Records and Statistics"
+                }
+            } else {
+                a(href = "../../index.html") {
+                    +"Records and Statistics"
+                }
             }
 
         }
     }
 
-    fun DIV.generateTeamVsTeamFooter() {
+    fun DIV.generateTeamVsTeamFooter(matchType: String) {
         /*
         <p align="center">Up to <a href="auk_fc.html">Auckland index page</a> or <a href="can_fc.html">Canterbury index page</a><br>
         or
@@ -163,10 +171,15 @@ class GenerateHtml {
                 +"Team index page"
             }
             +" or "
-            a(href = "../../index.html") {
-                +"Records and Statistics"
+            if (matchType == "t" || matchType == "wt") {
+                a(href = "../index.html") {
+                    +"Records and Statistics"
+                }
+            } else {
+                a(href = "../../index.html") {
+                    +"Records and Statistics"
+                }
             }
-
         }
     }
 
@@ -292,8 +305,9 @@ class GenerateHtml {
                             width: 100px;
                         }
                                                
-                        
-                        
+                                                                        
+                        .sup { vertical-align: super; line-height: 1.0; }
+
                     """
                 )
             }
@@ -306,7 +320,12 @@ class GenerateHtml {
                 } else {
                     teamPairDetails.team2
                 }
-                +buildTeamvTeamTitle(teamPairDetails.team1, name, teamPairDetails.gender, teamPairDetails.competitionTitle)
+                +buildTeamvTeamTitle(
+                    teamPairDetails.team1,
+                    name,
+                    teamPairDetails.gender,
+                    teamPairDetails.competitionTitle
+                )
             }
             generateHtml(teamPairDetails.competitionSubType, teamPairDetails, generateRecordsForAllOpponents)
         }
@@ -463,7 +482,12 @@ class GenerateHtml {
             }
         }
         p { +teamPairDetails.authors.joinToString(", ") }
-        generateRecordPageFooter(teamPairDetails.team1, teamPairDetails.team2, matchType)
+        generateRecordPageFooter(
+            teamA = teamPairDetails.team1,
+            teamB = teamPairDetails.team2,
+            indexPageSuffix = matchType,
+            matchType = matchType
+        )
     }
 
     private fun DIV.generateFowHtml(

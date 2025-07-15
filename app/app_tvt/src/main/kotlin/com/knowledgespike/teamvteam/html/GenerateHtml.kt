@@ -195,6 +195,8 @@ class GenerateHtml {
                         table.numberOfMatchesTable, table.numberOfMatchesTable > tbody > tr, table.numberOfMatchesTable > tbody > tr > td {
                             border: none !important
                         }
+                        
+                        .sup { vertical-align: super; line-height: 1.0; }
                     """
                 )
             }
@@ -562,7 +564,8 @@ class GenerateHtml {
             generateHighestScoreRow(teamPairDetails.highestScores[index])
             generateLowestScoreRow(
                 teamPairDetails.teamAllLowestScores[index].lowestAllOutScore,
-                teamPairDetails.teamAllLowestScores[index].lowestCompleteScores
+                teamPairDetails.teamAllLowestScores[index].lowestCompleteScores,
+                teamPairDetails.teamAllLowestScores[index].lowestIncompleteScores,
             )
             generateBattingRows(
                 this,
@@ -989,8 +992,12 @@ class GenerateHtml {
 
     }
 
-    private fun TABLE.generateLowestScoreRow(allOutTotals: List<TotalDto>, completeTotals: List<TotalDto>) {
-        if (allOutTotals.isEmpty() && completeTotals.isEmpty()) {
+    private fun TABLE.generateLowestScoreRow(
+        allOutTotals: List<TotalDto>,
+        completeTotals: List<TotalDto>,
+        lowestIncompleteScores: List<TotalDto>
+    ) {
+        if (allOutTotals.isEmpty() && completeTotals.isEmpty() && lowestIncompleteScores.isEmpty()) {
             generateEmptyTotalRow("Lowest All-Out Team Total", columnTwoWidth, columnFiveWidth)
 
         } else if (allOutTotals.isNotEmpty()) {
@@ -999,7 +1006,7 @@ class GenerateHtml {
                     +"Lowest All Out Team Total"
                 }
             }
-        } else {
+        } else if (completeTotals.isNotEmpty()) {
             completeTotals.forEachIndexed { ndx, total ->
                 generateTotalsRow(ndx, total, columnTwoWidth, columnFiveWidth) {
                     +"Lowest "
@@ -1007,6 +1014,19 @@ class GenerateHtml {
                         +"Completed"
                     }
                     +" Team Total"
+                }
+            }
+        } else {
+            lowestIncompleteScores.forEachIndexed { ndx, total ->
+                generateTotalsRow(ndx, total, columnTwoWidth, columnFiveWidth) {
+                    +"Lowest All Out Team Total"
+                    span(classes = "sup") { +"*" }
+                }
+                tr {
+                    td {
+                        span(classes = "sup") { +"*" }
+                        +"The team has never completed an innings; this is their lowest uncompleted total"
+                    }
                 }
             }
         }

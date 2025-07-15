@@ -9,10 +9,9 @@ import kotlinx.html.br
 fun DIV.generateBetweenTeamsFooter() {
     p("", "align", "center") {
         +"Up to "
-        a(href = "../index.html") {
-            +"Records and Statistics"
-        }
-
+            a(href = "../index.html") {
+                +"Records and Statistics"
+            }
     }
 
 }
