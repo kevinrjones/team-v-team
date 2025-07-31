@@ -6,6 +6,10 @@ import com.knowledgespike.shared.data.HighestScoreDto
 import com.knowledgespike.shared.data.NameUpdate
 import kotlin.collections.forEach
 
+fun String.isInternational(): Boolean {
+    return this == "t" || this == "wt" || this == "o" || this == "wo"|| this == "itt" || this == "witt"
+}
+
 fun updateSomeNamesToFullNameInFow(fow: FoWDto, nameUpdates: List<NameUpdate>): FoWDto {
 
     var newFow = fow

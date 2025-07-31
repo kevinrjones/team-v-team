@@ -64,11 +64,14 @@ fun LI.generateAnchorForTeamVsTeam(
 }
 
 fun generateHeaderPart(teamName: String, gender: String, matchDesignator: String): String {
-    val name = if (gender.isEmpty()) {
+    var name = if (gender.isEmpty()) {
         "$teamName's"
     } else {
         "$teamName $gender"
     }
+
+    name = name.replace("Women Women", "Women")
+
     return "$name ${matchDesignator}"
 }
 

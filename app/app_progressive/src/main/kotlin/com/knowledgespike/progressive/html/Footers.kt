@@ -1,6 +1,7 @@
 package com.knowledgespike.progressive.html
 
 import com.knowledgespike.shared.html.p
+import com.knowledgespike.shared.output.isInternational
 import kotlinx.html.DIV
 import kotlinx.html.a
 import kotlinx.html.br
@@ -31,7 +32,7 @@ fun DIV.generateRecordPageFooter(teamA: String, teamB: String, indexPageSuffix: 
             +"Team index page"
         }
         +" or "
-        if(matchType == "t" || matchType == "wt") {
+        if(matchType.isInternational()) {
             a(href = "../index.html") {
                 +"Records and Statistics"
             }

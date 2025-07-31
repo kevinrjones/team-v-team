@@ -5,6 +5,7 @@ import com.knowledgespike.progressive.json.ProgressiveData
 import com.knowledgespike.shared.data.*
 import com.knowledgespike.shared.html.*
 import com.knowledgespike.shared.logging.LoggerDelegate
+import com.knowledgespike.shared.output.isInternational
 import kotlinx.datetime.toJavaLocalDateTime
 import kotlinx.html.*
 import kotlinx.html.stream.appendHTML
@@ -143,7 +144,7 @@ class GenerateHtml {
             +"Up to "
 //            a(href = "../index.html") { +"Countries" }
 //            +" or "
-            if(matchType == "t" || matchType == "wt") {
+            if(matchType.isInternational()) {
                 a(href = "../index.html") {
                     +"Records and Statistics"
                 }
@@ -171,7 +172,7 @@ class GenerateHtml {
                 +"Team index page"
             }
             +" or "
-            if (matchType == "t" || matchType == "wt") {
+            if(matchType.isInternational()) {
                 a(href = "../index.html") {
                     +"Records and Statistics"
                 }
