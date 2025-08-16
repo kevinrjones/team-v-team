@@ -6,17 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/Footers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/Footers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/GenerateHtml.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/html/GenerateHtml.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/html/Html.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/html/Html.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/output/OutputHelpers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/output/OutputHelpers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data/international_one_day.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/international_one_day.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data/international_t20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/international_t20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Innings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Innings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/InningsRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/InningsRecord.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../shared/data/sa_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/sa_domestic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data_full/ind_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/ind_domestic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data_full/wi_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/wi_domestic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data_full/zim_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data_full/zim_domestic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/nameUpdates.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/nameUpdates.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/sl_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/sl_domestic.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +73,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.5-all/3zlzzgtsutfj0pbojr50n2l7z/gradle-8.5" javaHome="$USER_HOME$/.sdkman/candidates/java/21.0.4-tem" gradleVersion="8.5" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -129,6 +123,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.37338045&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -154,7 +149,7 @@
       <command value="gradle app_shared:buildEnvironment" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.app:app_progressive [run]">
+  <component name="RunManager" selected="Gradle.app:app_tvt [run]">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="app" />
       <method v="2">
@@ -1572,8 +1567,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.12" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.12" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
@@ -2061,6 +2056,17 @@
       <workItem from="1753261588318" duration="599000" />
       <workItem from="1753336586750" duration="1424000" />
       <workItem from="1753346166748" duration="5921000" />
+      <workItem from="1753946087743" duration="604000" />
+      <workItem from="1753947639626" duration="517000" />
+      <workItem from="1754293684660" duration="4241000" />
+      <workItem from="1754387259046" duration="1099000" />
+      <workItem from="1754388442922" duration="688000" />
+      <workItem from="1754499906419" duration="595000" />
+      <workItem from="1754556780859" duration="31452000" />
+      <workItem from="1755256851486" duration="57000" />
+      <workItem from="1755257349253" duration="109000" />
+      <workItem from="1755257654339" duration="145000" />
+      <workItem from="1755257816027" duration="4892000" />
     </task>
     <task id="LOCAL-00001" summary="Remove autogenerated jOOQ files for obsolete routines&#10;&#10;Deleted unused autogenerated jOOQ classes related to cricket batting records due to redundancy or lack of use. This cleanup reduces clutter and ensures the repository doesn't contain unnecessary files.">
       <option name="closed" value="true" />
@@ -2174,7 +2180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752561635519</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Enhance dataset consistency and improve match-type handling logic&#10;&#10;Added new `isInternational` utility for streamlined match-type checks. Updated logic in `Html.kt`, `Footers.kt`, and `GenerateHtml.kt` to utilize the utility. Modified datasets and JSON files for better accuracy, including gender updates, opponent corrections, and new player additions. Adjusted `nameUpdates.json` for more accurate name replacements.">
+      <option name="closed" value="true" />
+      <created>1753946115732</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753946115732</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2196,7 +2210,8 @@
     <MESSAGE value="Add new `nameUpdates.json` file for handling player name changes&#10;&#10;Introduced a shared JSON file to standardize player name updates across datasets. This ensures consistent replacement and processing of historical and team data." />
     <MESSAGE value="Add support for updating `BestBowlingDto` and integrating `nameUpdates.json` across datasets&#10;&#10;Refactored `BestBowlingDto` usage, moved it to shared, and applied consistent updates using `nameUpdates.json`. Added missing name handling logic for various team records, added `MaxBallsAvailable` support in innings logic, and updated constants. Enhanced dataset accuracy and data processing reliability." />
     <MESSAGE value="Enhance footer generation logic with match-type-specific logic&#10;&#10;Updated the footer functions to adapt links dynamically based on match type. Adjusted related methods and parameters to accommodate new match type distinctions, ensuring accurate navigation and improved context-awareness in generated HTML outputs." />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Enhance dataset consistency and improve match-type handling logic&#10;&#10;Added new `isInternational` utility for streamlined match-type checks. Updated logic in `Html.kt`, `Footers.kt`, and `GenerateHtml.kt` to utilize the utility. Modified datasets and JSON files for better accuracy, including gender updates, opponent corrections, and new player additions. Adjusted `nameUpdates.json` for more accurate name replacements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance dataset consistency and improve match-type handling logic&#10;&#10;Added new `isInternational` utility for streamlined match-type checks. Updated logic in `Html.kt`, `Footers.kt`, and `GenerateHtml.kt` to utilize the utility. Modified datasets and JSON files for better accuracy, including gender updates, opponent corrections, and new player additions. Adjusted `nameUpdates.json` for more accurate name replacements." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

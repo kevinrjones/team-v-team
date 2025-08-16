@@ -68,53 +68,57 @@ open class InningsRecord() : UpdatableRecordImpl<InningsRecord>(Innings.INNINGS)
         set(value): Unit = set(12, value)
         get(): Int? = get(12) as Int?
 
-    open var byes: Int?
+    open var forfeited: Byte?
         set(value): Unit = set(13, value)
-        get(): Int? = get(13) as Int?
+        get(): Byte? = get(13) as Byte?
 
-    open var legbyes: Int?
+    open var byes: Int?
         set(value): Unit = set(14, value)
         get(): Int? = get(14) as Int?
 
-    open var wides: Int?
+    open var legbyes: Int?
         set(value): Unit = set(15, value)
         get(): Int? = get(15) as Int?
 
-    open var noballs: Int?
+    open var wides: Int?
         set(value): Unit = set(16, value)
         get(): Int? = get(16) as Int?
 
-    open var penalty: Int?
+    open var noballs: Int?
         set(value): Unit = set(17, value)
         get(): Int? = get(17) as Int?
 
-    open var penaltyruns: Int?
+    open var penalty: Int?
         set(value): Unit = set(18, value)
         get(): Int? = get(18) as Int?
 
-    open var extras: Int?
+    open var penaltyruns: Int?
         set(value): Unit = set(19, value)
         get(): Int? = get(19) as Int?
 
-    open var overs: String?
+    open var extras: Int?
         set(value): Unit = set(20, value)
-        get(): String? = get(20) as String?
+        get(): Int? = get(20) as Int?
+
+    open var overs: String?
+        set(value): Unit = set(21, value)
+        get(): String? = get(21) as String?
 
     open var ballsbowled: Int?
-        set(value): Unit = set(21, value)
-        get(): Int? = get(21) as Int?
-
-    open var ballsperover: Int?
         set(value): Unit = set(22, value)
         get(): Int? = get(22) as Int?
 
-    open var declared: Byte?
+    open var ballsperover: Int?
         set(value): Unit = set(23, value)
-        get(): Byte? = get(23) as Byte?
+        get(): Int? = get(23) as Int?
+
+    open var declared: Byte?
+        set(value): Unit = set(24, value)
+        get(): Byte? = get(24) as Byte?
 
     open var maxballsavailable: Int?
-        set(value): Unit = set(24, value)
-        get(): Int? = get(24) as Int?
+        set(value): Unit = set(25, value)
+        get(): Int? = get(25) as Int?
 
     // -------------------------------------------------------------------------
     // Primary key information
@@ -125,7 +129,7 @@ open class InningsRecord() : UpdatableRecordImpl<InningsRecord>(Innings.INNINGS)
     /**
      * Create a detached, initialised InningsRecord
      */
-    constructor(id: Int? = null, matchid: Int? = null, inningsnumber: Int? = null, inningsorder: Int? = null, teamid: Int? = null, opponentsid: Int? = null, didbat: Byte? = null, total: Int? = null, wickets: Int? = null, complete: Byte? = null, allout: Byte? = null, synthetictotal: Double? = null, minutes: Int? = null, byes: Int? = null, legbyes: Int? = null, wides: Int? = null, noballs: Int? = null, penalty: Int? = null, penaltyruns: Int? = null, extras: Int? = null, overs: String? = null, ballsbowled: Int? = null, ballsperover: Int? = null, declared: Byte? = null, maxballsavailable: Int? = null): this() {
+    constructor(id: Int? = null, matchid: Int? = null, inningsnumber: Int? = null, inningsorder: Int? = null, teamid: Int? = null, opponentsid: Int? = null, didbat: Byte? = null, total: Int? = null, wickets: Int? = null, complete: Byte? = null, allout: Byte? = null, synthetictotal: Double? = null, minutes: Int? = null, forfeited: Byte? = null, byes: Int? = null, legbyes: Int? = null, wides: Int? = null, noballs: Int? = null, penalty: Int? = null, penaltyruns: Int? = null, extras: Int? = null, overs: String? = null, ballsbowled: Int? = null, ballsperover: Int? = null, declared: Byte? = null, maxballsavailable: Int? = null): this() {
         this.id = id
         this.matchid = matchid
         this.inningsnumber = inningsnumber
@@ -139,6 +143,7 @@ open class InningsRecord() : UpdatableRecordImpl<InningsRecord>(Innings.INNINGS)
         this.allout = allout
         this.synthetictotal = synthetictotal
         this.minutes = minutes
+        this.forfeited = forfeited
         this.byes = byes
         this.legbyes = legbyes
         this.wides = wides

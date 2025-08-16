@@ -147,6 +147,11 @@ open class Innings(
     val MINUTES: TableField<InningsRecord, Int?> = createField(DSL.name("Minutes"), SQLDataType.INTEGER.nullable(false), this, "")
 
     /**
+     * The column <code>cricketarchive.Innings.Forfeited</code>.
+     */
+    val FORFEITED: TableField<InningsRecord, Byte?> = createField(DSL.name("Forfeited"), SQLDataType.TINYINT.nullable(false), this, "")
+
+    /**
      * The column <code>cricketarchive.Innings.Byes</code>.
      */
     val BYES: TableField<InningsRecord, Int?> = createField(DSL.name("Byes"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
