@@ -22,6 +22,7 @@ import com.knowledgespike.db.tables.Matchreferees
 import com.knowledgespike.db.tables.Matchrefereesmatches
 import com.knowledgespike.db.tables.Matchsubtype
 import com.knowledgespike.db.tables.Matchtypes
+import com.knowledgespike.db.tables.Meta
 import com.knowledgespike.db.tables.Notes
 import com.knowledgespike.db.tables.Partnerships
 import com.knowledgespike.db.tables.Partnershipsplayers
@@ -153,6 +154,11 @@ open class Cricketarchive : SchemaImpl("cricketarchive", DefaultCatalog.DEFAULT_
     val MATCHTYPES: Matchtypes get() = Matchtypes.MATCHTYPES
 
     /**
+     * The table <code>cricketarchive.Meta</code>.
+     */
+    val META: Meta get() = Meta.META
+
+    /**
      * The table <code>cricketarchive.Notes</code>.
      */
     val NOTES: Notes get() = Notes.NOTES
@@ -268,6 +274,7 @@ open class Cricketarchive : SchemaImpl("cricketarchive", DefaultCatalog.DEFAULT_
         Matchrefereesmatches.MATCHREFEREESMATCHES,
         Matchsubtype.MATCHSUBTYPE,
         Matchtypes.MATCHTYPES,
+        Meta.META,
         Notes.NOTES,
         Partnerships.PARTNERSHIPS,
         Partnershipsplayers.PARTNERSHIPSPLAYERS,

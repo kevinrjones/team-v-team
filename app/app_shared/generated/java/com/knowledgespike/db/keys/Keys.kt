@@ -22,6 +22,7 @@ import com.knowledgespike.db.tables.Matchreferees
 import com.knowledgespike.db.tables.Matchrefereesmatches
 import com.knowledgespike.db.tables.Matchsubtype
 import com.knowledgespike.db.tables.Matchtypes
+import com.knowledgespike.db.tables.Meta
 import com.knowledgespike.db.tables.Notes
 import com.knowledgespike.db.tables.Partnerships
 import com.knowledgespike.db.tables.Partnershipsplayers
@@ -59,6 +60,7 @@ import com.knowledgespike.db.tables.records.MatchrefereesRecord
 import com.knowledgespike.db.tables.records.MatchrefereesmatchesRecord
 import com.knowledgespike.db.tables.records.MatchsubtypeRecord
 import com.knowledgespike.db.tables.records.MatchtypesRecord
+import com.knowledgespike.db.tables.records.MetaRecord
 import com.knowledgespike.db.tables.records.NotesRecord
 import com.knowledgespike.db.tables.records.PartnershipsRecord
 import com.knowledgespike.db.tables.records.PartnershipsplayersRecord
@@ -108,6 +110,7 @@ val KEY_MATCHREFEREES_PRIMARY: UniqueKey<MatchrefereesRecord> = Internal.createU
 val KEY_MATCHSUBTYPE_PRIMARY: UniqueKey<MatchsubtypeRecord> = Internal.createUniqueKey(Matchsubtype.MATCHSUBTYPE, DSL.name("KEY_MatchSubType_PRIMARY"), arrayOf(Matchsubtype.MATCHSUBTYPE.ID), true)
 val KEY_MATCHTYPES_MATCHTYPE: UniqueKey<MatchtypesRecord> = Internal.createUniqueKey(Matchtypes.MATCHTYPES, DSL.name("KEY_MatchTypes_MatchType"), arrayOf(Matchtypes.MATCHTYPES.MATCHTYPE), true)
 val KEY_MATCHTYPES_PRIMARY: UniqueKey<MatchtypesRecord> = Internal.createUniqueKey(Matchtypes.MATCHTYPES, DSL.name("KEY_MatchTypes_PRIMARY"), arrayOf(Matchtypes.MATCHTYPES.ID), true)
+val KEY_META_PRIMARY: UniqueKey<MetaRecord> = Internal.createUniqueKey(Meta.META, DSL.name("KEY_Meta_PRIMARY"), arrayOf(Meta.META.ID), true)
 val KEY_NOTES_PRIMARY: UniqueKey<NotesRecord> = Internal.createUniqueKey(Notes.NOTES, DSL.name("KEY_Notes_PRIMARY"), arrayOf(Notes.NOTES.ID), true)
 val KEY_PARTNERSHIPS_PRIMARY: UniqueKey<PartnershipsRecord> = Internal.createUniqueKey(Partnerships.PARTNERSHIPS, DSL.name("KEY_Partnerships_PRIMARY"), arrayOf(Partnerships.PARTNERSHIPS.ID), true)
 val KEY_PARTNERSHIPSPLAYERS_PRIMARY: UniqueKey<PartnershipsplayersRecord> = Internal.createUniqueKey(Partnershipsplayers.PARTNERSHIPSPLAYERS, DSL.name("KEY_PartnershipsPlayers_PRIMARY"), arrayOf(Partnershipsplayers.PARTNERSHIPSPLAYERS.ID), true)

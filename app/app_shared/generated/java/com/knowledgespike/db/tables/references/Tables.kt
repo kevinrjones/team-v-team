@@ -22,6 +22,7 @@ import com.knowledgespike.db.tables.Matchreferees
 import com.knowledgespike.db.tables.Matchrefereesmatches
 import com.knowledgespike.db.tables.Matchsubtype
 import com.knowledgespike.db.tables.Matchtypes
+import com.knowledgespike.db.tables.Meta
 import com.knowledgespike.db.tables.Notes
 import com.knowledgespike.db.tables.Partnerships
 import com.knowledgespike.db.tables.Partnershipsplayers
@@ -133,6 +134,11 @@ val MATCHSUBTYPE: Matchsubtype = Matchsubtype.MATCHSUBTYPE
  * The table <code>cricketarchive.MatchTypes</code>.
  */
 val MATCHTYPES: Matchtypes = Matchtypes.MATCHTYPES
+
+/**
+ * The table <code>cricketarchive.Meta</code>.
+ */
+val META: Meta = Meta.META
 
 /**
  * The table <code>cricketarchive.Notes</code>.
