@@ -1,7 +1,6 @@
 package com.knowledgespike.shared.data
 
 import com.knowledgespike.shared.types.TeamIdAndValidDate
-import com.knowledgespike.shared.types.TeamIdsAndValidDate
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import java.time.ZoneId
@@ -14,6 +13,18 @@ val internationalMatchTypes = listOf("t", "wt", "itt", "witt", "o", "wo")
 fun Long.toLocalDateTime(): kotlinx.datetime.LocalDateTime {
     val instant = kotlinx.datetime.Instant.fromEpochMilliseconds(this)
     val date = instant.toLocalDateTime(TimeZone.of(ZoneId.systemDefault().id))
+    return date
+}
+
+fun Long.toLocalDateTimeUtc(): kotlinx.datetime.LocalDateTime {
+    val instant = kotlinx.datetime.Instant.fromEpochMilliseconds(this)
+    val date = instant.toLocalDateTime(TimeZone.UTC)
+    return date
+}
+
+fun Long.toLocalDateTimeAtTimeZone(timeZone: TimeZone): kotlinx.datetime.LocalDateTime {
+    val instant = kotlinx.datetime.Instant.fromEpochMilliseconds(this)
+    val date = instant.toLocalDateTime(timeZone)
     return date
 }
 

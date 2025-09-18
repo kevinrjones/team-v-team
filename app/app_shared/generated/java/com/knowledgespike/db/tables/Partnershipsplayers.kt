@@ -95,6 +95,21 @@ open class Partnershipsplayers(
      */
     val PARTNERSHIPID: TableField<PartnershipsplayersRecord, Int?> = createField(DSL.name("PartnershipId"), SQLDataType.INTEGER.nullable(false), this, "")
 
+    /**
+     * The column <code>cricketarchive.PartnershipsPlayers.Score</code>.
+     */
+    val SCORE: TableField<PartnershipsplayersRecord, Int?> = createField(DSL.name("Score"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
+
+    /**
+     * The column <code>cricketarchive.PartnershipsPlayers.NotOut</code>.
+     */
+    val NOTOUT: TableField<PartnershipsplayersRecord, Byte?> = createField(DSL.name("NotOut"), SQLDataType.TINYINT.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.TINYINT)), this, "")
+
+    /**
+     * The column <code>cricketarchive.PartnershipsPlayers.Position</code>.
+     */
+    val POSITION: TableField<PartnershipsplayersRecord, Int?> = createField(DSL.name("Position"), SQLDataType.INTEGER.defaultValue(DSL.field(DSL.raw("NULL"), SQLDataType.INTEGER)), this, "")
+
     private constructor(alias: Name, aliased: Table<PartnershipsplayersRecord>?): this(alias, null, null, null, aliased, null, null)
     private constructor(alias: Name, aliased: Table<PartnershipsplayersRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
     private constructor(alias: Name, aliased: Table<PartnershipsplayersRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)

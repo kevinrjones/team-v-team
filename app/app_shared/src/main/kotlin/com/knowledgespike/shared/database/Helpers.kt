@@ -4,9 +4,9 @@ import com.knowledgespike.db.tables.references.*
 import com.knowledgespike.shared.data.MatchDto
 import com.knowledgespike.shared.data.TeamBase
 import com.knowledgespike.shared.data.TeamsAndOpponents
-import com.knowledgespike.shared.data.toLocalDateTime
+import com.knowledgespike.shared.data.toLocalDateTimeUtc
 import com.knowledgespike.shared.types.TeamIdAndValidDate
-import com.knowledgespike.shared.types.TeamIdsAndValidDate
+import kotlinx.datetime.TimeZone
 import org.jooq.Condition
 import org.jooq.DSLContext
 import org.jooq.SQLDialect
@@ -184,8 +184,8 @@ fun getCountOfMatchesBetweenTeams(
             if (r.size == 0) {
                 return MatchDto(
                     count = 0,
-                    startDate = 0L.toLocalDateTime(),
-                    endDate = 0L.toLocalDateTime(),
+                    startDate = 0L.toLocalDateTimeUtc(),
+                    endDate = 0L.toLocalDateTimeUtc(),
                     matchIds = emptyList()
                 )
             }
@@ -240,8 +240,8 @@ fun getCountOfMatchesBetweenTeams(
             val matches = wins + losses + draws + ties + abandonedAsDraw
             return MatchDto(
                 matches,
-                startDate.toLocalDateTime(),
-                endDate.toLocalDateTime(),
+                startDate.toLocalDateTimeUtc(),
+                endDate.toLocalDateTimeUtc(),
                 firstTeamWins = wins,
                 firstTeamLosses = losses,
                 draws,
@@ -257,8 +257,8 @@ fun getCountOfMatchesBetweenTeams(
     } else {
         return MatchDto(
             count = 0,
-            startDate = 0L.toLocalDateTime(),
-            endDate = 0L.toLocalDateTime(),
+            startDate = 0L.toLocalDateTimeUtc(),
+            endDate = 0L.toLocalDateTimeUtc(),
             matchIds = emptyList()
         )
     }

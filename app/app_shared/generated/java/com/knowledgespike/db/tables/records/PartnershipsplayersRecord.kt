@@ -28,6 +28,18 @@ open class PartnershipsplayersRecord() : UpdatableRecordImpl<Partnershipsplayers
         set(value): Unit = set(2, value)
         get(): Int? = get(2) as Int?
 
+    open var score: Int?
+        set(value): Unit = set(3, value)
+        get(): Int? = get(3) as Int?
+
+    open var notout: Byte?
+        set(value): Unit = set(4, value)
+        get(): Byte? = get(4) as Byte?
+
+    open var position: Int?
+        set(value): Unit = set(5, value)
+        get(): Int? = get(5) as Int?
+
     // -------------------------------------------------------------------------
     // Primary key information
     // -------------------------------------------------------------------------
@@ -37,10 +49,13 @@ open class PartnershipsplayersRecord() : UpdatableRecordImpl<Partnershipsplayers
     /**
      * Create a detached, initialised PartnershipsplayersRecord
      */
-    constructor(id: Int? = null, playerid: Int? = null, partnershipid: Int? = null): this() {
+    constructor(id: Int? = null, playerid: Int? = null, partnershipid: Int? = null, score: Int? = null, notout: Byte? = null, position: Int? = null): this() {
         this.id = id
         this.playerid = playerid
         this.partnershipid = partnershipid
+        this.score = score
+        this.notout = notout
+        this.position = position
         resetChangedOnNotNull()
     }
 }
