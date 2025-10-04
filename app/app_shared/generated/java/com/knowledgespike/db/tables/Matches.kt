@@ -8,6 +8,7 @@ import com.knowledgespike.db.Cricketarchive
 import com.knowledgespike.db.indexes.MATCHES_AWAYTEAMID
 import com.knowledgespike.db.indexes.MATCHES_HOMETEAMID
 import com.knowledgespike.db.indexes.MATCHES_LOCATIONID
+import com.knowledgespike.db.indexes.MATCHES_MATCHSTARTDATEASOFFSET
 import com.knowledgespike.db.indexes.MATCHES_MATCHTYPE
 import com.knowledgespike.db.indexes.MATCHES_TOSSTEAMID
 import com.knowledgespike.db.indexes.MATCHES_WHOLOSTID
@@ -370,7 +371,7 @@ open class Matches(
         override fun `as`(alias: Table<*>): MatchesPath = MatchesPath(alias.qualifiedName, this)
     }
     override fun getSchema(): Schema? = if (aliased()) null else Cricketarchive.CRICKETARCHIVE
-    override fun getIndexes(): List<Index> = listOf(MATCHES_AWAYTEAMID, MATCHES_HOMETEAMID, MATCHES_LOCATIONID, MATCHES_MATCHTYPE, MATCHES_TOSSTEAMID, MATCHES_WHOLOSTID, MATCHES_WHOWONID)
+    override fun getIndexes(): List<Index> = listOf(MATCHES_AWAYTEAMID, MATCHES_HOMETEAMID, MATCHES_LOCATIONID, MATCHES_MATCHSTARTDATEASOFFSET, MATCHES_MATCHTYPE, MATCHES_TOSSTEAMID, MATCHES_WHOLOSTID, MATCHES_WHOWONID)
     override fun getIdentity(): Identity<MatchesRecord, Int?> = super.getIdentity() as Identity<MatchesRecord, Int?>
     override fun getPrimaryKey(): UniqueKey<MatchesRecord> = KEY_MATCHES_PRIMARY
     override fun getUniqueKeys(): List<UniqueKey<MatchesRecord>> = listOf(KEY_MATCHES_CAID)

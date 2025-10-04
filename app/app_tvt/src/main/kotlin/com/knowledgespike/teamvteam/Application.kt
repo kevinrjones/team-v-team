@@ -131,11 +131,13 @@ class Application {
 
             val allCompetitions = getAllCompetitions(dataDirectory)
 
-
             val jobs = mutableListOf<Job>()
 
             allCompetitions.forEach { competition: Competition ->
-                withContext(Dispatchers.Default.limitedParallelism(5)) {
+                withContext(Dispatchers.IO) {
+                    // todo: I added this as the application kept failing at too high a (thread?) load
+                    // I've taken it back out but leaving it commented out as I may need to re-add it
+                    // withContext(Dispatchers.Default.limitedParallelism(5)) {
                     val job = launch {
                         DriverManager.getConnection(
                             databaseConnectionDetails.connectionString,
@@ -275,7 +277,7 @@ class Application {
                     jobs.add(job)
                     log.info("Started {}", competition)
                 }
-                jobs.forEach { j -> j.join() }
+                jobs.joinAll()
                 log.info("process all JSON finished")
 
                 generateHtmlIndexAndTeamPagesForAllCompetitions(
@@ -426,9 +428,9 @@ class Application {
             val jsonDirectory = Paths.get(jsonDirectoryName)
 
             val matchSubtypeDirectories =
-            Files.list(jsonDirectory).use {
-                it.filter { it.isDirectory() }.sorted().toList()
-            }
+                Files.list(jsonDirectory).use {
+                    it.filter { it.isDirectory() }.sorted().toList()
+                }
 
 
             matchSubtypeDirectories.forEach { path ->

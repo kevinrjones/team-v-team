@@ -10,6 +10,7 @@ import com.knowledgespike.db.indexes.PARTNERSHIPS_MATCHID
 import com.knowledgespike.db.indexes.PARTNERSHIPS_MATCHTYPE
 import com.knowledgespike.db.indexes.PARTNERSHIPS_OPPONENTSID
 import com.knowledgespike.db.indexes.PARTNERSHIPS_PLAYERIDS
+import com.knowledgespike.db.indexes.PARTNERSHIPS_SYNTHETICPARTNERSHIP
 import com.knowledgespike.db.indexes.PARTNERSHIPS_TEAMID
 import com.knowledgespike.db.indexes.PARTNERSHIPS_UNBROKEN
 import com.knowledgespike.db.indexes.PARTNERSHIPS_WICKET
@@ -224,7 +225,7 @@ open class Partnerships(
         override fun `as`(alias: Table<*>): PartnershipsPath = PartnershipsPath(alias.qualifiedName, this)
     }
     override fun getSchema(): Schema? = if (aliased()) null else Cricketarchive.CRICKETARCHIVE
-    override fun getIndexes(): List<Index> = listOf(PARTNERSHIPS_INNINGS, PARTNERSHIPS_MATCHID, PARTNERSHIPS_MATCHTYPE, PARTNERSHIPS_OPPONENTSID, PARTNERSHIPS_PLAYERIDS, PARTNERSHIPS_TEAMID, PARTNERSHIPS_UNBROKEN, PARTNERSHIPS_WICKET)
+    override fun getIndexes(): List<Index> = listOf(PARTNERSHIPS_INNINGS, PARTNERSHIPS_MATCHID, PARTNERSHIPS_MATCHTYPE, PARTNERSHIPS_OPPONENTSID, PARTNERSHIPS_PLAYERIDS, PARTNERSHIPS_SYNTHETICPARTNERSHIP, PARTNERSHIPS_TEAMID, PARTNERSHIPS_UNBROKEN, PARTNERSHIPS_WICKET)
     override fun getIdentity(): Identity<PartnershipsRecord, Int?> = super.getIdentity() as Identity<PartnershipsRecord, Int?>
     override fun getPrimaryKey(): UniqueKey<PartnershipsRecord> = KEY_PARTNERSHIPS_PRIMARY
     override fun getReferences(): List<ForeignKey<PartnershipsRecord, *>> = listOf(PARTNERSHIPS_IBFK_1, PARTNERSHIPS_IBFK_2, PARTNERSHIPS_IBFK_3)

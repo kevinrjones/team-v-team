@@ -34,7 +34,7 @@ class GenerateHtml {
         fileWriter.use {
             generateTeamVTeamHtml(teamPairDetails, fileWriter)
         }
-        log.info("Completed: ${file.name}")
+        log.info("Completed records page: ${file.name}")
 
     }
 
@@ -81,7 +81,7 @@ class GenerateHtml {
                 }
                 fileWriter.append(virtualFooter)
                 fileWriter.append("\r\n")
-                log.info("Completed: ${file.name}")
+                log.info("Completed home pages: ${file.name}")
             }
         } catch (e: Exception) {
             log.error("", e)
@@ -153,7 +153,7 @@ class GenerateHtml {
             }
             fileWriter.append(virtualFooter)
             fileWriter.append("\r\n")
-            log.info("Completed: ${file.name}")
+            log.info("Completed index page: ${file.name}")
         }
     }
 

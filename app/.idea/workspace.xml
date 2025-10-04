@@ -6,13 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Partnershipsplayers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Partnershipsplayers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/PartnershipsplayersRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/records/PartnershipsplayersRecord.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/data/Constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/src/main/kotlin/com/knowledgespike/shared/database/Helpers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data/cpl.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/cpl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data/sl_domestic.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/sl_domestic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shared/data_test/ipl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/indexes/Indexes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/indexes/Indexes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Matches.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Matches.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Partnerships.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Partnerships.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +163,7 @@
       <command value="gradle app_shared:buildEnvironment" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.app:app_progressive [run]">
+  <component name="RunManager" selected="Gradle.app:app_tvt [run]">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="app" />
       <method v="2">
@@ -1558,16 +1557,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.app [build]" />
-      <item itemvalue="Gradle.app [clean]" />
-      <item itemvalue="Gradle.app [versionCatalogApplyUpdates]" />
-      <item itemvalue="Gradle.app [versionCatalogUpdate]" />
       <item itemvalue="Gradle.app:app_progressive [run-test]" />
-      <item itemvalue="Gradle.app:app_shared [jooqCodegen]" />
       <item itemvalue="Gradle.app:app_tvt [run-test]" />
       <item itemvalue="Gradle.team-by-team [help]" />
       <item itemvalue="Gradle.app:app_progressive [run]" />
       <item itemvalue="Gradle.app:app_tvt [run]" />
+      <item itemvalue="Gradle.app [build]" />
+      <item itemvalue="Gradle.app [clean]" />
+      <item itemvalue="Gradle.app [versionCatalogApplyUpdates]" />
+      <item itemvalue="Gradle.app [versionCatalogUpdate]" />
+      <item itemvalue="Gradle.app:app_shared [jooqCodegen]" />
     </list>
     <recent_temporary>
       <list>
@@ -1582,8 +1581,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
       </set>
     </attachedChunks>
   </component>
@@ -2093,6 +2092,15 @@
       <workItem from="1756725871802" duration="8000" />
       <workItem from="1756946070668" duration="11983000" />
       <workItem from="1757543136559" duration="15064000" />
+      <workItem from="1758224480511" duration="666000" />
+      <workItem from="1758288787876" duration="3182000" />
+      <workItem from="1758492780182" duration="3729000" />
+      <workItem from="1758667082716" duration="304000" />
+      <workItem from="1758667505668" duration="29672000" />
+      <workItem from="1759436509725" duration="491000" />
+      <workItem from="1759461467525" duration="1195000" />
+      <workItem from="1759484438282" duration="623000" />
+      <workItem from="1759496776844" duration="3013000" />
     </task>
     <task id="LOCAL-00001" summary="Remove autogenerated jOOQ files for obsolete routines&#10;&#10;Deleted unused autogenerated jOOQ classes related to cricket batting records due to redundancy or lack of use. This cleanup reduces clutter and ensures the repository doesn't contain unnecessary files.">
       <option name="closed" value="true" />
@@ -2230,7 +2238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756955959573</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Replace IPL dataset with CPL; enhance Helpers and Partnership logic&#10;&#10;Replaced the IPL dataset with the CPL dataset, including updates for both men's and women's teams. Added new Helper utilities for timezone conversions and modified the PartnershipsPlayers table to include `Score`, `NotOut`, and `Position` columns. Enhanced SL domestic datasets with additional opponent details. Updated IntelliJ workspace settings to reflect recent changes.">
+      <option name="closed" value="true" />
+      <created>1758224542482</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1758224542482</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2255,7 +2271,8 @@
     <MESSAGE value="Enhance dataset consistency and improve match-type handling logic&#10;&#10;Added new `isInternational` utility for streamlined match-type checks. Updated logic in `Html.kt`, `Footers.kt`, and `GenerateHtml.kt` to utilize the utility. Modified datasets and JSON files for better accuracy, including gender updates, opponent corrections, and new player additions. Adjusted `nameUpdates.json` for more accurate name replacements." />
     <MESSAGE value="Update autogenerated jOOQ files and improve dataset consistency&#10;&#10;Added `Forfeited` column in generated jOOQ files for the `Innings` table. Enhanced SL and SA domestic datasets with additional authors and opponent corrections for better accuracy. Updated IntelliJ workspace settings to reflect recent changes." />
     <MESSAGE value="Add `Meta` table and `MetaRecord` to autogenerated jOOQ files&#10;&#10;Integrated new `Meta` table with associated definitions, records, and primary key in the generated jOOQ classes. Updated references in `Cricketarchive`, `Tables`, and `Keys` to include the new table." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add `Meta` table and `MetaRecord` to autogenerated jOOQ files&#10;&#10;Integrated new `Meta` table with associated definitions, records, and primary key in the generated jOOQ classes. Updated references in `Cricketarchive`, `Tables`, and `Keys` to include the new table." />
+    <MESSAGE value="Replace IPL dataset with CPL; enhance Helpers and Partnership logic&#10;&#10;Replaced the IPL dataset with the CPL dataset, including updates for both men's and women's teams. Added new Helper utilities for timezone conversions and modified the PartnershipsPlayers table to include `Score`, `NotOut`, and `Position` columns. Enhanced SL domestic datasets with additional opponent details. Updated IntelliJ workspace settings to reflect recent changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace IPL dataset with CPL; enhance Helpers and Partnership logic&#10;&#10;Replaced the IPL dataset with the CPL dataset, including updates for both men's and women's teams. Added new Helper utilities for timezone conversions and modified the PartnershipsPlayers table to include `Score`, `NotOut`, and `Position` columns. Enhanced SL domestic datasets with additional opponent details. Updated IntelliJ workspace settings to reflect recent changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

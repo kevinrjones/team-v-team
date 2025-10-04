@@ -295,7 +295,7 @@ class Application {
                     }
                     jobs.add(job)
                 }
-                jobs.forEach { j -> j.join() }
+                jobs.joinAll()
             }
             log.info("processAllDirectories finished")
 
