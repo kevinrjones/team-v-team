@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03d48cf2-66b3-47bd-ad99-02ecc305adfe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/app_app_progressive__run_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/app_app_progressive__run_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/app_app_tvt__run_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/app_app_tvt__run_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_progressive/src/main/kotlin/com/knowledgespike/progressive/Application.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/indexes/Indexes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/indexes/Indexes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Matches.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Matches.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Partnerships.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_shared/generated/java/com/knowledgespike/db/tables/Partnerships.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/Application.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tvt/src/main/kotlin/com/knowledgespike/teamvteam/html/GenerateHtml.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shared/data/international_t20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../shared/data/international_t20.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,13 @@
     &quot;accountId&quot;: &quot;eb87f1b8-45d8-44a8-80d2-6a97723e412e&quot;
   }
 }</component>
-  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.5-all/3zlzzgtsutfj0pbojr50n2l7z/gradle-8.5" javaHome="$USER_HOME$/.sdkman/candidates/java/21.0.4-tem" gradleVersion="8.5" />
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.5-all/3zlzzgtsutfj0pbojr50n2l7z/gradle-8.5" javaHome="$USER_HOME$/.sdkman/candidates/java/21.0.4-tem" gradleVersion="8.5">
+    <option name="jvmArguments">
+      <list>
+        <option value="-Dandroid.home=/Users/kevinjones/Library/Android/sdk" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -124,6 +127,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -163,7 +168,7 @@
       <command value="gradle app_shared:buildEnvironment" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.app:app_tvt [run]">
+  <component name="RunManager" selected="Gradle.app:app_progressive [run]">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="app" />
       <method v="2">
@@ -1325,7 +1330,7 @@
         <option name="taskNames">
           <list>
             <option value="run" />
-            <option value="--args=&quot;-bd $PROJECT_DIR$/.. -c jdbc:mariadb://localhost:3306/cricketarchive -u cricketarchive -p p4ssw0rd  -ho $PROJECT_DIR$/../../../../team_v_team_test -jo tvt/json-test -d mariadb -dd shared/data_test&quot;" />
+            <option value="--args=&quot;-bd $PROJECT_DIR$/.. -c jdbc:mariadb://localhost:3306/cricketarchive -u cricketarchive -p p4ssw0rd  -ho $USER_HOME$/tvt/team_v_team_test -jo tvt/json-test -d mariadb -dd shared/data_test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -1581,8 +1586,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
       </set>
     </attachedChunks>
   </component>
@@ -2101,6 +2106,38 @@
       <workItem from="1759461467525" duration="1195000" />
       <workItem from="1759484438282" duration="623000" />
       <workItem from="1759496776844" duration="3013000" />
+      <workItem from="1759612740369" duration="5888000" />
+      <workItem from="1759987924508" duration="21000" />
+      <workItem from="1759988211651" duration="310000" />
+      <workItem from="1759989509043" duration="6755000" />
+      <workItem from="1760370189752" duration="3787000" />
+      <workItem from="1760451173144" duration="2057000" />
+      <workItem from="1760951136573" duration="1195000" />
+      <workItem from="1760969645509" duration="3062000" />
+      <workItem from="1761059043334" duration="7520000" />
+      <workItem from="1761213320061" duration="6782000" />
+      <workItem from="1761632786031" duration="2755000" />
+      <workItem from="1761805489746" duration="14321000" />
+      <workItem from="1762322340842" duration="2045000" />
+      <workItem from="1762810319903" duration="3218000" />
+      <workItem from="1762899338331" duration="598000" />
+      <workItem from="1762931834544" duration="1292000" />
+      <workItem from="1762946814220" duration="1194000" />
+      <workItem from="1763139696865" duration="316000" />
+      <workItem from="1763140037674" duration="2590000" />
+      <workItem from="1763365099419" duration="596000" />
+      <workItem from="1763366137503" duration="2573000" />
+      <workItem from="1763454013380" duration="216000" />
+      <workItem from="1763454246170" duration="596000" />
+      <workItem from="1763459159358" duration="121000" />
+      <workItem from="1763486810837" duration="1967000" />
+      <workItem from="1763547431486" duration="993000" />
+      <workItem from="1763982217389" duration="598000" />
+      <workItem from="1764001999238" duration="604000" />
+      <workItem from="1764069212725" duration="1202000" />
+      <workItem from="1764174332503" duration="598000" />
+      <workItem from="1764237433332" duration="2433000" />
+      <workItem from="1764452724566" duration="5543000" />
     </task>
     <task id="LOCAL-00001" summary="Remove autogenerated jOOQ files for obsolete routines&#10;&#10;Deleted unused autogenerated jOOQ classes related to cricket batting records due to redundancy or lack of use. This cleanup reduces clutter and ensures the repository doesn't contain unnecessary files.">
       <option name="closed" value="true" />
@@ -2246,7 +2283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758224542482</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add indexes for `MATCHSTARTDATEASOFFSET` and `SYNTHETICPARTNERSHIP`, optimize job processing, and improve logging&#10;&#10;Added new indexes `MATCHSTARTDATEASOFFSET` and `SYNTHETICPARTNERSHIP` in jOOQ schemas. Replaced `jobs.forEach { join() }` with `jobs.joinAll()` for optimized job handling. Enhanced logging messages in `GenerateHtml` for better clarity on completed processes. Updated IntelliJ workspace settings to reflect recent changes.">
+      <option name="closed" value="true" />
+      <created>1759568203494</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1759568203494</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2272,7 +2317,8 @@
     <MESSAGE value="Update autogenerated jOOQ files and improve dataset consistency&#10;&#10;Added `Forfeited` column in generated jOOQ files for the `Innings` table. Enhanced SL and SA domestic datasets with additional authors and opponent corrections for better accuracy. Updated IntelliJ workspace settings to reflect recent changes." />
     <MESSAGE value="Add `Meta` table and `MetaRecord` to autogenerated jOOQ files&#10;&#10;Integrated new `Meta` table with associated definitions, records, and primary key in the generated jOOQ classes. Updated references in `Cricketarchive`, `Tables`, and `Keys` to include the new table." />
     <MESSAGE value="Replace IPL dataset with CPL; enhance Helpers and Partnership logic&#10;&#10;Replaced the IPL dataset with the CPL dataset, including updates for both men's and women's teams. Added new Helper utilities for timezone conversions and modified the PartnershipsPlayers table to include `Score`, `NotOut`, and `Position` columns. Enhanced SL domestic datasets with additional opponent details. Updated IntelliJ workspace settings to reflect recent changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace IPL dataset with CPL; enhance Helpers and Partnership logic&#10;&#10;Replaced the IPL dataset with the CPL dataset, including updates for both men's and women's teams. Added new Helper utilities for timezone conversions and modified the PartnershipsPlayers table to include `Score`, `NotOut`, and `Position` columns. Enhanced SL domestic datasets with additional opponent details. Updated IntelliJ workspace settings to reflect recent changes." />
+    <MESSAGE value="Add indexes for `MATCHSTARTDATEASOFFSET` and `SYNTHETICPARTNERSHIP`, optimize job processing, and improve logging&#10;&#10;Added new indexes `MATCHSTARTDATEASOFFSET` and `SYNTHETICPARTNERSHIP` in jOOQ schemas. Replaced `jobs.forEach { join() }` with `jobs.joinAll()` for optimized job handling. Enhanced logging messages in `GenerateHtml` for better clarity on completed processes. Updated IntelliJ workspace settings to reflect recent changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add indexes for `MATCHSTARTDATEASOFFSET` and `SYNTHETICPARTNERSHIP`, optimize job processing, and improve logging&#10;&#10;Added new indexes `MATCHSTARTDATEASOFFSET` and `SYNTHETICPARTNERSHIP` in jOOQ schemas. Replaced `jobs.forEach { join() }` with `jobs.joinAll()` for optimized job handling. Enhanced logging messages in `GenerateHtml` for better clarity on completed processes. Updated IntelliJ workspace settings to reflect recent changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
